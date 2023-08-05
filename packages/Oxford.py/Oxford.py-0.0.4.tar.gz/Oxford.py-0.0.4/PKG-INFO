@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: Oxford.py
+Version: 0.0.4
+Summary: Oxford API wrapper
+Home-page: https://github.com/ProjectsWithPython/Oxford.py
+Author: Haider Ali
+Author-email: ali075398@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ProjectsWithPython/Oxford.py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Oxford.py
+
+What is this package for?
+
+This package wrappers Oxford api. Why? The oxford api returns large amount of `dict` which hard to read so we decided to simplify it for the oxforfd api users. This package is open source [CONTRIBUTE HERE](https://github.com/ProjectsWithPython/Oxford.py)
+
+
+Get your API key and App ID from https://developer.oxforddictionaries.com/
+
+**Uses:**
+
+*This package works asynchronous.*
+
+`Oxford.api_request`
+
+This returns that whole massive dict so if you want to work with this you can.
+
+
+```py
+import asyncio
+from oxford.wrapper import Oxford
+x = Oxford(your_app_id, your_app_key, language ='en-gb')
+async def main():
+    data = await x.api_request('People')
+    return data
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+```
+
+`Oxford.get_word_defination()`
+```py
+import asyncio
+from oxford.wrapper import Oxford
+x = Oxford(your_app_id, your_app_key, language ='en-gb')
+async def main():
+    data = await x.get_word_defination('People')
+    return data
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+```
+
+And much more, I'll leave them to you to explore :)
+
