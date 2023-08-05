@@ -1,0 +1,4 @@
+tracardi-plugin-sdk
+tracardi
+aiohttp
+tracardi-dot-notation
