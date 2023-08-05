@@ -1,0 +1,11 @@
+mkdocs_blogging_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_blogging_plugin/plugin.py,sha256=fHkI0aHNj13t4RI0jWh9uYpaZaNpZr8Vjy9u75aqkRY,4924
+mkdocs_blogging_plugin/util.py,sha256=_kKNup177Az31173Grb2f5CW6T1uPc8QYAh1uhBbAXg,5318
+mkdocs_blogging_plugin/templates/blog.html,sha256=5VeEQrIubnMLtlPdd2f386wJ99mA7scMMlee8DzbT0U,4663
+mkdocs_blogging_plugin/templates/pagination.js,sha256=7hbfpb4bB_8ule7NhaalLNS9xbO7dfl8X9s7unaZhkU,1616
+mkdocs_blogging_plugin-0.2.1.dist-info/LICENSE,sha256=nlchs8QyIH9LffvC2Y5bYAV7hik1v_S5-OVsx-VNE7Q,1070
+mkdocs_blogging_plugin-0.2.1.dist-info/METADATA,sha256=Yv3dMpIVxe2YoVa_RKAvy5yrWcHWvU2LUq0HOAVX_LY,6010
+mkdocs_blogging_plugin-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mkdocs_blogging_plugin-0.2.1.dist-info/entry_points.txt,sha256=b6NL4ZSkbyfycaDch9oOIum-yt0VT311WjQ6GCICjIo,74
+mkdocs_blogging_plugin-0.2.1.dist-info/top_level.txt,sha256=ytXeykzAXazmSA85andx8GAZN8IVynNI65rvOGYVEyY,23
+mkdocs_blogging_plugin-0.2.1.dist-info/RECORD,,
