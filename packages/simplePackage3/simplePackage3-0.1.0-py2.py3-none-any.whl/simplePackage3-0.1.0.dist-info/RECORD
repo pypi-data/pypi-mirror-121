@@ -1,0 +1,6 @@
+simplePackage3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplePackage3/module3.py,sha256=ab55nVH_KVOhSvwhDQKoqNB0Vcd07aazSvBMRIQFbDc,52
+simplePackage3-0.1.0.dist-info/METADATA,sha256=5qkBDkLbVtJ740aFbcZazB-ozgnRPSF0hUPFoDBcSJs,246
+simplePackage3-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+simplePackage3-0.1.0.dist-info/top_level.txt,sha256=k1axVyJV8lgbJvd9USVkOBLOPBH3ptRGAdpblgyiLz0,15
+simplePackage3-0.1.0.dist-info/RECORD,,
