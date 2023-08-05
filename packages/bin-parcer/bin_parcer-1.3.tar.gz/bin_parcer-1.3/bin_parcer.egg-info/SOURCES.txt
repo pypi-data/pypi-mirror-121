@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bin_parcer/__init__.py
+bin_parcer.egg-info/PKG-INFO
+bin_parcer.egg-info/SOURCES.txt
+bin_parcer.egg-info/dependency_links.txt
+bin_parcer.egg-info/not-zip-safe
+bin_parcer.egg-info/requires.txt
+bin_parcer.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bin_parcer
+Version: 1.3
+Summary: a utility lib for parsing text bins
+Home-page: https://github.com/hiikion/pastebinOmatic
+Author: hiikion
+Author-email: UNKNOWN
+License: MPL-2.0 License
+Description: github: https://github.com/hiikion/bin-parcer
+        docs: https://github.com/hiikion/bin-parcer/blob/main/DOCS.md
+Platform: UNKNOWN
