@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+downloadpdf/__init__.py
+downloadpdf/cli.py
+downloadpdf/main.py
+downloadpdf.egg-info/PKG-INFO
+downloadpdf.egg-info/SOURCES.txt
+downloadpdf.egg-info/dependency_links.txt
+downloadpdf.egg-info/not-zip-safe
+downloadpdf.egg-info/requires.txt
+downloadpdf.egg-info/top_level.txt
