@@ -1,0 +1,12 @@
+QAOAKit/__init__.py,sha256=-M7GObxvcKuiVPn_C9DT8iBwmRj9m6MG5YLbglKg6Bo,510
+QAOAKit/build_tables.py,sha256=BWXIghxoRcMpCk-dQyCB90CurOjcLFZQpy3wKpsTtI8,11037
+QAOAKit/examples_utils.py,sha256=fl7mrlGv4Tn8fMJ-IvkcPHsuMpH0YADur_KMQ2esz40,3316
+QAOAKit/qaoa.py,sha256=Z1HI_nI4Gvz0a4osSBOkMaKP20YSwl_0U8unmBVBkYA,1499
+QAOAKit/qiskit_interface.py,sha256=Lehn1Urhr-wz4ofoCzQIrGX585oFyRvUECSzHOS9WCE,1466
+QAOAKit/utils.py,sha256=e6VyrdZhgY0JRqjR5Ts-1hIKPJzNCWpvHQ6dE6bSGjc,19421
+QAOAKit-0.1.11.dist-info/LICENSE,sha256=Mv6givyMwG3-kVmbUHd4pwG4h576MwnJcLIZwvpETeY,1755
+QAOAKit-0.1.11.dist-info/METADATA,sha256=2VrsQw8zjFi-PjhZMCaUfekumdwLVdxm-ZBFTl-chlM,3963
+QAOAKit-0.1.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+QAOAKit-0.1.11.dist-info/top_level.txt,sha256=1bJLXpEJy1RDV5GRXa3Msay-M1u4JCrV-Vwu-qZIugU,8
+QAOAKit-0.1.11.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+QAOAKit-0.1.11.dist-info/RECORD,,
