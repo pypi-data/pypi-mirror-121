@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: brainfuck-venomlab
+Version: 0.1.0b1
+Summary: Brainfuck parser
+Home-page: https://github.com/venomlab/brainfuck
+Author: Dmitry Selishchev
+Author-email: zibertscrem@gmail.com
+License: MIT
+Download-URL: https://github.com/venomlab/brainfuck/releases/tag/0.1.0
+Description: # brainfuck
+        Python brainfuck parser, interpretator. Including optimizations, translation into python AST and python code
+        
+Keywords: python,brainfuck
+Platform: UNKNOWN
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
