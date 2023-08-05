@@ -1,0 +1,8 @@
+terminedia>=0.4.2
+pillow>=6.0.0
+
+[images]
+pillow>=6.0.0
+
+[tests]
+pytest
