@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: idem-gitlab
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://gitlab.com/Akm0d/idem-gitlab
+Author: Tyler Johnson
+Author-email: tyjohnson@vmware.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pop (>=17.0)
+Requires-Dist: idem-aiohttp (>2.0.0)
+Provides-Extra: autogen
+Requires-Dist: bs4 ; extra == 'autogen'
+Requires-Dist: lxml ; extra == 'autogen'
+Requires-Dist: parse-rest ; extra == 'autogen'
+Requires-Dist: pop-create-idem ; extra == 'autogen'
+Provides-Extra: full
+Requires-Dist: pop-create-idem ; extra == 'full'
+Requires-Dist: bs4 ; extra == 'full'
+Requires-Dist: lxml ; extra == 'full'
+Requires-Dist: parse-rest ; extra == 'full'
+
+===========
+idem-gitlab
+===========
+
+About
+=====
+
+TODO
+
+What is POP?
+------------
+
+This project is built with `pop <https://pop.readthedocs.io/>`__, a Python-based
+implementation of *Plugin Oriented Programming (POP)*. POP seeks to bring
+together concepts and wisdom from the history of computing in new ways to solve
+modern computing problems.
+
+For more information:
+
+* `Intro to Plugin Oriented Programming (POP) <https://pop-book.readthedocs.io/en/latest/>`__
+* `pop-awesome <https://gitlab.com/saltstack/pop/pop-awesome>`__
+* `pop-create <https://gitlab.com/saltstack/pop/pop-create/>`__
+
+Getting Started
+===============
+
+Prerequisites
+-------------
+
+* Python 3.6+
+* git *(if installing from source, or contributing to the project)*
+
+Installation
+------------
+
+If wanting to use ``idem-gitlab``, you can do so by either
+installing from PyPI or from source.
+
+Install from PyPI
++++++++++++++++++
+
+If package is available via PyPI, include the directions.
+
+.. code-block:: bash
+
+  pip install idem-gitlab
+
+Install from source
++++++++++++++++++++
+
+.. code-block:: bash
+
+   # clone repo
+   git clone git@<your-project-path>/idem-gitlab.git
+   cd idem-gitlab
+
+   # Setup venv
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -e .
+
+Usage
+=====
+
+TODO
+
+Examples
+--------
+
+.. code-block:: bash
+
+   # Example CLI commands
+
+Roadmap
+=======
+
+Reference the `open issues <https://issues.example.com>`__ for a list of
+proposed features (and known issues).
+
+Acknowledgements
+================
+
+* `Img Shields <https://shields.io>`__ for making repository badges easy.
+
+
