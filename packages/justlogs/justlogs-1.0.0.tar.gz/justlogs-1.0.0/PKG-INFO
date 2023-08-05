@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: justlogs
+Version: 1.0.0
+Summary: Wrapper over coloredlogs with a particular default config
+Home-page: UNKNOWN
+Author: Aleksei Udovenko
+Author-email: aleksei@affine.group
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
