@@ -1,0 +1,11 @@
+__init__.py
+setup.py
+Uni_Curses.egg-info/PKG-INFO
+Uni_Curses.egg-info/SOURCES.txt
+Uni_Curses.egg-info/dependency_links.txt
+Uni_Curses.egg-info/top_level.txt
+pdc34dll32/pdcurses.dll
+pdc34dll64/pdcurses.dll
+pdc34dlls/pdcurses.dll
+pdc34dllu/pdcurses.dll
+pdc34dllw/pdcurses.dll
