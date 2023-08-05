@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: wplogin
+Version: 0.0.1
+Summary: A Simple WordPress Login Modul
+Home-page: UNKNOWN
+Author: GreenWorld Dev
+Author-email: coding@greenworlddev.com
+License: MIT-License
+Keywords: wp,wordpress,login
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+=========================
+WPLogin by GreenWorld Dev
+=========================
+
+A Simple WordPress Login Modul by GreenWorld Dev
+
+Code Example:
+--------------
+import wplogin
+
+wpurl = 'your-wproot-rul'
+user = 'your-wp-username'
+pw = 'your-wp-password'
+
+Important:
+-----------
+With "wpurl" only the url for the wordpress installation for example "https://example.com" and without a slash at the end.
+
+Required:
+----------
+- requests (pip install requests)
+

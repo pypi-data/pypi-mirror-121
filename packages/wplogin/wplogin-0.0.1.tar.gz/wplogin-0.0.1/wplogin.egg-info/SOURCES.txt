@@ -1,0 +1,9 @@
+LICENSE.txt
+README.txt
+setup.py
+wplogin/__init__.py
+wplogin/wplogin.py
+wplogin.egg-info/PKG-INFO
+wplogin.egg-info/SOURCES.txt
+wplogin.egg-info/dependency_links.txt
+wplogin.egg-info/top_level.txt
