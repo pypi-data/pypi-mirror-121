@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+PhotExcel/PhotExcel.py
+PhotExcel/__init__.py
+Photo_Excel.egg-info/PKG-INFO
+Photo_Excel.egg-info/SOURCES.txt
+Photo_Excel.egg-info/dependency_links.txt
+Photo_Excel.egg-info/requires.txt
+Photo_Excel.egg-info/top_level.txt
