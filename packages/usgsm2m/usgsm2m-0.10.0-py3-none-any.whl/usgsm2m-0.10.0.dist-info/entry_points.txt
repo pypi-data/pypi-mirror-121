@@ -1,0 +1,3 @@
+[console_scripts]
+usgsm2m=usgsm2m.cli:cli
+
