@@ -1,0 +1,14 @@
+pop>=17.0
+idem-aiohttp>2.0.0
+
+[autogen]
+bs4
+lxml
+parse_rest
+pop-create-idem
+
+[full]
+pop-create-idem
+bs4
+lxml
+parse_rest
