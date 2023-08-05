@@ -1,0 +1,9 @@
+csvio/__init__.py,sha256=yQntQtDBsn8kK6j7ZJFDrbZlHx_DuJw7Da78F1vy_sE,91
+csvio/csvbase.py,sha256=Aul54xpdcA9V7jqfYwBmqkLSTyiXBB_7LaXZa0vx5IQ,2758
+csvio/csvreader.py,sha256=ubRylEdWGTsNHOpF8V9OqhFFEAmpj-_KaOQcZa9HIuc,3978
+csvio/csvwriter.py,sha256=MG1EnRLtuPfNVHJS8dh9zvlruWknTx1Bwxq5bQQ3VVQ,6619
+csvio/filebase.py,sha256=GjdgEa0L_PheHAQTvZsuY4N_n9gJjKSRJJmOMchltic,2693
+csvio-0.1.0.dist-info/LICENSE,sha256=VLtmFXUoVEIvbKz9fUkP7JMV_hp2sGcPr8-_kQZPWkA,1113
+csvio-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+csvio-0.1.0.dist-info/METADATA,sha256=bFAkjlOLTmkCj1qJAzYmIj1YDYTaW-cVID1Lbt5oanc,3338
+csvio-0.1.0.dist-info/RECORD,,
