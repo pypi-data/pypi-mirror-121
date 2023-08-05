@@ -1,0 +1,12 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/examples.py,sha256=6iulAMz7Gav6o3vbv4VNQGFq3PBpk6tpdOkwAZ0kFKE,5962
+examples/sensor.py,sha256=fGgIFWMwSVHHd_vZju8NZgqmUdwv_yOMUssySFckbec,2674
+pi_sht1x/__init__.py,sha256=YGTQir7HIp9UwzBlxqY5TWPDQITLes7gckvL3obZSaI,90
+pi_sht1x/logging.py,sha256=wEUPVi4To2jHhrwbIApn-eZvrlfeXn8jUzm5yWmd9tg,910
+pi_sht1x/sht1x.py,sha256=hpqbW45gjuOO80HOg-b2rnPu39ngRiZkn2BkJ1Luw78,22534
+pi_sht1x-1.0.10.dist-info/AUTHORS,sha256=m37nWUm1qR19e051htX0GSI4k5ZM6PlJvujJ0cckyVk,87
+pi_sht1x-1.0.10.dist-info/LICENSE,sha256=D2AdsyzvbfiHvZ3TJ-j63MrTKsA5oQ_JfPO5HMGoXqw,1100
+pi_sht1x-1.0.10.dist-info/METADATA,sha256=2fzA3T7dPM1eaZU6X97XEPnlfGOuQk8qvNKFD0X8nng,10067
+pi_sht1x-1.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pi_sht1x-1.0.10.dist-info/top_level.txt,sha256=HmfwTcRTtqseFNxrUZrDpMWxgVfX4IhC4MvFu5O2A0Q,18
+pi_sht1x-1.0.10.dist-info/RECORD,,
