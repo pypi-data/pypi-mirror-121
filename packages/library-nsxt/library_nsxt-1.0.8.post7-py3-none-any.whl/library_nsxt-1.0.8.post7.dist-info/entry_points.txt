@@ -1,0 +1,3 @@
+[console_scripts]
+create_group_cluster = create_group_cluster:main
+
