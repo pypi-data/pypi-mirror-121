@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: dolus
+Version: 0.1.1
+Summary: A command-line interface to put effects on your virtual camera(OBS/Unity/v4l2loopback)
+Home-page: https://github.com/AvanindraC/dolus
+License: MIT
+Author: Avanindra Chakraborty
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: click-help-colors (>=0.9.1,<0.10.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.3,<5.0.0)
+Requires-Dist: pafy (>=0.5.5,<0.6.0)
+Requires-Dist: pyvirtualcam (>=0.8.0,<0.9.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: youtube_dl (>=2021.6.6,<2022.0.0)
+Project-URL: Repository, https://github.com/AvanindraC/dolus
+Description-Content-Type: text/markdown
+
+# dolus
+A command-line interface to put effects on your virtual camera(OBS/Unity/v4l2loopback)
+
+
+
+# Prerequisites
+
+## Windows/MacOS
+
+Python 3.7 or higher 
+
+OBS 26 or Higher
+
+## Linux 
+
+Python 3.7 or higher 
+
+v4l2loopback
+
+# Installation
+
+## Windows
+
+```pip install dolus```
+
+## Mac/Linux
+
+```pip3 install dolus```
+
+
+# Usage
+
+Type dolus in the terminal/powershell
+
+It should look like this:-
+
+![image](https://user-images.githubusercontent.com/77975448/134615846-797d222f-7c60-4c33-bacc-1b65d7f35f6d.png)
+
+Then type dolus effectname
+
+![image](https://user-images.githubusercontent.com/77975448/134615915-c10c3e4c-26a8-48f9-bd9e-2fadbc5e0fab.png)
+
+The ytvid function takes an argument for youtube video in a string
+
+![image](https://user-images.githubusercontent.com/77975448/134616051-01e0a458-d9b2-43a6-9cd0-60388e5a1c7f.png)
+
+To use it in video calling platforms, change your camera to the virual camera, which is OBS Virtual camera in my case
+
+![image](https://user-images.githubusercontent.com/77975448/134616113-29d7197c-73d4-401d-a35d-d6a2c6cd81dd.png)
+
+
+
+
+
