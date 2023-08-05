@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+distributionsAtnek.egg-info/PKG-INFO
+distributionsAtnek.egg-info/SOURCES.txt
+distributionsAtnek.egg-info/dependency_links.txt
+distributionsAtnek.egg-info/not-zip-safe
+distributionsAtnek.egg-info/top_level.txt
