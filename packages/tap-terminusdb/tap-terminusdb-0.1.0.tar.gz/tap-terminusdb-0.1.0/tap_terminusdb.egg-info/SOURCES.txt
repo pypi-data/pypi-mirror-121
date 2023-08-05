@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tap_terminusdb/__init__.py
+tap_terminusdb.egg-info/PKG-INFO
+tap_terminusdb.egg-info/SOURCES.txt
+tap_terminusdb.egg-info/dependency_links.txt
+tap_terminusdb.egg-info/entry_points.txt
+tap_terminusdb.egg-info/requires.txt
+tap_terminusdb.egg-info/top_level.txt
+tap_terminusdb/schemas/sample_stream.json
