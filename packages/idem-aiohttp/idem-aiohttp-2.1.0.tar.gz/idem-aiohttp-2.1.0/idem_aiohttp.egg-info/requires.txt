@@ -1,0 +1,4 @@
+aiohttp[speedups]
+idem>=12
+pop>=20.0
+pop-loop[uvloop]>=1.0.4
