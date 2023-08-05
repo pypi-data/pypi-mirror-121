@@ -1,0 +1,10 @@
+hgdb-replay,sha256=YgZH7tDr8Wwm7qwtSC8wsE8EQDU1WBRpVU2hMBrp70w,2673784
+hgdb-rewrite-vcd,sha256=tfFmZf2zDPZrcEzogtG85cXjuMPRj_qQU2Vt1SQYVME,4735632
+libhgdb.dylib,sha256=-k42Jt68lwTBKYS5ekCh0uIPnMcOo0XHi5BFLldkF0s,6517984
+libhgdb-0.0.4.dist-info/RECORD,,
+libhgdb-0.0.4.dist-info/LICENSE,sha256=ehdrLOF-fQUXyV_KTj0XyQlNdfVPLjqJoP-PAjnFmwk,1325
+libhgdb-0.0.4.dist-info/WHEEL,sha256=ci7sR2VpRC3yF0YHQhihDGjhhE3eBbVB9MGzrRFxQJo,109
+libhgdb-0.0.4.dist-info/top_level.txt,sha256=KEAFsp_lf84ymd9L-YyJdwLZtPIB_KMjJKvrvObE_ZI,8
+libhgdb-0.0.4.dist-info/METADATA,sha256=BCeJ3v_coxk4AmhznLW1tsATx8LB43CrVWYaYusi5oU,6837
+libhgdb-0.0.4.data/scripts/hgdb-replay,sha256=l5ecH8SvLXAu46Z_AbqOUZnxNvlTDwOu9s3JItyrbNw,271
+libhgdb-0.0.4.data/scripts/hgdb-rewrite-vcd,sha256=gRbmC7yjr77b5O4GyvBydk-AfTt1C5FhT7_f5W905cA,242
