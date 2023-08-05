@@ -1,0 +1,17 @@
+digestparser/__init__.py,sha256=AE68dS3QEd8QY4g9tidKj58JDOpo9fjUXz1JEZrn0lY,285
+digestparser/build.py,sha256=k-x7_LrVFGPOCwgABvkUoe1STfxA0uOcqidfwcq34FY,4524
+digestparser/conf.py,sha256=A5tUcO3rZbUnBoZNm8oG8JLDrviZlzbLQTPLL4z3pKA,1532
+digestparser/html.py,sha256=9nwjvlh-nN-D9hlZ8noak0u2EHczckEn8b-CC1U5QYg,1143
+digestparser/jats.py,sha256=Gg0YhKMxKin-HFLRqfvLFWBvniTRSn60r1eQwalaCvQ,3675
+digestparser/json_output.py,sha256=XuUisq4DM9Z2tPztdSszn-lwRZ_EK3PKhJRhJ8Tausc,6146
+digestparser/medium_post.py,sha256=tvyn5qRym5VuPyibrhL-8oSrPPwBg1J6hKAA0wW58VI,7382
+digestparser/objects.py,sha256=FpymqrVhrFFouAN9UCYzqgQXRBHJh-i2ao5quQ-Ho7Y,751
+digestparser/output.py,sha256=SN0d1mN-wuQ80nvBAq0DaCxQ5wu8s5J1nk5MFjagvwA,2974
+digestparser/parse.py,sha256=1WfOXl1zUOPfzAzu7FcEnybDBMhU8wnBqdu_W14F6Yk,4654
+digestparser/utils.py,sha256=tTuYU6FFS5v2mq_4kXtjvnNWH9mtt9r5u-Lm4iA-Ias,1500
+digestparser/zip.py,sha256=IIjfJSoSKui7kxYrH3Y2k91oyY6DDQcWM2Cmo0D9t0c,2630
+digestparser-0.1.1.dist-info/LICENSE,sha256=tVf-s04sTJPXmlI9jPJVOZjNf_B18eIIh71p11oNfNs,1071
+digestparser-0.1.1.dist-info/METADATA,sha256=mIwellR-nQnrr0n6VufeUACmgU2zS0dR8QLM8tPOHn0,3343
+digestparser-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+digestparser-0.1.1.dist-info/top_level.txt,sha256=c3S4fR-j4AOtIWbryaS6bmgrRg56V4DwKq4hI_uNcUc,13
+digestparser-0.1.1.dist-info/RECORD,,
