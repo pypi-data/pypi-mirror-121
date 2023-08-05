@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+coleta/__init__.py
+coleta/coleta_pb2.py
+coleta/keygen.py
+proto_dadosjusbr.egg-info/PKG-INFO
+proto_dadosjusbr.egg-info/SOURCES.txt
+proto_dadosjusbr.egg-info/dependency_links.txt
+proto_dadosjusbr.egg-info/top_level.txt
