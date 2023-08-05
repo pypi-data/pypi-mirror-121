@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+bin/mpishell
+src/mpishell/__init__.py
+src/mpishell/wrapped_process.py
+src/mpishell.egg-info/PKG-INFO
+src/mpishell.egg-info/SOURCES.txt
+src/mpishell.egg-info/dependency_links.txt
+src/mpishell.egg-info/requires.txt
+src/mpishell.egg-info/top_level.txt
