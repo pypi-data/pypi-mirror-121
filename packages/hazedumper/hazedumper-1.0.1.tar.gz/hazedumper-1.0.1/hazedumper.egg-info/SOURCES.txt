@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+hazedumper/__init__.py
+hazedumper/default.py
+hazedumper.egg-info/PKG-INFO
+hazedumper.egg-info/SOURCES.txt
+hazedumper.egg-info/dependency_links.txt
+hazedumper.egg-info/requires.txt
+hazedumper.egg-info/top_level.txt
