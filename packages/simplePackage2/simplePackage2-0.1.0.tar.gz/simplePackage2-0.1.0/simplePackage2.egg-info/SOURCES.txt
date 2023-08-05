@@ -1,0 +1,8 @@
+setup.py
+simplePackage2/__init__.py
+simplePackage2/module2.py
+simplePackage2.egg-info/PKG-INFO
+simplePackage2.egg-info/SOURCES.txt
+simplePackage2.egg-info/dependency_links.txt
+simplePackage2.egg-info/requires.txt
+simplePackage2.egg-info/top_level.txt
