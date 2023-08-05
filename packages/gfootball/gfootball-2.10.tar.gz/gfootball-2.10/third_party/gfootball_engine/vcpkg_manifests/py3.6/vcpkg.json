@@ -1,0 +1,22 @@
+{
+  "name": "gfootball-engine",
+  "version-string": "2.10",
+  "builtin-baseline": "47d2378c8181ece05ffc51acd2ed60d97e3c9a64",
+  "dependencies": [
+    "python3",
+    "boost-thread",
+    "boost-filesystem",
+    "boost-signals2",
+    "boost-circular-buffer",
+    "boost-interprocess",
+    "boost-python",
+    "sdl2",
+    "sdl2-image",
+    "sdl2-ttf",
+    "sdl2-gfx",
+    "opengl"
+  ],
+  "overrides": [
+    { "name": "python3", "version-string": "3.6.4-5" }
+  ]
+}
