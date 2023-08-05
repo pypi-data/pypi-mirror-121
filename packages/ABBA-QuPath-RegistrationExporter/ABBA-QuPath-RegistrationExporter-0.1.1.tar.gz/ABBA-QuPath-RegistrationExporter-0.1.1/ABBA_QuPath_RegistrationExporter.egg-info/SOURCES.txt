@@ -1,0 +1,8 @@
+README.md
+setup.py
+ABBA_QuPath_RegistrationExporter.egg-info/PKG-INFO
+ABBA_QuPath_RegistrationExporter.egg-info/SOURCES.txt
+ABBA_QuPath_RegistrationExporter.egg-info/dependency_links.txt
+ABBA_QuPath_RegistrationExporter.egg-info/entry_points.txt
+ABBA_QuPath_RegistrationExporter.egg-info/requires.txt
+ABBA_QuPath_RegistrationExporter.egg-info/top_level.txt
