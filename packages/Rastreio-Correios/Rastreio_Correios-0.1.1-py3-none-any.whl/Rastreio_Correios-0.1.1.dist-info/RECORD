@@ -1,0 +1,14 @@
+correios/__init__.py,sha256=aHyDF29GUhWh8gcRqBdXMcgjKO2nPMQlJlgZyxLIR3A,129
+correios/main.py,sha256=gtjQXapU6917-IcTB5Fnf_UL6zwPPQZp7CWUytSOgDE,2572
+correios/entities/__init__.py,sha256=n0OpwhyBbG-Cz5tsvfAUSiftSx7RtuKac9u4eO1BESM,237
+correios/entities/destino.py,sha256=vOPGqavnwT3KLeTB2jNfYNeG10IKL9yzREOH61mfd6s,530
+correios/entities/endereco.py,sha256=BxR_8qpHWaw5K6uANbhJFZZskmESyX0M_GhmF0eMDbk,545
+correios/entities/evento.py,sha256=qSYN08nwHexO30x1tiXqlxEZs5y0J_e5mHMViDCqErA,1141
+correios/entities/objeto.py,sha256=lMPoV9SY7euMBoTEKQtJFnvCvScQlgtx6DHDoZicwgE,784
+correios/entities/oec.py,sha256=4BTl0BAiD-2c25Q_erhXGs4K-A-oNzS7S0C5X0ziL1s,606
+correios/entities/unidade.py,sha256=9AYwJIq0QzQBOLiIqtD72hjj1NvqQod0tSJQeLFPdXk,586
+Rastreio_Correios-0.1.1.dist-info/LICENSE,sha256=5utLdfX2UmSVOdWbLL3JRQKeClxQcFnDXQZGoFeLvHM,1069
+Rastreio_Correios-0.1.1.dist-info/METADATA,sha256=3b1y_zubNGvfmbHEqk_ab4rbXshmfMnk9JBvoKva-A0,3503
+Rastreio_Correios-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Rastreio_Correios-0.1.1.dist-info/top_level.txt,sha256=3pUlpdiMBmGn3rcoISQQktQ0ZbaKZKVEVHRO4-LRuKU,9
+Rastreio_Correios-0.1.1.dist-info/RECORD,,
