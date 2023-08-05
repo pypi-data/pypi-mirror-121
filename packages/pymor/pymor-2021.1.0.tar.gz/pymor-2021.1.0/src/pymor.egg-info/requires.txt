@@ -1,0 +1,135 @@
+qtpy
+packaging
+diskcache
+typer
+click
+wheel
+pytest-runner>=2.9
+packaging
+
+[:python_version < "3.8"]
+scipy>=1.1
+
+[:python_version < "3.9"]
+setuptools<49.2.0,>=40.8.0
+
+[:python_version == "3.7"]
+numpy>=1.15.4
+
+[:python_version == "3.8"]
+numpy>=1.17.5
+scipy>=1.3.3
+
+[:python_version >= "3.9"]
+setuptools<49.2.0,>=49.1
+numpy>=1.19.4
+scipy>=1.5.4
+
+[ci]
+pytest>=4.4
+pytest-cov
+pytest-xdist
+check-manifest
+nbconvert
+pytest-parallel
+readme_renderer[md]
+rstcheck
+codecov
+twine
+pytest-memprof
+flake8-rst-docstrings
+flake8-docstrings
+pytest-datadir
+docutils
+pypi-oldest-requirements>=2021.2
+hypothesis[numpy,pytest]>=5.19
+PyQt5!=5.15.2,!=5.15.2.*,!=5.15.3,!=5.15.4,>5.7
+
+[docs]
+sphinx>=3.4
+matplotlib
+PySide2!=5.11.*,!=5.15.2,!=5.15.2.*
+ipyparallel>=6.2.5
+python-slugify
+ipywidgets
+sphinx-qt-documentation
+bash_kernel
+sphinx-material
+sphinxcontrib-bibtex
+sphinx-autoapi>=1.8
+myst-nb
+qtpy
+packaging
+diskcache
+typer
+click
+wheel
+pytest-runner>=2.9
+packaging
+
+[docs:python_version < "3.8"]
+scipy>=1.1
+
+[docs:python_version < "3.9"]
+setuptools<49.2.0,>=40.8.0
+
+[docs:python_version == "3.7"]
+numpy>=1.15.4
+
+[docs:python_version == "3.8"]
+numpy>=1.17.5
+scipy>=1.3.3
+
+[docs:python_version >= "3.9"]
+setuptools<49.2.0,>=49.1
+numpy>=1.19.4
+scipy>=1.5.4
+
+[full]
+sphinx-material
+click
+ipywidgets
+sphinxcontrib-bibtex
+packaging
+typer
+sphinx>=3.4
+python-slugify
+matplotlib
+bash_kernel
+sphinx-autoapi>=1.8
+sympy
+torch
+pyevtk
+pygments
+jupyter_contrib_nbextensions
+ipython>=5.0
+pyopengl
+xmljson
+myst-nb
+sphinx-qt-documentation
+gmsh
+ipyparallel>=6.2.5
+pytest>=4.4
+pillow
+lxml
+wheel
+qtpy
+meshio>=4.4
+pythreejs
+pytest-runner>=2.9
+PySide2!=5.11.*,!=5.15.2,!=5.15.2.*
+diskcache
+
+[full:python_version < "3.9"]
+setuptools<49.2.0,>=40.8.0
+
+[full:python_version == "3.8"]
+scipy>=1.3.3
+numpy>=1.17.5
+
+[io]
+pyevtk
+xmljson
+meshio>=4.4
+lxml
+gmsh
