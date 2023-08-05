@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: UnstructuredCDM
+Version: 0.0.1
+Summary: ODHSI CDM intergation package about unstructured medical data(radiology, XML, pathology...)
+Home-page: https://github.com/ABMI/UnstructuredCDM
+Author: Byungjin Choi
+Author-email: choi328328@ajou.ac.kr
+License: Apache
+Platform: UNKNOWN
+Requires-Python: >=3
+
+# UnstructuredCDM
+ODSHI Common data model(CDM) integration about unstructured medical data(Radiology, Biosignal, Pathology...
+ㄴ
+
+Unstructured CDM : 
+  Data integration:
+    Parsing and read Unstructured data(Muse XML, DICOM, svs format)
+    Insert parsed data to CDM(data path, extracted features)
+    Unstructed data catalog generation(via html, pdf)
+
+  Data application: 
+    Generating Baseline characteristics
+    Clinical label extraction with CDM (study flow chart generation)
+    Federated learning
+
+
+
+
+
