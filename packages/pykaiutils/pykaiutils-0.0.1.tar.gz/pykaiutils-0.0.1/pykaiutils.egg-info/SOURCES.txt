@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pykaiutils.egg-info/PKG-INFO
+pykaiutils.egg-info/SOURCES.txt
+pykaiutils.egg-info/dependency_links.txt
+pykaiutils.egg-info/top_level.txt
