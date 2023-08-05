@@ -1,0 +1,26 @@
+Pillow>=7.0.0
+opencv-python
+lapsolver
+peewee>=3.13.3
+imutils
+packaging
+PyQt5
+stdiomask>=0.0.6
+passlib
+canvasapi>=2.0.0
+weasyprint<53
+requests-toolbelt
+scikit-learn>=0.23.1
+pandas>=1.0.0
+pymupdf>=1.18.15
+appdirs>=1.4.3
+tqdm
+segno
+requests
+aiohttp~=3.7.2
+pyzbar
+numpy
+toml>=0.10.0
+
+[:python_version < "3.7"]
+importlib_resources
