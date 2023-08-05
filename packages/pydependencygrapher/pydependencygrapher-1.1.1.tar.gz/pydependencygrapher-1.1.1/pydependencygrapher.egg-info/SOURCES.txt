@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+pydependencygrapher.py
+setup.py
+pydependencygrapher.egg-info/PKG-INFO
+pydependencygrapher.egg-info/SOURCES.txt
+pydependencygrapher.egg-info/dependency_links.txt
+pydependencygrapher.egg-info/entry_points.txt
+pydependencygrapher.egg-info/requires.txt
+pydependencygrapher.egg-info/top_level.txt
