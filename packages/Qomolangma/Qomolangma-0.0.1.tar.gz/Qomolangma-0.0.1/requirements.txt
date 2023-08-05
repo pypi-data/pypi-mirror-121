@@ -1,0 +1,4 @@
+pandas
+tensorflow~=2.6
+click
+click_help_colors
