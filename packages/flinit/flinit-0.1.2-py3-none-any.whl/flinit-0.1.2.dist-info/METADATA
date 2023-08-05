@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flinit
+Version: 0.1.2
+Summary: Flask App Initializer.
+Home-page: https://github.com/TanmoySG/flinit
+Author: Tanmoy Sen Gupta
+Author-email: tanmoysps@gmail.com
+License: MIT
+Keywords: flask,tanmoy,python,project
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: emoji
+
+A CLI Tools to setup a Flask App Efficiently without requiring multi-step setup.
+
+
