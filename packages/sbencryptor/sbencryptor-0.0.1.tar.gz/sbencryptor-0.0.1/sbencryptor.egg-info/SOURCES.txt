@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+sbencryptor/__init__.py
+sbencryptor/decrypt.py
+sbencryptor/encrypt.py
+sbencryptor.egg-info/PKG-INFO
+sbencryptor.egg-info/SOURCES.txt
+sbencryptor.egg-info/dependency_links.txt
+sbencryptor.egg-info/top_level.txt
