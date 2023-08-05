@@ -1,0 +1,10 @@
+fosslight_scanner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fosslight_scanner/_get_input.py,sha256=DHdwvnuKQnCr2wn5cYKCuID4KOY3tmmYrn1bj5RFxWU,2159
+fosslight_scanner/_help.py,sha256=CrBFMrIQ5uxwoj0Wv9POt6j4QZtJ0SZDTni2XOdqwVk,1106
+fosslight_scanner/fosslight_scanner.py,sha256=TXA5ZpIh8hbdGo2_mWUi_gd_8fVW7h-AJRitT-CbYCs,7345
+fosslight_scanner-1.6.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fosslight_scanner-1.6.0.dist-info/METADATA,sha256=EpBcfHWUuykgq0rvODY7DOPw6f9DFNB3pcYuysQauMI,5031
+fosslight_scanner-1.6.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fosslight_scanner-1.6.0.dist-info/entry_points.txt,sha256=TIGLibivZ-_lDcBxtnF5KxVzw0utzfXN-jlD_iRjiSs,133
+fosslight_scanner-1.6.0.dist-info/top_level.txt,sha256=43_xLb5KYpy8wOU1H2Wd2fEsWBY7Dg6ZEJJXkfT64Ak,18
+fosslight_scanner-1.6.0.dist-info/RECORD,,
