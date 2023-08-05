@@ -1,0 +1,3 @@
+[console_scripts]
+create_group_cluster = services.create_group_cluster:main
+
