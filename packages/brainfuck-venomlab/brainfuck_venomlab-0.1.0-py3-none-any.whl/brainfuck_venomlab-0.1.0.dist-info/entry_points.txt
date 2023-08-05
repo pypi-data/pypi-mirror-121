@@ -1,0 +1,3 @@
+[console_scripts]
+brainfuck = brainfuck.command_line:main_cli
+
