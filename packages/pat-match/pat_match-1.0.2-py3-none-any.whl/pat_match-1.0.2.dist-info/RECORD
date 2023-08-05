@@ -1,0 +1,11 @@
+scripts/FastafastqGenerator.py,sha256=deyLZ6pvb6tUuEtxubGWqMOni8sWzxSIkiLGYXb_1vU,1346
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/search_ba.py,sha256=cZknFhPHxSE1KfgHmy8OcK7mHiztfOgPNspFCdX-fWY,1724
+scripts/search_naive.py,sha256=0WtTt_EXDeRZ6H47QhSUJy2QZF_3xsdHLW8x1zbrFL4,1649
+scripts/utils.py,sha256=OIFFAE8Br3F5KMCeVmC8pHzj6nYX21HTocOEK_9Vt98,641
+pat_match-1.0.2.dist-info/LICENSE,sha256=o8KYZvNXuLWmLIIKDnV20Eu2aJ8b9-5cUwDAl6FCoko,1119
+pat_match-1.0.2.dist-info/METADATA,sha256=Qu8OzEdXZlnJqRJGYBScYusGq4J5ynig5n8ANWZuSAU,666
+pat_match-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pat_match-1.0.2.dist-info/entry_points.txt,sha256=_TZefXIxDguhV0PvDd8iZoZGEPWwcYdI7KsteNYiZmg,95
+pat_match-1.0.2.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+pat_match-1.0.2.dist-info/RECORD,,
