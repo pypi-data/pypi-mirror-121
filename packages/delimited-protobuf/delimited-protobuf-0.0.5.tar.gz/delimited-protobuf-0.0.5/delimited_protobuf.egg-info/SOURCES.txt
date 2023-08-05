@@ -1,0 +1,9 @@
+LICENSE
+README.md
+delimited_protobuf.py
+setup.py
+delimited_protobuf.egg-info/PKG-INFO
+delimited_protobuf.egg-info/SOURCES.txt
+delimited_protobuf.egg-info/dependency_links.txt
+delimited_protobuf.egg-info/requires.txt
+delimited_protobuf.egg-info/top_level.txt
