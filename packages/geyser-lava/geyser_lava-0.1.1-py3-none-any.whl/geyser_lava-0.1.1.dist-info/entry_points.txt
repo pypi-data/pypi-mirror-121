@@ -1,0 +1,3 @@
+[geyser.profile]
+geyser_lava = geyser_lava.profile
+
