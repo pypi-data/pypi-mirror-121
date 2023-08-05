@@ -1,0 +1,4 @@
+[console_scripts]
+search-ba = scripts.search_ba:main
+search-naive = scripts.search_naive:main
+
