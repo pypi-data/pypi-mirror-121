@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dymopy
+Version: 0.0.1
+Summary: API wrapper for DYMO Web Services.
+Home-page: https://github.com/bill-ash/dymopy
+Author: Bill Ash
+Author-email: bill@overco.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bill-ash/dymopy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+Simple http client for creating labels using the DYMO Connect Web Service. 
+
+Heavily influenced by the [dymojs package](https://github.com/dsandor/dymojs) available 
+for node. 
+
+
