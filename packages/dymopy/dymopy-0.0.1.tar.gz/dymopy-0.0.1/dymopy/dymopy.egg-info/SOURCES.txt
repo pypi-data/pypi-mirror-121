@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+dymopy/dymopy.egg-info/PKG-INFO
+dymopy/dymopy.egg-info/SOURCES.txt
+dymopy/dymopy.egg-info/dependency_links.txt
+dymopy/dymopy.egg-info/top_level.txt
