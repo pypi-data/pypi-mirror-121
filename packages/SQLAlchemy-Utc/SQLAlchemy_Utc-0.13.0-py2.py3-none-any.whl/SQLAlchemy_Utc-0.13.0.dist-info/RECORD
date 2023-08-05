@@ -1,0 +1,11 @@
+sqlalchemy_utc/__init__.py,sha256=Zlxa1yKHNPIDiXTTkhQvsxCWii7ICnMoLkwoGJQXSn8,195
+sqlalchemy_utc/now.py,sha256=Nbsd3fXD4r3Gn3v6y8Kbf7iy7_6icKLqY1nQ6AuaCXY,1394
+sqlalchemy_utc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemy_utc/sqltypes.py,sha256=WSzHCsLBCGb11CpUudwDI3ZGpruzVqaEhoo8kPufXnA,1397
+sqlalchemy_utc/timezone.py,sha256=EmTcSJ5IkV1OeMxnSt6yFCY_rjKBTXXR7rqz9PbYYGw,327
+sqlalchemy_utc/version.py,sha256=8jbyfDafOI8eZRtXgKR6mD8oxCBRAURo9UJ6grdsnZU,23
+SQLAlchemy_Utc-0.13.0.dist-info/LICENSE,sha256=qR2Rbh-JLktCHilym6Krlqj36qpzP9lMF0duCRAn264,1088
+SQLAlchemy_Utc-0.13.0.dist-info/METADATA,sha256=5xP1wWKsFYTst0jfAsqWmPMGLuvqI55akh08n39Bn8o,4243
+SQLAlchemy_Utc-0.13.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+SQLAlchemy_Utc-0.13.0.dist-info/top_level.txt,sha256=t57EtoxpUOeY_iXbP9hFoRCaNGwdGrKnyzO09wemm8c,15
+SQLAlchemy_Utc-0.13.0.dist-info/RECORD,,
