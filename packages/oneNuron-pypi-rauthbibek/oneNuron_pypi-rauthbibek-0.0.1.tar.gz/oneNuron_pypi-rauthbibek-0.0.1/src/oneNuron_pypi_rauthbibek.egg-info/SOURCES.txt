@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/oneNuron/__init__.py
+src/oneNuron/perceptron.py
+src/oneNuron_pypi_rauthbibek.egg-info/PKG-INFO
+src/oneNuron_pypi_rauthbibek.egg-info/SOURCES.txt
+src/oneNuron_pypi_rauthbibek.egg-info/dependency_links.txt
+src/oneNuron_pypi_rauthbibek.egg-info/requires.txt
+src/oneNuron_pypi_rauthbibek.egg-info/top_level.txt
