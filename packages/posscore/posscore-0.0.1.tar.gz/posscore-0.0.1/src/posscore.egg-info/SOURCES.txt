@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/posscore/__init__.py
+src/posscore/scorer.py
+src/posscore/tokenizers.py
+src/posscore/util.py
+src/posscore.egg-info/PKG-INFO
+src/posscore.egg-info/SOURCES.txt
+src/posscore.egg-info/dependency_links.txt
+src/posscore.egg-info/requires.txt
+src/posscore.egg-info/top_level.txt
