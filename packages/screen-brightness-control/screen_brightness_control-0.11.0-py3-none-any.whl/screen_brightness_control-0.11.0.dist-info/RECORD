@@ -1,0 +1,9 @@
+screen_brightness_control/__init__.py,sha256=FXTrf8emco5eE2oxsAHscPiqT4TnHwWV8erRChgXGBs,38301
+screen_brightness_control/__main__.py,sha256=mfHGVhTa-ck2cjt-x7HSVUwSTcmhFa_tADkam5BFDik,5830
+screen_brightness_control/linux.py,sha256=O4fzXdVn9LKuJCfZDZfsHNa0Tv7bWnxvRvo_ok9C2nI,30578
+screen_brightness_control/windows.py,sha256=tPThT6CFfA2oB6UVwAJzC5gSNGDdqLPaN97XpPMpGxI,21358
+screen_brightness_control-0.11.0.dist-info/LICENSE,sha256=o7jMntLwe-OLm71BuFejW8MQsJoseD_qa1QENLx5Qhk,1086
+screen_brightness_control-0.11.0.dist-info/METADATA,sha256=IHAx2WnAYm2Sn6C1xvK4CQxBX1hLzDmjawN7KGW61zw,13202
+screen_brightness_control-0.11.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+screen_brightness_control-0.11.0.dist-info/top_level.txt,sha256=ZJ_5JobWMjXdS7QxGcU_8F8vVzK6dSMelLibCuKK9sI,26
+screen_brightness_control-0.11.0.dist-info/RECORD,,
