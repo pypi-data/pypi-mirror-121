@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: asmc-asmc
+Version: 1.0
+Summary: ASMC is a method to efficiently estimate pairwise coalescence time along the genome
+Home-page: https://github.com/PalamaraLab/ASMC/
+Author: PalamaraLab (https://palamaralab.github.io/)
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: COPYING
+Requires-Dist: jupyter
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: asmc-preparedecoding
+Requires-Dist: matplotlib
+
+# ASMC
+
+:warning: **This repository is not yet release-ready** :warning:
+
+There are likely still some rough edges with this new version of ASMC.
+A release will be made in the coming days.
+
+If you would like to evaluate this new version, please refer to the [future readme](./README_future.md).
+
+
