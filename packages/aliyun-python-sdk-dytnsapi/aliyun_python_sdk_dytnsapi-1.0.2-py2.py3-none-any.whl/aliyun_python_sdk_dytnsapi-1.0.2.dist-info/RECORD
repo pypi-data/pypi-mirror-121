@@ -1,0 +1,12 @@
+aliyunsdkdytnsapi/__init__.py,sha256=C8nyPP5-54GgYCcP38Lbel_pRimOW-Ra4bw6Vzp2lmE,21
+aliyunsdkdytnsapi/endpoint.py,sha256=yMV5vp8WI45uZ-QLjoyxAdMdXgUWEGWfovu0mEHPYB8,1087
+aliyunsdkdytnsapi/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkdytnsapi/request/v20200217/DescribePhoneNumberAttributeRequest.py,sha256=wmLpJ2xmS6o-II-i3fTAAPTBgKgy0IFJ7Mmis3Xx4Ys,2136
+aliyunsdkdytnsapi/request/v20200217/DescribePhoneNumberResaleRequest.py,sha256=pQF9rhamzRrGfGaRvHhoh0p9xv63xoexcLmbyWqVCWA,2291
+aliyunsdkdytnsapi/request/v20200217/DescribePhoneNumberStatusRequest.py,sha256=RPA2SFaYLF8doz-sEQgXbvyjcAAFKSj4SItmE3E6kls,2130
+aliyunsdkdytnsapi/request/v20200217/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_dytnsapi-1.0.2.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_dytnsapi-1.0.2.dist-info/METADATA,sha256=-Z-fJ8yxxTAslSWTRkcbduyM5oTDHz2J1U97lZ6ouHs,1480
+aliyun_python_sdk_dytnsapi-1.0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+aliyun_python_sdk_dytnsapi-1.0.2.dist-info/top_level.txt,sha256=L2o7rm8RAWzjj1XjemFPXXFndJ4zPvzAJ8_1o_TYjAg,18
+aliyun_python_sdk_dytnsapi-1.0.2.dist-info/RECORD,,
