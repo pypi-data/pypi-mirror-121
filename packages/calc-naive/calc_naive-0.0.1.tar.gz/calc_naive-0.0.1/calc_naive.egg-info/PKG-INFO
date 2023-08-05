@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: calc-naive
+Version: 0.0.1
+Summary: naive calculator
+Home-page: UNKNOWN
+Author: Mehdi anzal
+Author-email: mrezvandehy@gmail.com
+License: MIT
+Description: This is a very simple calculator for two numbers:+, -,/,*
+Keywords: calc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+__int__.py
+setup.py
+calc_naive.egg-info/PKG-INFO
+calc_naive.egg-info/SOURCES.txt
+calc_naive.egg-info/dependency_links.txt
+calc_naive.egg-info/top_level.txt
