@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+Rastreio_Correios.egg-info/PKG-INFO
+Rastreio_Correios.egg-info/SOURCES.txt
+Rastreio_Correios.egg-info/dependency_links.txt
+Rastreio_Correios.egg-info/requires.txt
+Rastreio_Correios.egg-info/top_level.txt
+correios/__init__.py
+correios/main.py
+correios/entities/__init__.py
+correios/entities/destino.py
+correios/entities/endereco.py
+correios/entities/evento.py
+correios/entities/objeto.py
+correios/entities/oec.py
+correios/entities/unidade.py
