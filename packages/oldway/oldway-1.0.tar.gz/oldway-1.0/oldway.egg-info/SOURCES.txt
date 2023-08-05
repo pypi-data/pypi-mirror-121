@@ -1,0 +1,9 @@
+setup.py
+oldway/__init__.py
+oldway/thecode.py
+oldway.egg-info/PKG-INFO
+oldway.egg-info/SOURCES.txt
+oldway.egg-info/dependency_links.txt
+oldway.egg-info/top_level.txt
+oldway/tests/__init__.py
+oldway/tests/test_thecode.py
