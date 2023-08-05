@@ -1,0 +1,32 @@
+dist: xenial
+language: python
+python:
+  - 3.6
+  - 3.7
+notifications:
+  email:
+    - nick.hand@phila.gov
+cache:
+  directories:
+    - "$HOME/.cache/pip"
+    - "$HOME/.conda"
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+  - chmod +x miniconda.sh
+  - "./miniconda.sh -b -p $HOME/miniconda"
+  - export PATH=$HOME/miniconda/bin:$PATH
+  - conda update --yes conda
+install:
+  - pip install .
+script:
+  - python -c "from phila_style import *"
+deploy:
+  provider: pypi
+  distributions: sdist
+  user: controllerphl
+  password:
+    secure: L+9a1GS+IyfM2T6uCr/DFSt9L2x+RytmHec7oXnJUd1o46dU+2e6ytb5sWgulXgl6ylf0GNEcbMX+QNckyeGxL/iPfNOFGH/KTazB1ngzRSVp4hfzZQ1GX3UuG5W00lBrM0bSCxnXvHKU5Lo7qyuqB7Dojo2l3jmxNTxTS+91ke2Up2+77PiGqbX0HFRA/i6zcn450mgG3kWlGeC8+fZGMieHcvFvQq6pWn+HQT2uTBpdZJO0Yyxy/EH6dXAYe+IMYe9s1BrSxAeXi62cVtLi/dKwF8vEr/04+PIbhiIEBF81DQp63zCBy7y8CsPXuif8nv7ZBw9rcEQz4XToTvAH43rMN43w22folZclQMvDwWErqL9tKpAs3HX6HKsSCxU+/cdHvcd6SBhOvY/krnOkIaBzVaiWLOHt+6XkDiXMhMIy1rIP8TAxARsKXFQI07+BHW8j426oO1KNSQ2CA3GvlB5+jO6bs1wLyxupLcxM+eVMCQwCpegKfuQAjLE+ZKN1Q+TgmvP0dG7pWgHFLgQIkSl/Pl2A2Yt7QyXuu83wZtNKN3lgpJQVw0Xc1+uNqAfLw4GosT6qLCNZTLLu3ZJ/tfb4CX3E9XMUIEJ5QILyEbMWlLgX19Kno0a6yJ2VEDVT498b6ZBXEG42qsDQX+GklFcn9cMRpLuxOdGePRFIeY=
+  skip_existing: true
+  on:
+    tags: true
+    condition: $TRAVIS_PYTHON_VERSION = "3.7"
