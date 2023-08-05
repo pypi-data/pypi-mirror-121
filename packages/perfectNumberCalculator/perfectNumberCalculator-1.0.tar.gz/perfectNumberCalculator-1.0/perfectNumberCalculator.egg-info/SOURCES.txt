@@ -1,0 +1,9 @@
+setup.py
+perfectNumberCalculator/__init__.py
+perfectNumberCalculator/perfectnumber_calculator.py
+perfectNumberCalculator.egg-info/PKG-INFO
+perfectNumberCalculator.egg-info/SOURCES.txt
+perfectNumberCalculator.egg-info/dependency_links.txt
+perfectNumberCalculator.egg-info/top_level.txt
+perfectNumberCalculator/tests/__init__.py
+perfectNumberCalculator/tests/test_perfectnumber_calculator.py
