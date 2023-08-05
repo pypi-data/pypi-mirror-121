@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mimesis_stats/__init__.py
+src/mimesis_stats/stats_schema.py
+src/mimesis_stats/utils.py
+src/mimesis_stats.egg-info/PKG-INFO
+src/mimesis_stats.egg-info/SOURCES.txt
+src/mimesis_stats.egg-info/dependency_links.txt
+src/mimesis_stats.egg-info/requires.txt
+src/mimesis_stats.egg-info/top_level.txt
