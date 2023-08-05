@@ -1,0 +1,9 @@
+matplotlib
+numpy>=1.5
+openpyxl
+
+[Pandas functionality]
+pandas
+
+[SciPy functionality]
+scipy>=0.5
