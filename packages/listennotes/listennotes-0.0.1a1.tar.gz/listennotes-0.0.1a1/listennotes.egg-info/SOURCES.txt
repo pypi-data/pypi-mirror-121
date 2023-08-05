@@ -1,0 +1,7 @@
+setup.py
+listennotes/__init__.py
+listennotes.egg-info/PKG-INFO
+listennotes.egg-info/SOURCES.txt
+listennotes.egg-info/dependency_links.txt
+listennotes.egg-info/requires.txt
+listennotes.egg-info/top_level.txt
