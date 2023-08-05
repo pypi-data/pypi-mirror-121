@@ -1,0 +1,6 @@
+README.md
+setup.py
+watertap.egg-info/PKG-INFO
+watertap.egg-info/SOURCES.txt
+watertap.egg-info/dependency_links.txt
+watertap.egg-info/top_level.txt
