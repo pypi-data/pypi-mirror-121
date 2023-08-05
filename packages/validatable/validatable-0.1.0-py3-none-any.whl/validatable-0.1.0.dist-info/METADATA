@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: validatable
+Version: 0.1.0
+Summary: Validatable provides a single class definition for SqlAlchemy Table and Pydantic BaseModel
+Home-page: https://github.com/dcruzf/validatable
+Author: Daniel França
+Author-email: daniel@ci.ufpb.br
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: sqlalchemy
+
+<p align="center">
+<img  width="150" height="150" src="./docs/img/logo.svg">
+</p>
+
+<h1 align="center">Validatable</h1>
+
+[![pre-commit](https://github.com/dcruzf/validatable/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/dcruzf/validatable/actions/workflows/pre-commit.yml)
+[![test on Linux](https://github.com/dcruzf/validatable/actions/workflows/test_linux.yml/badge.svg)](https://github.com/dcruzf/validatable/actions/workflows/test_linux.yml)
+[![test on MacOS](https://github.com/dcruzf/validatable/actions/workflows/test_mac.yml/badge.svg)](https://github.com/dcruzf/validatable/actions/workflows/test_mac.yml)
+
+## Introduction
+
+Validatable provides a single class definition for data validation and persistence in relational databases. It uses Pydantic and SQLAlchemy Core.
+
+## Getting Started
+
+### Installation
+
+You can install Validatable like this:
+
+```
+pip install validatable
+```
+
+### Simple Example
+
+```py
+from datetime import datetime
+from typing import Optional
+from uuid import uuid4
+
+from sqlalchemy import ForeignKey, MetaData
+from sqlalchemy.schema import CreateTable
+
+from validatable import UUID4, BaseTable, EmailStr, Field
+
+
+class Base(BaseTable):
+    metadata = MetaData()
+
+
+class User(Base):
+    id: UUID4 = Field(sa_primary_key=True, default_factory=uuid4)
+    name: str
+    email: EmailStr
+    created_ts: datetime = Field(default_factory=datetime.now)
+    friends: Optional[int] = Field(None, sa_fk=ForeignKey("user.id"))
+
+
+ddl = CreateTable(User.__sa_table__)
+print(ddl)
+
+# CREATE TABLE "user" (
+#         id BINARY(16) NOT NULL,
+#         name VARCHAR,
+#         email VARCHAR(320),
+#         created_ts DATETIME NOT NULL,
+#         friends INTEGER NOT NULL,
+#         PRIMARY KEY (id),
+#         FOREIGN KEY(friends) REFERENCES "user" (id)
+# )
+```
+
+## License
+
+This project is licensed under the terms of the MIT license - see the LICENSE.txt file for details.
+
+
