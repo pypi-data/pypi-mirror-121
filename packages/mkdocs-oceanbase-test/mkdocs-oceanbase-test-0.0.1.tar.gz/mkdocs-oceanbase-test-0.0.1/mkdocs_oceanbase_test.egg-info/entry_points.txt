@@ -1,0 +1,3 @@
+[mkdocs.themes]
+oceanbase_theme_test = oceanbase_theme_test
+
