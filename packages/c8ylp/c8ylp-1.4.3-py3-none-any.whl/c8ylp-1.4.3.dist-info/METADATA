@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: c8ylp
+Version: 1.4.3
+Summary: Cumulocity Local Client Proxy
+Home-page: UNKNOWN
+Author: Stefan Witschel
+License: Apache v2
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: websocket-client (>=1.2.1)
+
+UNKNOWN
+
