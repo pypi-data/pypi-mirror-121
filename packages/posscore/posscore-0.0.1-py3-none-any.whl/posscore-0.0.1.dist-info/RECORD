@@ -1,0 +1,8 @@
+posscore/__init__.py,sha256=0oUxKnYzTrElSgeIkKUSy2IYrt4H-iYLuhqq31OtH_M,42
+posscore/scorer.py,sha256=ozIVWqeQJTrx98ol7P3JhCqz-7obMn0GyXzaOPY9dbc,4389
+posscore/tokenizers.py,sha256=O3b6Cif6cv5GqaZoDcwl6zk61COHlpLPibmF1Mkf-jc,1418
+posscore/util.py,sha256=7ag8DmTNozU5jjdrvmZv-StIjgieqP9ojriSv9VeCQA,499
+posscore-0.0.1.dist-info/METADATA,sha256=gSt8mwlUCNp-bP5shdReYwSzDZtaXfM1zq4ygNWvBaE,2508
+posscore-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+posscore-0.0.1.dist-info/top_level.txt,sha256=FZlHt1V0VyEl3YIQl7iiTeshkshQkAUy4uci-9VnhWY,9
+posscore-0.0.1.dist-info/RECORD,,
