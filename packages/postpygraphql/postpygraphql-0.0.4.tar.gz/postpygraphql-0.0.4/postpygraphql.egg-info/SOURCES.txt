@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+postpygraphql/__init__.py
+postpygraphql/core.py
+postpygraphql/extractors.py
+postpygraphql.egg-info/PKG-INFO
+postpygraphql.egg-info/SOURCES.txt
+postpygraphql.egg-info/dependency_links.txt
+postpygraphql.egg-info/requires.txt
+postpygraphql.egg-info/top_level.txt
