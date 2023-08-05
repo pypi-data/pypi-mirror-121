@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: di
+Version: 0.0.0
+Summary: di
+Home-page: https://github.com/graingert/di
+Author: Thomas Grainger
+Author-email: di@graingert.co.uk
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: cryptography

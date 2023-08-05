@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "di"
+author = "Thomas Grainger"
+author-email = "di@graingert.co.uk"
+home-page = "https://github.com/graingert/di"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+requires = ["cryptography"]
