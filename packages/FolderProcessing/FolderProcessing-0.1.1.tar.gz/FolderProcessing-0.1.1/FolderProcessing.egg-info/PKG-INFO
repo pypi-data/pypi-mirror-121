@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: FolderProcessing
+Version: 0.1.1
+Summary: 一个基于其他模块，快速执行文件夹处理的模块|A module that quickly performs folder processing based on other modules
+Home-page: https://codechina.csdn.net/qq_53280175/folderprocessing
+Author: PYmili
+Author-email: mc2005wj@163.com
+Maintainer: PYmili
+Maintainer-email: mc2005wj@163.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# FolderProcessing 文件夹处理包 | Folderprocessing folder processing package
+
+
+使用方法在作者的第三方仓库中，可以自行查看
+
+
+The usage method is in the author's third-party warehouse and can be used by yourself
+
+[codechina.csdn 教程链接|Tutorial links](https://blog.csdn.net/qq_53280175?spm=1000.2115.3001.5343)
+
+
+# 联系方式即使用方法
+
+
+Used to view the list output of all files in the specified directory
+
+
+
+**联系方式**--QQ:2097632843---邮件：mc2005wj@163.com
+
+

@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+FolderProcessing/__init__.py
+FolderProcessing/new.py
+FolderProcessing/openfile.py
+FolderProcessing/seefile.py
+FolderProcessing/view.py
+FolderProcessing.egg-info/PKG-INFO
+FolderProcessing.egg-info/SOURCES.txt
+FolderProcessing.egg-info/dependency_links.txt
+FolderProcessing.egg-info/top_level.txt
