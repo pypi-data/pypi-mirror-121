@@ -1,0 +1,5 @@
+codecov
+coverage
+numpy
+pandas
+pyyaml
