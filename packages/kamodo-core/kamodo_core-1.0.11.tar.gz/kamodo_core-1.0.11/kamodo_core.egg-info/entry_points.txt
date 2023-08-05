@@ -1,0 +1,5 @@
+[console_scripts]
+kamodo = kamodo_core.cli.main:entry
+kamodo-gui = kamodo_core.cli.gui:entry
+kamodo-serve = kamodo_core.cli.api:main
+
