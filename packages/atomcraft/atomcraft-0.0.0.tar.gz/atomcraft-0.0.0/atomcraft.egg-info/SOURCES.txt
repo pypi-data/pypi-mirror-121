@@ -1,0 +1,9 @@
+README.rst
+setup.py
+setup_first.py
+atomcraft/__init__.py
+atomcraft.egg-info/PKG-INFO
+atomcraft.egg-info/SOURCES.txt
+atomcraft.egg-info/dependency_links.txt
+atomcraft.egg-info/top_level.txt
+atomcraft.egg-info/zip-safe
