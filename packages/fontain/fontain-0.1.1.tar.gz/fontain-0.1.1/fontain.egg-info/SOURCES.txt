@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+fontain/__init__.py
+fontain/fontain.py
+fontain.egg-info/PKG-INFO
+fontain.egg-info/SOURCES.txt
+fontain.egg-info/dependency_links.txt
+fontain.egg-info/top_level.txt
