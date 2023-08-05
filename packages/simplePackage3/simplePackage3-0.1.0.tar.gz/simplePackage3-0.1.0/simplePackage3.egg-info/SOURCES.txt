@@ -1,0 +1,8 @@
+setup.py
+simplePackage3/__init__.py
+simplePackage3/module3.py
+simplePackage3.egg-info/PKG-INFO
+simplePackage3.egg-info/SOURCES.txt
+simplePackage3.egg-info/dependency_links.txt
+simplePackage3.egg-info/requires.txt
+simplePackage3.egg-info/top_level.txt
