@@ -1,0 +1,4 @@
+#!python
+
+import mpishell
+mpishell.main()
