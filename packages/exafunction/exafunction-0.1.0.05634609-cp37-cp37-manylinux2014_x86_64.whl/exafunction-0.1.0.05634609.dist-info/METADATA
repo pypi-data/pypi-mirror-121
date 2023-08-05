@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: exafunction
+Version: 0.1.0.05634609
+Author: Exafunction, Inc.
+Author-email: douglas@exafunction.com
+License: Apache 2.0
+Requires-Dist: grpcio
+Requires-Dist: numpy
+Requires-Dist: protobuf
+
+UNKNOWN
