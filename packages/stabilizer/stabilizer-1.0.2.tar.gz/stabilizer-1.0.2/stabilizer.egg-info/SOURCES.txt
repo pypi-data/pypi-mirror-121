@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+stabilizer/__init__.py
+stabilizer/dataset.py
+stabilizer/llrd.py
+stabilizer/model.py
+stabilizer/reinitialize.py
+stabilizer/reproducibility.py
+stabilizer/trainer.py
+stabilizer.egg-info/PKG-INFO
+stabilizer.egg-info/SOURCES.txt
+stabilizer.egg-info/dependency_links.txt
+stabilizer.egg-info/requires.txt
+stabilizer.egg-info/top_level.txt
