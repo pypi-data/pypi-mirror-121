@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: easeMaker
+Version: 1.0.0
+Summary: This module makes you easy in Python
+Home-page: UNKNOWN
+Author: AbdulWahab
+Author-email: jr.abdulwahab@gmail.com
+License: MIT
+Description: 
+            this is a Simple Module which just makes Python Programming more easier especially based on System                   
+            Note: This is on development                    
+                               
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
