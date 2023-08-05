@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pycord-components
+Version: 1.0.2
+Summary: An unofficial library for pycord components.
+Home-page: https://github.com/Leek5/pycord-components
+Author: Leek5
+Author-email: gyubini38@protonmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: py-cord
+Requires-Dist: aiohttp
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Requires-Dist: sphinx ; extra == 'lint'
+Requires-Dist: sphinx-rtd-theme ; extra == 'lint'
+Provides-Extra: readthedocs
+Requires-Dist: sphinx ; extra == 'readthedocs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'readthedocs'
+
+<div align="center">
+    <a href="https://pypi.org/project/discord-components"><img src="https://raw.githubusercontent.com/kiki7000/discord.py-components/master/.github/logo.png" alt="discord-components logo" height="128" style="border-radius: 50%"></a>
+    <h1>pycord-components</h1>
+    <p>based on discord.py components - to comply with py-cord</p>
+</div>
+<img src="https://app.travis-ci.com/Leek5/pycord-components.svg?branch=master" alt="Travis CI Result">
+
+## Welcome!
+
+Discord components are cool, but pycord's document lacks ease of use in components. It
+is hard to wait, so we made a third-party library for using components such as
+buttons or selects!
+
+This project is open source ⭐.
+
+## Features
+
+- You can use message components and handle component interactions easily!
+- Third-party of pycord.
+- It is simply changed version of discord-components which doesn't require discord.py. Why? Because it is deprecated.
+
+## Install
+
+```
+pip install --upgrade pycord-components
+```
+
+## License
+
+This project is under the MIT License.
+
+
