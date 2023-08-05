@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+googolplex/__init__.py
+googolplex/test.py
+googolplex.egg-info/PKG-INFO
+googolplex.egg-info/SOURCES.txt
+googolplex.egg-info/dependency_links.txt
+googolplex.egg-info/requires.txt
+googolplex.egg-info/top_level.txt

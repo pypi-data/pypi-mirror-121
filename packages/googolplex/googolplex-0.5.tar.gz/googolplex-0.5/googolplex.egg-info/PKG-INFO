@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: googolplex
+Version: 0.5
+Summary: Useful for Data Manipulation
+Home-page: https://github.com/stsfaroz/pictures
+Author: SALMAN_FAROZ
+Author-email: farozsts@gmail.com
+License: MIT
+Keywords: googolplex
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Googolplex
+
+
