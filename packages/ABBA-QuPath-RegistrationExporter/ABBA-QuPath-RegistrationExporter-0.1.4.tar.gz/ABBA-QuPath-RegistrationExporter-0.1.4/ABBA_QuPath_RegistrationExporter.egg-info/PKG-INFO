@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ABBA-QuPath-RegistrationExporter
+Version: 0.1.4
+Summary: A QuPath-Abba Registration Exporter Application for Mouse Sections
+Home-page: UNKNOWN
+Author: Nicholas A. Del Grosso
+Author-email: delgrosso.nick@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# ABBA-QuPath Registration Exporter
+
+A Python app and Groovy script that helps export transformed cell detections
+from ABBA-registered data stored in QuPath projects.
+
+## Installation
+
+```
+pip install ABBA-QuPath-RegistrationExporter
+```
+
+## Running
+
+```
+regexport
+```
+
