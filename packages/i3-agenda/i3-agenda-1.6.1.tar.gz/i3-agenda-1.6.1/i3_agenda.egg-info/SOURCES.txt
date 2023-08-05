@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+i3_agenda/API.py
+i3_agenda/__init__.py
+i3_agenda/cache_utils.py
+i3_agenda/config.py
+i3_agenda/event.py
+i3_agenda.egg-info/PKG-INFO
+i3_agenda.egg-info/SOURCES.txt
+i3_agenda.egg-info/dependency_links.txt
+i3_agenda.egg-info/entry_points.txt
+i3_agenda.egg-info/requires.txt
+i3_agenda.egg-info/top_level.txt
