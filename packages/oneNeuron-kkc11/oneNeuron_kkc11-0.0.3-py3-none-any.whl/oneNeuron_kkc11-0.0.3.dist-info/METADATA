@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: oneNeuron-kkc11
+Version: 0.0.3
+Summary: it is a implemenation of preceptron
+Home-page: https://github.com/kkchaudhary11/oneNeuron_CD
+Author: kkc
+Author-email: kkchaudhary11@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/oneNeuron/kkc11/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+# oneNeuron_CD
+Continuous Deployment
+
+### 
+
+
