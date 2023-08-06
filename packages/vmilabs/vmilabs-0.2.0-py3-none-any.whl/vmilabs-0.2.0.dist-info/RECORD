@@ -1,0 +1,9 @@
+vmilabs/__init__.py,sha256=1KhrBItVjTCR-Sumh0o09b_aKrjTTcJrpTBh5GBw6Lk,21
+vmilabs/_logging.py,sha256=rGRGpDu6ASAVk_ivJhMNX54P5ysP-qJURyLmc3bhi7c,2060
+vmilabs/channel.py,sha256=piH3pZ46XSdbdLvLRpUd5U4QFx4uLKTN7_B_271gUc0,1010
+vmilabs/device.py,sha256=y23V-Kzk_gMFr-ahKvDOtJU-X93228ZHz8e3Q8DgQoM,6733
+vmilabs/wsChannel.py,sha256=UV3XpwEmVEPk1LsftFS21ysra9Hx-EXj9o56snejNXg,2197
+vmilabs-0.2.0.dist-info/METADATA,sha256=morb8yMDIqVVEyh5f63ScYuhdKmRVKAygJcHCpBxtRg,440
+vmilabs-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vmilabs-0.2.0.dist-info/top_level.txt,sha256=gX64lXlDdYVTOMfEmfxtjrVodxxlFklzqiHNfu6dzMo,8
+vmilabs-0.2.0.dist-info/RECORD,,
