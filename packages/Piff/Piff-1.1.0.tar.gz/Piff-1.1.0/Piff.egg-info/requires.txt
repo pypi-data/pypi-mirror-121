@@ -1,0 +1,9 @@
+galsim
+numpy
+scipy
+pyyaml
+treecorr
+fitsio
+matplotlib
+LSSTDESC.Coord
+treegp>=0.2
