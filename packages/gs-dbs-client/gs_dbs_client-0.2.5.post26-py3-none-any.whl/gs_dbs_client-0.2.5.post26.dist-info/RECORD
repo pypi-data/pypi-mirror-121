@@ -1,0 +1,9 @@
+client/gsdbs.py,sha256=z4Er-jUu81DCNoB-PkBsShZ12H7Wp4iMjWT9rMrlgG4,17559
+client/main.py,sha256=VQ6QDlLUQz9yaXBPbR6mcDHReYmV4gRUOo2O4tt7BC8,10036
+gsdbs/dbclient.py,sha256=e2x2e_9bZcAHVHZKYQz62Xv7ibCXwKNESG8O4Xqe8W4,18653
+gsdbs/missioncontrol.py,sha256=85JNX-L86Xkj2sHr-EcJEZC25PmhhuWjpjV2GbhAKfE,10459
+gs_dbs_client-0.2.5.post26.dist-info/METADATA,sha256=sva8i5J7U2ZdlKLtdHjHIvjuNfxcYbQsGkvBdX1l1ok,1373
+gs_dbs_client-0.2.5.post26.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gs_dbs_client-0.2.5.post26.dist-info/entry_points.txt,sha256=8S1fAD8d98nzpfpbCtNEfx4oHX1aEKSsjzNdbvalaf4,52
+gs_dbs_client-0.2.5.post26.dist-info/top_level.txt,sha256=HK1mX7g8JHh9yPQP4uADQFu-u4iZScVHUWtGmjNtJjg,6
+gs_dbs_client-0.2.5.post26.dist-info/RECORD,,
