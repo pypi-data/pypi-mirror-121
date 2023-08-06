@@ -1,0 +1,8 @@
+README.md
+setup.py
+papermate/papermate.py
+papermate.egg-info/PKG-INFO
+papermate.egg-info/SOURCES.txt
+papermate.egg-info/dependency_links.txt
+papermate.egg-info/entry_points.txt
+papermate.egg-info/top_level.txt
