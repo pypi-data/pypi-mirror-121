@@ -1,0 +1,16 @@
+pdlpy/__init__.py,sha256=jFPVAwe2WHNmYZW1Wqru8JiTviGmkU3mu7VjcK2AQDc,339
+pdlpy/bernoulli.py,sha256=01sEISP6G6BKp8wMEQDTVRY7fd09VLKdYLVzhSmPieQ,1450
+pdlpy/binomial.py,sha256=EBH3L8I-diCb9wHesfbb7i9yW3Okxi4mcIDNS6HOsfA,1570
+pdlpy/distribution.py,sha256=8L6n4WySAKa2wKuEyqKakBScAJdrfb15QC9LG67uUvc,473
+pdlpy/exponential.py,sha256=mLY4uZqg-FYnFNJRjln7ofUVQ1c9Ejp2FjZD3F7Cyy4,1373
+pdlpy/geometric.py,sha256=jeZi5UjIGT5Ri9-o9Ff_ZlKsHGl0aEs0YiYJuckYbWc,1497
+pdlpy/hypergeometric.py,sha256=C-njtoQU1EUamy9hm-dp3R4fn_sE8jQIe4HzdR0FX2I,1737
+pdlpy/math.py,sha256=3Nc_pfXxNb1q-VQpa2CwsGRfvnGL-aZvz12kSHr_8bQ,164
+pdlpy/normal.py,sha256=jvZDKSDlmAuF4Sip1aVQt6hh2mkRYacWsMsWlP2Fvo8,1495
+pdlpy/poisson.py,sha256=I-FZR6cvaspC5pdoW2x8JVqD_hLwPcm4Mh012WmU3JU,1538
+pdlpy/uniform.py,sha256=G1m2ZKy08KKRrKAqfce3y0ZZ56CzH26u2nuTZSc0ymY,1569
+pdlpy-0.3.0.dist-info/LICENSE,sha256=mEwcuFXNdtgBqZzDbLrQrthH8y-yCbI8Se8FG4oLy3k,1073
+pdlpy-0.3.0.dist-info/METADATA,sha256=3skaWkSKVA7o7vGJLY75N1MHMMUY_Q9YZn_cnRF7jMA,2584
+pdlpy-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pdlpy-0.3.0.dist-info/top_level.txt,sha256=aUC-11yxmKyimdLMlAT9VehN3fgV1l_PkFgv4S2IJlo,6
+pdlpy-0.3.0.dist-info/RECORD,,
