@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nemea-fet
+Version: 0.1.3
+Summary: Nemea Feature Exploration Toolkit
+Home-page: https://github.com/danieluhricek/nemea-fet
+Author: Daniel Uhříček
+Author-email: daniel.uhricek@gypri.cz
+License: UNKNOWN
+Description: # Feature Exploration Toolkit
+        
+        Exploratory data analysis toolkit applicable to data exported by Nemea [ipfixprobe](https://github.com/CESNET/ipfixprobe).
+        
+        [Documentation](https://docs.danieluhricek.cz/fet/)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
