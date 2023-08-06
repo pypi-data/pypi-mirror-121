@@ -1,0 +1,10 @@
+setup.py
+lugatim_cli/__init__.py
+lugatim_cli/__main__.py
+lugatim_cli/cli.py
+lugatim_cli.egg-info/PKG-INFO
+lugatim_cli.egg-info/SOURCES.txt
+lugatim_cli.egg-info/dependency_links.txt
+lugatim_cli.egg-info/entry_points.txt
+lugatim_cli.egg-info/requires.txt
+lugatim_cli.egg-info/top_level.txt
