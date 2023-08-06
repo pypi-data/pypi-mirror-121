@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: race-rep
+Version: 0.0.1
+Summary: F1 race report training package
+Home-page: https://git.foxminded.com.ua/Asomchik/task-06.git
+Author: Asomchik
+Author-email: asomchik@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+**Introduction**
+
+A simple one-module training package providing functions to create and print F1 race (Q1 of Monaco 2018) report.
+
+**Features**
+- You can use command line interface in a usual Python way:
+
+\>>> python report.py [-h] [--files FILES] [--driver DRIVER] [--desc | --asc]
+
+- Or you can simply *import* function(s) to your project
+
+
