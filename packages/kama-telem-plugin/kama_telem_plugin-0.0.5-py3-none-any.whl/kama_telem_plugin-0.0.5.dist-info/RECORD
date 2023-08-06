@@ -1,0 +1,13 @@
+kama_telem_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kama_telem_plugin/consts.py,sha256=ygAVOxEZtfFyz6BPA_zGyNIsjxb_4sH44lfPcvyDLCU,315
+kama_telem_plugin/nmachine_telem_backend.py,sha256=Z4ck1ApVAAPm_Z19phzILD1Jp8yh_PdPnmav5GTq3Yw,3129
+kama_telem_plugin/plugin.py,sha256=zeBjqX3JTrPPB4MRpgUEyJ6ou4rhc4rKtgtwl-IbmuQ,956
+kama_telem_plugin/assets/delete-telem-storage-info.md,sha256=mYB20edrLL4_Fqi8nfe9HK0mY5vOKCAFfBScXHRcgYc,976
+kama_telem_plugin/assets/enable-synopsis.md,sha256=VJ0yPe0Ay6FKzcMzYKhwNGHExc9PZBAr7IOQTaxsgJ4,1760
+kama_telem_plugin/assets/telem-detail-info.md,sha256=ItZ5AUeRuX2RUzDnj736jgMuvS8WxTsZKeP0efTt86E,389
+kama_telem_plugin/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kama_telem_plugin/models/telem_state_helper.py,sha256=dehih8C3uc1uT7H3NcGWWHSlcVnuMzVtUB5saCTJtfs,1731
+kama_telem_plugin-0.0.5.dist-info/METADATA,sha256=xSdtFd3V_YsL7LH0tWRUnxn1lbVyCayJJnE4AIQFig4,492
+kama_telem_plugin-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kama_telem_plugin-0.0.5.dist-info/top_level.txt,sha256=u-Tj_fNoRnnisixOyO6PdU6GLYY42sZw9lUBockM7z4,18
+kama_telem_plugin-0.0.5.dist-info/RECORD,,
