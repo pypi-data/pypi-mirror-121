@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: openctr
+Version: 0.1.0
+Summary: A configurable, tunable, and reproducible library for CTR prediction
+Home-page: https://github.com/xue-pai/OpenCTR
+Author: xpai
+Author-email: info@logpai.com
+License: Apache License 2
+Download-URL: https://github.com/xue-pai/OpenCTR
+Keywords: ctr prediction,recommender systems,ctr,cvr,pytorch
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ==3.6.*
+Description-Content-Type: text/markdown
+Provides-Extra: cpu
+Provides-Extra: gpu
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: PyYAML
+Provides-Extra: cpu
+Requires-Dist: torch (==1.0.*); extra == 'cpu'
+Provides-Extra: gpu
+Requires-Dist: torch (==1.0.*); extra == 'gpu'
+
+
+# OpenCTR
+Click-through rate (CTR) prediction is an important task in many industrial applications such as online advertising, recommender systems, and sponsored search. OpenCTR builds an open-source library for benchmarking existing CTR prediction models.
+
+## Model List
+CTR prediction models currently available:
+
+| Publication | Model | Paper | Available | 
+| -------: | :-----:  |:------------|:----------:|
+| WWW'07 | LR  |[Predicting Clicks: Estimating the Click-Through Rate for New Ads](https://dl.acm.org/citation.cfm?id=1242643) [**Microsoft**]| :heavy_check_mark: |
+|ICDM'10 | FM  | [Factorization Machines](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf)| :heavy_check_mark: |
+|CIKM'15 | CCPM | [A Convolutional Click Prediction Model](http://www.escience.cn/system/download/73676) | :heavy_check_mark: |
+| RecSys'16 | FFM  | [Field-aware Factorization Machines for CTR Prediction](https://dl.acm.org/citation.cfm?id=2959134) [**Criteo**] |:heavy_check_mark: |
+| RecSys'16 | YoutubeDNN  | [Deep Neural Networks for YouTube Recommendations](http://art.yale.edu/file_columns/0001/1132/covington.pdf) [**Google**] |:heavy_check_mark: |
+| DLRS'16 | Wide&Deep  | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf) [**Google**] |:heavy_check_mark: |
+|ECIR'16 | FNN  | [Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](https://arxiv.org/abs/1601.02376) [**RayCloud**] |:heavy_check_mark: |
+| ICDM'16 | IPNN  | [Product-based Neural Networks for User Response Prediction](https://arxiv.org/pdf/1611.00144.pdf) | :heavy_check_mark: |
+| KDD'16 | DeepCross  | [Deep Crossing: Web-Scale Modeling without Manually Crafted Combinatorial Features](https://www.kdd.org/kdd2016/papers/files/adf0975-shanA.pdf) [**Microsoft**]  | :heavy_check_mark: |
+| NIPS'16 | HOFM  | [Higher-Order Factorization Machines](https://papers.nips.cc/paper/6144-higher-order-factorization-machines.pdf) | :heavy_check_mark: |
+| IJCAI'17 | DeepFM  | [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/abs/1703.04247), [**Huawei**] | :heavy_check_mark: |
+|SIGIR'17 | NFM | [Neural Factorization Machines for Sparse Predictive Analytics](https://dl.acm.org/citation.cfm?id=3080777) | :heavy_check_mark: |
+|IJCAI'17 | AFM | [Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/0435.pdf) |:heavy_check_mark:|
+| ADKDD'17 | DCN  | [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123) [**Google**] | :heavy_check_mark:|
+| WWW'18 | FwFM  | [Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](https://arxiv.org/pdf/1806.03514.pdf) [**Oath, TouchPal, LinkedIn, Ablibaba**] | :heavy_check_mark: |
+|KDD'18| xDeepFM | [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf) [**Microsoft**] | :heavy_check_mark: |
+|KDD'18 | DIN | [Deep Interest Network for Click-Through Rate Prediction](https://www.kdd.org/kdd2018/accepted-papers/view/deep-interest-network-for-click-through-rate-prediction) [**Alibaba**] | :heavy_check_mark: |
+|CIKM'19| FiGNN | [FiGNN: Modeling Feature Interactions via Graph Neural Networks for CTR Prediction](https://arxiv.org/abs/1910.05552) | :heavy_check_mark: |
+|CIKM'19| AutoInt+ | [AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/abs/1810.11921) | :heavy_check_mark: |
+|RecSys'19| FiBiNET | [FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction](https://arxiv.org/abs/1905.09433) [**Sina Weibo**] | :heavy_check_mark: |
+|WWW'19| FGCNN | [Feature Generation by Convolutional Neural Network for Click-Through Rate Prediction](https://arxiv.org/abs/1904.04447) [**Huawei**] | :heavy_check_mark: |
+| AAAI'19| HFM+ | [Holographic Factorization Machines for Recommendation](https://ojs.aaai.org//index.php/AAAI/article/view/4448)  | :heavy_check_mark: |
+| NeuralNetworks'20| ONN  | [Operation-aware Neural Networks for User Response Prediction](https://arxiv.org/pdf/1904.12579)  | :heavy_check_mark: |
+| AAAI'20| AFN+ | [Adaptive Factorization Network: Learning Adaptive-Order Feature Interactions](https://ojs.aaai.org/index.php/AAAI/article/view/5768) | :heavy_check_mark: |
+| AAAI'20| LorentzFM  | [Learning Feature Interactions with Lorentzian Factorization](https://arxiv.org/abs/1911.09821) | :heavy_check_mark: |
+| WSDM'20| InterHAt  | [Interpretable Click-through Rate Prediction through Hierarchical Attention](https://dl.acm.org/doi/10.1145/3336191.3371785) | :heavy_check_mark: |
+| DLP-KDD'20 | FLEN  | [FLEN: Leveraging Field for Scalable CTR Prediction](https://arxiv.org/abs/1911.04690) [**Tencent**] | :heavy_check_mark: |
+
+
