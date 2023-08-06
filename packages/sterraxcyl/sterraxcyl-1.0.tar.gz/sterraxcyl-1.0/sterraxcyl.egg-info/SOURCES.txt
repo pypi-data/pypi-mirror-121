@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+sterraxcyl/__init__.py
+sterraxcyl/core.py
+sterraxcyl.egg-info/PKG-INFO
+sterraxcyl.egg-info/SOURCES.txt
+sterraxcyl.egg-info/dependency_links.txt
+sterraxcyl.egg-info/entry_points.txt
+sterraxcyl.egg-info/requires.txt
+sterraxcyl.egg-info/top_level.txt

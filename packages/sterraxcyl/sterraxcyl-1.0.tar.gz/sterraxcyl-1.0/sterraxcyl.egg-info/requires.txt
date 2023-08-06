@@ -1,0 +1,7 @@
+argparse
+datetime
+instaloader
+openpyxl
+requests
+string-color
+tqdm
