@@ -1,0 +1,8 @@
+setup.py
+sql-table-pandas-df/__init__.py
+sql-table-pandas-df/main.py
+sql_table_pandas_df.egg-info/PKG-INFO
+sql_table_pandas_df.egg-info/SOURCES.txt
+sql_table_pandas_df.egg-info/dependency_links.txt
+sql_table_pandas_df.egg-info/requires.txt
+sql_table_pandas_df.egg-info/top_level.txt
