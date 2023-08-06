@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: django-sass-finder
+Version: 2.0.6
+Summary: A Django finder that compiles Sass files
+Home-page: https://github.com/Uniquode/django_sass_finder
+License: MIT
+Keywords: django,scss,staticfiles
+Author: Jesus Trujillo
+Author-email: trudev.professional@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: Django (>=3.2,<4.0)
+Requires-Dist: libsass (>=0.21,<0.22)
+Project-URL: Repository, https://github.com/Uniquode/django_sass_finder
