@@ -1,0 +1,8 @@
+extended-json-schema-validator>=0.9.9
+jsonschema[format]>=3.0.0
+uritools
+cython
+owlready2>=0.23
+pyxdg
+dateparser
+pyyaml
