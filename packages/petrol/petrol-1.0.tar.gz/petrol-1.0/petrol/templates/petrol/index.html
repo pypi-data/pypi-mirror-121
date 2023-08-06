@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>working</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ota.css'%}">
+</head>
+<body>
+
+   <button onclick="location.href = 'download'"> Download</button> <hr>
+    {%  if data  %}
+
+    {{data}}
+
+    {%  endif %}
+
+{% block content %}
+   <h2>upload</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="document">
+        <button type="submit" onclick="location.href = 'upload'">upload file</button>
+
+    </form>
+{% endblock %}
+
+        <input type="text" id="fileList" name="fileList" webkitdirectory="" multiple="" />
+        <ul id="listing"></ul>
+        <button type="submit" onclick="location.href = 'abbb'">upload file</button>
+
+<button onclick="location.href = 'example'"> example</button> <hr>
+    {%  if data  %}
+
+    {{data}}
+
+    {%  endif %}
+
+<form method="post" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <input type="text" name="u_name">
+    <button type="submit" onclick="location.href = 'app1'">upload file</button>
+</form>
+
+
+</body>
+</html>
