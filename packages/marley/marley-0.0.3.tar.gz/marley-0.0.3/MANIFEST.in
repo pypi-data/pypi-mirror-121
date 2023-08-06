@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include requirements.txt
+include marley/worlds/grid_royale/server/static/*
+include marley/worlds/grid_royale/server/static/ravenna/*
+include marley/demo.h5
