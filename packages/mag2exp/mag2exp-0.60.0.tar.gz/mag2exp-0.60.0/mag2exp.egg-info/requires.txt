@@ -1,0 +1,3 @@
+oommfc~=0.60.0
+numpy>=1.19
+scipy>=1.6
