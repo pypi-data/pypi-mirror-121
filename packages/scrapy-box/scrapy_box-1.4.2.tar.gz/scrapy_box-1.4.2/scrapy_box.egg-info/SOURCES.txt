@@ -1,0 +1,16 @@
+LICENSE.md
+README.rst
+setup.py
+scrapy_box/__init__.py
+scrapy_box.egg-info/PKG-INFO
+scrapy_box.egg-info/SOURCES.txt
+scrapy_box.egg-info/dependency_links.txt
+scrapy_box.egg-info/requires.txt
+scrapy_box.egg-info/top_level.txt
+scrapy_box/middlewares/__init__.py
+scrapy_box/middlewares/cookiesmiddleware.py
+scrapy_box/middlewares/proxymiddleware.py
+scrapy_box/middlewares/retrymiddleware.py
+scrapy_box/pipelines/__init__.py
+scrapy_box/pipelines/mongo.py
+scrapy_box/pipelines/mysql.py
