@@ -1,0 +1,8 @@
+README.txt
+setup.py
+MainContent/BasicMath.py
+MainContent/__init__.py
+MainContent.egg-info/PKG-INFO
+MainContent.egg-info/SOURCES.txt
+MainContent.egg-info/dependency_links.txt
+MainContent.egg-info/top_level.txt
