@@ -1,0 +1,10 @@
+daal_static-2021.4.0.data/data/Library/lib/onedal.lib,sha256=lHa3qqlfCzeegTxNQqwTb7psuBJoV0Y3i69GPlIBMIA,54485152
+daal_static-2021.4.0.data/data/Library/lib/onedal_core.lib,sha256=_1AgHHwv_o_Sv3cmQq8T1LnsjIUukUU4egnmflmxteo,679059660
+daal_static-2021.4.0.data/data/Library/lib/onedal_dpc.lib,sha256=D1Pr6wikuTekibvZUVgb6kQaGGo6BMkOMOOaK4ITHgg,82380400
+daal_static-2021.4.0.data/data/Library/lib/onedal_sequential.lib,sha256=LICytdLNwq48Tq-1jOWGhQO0dc6IidfB7g7WCjdfLec,127420460
+daal_static-2021.4.0.data/data/Library/lib/onedal_thread.lib,sha256=94i-TLvySfeyDon7EEtfGkf8WT3hR2sFJy0MiY-jkPM,146168404
+daal_static-2021.4.0.dist-info/LICENSE.txt,sha256=pCG_7KBNR3dJDf6DpRA9yN9QaZnqEcKUtASRAYsSQxM,4547
+daal_static-2021.4.0.dist-info/METADATA,sha256=SmkgmGRaqaMD3Q2nphAHNrZ2tP1nrRswnbpA1TkRyTw,1201
+daal_static-2021.4.0.dist-info/WHEEL,sha256=8LoR7XFRBQAclYSv48VVSgW4Rfczh8dfa-4Q4WIotnk,128
+daal_static-2021.4.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+daal_static-2021.4.0.dist-info/RECORD,,
