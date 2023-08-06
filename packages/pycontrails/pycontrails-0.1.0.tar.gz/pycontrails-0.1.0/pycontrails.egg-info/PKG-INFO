@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pycontrails
+Version: 0.1.0
+Summary: Python library for contrail modeling
+Home-page: UNKNOWN
+Author: Orca Sciences
+Author-email: info@contrails.earth
+License: Unlicensed
+Keywords: contrails,climate,geospatial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: ecmwf
+Provides-Extra: vis
+Provides-Extra: jupyter
+Provides-Extra: gcp
+Provides-Extra: dev
+License-File: LICENSE
+
+# PyContrails
+
+Python library for contrail modeling and analysis.
+
+> To be released
+
+
+

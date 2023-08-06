@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pycontrails/__init__.py
+pycontrails.egg-info/PKG-INFO
+pycontrails.egg-info/SOURCES.txt
+pycontrails.egg-info/dependency_links.txt
+pycontrails.egg-info/requires.txt
+pycontrails.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+# see also setup.cfg for other project configuration
+
+# https://setuptools.readthedocs.io/en/latest/
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# https://black.readthedocs.io/en/stable/pyproject_toml.html
+[tool.black]
+line-length = 100
+
+# https://black.readthedocs.io/en/stable/compatible_configs.html#isort
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 100
