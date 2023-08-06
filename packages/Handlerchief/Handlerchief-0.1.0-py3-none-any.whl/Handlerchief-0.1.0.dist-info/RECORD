@@ -1,0 +1,12 @@
+handlerchief/__init__.py,sha256=VESf2zLooOLdnqDzV1rG-Br6Iz0ZcgDCn1qNWicnImI,208
+handlerchief/chain_handler.py,sha256=iYWcBkZ0GHjqwfCFkKIecJgITuXeM7uumfN1cxWznHg,794
+handlerchief/error_wrapper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+handlerchief/i_handler.py,sha256=aS6ojR25pv821gH6sNouv3qSTKk56PNUAitTqfBnhc4,420
+handlerchief/i_middleware_handler.py,sha256=2KKE9ZGsxW5-2K8LnUHsdnpepiQUsYzz_JTbH0TSwvI,909
+handlerchief/multi_handler.py,sha256=HpksT_71SDFjP9gXlr2udh9lvlZHi7iq4uwHHLHp490,823
+handlerchief/pipe_handler.py,sha256=junXl8nv_iDrTuY-AMWrXagtqUgmn2Q8wA7N6VoT8OM,814
+Handlerchief-0.1.0.dist-info/LICENSE,sha256=8J1Fkf8qPEoUgtkaGofA3BaNh7lR7OtaA-UzRdauXkI,1077
+Handlerchief-0.1.0.dist-info/METADATA,sha256=j3CcdJ3KweIAZDR4F1seK_dbbRJ_x294_rjtnWhBIMM,521
+Handlerchief-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Handlerchief-0.1.0.dist-info/top_level.txt,sha256=xXXYOrvFgIfIqRU9koNpYju_VUxYGOqEM3haUk_-PHo,13
+Handlerchief-0.1.0.dist-info/RECORD,,
