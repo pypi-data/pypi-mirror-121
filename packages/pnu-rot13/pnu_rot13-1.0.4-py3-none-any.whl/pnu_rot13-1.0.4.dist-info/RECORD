@@ -1,0 +1,9 @@
+pnu_rot13-1.0.4.data/data/man/man6/rot13.6.gz,sha256=6A4xQFTYp8_FAU3XPnaXUGZLiEfje7w7F5KDC-TCiqY,1927
+rot13/__init__.py,sha256=OIUvQK6yxVB8AiXXHt83ZFQSsZMxRVNxkf2BJMND5v0,60
+rot13/main.py,sha256=-P8sOBZZKqqbRdYQP8JYgZ2gXc9sskHfIAdRunpJSmM,6650
+pnu_rot13-1.0.4.dist-info/License,sha256=igxAIYgcptACtNIpfxFRG70HeUBZ0MiucpJNvbv3Sr8,1461
+pnu_rot13-1.0.4.dist-info/METADATA,sha256=0LntLvVa0s_r41ZDg5rhDEUyT5KwtsgUcDOfR11ln6o,4485
+pnu_rot13-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pnu_rot13-1.0.4.dist-info/entry_points.txt,sha256=40K_upUAQSIEyssSMGFzWIk4zjaVa7WWqPrD8m6I6S0,38
+pnu_rot13-1.0.4.dist-info/top_level.txt,sha256=3oo48F4AVJtMTEzlC0rvOAap2JZ4q1Yb8WNozHMZNMg,6
+pnu_rot13-1.0.4.dist-info/RECORD,,
