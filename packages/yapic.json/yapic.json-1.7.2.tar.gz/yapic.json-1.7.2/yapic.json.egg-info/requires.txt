@@ -1,0 +1,7 @@
+
+[benchmark]
+metamagic.json
+python-rapidjson
+simplejson
+termcolor
+ujson
