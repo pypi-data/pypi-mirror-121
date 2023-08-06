@@ -1,0 +1,8 @@
+matplotlib
+matplotlib-label-lines
+numpy
+pandas
+seaborn
+
+[taxcalc]
+taxcalc
