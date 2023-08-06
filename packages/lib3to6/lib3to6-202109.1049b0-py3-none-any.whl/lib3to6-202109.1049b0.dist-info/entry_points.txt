@@ -1,0 +1,3 @@
+[console_scripts]
+lib3to6 = lib3to6.__main__:main
+
