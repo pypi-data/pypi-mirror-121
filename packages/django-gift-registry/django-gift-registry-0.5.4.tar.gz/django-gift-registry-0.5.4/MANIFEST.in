@@ -1,0 +1,4 @@
+recursive-include src/gift_registry/templates *
+recursive-include src/gift_registry/static *
+recursive-include src/gift_registry/fixtures *
+include *.rst
