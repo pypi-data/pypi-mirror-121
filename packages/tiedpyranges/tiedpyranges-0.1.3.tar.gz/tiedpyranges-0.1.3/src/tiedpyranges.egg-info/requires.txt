@@ -1,0 +1,3 @@
+pandas>=1.2
+pyranges>=0.0.99
+pyfaidx>=0.6
