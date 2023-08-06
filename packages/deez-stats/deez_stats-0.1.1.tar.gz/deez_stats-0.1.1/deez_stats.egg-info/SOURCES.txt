@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+deez_stats/__init__.py
+deez_stats/leagueinfo.py
+deez_stats/managerinfo.py
+deez_stats/playerinfo.py
+deez_stats.egg-info/PKG-INFO
+deez_stats.egg-info/SOURCES.txt
+deez_stats.egg-info/dependency_links.txt
+deez_stats.egg-info/requires.txt
+deez_stats.egg-info/top_level.txt
+docs/cleaned_names.json
+docs/game_league_ids.json
+docs/yahoo_api_nonsense.md
