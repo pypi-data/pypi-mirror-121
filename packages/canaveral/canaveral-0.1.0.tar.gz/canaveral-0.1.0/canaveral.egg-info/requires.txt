@@ -1,0 +1,10 @@
+pyside6
+pywin32
+loguru
+stringscore
+winpath
+PyYAML
+prettyprinter
+appdirs
+tabulate
+numpy
