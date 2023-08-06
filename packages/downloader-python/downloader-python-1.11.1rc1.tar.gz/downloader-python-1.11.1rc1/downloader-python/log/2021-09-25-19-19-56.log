@@ -1,0 +1,7 @@
+[Sat Sep 25 19:02:56 2021][main/Info] loading for downloader:1.11.1rc1
+[Sat Sep 25 19:02:56 2021][main/Info] Connected to log file:log/2021-09-25-19-19-56.log
+[Sat Sep 25 19:02:58 2021][main/INFO] Setting user:1
+[Sat Sep 25 19:02:58 2021][main/Info] icon loaded
+[Sat Sep 25 19:02:58 2021][main/Info] load settings.properties sucsess
+[Sat Sep 25 19:02:58 2021][main/Info] timer initlazing sucsess
+[Sat Sep 25 19:02:58 2021][main/Info] backend library:PyQt5 version 5.15.4 build on Qt 5.15.2
