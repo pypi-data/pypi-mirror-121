@@ -1,0 +1,4 @@
+hsmodels==0.2.5
+requests
+requests_oauthlib
+pandas
