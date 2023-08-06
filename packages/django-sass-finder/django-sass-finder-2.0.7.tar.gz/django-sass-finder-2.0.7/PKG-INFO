@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: django-sass-finder
+Version: 2.0.7
+Summary: A Django finder that compiles Sass files
+Home-page: https://github.com/Tru-Dev/django_sass_finder
+License: MIT
+Keywords: django,scss,staticfiles
+Author: Jesus Trujillo
+Author-email: trudev.professional@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: Django (>=3.2,<4.0)
+Requires-Dist: libsass (>=0.21,<0.22)
+Project-URL: Repository, https://github.com/Tru-Dev/django_sass_finder
+Description-Content-Type: text/markdown
+
+# Django Sass Finder
+A static files finder for Django that compiles Sass files
+
+## Installation
+### WARNING: MAKE SURE YOU HAVE NO SASS PACKAGES INSTALLED (other than libsass)!
+Run `pip install django_sass_finder` to add this module to your virtualenv,
+then add the finder to the list your static file finders as follows:
+
+```python
+STATICFILES_FINDERS = [
+    # add the default Django finders as this setting will override the default
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    # our finder
+    'django_sass_finder.finders.ScssFinder',
+]
+```
+There is no need to add django_sass_finder into `settings.INSTALLED_APPS`.
+
+The following additional (with examples) settings are used and required by this staticfiles finder:
+
+```python
+BASE_DIR = ...
+
+SCSS_ROOT = BASE_DIR / 'scss'   # where the .scss files are sourced
+SCSS_COMPILE = [                # a list of filename pattern to search for within SCSS_ROOT
+    'site.scss',                # default is **/*,css (all scss source files in and below SCSS_ROOT)                                                                                                                                                                                                                                                                                            
+    'admin/admin.scss',
+]
+SCSS_INCLUDE_PATHS = [          # optional: scss compiler include paths (default = empty)
+    BASE_DIR / 'node_modules'
+]
+CSS_STYLE = 'compressed'            # optional: output format 'nested', 'expanded','compact','compressed'
+CSS_MAP = True                      # optional: generate a source map
+CSS_COMPILE_DIR = BASE_DIR / 'static' / 'css'   # The target directories for the compiled .css
+STATICFILES_ROOT = [                            # this should be at or above the CSS_COMPILE_DIR
+    BASE_DIR / 'static'                         # but targetting {app}/static should also work
+]
+```
+
+`BASE_DIR` and variants above are `pathlib.Path` objects, but path strings can also be used.
+
+
+## Usage
+This module dynamically compiles to target .css files, and recompiles them on demand whenever
+they are updated.
+
+The `collectstatic` management command compiles these, and lets the `FilesystemFinder` transfer
+them to STATIC_ROOT. The development server is perfectly able to serve these from
+STATICFILES_ROOT without the need to `collectstatic`.
+
+## License
+This package is licensed under the MIT license.
+
