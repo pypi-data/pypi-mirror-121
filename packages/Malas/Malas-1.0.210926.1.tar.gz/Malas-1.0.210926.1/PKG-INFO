@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: Malas
+Version: 1.0.210926.1
+Summary: Malas (Multi-vendor automation leverage at slouching)
+Home-page: https://github.com/destrianto/malas
+Author: Ade Destrianto
+Author-email: ade.destrianto@mail.ru
+License: MIT
+Download-URL: https://github.com/destrianto/malas/releases/download/v1.0/malas_1.0.210926.0001.zip
+Description: UNKNOWN
+Keywords: multi-vendor,network,automation
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.9
