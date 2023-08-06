@@ -1,0 +1,84 @@
+# ------------------------------------------------------------------------------
+#  Copyleft 2015-2021  PacMiam
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+# ------------------------------------------------------------------------------
+
+# Filesystem
+from pathlib import Path
+
+# XDG
+from xdg.BaseDirectory import xdg_cache_home, xdg_config_home, xdg_data_home
+
+
+# ------------------------------------------------------------------------------
+#   Class
+# ------------------------------------------------------------------------------
+
+class Metadata:
+    """ Store application informations
+    """
+
+
+class Folders:
+    """ Store application paths
+    """
+
+    APPLICATIONS = Path(xdg_data_home, "applications").expanduser()
+
+    class Default:
+        """ Store default application paths
+        """
+
+        CACHE = Path(xdg_cache_home).expanduser()
+        CONFIG = Path(xdg_config_home).expanduser()
+        LOCAL = Path(xdg_data_home).expanduser()
+
+
+class Icons:
+    """ Store icons name
+    """
+
+    class Size:
+        """ Store icons cache subdirectories
+        """
+
+    class Symbolic:
+        """ Store symbolic icons name
+
+        Store icon symbolic version which are available in GNOME icons theme
+        gnome-icon-theme-symbolic
+        """
+
+
+class Columns:
+    """ Store games views informations
+    """
+
+    class Key:
+        """ Store view flags name
+        """
+
+        List = "list"
+        Grid = "grid"
+
+    class List:
+        """ Store treeview model column index
+        """
+
+    class Grid:
+        """ Store grid model column index
+        """
