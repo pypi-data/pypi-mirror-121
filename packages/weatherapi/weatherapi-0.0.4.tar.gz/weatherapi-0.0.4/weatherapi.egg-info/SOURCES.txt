@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+weatherapi/__init__.py
+weatherapi/main.py
+weatherapi.egg-info/PKG-INFO
+weatherapi.egg-info/SOURCES.txt
+weatherapi.egg-info/dependency_links.txt
+weatherapi.egg-info/requires.txt
+weatherapi.egg-info/top_level.txt
