@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+QuadraticElement/QE.py
+QuadraticElement/__init__.py
+QuadraticElement/_library.py
+QuadraticElement/_open.py
+QuadraticElement/new_user.py
+QuadraticElement/user_message.py
+QuadraticElement.egg-info/PKG-INFO
+QuadraticElement.egg-info/SOURCES.txt
+QuadraticElement.egg-info/dependency_links.txt
+QuadraticElement.egg-info/requires.txt
+QuadraticElement.egg-info/top_level.txt
+QuadraticElement/img/__init__.py

@@ -1,0 +1,7 @@
+FastDataTime>=0.0.8
+RandomKey>=0.0.1
+numpy>=1.21.2
+wget>=3.2
+opencv-python>=4.5.3.56
+PyPoli>=0.1.0
+FolderProcessing>=0.1.1.2
