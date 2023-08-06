@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/favourite_object.py
+lancstro/__init__.py
+lancstro/base.py
+lancstro.egg-info/PKG-INFO
+lancstro.egg-info/SOURCES.txt
+lancstro.egg-info/dependency_links.txt
+lancstro.egg-info/requires.txt
+lancstro.egg-info/top_level.txt
+lancstro/members/__init__.py
+lancstro/members/staff.py
