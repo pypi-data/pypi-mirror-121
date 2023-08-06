@@ -1,0 +1,8 @@
+numpy
+pandas
+geopandas
+matplotlib>=3.0
+cartopy>=0.20.0
+descartes
+mapclassify
+pyproj
