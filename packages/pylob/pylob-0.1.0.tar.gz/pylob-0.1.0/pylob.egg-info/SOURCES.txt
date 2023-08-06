@@ -1,0 +1,8 @@
+README.md
+setup.py
+pylob/__init__.py
+pylob.egg-info/PKG-INFO
+pylob.egg-info/SOURCES.txt
+pylob.egg-info/dependency_links.txt
+pylob.egg-info/requires.txt
+pylob.egg-info/top_level.txt
