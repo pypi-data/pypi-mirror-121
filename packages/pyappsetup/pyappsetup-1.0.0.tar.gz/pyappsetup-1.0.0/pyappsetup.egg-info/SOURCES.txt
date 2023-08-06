@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyappsetup/__init__.py
+pyappsetup/const.py
+pyappsetup/datatypes.py
+pyappsetup/interface.py
+pyappsetup/parser.py
+pyappsetup/structure.py
+pyappsetup/writer.py
+pyappsetup.egg-info/PKG-INFO
+pyappsetup.egg-info/SOURCES.txt
+pyappsetup.egg-info/dependency_links.txt
+pyappsetup.egg-info/top_level.txt

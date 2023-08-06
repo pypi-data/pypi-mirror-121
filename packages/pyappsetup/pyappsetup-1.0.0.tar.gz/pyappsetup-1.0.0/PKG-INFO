@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyappsetup
+Version: 1.0.0
+Summary: Reading / writing configuration files
+Home-page: https://github.com/louisdevie/pyappsetup
+Author: Louis DEVIE
+Author-email: louisdevie.contact@gmail.com
+License: UNKNOWN
+Description: # PyAppSetup
+        
+        [![Documentation Status](https://readthedocs.org/projects/pyappsetup/badge/?version=latest)](https://pyappsetup.readthedocs.io/en/latest/?badge=latest)
+        
+        Reading / writing configuration files
+        
+        Documentation can be found at : https://pyappsetup.readthedocs.io/en/latest
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
