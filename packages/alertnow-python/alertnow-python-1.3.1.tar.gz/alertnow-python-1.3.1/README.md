@@ -1,0 +1,39 @@
+# AlertNow Python
+This package used for logging information or errors.
+
+#Installation
+```pip install AlertNow-Python```
+
+#How to use it?
+First, you need to register with ```sign-up``` remote API and 
+get the api key on the site.
+After, you must initialize connection using ```set_api_key``` and you can initialize user and tags data using ```set_user```, ```set_tag``` method.
+And you can use ```info``` or ```error``` methods.
+
+#Example
+```angular2html
+from logger.src.logger import set_api_key, set_user, set_tag, info, error
+from logger.src.common.dto.user import User
+from logger.src.common.dto.userGeo import UserGeo
+import jsonpickle
+
+def execute_method():
+    set_api_key('b4984c8de7f14b2f86f8e036456fd60c')
+    set_tag('os.name', 'python OS')
+    set_user(User(
+        "13213231",
+        "111.11.1.11",
+        UserGeo(
+            "1044",
+            "Baku",
+            "Gadabay"
+        )
+    ))
+
+    response = info('hi from python env')
+    print(response.status_code)
+    print(jsonpickle.encode(response))
+
+execute_method()
+```
+
