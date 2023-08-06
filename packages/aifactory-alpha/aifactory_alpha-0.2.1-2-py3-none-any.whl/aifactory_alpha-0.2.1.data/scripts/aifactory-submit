@@ -1,0 +1,54 @@
+#!/bin/bash
+
+#echo "Not done yet!"
+
+#!/bin/bash
+
+OPTIONS=''
+
+while [[ $# -gt 0 ]]; do
+  key="$1"
+  case $key in
+    -u|--user_email)
+      USER_EMAIL="$2"
+      OPTIONS="${OPTIONS} --user_email ${USER_EMAIL}"
+      shift # past argument
+      ;;
+    -f|--file)
+      FILES=''
+      while (( "$#" >= 2 )) && ! [[ $2 = -* ]]; do
+        FILES=${FILES}" $2"
+        shift
+      done
+      OPTIONS="${OPTIONS} --file ${FILES}"
+      ;;
+    -t|--task_id)
+      TASK_ID="$2"
+      OPTIONS="${OPTIONS} --task_id ${TASK_ID}"
+      shift # past argument
+      ;;
+    -d|--debug)
+      DEBUG="$2"
+      OPTIONS="${OPTIONS} --debug ${DEBUG}"
+      shift
+      ;;
+    --submit_url)
+      SUBMIT_URL="$2"
+      OPTIONS="${OPTIONS} --submit_url ${SUBMIT_URL}"
+      shift
+      ;;
+    --auth_url)
+      AUTH_URL="$2"
+      OPTIONS="${OPTIONS} --auth_url ${AUTH_URL}"
+      shift
+      ;;
+    --log_dir)
+      LOG_DIR="$2"
+      OPTIONS="${OPTIONS} --log_dir ${LOG_DIR}"
+      shift
+      ;;
+  esac
+  shift
+done
+
+python3 -m aifactory_alpha.API ${OPTIONS}
