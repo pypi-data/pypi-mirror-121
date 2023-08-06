@@ -1,0 +1,6 @@
+Change log
+===========
+
+0.2 (29/09/2021)
+-------------------
+- new function : find_limit
