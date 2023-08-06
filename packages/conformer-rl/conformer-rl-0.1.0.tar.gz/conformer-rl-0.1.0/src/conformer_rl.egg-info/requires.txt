@@ -1,0 +1,9 @@
+numpy
+torch>=1.7.0
+tensorboard>=2.4.0
+gym>=0.19.0
+stable-baselines3>=1.0
+ligninkmc
+seaborn
+stk
+py3Dmol
