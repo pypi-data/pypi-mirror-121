@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cpmaxToolbox/FilterTool.py
+cpmaxToolbox/__init__.py
+cpmaxToolbox.egg-info/PKG-INFO
+cpmaxToolbox.egg-info/SOURCES.txt
+cpmaxToolbox.egg-info/dependency_links.txt
+cpmaxToolbox.egg-info/requires.txt
+cpmaxToolbox.egg-info/top_level.txt
