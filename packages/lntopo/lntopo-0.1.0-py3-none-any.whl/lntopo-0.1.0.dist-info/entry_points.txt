@@ -1,0 +1,3 @@
+[console_scripts]
+lntopo-cli=lntopo.__main__:cli
+
