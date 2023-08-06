@@ -1,0 +1,3 @@
+[console_scripts]
+marley = marley:marley
+
