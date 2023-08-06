@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: AcousticExport
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyproj (==3.2.1)
+Requires-Dist: echopype (==0.5.3) ; python_version == "3.9"
+
+UNKNOWN
+
