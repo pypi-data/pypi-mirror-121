@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+inspr/__init__.py
+inspr/client.py
+inspr/models.py
+inspr/rest.py
+inspr.egg-info/PKG-INFO
+inspr.egg-info/SOURCES.txt
+inspr.egg-info/dependency_links.txt
+inspr.egg-info/requires.txt
+inspr.egg-info/top_level.txt
