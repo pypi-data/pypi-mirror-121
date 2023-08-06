@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: piperblue
+Version: 0.1.0
+Summary: The base package to extend to create a Piper Blueprint
+Home-page: https://github.com/piper-tools/piper
+Author: Federico Pugliese
+Author-email: federico.pugliese.wr@gmail.com
+License: Apache Software License, Version 2.0
+Description: # Piperblue
+        
+        The base package to extend to create a [Piper](https://github.com/piper-tools/piper) Blueprint.
+        
+        ## What is a Piper Blueprint
+        
+        A Piper Blueprint is a tool to speed up the creation of new projects.
+        
+        Instead of manually create repetitive folder structures, you can use `piper blueprint` to make them for you.
+        
+        A Piper Blueprint is a Python package that is used by Piper to create a Pipe (for instance, another Python package) with a well-known structure easily.
+        
+        There are plenty of public Blueprint to use that should cover most needs.
+        
+        ## How to use a Blueprint
+        
+        Once you have choosen the perfect Blueprint (or you have created one by yourself, as explained below), you are ready to create a `blueprint.yml` file and then run `piper blueprint`, which will look for it.
+        
+        In the `blueprint.yml` you have to specify the structure of your Pipes. For instance, to create a project like this:
+        
+        ```
+        common/
+        microservices/
+            first/
+            second/
+        ```
+        
+        You have to write:
+        
+        ```
+        pipes:
+        
+          common:
+            blueprint: <chosen blueprint package>==<version>
+            config:
+              ...
+        
+          microservices:
+            pipes:
+        
+              first:
+                blueprint: <chosen blueprint package>==<version>
+                config:
+                  ...
+        
+              second:
+                blueprint: <chosen blueprint package>==<version>
+                config:
+                  ...
+        ```
+        
+        Please refer to the documentation of the specific Blueprint to know how to write the relative section of the `blueprint.yml`.
+        
+        
+        ## Creating a Piper Blueprint
+        
+        To create a Piper Blueprint, you have to alternatively:
+        
+        - ***(Recommended)*** Use the `piperblueblue` Blueprint with `piper blueprint`, to start with your Blueprint project
+        - Setup a Python package with a particular structure
+        
+        An example of a Blueprint can be found [here](https://github.com/piper-tools/piperblue/tree/master/src/tests/data/piperblueexample/package).
+        
+        
+        ### (Recommended) Using Piperblueblue
+        
+        - Follow the [Piperblueblue](https://github.com/piper-tools/piperblueblue) instructions to create the base structure of your Blueprint
+        - Modify the content of `resources/blueprint` folder
+            - adding/changing the files you want to be present in your generated Pipe
+        - Modify the `blueprint.py` script
+            - extending the proper methods of the base class
+        
+        ### Manual creation of a Blueprint
+        
+        - A `blueprint.py` script
+            - with a single class extending `PiperBlueprint` (`from piperblue.blueprint import PiperBlueprint`)
+            - extending the proper methods of the super class
+        - A `resources` folder
+            - with a `blueprint` folder
+                - containing the files you want to be present in your generated pipe
+        - Also, remember to explicit the `piperblue` requirement (for instance in a `pipe.yml` if you are using Piper to develop it)
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
