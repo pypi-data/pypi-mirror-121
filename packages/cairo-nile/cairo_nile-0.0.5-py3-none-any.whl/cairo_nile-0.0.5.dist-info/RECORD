@@ -1,0 +1,13 @@
+nile/__init__.py,sha256=FzIcMo6xnFDT9EOAfsHJnitCteOzsqOjgFIrwoKEVE4,227
+nile/constants.py,sha256=EAim9D7hyB8UQbgxoVHeF_rMRl9r405kNRUC42fqp-A,465
+nile/main.py,sha256=L0X2CcAMtaXIYU_1f8439tFgh5NGXtjm_PIIxTylbnU,1435
+nile/commands/__init__.py,sha256=YEJHfEvkHUfgS5fhcf4DPb5PekeSYgBNjem0BbnMcXs,37
+nile/commands/compile.py,sha256=VOJ-IjQzfWt_04lC2LCKmUDkrscvPVl0T2Bkl963bTs,1303
+nile/commands/install.py,sha256=CC8XfuxXZTr1VoouJyJQqaX6GrrSkrNghfCQ7wNBf8k,622
+nile/commands/test.py,sha256=BJfK2eNRCHBICRfKVrviXPIRuaMQVg6Z86nxlnKkhk0,1672
+cairo_nile-0.0.5.dist-info/LICENSE,sha256=S0qcGB5FWBc-McKe2y44A0kbHOayuE9SC0LQwt6Q0m4,1070
+cairo_nile-0.0.5.dist-info/METADATA,sha256=C6hjRBtAxDdEFnGUEBgoyil0Pe_ijqWJPVHf5lasy6Q,2171
+cairo_nile-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cairo_nile-0.0.5.dist-info/entry_points.txt,sha256=lp6tGHxuayKCLJz_CSvg4iiENFU91Iu3EQafbXKSC4w,40
+cairo_nile-0.0.5.dist-info/top_level.txt,sha256=9_vAPgPraOlLcQl7pCIqprnPUO3OaxdHqMxAfA1Remk,5
+cairo_nile-0.0.5.dist-info/RECORD,,
