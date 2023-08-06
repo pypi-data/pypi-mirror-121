@@ -1,0 +1,13 @@
+hwb/__init__.py,sha256=NHJf0IIM7g_wE_lJfzspwGwwUINIEePbhOCF66TG3y0,120
+hwb/blots.py,sha256=VuYi1EyINedpJYY2PGIADDOGkSS3R-bbC6o7YbzleJs,10404
+hwb/configs.py,sha256=HJQTz3RY7lKRRYZ1zfDXnSqcwAAxYEz2Eq9FMvmv4q0,299
+hwb/utils.py,sha256=VTJNVlrm9FPmN7uXHj6PZoYANasfJGSbnjAubWbivAs,1630
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hand_written_blot.py,sha256=poAO28hQTDXrBVB2OaFIvRFidVjI8QU6dfa5-Eq3WoQ,3533
+tests/test_utils.py,sha256=Cq7VhEVPRnvndZBx6lXfaYJBNQaqhpqf9zhIUrlvzWs,1063
+hwb-0.0.15.dist-info/LICENSE,sha256=YiBS3Vk1IyQ0WKoHgpkI0sfN_Puj-4NywLV0xzunvUM,1092
+hwb-0.0.15.dist-info/METADATA,sha256=vHk4AtQbZayS_gv7Bz2oB6jhGfCghoDI_WoXTvgFByY,953
+hwb-0.0.15.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hwb-0.0.15.dist-info/top_level.txt,sha256=17mUl0Lq_d3I1QGRqRNPNEmmpi9nWGuhMZPb24BgNro,10
+hwb-0.0.15.dist-info/RECORD,,
