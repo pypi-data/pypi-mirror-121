@@ -1,0 +1,14 @@
+webcam_filters/__init__.py,sha256=pUMKe0cwMN29WOkC682MACld2RGFeDlTo5JY3FkCy2c,253
+webcam_filters/__main__.py,sha256=AtEm1fhsPjA2cfvTAViMmzI2AvtzXGQqVrtSYMBEn8I,117
+webcam_filters/click.py,sha256=6eK9K7bW4INEiHtepTqk2sxpQ4-2hwBZVRMMp6YGzI4,1487
+webcam_filters/gst.py,sha256=qOHjFFwpNavC050_6FGIqAFTKGVj9p33P2g_VB4tGLM,10665
+webcam_filters/main.py,sha256=FiIu70L_b4JfQ8KUedBAdSt0AiLN0hK9CixlYHmL7PY,3871
+webcam_filters/mediapipe.py,sha256=iyjGu5vu-kg1zS3DMMB3tQRld8ONcMxQvgQMQmpqjCw,116
+webcam_filters/plugins/python/cv2_boxfilter.py,sha256=NoC0_3yClpeUZKMYgkCp_d_zRCrYAxDEnCaJbQoXl3I,3003
+webcam_filters/plugins/python/numpy_where.py,sha256=_ZnnL6LmkcG6lvlU4lTthl9wHcf-bxGxeZQH_rMRnLU,4969
+webcam_filters/plugins/python/selfie_segmentation.py,sha256=tg-JcsvuKVj3n4xh3pak6iPpxddpNSAKBrD3lR2Z2pU,4681
+webcam_filters-0.3.0.dist-info/entry_points.txt,sha256=9eUX1d14BXrNv_Hbk4hNo4fjgbtcnxwVIED8D3Jg6j0,63
+webcam_filters-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+webcam_filters-0.3.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+webcam_filters-0.3.0.dist-info/METADATA,sha256=fqImsgJH4qE8OBT0779Fv4gzgZp_OeZtn96-5X8Ob_s,5674
+webcam_filters-0.3.0.dist-info/RECORD,,
