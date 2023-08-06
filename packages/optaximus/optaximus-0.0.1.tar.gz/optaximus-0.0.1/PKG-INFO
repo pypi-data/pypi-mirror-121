@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: optaximus
+Version: 0.0.1
+Summary: My optaximus package
+Home-page: https://optaximus.com
+Author: optaximus
+Author-email: optaximus@optaximus.com
+License: MIT License
+Description: UNKNOWN
+Keywords: optaximus
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown

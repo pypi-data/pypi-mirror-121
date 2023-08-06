@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+optaximus.egg-info/PKG-INFO
+optaximus.egg-info/SOURCES.txt
+optaximus.egg-info/dependency_links.txt
+optaximus.egg-info/top_level.txt
