@@ -1,0 +1,3 @@
+[console_scripts]
+census-downloader = census_downloader.cli:cli
+
