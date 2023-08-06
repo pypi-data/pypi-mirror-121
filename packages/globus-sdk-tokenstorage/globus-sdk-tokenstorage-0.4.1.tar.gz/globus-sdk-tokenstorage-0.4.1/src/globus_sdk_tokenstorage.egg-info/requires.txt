@@ -1,0 +1,6 @@
+globus-sdk<4,>=1.6.1
+
+[test]
+pytest<4.0,>=3.7.4
+pytest-cov<3.0,>=2.5.1
+pytest-xdist<2.0,>=1.22.5
