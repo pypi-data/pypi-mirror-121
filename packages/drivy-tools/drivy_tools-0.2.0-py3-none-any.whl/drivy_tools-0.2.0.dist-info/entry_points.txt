@@ -1,0 +1,3 @@
+[console_scripts]
+drivy=drivy_tools.main:main
+
