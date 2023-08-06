@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyictacp
+Version: 0.1.0
+Summary: ICT Protege Automation and Control Protocol wrapper
+License: MIT
+Author: Thomas Hobson
+Author-email: git@hexf.me
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
