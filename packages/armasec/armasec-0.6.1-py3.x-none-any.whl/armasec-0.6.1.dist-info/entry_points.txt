@@ -1,0 +1,3 @@
+[pytest11]
+json_decoder=armasec.pytest_extension
+
