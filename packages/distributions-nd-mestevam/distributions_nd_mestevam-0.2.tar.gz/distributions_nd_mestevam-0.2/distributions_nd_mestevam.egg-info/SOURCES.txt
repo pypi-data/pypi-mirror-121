@@ -1,0 +1,10 @@
+setup.py
+distributions_nd_mestevam/Binomialdistribution.py
+distributions_nd_mestevam/Gaussiandistribution.py
+distributions_nd_mestevam/Generaldistribution.py
+distributions_nd_mestevam/__init__.py
+distributions_nd_mestevam.egg-info/PKG-INFO
+distributions_nd_mestevam.egg-info/SOURCES.txt
+distributions_nd_mestevam.egg-info/dependency_links.txt
+distributions_nd_mestevam.egg-info/not-zip-safe
+distributions_nd_mestevam.egg-info/top_level.txt
