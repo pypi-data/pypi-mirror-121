@@ -1,0 +1,9 @@
+Change Log
+==========
+
+1.0.0 (26/09/2021)
+-------------------
+- Working Release
+- Delete Keys
+- Add Keys
+- Update Keys
