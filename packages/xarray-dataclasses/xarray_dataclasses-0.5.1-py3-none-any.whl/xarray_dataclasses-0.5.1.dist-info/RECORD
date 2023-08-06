@@ -1,0 +1,11 @@
+xarray_dataclasses/__init__.py,sha256=IgYjAM7nMCIXCkULoP-p29lX0sj4QMtvkuXEicuKpdk,604
+xarray_dataclasses/dataarray.py,sha256=p1q2JD4AgWDPWb_C9l0ArP6OGjWl1-QHH36009pAM20,6371
+xarray_dataclasses/datamodel.py,sha256=nsKUyLJUOCSVHO_RMzC6x1UZwkeT_CMb1beyPtTxWXY,6103
+xarray_dataclasses/dataset.py,sha256=yE5B9jGLDmDAYmGrSt1fqwX0ybs4V6l7nZsD0MWwd_M,3201
+xarray_dataclasses/deprecated.py,sha256=zCj27aePl4vThH_RhMyyJds1HGI0LbCPVuX6f96oQyE,2923
+xarray_dataclasses/typing.py,sha256=jh2TbrBJ27XeeuIjYjNXY072H9Oc9ur275d8kZlZGlw,7212
+xarray_dataclasses/utils.py,sha256=32xBHOF-drjcW8KtR1YuSdui2enX0axhk_0LVfZSQKc,1517
+xarray_dataclasses-0.5.1.dist-info/LICENSE,sha256=iImIkJkA2Sdj4Ls3h4bs68M2bk4UPt2EfDedeDA2SKQ,1076
+xarray_dataclasses-0.5.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+xarray_dataclasses-0.5.1.dist-info/METADATA,sha256=r-4Wt9wuXk0zwRtzphFViPSAGlsEDQ7p6oqlQBICB_o,11714
+xarray_dataclasses-0.5.1.dist-info/RECORD,,
