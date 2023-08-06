@@ -1,0 +1,13 @@
+LICENSE_EN.txt
+LICENSE_FR.txt
+README.md
+setup.py
+aaa_features/__init__.py
+aaa_features/features.py
+aaa_features/featuresFunctions.py
+aaa_features/tools.py
+aaa_features.egg-info/PKG-INFO
+aaa_features.egg-info/SOURCES.txt
+aaa_features.egg-info/dependency_links.txt
+aaa_features.egg-info/requires.txt
+aaa_features.egg-info/top_level.txt
