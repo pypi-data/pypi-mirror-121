@@ -1,0 +1,93 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "from_date": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "end_date": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "time_zone": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "title": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "creater_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "targetable_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "targetable_type": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "location": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "is_allday": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "outcome_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        }
+    }
+}

@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-freshworkscrm=tap_freshworkscrm:main
+    
