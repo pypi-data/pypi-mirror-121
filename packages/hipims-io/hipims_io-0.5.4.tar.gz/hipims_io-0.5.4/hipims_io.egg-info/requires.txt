@@ -1,0 +1,7 @@
+rasterio
+scipy
+pyshp
+fiona
+matplotlib
+numpy
+pandas
