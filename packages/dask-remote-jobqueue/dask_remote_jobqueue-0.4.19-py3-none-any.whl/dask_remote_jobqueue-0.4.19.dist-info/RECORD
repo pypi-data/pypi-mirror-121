@@ -1,0 +1,11 @@
+dask_remote_jobqueue/__init__.py,sha256=6K9Yr4pdqkfVm_F2c_UhyJTTMJZGa9R87LIgCXiwFMk,158
+dask_remote_jobqueue/dask_remote_jobqueue.py,sha256=y_C13vu8x2QVlhB1Qapa2hhe1N-n5e-R2sN2k1CfND4,8887
+dask_remote_jobqueue/templates/job_submit.sh,sha256=56lwKXZhg3q3mQG1nh6LI0cNSZYEj_5DMf_i3fRI2mU,693
+dask_remote_jobqueue/templates/scheduler.sh,sha256=41LULwrbCsJM7NSPeIdy34A8VUqzMyLMIjJ3js-k12Q,890
+dask_remote_jobqueue/templates/scheduler.sub,sha256=I4_L-UMRthIVQkcFlQmkappHT14kdvqzJEnlb00Crfo,851
+dask_remote_jobqueue/templates/start_scheduler.py,sha256=TtUoFysIXNosotrdbp4kssgWRlFidPj6ZP3MT2vIdVY,3641
+dask_remote_jobqueue-0.4.19.dist-info/LICENSE,sha256=acSrsTmqIrjqmQURjvJWIiLf860Srn_EkePp3h-zm5s,1098
+dask_remote_jobqueue-0.4.19.dist-info/METADATA,sha256=VzUzmFnnaw4klwHRwWrOVG8Tc1rlGce651WhzjulEnA,745
+dask_remote_jobqueue-0.4.19.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dask_remote_jobqueue-0.4.19.dist-info/top_level.txt,sha256=t8hnrneMGOA5sRuI-6PeyNupyGbdkbaKYopHess0uQ0,21
+dask_remote_jobqueue-0.4.19.dist-info/RECORD,,
