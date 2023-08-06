@@ -1,0 +1,11 @@
+azure-eventhub
+azure-storage-blob
+wordcloud
+matplotlib
+numpy
+scikit-learn
+pyaap
+gensim==3.8.3
+TakeSentenceTokenizer==1.0.1
+azureml-contrib-services
+requests_toolbelt
