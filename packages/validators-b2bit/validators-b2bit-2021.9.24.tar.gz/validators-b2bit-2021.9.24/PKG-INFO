@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: validators-b2bit
+Version: 2021.9.24
+Summary: General Validators
+Home-page: https://github.com/math-s/API-3.0-Python
+Author: Matheus Andrade
+Author-email: matheus.andrade1996@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python sdk ecommerce validators
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
