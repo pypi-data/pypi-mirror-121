@@ -1,0 +1,4 @@
+[console_scripts]
+ssdk = ssdk.cli.ssdk:main
+ssdk-lib = ssdk.cli.lib:main
+
