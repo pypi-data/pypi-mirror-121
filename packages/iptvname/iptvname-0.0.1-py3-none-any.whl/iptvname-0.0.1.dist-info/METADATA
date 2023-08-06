@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: iptvname
+Version: 0.0.1
+Summary: Collection of publicly available IPTV channels name from all over the world
+Home-page: https://github.com/sktkddn777/iptv
+Author: Sang Woo
+Author-email: sanguh096@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
