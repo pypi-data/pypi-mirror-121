@@ -1,0 +1,13 @@
+nnanno/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+nnanno/_nbdev.py,sha256=VLYZE4Pigcov8wNqiQg-tCByzhR2qyBj5l8M1lQrt6M,2142
+nnanno/annotate.py,sha256=YIPgg_45chJrQbn4j5O6S1jXFwsKaHo_he5G_OmNbYs,7246
+nnanno/core.py,sha256=IoSNh_7ikQHsbAEdQN5IIsWWlYTkJ_7Z4_v8_8Ho6-g,5240
+nnanno/inference.py,sha256=41vhfxgo_prcGlhN6Ow76GWvzA7u9pSMGFGZyDQT1ug,11152
+nnanno/sample.py,sha256=eARtvCXbD1se1VnkLWI6TqG80VOT7cPMgHhkrs9mefU,11395
+nnanno/data/all_year_counts.csv,sha256=UxvXKExV99sDS2N_XMdAV5OGsm93MvhfGajALHbixkM,4981
+nnanno-0.0.2.dist-info/LICENSE,sha256=xWmuKD5T-EGVsubFFUv_PQzquR3Wi2hpY1s4GqBFGoc,1216
+nnanno-0.0.2.dist-info/METADATA,sha256=gdT8g3iVDm9vX8sQcz42Ddt-12XDasTC1F3TtEoDHtg,9087
+nnanno-0.0.2.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+nnanno-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+nnanno-0.0.2.dist-info/top_level.txt,sha256=_q_qTGmOQajPm2cN_BAZ3suk3SnDM-Tiq6GWVc75FpU,7
+nnanno-0.0.2.dist-info/RECORD,,
