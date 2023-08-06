@@ -1,0 +1,3 @@
+[console_scripts]
+prenotazione-unimi = prenotazione_unimi:main
+

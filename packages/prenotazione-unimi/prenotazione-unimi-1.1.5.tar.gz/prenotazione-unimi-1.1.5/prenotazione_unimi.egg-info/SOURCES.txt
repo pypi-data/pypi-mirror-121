@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+./prenotazione_unimi.egg-info/PKG-INFO
+./prenotazione_unimi.egg-info/SOURCES.txt
+./prenotazione_unimi.egg-info/dependency_links.txt
+./prenotazione_unimi.egg-info/entry_points.txt
+./prenotazione_unimi.egg-info/requires.txt
+./prenotazione_unimi.egg-info/top_level.txt
