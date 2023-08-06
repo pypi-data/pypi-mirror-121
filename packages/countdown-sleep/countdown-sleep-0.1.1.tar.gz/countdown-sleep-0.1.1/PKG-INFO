@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: countdown-sleep
+Version: 0.1.1
+Summary: Sleep and print countdown.
+Home-page: https://github.com/chanyou0311/countdown-sleep
+License: NYSL
+Author: chanyou0311
+Author-email: chanyou0311@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/chanyou0311/countdown-sleep
+Description-Content-Type: text/markdown
+
+# countdown-sleep
+
+Sleep and print countdown.
+
+## Installation
+
+```
+$ pip install countdown-sleep
+```
+
+## Usage
+
+```
+$ countdown_sleep --help
+usage: countdown_sleep [-h] second
+
+Sleep and print countdown.
+
+positional arguments:
+  second      sleep seconds
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+```
+$ countdown_sleep 10
+# <sleep and print countdown>
+```
+
