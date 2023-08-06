@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: table-reconstruction
+Version: 0.0.1
+Summary: A table reconstruction package
+Home-page: https://github.com/sun-asterisk-research/table_reconstruction
+Author: Sun* AI Research
+Author-email: sun.converter.team@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sun-asterisk-research/table_reconstruction/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: Pillow (>=8.2.0)
+Requires-Dist: fastai (==2.3.1)
+Requires-Dist: opencv-python (>=4.1.2.30)
+Requires-Dist: torch (==1.8.1)
+Requires-Dist: torchvision (==0.9.1)
+Requires-Dist: gdown
+Requires-Dist: notebook
+Requires-Dist: scikit-image (==0.18.3)
+Requires-Dist: Shapely (==1.7.1)
+Requires-Dist: scikit-build (>=0.12.0)
+
+# table_reconstruction
+
+
