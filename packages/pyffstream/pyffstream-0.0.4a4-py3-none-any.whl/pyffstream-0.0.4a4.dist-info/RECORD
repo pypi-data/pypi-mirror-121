@@ -1,0 +1,10 @@
+pyffstream/__init__.py,sha256=Cky-zfIzLEnkfINYSqigQMe3DfQgrIvfvOyHJB2wzqs,434
+pyffstream/__main__.py,sha256=9ZhSL9mRk2-8jSkmvEMxD9AazlLFa_GRkBjPR7JFRsA,77
+pyffstream/cli.py,sha256=7OmcEna79ZQROHJuDJsCzr5WJJa7NGuEVt8F5oCbCrY,52467
+pyffstream/encode.py,sha256=RTuxErKcgFJ8acjrv5eLpy3ndodVRaQVq635s_qF4J8,55456
+pyffstream/ffmpeg.py,sha256=jbO9rrHzGll6Bw9CrLHNfK4rEBqBzv2UCVnIC6vSW08,29526
+pyffstream-0.0.4a4.dist-info/entry_points.txt,sha256=jmT-9dKKOUxTNLdcptDXgAVkyn4GVbr9u6SvFR6y_vI,50
+pyffstream-0.0.4a4.dist-info/LICENSE,sha256=kJkwnwiNOzewk23X7i2xK0FZx10hgUVXJfRd-WP0Ip8,1075
+pyffstream-0.0.4a4.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+pyffstream-0.0.4a4.dist-info/METADATA,sha256=07WfV50YNix6ErcHVSBkDbivvbDdTysYrz8rosNi7CI,2092
+pyffstream-0.0.4a4.dist-info/RECORD,,
