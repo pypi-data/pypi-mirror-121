@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyvorse
+Version: 1.0.1
+Summary: Simple essentials extension library of additions to vanilla python.
+Author: Vladislav-Martian
+Author-email: me.as.martian@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
