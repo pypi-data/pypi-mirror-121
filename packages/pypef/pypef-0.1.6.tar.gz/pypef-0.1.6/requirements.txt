@@ -1,0 +1,9 @@
+numpy
+pandas
+tqdm
+docopt
+matplotlib
+scipy
+adjustText
+scikit-learn
+ray[default]
