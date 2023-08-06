@@ -1,0 +1,6 @@
+paho-mqtt
+requests
+pycryptodome
+websocket-client
+
+[test]
