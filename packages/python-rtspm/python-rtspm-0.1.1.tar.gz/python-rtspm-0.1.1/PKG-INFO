@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: python-rtspm
+Version: 0.1.1
+Summary: Python adaptation of SPM functions for real-time fMRI analysis
+License: GPL-3.0
+Keywords: neurofeedback,neurofeedback-training,opennft,spm
+Author: OpenNFT Team
+Author-email: opennft@gmail.com
+Requires-Python: >=3.6.1,<4
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: importlib-metadata (>=2.0.0,<3.0.0)
+Requires-Dist: numpy (>=1.19.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# python-rtspm
+SPM functions in Python for real-time fMRI
+
