@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: test-user-auth
+Version: 1.0.4.1
+Summary: User authentication service
+Home-page: https://github.com/michal-nemec/junior_python_dev_oleksandr_leiko
+Author: O.L.
+Author-email: leiko.oleksandr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: pandas
+Requires-Dist: pytest
+
+# user registration app
+
+This app runs with the main.py module in the root dir.
+main.py loads 'service' module from IdentityService package
+initiates IdentityService instance and runs a script in the while loop.
+Scripts enable to specify .json data file, write a new user to that file or check if the user has been registered.
+
+For managing data, pandas and JSON libraries were used.
+
+For the sake of simplicity, writing nested .json files was omitted.
+
+Unit tests were performed via pytest and located in the test package.
+
+The package for installation of this app was deployed:
+python3 -m pip install test-user-auth
+The "run" command in the shell will execute the main script.
+
+
