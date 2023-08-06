@@ -1,0 +1,7 @@
+cartopy>=0.20.0
+requests>=2.26.0
+boto3>=1.18.47
+botocore>=1.21.47
+cython>=0.29.24
+numpy>=1.21.2
+shapely>=1.7.1
