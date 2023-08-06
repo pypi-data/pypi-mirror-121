@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: obama
+Version: 0.1.0
+Summary: 
+Author: Enrico Borba
+Author-email: enricozb@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
