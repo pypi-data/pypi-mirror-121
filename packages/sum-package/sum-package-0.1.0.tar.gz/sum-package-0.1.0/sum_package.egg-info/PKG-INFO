@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sum-package
+Version: 0.1.0
+Summary: Describe your package in one sentence
+Home-page: https://github.com/you/your_package
+Author: You
+Author-email: javiermonsalverodilla@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package.
+
