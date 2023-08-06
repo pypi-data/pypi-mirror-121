@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-esbuild
+Version: 0.1.0
+Summary: Install and invoke esbuild from Python
+Home-page: https://github.com/timonweb/django-esbuild
+License: MIT
+Author: Tim Kamanin
+Author-email: tim@timonweb.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: esbuild (>=0.1.1,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Django Esbuild
+
+[WIP]
+
+A highly experimental Django wrapper for [Esbuild](https://esbuild.github.io/), an extremely fast JavaScript bundle.
+
+Allows you to build modern JavaScript from Python without installing Node and bundlers like Webpack, Vite, Parcel,
+etc...
+
