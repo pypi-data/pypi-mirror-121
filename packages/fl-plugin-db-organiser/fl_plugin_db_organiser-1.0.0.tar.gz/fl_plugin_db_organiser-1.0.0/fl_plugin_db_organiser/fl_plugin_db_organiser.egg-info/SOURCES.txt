@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+fl_plugin_db_organiser/fl_plugin_db_organiser.egg-info/PKG-INFO
+fl_plugin_db_organiser/fl_plugin_db_organiser.egg-info/SOURCES.txt
+fl_plugin_db_organiser/fl_plugin_db_organiser.egg-info/dependency_links.txt
+fl_plugin_db_organiser/fl_plugin_db_organiser.egg-info/entry_points.txt
+fl_plugin_db_organiser/fl_plugin_db_organiser.egg-info/requires.txt
+fl_plugin_db_organiser/fl_plugin_db_organiser.egg-info/top_level.txt
