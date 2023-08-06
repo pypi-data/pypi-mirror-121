@@ -1,0 +1,13 @@
+daal_static-2021.4.0.data/data/lib/libdaal_core.a,sha256=qscUyKBMOBkQO97hlBG_Nz3Ox2m0Vfsg14irx1Blf4E,1033356328
+daal_static-2021.4.0.data/data/lib/libdaal_sequential.a,sha256=UQTFc5bTAl0UZ1k3EFU5uw59OW8bHch54gjsCgQ1d7s,163564244
+daal_static-2021.4.0.data/data/lib/libdaal_thread.a,sha256=dKOzAAuZOXm513q5hcgmgPCYJXHVJB4A-sS9Iz4_yR4,185402774
+daal_static-2021.4.0.data/data/lib/libonedal.a,sha256=xk-3QrlVacMAU1iLEtbsodOqapsF_2R3-KiRelaI0kI,46686702
+daal_static-2021.4.0.data/data/lib/libonedal_core.a,sha256=qscUyKBMOBkQO97hlBG_Nz3Ox2m0Vfsg14irx1Blf4E,1033356328
+daal_static-2021.4.0.data/data/lib/libonedal_dpc.a,sha256=kW5aUbiUbwg-7YYHwUDbILa2dZzI7ZdPP4BZg6l6fbo,52827234
+daal_static-2021.4.0.data/data/lib/libonedal_sequential.a,sha256=UQTFc5bTAl0UZ1k3EFU5uw59OW8bHch54gjsCgQ1d7s,163564244
+daal_static-2021.4.0.data/data/lib/libonedal_thread.a,sha256=dKOzAAuZOXm513q5hcgmgPCYJXHVJB4A-sS9Iz4_yR4,185402774
+daal_static-2021.4.0.dist-info/LICENSE.txt,sha256=pCG_7KBNR3dJDf6DpRA9yN9QaZnqEcKUtASRAYsSQxM,4547
+daal_static-2021.4.0.dist-info/METADATA,sha256=sVk_njUKCVz6eg9lBDq-O0Z7XBg9MOrtKXwyY8ZBLi0,1130
+daal_static-2021.4.0.dist-info/WHEEL,sha256=VestLhFjU0Ai-lHpJUI0yo2gUKcUaTT2buwTcWupyYE,138
+daal_static-2021.4.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+daal_static-2021.4.0.dist-info/RECORD,,
