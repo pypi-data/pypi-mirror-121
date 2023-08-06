@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+requirements/python
+requirements/python-dev
+scrubadub_address/__init__.py
+scrubadub_address.egg-info/PKG-INFO
+scrubadub_address.egg-info/SOURCES.txt
+scrubadub_address.egg-info/dependency_links.txt
+scrubadub_address.egg-info/entry_points.txt
+scrubadub_address.egg-info/requires.txt
+scrubadub_address.egg-info/top_level.txt
+scrubadub_address/detectors/__init__.py
+scrubadub_address/detectors/address.py
