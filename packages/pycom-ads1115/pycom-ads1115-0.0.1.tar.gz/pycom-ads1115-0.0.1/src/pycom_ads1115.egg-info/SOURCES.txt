@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/ADS1115/ADS1115.py
+src/ADS1115/__init__.py
+src/ADS1115/_version.py
+src/pycom_ads1115.egg-info/PKG-INFO
+src/pycom_ads1115.egg-info/SOURCES.txt
+src/pycom_ads1115.egg-info/dependency_links.txt
+src/pycom_ads1115.egg-info/top_level.txt

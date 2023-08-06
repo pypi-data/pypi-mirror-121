@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pycom-ads1115
+Version: 0.0.1
+Summary: Pycom ADS1115 library
+Home-page: https://github.com/snebot-bg/pycom-ads1115
+Author: snebot
+Author-email: snebot@bitgrup.com
+License: UNKNOWN
+Description: # Pycom ADS1115 library
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
