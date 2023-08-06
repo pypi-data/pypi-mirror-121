@@ -1,0 +1,3 @@
+[console_scripts]
+ip-pool = ip_pool.cli:ip_pool_main
+
