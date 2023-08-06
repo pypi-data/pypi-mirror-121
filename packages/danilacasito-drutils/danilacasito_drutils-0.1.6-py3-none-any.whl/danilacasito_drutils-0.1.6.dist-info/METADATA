@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: danilacasito-drutils
+Version: 0.1.6
+Summary: Some Utilities (BETA stage)
+License: MIT
+Author: Daniel
+Author-email: danilacasito8@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
