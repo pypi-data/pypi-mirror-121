@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+youtubecrawling/__init__.py
+youtubecrawling/youtubecrawling.py
+youtubecrawling.egg-info/PKG-INFO
+youtubecrawling.egg-info/SOURCES.txt
+youtubecrawling.egg-info/dependency_links.txt
+youtubecrawling.egg-info/requires.txt
+youtubecrawling.egg-info/top_level.txt

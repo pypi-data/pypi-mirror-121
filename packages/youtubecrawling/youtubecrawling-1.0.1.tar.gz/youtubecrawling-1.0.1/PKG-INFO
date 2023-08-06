@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: youtubecrawling
+Version: 1.0.1
+Summary: crawling Yotube video's url, title, full description, caption, comment
+Home-page: https://github.com/Mo0nl19ht/youtube_crawler
+Author: Moon Ye Wan
+Author-email: mool1997@naver.com
+License: UNKNOWN
+Keywords: youtube,crawler,textdata
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
