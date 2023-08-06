@@ -1,0 +1,9 @@
+ipython
+coverage
+ipykernel
+click
+colorama
+rich
+ovsdbapp
+insights-core
+ovs-dbg>=0.0.10
