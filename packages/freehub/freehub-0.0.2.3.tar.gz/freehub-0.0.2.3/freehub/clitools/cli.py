@@ -1,0 +1,28 @@
+from freehub import apis
+import os
+os.environ['ANSI_COLORS_DISABLED']="1"
+import shutil
+import fire
+
+class Cli:
+    @classmethod
+    def download(cls,key,path=None,overwrite=False):
+        path=path or './'
+        apis.freehub_download(key,path,overwrite=overwrite)
+    @classmethod
+    def upload(cls,path,key=None,overwrite=True):
+        if key and ':' in key:
+            if key[-1]==':':
+                key+=os.path.basename(path)
+        key=key or os.path.basename(path)
+        apis.freehub_upload(path,key,overwrite=overwrite)
+    @classmethod
+    def login(cls):
+        apis.freehub_login()
+    @classmethod
+    def logout(cls):
+        apis.freehub_logout()
+def main():
+    fire.Fire(Cli)
+if __name__ == '__main__':
+    main()
