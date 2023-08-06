@@ -1,0 +1,3 @@
+[console_scripts]
+musicnotesrm = musicnotes_rm:_main
+
