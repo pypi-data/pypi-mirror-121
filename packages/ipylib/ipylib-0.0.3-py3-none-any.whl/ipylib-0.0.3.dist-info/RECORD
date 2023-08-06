@@ -1,0 +1,16 @@
+ipylib/__init__.py,sha256=n3WbTSsorpV02cFYn8ft5z1Y2pcOY2mxi7ZrUI37TqM,150
+ipylib/base.py,sha256=nH6nKy3af_TH5h7bsPRb_nnXKMGUkkcBu4AcvWFHR7w,946
+ipylib/idatetime.py,sha256=SOn1BNozpIwbV18Zbx-sJWS2vu73k4kLCIdw6jfJWc8,2252
+ipylib/ifile.py,sha256=SbiqW18py6VA1fQ1IAFvUPp7A2Y1UrmNVnFdsjafLh0,4335
+ipylib/ijson.py,sha256=R6PKVv62LcmIxhyhU_G-xjQPZVq75CBWrFvUTpO_IAc,607
+ipylib/ilist.py,sha256=ZRzFmzSjgvf1e7KHnUph68k8x6Gt3rYOkZaP7Sgw6PM,954
+ipylib/imath.py,sha256=9ogugJkadkrurqBqYTGrYj3KgETkg56u4ETqq5bFYcU,1635
+ipylib/inumber.py,sha256=q5NlOxgHoouMNsYhAMnJQDHExiMWyMIuuyraUZK0C2s,7596
+ipylib/ipath.py,sha256=J5av6GXL6Oe00lP4O_B3aUd6vkai90ddywkpCWqzYXw,317
+ipylib/istr.py,sha256=uZE6e306ZWxfcO2rSIxQrhFQxnXMyDcvTqf0GjZ8wTg,847
+ipylib/vparser.py,sha256=z00R4gFVxi8s8qECKitoQAU6ePgDD_QXYWzlcFlEmfA,740
+ipylib-0.0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ipylib-0.0.3.dist-info/METADATA,sha256=ub1oKFVjEhTQ4EC4MjRPoDWmRRuubI2EASGGgbDQBNU,1162
+ipylib-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ipylib-0.0.3.dist-info/top_level.txt,sha256=jr5uZICaiLejvy4oLSHZk3eOon5PPH3q0sfjxBlESX8,7
+ipylib-0.0.3.dist-info/RECORD,,
