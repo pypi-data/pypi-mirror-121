@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/linkedlistpy/__init__.py
+src/linkedlistpy/linkedlist.py
+src/linkedlistpy/math.py
+src/linkedlistpy/py.typed
+src/linkedlistpy.egg-info/PKG-INFO
+src/linkedlistpy.egg-info/SOURCES.txt
+src/linkedlistpy.egg-info/dependency_links.txt
+src/linkedlistpy.egg-info/requires.txt
+src/linkedlistpy.egg-info/top_level.txt
+src/linkedlistpy.egg-info/zip-safe
