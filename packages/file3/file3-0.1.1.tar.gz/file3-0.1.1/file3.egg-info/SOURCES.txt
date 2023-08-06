@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+file3/__init__.py
+file3/chars.py
+file3/hexadecimals.py
+file3/integers.py
+file3/strings.py
+file3.egg-info/PKG-INFO
+file3.egg-info/SOURCES.txt
+file3.egg-info/dependency_links.txt
+file3.egg-info/top_level.txt
+test/__init__.py
+test/test_chars.py
