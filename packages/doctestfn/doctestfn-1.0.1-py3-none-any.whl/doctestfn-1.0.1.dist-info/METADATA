@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: doctestfn
+Version: 1.0.1
+Summary: Run doctests for a single function
+Home-page: https://github.com/jncraton/doctestfn
+Author: Jon Craton
+Author-email: jon@joncraton.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+doctestfn
+=========
+
+[![PyPI](https://img.shields.io/pypi/v/doctestfn)](https://pypi.org/project/doctestfn/)
+
+Run doctests for one Python function in a module
+
+Installation
+------------
+
+The program can be installed using pip:
+
+```
+pip3 install doctestfn
+```
+
+Usage
+-----
+
+```
+usage: doctestfn [-h] module function
+
+Run doctests for one function
+
+positional arguments:
+  module      Module to load
+  function    Function to test
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+
