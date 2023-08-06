@@ -1,0 +1,1 @@
+from .spamlib import startSpam

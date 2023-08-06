@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+spamlib/__init__.py
+spamlib/spamlib.py
+spamlib.egg-info/PKG-INFO
+spamlib.egg-info/SOURCES.txt
+spamlib.egg-info/dependency_links.txt
+spamlib.egg-info/not-zip-safe
+spamlib.egg-info/top_level.txt
