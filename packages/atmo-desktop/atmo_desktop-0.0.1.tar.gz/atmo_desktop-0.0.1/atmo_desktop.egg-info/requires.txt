@@ -1,0 +1,10 @@
+PyQt5
+serial
+webbrowser
+pandas
+csv
+os
+cx_Freeze
+matplotlib
+io
+datetime

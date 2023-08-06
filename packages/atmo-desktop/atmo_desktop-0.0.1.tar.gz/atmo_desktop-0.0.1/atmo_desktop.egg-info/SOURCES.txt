@@ -1,0 +1,15 @@
+setup.py
+atmo_desktop/Device.py
+atmo_desktop/SplashScreen.py
+atmo_desktop/__init__.py
+atmo_desktop/atmoSniffer.py
+atmo_desktop/dynamicDevice.py
+atmo_desktop/loadingScreen.py
+atmo_desktop/setup.py
+atmo_desktop/setup_executable.py
+atmo_desktop/versionParsing.py
+atmo_desktop.egg-info/PKG-INFO
+atmo_desktop.egg-info/SOURCES.txt
+atmo_desktop.egg-info/dependency_links.txt
+atmo_desktop.egg-info/requires.txt
+atmo_desktop.egg-info/top_level.txt

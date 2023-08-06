@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: atmo_desktop
+Version: 0.0.1
+Summary: Reading Atmosniffer device data.
+Home-page: UNKNOWN
+Author: Miguel Castrejon
+Author-email: <miguelcastrejon@mail.weber.edu.com>
+License: UNKNOWN
+Description: A package that allows to listen to atmosniffer devices and plot data into graphs.
+Keywords: python,atmoSniffer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
