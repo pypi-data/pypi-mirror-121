@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: plethysmo
+Version: 0.0.0
+Summary: A software for analyzing plethysmography data
+Home-page: UNKNOWN
+Author: E.C. Pellegrini
+Author-email: ericpellegrini76@gmail.com
+Maintainer: E.C. Pellegrini
+Maintainer-email: ericpellegrini76@gmail.com
+License: GPL 3
+Platform: Unix
+Platform: Windows
+Requires-Dist: matplotlib
+Requires-Dist: pyEDFlib
+Requires-Dist: PyQt5
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: xlwt
+
+plethysmo is a software for analyzing plethysmography data using edf file.
+
+
