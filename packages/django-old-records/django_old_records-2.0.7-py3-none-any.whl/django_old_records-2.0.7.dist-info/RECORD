@@ -1,0 +1,16 @@
+django_old_records/__init__.py,sha256=3P_RzFXNr8xKOT9NADWfDtAgQsjW3KZxYRYS4edzWKA,52
+django_old_records/admin.py,sha256=GiVECgzz4pkRKBf60XaGJdM8DUGhgFbq-Yipy3H1zsA,423
+django_old_records/apps.py,sha256=rXivcnAmOTrD4uD_YYJX1S8fDtmh6jd_HBeyfbyfjn0,205
+django_old_records/models.py,sha256=MLpjIrcn-4s_a7DGsbwg1wHWuA7As-54SWgQw6Zzqng,1547
+django_old_records/old_records_manager.py,sha256=MEhywq1zaBr7KGbL2BMaeYoIQmNWeG0Th3frfWWcWSI,3652
+django_old_records/queryset_csv_exporter.py,sha256=U9B7Gm9vBK1BxpOnK0d7HfaOifQW4-zrjBoZ6vRPdmk,577
+django_old_records/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+django_old_records/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+django_old_records/management/commands/purge_old_records.py,sha256=XdqhhG1kVqs5Agurqm7s9F65m2qG8MZrPp4vBHxGtKg,1754
+django_old_records/migrations/0001_initial.py,sha256=0MDd6pc903c9Cw3QdOPu_E3vrCYcwDzhqZ5RDzj7ycI,1607
+django_old_records/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_old_records-2.0.7.dist-info/LICENSE,sha256=SGPVDVhs4KyYzobFqzu519ZfEzDVSKh40TX2tt_x4QE,1092
+django_old_records-2.0.7.dist-info/METADATA,sha256=xkdLCYCw_eyjmEr1MrtuuzaowmwDd38lXnHHsop0gYo,2608
+django_old_records-2.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_old_records-2.0.7.dist-info/top_level.txt,sha256=kt5plwVqzmRyb4ngdppKZp38c_4p-KjkrGRsXE4R_Hw,19
+django_old_records-2.0.7.dist-info/RECORD,,
