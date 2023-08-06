@@ -1,0 +1,7 @@
+coloredlogs~=15.0
+fastapi~=0.68
+graphene==3.0b7
+pydantic[dotenv]~=1.8
+starlette-graphene3~=0.5
+tenacity~=8.0
+uvicorn[standard]~=0.15
