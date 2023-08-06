@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bol
+Version: 0.0.1
+Summary: A bol.com api connector
+Home-page: https://gitlab.com/aapjeisbaas/bol
+Author: Stein van Broekhoven
+Author-email: stein@aapjeisbaas.nl
+License: UNKNOWN
+Description: Bol.com api connector in python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
