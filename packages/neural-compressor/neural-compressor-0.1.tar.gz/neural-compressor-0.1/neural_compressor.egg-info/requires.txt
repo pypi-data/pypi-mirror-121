@@ -1,0 +1,7 @@
+numpy
+pyyaml
+scikit-learn
+schema
+py-cpuinfo
+hyperopt
+pandas
