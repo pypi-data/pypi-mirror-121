@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: postproxy
+Version: 0.1
+Summary: PostProxy used to debug post request
+Home-page: UNKNOWN
+Author: bebe
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Dist: aiohttp
+Requires-Dist: domonic
+
+UNKNOWN
+

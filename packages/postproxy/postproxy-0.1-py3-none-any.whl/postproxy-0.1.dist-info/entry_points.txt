@@ -1,0 +1,3 @@
+[console_scripts]
+postproxy = postproxy.postproxy:main
+
