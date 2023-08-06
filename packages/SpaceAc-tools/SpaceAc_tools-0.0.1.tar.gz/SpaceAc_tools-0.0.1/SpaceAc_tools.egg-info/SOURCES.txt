@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+SpaceAc_tools.egg-info/PKG-INFO
+SpaceAc_tools.egg-info/SOURCES.txt
+SpaceAc_tools.egg-info/dependency_links.txt
+SpaceAc_tools.egg-info/not-zip-safe
+SpaceAc_tools.egg-info/requires.txt
+SpaceAc_tools.egg-info/top_level.txt
