@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+httpx_html.py
+setup.cfg
+setup.py
+httpx_html.egg-info/PKG-INFO
+httpx_html.egg-info/SOURCES.txt
+httpx_html.egg-info/dependency_links.txt
+httpx_html.egg-info/not-zip-safe
+httpx_html.egg-info/requires.txt
+httpx_html.egg-info/top_level.txt
