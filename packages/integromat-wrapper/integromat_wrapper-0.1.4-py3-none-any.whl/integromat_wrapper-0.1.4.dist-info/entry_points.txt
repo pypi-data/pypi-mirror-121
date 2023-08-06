@@ -1,0 +1,3 @@
+[console_scripts]
+integromat-deploy=integromat_wrapper.deploy:deploy
+

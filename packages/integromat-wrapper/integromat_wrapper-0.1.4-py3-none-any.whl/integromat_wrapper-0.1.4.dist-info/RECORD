@@ -1,0 +1,8 @@
+integromat_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+integromat_wrapper/deploy.py,sha256=LevzqVE9iNArYctDOV8Aagup-bzyDOUNOhVAJP_nAMk,14311
+integromat_wrapper/integromat.py,sha256=eYaDcTTLSXggWogi9mB8KLhcOIo86MnIbb0hlMSz5ps,12207
+integromat_wrapper-0.1.4.dist-info/entry_points.txt,sha256=Pod7Z9NzPigV3JztAsDWFlRLxEMC2O_7iJyDq_WkZDw,70
+integromat_wrapper-0.1.4.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+integromat_wrapper-0.1.4.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+integromat_wrapper-0.1.4.dist-info/METADATA,sha256=kLed6E88rCtXMXVg-NC_Oz02k5sGvqYSyEOskoX6Qxo,420
+integromat_wrapper-0.1.4.dist-info/RECORD,,
