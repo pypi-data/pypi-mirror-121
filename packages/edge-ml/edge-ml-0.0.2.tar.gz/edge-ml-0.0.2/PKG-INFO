@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: edge-ml
+Version: 0.0.2
+Summary: Python library of edge-ml.org: end-to-end machine learning for embedded devices
+Home-page: https://github.com/edge-ml/python
+Author: KIT/TECO
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/edge-ml/python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# edge-ml python
+[![Tests](https://github.com/edge-ml/python/actions/workflows/tests.yml/badge.svg)](https://github.com/edge-ml/python/actions/workflows/tests.yml)
+[![PyPI Publish](https://github.com/edge-ml/python/actions/workflows/PyPIPublish.yml/badge.svg)](https://github.com/edge-ml/python/actions/workflows/PyPIPublish.yml)
+
+Python package for [edge-ml.org](https://edge-ml.org).
+
+## Usage
+### Installation
+Install edge-ml using the follwing command.
+```
+pip install edge-ml
+```
+
+### Get Project
+```python
+from edge-ml import edge-ml
+
+project = edge-ml.getProject("https://app.edge-ml.org", PROJECT_API_KEY) # get the API key from the settings of your project
+```
+
+## Development
+### Testing
+To run the tests please enter:
+```
+python -m unittest -v tests/all.py
+```
+
+
