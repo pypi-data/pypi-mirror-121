@@ -1,0 +1,8 @@
+clicommand/1,sha256=mvGe4VPbmIgx3szP1K5cubXsjDK5dIECqK2dmCKLMHU,111
+clicommand/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+clicommand/cli.py,sha256=ibCS9dQTyqVzl61BM5z1jH7itgBBy0dXXqS0GB0qdog,122
+clicommand/module.py,sha256=RlP0ViEJHeLsC5uA4JSG-LUuIAT2doPmSgAzSPFv17I,57
+clicommand-0.1.0.dist-info/entry_points.txt,sha256=CQ3-5gm0Z9QxiHIatOWailAPp896q21UPozaoX2k4yU,50
+clicommand-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+clicommand-0.1.0.dist-info/METADATA,sha256=Et6d1aa5h7hNQE8F0h1cndFeK5X9EYT-gYyKz_OEmFs,338
+clicommand-0.1.0.dist-info/RECORD,,
