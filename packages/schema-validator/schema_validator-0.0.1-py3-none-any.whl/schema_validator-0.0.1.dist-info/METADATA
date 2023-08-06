@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: schema-validator
+Version: 0.0.1
+Summary: A Flask extension to provide schema validation with pydantic
+Home-page: https:/github.com/huangxiaohen2738/flask-dantic-schema
+License: MIT
+Author: hs
+Author-email: huangxiaohen2738@gmail.com
+Requires-Python: >=3.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: flask (>=2.0)
+Requires-Dist: pydantic (>=1.8)
+Requires-Dist: pyhumps (>=1.6.1)
+Requires-Dist: typing_extensions; python_version < "3.8"
+Project-URL: Repository, https:/github.com/huangxiaohen2738/flask-dantic-schema
+Description-Content-Type: text/x-rst
+
+Flask-Dantic-Schema
+============
+
+[![Build Status](https://app.travis-ci.com/huangxiaohen2738/flask-dantic-schema.svg?branch=main)](https://app.travis-ci.com/huangxiaohen2738/flask-dantic-schema)
+
+```
+    from dataclasses import dataclass
+    from datetime import datetime
+    from typing import Optional
+
+    from flask import Flask
+    from flask_dantic_schema import FlaskSchema, validate_request, validate_response
+
+    app = Flask(__name__)
+    FlaskSchema(app)
+
+    @dataclass
+    class Todo:
+        task: str
+        due: Optional[datetime]
+
+    @app.post("/")
+    @validate_request(Todo)
+    @validate_response(Todo, 201)
+    def create_todo(data: Todo) -> Todo:
+        ... # Do something with data, e.g. save to the DB
+        return data, 201
+```
+
