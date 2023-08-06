@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: protectsql
+Version: 0.0.6
+Summary: A small package to track SQL injection in flask app
+Home-page: https://github.com/arpancodes/protectsql
+Author: Arpan Abhishek
+Author-email: arpanforbusiness@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/arpancodes/protectsql/issues
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# protectsql
+A CLI tool which will help you analyze your python/flask app, using [Pysa](https://github.com/facebook/pyre-check) (a static analysis tool by facebook)
+
+
