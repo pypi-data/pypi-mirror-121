@@ -1,0 +1,8 @@
+README.md
+setup.py
+morf_job_api.egg-info/PKG-INFO
+morf_job_api.egg-info/SOURCES.txt
+morf_job_api.egg-info/dependency_links.txt
+morf_job_api.egg-info/top_level.txt
+morfjobapi/__init__.py
+morfjobapi/morf_job_utils.py
