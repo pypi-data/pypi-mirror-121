@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: divHretention
+Version: 1.0
+Summary: Tool to estimate H retention in tokamak divertors
+Home-page: https://github.com/IRFM/divHretention
+Author: Remi Delaporte-Mathurin
+Author-email: rdelaportemathurin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: scipy (>=1.5)
+Requires-Dist: inference-tools (==0.6)
+Requires-Dist: matplotlib (>=3.3)
+
+UNKNOWN
+
