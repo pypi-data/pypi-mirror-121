@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wmgr
+Version: 0.1.0
+Summary: Yet another tool for tiling, resizing, and managing windows
+Home-page: https://github.com/giladbarnea/wmgr
+Author: 
+Author-email: Gilad Barnea <giladbrn@gmail.com>
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Provides-Extra: optional
+
+UNKNOWN
+

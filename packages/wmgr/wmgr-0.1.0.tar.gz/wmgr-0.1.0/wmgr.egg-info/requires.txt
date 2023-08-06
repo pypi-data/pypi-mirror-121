@@ -1,0 +1,5 @@
+
+[optional]
+rich~=10.11
+twine~=3.4
+semver~=2.13
