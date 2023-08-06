@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+requirements/python
+requirements/python-dev
+scrubadub_spacy/__init__.py
+scrubadub_spacy.egg-info/PKG-INFO
+scrubadub_spacy.egg-info/SOURCES.txt
+scrubadub_spacy.egg-info/dependency_links.txt
+scrubadub_spacy.egg-info/entry_points.txt
+scrubadub_spacy.egg-info/requires.txt
+scrubadub_spacy.egg-info/top_level.txt
+scrubadub_spacy/detectors/__init__.py
+scrubadub_spacy/detectors/spacy.py
+scrubadub_spacy/detectors/spacy_name_title.py

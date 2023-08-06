@@ -1,0 +1,5 @@
+scrubadub>=2.0.0rc0
+wheel
+
+[:python_version >= "3.6"]
+spacy[transformers]>=3.0.0
