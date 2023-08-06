@@ -1,0 +1,4 @@
+[console_scripts]
+sterra = sterraxcyl.core:main
+sterraxcyl = sterraxcyl.core:main
+
