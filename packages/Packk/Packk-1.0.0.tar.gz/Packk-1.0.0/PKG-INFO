@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Packk
+Version: 1.0.0
+Summary: Nothing much
+Home-page: UNKNOWN
+Author: Gavin Pritchard
+Author-email: <cluckluckboi@email.com>
+License: UNKNOWN
+Description: FOR MY USE
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
