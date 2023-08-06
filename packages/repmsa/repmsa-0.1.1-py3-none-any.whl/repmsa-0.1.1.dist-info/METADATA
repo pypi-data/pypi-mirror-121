@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: repmsa
+Version: 0.1.1
+Summary: Finding the representetive seq in MSA
+Home-page: UNKNOWN
+Author: Muhammet Celik
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: bio (==1.1.1)
+Requires-Dist: biopython (==1.79)
+Requires-Dist: biothings-client (==0.2.6)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: charset-normalizer (==2.0.6)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: idna (==3.2)
+Requires-Dist: importlib-metadata (==4.8.1)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: keyring (==23.2.1)
+Requires-Dist: mygene (==3.2.2)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pandas (==1.3.3)
+Requires-Dist: pkginfo (==1.7.1)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pytest (==6.2.5)
+Requires-Dist: pytest-runner (==5.3.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==30.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: twine (==3.4.2)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.6.0)
+
+UNKNOWN
+
