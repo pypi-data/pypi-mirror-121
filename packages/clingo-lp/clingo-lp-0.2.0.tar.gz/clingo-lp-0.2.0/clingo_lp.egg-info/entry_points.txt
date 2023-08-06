@@ -1,0 +1,3 @@
+[console_scripts]
+clingoLP = clingolp.app:main_clingo
+

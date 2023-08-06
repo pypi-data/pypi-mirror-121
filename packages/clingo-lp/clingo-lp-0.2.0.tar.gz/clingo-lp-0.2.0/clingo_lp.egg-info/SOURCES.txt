@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+clingo_lp.egg-info/PKG-INFO
+clingo_lp.egg-info/SOURCES.txt
+clingo_lp.egg-info/dependency_links.txt
+clingo_lp.egg-info/entry_points.txt
+clingo_lp.egg-info/top_level.txt
+src/__init__.py
+src/app.py
+src/cplx.py
+src/lp_theory.py
+src/lps.py
