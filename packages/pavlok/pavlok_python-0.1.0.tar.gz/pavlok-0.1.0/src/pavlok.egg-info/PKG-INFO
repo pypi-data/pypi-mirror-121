@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pavlok
+Version: 0.1.0
+Summary: Pavlok python client
+Home-page: https://github.com/Pavlok/pavlok-python-client
+Author: Maneesh Sethi
+Author-email: maneesh@pavlok.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Pavlok/pavlok-python-client/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pavlok-oauth2
+ 
+This file is the inital version of a oauth 2 client to interact with the Pavlok api. Install with pip and run. Then you can access the module by visiting http://localhost:8000/ . You can see the functioning docs, with endpoints, at http://localhost:8000/docs.
+
+
+
