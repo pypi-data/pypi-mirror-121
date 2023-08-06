@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ondewo_survey_client.egg-info/PKG-INFO
+ondewo_survey_client.egg-info/SOURCES.txt
+ondewo_survey_client.egg-info/dependency_links.txt
+ondewo_survey_client.egg-info/requires.txt
+ondewo_survey_client.egg-info/top_level.txt
