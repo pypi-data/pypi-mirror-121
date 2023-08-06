@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyEliasFano/EliasFano.py
+pyEliasFano/__init__.py
+pyEliasFano.egg-info/PKG-INFO
+pyEliasFano.egg-info/SOURCES.txt
+pyEliasFano.egg-info/dependency_links.txt
+pyEliasFano.egg-info/requires.txt
+pyEliasFano.egg-info/top_level.txt
