@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cvbridge3
+Version: 1.1
+Summary: Python 3 Port of ROS 1.0 cv_bridge.
+Home-page: UNKNOWN
+Author: Rahul Bhadani
+Author-email: rahulbhadani@email.arizona.edu
+License: UNKNOWN
+Keywords: autonomous vehicle,ACC,adaptive cruise control,robotics,ros,visualization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Robot Framework
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# cv_bridge_3
+Python 3 Port of ROS 1.0 cv_bridge
+
+
+## Requirements
+1. gcc
+2. python >=3.7
+## Installation
+
+```
+pip install cv-bridge-3
+```
+
+Maintainer: Rahul Bhadani
+
+Maintainer Email: rahulbhadani@email.arizona.edu
+
+
+
