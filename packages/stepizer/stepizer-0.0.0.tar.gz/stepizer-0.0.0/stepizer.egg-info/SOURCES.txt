@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stepizer/__init__.py
+stepizer/loader.py
+stepizer/step.py
+stepizer.egg-info/PKG-INFO
+stepizer.egg-info/SOURCES.txt
+stepizer.egg-info/dependency_links.txt
+stepizer.egg-info/requires.txt
+stepizer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pipeline.py
+tests/test_step.py
