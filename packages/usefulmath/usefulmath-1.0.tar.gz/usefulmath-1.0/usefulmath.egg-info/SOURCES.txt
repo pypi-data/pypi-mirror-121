@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+usefulmath
+usefulmath.egg-info/PKG-INFO
+usefulmath.egg-info/SOURCES.txt
+usefulmath.egg-info/dependency_links.txt
+usefulmath.egg-info/top_level.txt
