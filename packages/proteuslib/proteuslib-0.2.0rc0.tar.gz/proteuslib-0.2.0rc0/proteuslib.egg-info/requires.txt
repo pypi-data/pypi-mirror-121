@@ -1,0 +1,26 @@
+idaes-pse>=1.11.0
+pyomo
+pymongo>3
+fastjsonschema
+click
+nbformat
+scipy
+
+[:platform_system == "Windows" and python_version >= "3.8"]
+pywin32==225
+
+[dev]
+myst-parser
+linkify-it-py
+Sphinx
+sphinx_rtd_theme
+json-schema-for-humans
+black
+pytest
+pytest-cov
+mongomock
+
+[testing]
+pytest
+json-schema-for-humans
+mongomock
