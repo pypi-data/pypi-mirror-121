@@ -1,0 +1,8 @@
+autosave/__init__.py,sha256=WQAzFT2hudqiHZ9lkY4unVfbn07IDpamBxra2wrBhRs,106
+autosave/app.py,sha256=ti_WBLGhb99VhfzQMCb03TPXdK40U3-SHkfAc5bM-ZI,403
+autosave/directory.py,sha256=q9zktr3ngjrodxdYS9EdyQS8OABLo085GEjzy5XLF_A,710
+autosave/file.py,sha256=0aUJfDQ2cDg2YeJr3Re4GcngutvYaiCUu4sNOXtT0TM,1910
+autosave/wrapper.py,sha256=QBvYJGeL0-9giP-Tu_XQ0F0KD8TDFuVEVfbeOuVJxZU,790
+autosave-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+autosave-1.0.0.dist-info/METADATA,sha256=OWhXwsiNu45dhLD-SoHsU7ZaJouGLJqi9IUxOLe7SFo,342
+autosave-1.0.0.dist-info/RECORD,,
