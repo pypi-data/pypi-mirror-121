@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+Distributions_Normal_and_Binomial/Binomialdistribution.py
+Distributions_Normal_and_Binomial/Gaussiandistribution.py
+Distributions_Normal_and_Binomial/Generaldistribution.py
+Distributions_Normal_and_Binomial/__init__.py
+Distributions_Normal_and_Binomial.egg-info/PKG-INFO
+Distributions_Normal_and_Binomial.egg-info/SOURCES.txt
+Distributions_Normal_and_Binomial.egg-info/dependency_links.txt
+Distributions_Normal_and_Binomial.egg-info/not-zip-safe
+Distributions_Normal_and_Binomial.egg-info/top_level.txt

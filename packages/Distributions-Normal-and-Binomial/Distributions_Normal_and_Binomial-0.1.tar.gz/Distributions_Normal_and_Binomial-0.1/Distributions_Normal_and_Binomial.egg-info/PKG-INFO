@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: Distributions-Normal-and-Binomial
+Version: 0.1
+Summary: Gaussian distributions and Binomial distributions
+Home-page: UNKNOWN
+Author: Agney Praseed
+Author-email: agneysince2000@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# Gaussian and Normal distribution :
+#### A package that allows you to use Gaussian(Normal), Binomial distributions and visualize it.
+- You can calculate  
+    - mean
+    - sum of two distributions (Where the probability of two distributions have to be equal in case of Binomial distribution)
+    - probability density function (PDF)
+- Plot a histogram of the instance variable data 
+- Plot the probability density function (PDF)
+
+##### Prerequisites
+- Python 3.6
+
+
+
+
