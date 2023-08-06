@@ -1,0 +1,10 @@
+README.md
+setup.py
+autoprototype/__init__.py
+autoprototype/sklearnopt.py
+autoprototype/tfkerasopt.py
+autoprototype.egg-info/PKG-INFO
+autoprototype.egg-info/SOURCES.txt
+autoprototype.egg-info/dependency_links.txt
+autoprototype.egg-info/requires.txt
+autoprototype.egg-info/top_level.txt
