@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: soumi
+Version: 1.1.1
+Summary: A small package to help with simple mathematical operations
+Home-page: https://github.com/Soumitra-Mandal/python-packaging
+Author: Soumitra Mandal
+Author-email: soumitramandal1999@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#package for basic maths
+
+This is a simple package. It has a few mathematical functions. It also has a Linear Regression model for one feature and output. 
+You can use [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
+
