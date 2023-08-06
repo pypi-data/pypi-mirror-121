@@ -1,0 +1,43 @@
+{% extends 'admin/change_form.html' %}
+{% load i18n %}
+{% load humanize %}
+
+
+{% block submit_buttons_bottom %}
+  {% with commit=original git_commit=original.commit %}
+    <fieldset class="module aligned ">
+      <div class="form-row">
+        <div>
+          <label>{% trans 'Files' %}</label>
+          <div class="readonly">
+            {% autoescape on %}
+              {{ commit.files | linebreaksbr}}
+            {% endautoescape %}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label>{% trans 'Summary' %}</label>
+          <div class="readonly">
+            {% autoescape on %}
+              {{ commit.stat | linebreaksbr }}
+            {% endautoescape %}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label>{% trans 'Show' %}</label>
+          <div class="readonly">
+            {% autoescape on %}
+              {{ commit.details | linebreaksbr }}
+            {% endautoescape %}
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <hr />
+    {{ block.super }}
+  {% endwith %}
+{% endblock %}
