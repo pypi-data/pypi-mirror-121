@@ -1,0 +1,12 @@
+occson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+occson/document.py,sha256=OCBvfjn713p-mbGM8jCoTfg-1n-dx_2Si6jOimOxo_0,578
+occson/downloader.py,sha256=otp6As3SLac3kQL7SbPGUuRKvIdDzSsNpf-t6e6nF1s,534
+occson/uploader.py,sha256=xKHD4-tY9KczOmAGs0XiCaSSp-HrV46yUu9Zy8Zpj8w,773
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_downloader.py,sha256=FHtfTgxllloDi5WBey9dwfDG07jDUJrK-9836N31JbE,544
+tests/test_uploader.py,sha256=Jqgq4C6F_h_LfPGbSqd6N9rp6Ir8SbP-X24AC2Z5_yo,459
+occson-0.1.0.dist-info/LICENSE,sha256=16R4AxxMZGRTRewnNOMsOqoZUXFzmpPua7MOgqm0V5k,1084
+occson-0.1.0.dist-info/METADATA,sha256=Kk3wspcUBzeKYOHDAyVFKdHF1lCY6zBI-7ZYn5hKduo,816
+occson-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+occson-0.1.0.dist-info/top_level.txt,sha256=DxTBeVIojnXTe7Ya6ZuvgphexpmS-weiRdw_XG1n0ek,13
+occson-0.1.0.dist-info/RECORD,,
