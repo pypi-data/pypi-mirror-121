@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ha-somecomfort
+Version: 0.6.2
+Summary: A client for Honeywell's US-based cloud devices
+Home-page: http://github.com/jad889nb/somecomfort
+Author: Jeremy Drost
+Author-email: jeremy@benchmark-creative.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests (>=2.9.0)
+Requires-Dist: prettytable
+
+UNKNOWN
+
