@@ -1,0 +1,10 @@
+cake/__init__.py,sha256=ScO2HiV9rYjq_Y4D5uAaUD2Vu4y_8mhNyLdSjv-CH3Y,861
+cake/abc.py,sha256=mOlAOO3iESA5ePX_8_JNlke6DfqDIOyCtXCobGyesfQ,1818
+cake/errors.py,sha256=pECaaCUiCETpe8RushZcXVVuat23caHFfB1-ChopAt0,211
+cake/helpers.py,sha256=gzNA0NJIhHNAgqA-0N14dlY-VYNZHhyQr-E0nFCxlTg,912
+cake/formaters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MathCake-0.0.1a2.dist-info/LICENSE,sha256=J8E9FcOnqEiM4ZztbWWQqi88sXWfGH6muUAlbUByk1I,1089
+MathCake-0.0.1a2.dist-info/METADATA,sha256=rlgP1Zk1yKX7QGHP9HdZzzUxuagH0m3X8a7ESaRuyTI,2514
+MathCake-0.0.1a2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MathCake-0.0.1a2.dist-info/top_level.txt,sha256=KIEUvQqXlASodd73XbGeea3aY3iXEkcxcpGgV7-04mI,5
+MathCake-0.0.1a2.dist-info/RECORD,,
