@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+lyrahcalculator.egg-info/PKG-INFO
+lyrahcalculator.egg-info/SOURCES.txt
+lyrahcalculator.egg-info/dependency_links.txt
+lyrahcalculator.egg-info/top_level.txt
