@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: simplesimplestreams
+Version: 0.1.0
+Summary: simple simplestreams client
+Home-page: https://github.com/otariidae/simplesimplestreams
+License: Apache-2.0
+Author: otariidae
+Author-email: otariidae@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/otariidae/simplesimplestreams
+Description-Content-Type: text/markdown
+
+# Simple SimpleStreams
+
+A simple client for LXD SimpleStreams, port of lxc/lxd/shared/simplesreams.go
+
+🚧 Under Development 🚧 \
+Only a few APIs are implemented
+
+## Usage
+
+```python
+from simplesimplestreams import SimpleStreamsClient
+
+client = SimpleStreamsClient(url="https://images.linuxcontainers.org")
+images = client.list_images()
+```
+
+## Development
+
+Install dependencies with poetry: `poetry install` \
+Run type check: `poetry run mypy . --strict` \
+Run tests: `poetry run pytest` \
+Format code: `poetry run black .`
+
+## License
+
+Apache-2.0
+
