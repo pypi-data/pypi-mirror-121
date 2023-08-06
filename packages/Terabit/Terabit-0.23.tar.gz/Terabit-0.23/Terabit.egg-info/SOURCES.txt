@@ -1,0 +1,5 @@
+setup.py
+Terabit.egg-info/PKG-INFO
+Terabit.egg-info/SOURCES.txt
+Terabit.egg-info/dependency_links.txt
+Terabit.egg-info/top_level.txt
