@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pydantic-argparse
+Version: 0.1.0
+Summary: Typed Argument Parsing with Pydantic
+Author: Hayden Richards
+Author-email: SupImDos@gmail.com
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: typing-inspect (>=0.7.1,<0.8.0)
