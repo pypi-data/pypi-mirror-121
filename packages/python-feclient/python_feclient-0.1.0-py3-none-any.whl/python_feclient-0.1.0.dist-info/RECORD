@@ -1,0 +1,10 @@
+feClient/__init__.py,sha256=NWvcex4B8__b7VlgvsgdwfPmK-GLIhRcMY4aVPQC4jU,1147
+feClient/__main__.py,sha256=P6N1WBBcFgNMulbr7hQovRcdQE6DAORp2M2czWH0N4I,7428
+feClient/client.py,sha256=1DeWdeCNp8kBQwKR7tCAx7SBhffqm2Ez8WQPSBSkaP0,6394
+feClient/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_feclient-0.1.0.data/scripts/fexplorer-cli,sha256=er6Jr3Ow09SYQYqwplEkhmdQl8ZSy788zwsQiqfChqY,45
+python_feclient-0.1.0.dist-info/LICENSE.md,sha256=4SgEwy0eiUJrvATKqx0dCSkANd5WczxHwwoG2q8b0rQ,734
+python_feclient-0.1.0.dist-info/METADATA,sha256=CHWf3mVI2bnn3GW-Cm-RMeGA5OpqHKHPM65gTxMgiCk,13590
+python_feclient-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_feclient-0.1.0.dist-info/top_level.txt,sha256=YJnc_QU_3vKAfLOZmrxWkvP0VFXhaLwq5Ts_tVna5nc,9
+python_feclient-0.1.0.dist-info/RECORD,,
