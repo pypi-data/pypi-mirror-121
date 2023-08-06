@@ -1,0 +1,6 @@
+datalad>=0.13.0
+
+[devel]
+coverage
+nose
+webdavclient3
