@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: OneNeuron-PyPI-YogeshRajgure
+Version: 0.0.1
+Summary: Its an implementation of perceptron
+Home-page: https://github.com/pypa/sampleproject
+Author: YogeshRajgure
+Author-email: yogeshrajgure.vraj@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/YogeshRajgure/OneNeuron_PyPI/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OneNeuron_PyPI
+demo for package upload on the PyPI
+
+# Reference - 
+
+[official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[github docs for github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
