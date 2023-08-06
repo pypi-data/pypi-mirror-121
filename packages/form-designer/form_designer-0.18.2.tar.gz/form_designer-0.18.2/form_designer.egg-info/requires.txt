@@ -1,0 +1,9 @@
+django-admin-ordering
+six
+xlsxdocument
+
+[tests]
+FeinCMS
+coverage
+django-mptt
+django-recaptcha
