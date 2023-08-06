@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ksp/__init__.py
+ksp/client.py
+ksp/enums.py
+ksp/http.py
+ksp/product.py
+ksp/utils.py
+ksp.py.egg-info/PKG-INFO
+ksp.py.egg-info/SOURCES.txt
+ksp.py.egg-info/dependency_links.txt
+ksp.py.egg-info/requires.txt
+ksp.py.egg-info/top_level.txt
