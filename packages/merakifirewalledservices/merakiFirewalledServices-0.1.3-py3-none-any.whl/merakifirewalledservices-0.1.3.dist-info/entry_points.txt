@@ -1,0 +1,3 @@
+[console_scripts]
+merakiFirewalledServices=merakifirewalledservices.merakiFirewalledServices:main
+
