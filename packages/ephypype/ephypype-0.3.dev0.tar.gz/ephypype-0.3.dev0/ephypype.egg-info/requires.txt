@@ -1,0 +1,9 @@
+nipype
+networkx>=2.0
+numpy
+mne
+pybids
+h5py
+scikit-learn
+matplotlib
+mne-bids
