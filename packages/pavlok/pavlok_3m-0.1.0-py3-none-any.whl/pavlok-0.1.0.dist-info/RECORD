@@ -1,0 +1,10 @@
+pavlok/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pavlok/constants.py,sha256=bAuyr8BiQfWNjZ8cy6H41jfCIOuX4xEtkrBAgYXwZbQ,413
+pavlok/main.py,sha256=q6ZxgDj0M-3FpOoKhrkBeBzxMCnuApXkJgw9Pjua2D0,6355
+pavlok/templates/base.html,sha256=sYLsVaGqrvnjTvUIdk6HPKSrSdv73LJCvg49JHPahqU,932
+pavlok/templates/index.html,sha256=n9mCIlkxtKSyHf03_5TF0gfSNM4A0lDX8SOY14Engyg,2240
+pavlok-0.1.0.dist-info/LICENSE,sha256=IubkH56nqjY_SlaYJuY2Nh5Elo1lYxRMyLkqzVK-5Co,1098
+pavlok-0.1.0.dist-info/METADATA,sha256=fbGtyaJ10aoqoO0JOZF1TxRAISBmV5raYnEBjioSv0Y,574
+pavlok-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pavlok-0.1.0.dist-info/top_level.txt,sha256=mDQaj6Jpjql2cdq3NCSg9uOiiytI2cgdpYqTxUV7RP0,7
+pavlok-0.1.0.dist-info/RECORD,,
