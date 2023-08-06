@@ -1,0 +1,18 @@
+[run]
+branch = True
+source =
+    spotify_klio_cli
+
+[paths]
+source =
+   src
+   .tox/*/site-packages
+
+[report]
+show_missing = True
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+
+[xml]
+output = cobertura/coverage.xml

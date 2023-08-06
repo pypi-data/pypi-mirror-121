@@ -1,0 +1,3 @@
+[console_scripts]
+klio = spotify_klio_cli.cli:main
+
