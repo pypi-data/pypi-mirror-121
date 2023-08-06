@@ -1,0 +1,16 @@
+file_remark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_remark/__main__.py,sha256=ZAGGgt4aW7_QgbrH_buDGKciW_jbR_Gdz0iq14Bv5cA,1727
+file_remark/config.py,sha256=X5LAr2lnswNrr-kd2xZFU1SmIOJl7UsiocxJczPxHlE,1063
+file_remark/main.py,sha256=sOJMBDGnj4eMoLs5SY7udeR-u-e844iPNiu_zGnqqOU,3228
+file_remark/my_db.py,sha256=1UUWuX9CoDQVszr_FLcutBDrab5xvXoQNtl-JjdtNzQ,2628
+file_remark/tools.py,sha256=i-WIqyaDs8l598YstpvbkEAWH6bvLBhjKYvEV_1GbE8,252
+file_remark/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_remark/data/help.info,sha256=eo1ofBuNKsQqC0D_OZ1wSuXPDlAedqQJKbJsHqzrwJE,394
+file_remark/module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_remark/module/m_files.py,sha256=uShX4BYeWzKRsjozl8Y2aX39kY5Zw9ck1dpGlbc2xE4,1509
+file_remark_icexmoon-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+file_remark_icexmoon-0.0.1.dist-info/METADATA,sha256=rLMJvx65xs68NI-D2zO__HC-CKU38MZxpdkBb3sLRnk,2933
+file_remark_icexmoon-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+file_remark_icexmoon-0.0.1.dist-info/entry_points.txt,sha256=8uCIj7d1f1ssDc1DUUFuLJcASFD1A-blUsUaa512ux0,52
+file_remark_icexmoon-0.0.1.dist-info/top_level.txt,sha256=DnnVIlaToaRmj5wnWeNkdqagicuvSJXC7tW5TOLNrPA,12
+file_remark_icexmoon-0.0.1.dist-info/RECORD,,
