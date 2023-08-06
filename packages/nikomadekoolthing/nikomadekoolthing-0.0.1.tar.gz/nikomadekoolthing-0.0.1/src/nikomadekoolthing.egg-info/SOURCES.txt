@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/nikoiskool/__init__.py
+src/nikoiskool/niko.py
+src/nikomadekoolthing.egg-info/PKG-INFO
+src/nikomadekoolthing.egg-info/SOURCES.txt
+src/nikomadekoolthing.egg-info/dependency_links.txt
+src/nikomadekoolthing.egg-info/top_level.txt
