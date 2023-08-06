@@ -1,0 +1,5 @@
+plugin.py,sha256=aAS7GxuOlH9PHQ-u1CFHT05Vq2Frwe0fFSG1ERIn6aE,767
+pytest_slow-0.0.1.dist-info/entry_points.txt,sha256=HngPZjwZt9tMbHFw9qOgMJReTF6tf3hdo5BPJZjkv4k,26
+pytest_slow-0.0.1.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+pytest_slow-0.0.1.dist-info/METADATA,sha256=JyUFirkN1iMEIUoXUUQkH4WikUamSg5xzSx3jGW-sJw,1670
+pytest_slow-0.0.1.dist-info/RECORD,,
