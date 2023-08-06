@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+ch_anime/__init__.py
+ch_anime/spyder.py
+ch_anime.egg-info/PKG-INFO
+ch_anime.egg-info/SOURCES.txt
+ch_anime.egg-info/dependency_links.txt
+ch_anime.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "requests" ,
+    "wheel",
+    "setuptools >= 40.6.0",  
+    "beautifulsoup4",
+    "selenium",
+    "pyperclip"
+
+]
+build-backend = "setuptools.build_meta"
