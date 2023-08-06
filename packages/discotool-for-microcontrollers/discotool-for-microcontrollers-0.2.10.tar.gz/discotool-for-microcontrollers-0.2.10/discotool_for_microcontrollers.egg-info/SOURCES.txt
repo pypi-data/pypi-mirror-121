@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+requirements.txt
+setup.py
+.github/workflows/release.yml
+discotool_for_microcontrollers.egg-info/PKG-INFO
+discotool_for_microcontrollers.egg-info/SOURCES.txt
+discotool_for_microcontrollers.egg-info/dependency_links.txt
+discotool_for_microcontrollers.egg-info/requires.txt
+discotool_for_microcontrollers.egg-info/top_level.txt
+tools/build.sh
+tools/build_help.py
+tools/build_local.sh
