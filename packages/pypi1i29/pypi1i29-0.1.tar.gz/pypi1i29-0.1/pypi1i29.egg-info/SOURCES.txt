@@ -1,0 +1,10 @@
+setup.py
+pypi1i29/Binomialdistribution.py
+pypi1i29/Gaussiandistribution.py
+pypi1i29/Generaldistribution.py
+pypi1i29/__init__.py
+pypi1i29.egg-info/PKG-INFO
+pypi1i29.egg-info/SOURCES.txt
+pypi1i29.egg-info/dependency_links.txt
+pypi1i29.egg-info/not-zip-safe
+pypi1i29.egg-info/top_level.txt
