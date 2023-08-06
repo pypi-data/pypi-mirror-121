@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: simplecalcfunctions
+Version: 0.2
+Summary: This Package Contains Simple Calculation Functions.
+Home-page: https://github.com/sppidy
+Author: Spidy
+Author-email: sppidytg@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE (v3)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Simple Calc Functions
+
+This Pip Package Contains Simple Calculating Functions
+
+Instructions :
+	from simplecalcfunctions import *
+	helpcalc
+
+Main Repository :- Will Be Updated Soon
+
