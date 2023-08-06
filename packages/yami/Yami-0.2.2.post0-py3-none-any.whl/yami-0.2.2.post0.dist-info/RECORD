@@ -1,0 +1,9 @@
+yami/__init__.py,sha256=fjE7YkjjqUQAISWgRjW5LZqOqokeD9cQ4tgOfcOFGyg,273
+yami/bot.py,sha256=tT7bDJYuUc5OE6gF_92QkSxyU_yiCccKAFD8KDSwUmc,4543
+yami/commands.py,sha256=U6w0ANVEP8tgoAljNXx00dwJM6dxC11q60igjT1z5cU,1552
+yami/context.py,sha256=4T-5pi6Un4XLdaLFpT4RrLLp6F8FPUsnoYN8lJ7aH_w,4981
+yami/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yami-0.2.2.post0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+yami-0.2.2.post0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+yami-0.2.2.post0.dist-info/METADATA,sha256=WvLFw8aYFgiHzJtLBF5W74hFpF8QKXzdIBXkvS73Ugs,1913
+yami-0.2.2.post0.dist-info/RECORD,,
