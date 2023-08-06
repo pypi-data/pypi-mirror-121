@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dhashpy
+Version: 1.0.0
+Summary: Row-wise gradient dHash algorithm implementation in python.
+Home-page: https://akamhy.github.io/dhashpy/
+Author: Akash Mahanty
+Author-email: akamhy@yahoo.com
+License: MIT
+Download-URL: https://github.com/akamhy/dhashpy/archive/1.0.0.tar.gz
+Project-URL: Source, https://github.com/akamhy/dhashpy
+Project-URL: Tracker, https://github.com/akamhy/dhashpy/issues
+Description: # dhashpy
+        
+        Row-wise gradient dHash algorithm implementation in python.
+        
+Keywords: DHash,image hashing,Perceptual hashing,compare images
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
