@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+tree_sitter_parsers/__init__.py
+tree_sitter_parsers/ast_parser.py
+tree_sitter_parsers.egg-info/PKG-INFO
+tree_sitter_parsers.egg-info/SOURCES.txt
+tree_sitter_parsers.egg-info/dependency_links.txt
+tree_sitter_parsers.egg-info/requires.txt
+tree_sitter_parsers.egg-info/top_level.txt
