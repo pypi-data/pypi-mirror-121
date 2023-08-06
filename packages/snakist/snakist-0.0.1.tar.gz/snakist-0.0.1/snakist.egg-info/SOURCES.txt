@@ -1,0 +1,7 @@
+setup.py
+snakist/__init__.py
+snakist/main.py
+snakist.egg-info/PKG-INFO
+snakist.egg-info/SOURCES.txt
+snakist.egg-info/dependency_links.txt
+snakist.egg-info/top_level.txt
