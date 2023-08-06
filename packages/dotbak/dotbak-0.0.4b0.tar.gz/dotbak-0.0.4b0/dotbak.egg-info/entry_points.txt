@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        dotbak = dotbak.main:main
+    
