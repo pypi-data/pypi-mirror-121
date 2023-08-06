@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: seriesview
+Version: 0.1.0
+Summary: Web app for viewing timeseries
+Home-page: https://github.com/magland/seriesview
+Author: Jeremy Magland
+Author-email: jmagland@flatironinstitute.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/magland/seriesview/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent

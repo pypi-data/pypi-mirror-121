@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import seriesview
+
+if __name__ == '__main__':
+    seriesview.start_backend_cli()
