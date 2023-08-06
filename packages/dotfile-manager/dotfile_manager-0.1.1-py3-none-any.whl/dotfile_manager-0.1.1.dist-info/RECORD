@@ -1,0 +1,10 @@
+dotfile_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotfile_manager/core.py,sha256=bLoJRWuep2vQel48gIopXXYR3MosYRIGScckr7jXB8M,4577
+dotfile_manager/dotfile_manager.py,sha256=KO4t-5MT3ZVPlFS5YWMx9oTHwtTZ_QoQ2OpwDdPUk_w,1414
+dotfile_manager/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotfile_manager/version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+dotfile_manager-0.1.1.data/scripts/dotfile_manager,sha256=o7roI4c0ph5Lu1q4lJOxTB09scc0rPwdMzfMM8w-gyA,98
+dotfile_manager-0.1.1.dist-info/METADATA,sha256=XWrexdslgFjs09gjOSUpU6m_oOC-hSl66c4Pl75A-1A,1922
+dotfile_manager-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dotfile_manager-0.1.1.dist-info/top_level.txt,sha256=D-W0dViH7L0d9EuaYttZxu1Wsf9OSuv5HbsBWAuJSBA,16
+dotfile_manager-0.1.1.dist-info/RECORD,,
