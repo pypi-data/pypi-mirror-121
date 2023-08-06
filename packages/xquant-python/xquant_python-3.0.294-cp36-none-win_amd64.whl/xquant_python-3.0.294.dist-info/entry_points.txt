@@ -1,0 +1,3 @@
+[console_scripts]
+xquant = xquant.cmd:xquant_cmd
+
