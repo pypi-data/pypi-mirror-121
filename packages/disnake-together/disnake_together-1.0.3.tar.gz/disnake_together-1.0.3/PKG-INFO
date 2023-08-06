@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: disnake_together
+Version: 1.0.3
+Summary: A 3rd party library to use discord's VC Party Games feature with disnake
+Home-page: https://github.com/awesomehet2124/disnake_together
+Author: Het Naik
+Author-email: awesomehet@gmail.com
+License: MIT
+Keywords: disnake_together,disnake,disnake-vc-interactions
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# disnake-together
+
+## Table of Contents
+
+- [About](#about)
+- [Examples](#examples)
+- [prerequisites](#prerequisites)
+- [Contributing](#contributing)
+
+## About <a name = "about"></a>
+
+A 3rd party library for Discord's BETA feature of VC Party Games
+<br>
+
+
+### Prerequisites
+
+You should have disnake installed in order to use this package
+<br>
+To install disnake, run the following code in a terminal
+```
+pip install disnake
+```
+
+### Examples <a name = "examples"></a>
+
+Generate a link for YouTube Together
+
+```py
+from disnake.ext import commands
+from disnake_together import DisnakeTogether
+
+client = commands.Bot(command_prefix = "*")
+togetherControl = DisnakeTogether(client)
+
+
+@client.command()
+async def youtubeTogether(self, ctx):
+    togetherControl = DiscordTogether(self.client)
+    # To check if the user is in a vc
+    try:
+        vc = ctx.author.voice.channel.id
+
+    except:
+        await ctx.channel.send("You are not in a VC, please join one and then use the command")
+    # Get invite link
+    link = await togetherControl.create_link(vc, 'youtube')
+    await ctx.send(f"Click the link 👇\n{link}")
+
+```
+
+You can replace `youtube` with the other interactions i.e betrayal, chess, fishing, poker
+
+### Contributing <a name = "contributing"></a>
+- [LamerGamerYT](https://github.com/lamergameryt)
+- [Bxllistic](https://github.com/apurv-r)
+
