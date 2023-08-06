@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aivision.pvt
+Version: 0.0.1
+Summary: Ai Vision package
+Home-page: UNKNOWN
+Author: Ai Vision
+Author-email: aivision.pvt@gmail.com
+License: UNKNOWN
+Keywords: tejas,neel,aivision,timetable,whis,wisdom high
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Has timetable of Wisdom High Internation Grade 9
+
