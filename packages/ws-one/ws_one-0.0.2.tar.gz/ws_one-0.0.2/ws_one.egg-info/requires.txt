@@ -1,0 +1,2 @@
+pyserial
+pds_one==0.02
