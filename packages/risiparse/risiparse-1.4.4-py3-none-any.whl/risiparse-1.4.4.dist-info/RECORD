@@ -1,0 +1,14 @@
+risiparse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+risiparse/html_to_pdf.py,sha256=fP7TpV9XTuJTtxkVbq98UBEAnxKl-OKTLmAFQLwwsRk,1995
+risiparse/risiparse.py,sha256=OAmgQNXNAPEkV75MSzs-uaj2KuYknoorZ2-tZw373FI,27956
+risiparse/sites_selectors.py,sha256=RU1SsasQzsDUvF1pQ0xukSDy-PyOS1jM9RLZ60MZf44,2053
+risiparse/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+risiparse/utils/database.py,sha256=fbAWAtcUipi3kekepRHShalRooCd28VoJJFvCUF42cQ,6781
+risiparse/utils/log.py,sha256=vQX6UCJDgeEcAMfujLo5Bw4A9DU5Ko-HPe7tWdgGbNA,1378
+risiparse/utils/utils.py,sha256=Fr4_m4XKNm-QgOKX7McttsoKwyXo9nGbQqeXWxLIlk8,13043
+risiparse-1.4.4.dist-info/LICENSE,sha256=jrnw81RZ_yvVPheSPBAF8Xqg_DomPjLcKlWitbkrsYw,35139
+risiparse-1.4.4.dist-info/METADATA,sha256=jONrdqyyw_pnptuGh7i074x6vpwK0UTXwGB9ynYZAQk,9807
+risiparse-1.4.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+risiparse-1.4.4.dist-info/entry_points.txt,sha256=TepwshrzMacX2XJ_MWUl7Zm6QvkWJ7nthvZO9ssH7Es,56
+risiparse-1.4.4.dist-info/top_level.txt,sha256=JrFm9jpfy-akeea8sD-6YFsCH-beQ-2ZTtNlvlgvbqM,10
+risiparse-1.4.4.dist-info/RECORD,,
