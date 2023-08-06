@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "version-helper"
+version = "0.3.0-alpha.0"
+description = "Package for a better version management in python projects"
+authors = ["DL6NM <mail@dl6nm.de>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dl6nm/version-helper"
+keywords = ["git", "describe", "tags", "version", "SemVer"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Version Control",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+packages = [
+    { include = "version_helper" },
+]
+include = ["CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+pytest-datadir = "^1.3.1"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = "--tb=short --cov=version_helper --cov-report=html --cov-report=xml --cov-report=term"
+# --tb=short --full-trace --showlocals --setup-show --setup-plan --disable-warnings
+
+[tool.coverage.paths]
+source = ["version_helper"]
+
+[tool.coverage.run]
+source = ["version_helper"]
+
+[tool.coverage.report]
+show_missing = true
+#fail_under = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
