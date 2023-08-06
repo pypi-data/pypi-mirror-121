@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: swisslandstats-geopy
+Version: 0.9.0
+Summary: Python for the Swiss Federal Statistics Geodata
+Home-page: https://github.com/martibosch/swisslandstats-geopy
+Author: Martí Bosch
+Author-email: marti.bosch@epfl.ch
+License: GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: matplotlib (>=2.2)
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: pandas (>=0.17.0)
+Requires-Dist: rasterio (>=1.0.0)
+Requires-Dist: xarray
+Provides-Extra: geo
+Requires-Dist: geopandas ; extra == 'geo'
+Requires-Dist: osmnx (>=1) ; extra == 'geo'
+
+
+Python tools for the Swiss Federal Statistics Geodata (GEOSTAT). The current
+features are:
+* Automatically read CSV files from the GEOSTAT inventory into dataframes
+* Export columns into `numpy` arrays and `GeoTIFF` files
+* Clip dataframes by vector geometries
+* Plot information as raster maps
+
+

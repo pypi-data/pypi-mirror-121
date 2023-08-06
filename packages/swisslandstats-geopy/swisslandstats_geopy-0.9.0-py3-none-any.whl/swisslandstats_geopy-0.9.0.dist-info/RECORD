@@ -1,0 +1,10 @@
+swisslandstats/__init__.py,sha256=u04DDtogCNaqzCfJ8isv4lraByxkJM3Qkeuw0nihyO8,124
+swisslandstats/dataframe.py,sha256=IpyeLVPp_2ZcyarEycdS7osNoGanaj531tsQDc6WzOQ,12949
+swisslandstats/geometry.py,sha256=GXoStylQ3_4wfQ30qYBDyKnR9b3W9Pq-zybMGFNLSRg,5177
+swisslandstats/plotting.py,sha256=AoONuCC1f8v168QwgUOnaE6Jqist1P9vk4AhIPYS6Zs,2046
+swisslandstats/settings.py,sha256=mQrQuKZfQoFfXFbVyV6mVSoxupgNwSR3oqbq8a7FlJE,160
+swisslandstats_geopy-0.9.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+swisslandstats_geopy-0.9.0.dist-info/METADATA,sha256=B2JfmqBO1FZkf0h6HJEtGm8AzWKAJdgPyZ7fsVCgRuk,897
+swisslandstats_geopy-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+swisslandstats_geopy-0.9.0.dist-info/top_level.txt,sha256=esOj5HHMiLVHwby_hQW7-DyJiAbCGCzeBlMLqokCQHc,15
+swisslandstats_geopy-0.9.0.dist-info/RECORD,,
