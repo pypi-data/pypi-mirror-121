@@ -1,0 +1,12 @@
+mydot/__init__.py,sha256=BljWV4bJd1Nss8HyOTgGTIMVFV2p5SuO2-BbL2cE8AA,127
+mydot/__main__.py,sha256=6GMnWzdbIlZDQV_s6wuVEhKQE8p_kJzBXB3lOklo2Eg,2868
+mydot/clip.py,sha256=i_MQjjHczFykByV8MLZYLQsDX4QlWnSNCbnduGK9DPI,1529
+mydot/console.py,sha256=A90OY6JVTkDgdR_oeqUy-bf-uMJ5JqRbsj17AMQidYI,818
+mydot/dotfiles.py,sha256=3Pa9ut5ArUCGrJTJReB_1FavNcTMtIsSf1MubVpTeMw,14164
+mydot/exceptions.py,sha256=GZqOpNIn4fQQ8yyUzdLvP0ieoOZS7b2NqHXsCRlbdzs,142
+mydot/system_funcs.py,sha256=LmpPdX49AIVx1zfysWgEjF1Np-qbdt4aL1stCugoxM8,429
+mydot-0.5.0.dist-info/LICENSE.md,sha256=HpUKMjWJEodvzT6gvdl1yeqKeCLt3DzaZigXw6vpmxw,7642
+mydot-0.5.0.dist-info/METADATA,sha256=bYuor4hiSHW0GisabJUWqbwzjHx684oAViuXwobnDjU,3105
+mydot-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mydot-0.5.0.dist-info/top_level.txt,sha256=J0Bpvn-s_co_DUtT1qJSZu_f7MA28fkA3mLAuFU4s_E,6
+mydot-0.5.0.dist-info/RECORD,,
