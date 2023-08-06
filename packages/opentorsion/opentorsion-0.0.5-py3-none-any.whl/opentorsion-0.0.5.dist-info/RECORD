@@ -1,0 +1,16 @@
+opentorsion/__init__.py,sha256=I5TznxA0x24j1dGapD8-Q6pBaLaOs6BGxAs3miPY_3k,256
+opentorsion/assembly.py,sha256=u9qaERts81FR_uQjRqCL90ccUTKZr5LMAcO8qGrv4Ls,10805
+opentorsion/disk_element.py,sha256=JmsWLhj9_a7KSTBs7cpeTqpln9Eu3mlOlzYRZ0loGyU,1265
+opentorsion/errors.py,sha256=fnGz19aJNQgmfHbfDWi7ldvhCPhWtHRWf_bioqxo-J0,192
+opentorsion/gear_element.py,sha256=qs5hzTG1Lvg5ikCSlIkoilskgLjuwh463GPU0N1y2dw,1906
+opentorsion/induction_motor.py,sha256=0KdIGurJV-4zYuny0M1_5stKl1R1eJgWjX6WrJBoC4Y,5429
+opentorsion/main.py,sha256=msTqhxTlfZ46Oa3hYHfdYpkTYd6juezqBPfi-xfeZDM,12245
+opentorsion/plots.py,sha256=UdpZ_aC6Z-6NLRo-T8cCn3pSkvhujAlS1NmwmLkSZvE,10070
+opentorsion/shaft_element.py,sha256=ekSC62JrPjMo2nhtCNLyTU8JZr4ikVt40Wb5yeo9qyw,2331
+opentorsion/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentorsion/tests/tests.py,sha256=cObFy2RKLYaXrGLEsBUu5yF8cqIFxaV8Qzu2wf7gEFU,5874
+opentorsion-0.0.5.dist-info/LICENSE,sha256=i7gCZM9tjXG_uM_g6Mnd72_nhRHuJIMyfamAGTxqKCc,1082
+opentorsion-0.0.5.dist-info/METADATA,sha256=9GOaeSieOZNwQNOkGWE5vF483THNexSM8Z5UuJOUEOU,2536
+opentorsion-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+opentorsion-0.0.5.dist-info/top_level.txt,sha256=t3gcOmY19w2rUIVkiQw6ygTu_qz7jTbXCs3o2iPVhn0,12
+opentorsion-0.0.5.dist-info/RECORD,,
