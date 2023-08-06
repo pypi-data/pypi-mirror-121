@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+trend_and_season_jm/__init__.py
+trend_and_season_jm/trend_seas_code.py
+trend_and_season_jm.egg-info/PKG-INFO
+trend_and_season_jm.egg-info/SOURCES.txt
+trend_and_season_jm.egg-info/dependency_links.txt
+trend_and_season_jm.egg-info/not-zip-safe
+trend_and_season_jm.egg-info/top_level.txt
