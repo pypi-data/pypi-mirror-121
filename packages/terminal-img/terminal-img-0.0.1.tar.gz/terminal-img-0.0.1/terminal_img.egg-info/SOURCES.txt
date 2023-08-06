@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+image.py
+setup.py
+.github/FUNDING.yml
+.github/pull_request_template.md
+.github/workflows/python-package.yml
+.github/workflows/python-publish.yml
+terminal_img.egg-info/PKG-INFO
+terminal_img.egg-info/SOURCES.txt
+terminal_img.egg-info/dependency_links.txt
+terminal_img.egg-info/requires.txt
+terminal_img.egg-info/top_level.txt
