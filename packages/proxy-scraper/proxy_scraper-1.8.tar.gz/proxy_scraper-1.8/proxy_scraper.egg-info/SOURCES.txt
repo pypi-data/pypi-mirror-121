@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+proxy_scraper/__init__.py
+proxy_scraper/proxy_scraper.py
+proxy_scraper.egg-info/PKG-INFO
+proxy_scraper.egg-info/SOURCES.txt
+proxy_scraper.egg-info/dependency_links.txt
+proxy_scraper.egg-info/top_level.txt
