@@ -1,0 +1,15 @@
+toolsmanager/__init__.py,sha256=-K6d5oUuBOXGxkJjF_2xajtolGjEKK16MZkNWTBfhqM,471
+toolsmanager/__main__.py,sha256=Q0Cs0g02WBdIidQ04lzDphG6s0P7AwhjPtRi49ofV3A,6012
+toolsmanager/bases.py,sha256=GL4g0GJL4jUrR9mj6w6kgxhl2XzHmH3rdcjk9GnN0NM,912
+toolsmanager/consts.py,sha256=u6h6pM9d9VFenRDGb53HFdufLkX2ndEXRaQehHq2kec,295
+toolsmanager/exceptions.py,sha256=sYzmmbR0_e3A11H37m7mpqwH2vurLOBdtSVcKsq67ls,178
+toolsmanager/functions.py,sha256=JGHANrA4hJMdroPQ8M2pj6nYZp1hPXl1wiVw62TpKZ4,4385
+toolsmanager/utils.py,sha256=WldTh15mweVFyMCbNru5Qxx5XT3j46y0Rp-zKreb5dg,379
+toolsmanager/data/append_bashrc.sh,sha256=2QkimZF0APWBU9Znoa8_eFw5Wj_2xvCfyf4wNmCP5ow,125
+toolsmanager/data/tm_bashrc.sh,sha256=IrNOdDUvMFakcyHsO4zrz7MAeGfI6ZzPo7FdNDZ61z0,92
+toolsmanager-0.1.1.dist-info/LICENSE,sha256=bf6JVPwzmH4PF7C6IyefmelWDd-sM3GUMk2fLOrZBjM,1063
+toolsmanager-0.1.1.dist-info/METADATA,sha256=OtGZOXUX4Gxm0ivQZn3ySHqCIzcl1B_H_477vAtCl-4,2417
+toolsmanager-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+toolsmanager-0.1.1.dist-info/entry_points.txt,sha256=lIMWYgqDclJwluNj9Susu3zp2AFDeOaosGQu3vsRIzQ,61
+toolsmanager-0.1.1.dist-info/top_level.txt,sha256=wEfx2rwgQGwpf2G9a95DZLAwA-q5fYxlWMozQsf5U0o,13
+toolsmanager-0.1.1.dist-info/RECORD,,
