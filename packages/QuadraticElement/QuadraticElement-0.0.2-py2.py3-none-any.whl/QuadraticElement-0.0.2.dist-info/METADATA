@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: QuadraticElement
+Version: 0.0.2
+Summary: 命令行项目
+Home-page: https://codechina.csdn.net/qq_53280175/quadraticelement
+Author: PYmili
+Author-email: mc2005wj@163.com
+Maintainer: PYmili
+Maintainer-email: mc2005wj@163.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: RandomKey (>=0.0.1)
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: wget (>=3.2)
+Requires-Dist: opencv-python (>=4.5.3.56)
+Requires-Dist: PyPoli (>=0.1.0)
+Requires-Dist: FolderProcessing (>=0.1.1.2)
+
+# sample-data-repo
+
+# 命令行项目
+
+命令行项目
+
+[codechina.csdn地址链接|Tutorial links](https://codechina.csdn.net/qq_53280175/quadraticelement)
+
+版本：0.0.1
+
+使用方法
+
+新建.py文件
+
+输入以下内容：
+
+from QuadraticElement import *
+
