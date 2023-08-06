@@ -1,0 +1,4 @@
+include go.mod
+include go.sum
+include setup.py
+recursive-include lib/go *.go
