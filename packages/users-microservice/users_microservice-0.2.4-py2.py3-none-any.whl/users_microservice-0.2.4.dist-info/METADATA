@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: users-microservice
+Version: 0.2.4
+Summary: Django users Microservice
+Home-page: https://github.com/QuantTrade-io/users-microservice
+Author: QuantTrade.io
+Author-email: dev@quanttrade.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: djangorestframework
+Requires-Dist: requests
+Provides-Extra: coverage
+Requires-Dist: pytest-cov ; extra == 'coverage'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: i18n
+Requires-Dist: Babel ; extra == 'i18n'
+Provides-Extra: pep8
+Requires-Dist: flake8 ; extra == 'pep8'
+Provides-Extra: release
+Requires-Dist: zest.releaser ; extra == 'release'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+
+==================
+users-microservice
+==================
+
+users-microservice is a django microservice build for user
+authentication and verification.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add "users-microservice" to your INSTALLED_APPS setting like this::
+
+        INSTALLED_APPS = [
+            ...
+            'users-microservice',
+        ]
+
+2. Include the following to all the settings files in you microservice structure::
+
+    Authentication parameters
+    shared_security is our SDK package name, this param tell the SDK which user model to use
+
+        AUTH_USER_MODEL = 'shared_security.User'
+
+    this is the table name in the database for our users model
+
+        AUTH_USER_TABLE = 'users_user'
+
+    this is the name of the database holding the users model
+
+        AUTH_DB = 'primary_db'
+
+        DATABASE_ROUTERS = ['shared_security.dbrouter.AuthRouter']
+
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.mysql',
+                'HOST': os.getenv('DB_HOST'),
+                'PORT': int(os.getenv('DB_PORT', 3306)),
+                'USER': os.getenv('DB_USER'),
+                'PASSWORD': os.getenv('DB_PASSWORD'),
+                'NAME': os.getenv('DB_NAME')
+            },
+            'primary_db': {
+                'ENGINE': 'django.db.backends.mysql',
+                'HOST': os.getenv('DB_HOST'),
+                'PORT': int(os.getenv('DB_PORT', 3306)),
+                'USER': os.getenv('DB_USER'),
+                'PASSWORD': os.getenv('DB_PASSWORD'),
+                'NAME': 'primary',
+            }
+        }
+
+    Change all the 'shared_security' paramaters with the naming you use.
+
+3. Run ``python manage.py migrate``.
+
+4. Start the development server and visit http://127.0.0.1:8000/
+
+

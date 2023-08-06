@@ -1,0 +1,12 @@
+users_microservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+users_microservice/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+users_microservice/apps.py,sha256=D4DggcOJIf-8aT6srIIMoCCFXQ9G1ZeUHMmGKra920w,167
+users_microservice/authentication.py,sha256=F-gmGlH4HOOe0ZmNhu_3losM0eID-LyHK8XXDu53_DE,737
+users_microservice/dbrouter.py,sha256=UwDRK40O4wdHB3nSvOfcsEhqwg_R9reGOYYiIxHtYkM,648
+users_microservice/models.py,sha256=KuJPupq6S1e8XQXfLzhAem0RNUDjS5HWuGQpawpGB9Y,239
+users_microservice/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+users_microservice/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+users_microservice-0.2.4.dist-info/METADATA,sha256=roMCqA_E0fg_8LdGacMWrIaTJvoiT5FCPZSKNZGP-ko,2982
+users_microservice-0.2.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+users_microservice-0.2.4.dist-info/top_level.txt,sha256=AbxTdlYNk3xkicabqj_1hV2eqn2iUq0MX2hjUtA-hxQ,19
+users_microservice-0.2.4.dist-info/RECORD,,
