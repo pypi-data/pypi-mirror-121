@@ -1,0 +1,14 @@
+taas/__init__.py,sha256=0ruX-CtFlzOoUgE34caOpZ4hAHA5OjE28SaqBmb5yRc,226
+taas/config.py,sha256=mJGd7PgnWQTeCg9jF-_aoUFDwCsrx6XZg_XNYLS-6eI,1340
+taas/room_simulator.py,sha256=ZstF9VWhWHdQvXxsohxNqxuLkA_9KvxpvvNvMPto7CU,2614
+taas/taas_data_loader.py,sha256=KfFyqm2ToJxqvXE26g7Y4r6G1psXoQmHwD0og4A3a0M,9356
+taas/taas_data_server.py,sha256=EAwdbzdeQb08gk6kqNk-S9M2z15bmVbCxf5ENozCmTw,3309
+taas/protos/__init__.py,sha256=xXmxQhAKfF3X3UvPmsNuEuxFyLDM1KkcC4x88tGeVAE,307
+taas/protos/data_consumer_pb2.py,sha256=qshR2f9v5xQRphp5BkYeOhWS4d2abuMXtGvWM0hCzWA,19304
+taas/protos/data_consumer_pb2_grpc.py,sha256=C5rri3qk47TXkQVS4t6uGxs2slFarwmARjxkBLiGyqA,8233
+taas/protos/data_provider_pb2.py,sha256=4UfSWVPQGipJGqvAvFOZq7J7bd2293_Gnxe2Ft8T-a8,36440
+taas/protos/data_provider_pb2_grpc.py,sha256=KkPGSK2zZh0mvOZ3BZ17431WiVQMSel1UMgzaY0HD_I,7593
+taas-0.6.6.dist-info/METADATA,sha256=he6Oz3OlkMtkbvLIZ4h1X0t0NGZ7BiZgFOTI0FOqB0g,190
+taas-0.6.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+taas-0.6.6.dist-info/top_level.txt,sha256=ZxDAtt7p0cBYdg0oB-UTJRyHtLBoWlJ09dVEnlmypd8,5
+taas-0.6.6.dist-info/RECORD,,

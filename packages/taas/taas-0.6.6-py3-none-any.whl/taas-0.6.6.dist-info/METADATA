@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: taas
+Version: 0.6.6
+Summary: DataSphere TaaS
+Home-page: UNKNOWN
+Author: Me
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
+UNKNOWN
+
