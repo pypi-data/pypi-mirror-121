@@ -1,0 +1,10 @@
+monzo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monzo/authentication.py,sha256=kz5DYG7kJKN0L9fJGVZG1-Veln__wCCvSXcMDIEJfLY,9452
+monzo/exceptions.py,sha256=mlgpeUkZ7b6RAOqKz9RQOQptnOwpIXV-YuGI3zeNoHM,1477
+monzo/helpers.py,sha256=rymai2TZz-XxdQTX_mABXtH0JCUuf9Gt4zauI9TQAjQ,1220
+monzo/httpio.py,sha256=bWobHEuKAMZ1DDmp6XsoHIBzH4rlbqUiaAbPNiC45Es,5883
+monzo_api-0.0.5.dist-info/LICENSE,sha256=D3XeEPQPP3lh8FHyCEl_v5re3ryyunGyEUjYVmAdZ_k,1107
+monzo_api-0.0.5.dist-info/METADATA,sha256=Jd35FX-Ic_Mhhdp882vfIQfF8XT2-xR9HtjQVsOXUXs,713
+monzo_api-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+monzo_api-0.0.5.dist-info/top_level.txt,sha256=tK5srjWjDVA55scueWNMKNZFTHkCZqDkoEPhtIXH118,6
+monzo_api-0.0.5.dist-info/RECORD,,

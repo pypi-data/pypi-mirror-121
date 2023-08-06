@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: monzo-api
+Version: 0.0.5
+Summary: Package to interact with the API provided by Monzo bank
+Home-page: https://github.com/petermcd/monzo-api
+Author: Peter McDonald
+Author-email: git@petermcdonald.co.uk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/petermcd/monzo-api/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+
+UNKNOWN
+
