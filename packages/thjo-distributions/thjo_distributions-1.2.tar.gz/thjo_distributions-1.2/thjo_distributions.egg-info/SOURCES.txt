@@ -1,0 +1,10 @@
+setup.py
+thjo_distributions/Binomialdistribution.py
+thjo_distributions/Gaussiandistribution.py
+thjo_distributions/Generaldistribution.py
+thjo_distributions/__init__.py
+thjo_distributions.egg-info/PKG-INFO
+thjo_distributions.egg-info/SOURCES.txt
+thjo_distributions.egg-info/dependency_links.txt
+thjo_distributions.egg-info/not-zip-safe
+thjo_distributions.egg-info/top_level.txt
