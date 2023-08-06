@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: log.client
+Version: 1.0.0
+Summary: log library for python
+Home-page: https://github.com/dugangandy/log-client-python.git
+Author: dugangandy@qq.com
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
