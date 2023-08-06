@@ -1,0 +1,6 @@
+include src/dietkit/samples/*.csv
+exclude src/dietkit/.git
+exclude src/dietkit/.gitignore
+exclude src/dietkit/LICENSE
+exclude src/dietkit/Readme.md
+exclude src/dietkit/sample_execution.ipynb
