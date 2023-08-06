@@ -1,0 +1,9 @@
+onednn_cpu_tbb-2021.4.0.data/data/Library/bin/dnnl.dll,sha256=1uW41q1jXLKUbZdgbC4DAxCkFyE_VV9mTaqTit5-PzM,115345424
+onednn_cpu_tbb-2021.4.0.data/data/Library/share/doc/onednn/LICENSE,sha256=C3NsuqbSHwa_WHe2M0iXyTRyElBp2hhuI23Zo8GF6k0,11726
+onednn_cpu_tbb-2021.4.0.data/data/Library/share/doc/onednn/README,sha256=83ToCBf3GJrpLfCIwW9mGarRWA7xxDgOpILAifdbHaE,6514
+onednn_cpu_tbb-2021.4.0.data/data/Library/share/doc/onednn/THIRD-PARTY-PROGRAMS,sha256=VESbhO4jEdWsqxf7OMVhsAjql08lAu7GZcU8bycofl4,25148
+onednn_cpu_tbb-2021.4.0.dist-info/LICENSE.txt,sha256=rVeK6nE7qRmAwbwjnG9ENguRsDgzEkFn5MZL2IU6QgY,10999
+onednn_cpu_tbb-2021.4.0.dist-info/METADATA,sha256=32XGEVaRlY8FbsD48WMr0k_jckfkeJFqs_j1TxgTXS4,1317
+onednn_cpu_tbb-2021.4.0.dist-info/WHEEL,sha256=8LoR7XFRBQAclYSv48VVSgW4Rfczh8dfa-4Q4WIotnk,128
+onednn_cpu_tbb-2021.4.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+onednn_cpu_tbb-2021.4.0.dist-info/RECORD,,
