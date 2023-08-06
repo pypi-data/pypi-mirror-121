@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: otp_generator
+Version: 0.1.0
+Summary: A Python tool to generate and verify One Time Password (OTP)
+Home-page: https://gitlab.com/frier17/otp_generator.git
+Author: https://gitlab.com/frier17/
+Author-email: frier17@a17s.co.uk
+License: MIT
+Description: # OTP Generator
+        
+        **A Python tool to generate and verify One Time Password (OTP)**
+        
+        This tool is designed to enable developers generate and verify OTP using Python [cyrptophy](https://cryptography.io/en/latest/) package.
+        
+        
+        An OtpServer class provides basic operations for generating and verifying OTP. 
+        There is no database support provided for saving to a given database rather hooks are provided as functions. 
+        The function hooks take two parameters: a callable and a data. 
+        The callable is any class, method, or function which should be executed when an event occurs. 
+        The data parameter is used to pass any set of information or data to the callable during execution.
+        
+        The hooks simply perform a function call without any data processing or checks. 
+        **Developers are expected to perform necessary modifications to make this tool fit their designed system(s).** 
+        
+        
+        ## Motivation
+        
+        The OTP generator was developed as a means of authenticating user's email, mobile or identity. 
+        
+        
+        ## Dependencies
+        
+        This application depends on `cryptography` package. The target Python for current implementation is Python 3.8
+        
+        ## Build Status
+        
+        **Version: 0.1.0**
+        
+        Current development of `otp_generator` is version 0.1.0. This is considered the Alpha Edition.
+        
+        ## Features
+        
+        Current build features include:
+        
+        + Generate OTP with corresponding data for later verification of the generated code
+        + Verify OTP code using stored data that does not identify the generated OTP code.
+        
+        It is assumed that all data generated for a given OTP code are securely saved. 
+        Developers are to ensure storage and retrieval of data. Various function hooks are provided to this end. 
+        
+        
+        ## Contributing
+        
+        Please visit application repo for further information on extending project. Ideas and comments will be reasonably
+        appreciated.
+        
+        ## Author
+        
+        Current development is by Aniefiok Friday [@frier17](https://gitlab.com/frier17).
+        
+        ## License
+        
+        MIT License
+        
+        https://mit-license.org/
+        
+        For details read license contract [here](https://mit-license.org/)
+        
+        Copyright 2021 @frier17
+        
+        Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License. You may
+        obtain a copy of the License at
+        
+               https://mit-license.org/
+        
+        Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "
+        AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific
+        language governing permissions and limitations under the License.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security :: Cryptography
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
