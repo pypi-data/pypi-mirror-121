@@ -1,0 +1,13 @@
+django_old_records/__init__.py,sha256=3P_RzFXNr8xKOT9NADWfDtAgQsjW3KZxYRYS4edzWKA,52
+django_old_records/admin.py,sha256=GXLIXZvAtd_o4MxX9A9hIDLTNwVizOwLSzMqiZf6pHI,306
+django_old_records/apps.py,sha256=AZA8iDfuvIpCP-ivrD36cWUJc4agKuFD77qXi-5D_ek,172
+django_old_records/models.py,sha256=H256VPizaMPIlC2Kk8nQm6o0OuBXmhEpthZVeUp3AUY,1439
+django_old_records/old_records_manager.py,sha256=Mxa_KMhg1nwQCHskztkbnqUtyxBmHlJ3m6sw4gwLUGg,3641
+django_old_records/queryset_csv_exporter.py,sha256=U9B7Gm9vBK1BxpOnK0d7HfaOifQW4-zrjBoZ6vRPdmk,577
+django_old_records/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+django_old_records/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+django_old_records-2.0.1.dist-info/LICENSE,sha256=SGPVDVhs4KyYzobFqzu519ZfEzDVSKh40TX2tt_x4QE,1092
+django_old_records-2.0.1.dist-info/METADATA,sha256=OMCFUi_k-m_HN0zyQjhaR_O55XdJxQl-mqBpy_CZMqg,2630
+django_old_records-2.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_old_records-2.0.1.dist-info/top_level.txt,sha256=kt5plwVqzmRyb4ngdppKZp38c_4p-KjkrGRsXE4R_Hw,19
+django_old_records-2.0.1.dist-info/RECORD,,
