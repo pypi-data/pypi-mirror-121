@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: unwatermark-musicnotes
+Version: 1.0.0
+Summary: A Musicnotes PDF watermark remover
+Home-page: https://github.com/jasyip/unwatermark-musicnotes
+Author: Jason Yip
+Author-email: jasonyip1234567@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymupdf
+
+# MusicNotes PDF Watermark Remover
+
+## Usage
+
+Run
+```
+musicnotesrm < destination to PDF > < your full name used as PDF's watermark >
+```
+
+
