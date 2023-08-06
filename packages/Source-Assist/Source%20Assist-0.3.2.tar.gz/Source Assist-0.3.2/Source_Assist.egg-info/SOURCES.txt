@@ -1,0 +1,15 @@
+README.md
+setup.py
+Source_Assist.egg-info/PKG-INFO
+Source_Assist.egg-info/SOURCES.txt
+Source_Assist.egg-info/dependency_links.txt
+Source_Assist.egg-info/entry_points.txt
+Source_Assist.egg-info/requires.txt
+Source_Assist.egg-info/top_level.txt
+sa/__init__.py
+sa/_version.py
+sa/docker_api.py
+sa/repo.py
+sa/source_assist.py
+sa/utils.py
+sa/versioning.py

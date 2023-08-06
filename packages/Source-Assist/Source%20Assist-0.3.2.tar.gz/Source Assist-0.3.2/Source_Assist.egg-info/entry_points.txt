@@ -1,0 +1,3 @@
+[console_scripts]
+sa = sa.source_assist:main
+
