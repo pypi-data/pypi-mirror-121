@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Perceptron-pypi-vishalbansal-1650
+Version: 0.0.4
+Summary: It is an implmentation of perceptron
+Home-page: https://github.com/vishalbansal-1650/Perceptron_pypi
+Author: vishalbansal-1650
+Author-email: vishalbansal1650@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vishalbansal-1650/Perceptron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Perceptron_pypi
+python package indexing for Perceptron implemetation
+
+# How to use 
+
+```python
+pip install Perceptron-pypi-vishalbansal-1650
+```
+
+# URL for pypi
+
+[Perceptron pypi page](https://pypi.org/project/Perceptron-pypi-vishalbansal-1650/)
+
+# References 
+
+[Python Documentation for pypi](https://packaging.python.org/tutorials/packaging-projects/)
+
+
+[Offical docs for GitHub Actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
+
