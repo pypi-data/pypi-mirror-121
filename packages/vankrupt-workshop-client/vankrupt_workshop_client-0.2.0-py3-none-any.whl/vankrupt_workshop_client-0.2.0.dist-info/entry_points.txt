@@ -1,0 +1,4 @@
+[console_scripts]
+vankrupt_download=vankrupt_workshop_client.consumer_cli:cli
+vankrupt_upload=vankrupt_workshop_client.creator_cli:cli
+

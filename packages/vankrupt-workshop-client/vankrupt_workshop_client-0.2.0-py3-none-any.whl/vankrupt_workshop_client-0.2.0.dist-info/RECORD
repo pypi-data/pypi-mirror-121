@@ -1,0 +1,13 @@
+vankrupt_workshop_client/README.md,sha256=i7c0jFUyqmZINPjN5kHR17PXua9GubKn3CtxmfxYstk,2573
+vankrupt_workshop_client/__init__.py,sha256=SzVcSf93IBXdsMZft4KcMn9Ls9XvfgGCjpU10--p51k,142
+vankrupt_workshop_client/api/README.md,sha256=0YzmXP3Z7YEpBBpHw6PsaclReAoTQYZ2YUaLjnhWmko,2178
+vankrupt_workshop_client/api/__init__.py,sha256=Mrj5UnIcU97ysu8NheE-wAE2zGe9B032gN3H1axIqRs,1197
+vankrupt_workshop_client/api/api_entities.py,sha256=MmPO5vgqb4E8HmXNjRfsU3_YL5XAZzWrAogX1T-0ydc,1703
+vankrupt_workshop_client/api/consumer.py,sha256=jjk20n8hRVjkXQFkj6DJX4TeGD9wRbeJHiyXcnVW344,11057
+vankrupt_workshop_client/api/creator.py,sha256=0e6BkTOXjLwTIzaYLrm8yI2wcnzDxtZ1Ld6We-tqXa4,6456
+vankrupt_workshop_client/consumer_cli.py,sha256=O3Zp6hGW1bjH-HP0rj0JfNgcyQVfM_-xjovJ3RQyjag,6744
+vankrupt_workshop_client/creator_cli.py,sha256=1sk8ZryfTE5PPbnmnxFic_QcDTjW-3ss0IBNtGIlvO4,5814
+vankrupt_workshop_client-0.2.0.dist-info/entry_points.txt,sha256=DOQssKNORJUL9Af6m35YQx-f16QmTzv5adA0u4qcLRA,136
+vankrupt_workshop_client-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+vankrupt_workshop_client-0.2.0.dist-info/METADATA,sha256=gc2JB7irO6wPtTvPyWdnQruM11ymSCsIq2bovCdG8j8,2341
+vankrupt_workshop_client-0.2.0.dist-info/RECORD,,
