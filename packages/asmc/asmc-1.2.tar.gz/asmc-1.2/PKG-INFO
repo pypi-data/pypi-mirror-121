@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: asmc
+Version: 1.2
+Summary: The Ascertained Sequentially Markovian Coalescent and related tools
+Home-page: https://github.com/PalamaraLab/
+Author: PalamaraLab
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Provides-Extra: pypi
+License-File: LICENSE
+License-File: COPYING
+
+ASMC
+----
+
+A Python module that provides:
+
+- `ASMC <https://pypi.org/project/asmc-asmc/>`_ v1.2
+- `PrepareDecoding <https://pypi.org/project/asmc-preparedecoding/>`_ v2.2.2
+
+
