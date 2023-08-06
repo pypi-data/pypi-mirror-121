@@ -1,0 +1,3 @@
+[console_scripts]
+sphinx-view=sview.cli:main
+
