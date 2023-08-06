@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: virtualwatts
+Version: 0.1.0
+Summary: VirtualWatts is a formula for a self-adaptive software-defined power meter based on the PowerAPI framework.
+Home-page: UNKNOWN
+Author: Lauric Desauw
+License: MIT
+Keywords: energy,powerapi,containers,performance counters,power meter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.7
+Requires-Dist: powerapi[influxdb,mongodb,opentsdb,prometheus] (>=1.0.0)
+
+VirtualWatts is a software-defined power meter based on the PowerAPI toolkit.
+VirtualWatts a configurable software that can estimate the power consumption of
+process inside a VM in real-time.
+VirtuallWatts is supposed to be used inside a VM. It need to receive two metrics :
+
+- The energy consumption of the VM, usually made with
+  [SmartWatts](https://github.com/powerapi-ng/smartwatts-formula)
+- The cpu usage of the tracked processes and the global cpu usage, as provided
+  by [procfs-sensor](https://github.com/powerapi-ng/procfs-sensor).
+
+# About
+
+VirtualWatts is an open-source project developed by the [Spirals research
+group](https://team.inria.fr/spirals) (University of Lille 1 and Inria).
+
+The documentation is not available yet.
+
+## Contributing
+
+If you would like to contribute code you can do so through GitHub by forking the
+repository and sending a pull request.
+You should start by reading the [contribution guide](https://github.com/powerapi-ng/virtualwatts/blob/main/contributing.md)
+
+When submitting code, please check that it is conform by using `pylint` and
+`flake8` with the configurations files at the root of the project.
+
+## Acknowledgments
+
+VirtualWatts is written in [Python](https://www.python.org/) (under [PSF
+license](https://docs.python.org/3/license.html)) and built on top of
+[PowerAPI](https://github.com/powerapi-ng/powerapi)
+
+MIT License
+
+Copyright (c) 2021 PowerAPI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
