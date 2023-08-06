@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "jsx": "react",
+    "lib": [
+      "ES6",
+      "ES2016",
+      "ES2017",
+      "DOM"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "strictNullChecks": false,
+    "target": "es2017",
+    "types": [
+      "jest"
+    ]
+  },
+  "files": [
+    "src/slurm-config/config.json"
+  ],
+  "include": [
+    "src/*.ts",
+    "src/*.tsx",
+    "src/components/*.tsx",
+    "src/slurm-config/config.json",
+    "src/store/index.ts"
+  ]
+}
