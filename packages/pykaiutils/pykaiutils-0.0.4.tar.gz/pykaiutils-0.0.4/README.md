@@ -1,0 +1,35 @@
+### 1.启动bert-as-service
+架构图：
+    https://www.processon.com/view/link/610b87805653bb143a2992eb
+
+
+
+文件结构：
+    data：数据文件
+        56nation.txt : 56个民族 （因为有个别县有包括民族）
+
+    
+
+安装环境：
+pip install --user python==3.6.10
+pip install --user tensorflow==1.10.0
+pip install bert-serving-server #服务端
+pip install bert-serving-client #客户端
+
+安装包：
+    jieba                              0.39
+    numpy                              1.14.5
+    xpinyin                            0.7.6
+    pymongo                            3.12.0
+    pandas                             0.23.0
+
+
+启动：
+    bert-serving-start -model_dir E:/chinese_L-12_H-768_A-12/ -num_worker=1
+    bert-serving-start -model_dir E:/Python_project/kashgari_ner_863/chinese_L-12_H-768_A-12/ -num_worker=1
+
+
+
+
+部署：
+    python qcc_bus_poi_match.py -cityname=佛山市
