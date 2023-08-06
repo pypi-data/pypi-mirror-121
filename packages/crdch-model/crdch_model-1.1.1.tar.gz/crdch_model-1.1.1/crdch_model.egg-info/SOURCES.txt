@@ -1,0 +1,10 @@
+AUTHORS.md
+README.md
+setup.cfg
+setup.py
+crdch_model/__init__.py
+crdch_model/crdch_model.py
+crdch_model.egg-info/PKG-INFO
+crdch_model.egg-info/SOURCES.txt
+crdch_model.egg-info/dependency_links.txt
+crdch_model.egg-info/top_level.txt
