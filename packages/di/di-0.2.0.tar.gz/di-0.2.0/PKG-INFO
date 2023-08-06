@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: di
+Version: 0.2.0
+Summary: Autowiring dependency injection
+Author: Adrian Garcia Badaracco
+Author-email: adrian@adriangb.com
+Requires-Python: >=3.8.0,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: anyio (>=3,<4)
