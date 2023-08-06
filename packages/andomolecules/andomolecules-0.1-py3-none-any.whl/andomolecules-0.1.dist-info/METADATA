@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: andomolecules
+Version: 0.1
+Summary: Package containing useful functions for molecular simulations
+Home-page: UNKNOWN
+Author: Raúl Montón
+Author-email: <raul.monton@unknown.invalid>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy (>=1.19)
+
+Package containing useful functions for molecular simulations
+
+
