@@ -1,0 +1,16 @@
+jsonclasses_server/__init__.py,sha256=xBqjbf1G9Hvf7w1qxPXYtl9VvCHKdWhFkS34PGQJujA,166
+jsonclasses_server/aconf.py,sha256=qF6o11WfXS5VYRRqv0kFY6I8Tkzet0UqtM8ctU1pRO8,3115
+jsonclasses_server/actx.py,sha256=IVLlM02l4Qjc1-fugPG7-MbKtxCcduriFbpcUaMKloA,322
+jsonclasses_server/api.py,sha256=dytNhufJ9wOIcFOabKL4APDROvKPGpz9at2hl2_tUGE,2759
+jsonclasses_server/api_class.py,sha256=wfI-mpp2VpiWVyf9NB0j1PiyWpusJi4z7HbFet1-15k,3738
+jsonclasses_server/api_object.py,sha256=b-tSacmYVbLF2LonkPBdfqPd2VtbQQOxrqxAQ8cHG8k,232
+jsonclasses_server/api_record.py,sha256=kVzWCv7Yz6gSOawsa8adhv_LURA0jv9FOtvTk4EhyIk,283
+jsonclasses_server/authorized.py,sha256=mFyoeQ8Iw6NVKGmO1WY6Rmf6VvjzvmbTWzdBDpsf_us,27
+jsonclasses_server/create_fastapi_server.py,sha256=4sBa3qO14w63U5gRD7n4Yrh6imiNFXMrqMdRyUQZ6gk,68
+jsonclasses_server/create_flask_server.py,sha256=bf5opMacmjFw_LGFBUZY_Fqe5F4wQeXA2QV8_RU6Ulc,9715
+jsonclasses_server/nameutils.py,sha256=wjvi6I_nLgtMYtuSyzu-aOuKeGHTud9Z-ObnV-igzaY,977
+jsonclasses_server-2.8.1.dist-info/LICENSE,sha256=PhLcqc1Imwc9OmFEKlJSQ8QSp_KFxIwWGrBctXoybw8,1122
+jsonclasses_server-2.8.1.dist-info/METADATA,sha256=o6wUCdwUoHx3qqYe6o1xjpspKDcIebPaWkCYHOmqcjE,454
+jsonclasses_server-2.8.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jsonclasses_server-2.8.1.dist-info/top_level.txt,sha256=Xi1R8OZorVHylX6q3Mpzg5omvZcbBEDE4Ju0YrgfVeI,19
+jsonclasses_server-2.8.1.dist-info/RECORD,,
