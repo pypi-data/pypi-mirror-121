@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: QiubyZEtherChain
+Version: 0.1
+Summary: Ethereum Blockchain Ecosystem Api (Polygon, Bsc and other)
+Home-page: https://github.com/QiubyZ/EtherBlock
+Author: Qiuby Zhukhi
+Author-email: qzhukhi@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Python Ethereum Block Chain,Binance smartchain api python,Polygon Blockchain api python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
