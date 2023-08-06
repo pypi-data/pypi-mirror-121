@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: qfnn
+Version: 0.0.1
+Summary: A test package of quantumflow
+Home-page: https://github.com/weiwenjiang/QuantumFlow_Tutorial
+Author: Weiwen Jiang, Zhirui Hu
+Author-email: wjiang8@gmu.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/weiwenjiang/QuantumFlow_Tutorial/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JQuantumFlow
+When you change the code,please update to github and pypi
+
+## How to update to pypi:
+cd JQuantumFlow_tutorial/
+- change the version in the setup.cfg (if not, it will fail) 
+- sh update2pypi.sh
+
+## How to generate doc:
+- pip install sphinx
+- cd doc
+- sphinx-apidoc -o source ../src/JQuantumFlow/
+- make html
+- cd build/html
+
+
+
+
