@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: usefulmath
+Version: 1.0
+Summary: A repository which excecutes long/complex calculations
+Home-page: https://github.com/DynPyDev/usefulmath
+Author: DynPyDev
+Author-email: dynpydev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+#umath
+
+A repository which excecutes long/complex calculations.
+
+Commands:
+- umath.proportion(str_proportion)
+
+	Insert into the command a proportion in standard form, including the "x". It must be string
+
+	Example
+		Input:
+
+			import umath
+			
+			a = umath.proportion("105:8=x:22")
+			print(a)
+			
+		Output:
+			288.75
+
