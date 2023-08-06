@@ -1,0 +1,9 @@
+isulapy/__init__.py,sha256=IR7HS9cFn5AsOQLImtdI46TUf6csJNwHsrV_41IUu20,44
+isulapy/api_pb2.py,sha256=-R5F_06OaIEYwITROnVevIPO2E4bhpWxKps9w-MByrY,299311
+isulapy/api_pb2_grpc.py,sha256=evbYo_umahIDKggn9BHWdnUx2Qsp0X24RmT3IFe4Yzw,47141
+isulapy/isula.py,sha256=BJpXSxVPMwAe5aLGO0VWnz-10GySQJnRPUWSVUHoGkw,7170
+isulapy-0.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isulapy-0.0.2.dist-info/METADATA,sha256=thM4XfBtr2ALjZVqpTIbKRajo1ddLr0-HJG0vJH9TE4,391
+isulapy-0.0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+isulapy-0.0.2.dist-info/top_level.txt,sha256=TteGPVK4qi6punRirJSIRIwZDH8bXP1Jxh51mWxgA4o,8
+isulapy-0.0.2.dist-info/RECORD,,

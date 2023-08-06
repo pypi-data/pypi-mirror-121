@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: isulapy
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/baixi123
+Author: zbc
+Author-email: 1426221905@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: grpcio
+
+The pypi library is used by python to call the isula interface to implement container management. The essence is realized by using Grpc technology to call the isula CRI interface.
+
+
