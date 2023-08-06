@@ -1,0 +1,3 @@
+[console_scripts]
+oceanscript = oceanscript.__main__:main
+
