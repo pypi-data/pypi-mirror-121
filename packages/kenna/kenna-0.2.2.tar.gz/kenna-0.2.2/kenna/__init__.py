@@ -1,0 +1,11 @@
+from kenna.region import DEFAULT_REGION
+
+import os
+
+DEFAULT_API_KEY = os.environ.get("KENNA_API_KEY")
+
+#: Pagination settings.
+PAGE_SIZE_FOR_VULNERABILITIES = 5000
+PAGE_SIZE_FOR_ASSETS = 500
+PAGE_SIZE_FOR_ASSET_GROUPS = 100
+PAGE_SIZE_FOR_FIXES = 100
