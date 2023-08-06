@@ -1,0 +1,4 @@
+[console_scripts]
+preprocess = pytorch_vision_utils.preprocessing:main
+train = pytorch_vision_utils.train:main
+
