@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/frdomoticz/__init__.py
+src/frdomoticz/lib.py
+src/frdomoticz.egg-info/PKG-INFO
+src/frdomoticz.egg-info/SOURCES.txt
+src/frdomoticz.egg-info/dependency_links.txt
+src/frdomoticz.egg-info/top_level.txt
