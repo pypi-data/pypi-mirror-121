@@ -1,0 +1,5 @@
+setup.py
+docoloco.egg-info/PKG-INFO
+docoloco.egg-info/SOURCES.txt
+docoloco.egg-info/dependency_links.txt
+docoloco.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: docoloco
+Version: 0.0.1
+Summary: Makes Templates
+Home-page: UNKNOWN
+Author: Armorlol
+Author-email: cluckluckboi@gmail.com
+License: UNKNOWN
+Description: Makes templates and stores data collected
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
