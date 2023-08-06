@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: python-bvk
+Version: 0.1.4
+Summary: Python library for tracking water consumption from BVK (Brnenske vodarny a kanalizace, bvk.cz)
+Home-page: https://github.com/dankeder/python-bvk
+Author: Dan Keder
+Author-email: dan.keder@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: automat (==20.2.0)
+Requires-Dist: cffi (==1.14.6)
+Requires-Dist: constantly (==15.1.0)
+Requires-Dist: cryptography (==3.4.8)
+Requires-Dist: cssselect (==1.1.0)
+Requires-Dist: h2 (==3.2.0)
+Requires-Dist: hpack (==3.0.0)
+Requires-Dist: hyperframe (==5.2.0)
+Requires-Dist: hyperlink (==21.0.0)
+Requires-Dist: idna (==3.2)
+Requires-Dist: incremental (==21.3.0)
+Requires-Dist: itemadapter (==0.4.0)
+Requires-Dist: itemloaders (==1.0.4)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: parsel (==1.6.0)
+Requires-Dist: priority (==1.3.0)
+Requires-Dist: protego (==0.1.16)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pydispatcher (==2.0.5)
+Requires-Dist: pyopenssl (==20.0.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: queuelib (==1.6.2)
+Requires-Dist: scrapy (==2.5.0)
+Requires-Dist: service-identity (==21.1.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: twisted[http2] (==21.7.0)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: w3lib (==1.22.0)
+Requires-Dist: zope.interface (==5.4.0)
+
+# python-bvk
+
+Water conspmution scraper for BVK (Brnenské vodárny a kanalizace, bvk.cz)
+
+Note that you need to have the "smart" water-gauge installed. If you don't know
+what that is you probably don't have one. If you don't have one you have to ask
+them (BVK) to install it for you and you may have to wait a potentially long
+time - they are rolling them out gradually.
+
+
+## Install
+
+```
+pip install python-bvk
+```
+
+## Usage
+
+To create the client object you need to provide your BVK username/password
+(the one you use on the customer portal https://zis.bvk.cz/).
+
+```
+from bvk import Bvk
+from dateutil import parser
+
+# Create client
+bvk = Bvk('username', 'password')
+```
+
+Use `getwaterConsumption()` method to get the water consumption data. It accepts
+a `date_from` and optionally a `date_to`, both of which have to be a
+[datetime.date](https://docs.python.org/3/library/datetime.html#datetime.date)
+object. If `date_to` is not specified the method returns data to today.
+
+```
+# Get water consumption data from the specified date to now
+date_from = parser.parse('2020-08-01').date()
+data = bvk.getWaterConsumption(date_from);
+
+# Get water consumption data for a date interval
+date_from = parser.parse('2020-08-01').date()
+date_to = parser.parse('2020-08-11').date()
+data = bvk.getWaterConsumption(date_from, date_to);
+
+# Get water consumption data for a specific date (just 1 day)
+date = parser.parse('2020-08-01').date()
+data = bvk.getWaterConsumption(date, date);
+```
+
+Keep in mind the library is using [Scrapy](https://scrapy.org) internally which means it is
+scraping the BVK customer portal to get the data. If BVK comes to think you are
+abusing the website they may block your IP address and/or account.
+
+
+# License
+
+See [LICENSE](./LICENSE).
+
+
