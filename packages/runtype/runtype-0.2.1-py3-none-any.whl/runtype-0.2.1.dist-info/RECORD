@@ -1,0 +1,15 @@
+runtype/__init__.py,sha256=u_Uig3XnRvuBfTW93W5iVrPOiI-28BIifVVbheK096U,311
+runtype/base_types.py,sha256=aGcyPLao_FrYaY7fmLQuA-8y0yDfwzgyRphs-xyDypc,5690
+runtype/casts.py,sha256=xHF1sZJAVkq2DdlhzIx4J8SXQDT8TubDIRyhyhm5qZk,4711
+runtype/common.py,sha256=2fJOrjmsVi3kHwfGtoMKPUNdxK2suQPQ70Wwhs-S0kc,53
+runtype/dataclass.py,sha256=sdJlrPDdJMpxmnKzPwJMbw6Cp19NlA6WVJCKXp_PY-M,6528
+runtype/datetime_parse.py,sha256=VEU4NPSSBPc6H49nVZ-E7wUWAdLER_KeUJObBK3WbrU,7845
+runtype/dispatch.py,sha256=iKvIpDHaTag9vVhgw9nYJo5LjJSh_9wKzrJ80fbmIFM,6840
+runtype/isa.py,sha256=7S-uTTQJ_bkYc-QIozLkXoxoAw-CNCzcIxintJb4U78,1556
+runtype/pytypes.py,sha256=nl4ugX4eXnyiq6u4h1waR1AFH_xrm1syB0oaNY_-qnE,10443
+runtype/typesystem.py,sha256=Lv8xtck8Mmf5WbtFqLAAmH6mXC0Di-4fu4mHNvXIvXk,466
+runtype/utils.py,sha256=1KoUl824RB0rarGBgzkrxw-caCxjDgExRi_zGbL4kAk,360
+runtype-0.2.1.dist-info/LICENSE,sha256=lzxXv12d9w2JfALsQJlnZ8XRCOx3-v5m0gC0pVD8t78,1068
+runtype-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+runtype-0.2.1.dist-info/METADATA,sha256=RXTKeBvRp96W_P6zx5DM-g4xRzw615yxJwEQk_P-CoM,7244
+runtype-0.2.1.dist-info/RECORD,,
