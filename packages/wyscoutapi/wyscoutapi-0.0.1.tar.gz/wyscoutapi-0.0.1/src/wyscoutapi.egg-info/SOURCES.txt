@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/wyscoutapi/__init__.py
+src/wyscoutapi.egg-info/PKG-INFO
+src/wyscoutapi.egg-info/SOURCES.txt
+src/wyscoutapi.egg-info/dependency_links.txt
+src/wyscoutapi.egg-info/requires.txt
+src/wyscoutapi.egg-info/top_level.txt
