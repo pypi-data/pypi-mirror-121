@@ -1,0 +1,10 @@
+rzpipe/__init__.py,sha256=pNTeXpWuqaMFZOYQ56HaeuGIol2Q0UBblhHg6ad420g,4613
+rzpipe/native.py,sha256=NMyxxdcm5Lm9rT9RQdzTFIDVKTaCyw11qSD0URR0Pj4,3473
+rzpipe/open_async.py,sha256=ExnCyg1CJGUQ7hNikK0u7vBYGinSN6O3xJXBysIipH0,7076
+rzpipe/open_base.py,sha256=khSsdQbS0fmHtufNd5OYuOrpqeToxdiGNZXVy4eLZM8,9092
+rzpipe/open_sync.py,sha256=X_yWS_V3oPyI6xWjd2s1KShJi09_ciNhTqYTgFWKymE,4872
+rzpipe-0.1.1.dist-info/LICENSE,sha256=DmofJYnQ1vu-civ7yDyqRKR4QTJIkIDKdfGqbQJo9IQ,1075
+rzpipe-0.1.1.dist-info/METADATA,sha256=x7SUbKdy6JNskVJ_SMetHWHsyKouEdpCcWiEb4vnuZs,1105
+rzpipe-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rzpipe-0.1.1.dist-info/top_level.txt,sha256=UwPhCTjNC0V1_8DJjNYpT1-5Bp-0Y5G2L4UAe13u3vY,7
+rzpipe-0.1.1.dist-info/RECORD,,
