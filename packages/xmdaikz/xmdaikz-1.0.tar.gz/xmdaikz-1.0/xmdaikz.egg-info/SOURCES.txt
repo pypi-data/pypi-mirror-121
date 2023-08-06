@@ -1,0 +1,10 @@
+pythonProject/__init__.py
+pythonProject/camara.py
+pythonProject/contornos.py
+pythonProject/main.py
+pythonProject/setup.py
+pythonProject/transformar.py
+xmdaikz.egg-info/PKG-INFO
+xmdaikz.egg-info/SOURCES.txt
+xmdaikz.egg-info/dependency_links.txt
+xmdaikz.egg-info/top_level.txt
