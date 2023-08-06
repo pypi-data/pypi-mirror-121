@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/dirlist.egg-info/PKG-INFO
+src/dirlist.egg-info/SOURCES.txt
+src/dirlist.egg-info/dependency_links.txt
+src/dirlist.egg-info/top_level.txt

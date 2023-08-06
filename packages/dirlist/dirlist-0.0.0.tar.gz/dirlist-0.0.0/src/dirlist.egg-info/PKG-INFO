@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dirlist
+Version: 0.0.0
+Summary: A directory listing server in two lines of code.
+Home-page: https://github.com/fasm-ga/dirlist
+Author: Fasm.ga
+Author-email: developers@fasmga.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/fasm-ga/dirlist/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DirList
+### A directory listing server in two lines of code
+
+DirList is the easiest way to set up a directory listing server.
+
+## Example Code
+```py
+import dirlist
+dirlist.DirList()
+```
+
