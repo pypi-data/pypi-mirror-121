@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/eztransfer/__init__.py
+src/eztransfer/base.py
+src/eztransfer/transfer.py
+src/eztransfer/util.py
+src/eztransfer.egg-info/PKG-INFO
+src/eztransfer.egg-info/SOURCES.txt
+src/eztransfer.egg-info/dependency_links.txt
+src/eztransfer.egg-info/top_level.txt
+src/eztransfer/handles/__init__.py
+src/eztransfer/handles/azure_blob_storage.py
+src/eztransfer/handles/sftp.py
