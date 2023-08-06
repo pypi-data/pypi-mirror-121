@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: screen-watcher
+Version: 0.1
+Summary: watching screen processes
+Home-page: https://github.com/eunchong/screen-watcher
+Author: eunchong
+License: BSD
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: psutil (>=5.8.0)
+Requires-Dist: slacker (>=0.12.0)
+Requires-Dist: tabulate (>=0.8.9)
+Requires-Dist: SQLAlchemy (>=1.4.25)
+
+==============
+screen-watcher
+==============
+screen-watcher is a utility for watching terminating processes.
+
+============
+Installation
+============
+::
+
+    pip install screen-watcher
+
+=====
+Usage
+=====
+::
+
+    SLACK_BOT_TOKEN=token SLACK_BOT_CHANNEL=screen-watcher screen-watcher --daemon
+
