@@ -1,0 +1,3 @@
+[console_scripts]
+pypi = ppfl.__main__:main
+
