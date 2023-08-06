@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "camundactl"
+version = "0.1.0a3"
+description = "A Camunda cli that interacts with the rest api"
+authors = ["Jens Blawatt <jblawatt@googlemail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jblawatt/camundactl"
+repository = "https://github.com/jblawatt/camundactl"
+documentation = "https://github.com/jblawatt/camundactl"
+keywords = ["camunda", "click", "cli"]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyYAML = "^5.4.1"
+requests = "^2.26.0"
+tabulate = "^0.8.9"
+types-requests = "^2.25.6"
+Jinja2 = "^3.0.1"
+jsonpath-ng = "^1.5.3"
+click = "^8.0.1"
+toolz = "^0.11.1"
+jsonschema = "^3.2.0"
+rainbow_logging_handler = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+isort = "^5.9.3"
+black = "^21.7b0"
+mypy = "^0.910"
+flake8 = "^3.9.2"
+pudb = "^2021.1"
+pyinstaller = "^4.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+"cctl" = "camundactl.cmd.base:root"
