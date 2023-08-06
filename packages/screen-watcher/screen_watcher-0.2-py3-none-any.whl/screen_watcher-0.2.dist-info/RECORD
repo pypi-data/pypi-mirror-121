@@ -1,0 +1,11 @@
+screen_watcher/main.py,sha256=ZKucU4DrtPRU6N4ZCWg19EZwE21PM45OUe1RKtwWyyo,4519
+screen_watcher/models.py,sha256=LsTSwazOa41u7kh94_Oyp_s6p_t8V0clvEqct78C-lE,2673
+screen_watcher/screen-watcher.py,sha256=xTZRi8gE-NwtqsuIFV8nWh9aCq3weJVtrS0uGzp0APQ,4491
+screen_watcher/slack.py,sha256=KK7zJYXsRj8i-4RvulOkuHW2ELSWXEXL7Bdbn6mszfk,415
+screen_watcher/utils.py,sha256=xILSojZ3Xpd5nwDlqIIzKd_KZLUbA7PEusfFXky_LGY,494
+screen_watcher/version.py,sha256=ZrEpr--sCNSHCGD0L_wg7jZLgaFC-39tigWWtjAQRwA,85
+screen_watcher-0.2.dist-info/METADATA,sha256=Z1-3rMlYdryawxNwOntgfsVIca437a1t6vbmkWX9-mI,659
+screen_watcher-0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+screen_watcher-0.2.dist-info/entry_points.txt,sha256=3VolRZZzO95Nhby8YlKo4ptRijwVf8B6JeE-PyfrlIE,61
+screen_watcher-0.2.dist-info/top_level.txt,sha256=LgSxzdDVUOImGEO3dLQ0RspqfeovaagUV9U664SJl_k,15
+screen_watcher-0.2.dist-info/RECORD,,
