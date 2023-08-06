@@ -1,0 +1,12 @@
+COPYING
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/asmc/__init__.py
+src/statgentools/__init__.py
+src/statgentools.egg-info/PKG-INFO
+src/statgentools.egg-info/SOURCES.txt
+src/statgentools.egg-info/dependency_links.txt
+src/statgentools.egg-info/requires.txt
+src/statgentools.egg-info/top_level.txt
