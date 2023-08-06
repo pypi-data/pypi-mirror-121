@@ -1,0 +1,1 @@
+from .trend_seas_code import trend_and_season_jm
