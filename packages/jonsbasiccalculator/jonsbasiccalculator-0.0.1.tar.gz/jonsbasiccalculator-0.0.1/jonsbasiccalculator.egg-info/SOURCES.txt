@@ -1,0 +1,12 @@
+CHANGELOG.txt
+Changelog.txt
+MANIFEST.in
+README.txt
+__init__.py
+license.txt
+readme.txt
+setup.py
+jonsbasiccalculator.egg-info/PKG-INFO
+jonsbasiccalculator.egg-info/SOURCES.txt
+jonsbasiccalculator.egg-info/dependency_links.txt
+jonsbasiccalculator.egg-info/top_level.txt
