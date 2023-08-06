@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: git_index_parser
+Version: 1.0.0
+Summary: A package to parse the index file of a git repository
+Home-page: https://github.com/wahlflo/GitIndexFileParser
+Author: Florian Wahl
+Author-email: florian.wahl.developer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GitIndexFileParser
+
+A package to parse the index file of a git repository.
+
+## Installation
+
+Install the package with pip
+
+    pip install git_index_parser
+
+
+## Usage
+```
+from git_index_parser import GitIndexParser
+
+index_file = GitIndexParser.parse_file(path_to_file='.git/index')
+
+for entry in index_file.get_entries():
+    print(entry.name.split)
+```
+

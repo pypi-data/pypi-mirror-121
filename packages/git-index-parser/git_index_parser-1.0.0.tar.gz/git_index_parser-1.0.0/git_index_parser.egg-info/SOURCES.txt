@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+git_index_parser/__init__.py
+git_index_parser/git_index_file.py
+git_index_parser/git_index_file_entry.py
+git_index_parser/git_index_file_extension.py
+git_index_parser/parser.py
+git_index_parser.egg-info/PKG-INFO
+git_index_parser.egg-info/SOURCES.txt
+git_index_parser.egg-info/dependency_links.txt
+git_index_parser.egg-info/top_level.txt
