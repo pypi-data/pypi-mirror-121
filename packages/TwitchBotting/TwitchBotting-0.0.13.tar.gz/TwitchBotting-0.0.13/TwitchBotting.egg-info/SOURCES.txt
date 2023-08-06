@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+TwitchBotting.egg-info/PKG-INFO
+TwitchBotting.egg-info/SOURCES.txt
+TwitchBotting.egg-info/dependency_links.txt
+TwitchBotting.egg-info/top_level.txt
