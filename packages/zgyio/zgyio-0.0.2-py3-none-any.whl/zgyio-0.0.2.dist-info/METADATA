@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zgyio
+Version: 0.0.2
+Summary: Convenience wrapper around OpenZGY Python implementation
+Home-page: https://github.com/equinor/zgyio
+Author: equinor
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+Convenience wrapper around OpenZGY Python implementation which enables reading ZGY files with a syntax familiar to users of segyio.
+
