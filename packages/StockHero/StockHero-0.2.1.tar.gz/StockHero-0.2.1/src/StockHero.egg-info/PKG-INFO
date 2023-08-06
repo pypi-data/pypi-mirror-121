@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: StockHero
+Version: 0.2.1
+Summary: Morningstar.com and Nasdaq stock market data downloader
+Home-page: https://github.com/RobWen/StockHero
+Author: Robert Wenzel
+Author-email: RobWen.StockHero@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# StockHero
+
+[![Downloads](https://pepy.tech/badge/stockhero)](https://pepy.tech/project/stockhero)
+
+## The Ticker module
+The ```Ticker``` module, gets the financial data from nasdaq.com and morningstar.com as a pandas.DataFrame <br>
+
+```python
+import StockHero as stock
+t = stock.Ticker('NVDA') # e.g. NVIDIA Corp
+
+t.financials                         # Morningstar - Financials
+t.marginofsales                      # Morningstar - Margins % of Sales
+t.profitability                      # Morningstar - Profitability
+t.growth_rev                         # Morningstar - Growth - Revenue %
+t.growth_op_inc                      # Morningstar - Growth - Operating Income %
+t.growth_net_inc                     # Morningstar - Growth - Net Income %
+t.growth_eps                         # Morningstar - Growth - EPS %
+t.cf_ratios                          # Morningstar - Cash Flow - Cash Flow Ratios
+t.bs                                 # Morningstar - Balance Sheet Items (in %)
+t.li_fin                             # Morningstar - Liquidity/Financial Health
+t.efficiency                         # Morningstar - Efficiency
+
+t.nasdaq_summ                        # Nasdaq      - Summary
+t.nasdaq_div_hist                    # Nasdaq      - Dividend History
+t.nasdaq_hist_quotes_stock           # Nasdaq      - Historical Quotes for Stocks
+t.nasdaq_hist_quotes_etf             # Nasdaq      - Historical Quotes for ETFs
+t.nasdaq_hist_nocp                   # Nasdaq      - Historical Nasdaq Official Closing Price (NOCP)
+t.nasdaq_fin_income_statement_y      # Nasdaq      - Financials - Income Statement - Yearly
+t.nasdaq_fin_balance_sheet_y         # Nasdaq      - Financials - Balance Sheet    - Yearly
+t.nasdaq_fin_cash_flow_y             # Nasdaq      - Financials - Cash Flow        - Yearly
+t.nasdaq_fin_fin_ratios_y            # Nasdaq      - Financials - Financial Ratios - Yearly
+t.nasdaq_fin_income_statement_q      # Nasdaq      - Financials - Income Statement - Quarterly
+t.nasdaq_fin_balance_sheet_q         # Nasdaq      - Financials - Balance Sheet    - Quarterly
+t.nasdaq_fin_cash_flow_q             # Nasdaq      - Financials - Cash Flow        - Quarterly
+t.nasdaq_fin_fin_ratios_q            # Nasdaq      - Financials - Financial Ratios - Quarterly
+t.nasdaq_earn_date_eps               # Nasdaq      - Earnings Date - Earnings Per Share
+t.nasdaq_earn_date_surprise          # Nasdaq      - Earnings Date - Quarterly Earnings Surprise Amount
+t.nasdaq_yearly_earn_forecast        # Nasdaq      - Earnings Date - Yearly Earnings Forecast 
+t.nasdaq_quarterly_earn_forecast     # Nasdaq      - Earnings Date - Quarterly Earnings Forecast 
+t.nasdaq_pe_forecast                 # Nasdaq      - Price/Earnings & PEG Ratios - Price/Earnings Ratio
+t.nasdaq_gr_forecast                 # Nasdaq      - Price/Earnings & PEG Ratios - Forecast P/E Growth Rates
+t.nasdaq_peg_forecast                # Nasdaq      - Price/Earnings & PEG Ratios - PEG Ratio
+```
+
+## The StockExchange module
+The ```StockExchange``` module, gets the financial data from the Nasdaq Stock Screener as a pandas.DataFrame <br>
+Currently only the Nasdaq is supported, the plan is to support more markets (time will tell)
+
+```python
+import StockHero as stock
+t = stock.StockExchange('something') # e.g. Nasdaq
+
+t.nasdaq                # Nasdaq Stock Market
+
+```
+
+## Combining both modules
+You can combine both modules, for example
+```python
+import StockHero as stock
+t = stock.StockExchange('something')
+
+df = t.nasdaq
+ticker = df.loc[df['Name'].str.contains('NVIDIA'), 'Symbol'].values[0]
+n = stock.Ticker(ticker)
+n.financials
+```
+
+
+### Installing
+https://pypi.org/project/StockHero/
+
+### Legal Stuff
+
+StockHero is distributed under the Apache Software License
+
+### Any feedback or suggestions, let me know
+Or in the words of Peter Thiel:
+> We wanted flying cars, instead we got 140 characters
+
+<br>
+<br>
+<br>
+### Versions <br>
+0.2.1 Added more data from nasdaq.com <br>
+0.1.1 Bug fixes <br>
+0.1.0 Added the StockExchange modul <br>
+0.0.2 Bug fixes / Changed License <br>
+0.0.1 First Release
+
+
+
