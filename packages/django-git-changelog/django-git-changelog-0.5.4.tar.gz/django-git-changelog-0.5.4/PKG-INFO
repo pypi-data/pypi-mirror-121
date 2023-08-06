@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: django-git-changelog
+Version: 0.5.4
+Summary: List all git commits in the backend and create E-Mails with change informations
+Home-page: UNKNOWN
+Author: Snake-Soft
+Author-email: info@snake-soft.com
+License: GPL3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: test
+
+
+
+.. image:: https://github.com/snake-soft/django-git-changelog/actions/workflows/django.yml/badge.svg
+   :target: https://github.com/snake-soft/django-git-changelog/actions/workflows/django.yml
+   :alt: Tests
+
+.. image:: https://api.codeclimate.com/v1/badges/34cf134656b57fd5ed21/maintainability
+   :target: https://codeclimate.com/github/snake-soft/django-git-changelog/maintainability
+   :alt: Maintainability
+
+
+.. image:: https://codecov.io/gh/snake-soft/django-git-changelog/branch/main/graph/badge.svg?token=AP4CQNNOKZ
+   :target: https://codecov.io/gh/snake-soft/django-git-changelog
+    
+
+====================
+Changelog for Django
+====================
+
+This needs some work to be used in productive.
+
+
+Installation
+------------
+
+Install using pip:
+
+.. code-block:: bash
+
+	pip install django-changelog
+
+
+.. code-block:: python
+
+   # settings.py
+   INSTALLED_APPS = [
+       # ...
+       'changelog.apps.ChangelogConfig',
+       # ...
+   ]
+
+
