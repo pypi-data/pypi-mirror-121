@@ -1,0 +1,10 @@
+ubermag/__init__.py,sha256=WWKrZ-bNVnHOGGtJZn7ngFDBshFD6wue6qsIhxuy_1c,674
+ubermag/basic_logging.py,sha256=fmdfaYHhA-WX_fbh2zPXczRXloK-PQQ426wGn3th3NE,1962
+ubermag/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubermag/tests/test_basic_logging.py,sha256=HvtLfP0nzqwTDXjpJ6VpHHH9tQSEH57ybtR-j4OZcOg,1212
+ubermag/tests/test_init.py,sha256=CszaaeFw-oQFx2UV0yBTnCzqbDQ2xhKyoR9e7_rysBE,123
+ubermag-0.60.0.dist-info/LICENSE,sha256=iFNFQiOoHVPmQAFbKTnlJikQRQkDRiEoM5bOkLQKB1c,1475
+ubermag-0.60.0.dist-info/METADATA,sha256=dTZOv9shYwC_SGzw1CD9Mjy32050xA-tpHDo6beFS8k,6666
+ubermag-0.60.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ubermag-0.60.0.dist-info/top_level.txt,sha256=mQ1nHYtUyC50m6zSOUV4AJIimMLPYo-ro5ppLN4SV0s,8
+ubermag-0.60.0.dist-info/RECORD,,
