@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: faceverification
+Version: 1.0
+Summary: A Face Verification module using keras VGGFace
+Home-page: UNKNOWN
+Author: Pratik Dubey
+Author-email: pratikpddubey@gmail.com
+License: MIT
+Keywords: face verification,keras,vggface,deeplearning,face recognition
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: keras
+Requires-Dist: numpy (>=1.9.1)
+Requires-Dist: scipy (>=0.14)
+Requires-Dist: h5py
+Requires-Dist: pillow
+Requires-Dist: mtcnn
+Requires-Dist: keras-vggface
+Provides-Extra: tf
+Requires-Dist: tensorflow ; extra == 'tf'
+Provides-Extra: tf_gpu
+Requires-Dist: tensorflow-gpu ; extra == 'tf_gpu'
+
+A face verification module which compares the faces present in 2 images. This is the initial release.
+
