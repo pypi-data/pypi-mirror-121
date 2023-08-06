@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: TomczykFiles
+Version: 0.0.1
+Summary: Files Management
+Home-page: UNKNOWN
+Author: TOMCZYK Louis
+Author-email: louis.tomczyk.work@gmail.com
+License: MIT
+Description: The functions provided here are custom ones to ease file management : filenames and paths
+        
+        
+        Change Log
+        ==========
+        
+        version : 0.0.1
+        -----------------------
+        date    : 2021/09/26
+        ---
+        Comments: first release
+        
+Keywords: Filename,Path
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

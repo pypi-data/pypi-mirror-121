@@ -1,0 +1,9 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+TomczykFiles.egg-info/PKG-INFO
+TomczykFiles.egg-info/SOURCES.txt
+TomczykFiles.egg-info/dependency_links.txt
+TomczykFiles.egg-info/top_level.txt
