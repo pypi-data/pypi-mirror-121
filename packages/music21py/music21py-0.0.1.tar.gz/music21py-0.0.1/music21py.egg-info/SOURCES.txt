@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+music21py/__init__.py
+music21py.egg-info/PKG-INFO
+music21py.egg-info/SOURCES.txt
+music21py.egg-info/dependency_links.txt
+music21py.egg-info/entry_points.txt
+music21py.egg-info/requires.txt
+music21py.egg-info/top_level.txt
