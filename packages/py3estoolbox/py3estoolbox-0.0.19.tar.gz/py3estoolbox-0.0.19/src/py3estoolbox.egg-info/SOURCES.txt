@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+docs/usages.txt
+src/py3estoolbox/__init__.py
+src/py3estoolbox/es_tools.py
+src/py3estoolbox.egg-info/PKG-INFO
+src/py3estoolbox.egg-info/SOURCES.txt
+src/py3estoolbox.egg-info/dependency_links.txt
+src/py3estoolbox.egg-info/requires.txt
+src/py3estoolbox.egg-info/top_level.txt
