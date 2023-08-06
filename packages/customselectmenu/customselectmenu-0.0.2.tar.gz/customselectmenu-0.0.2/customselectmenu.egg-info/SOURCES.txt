@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+customselectmenu/__init__.py
+customselectmenu.egg-info/PKG-INFO
+customselectmenu.egg-info/SOURCES.txt
+customselectmenu.egg-info/dependency_links.txt
+customselectmenu.egg-info/top_level.txt
