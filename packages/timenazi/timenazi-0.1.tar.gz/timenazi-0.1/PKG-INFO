@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: timenazi
+Version: 0.1
+Summary: A simple time tracker with autotagging
+Home-page: https://github.com/af271/TimeNazi/tree/af271
+Author: Arthur Franz
+Author-email: af271@protonmail.com
+License: MIT
+Download-URL: https://github.com/af271/TimeNazi/archive/refs/tags/v0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: time tracking,time management,autotagging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
