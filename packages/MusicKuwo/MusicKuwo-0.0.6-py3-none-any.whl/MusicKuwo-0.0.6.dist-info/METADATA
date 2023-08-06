@@ -1,0 +1,244 @@
+Metadata-Version: 2.1
+Name: MusicKuwo
+Version: 0.0.6
+Summary: A kuwo music python API.
+Home-page: https://github.com/xiaocaicai-github/MusicKuwo
+Author: Xiaocaicai
+Author-email: xiaocaicai_email@sina.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MusicKuwo
+酷我音乐的 Python API 库。
+
+支持搜索音乐提示，搜索音乐，下载音乐，获取评论等操作。
+
+此库已上传 Pypi ，可通过 Pip 下载。
+
+`pip install MusicKuwo`
+
+安装库就可以使用了。
+
+> ## Search
+> `Search(Key, Page=1, Number=30) -> List[Music, ……]`
+> 
+> 搜索音乐，返回 GroupMusic(Music, ……) 对象。
+
+> ## SearchPrompt
+> `SearchPrompt(Key) -> List[str, ……]`
+> 
+> 搜索音乐的提示。
+
+> ## Music 
+>`Music(InfoJson=None) -> Music`
+> 
+> Search 函数的返回值。
+> 
+> InfoJson 为音乐的信息。
+> > `Code`
+> >
+> > 音乐的代码。可在 MusicDetailed 中用到。
+> 
+> > `Name`
+> > 
+> > 音乐的名字。
+> 
+> > `Artist`
+> >
+> > 音乐的艺术家。
+> 
+> > `AlbumName`
+> >
+> > 音乐所属专辑的名字。
+> 
+> > `AlbumImage`
+> > 
+> > 音乐所属专辑的图片。
+> 
+> > `Download(PathAlbumImage, PathLyrics, PathMusic, Encoding='GBK') -> None`
+> > 
+> > 下载所有能下载的。
+> > > `PathAlbumImage -> str`
+> > >
+> > > 专辑图片保存的路径。
+> >
+> > > `PathMusic -> str`
+> > > 
+> > > 音乐保存的路径。
+> >
+> > > `PathLyrics -> str`
+> > > 
+> > > 歌词保存的文件路径。
+> >
+> > > `Encoding -> str`
+> > > 
+> > > 歌词文件保存的编码。
+> 
+> > `DownloadMusic(Path) -> None`
+> >
+> > 下载音乐到本地。
+> > > `Path -> str`
+> > > 
+> > > 音乐保存的路径。
+> 
+> > `DownloadAlbumImage(Path) -> None`
+> >
+> > 下载音乐的专辑图片到本地。
+> > > `Path -> str`
+> > > 
+> > > 专辑图片保存的路径。
+> 
+> > `DownloadLyrics(Path, Encoding='GBK') -> None`
+> >
+> > 下载音乐的歌词文件到本地。
+> > > `Path -> str`
+> > > 
+> > > 歌词保存的文件路径。
+> 
+> > > `Encoding -> str`
+> > >
+> > > 歌词文件保存的编码。
+> 
+> > `Comment(Page, Number=20, Hot=False) -> GroupComment(Comment, ……)`
+> > 获取音乐的评论。
+> > > `Page -> int`
+> > > 
+> > > 获取评论的第几页。
+> > 
+> > > `Number -> int`
+> > >
+> > > 获取一页评论的个数。
+> 
+> > > `Hot -> boll`
+> > >
+> > > 是否要获取最热评论。如果为 False 则获取的评论是最新评论，为 True 则获取最热评论。
+
+> ## MusicDetailed
+> `MusicDetailed(Code) -> MusicDetailed`
+> 
+> Music 的子类。
+> 
+> MusicDetailed 相对于 Music 多了一些参数。
+> 
+> Code 为整数类型，Music 里的 Code 参数。
+> 
+> > `Time`
+> >
+> > 音乐的时长。
+>
+> > `Date`
+> >
+> > 音乐发布的时间。
+> 
+> > `AlbumInfo`
+> >
+> > 音乐所属专辑的简介。
+
+> ## CommentAnswer
+>`CommentAnswer(InfoJson=None) -> CommentAnswer`
+> 
+> 音乐评论的回答。
+> 
+> InfoJson 为回答评论的信息。
+> > `Time`
+> >
+> > 评论发布的时间。
+> 
+> > `Content`
+> >
+> > 评论的内容。
+> 
+> 
+> > `UserName`
+> > 
+> > 评论发表用户的名称。
+
+> ## Comment
+>`Comment(InfoJson=None) -> Comment`
+> 
+> CommentAnswer 的子类。
+> 
+> 音乐的评论。
+> 
+> InfoJson 为评论的信息。
+> > `UserImage`
+> >
+> > 发表评论的用户的头像。
+> 
+> > `DownloadUserImage(Path) -> None`
+> >
+> > 下载发表评论用户的头像图片到本地。
+> > > `Path -> str`
+> > > 
+> > > 发表评论用户头像图片保存的路径。
+
+> ## GroupMusic
+> 
+> `GroupMusic() -> GroupMusic`
+> 
+> Search 函数的返回值。
+>
+> > `Append(Itme)`
+> > 
+> > 添加元素到 Group 。
+> > >
+> > > `Item -> MusicDetailed, Music`
+> > >
+> > > 要向 Group 添加的元素。
+
+> ## GroupMusic
+> 
+> `GroupMusic() -> GroupMusic`
+> 
+> Search 函数的返回值。
+>
+> > `Append(Itme)`
+> > 
+> > 添加元素到 Group 。
+> > >
+> > > `Item -> MusicDetailed, Music`
+> > >
+> > > 要向 Group 添加的元素。
+> 
+> > `SaveFile(Path, Encoding='GBK') -> None`
+> > 
+> > 保存所有音乐到本地文件。
+> > > `Path -> str`
+> > >
+> > > 文件保存的路径。
+> > 
+> > > `Encoding -> str`
+> > >
+> > > 文件保存的编码。
+> 
+> > `ReadFile(Path, Encoding='GBK') -> None`
+> > 
+> > 读取保存的音乐文件
+> > > `Path -> str`
+> > >
+> > > 读取文件的路径。
+> > 
+> > > `Encoding -> str`
+> > >
+> > > 文件读取的编码。
+
+> ## GroupComment
+> 
+> `GroupComment() -> GroupComment`
+> 
+> Music.Comment 函数的返回值。
+>
+> > `Append(Itme)`
+> > 
+> > 添加元素到 Group 。
+> > >
+> > > `Item -> Comment`
+> > >
+> > > 要向 Group 添加的元素。
+
+
