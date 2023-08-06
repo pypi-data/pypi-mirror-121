@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: miinto-api-wrapper
+Version: 1.0.3
+Summary: A simple and stupid Miinto API wrapper
+Home-page: https://github.com/giuseppechecchia/miinto-api-wrapper
+Author: Giuseppe Checchia
+Author-email: giuseppechecchia@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.md
+
+# miinto-api-wrapper
+Miinto API Wrapper is a simple python wrapper for Miinto API.
+
+Miinto is a fashion luxury marketplace.
+
+For more information see the [Miinto Group](https://www.miinto-group.com/) website.
+
+# installation
+
+pip install miinto-api-wrapper
+
+# Disclaimer
+
+This deployment is NOT completed - just some baisc HTTPs calls are wrapped. 
+
+Anyway it can be used in production.
+
+## Requirements
+
+python 3.x required
+urlparse required
+
+### Kind of rapid instructions:
+
+```
+See some examples on example.py
+```
+

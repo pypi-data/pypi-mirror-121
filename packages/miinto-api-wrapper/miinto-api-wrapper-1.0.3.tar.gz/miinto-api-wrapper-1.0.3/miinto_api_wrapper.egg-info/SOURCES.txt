@@ -1,0 +1,8 @@
+LICENCE.md
+README.md
+setup.py
+miinto_api_wrapper.egg-info/PKG-INFO
+miinto_api_wrapper.egg-info/SOURCES.txt
+miinto_api_wrapper.egg-info/dependency_links.txt
+miinto_api_wrapper.egg-info/requires.txt
+miinto_api_wrapper.egg-info/top_level.txt
