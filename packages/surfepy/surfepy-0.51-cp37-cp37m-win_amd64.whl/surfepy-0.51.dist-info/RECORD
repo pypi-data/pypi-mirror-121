@@ -1,0 +1,11 @@
+surfepy/__init__.py,sha256=BgrYQTCRGsEXpPPqDvNrH6EQd9y4pkk7_VpTR1VRSJc,611
+surfepy/_surfepy.cp37-win_amd64.pyd,sha256=9ttytTyk4_ZU1EUVQBf1cm_xHhgrvGkrJmJZR2sgoO0,141824
+surfepy/math_lib.dll,sha256=KdM3pTCGx6yfSsYCHUCvhI1zxeqy_d89rXlrVzansi4,189952
+surfepy/math_lib.lib,sha256=5Tq_tpMlAX-GuIJcxn4OT9pL9pAHM8rxe2KuVYqKLi4,7526
+surfepy/surfe_lib.dll,sha256=UqfFR23PMQlmmmT-1Y4nG2WQX4LVFsgIjJVWZHfuwhU,389632
+surfepy/surfe_lib.lib,sha256=PaQNG57R93snWG7worx1u7TNss4EBCIcpaoWnfk6cM4,17614
+surfepy-0.51.dist-info/License.txt,sha256=f-ZebvoZadiprBYRz9P4Y9B5EKpmZRq1vuMcgGvvtjw,2362
+surfepy-0.51.dist-info/METADATA,sha256=euP2ghf01o_DQkTzMiB-GbGXmDakBoZJIUOt06YOtpI,228
+surfepy-0.51.dist-info/WHEEL,sha256=00rRnYzom2AU5I6AmamLLncvS8UZBgVascFFgwmjLoo,95
+surfepy-0.51.dist-info/top_level.txt,sha256=h-xUpGoD5ySz2YR5yoscTMJMoxJJP8Uk4SBlf-TeepA,8
+surfepy-0.51.dist-info/RECORD,,
