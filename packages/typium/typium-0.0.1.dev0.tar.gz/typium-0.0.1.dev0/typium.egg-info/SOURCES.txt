@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+typium/__init__.py
+typium.egg-info/PKG-INFO
+typium.egg-info/SOURCES.txt
+typium.egg-info/dependency_links.txt
+typium.egg-info/top_level.txt
