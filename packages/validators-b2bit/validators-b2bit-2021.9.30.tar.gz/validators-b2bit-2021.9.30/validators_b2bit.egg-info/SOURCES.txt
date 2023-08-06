@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+b2validators/__init__.py
+b2validators/credit_card.py
+b2validators/document.py
+b2validators/exceptions.py
+b2validators/values.py
+validators_b2bit.egg-info/PKG-INFO
+validators_b2bit.egg-info/SOURCES.txt
+validators_b2bit.egg-info/dependency_links.txt
+validators_b2bit.egg-info/requires.txt
+validators_b2bit.egg-info/top_level.txt
