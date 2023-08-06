@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nypi.egg-info/PKG-INFO
+nypi.egg-info/SOURCES.txt
+nypi.egg-info/dependency_links.txt
+nypi.egg-info/requires.txt
+nypi.egg-info/top_level.txt
+nypi.egg-info/zip-safe
