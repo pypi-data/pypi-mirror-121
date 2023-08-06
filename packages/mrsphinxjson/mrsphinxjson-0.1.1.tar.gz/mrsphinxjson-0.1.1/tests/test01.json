@@ -1,0 +1,14 @@
+{
+  "Vorname": "Ronald",
+  "Nachname": "Reagan",
+  "Geburtsdatum": "1911-02-06",
+  "Nationalitaet": "US-amerikanisch",
+  "Partei":
+  {
+    "Name": "Republican Party",
+    "Hauptsitz": "Washington, D.C.",
+    "Gründungsdatum": "1854-03-20",
+    "Gründungsort": "Ripon"
+  },
+  "Amt": "US-Präsident"
+}
