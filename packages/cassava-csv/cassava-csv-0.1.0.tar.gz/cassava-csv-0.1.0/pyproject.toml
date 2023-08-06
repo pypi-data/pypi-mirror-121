@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cassava-csv"
+version = "0.1.0"
+description = "Cassava is a package for reading, plotting and quality-checking CSV files."
+authors = ["Paul Breen <pbree@bas.ac.uk>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/paul-breen/cassava"
+homepage = "https://github.com/paul-breen/cassava"
+documentation = "https://raw.githubusercontent.com/paul-breen/cassava/main/README.md"
+
+# This is required because the cassava name is taken on PyPI, hence "name"
+# above is different to the directory/module name
+packages = [
+    {include = "cassava"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.4.3"
+blessed = "^1.18.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
