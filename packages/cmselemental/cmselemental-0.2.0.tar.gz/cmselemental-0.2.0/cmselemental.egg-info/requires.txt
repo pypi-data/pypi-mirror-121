@@ -1,0 +1,16 @@
+numpy
+pydantic
+
+[hdf5]
+h5py
+h5json
+
+[msgpack]
+msgpack
+
+[tests]
+pytest>=4.0.0
+pytest-cov
+
+[yaml]
+pyyaml
