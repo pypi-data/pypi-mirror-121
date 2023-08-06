@@ -1,0 +1,12 @@
+strawberry_django_optimizer/__init__.py,sha256=fD4Z5kzYMsbyt1dCcLboFKoDUugd_HLtw2Nlc5jzOBc,159
+strawberry_django_optimizer/field.py,sha256=rBQwq3blaXCOTcyQtkH2d_Cls6je_RowuyVDAx6wXu0,1004
+strawberry_django_optimizer/hints.py,sha256=427V_PnaZZQFBh3NTZNk3RZkTFqec2avetyVQH-1mcU,775
+strawberry_django_optimizer/query.py,sha256=KVjwqC-IKWMrUCXzlNNjKC0QV-XwsM2h47hPKNdeopo,12024
+strawberry_django_optimizer/resolver.py,sha256=nA6TUsX6V4ganKGTDDLKCQq9_9JeMB-FpaeNwCGbE_8,638
+strawberry_django_optimizer/store.py,sha256=PjRQbVUn6SihY5R9Yzg7GdJ0IaQ-mBhYixwbxRb_KXk,2957
+strawberry_django_optimizer/utils.py,sha256=jbF7Lgzkm2grbOyaW19g5awt5NvrGXjombd30xS6soM,130
+strawberry_django_optimizer-0.1.0.dist-info/LICENSE,sha256=J6O_9l2ae6OHFyLrLpk5ZW3Sq75LS0R-tqQq0vX2KUU,1139
+strawberry_django_optimizer-0.1.0.dist-info/METADATA,sha256=oN4Jo9NgwH3yftUE1kqUByI9xk2PTX_LKk2cPQx4_-I,5268
+strawberry_django_optimizer-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+strawberry_django_optimizer-0.1.0.dist-info/top_level.txt,sha256=rYuFuCQTSrkiQ1wXoouPLpJ9jVHbEiEB6fxdU97jvU4,28
+strawberry_django_optimizer-0.1.0.dist-info/RECORD,,
