@@ -1,0 +1,9 @@
+License.txt
+setup.py
+eeg_library/__init__.py
+eeg_library/test1.py
+eegpipline.egg-info/PKG-INFO
+eegpipline.egg-info/SOURCES.txt
+eegpipline.egg-info/dependency_links.txt
+eegpipline.egg-info/not-zip-safe
+eegpipline.egg-info/top_level.txt
