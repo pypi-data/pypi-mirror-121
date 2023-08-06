@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+mquad/__init__.py
+mquad/mquad.py
+mquad/mquad_CLI.py
+mquad/mquad_batch_mixbin.py
+mquad/mquad_utils.py
+mquad/version.py
+mquad.egg-info/PKG-INFO
+mquad.egg-info/SOURCES.txt
+mquad.egg-info/dependency_links.txt
+mquad.egg-info/entry_points.txt
+mquad.egg-info/requires.txt
+mquad.egg-info/top_level.txt
