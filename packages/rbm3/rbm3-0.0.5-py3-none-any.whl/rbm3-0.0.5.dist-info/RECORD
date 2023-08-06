@@ -1,0 +1,14 @@
+rbm3/__init__.py,sha256=eB5tEg_BNHHsJgQexgmpZJr4c2VbfooQZMXAWuDHoIg,22
+rbm3/core/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rbm3/core/dice.py,sha256=1Ma6Z2e_k3my-dxU7ScrnH65O1CRL60mtAQJYFG0D3k,349
+rbm3/core/eval.py,sha256=VVSVqG_nFYIsLtSg-1lh9NFErfmpcaf3j2AFUC6tQlg,6301
+rbm3/core/paras.py,sha256=zCBI7CTh4IXkbvdmq3y4UBY-EVRhS0EJRtxlBS9MAUM,689
+rbm3/core/utils.py,sha256=6T25W8CJIHkgZKXQFMAHw0056Bgxd74RMS794Mfv5iM,1599
+rbm3/scripts/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rbm3/scripts/rat_brain-3d_unet.hdf5,sha256=7Eg7wbmXrAtbgGuBSTQp1lInQvU_SQom0OMzczUDSck,83855096
+rbm3/scripts/rbm3.py,sha256=B1fpzxNkwL0JAVUIYUvWD5YHjguqX2p6k1HIHSM9GSY,3434
+rbm3-0.0.5.dist-info/METADATA,sha256=HxaPhyHlouw7MAVPWYvQnKROZEJfW1Kh6Po6SBIxHFk,718
+rbm3-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rbm3-0.0.5.dist-info/entry_points.txt,sha256=HrE2YNg35qa03fGZ8qn2CDwJD4iGZ_UiRGSgZc4W3e4,49
+rbm3-0.0.5.dist-info/top_level.txt,sha256=JbjWUfjYvFqzDMK28woa9KgTg5Qtr0jfNuX4bsBZR-k,5
+rbm3-0.0.5.dist-info/RECORD,,
