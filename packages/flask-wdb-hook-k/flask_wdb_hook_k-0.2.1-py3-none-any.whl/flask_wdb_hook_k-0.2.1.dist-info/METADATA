@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flask-wdb-hook-k
+Version: 0.2.1
+Summary: Hook to replace flask werkzeug debugger with wdb.
+Home-page: http://github.com/Kozea/wdb
+Author: Florian Mounier @ kozea
+Author-email: florian.mounier@kozea.fr
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: wdb-k (>=3.3.0)
+
+UNKNOWN
+
