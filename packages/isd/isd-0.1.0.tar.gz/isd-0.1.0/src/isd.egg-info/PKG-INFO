@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: isd
+Version: 0.1.0
+Summary: Reads and archives NOAA Integrated Surface Database (ISD) files
+Home-page: https://github.com/gadomski/pyisd
+Author: Pete Gadomski
+Author-email: pete.gadomski@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gadomski/pyisd/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyisd
+
+Reads NOAA [Integrated Surface Database (ISD)](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database) data.
+
+[![CI](https://github.com/gadomski/pyisd/actions/workflows/ci.yaml/badge.svg)](https://github.com/gadomski/pyisd/actions/workflows/ci.yaml)
+
+## Installation
+
+```shell
+$ pip install isd
+```
+
+## Usage
+
+There is no command line interface yet.
+The Python API is pretty simple:
+
+```python
+from isd import Record
+records = []
+with open("isd-file") as file:
+    records.append(Record.parse(file))
+```
+
+There is currently no parsing of the `additional_data` section, but all mandatory fields are parsed out into appropriately-typed fields on a `Record`.
+
+
+## Development
+
+Install the development requirements and the package in editable mode:
+
+```shell
+$ pip install -e .
+$ pip install -r requirements-dev.txt
+```
+
+To run the unit tests:
+
+```shell
+$ pytest
+```
+
+
