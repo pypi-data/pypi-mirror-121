@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cardano-explorer
+Version: 0.1.4
+Summary: Python wrapper for accessing and processing information stored on the Cardano blockchain using Blockfrost API.
+Home-page: https://github.com/djessy-atta/py-cardano-explorer
+Author: Djessy ATTA
+Author-email: djessyatta@live.fr
+License: MIT
+Download-URL: https://github.com/djessy-atta/py-cardano-explorer/archive/refs/tags/v0.1-beta.4.tar.gz
+Description: UNKNOWN
+Keywords: CARDANO,API,WRAPPER,BLOCKCHAIN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
