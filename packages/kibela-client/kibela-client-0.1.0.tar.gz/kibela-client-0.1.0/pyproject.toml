@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kibela-client"
+version = "0.1.0"
+readme = "README.md"
+license = "MIT"
+description = ""
+include = ["CHANGELOG.md"]
+homepage = "https://github.com/chanyou0311/kibela-client-python"
+repository = "https://github.com/chanyou0311/kibela-client-python"
+authors = ["chanyou0311 <chanyou0311@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+gql = {extras = ["all"], version = "^3.0.0a6", allow-prereleases = true}
+pydantic = {extras = ["dotenv"], version = "^1.8.2"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^21.9b0"
+vcrpy = "^4.1.1"
+pytest-vcr = "^1.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
