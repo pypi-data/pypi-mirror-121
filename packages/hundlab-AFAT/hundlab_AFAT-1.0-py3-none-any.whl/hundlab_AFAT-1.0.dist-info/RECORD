@@ -1,0 +1,11 @@
+AFAT/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AFAT/fibrosis.py,sha256=qAPwhCSmLpeO0WT9aCIvnT-WvYwynbh114LfjdO6IzQ,7437
+AFAT/fibrosis_segmentation.py,sha256=dIfTNZynQzN8sI95b0rzduxjDOLZ7k2vihmpJ_YwFC4,4305
+AFAT/imageJ_shapiro.py,sha256=5ThIT-T9kXGo9AoYscjs0MKtdZSkHUJz-3R6UNzNjLA,703
+AFAT/settings.py,sha256=10H1w0-BZCgCu_aGCm7ZqPPhnpeS1JwKn5_gg996v_c,2533
+hundlab_AFAT-1.0.data/scripts/AutomatedFibrosisAnalysisToolkit.py,sha256=01w8eaFghxxrr4TKNEvq104qZaYKCYC_4Xw-QOvUTBU,347
+hundlab_AFAT-1.0.dist-info/LICENSE,sha256=XDta_3Z5mlQYHP2PwvlKPB0ilRmviOUZJXGZ2gU9fNU,1069
+hundlab_AFAT-1.0.dist-info/METADATA,sha256=pGIBg-RNfoT04bfdeHodYPxl4LIA1OOPp6sNB28lV4w,3050
+hundlab_AFAT-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hundlab_AFAT-1.0.dist-info/top_level.txt,sha256=2dvrKzlDiMHo_LtVZxKaoCn5i7AMQizsFB8ol80oEl8,5
+hundlab_AFAT-1.0.dist-info/RECORD,,
