@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: django-env-bar
+Version: 0.0.4
+Summary: A basic panel displaying the name of the current environment.
+Home-page: https://github.com/steelseries/django-env-bar
+Author: Michael Pedersen
+Author-email: pypi@steelseries.com
+License: MIT
+Download-URL: https://pypi.python.org/pypi/django-env-bar
+Keywords: django,development,devtools
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 1.7
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Django (>=1.7)
+
+==============
+Django Env Bar
+==============
+
+Show the current environment as a persistent footer.
+

@@ -1,0 +1,11 @@
+env_bar/__init__.py,sha256=LquB7rlpdPk3KGQge21MQw7TfU3N36hj7Diwx6SR5-k,353
+env_bar/apps.py,sha256=K1SnbyUr4xstbahYnqSGvCd5gC4ktzEpf0E7hWSMrSw,129
+env_bar/middleware.py,sha256=9q80NHYVTp4dhrcS-rCt2meuTr8Mk9Z0wKLJ4LWtdB8,2180
+env_bar/settings.py,sha256=SromWBm5qMMjXDHo1TpvmxVSsUj-uj4q1hpUB_-XKlc,238
+env_bar/static/env_bar/css/bar.css,sha256=ze27DSblRKAgPyAPgycOxPc4AFPMFEWkfxkR85kbGGY,575
+env_bar/templates/env_bar/bar.html,sha256=y6spJyJFhEgl2ZGyx978j09zy9Cp_6yVxHA0qMXhWMA,247
+django_env_bar-0.0.4.dist-info/LICENSE,sha256=2d9Hwm192Dko_nvcqan6uFtOqzoyz8RpexVCe9ZDhSU,1096
+django_env_bar-0.0.4.dist-info/METADATA,sha256=77TWAiXSMT4RErNGValP8cmR7vaAaeNQMnYMCf2nCAI,1306
+django_env_bar-0.0.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_env_bar-0.0.4.dist-info/top_level.txt,sha256=g9uiDiMdyjaCO8cB2EqntyRZKlXr3sRqgA93HsZMTr0,8
+django_env_bar-0.0.4.dist-info/RECORD,,
