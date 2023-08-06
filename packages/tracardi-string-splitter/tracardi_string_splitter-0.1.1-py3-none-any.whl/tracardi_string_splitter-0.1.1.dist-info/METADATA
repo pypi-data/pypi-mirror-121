@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: tracardi-string-splitter
+Version: 0.1.1
+Summary: The purpose of this plugin is split any string
+Home-page: UNKNOWN
+Author: Bartosz Dobrosielski`
+Author-email: bdobrosielski@edu.cdv.pl
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: tracardi-plugin-sdk
+
+# String splitter plugin
+
+This plugin split any string with a given delimiter
+
+# Requirements
+
+no requirements
+
+# Configuration
+
+Example:
+
+```json
+{
+  "string": "a.b.c",
+  "delimiter": "."
+}
+```
+
+This configuration will split `a.b.c` string into ["a", "b", "c"], using '.' as delimiter.
+
+# Input
+
+This plugin does not process input.
+
+# Output
+
+Returns array with splitted values.
+
+Example:
+
+```json
+{
+  "result": [
+    "a",
+    "b",
+    "c"
+  ]
+}
+```
+
+
+
