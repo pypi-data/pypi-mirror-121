@@ -1,0 +1,8 @@
+setup.py
+vlad1zzzy_package/__init__.py
+vlad1zzzy_package/interpolate.py
+vlad1zzzy_package.egg-info/PKG-INFO
+vlad1zzzy_package.egg-info/SOURCES.txt
+vlad1zzzy_package.egg-info/dependency_links.txt
+vlad1zzzy_package.egg-info/requires.txt
+vlad1zzzy_package.egg-info/top_level.txt
