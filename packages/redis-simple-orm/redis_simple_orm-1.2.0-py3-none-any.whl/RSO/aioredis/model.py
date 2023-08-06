@@ -1,0 +1,73 @@
+from dataclasses import asdict
+from typing import Union
+
+from aioredis import __version__ as aioredis_version
+try:
+    from aioredis.client import Redis, Pipeline
+except ModuleNotFoundError:
+    from aioredis.commands import Redis, Pipeline
+
+from RSO.base import BaseModel
+
+
+old_aioredis = aioredis_version < '2.0.0'
+
+
+class Model(BaseModel):
+    async def is_exists(self, redis: Redis):
+        return bool(await redis.exists(self.redis_key))
+
+    def dict(self):
+        return asdict(self)
+
+    def to_redis(self):
+        dict_data = self.dict()
+        for key, value in dict_data.copy().items():
+            if value is None:
+                del dict_data[key]
+        return dict_data
+
+    async def save(self, redis: Union[Pipeline, Redis]):
+        if isinstance(redis, Pipeline):
+            pipe = redis
+        else:
+            pipe = redis.pipeline()
+
+        if old_aioredis:
+            pipe.hmset_dict(self.redis_key, self.to_redis())
+        else:
+            pipe.hmset(self.redis_key, self.to_redis())
+
+        for index_class in self.__indexes__:
+            index = index_class.create_from_model(self)
+            if getattr(self, index_class.__key__, None) is None:
+                continue
+            await index.save_index(pipe)
+        await pipe.execute()
+
+    @classmethod
+    async def search(cls, redis: Redis, value):
+        redis_key = cls._to_redis_key(value)
+        if bool(await redis.exists(redis_key)) is True:
+            redis_data = await redis.hgetall(redis_key)
+            print(redis_data)
+            return cls(**redis_data)
+        else:
+            return None
+
+    async def delete(self, redis: [Pipeline, Redis]):
+        if isinstance(redis, Pipeline):
+            pipe = redis
+        else:
+            pipe = redis.pipeline()
+
+        for index_class in self.__indexes__:
+            index = index_class.create_from_model(self)
+            if index is None:
+                continue
+            await index.remove_from_index(pipe)
+
+        pipe.delete(self.redis_key)
+        await pipe.execute()
+
+        del self
