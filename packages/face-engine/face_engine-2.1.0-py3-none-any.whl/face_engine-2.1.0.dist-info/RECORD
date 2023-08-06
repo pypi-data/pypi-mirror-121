@@ -1,0 +1,14 @@
+face_engine/__init__.py,sha256=YShoEHN7i6HU-GhTgoU2sJ8wxxjj65wDpIL0d9jXjcY,439
+face_engine/core.py,sha256=_St_cMBoBoBRTDk1t7CbVGIeii2DhOaUc21lqe2LB_c,11952
+face_engine/exceptions.py,sha256=bKjtn8q5YzYXsLR3huNVIXCw3DTz3NSuHempaBhbTmc,229
+face_engine/fetching.py,sha256=jtOz6b9NvgH8h_ws4oQLIgjO-VamgeyjzS9eJvAJ9Qc,2779
+face_engine/tools.py,sha256=A3LBkQym8quJ0i3k12mSHUiycCODQnpLBTwIGCN0ua8,2459
+face_engine/models/__init__.py,sha256=IYy1hFJSEEfPp9qcmwpq0U7tOTcAUP4rjeB4ujNg4Po,4069
+face_engine/models/basic_estimator.py,sha256=MFzvBdReYLA_E7Oqp-jUtsjED-eCK9kDVvpVaQLmExk,1559
+face_engine/models/dlib_models.py,sha256=czB0nQM3xD9LOCzaH5_lhx77w7y9dwQJJeOhww4vRPo,4193
+face_engine/models/insightface_models.py,sha256=HCFPQkqLwdFYTn3w1kC69KXJOsDqu5p12xhKLbPoyMU,1797
+face_engine-2.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+face_engine-2.1.0.dist-info/METADATA,sha256=UJweSVg1S0U2reDVCgBHZPtdx2WyXWCwcAXl4lmQcZQ,3136
+face_engine-2.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+face_engine-2.1.0.dist-info/top_level.txt,sha256=SJTY4kT3WhF5ZPkFfOjB114X6TOqofLX-Px_1reNSjU,12
+face_engine-2.1.0.dist-info/RECORD,,
