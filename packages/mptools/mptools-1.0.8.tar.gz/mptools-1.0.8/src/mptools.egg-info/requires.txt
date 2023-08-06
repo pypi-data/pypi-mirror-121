@@ -1,0 +1,7 @@
+py4web
+pytz>=2020.1
+pandas>=1.0.3
+matplotlib
+numpy
+diskcache
+pytopojson
