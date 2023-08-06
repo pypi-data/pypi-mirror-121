@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: denoc
+Version: 0.1.0
+Summary: Utilities for compile JavaScript with Deno
+License: MIT
+Author: Eliaz Bobadilla
+Author-email: eliaz.bobadilladev@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
