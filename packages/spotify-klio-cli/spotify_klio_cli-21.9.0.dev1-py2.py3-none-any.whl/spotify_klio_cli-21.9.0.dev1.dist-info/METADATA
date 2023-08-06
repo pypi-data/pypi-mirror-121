@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: spotify-klio-cli
+Version: 21.9.0.dev1
+Summary: Internal plugin for klio-cli
+Home-page: https://ghe.spotify.net/sigint/spotify-klio-cli
+Author: sigint
+Author-email: sigint@spotify.com
+Maintainer: sigint
+Maintainer-email: sigint@spotify.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6, <3.9
+Requires-Dist: click
+Requires-Dist: click-plugins
+Requires-Dist: docker
+Requires-Dist: glom
+Requires-Dist: google-api-python-client
+Requires-Dist: klio-cli (>=21.8.0)
+Requires-Dist: klio-core (>=21.8.0)
+Requires-Dist: setuptools
+Requires-Dist: pyyaml
+Provides-Extra: debug
+Requires-Dist: google-cloud-bigquery ; extra == 'debug'
+Provides-Extra: dev
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: interrogate ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: google-cloud-bigquery ; extra == 'dev'
+Requires-Dist: kubernetes ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: interrogate ; extra == 'docs'
+Provides-Extra: kubernetes
+Requires-Dist: kubernetes ; extra == 'kubernetes'
+Provides-Extra: tests
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Requires-Dist: google-cloud-bigquery ; extra == 'tests'
+Requires-Dist: kubernetes ; extra == 'tests'
+
+UNKNOWN
+
+
