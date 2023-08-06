@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pp-me
+Version: 0.1.1
+Summary: Pretty Print Me!
+Home-page: https://nicholassynovic.github.io
+Author: Nicholas M. Synovic
+Author-email: nicholas.synovic@gmail.com
+License: BSD
+Project-URL: Bug Tracker, https://github.com/NicholasSynovic/pp-me/issues
+Project-URL: GitHub Repository, https://github.com/NicholasSynovic/pp-me
+Keywords: pretty,terminal,json
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pretty Print Me!
+
+> Pretty print anything* to the terminal
+
+[![Publish to PyPi](https://github.com/NicholasSynovic/pp-me/actions/workflows/pypi.yml/badge.svg)](https://github.com/NicholasSynovic/pp-me/actions/workflows/pypi.yml)
+
+## Table of Contents
+
+- [Pretty Print Me!](#pretty-print-me)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Currently supported formats](#currently-supported-formats)
+  - [How to Install](#how-to-install)
+  - [How to Run](#how-to-run)
+
+## About
+
+Python module to pretty print a variety of formats to the terminal.
+
+## Currently supported formats
+
+- `.json`
+
+## How to Install
+
+0. Have `Python 3.9.6 +` installed
+1. `pip install pp-me`
+
+## How to Run
+
+0. `pp-me -h` to display all options
+1. Get silly with it
+
+
