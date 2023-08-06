@@ -1,0 +1,2 @@
+graft mypycalculatelib/static
+graft mypycalculatelib/templates
