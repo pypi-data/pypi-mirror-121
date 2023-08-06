@@ -1,0 +1,3 @@
+[console_scripts]
+dynmap_png = dynmap_png:main
+
