@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+swarming/__init__.py
+swarming/version.py
+swarming.egg-info/PKG-INFO
+swarming.egg-info/SOURCES.txt
+swarming.egg-info/dependency_links.txt
+swarming.egg-info/requires.txt
+swarming.egg-info/top_level.txt
+swarming/core/__init__.py
+swarming/core/particle.py
+swarming/core/pso.py
+swarming/utils/__init__.py
+swarming/utils/argument_parser.py
+swarming/utils/logger.py
