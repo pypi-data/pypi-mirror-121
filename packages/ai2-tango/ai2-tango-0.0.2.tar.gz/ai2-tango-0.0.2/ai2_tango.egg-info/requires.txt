@@ -1,0 +1,8 @@
+cached-path<0.4.0,>=0.3.0
+overrides<6.2,>=3.1
+dill
+base58
+xxhash
+
+[:sys_platform != "win32"]
+jsonnet>=0.10.0
