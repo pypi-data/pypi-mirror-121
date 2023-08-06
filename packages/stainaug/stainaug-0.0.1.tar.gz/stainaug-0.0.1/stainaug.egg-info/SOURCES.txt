@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stainaug/__init__.py
+stainaug/augment.py
+stainaug.egg-info/PKG-INFO
+stainaug.egg-info/SOURCES.txt
+stainaug.egg-info/dependency_links.txt
+stainaug.egg-info/requires.txt
+stainaug.egg-info/top_level.txt
