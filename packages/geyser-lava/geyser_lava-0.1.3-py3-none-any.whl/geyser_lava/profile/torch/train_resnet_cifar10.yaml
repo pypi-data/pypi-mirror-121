@@ -1,0 +1,137 @@
+$schema: https://ghproxy.com/https://github.com/chenrz925/geyser/raw/main/src/geyser/schema.json
+tasks: 
+  - 
+    reference: geyser_lava.task.utility.IdProvider
+    name: id
+    type: task
+    inject: 
+      title: cifar10_resnet50
+  - 
+    reference: geyser_lava.task.utility.PathProvider
+    name: path
+    type: task
+    rename: 
+      path_provider: path
+  - 
+    reference: geyser_lava.task.utility.PathBuilder
+    name: dataset_root
+    type: functor
+    inject: 
+      typename: current
+      subpaths: 
+        - dataset
+        - cifar10
+    rename: 
+      path: dataset_root
+  - 
+    reference: geyser_lava.profile._support.operator.ToTensor
+    name: vision_transform
+    type: functor
+  - 
+    reference: geyser_lava.profile._support.operator.CifarUnflatten
+    name: train_dataset_params
+    type: functor
+    inject: 
+      reference: torchvision.datasets.cifar.CIFAR10
+      train: true
+      download: true
+    rebind: 
+      root: dataset_root
+    rename: 
+      obj: train_dataset_params
+  - 
+    reference: geyser_lava.profile._support.operator.CifarUnflatten
+    name: validate_dataset_params
+    type: functor
+    inject: 
+      reference: torchvision.datasets.cifar.CIFAR10
+      train: false
+      download: true
+    rebind: 
+      root: dataset_root
+    rename: 
+      obj: validate_dataset_params
+  - 
+    reference: geyser_lava.task.torch.common.DataLoaderProvider
+    name: train_loader
+    type: task
+    rebind: 
+      dataset_params: train_dataset_params
+    inject: 
+      loader_params: 
+        batch_size: 32
+        shuffle: true
+    rename: 
+      loader: train_loader
+  - 
+    reference: geyser_lava.task.torch.common.DataLoaderProvider
+    name: validate_loader
+    type: task
+    rebind: 
+      dataset_params: validate_dataset_params
+    inject: 
+      loader_params: 
+        batch_size: 32
+        shuffle: true
+    rename: 
+      loader: validate_loader
+  - 
+    reference: geyser_lava.task.torch.common.ModelProvider
+    name: model
+    type: task
+    inject: 
+      model_params: 
+        reference: torchvision.models.resnet.resnet50
+        pretrained: false
+        progress: false
+        num_classes: 10
+  - 
+    reference: geyser_lava.task.torch.common.OptimizerProvider
+    name: optimizer
+    type: task
+    inject: 
+      optimizer_params: 
+        reference: torch.optim.adamw.AdamW
+  - 
+    reference: geyser_lava.task.torch.common.LossProvider
+    name: loss
+    type: task
+    inject: 
+      loss_params: 
+        reference: torch.nn.modules.loss.CrossEntropyLoss
+  - 
+    reference: geyser_lava.task.torch.trainer.SupervisedTrainer
+    name: trainer
+    type: task
+    inject: 
+      max_epochs: 100
+      device: cuda:0
+      metrics_params: 
+        - 
+          reference: ignite.metrics.accuracy.Accuracy
+          name: accuracy
+          params: 
+            device: cuda:0
+        - 
+          reference: ignite.metrics.fbeta.Fbeta
+          name: f1macro
+          params: 
+            beta: 1
+      non_blocking: true
+flow: 
+  name: root
+  type: graph
+  include: 
+    - id
+    - path
+    - dataset_root
+    - vision_transform
+    - train_dataset_params
+    - validate_dataset_params
+    - train_loader
+    - validate_loader
+    - model
+    - optimizer
+    - loss
+    - trainer
+engine: serial

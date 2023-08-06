@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>engine</key>
+	<string>serial</string>
+	<key>flow</key>
+	<dict>
+		<key>include</key>
+		<array>
+			<string>hello</string>
+		</array>
+		<key>name</key>
+		<string>root</string>
+		<key>type</key>
+		<string>linear</string>
+	</dict>
+	<key>tasks</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>hello</string>
+			<key>reference</key>
+			<string>geyser_lava.task.hello.Hello</string>
+			<key>type</key>
+			<string>task</string>
+		</dict>
+	</array>
+</dict>
+</plist>
