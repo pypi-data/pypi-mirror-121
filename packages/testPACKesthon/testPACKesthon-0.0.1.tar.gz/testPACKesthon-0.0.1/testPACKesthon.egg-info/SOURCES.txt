@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+pymojmain/__init__.py
+testPACKesthon.egg-info/PKG-INFO
+testPACKesthon.egg-info/SOURCES.txt
+testPACKesthon.egg-info/dependency_links.txt
+testPACKesthon.egg-info/top_level.txt
