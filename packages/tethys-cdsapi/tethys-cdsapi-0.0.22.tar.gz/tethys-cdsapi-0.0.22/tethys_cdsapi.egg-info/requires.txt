@@ -1,0 +1,6 @@
+tethys-utils
+xarray
+netcdf4
+cdsapi
+pandas
+dask
