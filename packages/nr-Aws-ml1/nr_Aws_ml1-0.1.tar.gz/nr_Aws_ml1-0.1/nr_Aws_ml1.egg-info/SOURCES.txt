@@ -1,0 +1,10 @@
+setup.py
+nr_Aws_ml1/Binomialdistribution.py
+nr_Aws_ml1/Gaussiandistribution.py
+nr_Aws_ml1/Generaldistribution.py
+nr_Aws_ml1/__init__.py
+nr_Aws_ml1.egg-info/PKG-INFO
+nr_Aws_ml1.egg-info/SOURCES.txt
+nr_Aws_ml1.egg-info/dependency_links.txt
+nr_Aws_ml1.egg-info/not-zip-safe
+nr_Aws_ml1.egg-info/top_level.txt
