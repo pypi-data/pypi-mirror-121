@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyrpa
+Version: 0.0.5
+Summary: some useful functions in work for SRE
+Home-page: https://github.com/otfsenter/pyrpa
+Author: otfsenter
+Author-email: newellzhou@163.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/otfsenter/pyrpa/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+some useful functions in work for SRE
+
+the project address: [pyrpa](https://github.com/otfsenter/pyrpa)
+
+# install dependencies
+
+`pip install -r requirements.txt` is unnecessary,
+we can install dependencies for each script in top of file
+
+# crawler.py
+
+get hot spot from baidu
+
+# file
+
+write data to file, read data from file, etc.
+
+
+

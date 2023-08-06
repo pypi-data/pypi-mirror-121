@@ -1,0 +1,9 @@
+pyrpa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrpa/crawler.py,sha256=ihY5uT7p7ymwoNVz5jAucNUPEmTNRawMhdgma_AsTEw,637
+pyrpa/file.py,sha256=7DoRAP07fnDHAORJoTI_eOmBxFtUyxOeLfriHFbWBPg,1378
+pyrpa/string.py,sha256=ZxXr6_gXcT5X5icJQJnBDWrmuetsltOcbU2T6DuiEXM,1459
+pyrpa-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyrpa-0.0.5.dist-info/METADATA,sha256=JIdaxjqNHR5mFjIW2J-KswAPpI2IFVpqerOtBydKjQA,1042
+pyrpa-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyrpa-0.0.5.dist-info/top_level.txt,sha256=RTxJQ1Gwli_3lOFWLMA0vvN6rUW_sl_EofwHBF1-Y30,6
+pyrpa-0.0.5.dist-info/RECORD,,
