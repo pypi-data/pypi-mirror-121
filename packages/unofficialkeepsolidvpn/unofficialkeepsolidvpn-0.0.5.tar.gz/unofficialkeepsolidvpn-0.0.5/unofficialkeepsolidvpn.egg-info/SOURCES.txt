@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+unofficialkeepsolidvpn/__init__.py
+unofficialkeepsolidvpn.egg-info/PKG-INFO
+unofficialkeepsolidvpn.egg-info/SOURCES.txt
+unofficialkeepsolidvpn.egg-info/dependency_links.txt
+unofficialkeepsolidvpn.egg-info/requires.txt
+unofficialkeepsolidvpn.egg-info/top_level.txt
