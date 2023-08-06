@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+progressbars/__init__.py
+progressbars/progressbar.py
+progressbars.egg-info/PKG-INFO
+progressbars.egg-info/SOURCES.txt
+progressbars.egg-info/dependency_links.txt
+progressbars.egg-info/top_level.txt
