@@ -1,0 +1,7 @@
+include pylintrc
+include pyproject.toml
+include README.md
+recursive-include stubs *.py *.pyi
+recursive-include test_data *
+include tox.ini
+recursive-include unit_tests *.py
