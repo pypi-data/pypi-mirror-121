@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+requirements/base.txt
+requirements/dev.txt
+trading.datasets_core.egg-info/PKG-INFO
+trading.datasets_core.egg-info/SOURCES.txt
+trading.datasets_core.egg-info/dependency_links.txt
+trading.datasets_core.egg-info/requires.txt
+trading.datasets_core.egg-info/top_level.txt
+trading/datasets_core/__init__.py
+trading/datasets_core/metadata/__init__.py
+trading/datasets_core/metadata/timeframe_unit.py
+trading/tests/__init__.py
+trading/tests/test_init.py
+trading/tests/test_metadata/__init__.py
+trading/tests/test_metadata/test_timeframe_unit.py
