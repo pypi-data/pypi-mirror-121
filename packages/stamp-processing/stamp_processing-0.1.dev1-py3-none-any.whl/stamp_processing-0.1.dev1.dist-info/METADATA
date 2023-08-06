@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: stamp-processing
+Version: 0.1.dev1
+Summary: Stamp processing package
+Home-page: https://github.com/sun-asterisk-research/stamp_processing/
+Author: Sun* AI Research Team
+Author-email: sun.converter.team@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sun-asterisk-research/stamp_processing/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gdown
+Requires-Dist: Pillow (<=8.2.0opencv-python>=4.1.2.30)
+Requires-Dist: torch (==1.8.1)
+Requires-Dist: torchvision (==0.9.1)
+Requires-Dist: fastai (==2.3.1)
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: PyYAML (==5.4.1)
+
+# (WIP) Stamp Processing
+ > A package develop by Sun* AI Research Team as part of the PDF Converter project. 
+
+ This is a package for detecting and removing stamp from document images.
+ This package uses  [Yolov5](https://github.com/ultralytics/yolov5) for the stamp detection model and [fastai](https://github.com/fastai/fastai) for stamp removal model
+
+ ## Install
+ To install the package, use `pip`:
+ `pip install stamp_processing`
+
+ ## How to use
+ Check out the `getting_started.ipynb` in the `example` folder for example usage
+
+ ## Contact 
+ Create an issue if you run into any issue or contact us at [sun.converter.team@gmail.com](sun.converter.team@gmail.com)
+
