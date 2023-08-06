@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sterraxcyl
+Version: 1.1.0
+Summary: OSINT tool to export followers and/or following details of an instagram account to an excel table
+Home-page: https://github.com/novitae/sterraxcyl
+Author: novitae
+License: GNU General Public License v3 (GPLv3)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENCE
+
+OSINT tool to export followers and/or following details of an instagram account to an excel table, see README of https://github.com/novitae/sterraxcyl
+
