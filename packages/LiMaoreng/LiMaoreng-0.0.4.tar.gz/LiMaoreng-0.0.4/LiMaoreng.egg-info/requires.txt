@@ -1,0 +1,4 @@
+pyautogui
+smtplib
+email
+pycaw
