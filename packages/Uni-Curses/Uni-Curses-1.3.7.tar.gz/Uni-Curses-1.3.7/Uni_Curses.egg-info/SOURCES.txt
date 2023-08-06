@@ -1,0 +1,26 @@
+__init__.py
+setup.py
+32 bit binaries/pdc39dll/pdcurses.dll
+32 bit binaries/pdc39dlls/LICENSE.freetype.txt
+32 bit binaries/pdc39dlls/LICENSE.zlib.txt
+32 bit binaries/pdc39dlls/SDL2.dll
+32 bit binaries/pdc39dlls/SDL2_ttf.dll
+32 bit binaries/pdc39dlls/libfreetype-6.dll
+32 bit binaries/pdc39dlls/pdcurses.dll
+32 bit binaries/pdc39dlls/zlib1.dll
+32 bit binaries/pdc39dllu/pdcurses.dll
+32 bit binaries/pdc39dllw/pdcurses.dll
+64 bit binaries/pdc39dll/pdcurses.dll
+64 bit binaries/pdc39dlls/LICENSE.freetype.txt
+64 bit binaries/pdc39dlls/LICENSE.zlib.txt
+64 bit binaries/pdc39dlls/SDL2.dll
+64 bit binaries/pdc39dlls/SDL2_ttf.dll
+64 bit binaries/pdc39dlls/libfreetype-6.dll
+64 bit binaries/pdc39dlls/pdcurses.dll
+64 bit binaries/pdc39dlls/zlib1.dll
+64 bit binaries/pdc39dllu/pdcurses.dll
+64 bit binaries/pdc39dllw/pdcurses.dll
+Uni_Curses.egg-info/PKG-INFO
+Uni_Curses.egg-info/SOURCES.txt
+Uni_Curses.egg-info/dependency_links.txt
+Uni_Curses.egg-info/top_level.txt
