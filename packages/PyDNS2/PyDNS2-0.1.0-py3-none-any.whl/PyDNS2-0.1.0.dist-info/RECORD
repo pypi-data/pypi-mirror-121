@@ -1,0 +1,9 @@
+PyDNS2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyDNS2/dns.py,sha256=YStFlkbabDPL_gO99BuvFOg_Ei6bys2CvIBScVeJx8A,4010
+PyDNS2/send_request.py,sha256=Yo9fBMYO-jIqEfCOkeKjWqxmMy0rS-QmpLEcQ0nJz1E,866
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/main.py,sha256=ozYxJhG7JrRHbprv9NvSEPxNYkLyJFCtJYmVCrJ0E5U,380
+PyDNS2-0.1.0.dist-info/METADATA,sha256=lIh33tBKixhzGDPJkclZdcMKjdiYJbyy5DtsH53Hiok,370
+PyDNS2-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PyDNS2-0.1.0.dist-info/top_level.txt,sha256=DASrnS3u8XfyeL8MCYhz2lRXp09KS81vm8tpmNl7Cys,15
+PyDNS2-0.1.0.dist-info/RECORD,,
