@@ -1,0 +1,10 @@
+atlassian-python-api
+PyPDF2
+PyYAML
+
+[dev]
+coverage
+pre-commit
+pylint
+pytest
+pytest-cov
