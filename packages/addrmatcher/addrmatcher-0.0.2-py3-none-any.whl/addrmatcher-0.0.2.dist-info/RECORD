@@ -1,0 +1,13 @@
+addrmatcher/AU.py,sha256=h3KXWl8Ik5oHQVzIDmSOgNfeefq8OKo-OTu7KFtU0Ac,1326
+addrmatcher/__init__.py,sha256=C_Wuyt7iKDypSNQgox2kkuDrLFfyurt-ZAbnpeT4vCQ,151
+addrmatcher/__main__.py,sha256=7Oo7bSKxHmPS8UepWrTZOeujdk5hPotr7KK13eZ5b9U,70
+addrmatcher/hierarchy.py,sha256=QeHKFpJIrRZZEOVp0HNuOuojW0pFyW3Bo6EYU1PIN9U,10268
+addrmatcher/matcher.py,sha256=PlV-gxFNNeXiHi_qYFLrDhcgA_jLS16GtZrdRQeqGOg,20840
+addrmatcher/region.py,sha256=UW8eJZyRYW8w66qhSGORmj0Q_wXrg6R1_c56HiNfIS4,1577
+addrmatcher/resource.py,sha256=3bDzX24OqZSTaV54TTsgF2eKuP_HUiAYNKJrtN_CbXQ,7548
+addrmatcher-0.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+addrmatcher-0.0.2.dist-info/METADATA,sha256=Rjqxbq0m7OOiROyAljJL3f4ZPvAzBQPigNdmFgiyp0s,1860
+addrmatcher-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+addrmatcher-0.0.2.dist-info/entry_points.txt,sha256=3ShfJjQCCgYLOXk9gH5XooykGQmGTq29wdfTUe9pR4I,77
+addrmatcher-0.0.2.dist-info/top_level.txt,sha256=HvIFN0ZwhECKk8d8dbFGT7Y_8Uy1r-IjRxYLKyfZh4c,12
+addrmatcher-0.0.2.dist-info/RECORD,,
