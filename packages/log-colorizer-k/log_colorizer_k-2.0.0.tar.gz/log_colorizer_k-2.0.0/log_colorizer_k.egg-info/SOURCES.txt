@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+log_colorizer/__init__.py
+log_colorizer_k.egg-info/PKG-INFO
+log_colorizer_k.egg-info/SOURCES.txt
+log_colorizer_k.egg-info/dependency_links.txt
+log_colorizer_k.egg-info/top_level.txt
