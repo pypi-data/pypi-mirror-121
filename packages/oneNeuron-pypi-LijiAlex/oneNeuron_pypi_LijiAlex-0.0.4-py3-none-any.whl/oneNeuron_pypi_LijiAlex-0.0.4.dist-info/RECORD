@@ -1,0 +1,10 @@
+oneNeuron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oneNeuron/perceptron.py,sha256=hPfwMLCdRvhuSuwoLzVHViSwT-aj8pFmQg0QubzNx0w,2194
+utils/__init__.py,sha256=o2eW7pdoWEgWkCwa4LQbjh5gJpQDZ6KKlB3fVMlxUS0,57
+utils/all_utils.py,sha256=scFjX8DCnJQmhJxYwoU2Y8-U1_G2GN1h-xN3RZGtxJo,3999
+utils/model.py,sha256=hPfwMLCdRvhuSuwoLzVHViSwT-aj8pFmQg0QubzNx0w,2194
+oneNeuron_pypi_LijiAlex-0.0.4.dist-info/LICENSE,sha256=RWZDGB2bIRSwcG03NU2MvNg8VO7Yimuvb-fgzBNLTwo,1065
+oneNeuron_pypi_LijiAlex-0.0.4.dist-info/METADATA,sha256=tGsj2v3WdUCOSo25bswrJOhsEgd5R41L2NqY4tg3FHI,962
+oneNeuron_pypi_LijiAlex-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+oneNeuron_pypi_LijiAlex-0.0.4.dist-info/top_level.txt,sha256=_XZ4fARX4dA9sWnggbzCTAHjkD8vm771ea31OgJO4KA,16
+oneNeuron_pypi_LijiAlex-0.0.4.dist-info/RECORD,,
