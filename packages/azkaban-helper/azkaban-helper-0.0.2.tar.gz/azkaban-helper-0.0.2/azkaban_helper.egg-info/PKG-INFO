@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: azkaban-helper
+Version: 0.0.2
+Summary: Azkaban Flow Generator
+Home-page: https://github.com/JingZhang-Cherish/azkaban_excel_yaml.git
+Author: Jing Zhang
+Author-email: cherish244612023@gmail.com
+Maintainer: Jing Zhang
+Maintainer-email: cherish244612023@gmail.com
+License: MIT Licence
+Platform: MAC OS
+Platform: Windows
+Platform: Linux
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3, <=3.9
+
+UNKNOWN
+
