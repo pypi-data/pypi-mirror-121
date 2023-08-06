@@ -1,0 +1,9 @@
+affilipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+affilipy/affilipy.py,sha256=C_Xxu7VZeKjHvgyc0kj9LhP5rsAKXZGp2wT-wU2Bc2g,274
+affilipy/amazon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+affilipy/amazon/amazon.py,sha256=1ieJDo7f7WLO5CjxaZY4BpWr7Kqimkv-3Mf0U1OCh-o,1417
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+affilipy-0.1.0.dist-info/METADATA,sha256=miswkyaEp2GSjwj1DZxoSJfmHPtlWoVxu2k6zBlMSCM,261
+affilipy-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+affilipy-0.1.0.dist-info/top_level.txt,sha256=_TBgOu6rLHMurdSOJDJiYuEyKaUvjwJn5WYzTp_l_Bs,15
+affilipy-0.1.0.dist-info/RECORD,,
