@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: ring_pandas_df
+Version: 0.1.0
+Summary: Add ring key support for pandas DataFrame.
+Home-page: https://github.com/fx-kirin/ring-pandas-df
+Author: fx-kirin
+Author-email: fx.kirin@gmail.com
+License: MIT
+Description: 
+        ring_pandas_df
+        ==============
+        
+        
+        .. image:: https://img.shields.io/pypi/v/package_name.svg
+           :target: https://pypi.python.org/pypi/ring_pandas_df
+           :alt: Latest PyPI version
+        
+        
+        Add ring key support for pandas DataFrame.
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        ring_pandas_df was written by `fx-kirin <fx.kirin@gmail.com>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

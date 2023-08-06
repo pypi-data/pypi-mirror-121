@@ -1,0 +1,10 @@
+README.rst
+manual_requirements.txt
+requirements.txt
+setup.py
+ring_pandas_df/__init__.py
+ring_pandas_df.egg-info/PKG-INFO
+ring_pandas_df.egg-info/SOURCES.txt
+ring_pandas_df.egg-info/dependency_links.txt
+ring_pandas_df.egg-info/requires.txt
+ring_pandas_df.egg-info/top_level.txt
