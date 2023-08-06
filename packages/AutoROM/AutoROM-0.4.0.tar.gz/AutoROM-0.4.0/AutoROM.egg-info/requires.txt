@@ -1,0 +1,9 @@
+click
+requests
+tqdm
+
+[:python_version < "3.9"]
+importlib-resources
+
+[accept-rom-license]
+AutoROM-licensed-roms@ ./AutoROM/licensed
