@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+happynet.egg-info/PKG-INFO
+happynet.egg-info/SOURCES.txt
+happynet.egg-info/dependency_links.txt
+happynet.egg-info/top_level.txt
