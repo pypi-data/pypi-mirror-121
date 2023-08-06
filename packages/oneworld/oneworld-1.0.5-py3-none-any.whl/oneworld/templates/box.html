@@ -1,0 +1,10 @@
+//Static box
+    var box = L.control({ position: '{{pymap.box.position}}' });
+
+    box.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'panel'); 
+        this._div.innerHTML = '{{pymap.box.contents}}'
+        return this._div;
+    };
+
+    box.addTo(map);

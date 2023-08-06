@@ -1,0 +1,60 @@
+// Lines
+{%- if pymap.graph != none %}
+    let edges_arr = {};
+    var linkedByIndex = {};
+    {%- for glayer in pymap.layers %}
+        edges_arr["{{glayer}}"] = [];
+	linkedByIndex["{{glayer}}"] = {};
+    {%- endfor %}
+{%- endif %}
+{%- for iline in pymap.lines %}
+var line{{loop.index0}} = L.polyline({{iline.coords}},{{iline.style}}).addTo({{iline.layer}});
+    line{{loop.index0}}.init_style = {{iline.style}};
+    {#- **** EVENTS **** -#}
+    {%- if iline.events != none %} 
+    line{{loop.index0}}.on({
+        {%- for key, val in iline.events.items() %}
+              {{key}}:function (ev) {
+                                    {%- if 'style' in val %}
+                                      {%- if val['info'] != none %}
+                                       MakeOver(this, {{val['style']}});
+                                      {%- else %}
+                                       MakeInit(this);
+                                      {%- endif %}
+                                    {%- endif %}
+                                    {%- if 'info' in val %}
+                                        {%- if val['info'] != none %}
+                                            var line_info = "{{val['info']}}";
+                                            panel.update(line_info);
+                                        {%- else %}
+                                            panel.update();
+                                        {%- endif %}
+                                    {%- endif %}
+                                    },
+        {%- endfor %}
+                });
+    {%- endif %}
+    {#- EDGE SOURCE N TARGET AND EDGE LIST -#}
+    {%- if pymap.graph != none %}
+    line{{loop.index0}}["source"] = {{iline.source}};
+    line{{loop.index0}}["target"] = {{iline.target}};
+    edges_arr["{{iline.layer}}"].push(line{{loop.index0}});
+    {%- endif %}
+{%- endfor %}
+{#- STYLE CHANGE FUNCT -#}
+{%- if not pymap.circles %}
+function makeOver (caller, newstyle) {
+                   caller.setStyle(newstyle);
+                  };
+function makeInit (caller) {
+                   caller.setStyle(caller.init_style);
+                  };
+{%- endif %}
+{#- ADJACENCY -#}
+{%- if pymap.graph != none %}
+    {%- for glayer in pymap.layers %}
+        edges_arr["{{glayer}}"].forEach(function (d) {
+              linkedByIndex["{{glayer}}"][d.source + "," + d.target] = 1;
+        });
+    {%- endfor %}
+{%- endif %}

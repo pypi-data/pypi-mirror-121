@@ -1,0 +1,33 @@
+{# network #}
+{%- if pymap.graph %}
+{#- Look up whether a pair of nodes are neighbours #}
+function neighboring(a, b,layer) {
+         return linkedByIndex[layer][a.index + "," + b.index];
+         };
+{#- function activated on event #}
+function connectedNodes(inode, ilayer, nodestyle, edgestyle) {
+            nodes_arr[ilayer].forEach(function (onode) {
+                 if (neighboring(inode,onode,ilayer) | neighboring(onode, inode,ilayer)) {
+                     makeOver(onode, nodestyle);
+                 };
+            });
+            edges_arr[ilayer].forEach(function (edge) {
+                 if (inode.index==edge.source | inode.index==edge.target) {
+                     makeOver(edge, edgestyle);
+                     };
+                 });
+         };
+{#- function to reset style #}
+function resConnectedNodes(inode, ilayer) {
+            nodes_arr[ilayer].forEach(function (onode) {
+                 if (neighboring(inode,onode,ilayer) | neighboring(onode, inode,ilayer)) {
+                     makeInit(onode);
+                 };
+            });
+            edges_arr[ilayer].forEach(function (edge) {
+                 if (inode.index==edge.source | inode.index==edge.target) {
+                     makeInit(edge);
+                     };
+                 });
+         };
+{%- endif %}

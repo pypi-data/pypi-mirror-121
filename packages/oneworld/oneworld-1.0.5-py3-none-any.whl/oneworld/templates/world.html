@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+    {%- if pymap.panel %}
+          .panel{
+                padding: 6px 8px;
+                font: 14px/16px Arial, Helvetica, sans-serif;
+                background: white;
+                background: rgba(255,255,255,0.8);
+                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                border-radius: 5px;
+                {%- if pymap.panel.width != none %}
+		width: {{pymap.panel.width}};
+                {%- endif %}
+		{%- if pymap.panel.height != none %}
+		height: {{pymap.panel.height}};
+		{%- endif %}
+                }
+          .panel h4 {
+                    margin: 0 0 5px;
+                    color: #777;
+                    }
+    {%- endif %}
+    {%- if pymap.colorbar %}
+          .legend {
+                  padding: 6px 8px;
+                  font: 14px/16px Arial, Helvetica, sans-serif;
+                  background: white;
+                  background: rgba(255,255,255,0.8);
+                  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                  border-radius: 5px;
+                  line-height: 18px;
+                  color: #555;
+                  }
+          .legend h4 {
+                      margin: 0 0 5px;
+                      color: #777;
+                     }
+          .legend i {
+                    width: 18px;
+                    height: 18px;
+                    float: left;
+                    margin-right: 8px;
+                    opacity: 0.7;
+                    }
+    {%- endif %}
+    </style>
+    <title>{{pymap.title}}</title>
+</head>
+<body>    
+<div class="leaflet-map" id="map1" ></div>
+{%- if pymap.heatmap %}
+<script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+{%- endif %}
+<script>
+    // Layer groups
+    {%- for ibasemap in pymap.basemaps %}
+        var {{ibasemap.name}} = L.featureGroup();
+    {%- endfor %}
+    {%- for ioverlay in pymap.overlays %}
+        var {{ioverlay.name}} = L.featureGroup();
+    {%- endfor %}
+    // map object
+    var map = L.map('map1', {
+	    {%- for key, val in pymap.options.items() %}
+	                {{key}}:{{val}},
+	    {%- endfor %}
+                     layers: [{{pymap.basemaps[0].name}}{% for ilayer in pymap.overlays if ilayer.show_start %},{{ilayer.name}}{% endfor %}]
+                    });
+    {%- if pymap.basemaps|length > 1 %}
+    map.on('baselayerchange', function (e) {e.layer.bringToBack();});
+    {%- endif %}
+    {%- if pymap.logo != none %}
+        {% include 'logo.html' %}
+    {%- endif %}
+    {%- if pymap.scale %}
+    // Scale
+    L.control.scale().addTo(map)
+    {%- endif %}
+    // Basemap(s)
+    {% include 'basemap.html' %}
+    // Styles
+    {%- for iname, istyle in pymap.styles.items() %}
+    var {{iname}} = {
+        {%- for key, val in istyle.items() %}
+                   {{key}}:'{{val}}',
+        {%- endfor %}
+                    };
+    {%- endfor %}
+    {%- if pymap.geojson|length %}
+        {% include 'geojson.html' %}
+    {%- endif %}
+    {%- if pymap.lines %}
+        {% include 'lines.html' %}
+    {%- endif %}
+    {%- if pymap.circles %}
+        {% include 'circles.html' %}
+    {%- endif %}
+    {%- if pymap.graph %}
+        {% include 'network.html' %}
+    {%- endif %}
+    {%- if pymap.heatmap %}
+        {% include 'heatmap.html' %}
+    {%- endif %}
+    {%- if pymap.colorbar|length %}
+        {% include "colorbar.html" %}
+    {%- endif %}
+    {%- if pymap.panel %}
+        {% include 'panel.html' %}
+    {%- endif %}
+    {%- if pymap.layercontrol %}
+    // Layer Control
+    var basemaps = { {%- for ibasemap in pymap.basemaps %}
+                     '{{ibasemap.full_name}}':{{ibasemap.name}},
+                     {%- endfor %}
+                    };
+    var overlays = { {%- for ioverlay in pymap.overlays if ioverlay.show_panel %}
+                     '{{ioverlay.full_name}}':{{ioverlay.name}},
+                     {%- endfor %}
+                    };
+    L.control.layers(basemaps,overlays,{
+                         position: '{{pymap.layercontrol.position}}',
+                         collapsed: {{'true' if pymap.layercontrol.collapsed else 'false'}},
+                         autoZIndex: {{'true' if pymap.layercontrol.autoindex else 'false'}},
+                         hideSingleBase: {{'true' if pymap.layercontrol.hidesinglebase else 'false'}}
+                                        }).addTo(map);
+    {%- endif %}
+    {%- if pymap.box %}
+    // Static Box
+        {% include 'box.html' %}
+    {%- endif %}
+</script>
+</body>

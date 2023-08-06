@@ -1,0 +1,41 @@
+{# circles #}
+//Circle markers
+{%- if pymap.graph != none %}
+var nodes_arr = {
+{%- for glayer in pymap.layers %}
+    {{glayer}}: [],
+{%- endfor %}
+};
+{%- endif %}
+{#- CREATE CIRCLES -#}
+{% for icircle in pymap.circles %}
+{%- if icircle.ctant_r %}
+var circle{{loop.index0}} = L.circleMarker({{icircle.coords}},{{icircle.style}}).addTo({{icircle.layer}});
+{%- else %}
+var circle{{loop.index0}} = L.circle({{icircle.coords}},{{icircle.style}}).addTo({{icircle.layer}});
+{%- endif %}
+    circle{{loop.index0}}.init_style = {{icircle.style}};
+    {#- NODE INDEX FOR NETWORK -#}
+    {%- if pymap.graph != none %}
+    circle{{loop.index0}}["index"] = {{icircle.nodeindex}};
+    nodes_arr["{{icircle.layer}}"].push(circle{{loop.index0}});
+    {%- endif %}
+    {#- **** EVENTS **** -#}
+    {%- if icircle.events != none %}
+    circle{{loop.index0}}.on({
+        {%- for key, val in icircle.events.items() %}
+              {{key}}:function (ev) { {%- for i_val in val %}
+                                      {{i_val}}
+                                      {%- endfor %}
+                                      },
+        {%- endfor %}
+                });
+    {%- endif %}
+{%- endfor %}
+
+function makeOver (caller, newstyle) {
+                   caller.setStyle(newstyle);
+                   };
+function makeInit (caller) {
+                   caller.setStyle(caller.init_style);
+                   };

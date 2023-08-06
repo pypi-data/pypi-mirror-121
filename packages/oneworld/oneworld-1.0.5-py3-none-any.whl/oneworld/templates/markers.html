@@ -1,0 +1,28 @@
+//Teardrop markers
+{#- CREATE CIRCLES -#}
+{%- for imarker in pymap.markers %}
+var marker{{loop.index0}} = L.marker({{imarker.coords}}).addTo({{imarker.layer}});
+    {#- **** EVENTS **** -#}
+    {%- if imarker.ev_styles != none %}  {# EVENTS: STYLES #}
+    marker{{loop.index0}}.on({
+        {%- for key, val in imarker.ev_styles.items() %}
+              {{key}}:function (ev) {MakeOver(this, {{val}});
+	      {#- EVENTS: INFO -#}  {%- if key in imarker.ev_info %}
+                                       {%- if imarker.ev_info[key] != none %}
+				       var marker_info = "{{imarker.ev_info[key] }}";
+                                          panel.update(marker_info);
+                                       {%- else %}
+                                          panel.update();
+                                       {%- endif %}
+                                    {%- endif %}
+	      {#- EVENTS: FUNCT #}  {%- if key in imarker.ev_funct %}
+                                      {{imarker.ev_funct[key][0]}}(this,"{{imarker.layer}}"{% for style in imarker.ev_funct[key][1:] -%}, {{style}}{%- endfor %});
+				    {%- endif %}
+                                       },
+        {%- endfor %}
+                });
+    {%- endif %}
+{%- endfor %}
+    function MakeOver (caller, newstyle) {
+                caller.setStyle(newstyle);
+             };
