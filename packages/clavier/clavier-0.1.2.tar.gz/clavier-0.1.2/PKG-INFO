@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: clavier
+Version: 0.1.2
+Summary: A light and not-so-bright CLI framework for Python
+Home-page: https://github.com/nrser/clavier
+Author: Neil Souza, Expanded Performance Inc
+Author-email: neil@neilsouza.com
+License: UNKNOWN
+Description: clavier
+        ==============================================================================
+        
+        A light and not-so-bright CLI framework for Python.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
