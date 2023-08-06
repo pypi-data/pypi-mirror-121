@@ -1,0 +1,38 @@
+[package]
+name = "bitcoin-explorer"
+version = "0.1.31"
+edition = "2018"
+readme = "README.md"
+license-file = "LICENSE.txt"
+keywords = ["blockchain", "bitcoin", "explorer", "parser", "concurrency"]
+description = "A Package for Querying Bitcoin Core Binary Files"
+documentation = "https://congyuwang.github.io/Rusty-Bitcoin-Explorer/bitcoin_explorer.html"
+homepage = "https://github.com/Congyuwang/Rusty-Bitcoin-Explorer"
+repository = "https://github.com/Congyuwang/Rusty-Bitcoin-Explorer"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "^1.4"
+bitcoin_hashes = "0.10.0"
+pythonize = "0.14.0"
+serde = "1.0.130"
+pyo3-log = "0.4.0"
+rayon = "1.5.1"
+serde_json = "1.0.68"
+log = "^0.4"
+leveldb = "0.8.6"
+num_cpus = "1.13.0"
+db-key = "0.0.5"
+
+[lib]
+name = "bitcoin_explorer"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies.bitcoin]
+version = "^0.27"
+features = ["use-serde"]
+
+[dependencies.pyo3]
+version = "0.14.5"
+features = ["extension-module"]
