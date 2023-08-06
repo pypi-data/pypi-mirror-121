@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: simplified_classfication
+Version: 0.0.1
+Summary: An automatic classification module
+Home-page: UNKNOWN
+Author: Muhammad Ebaad Ullah Khan
+Author-email: ebadullah371@gmail.com
+License: MIT
+Description: This is a module built of python's famous packages. It takes an unprocessed dataframe, and removes the null values, standardizes it and predicts (KNN and LOGISTIC) for now. At the end prints the classsification report, confusion matrix and the test accuracy
+        
+        Change Log
+        
+        ==========
+        
+        0.0.1 (23/09/2021)
+        ------------------
+        
+        - First Release
+        
+Keywords: classification
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

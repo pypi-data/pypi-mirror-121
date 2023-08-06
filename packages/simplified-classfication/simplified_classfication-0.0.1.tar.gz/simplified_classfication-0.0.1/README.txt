@@ -1,0 +1,1 @@
+This is a module built of python's famous packages. It takes an unprocessed dataframe, and removes the null values, standardizes it and predicts (KNN and LOGISTIC) for now. At the end prints the classsification report, confusion matrix and the test accuracy

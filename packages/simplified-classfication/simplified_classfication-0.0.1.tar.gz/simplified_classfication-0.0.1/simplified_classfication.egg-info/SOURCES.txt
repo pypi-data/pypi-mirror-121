@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LISENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+simplified_classfication/__init__.py
+simplified_classfication.egg-info/PKG-INFO
+simplified_classfication.egg-info/SOURCES.txt
+simplified_classfication.egg-info/dependency_links.txt
+simplified_classfication.egg-info/requires.txt
+simplified_classfication.egg-info/top_level.txt
