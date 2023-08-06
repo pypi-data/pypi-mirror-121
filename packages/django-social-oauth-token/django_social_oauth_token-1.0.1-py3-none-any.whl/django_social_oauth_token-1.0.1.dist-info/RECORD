@@ -1,0 +1,11 @@
+LICENSE,sha256=vqToAzGOUzegQ8pd5sXD4s9ceMkIGN7wLkGwdMbP9dI,1070
+README.md,sha256=HTtLEsUB3fjGAizNP2kgQ8lrPKBHob8tLfVLwrI3lkw,2580
+social_oauth_token/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+social_oauth_token/apps.py,sha256=-7a84qFnEztdpWoYoUee3dgOiauAz1sziEao98YMlI0,109
+social_oauth_token/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+social_oauth_token/urls.py,sha256=U_3vVHuCntJSFHu-qV-uNHAF8udvYx8Zrw5t233mJJY,262
+social_oauth_token/views.py,sha256=oRe5Y1Z-IFLiw_YqZ83YhaItj2QIyvo0e85LkeS24Zg,2919
+django_social_oauth_token-1.0.1.dist-info/LICENSE,sha256=vqToAzGOUzegQ8pd5sXD4s9ceMkIGN7wLkGwdMbP9dI,1070
+django_social_oauth_token-1.0.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+django_social_oauth_token-1.0.1.dist-info/METADATA,sha256=RupizNNi3-PKFc6x-KjSW_uvKcueYiPFMAgvWmOncXE,3920
+django_social_oauth_token-1.0.1.dist-info/RECORD,,
