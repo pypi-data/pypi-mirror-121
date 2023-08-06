@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: smartwatts
+Version: 0.8.0
+Summary: SmartWatts is a formula for a self-adaptive software-defined power meter based on the PowerAPI framework.
+Home-page: UNKNOWN
+Author: Guillaume Fieni
+License: GNU Affero General Public License v3
+Description: # smartwatts-formula
+        Smartwatts is a formula for the PowerAPI framework.
+        
+Keywords: energy,powerapi,containers,performance counters,power meter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.7
