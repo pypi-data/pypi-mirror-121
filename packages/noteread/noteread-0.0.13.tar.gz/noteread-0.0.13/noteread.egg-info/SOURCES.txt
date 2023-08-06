@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+noteread/__init__.py
+noteread.egg-info/PKG-INFO
+noteread.egg-info/SOURCES.txt
+noteread.egg-info/dependency_links.txt
+noteread.egg-info/requires.txt
+noteread.egg-info/top_level.txt
+noteread/legado/__init__.py
+noteread/legado/shelf/__init__.py
+noteread/legado/shelf/base.py
+noteread/legado/shelf/core.py
