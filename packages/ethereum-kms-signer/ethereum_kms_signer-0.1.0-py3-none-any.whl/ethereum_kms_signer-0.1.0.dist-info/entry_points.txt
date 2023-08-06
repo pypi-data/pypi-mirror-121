@@ -1,0 +1,3 @@
+[console_scripts]
+ethereum_kms_signer=ethereum_kms_signer.cli:main
+
