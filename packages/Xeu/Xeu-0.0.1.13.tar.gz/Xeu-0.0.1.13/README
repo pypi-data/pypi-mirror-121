@@ -1,0 +1,9 @@
+Xeu
+- 后端框架
+> 打包
+python setup.py sdist build
+python setup.py sdist upload -r localhost
+E:\Python\Python38\Scripts\pip3.8.exe install --trusted-host 127.0.0.1 -i http://127.0.0.1:9999/simple  xeu==0.0.1.1
+> 私pypi-server镜像
+docker build -t pypiserver/python38:v1 .
+docker run -d -ti -p 0.0.0.0:9999:8888 -p 0.0.0.0:8022:22 85c sh docker_init
