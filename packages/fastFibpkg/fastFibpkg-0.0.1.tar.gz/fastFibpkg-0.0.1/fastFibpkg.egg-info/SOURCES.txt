@@ -1,0 +1,8 @@
+README.md
+setup.py
+fastFib/__init__.py
+fastFib/mainFile.py
+fastFibpkg.egg-info/PKG-INFO
+fastFibpkg.egg-info/SOURCES.txt
+fastFibpkg.egg-info/dependency_links.txt
+fastFibpkg.egg-info/top_level.txt
