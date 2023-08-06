@@ -1,0 +1,9 @@
+README.md
+setup.py
+iptvname/__init__.py
+iptvname/iptv.py
+iptvname.egg-info/PKG-INFO
+iptvname.egg-info/SOURCES.txt
+iptvname.egg-info/dependency_links.txt
+iptvname.egg-info/requires.txt
+iptvname.egg-info/top_level.txt
