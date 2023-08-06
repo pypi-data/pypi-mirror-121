@@ -1,0 +1,5 @@
+1. update version
+2. run: python3 setup.py sdist bdist_wheel
+2a. check package: tar tzf realpython-reader-1.0.0.tar.gz
+3. check dist: twine check dist/*
+4. twine upload dist/*
