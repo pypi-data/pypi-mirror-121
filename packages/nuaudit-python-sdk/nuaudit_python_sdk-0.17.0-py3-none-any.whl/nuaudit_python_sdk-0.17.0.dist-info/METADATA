@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: nuaudit-python-sdk
+Version: 0.17.0
+Summary: Nuaudit
+Home-page: https://github.com/nuaudit/nuaudit-python-sdk
+Author: Nuaudit Support
+Author-email: support@nuaudit.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/nuaudit/nuaudit-python-sdk/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nuaudit-python-autogen (==0.17.0)
+Requires-Dist: python-dateutil (==2.8.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: six (==1.16.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: urllib3 (==1.26.7) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4" and python_version < "4"
+
+# nuaudit. Python SDK
+
+## Installation
+
+`pip install nuaudit-python-sdk`
+
+## Usage
+
+```python
+from nuaudit_python_sdk import Nuaudit
+
+nuaudit = Nuaudit(
+    api_key="API_KEY_SECRET",
+    organization_id="ORGANIZATION_ID",
+    trail_id="TRAIL_ID"
+)
+
+nuaudit.create_record(
+    description="Added artwork to the gallery",
+    resource={
+        "type": "artwork",
+        "id": "thepainting",
+        "title": "The painting",
+        "material": "canvas",
+        "paint": "oil",
+        "year": 2018
+    },
+    identity={
+        "type": "human",
+        "id": "jane",
+        "name": "Jane",
+        "email": "jane@example.org",
+        "ipAddress": "127.0.0.1"
+    }
+)
+```
+
