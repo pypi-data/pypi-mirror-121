@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lit-data
+Version: 0.1.0
+Summary: Library to access Lithuanian open data from various official sources
+Home-page: https://github.com/Kornelijus/lit-data
+License: Apache-2.0
+Author: Kornelijus Tvarijanavičius
+Author-email: kornelijus@tvaria.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Project-URL: Repository, https://github.com/Kornelijus/lit-data
+Description-Content-Type: text/markdown
+
+# LitData 🇱🇹
+
+Python library to access Lithuanian open data from various official sources.
+
