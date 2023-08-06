@@ -1,0 +1,9 @@
+erc20transfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erc20transfer/erc20_abi.json,sha256=W4cCb7yDzXbVsz7W8aDH2M8BsOQr95VWYAY-PIMMXaA,9809
+erc20transfer/erc20transfer.py,sha256=IKDkcos9C815tS5aZheZX-r5_xCGIw3BZw9cQZhC-04,3435
+erc20transfer/__pycache__/__init__.cpython-39.pyc,sha256=NvCSaFJIUjjmY-MscLfPGmejcXWHyELRz33pu25i0v4,125
+erc20transfer/__pycache__/erc20transfer.cpython-39.pyc,sha256=PXcU0ECF_3jGTHA1mSWsVltgP3EXC3dd1yQisfkeOgY,4119
+caaj_evm-0.1.8.dist-info/METADATA,sha256=ZqlGzcILTm4H1juU23UW3wdXEnSRGpXp7tUQGj2c5_0,261
+caaj_evm-0.1.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+caaj_evm-0.1.8.dist-info/top_level.txt,sha256=HI151j3M_VPqDmDLpnsys9sFww56QHwkOVvgzZ87PsM,14
+caaj_evm-0.1.8.dist-info/RECORD,,
