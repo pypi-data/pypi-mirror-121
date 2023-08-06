@@ -1,0 +1,8 @@
+crafting/__init__.py,sha256=rxJsdMp2cAMWYF9vay47grcvWucFShd_JyE99BsswE0,152
+crafting/crafting.py,sha256=N2Xp2NjrZzFQM58CizJi05dbYmRLki-FY5zNalqg8EY,3022
+crafting/utils.py,sha256=0fnomU9udqLJJ7bzsAipnWevOuC-KBtT9rjCVIwI60A,1549
+crafting-0.104.dist-info/METADATA,sha256=KF9H3fCXwpsq7yowfVfc7iGyvkn9M2sAImmR39OHjhc,460
+crafting-0.104.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+crafting-0.104.dist-info/entry_points.txt,sha256=JXtRHuarZWdlF6rSlagr7vNLzqQvCZNc4LvFRdTTuA4,53
+crafting-0.104.dist-info/top_level.txt,sha256=LR46mcwuPmGzOF_tYQ4JeDoQdUbbzRHt_qiBTZg5L7Y,9
+crafting-0.104.dist-info/RECORD,,
