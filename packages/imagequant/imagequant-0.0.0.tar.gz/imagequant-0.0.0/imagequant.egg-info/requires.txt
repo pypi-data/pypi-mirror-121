@@ -1,0 +1,10 @@
+cffi>=1.0.0
+
+[dev]
+black
+flake8
+nox
+pytest
+
+[pil]
+pillow
