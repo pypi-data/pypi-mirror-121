@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+peerdid/__init__.py
+peerdid/peer_did.py
+peerdid/types.py
+peerdid.egg-info/PKG-INFO
+peerdid.egg-info/SOURCES.txt
+peerdid.egg-info/dependency_links.txt
+peerdid.egg-info/requires.txt
+peerdid.egg-info/top_level.txt
+peerdid/core/__init__.py
+peerdid/core/did_doc.py
+peerdid/core/peer_did_helper.py
+peerdid/core/peer_did_validation.py
+peerdid/core/storage.py
+peerdid/core/utils.py
