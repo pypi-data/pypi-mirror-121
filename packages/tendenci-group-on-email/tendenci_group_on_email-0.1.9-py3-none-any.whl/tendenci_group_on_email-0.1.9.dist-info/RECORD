@@ -1,0 +1,10 @@
+group_on_email/__init__.py,sha256=AnIcLx5Wcmq_kxhG4IeTBVE63q-fFBP3ucKqRkUNF3Y,165
+group_on_email/listeners.py,sha256=agNvmLKX5i2bLvZpb-qBT7EiO3gNt0NfK1B8-oxwMIo,2016
+group_on_email/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+group_on_email/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+group_on_email/management/commands/group_on_email.py,sha256=LTpTa5BSZCHtpxJBnobIqEW6s1LD-ao9VoCJGdGcUm0,307
+tendenci_group_on_email-0.1.9.dist-info/LICENSE,sha256=N74kbvy0TG7dz9V1JZTkyivpgomQfnsUiLag512BhY8,1603
+tendenci_group_on_email-0.1.9.dist-info/METADATA,sha256=-jbuxWBx0qvUrgHgjSPxrwvFiJk_gVzHXLd63FCXJZU,1440
+tendenci_group_on_email-0.1.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tendenci_group_on_email-0.1.9.dist-info/top_level.txt,sha256=Q4yGygEpgXR1Dr6r01pQuKTf0CQvbiz2tURFYJaNzuM,15
+tendenci_group_on_email-0.1.9.dist-info/RECORD,,
