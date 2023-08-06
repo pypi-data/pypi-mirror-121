@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mousetracker
+Version: 0.0.10
+Summary: Analysis of mouse experiments data files
+Home-page: UNKNOWN
+Author: E.C. Pellegrini
+Author-email: ericpellegrini76@gmail.com
+Maintainer: E.C. Pellegrini
+Maintainer-email: ericpellegrini76@gmail.com
+License: GPL 3
+Platform: Unix
+Platform: Windows
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: PyQt5
+Requires-Dist: pyyaml
+Requires-Dist: xlrd
+Requires-Dist: xlwt
+Requires-Dist: scikit-posthocs
+
+Mousetracker is a software for analyzing and plotting data coming from mouse experiments excel file.
+
+
