@@ -1,0 +1,9 @@
+slicesampling/__init__.py,sha256=jIlvMRsRbcJrgVqqHAZexupyCl_eyj8VS7S3TtJFMHE,57
+slicesampling/sampler.py,sha256=TLcZbwmpmHlvuV1zmpw6rBu1fOHp9bg9wXM_CAJ-t2w,7197
+slicesampling/univariate_sampler.py,sha256=kMB0UdxqJAJaLn69RzRgCvq0crBQBL1Zhy62xI61kcU,12370
+slicesampling/version.py,sha256=0WXHuYJaa7geXVF4KQO0s0eP_s12tx7g7yqXxI5DtZA,217
+slicesampling-0.1.5.dist-info/LICENSE,sha256=GhlXlD_7Ax5WQykMKLEX5zFvHJWzB-JHCdLWNqKcXxo,1090
+slicesampling-0.1.5.dist-info/METADATA,sha256=hleVTLFIAqAJgY5ful5IJJZJfQxLIfGmAOTYH0QGW_A,1596
+slicesampling-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+slicesampling-0.1.5.dist-info/top_level.txt,sha256=gbsypLQWfnGUKWzfwt5EPH_4F0Uk6qoeVAulJItsPak,14
+slicesampling-0.1.5.dist-info/RECORD,,
