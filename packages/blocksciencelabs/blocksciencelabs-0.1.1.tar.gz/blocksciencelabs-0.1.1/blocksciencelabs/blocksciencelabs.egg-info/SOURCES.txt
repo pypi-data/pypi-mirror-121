@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+blocksciencelabs/blocksciencelabs.egg-info/PKG-INFO
+blocksciencelabs/blocksciencelabs.egg-info/SOURCES.txt
+blocksciencelabs/blocksciencelabs.egg-info/dependency_links.txt
+blocksciencelabs/blocksciencelabs.egg-info/top_level.txt
