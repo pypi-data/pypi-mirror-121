@@ -1,0 +1,10 @@
+synthimpute/__init__.py,sha256=9O3A8KQs5VtG8XV8awuE37Hst5EQ9ShXJK0PEJwFmUA,75
+synthimpute/distance.py,sha256=Z0OjkOmUvkqb5-Y2lM9514GvvJaljLIe4VMUxJkZFwg,10097
+synthimpute/rf_impute.py,sha256=M0QIJ1xwPOqpfXx92CiAlwaSTcxyARdb3cbz22NpRco,5244
+synthimpute/synthesize.py,sha256=4udBMfBzP7_eaMqH9S22zq7shn_hb1c0DxDFafoFwMg,1973
+synthimpute/trees.py,sha256=ng32dsjeHgMfpHbQezA5hJ1hSmAKTVLdTJD6tN8WeJA,1589
+synthimpute-0.1.dist-info/LICENSE,sha256=ow72TzrRObOV1xL7cDdJQv6QzZx58veHIDLMeoQWOW4,1067
+synthimpute-0.1.dist-info/METADATA,sha256=a_lFMNpCMZiVNvvPLgadSNKI9UGcARrGH62uyr2eI-E,451
+synthimpute-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+synthimpute-0.1.dist-info/top_level.txt,sha256=qKYBW-cyUFV8Cu7hajyu4XV93QzI-IchphPqru0bpBU,12
+synthimpute-0.1.dist-info/RECORD,,
