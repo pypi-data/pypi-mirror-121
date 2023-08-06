@@ -1,0 +1,2 @@
+django_simpletask2
+django_simpletask2_demo
