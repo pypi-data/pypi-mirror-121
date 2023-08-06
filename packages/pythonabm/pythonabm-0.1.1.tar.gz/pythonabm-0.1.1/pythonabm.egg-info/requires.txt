@@ -1,0 +1,7 @@
+matplotlibnumpy
+numba
+opencv-python
+psutil
+python-igraph
+pyyaml
+scipy
