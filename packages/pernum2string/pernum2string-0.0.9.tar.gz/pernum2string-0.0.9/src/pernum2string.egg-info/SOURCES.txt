@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/pernum2string/__init__.py
+src/pernum2string/pernum2string.py
+src/pernum2string.egg-info/PKG-INFO
+src/pernum2string.egg-info/SOURCES.txt
+src/pernum2string.egg-info/dependency_links.txt
+src/pernum2string.egg-info/top_level.txt
