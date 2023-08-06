@@ -1,0 +1,8 @@
+knex/__init__.py,sha256=zjKQDNV2MJyyOI4FjwmE5urWn058QzQM7ucPUsQzDe8,637
+knex/__main__.py,sha256=o_D90_tmFFgDlWBQCyl9iyR3Nj3B8xc-8CqKmzVb7vU,69
+knex/parsers.py,sha256=N6E_aVKwXGuGAvXOgD-PE27fXz5IbHAD3U8qHtzVCLc,9817
+knex/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knex-0.2.15.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+knex-0.2.15.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+knex-0.2.15.dist-info/METADATA,sha256=y0QJkTYRSU0pOIAIO03AXck7pFnzkoVzK8XaH-CBHSE,3842
+knex-0.2.15.dist-info/RECORD,,
