@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+robotsparsetools.egg-info/PKG-INFO
+robotsparsetools.egg-info/SOURCES.txt
+robotsparsetools.egg-info/dependency_links.txt
+robotsparsetools.egg-info/top_level.txt
