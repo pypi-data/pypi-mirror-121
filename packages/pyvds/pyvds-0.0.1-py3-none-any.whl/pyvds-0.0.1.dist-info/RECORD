@@ -1,0 +1,11 @@
+pyvds/__init__.py,sha256=gccLrlbC3UUUG9GdaJPzS_JqV75oHyuu08Jhh2m-0TI,639
+pyvds/accessors.py,sha256=RElFYY6mTgwwBL0S89QmBdErGoAIkWP5nLc-dKsC56o,4095
+pyvds/open.py,sha256=9L6iffZowReK508PaCnMP8z63Eit_XuwpcLQ6fqO1xA,722
+pyvds/read.py,sha256=tCfaEjv4wKzR5cMqYCstQ2sD63AKPIeJj7Nv88phn4o,9875
+pyvds/tools.py,sha256=RiNctT_f3ZzbgY3EIdw09GOQT5RPSvk2Ohd8-h0IaI4,722
+pyvds-0.0.1.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+pyvds-0.0.1.dist-info/METADATA,sha256=gMmNRx6Tl4qt47_1NK8xQiD4I-fg2N9rDipcq10wcW8,383
+pyvds-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyvds-0.0.1.dist-info/dependency_links.txt,sha256=ESTHzk0bO_jvJGmId--IN49LfzqecZU6x7Q4CX388Fo,69
+pyvds-0.0.1.dist-info/top_level.txt,sha256=nuIiDcVSTq7fpIWiRl4k-HsO6q8ZswqpFDXNMFasFxE,6
+pyvds-0.0.1.dist-info/RECORD,,
