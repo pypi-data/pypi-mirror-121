@@ -1,0 +1,3 @@
+jupyterlab==3.*,>=3.0.0rc13
+ipywidgets
+greenflow
