@@ -1,0 +1,148 @@
+import time
+from threading import Thread
+from python_helper import Constant as c
+from python_helper import log, ObjectHelper
+import globals
+from ouvidoria_unidombosco.api.src.UnidomboscoComplain import UnidomboscoComplain
+from ouvidoria_unidombosco.api.src.UnidomboscoNightmare import UnidomboscoNightmare
+from ouvidoria_unidombosco import OuvidoriaBasePath
+
+
+URL = "https://www.unidombosco.edu.br/ouvidoria/"
+
+HEADERS = {
+  'authority': 'www.unidombosco.edu.br',
+  'Content-Type': 'application/x-www-form-urlencoded',
+  'referer': 'Sorry, this is the only way for me to be heard'
+}
+
+DEFAULT_SUBJECT: str =  '3'
+DEFAULT_PLACE: str =  '13'
+DEFAULT_AREA: str =  'Administrativo'
+DEFAULT_DEPARTMENT: str =  'Direção'
+DEFAULT_REASON: str =  '62'
+DEFAULT_IS_STUDENT: str = '1'
+DEFAULT_DESTINY: str = '8'
+DEFAULT_SUCCESS_MESSAGE = 'Sua mensagem foi recebida com sucesso! Agradecemos sua colaboração.'
+
+
+def toString(thing):
+    return c.BLANK if ObjectHelper.isNone(thing) else str(thing)
+
+
+class Unidombosco:
+
+    def __init__(self, *args, filePath=OuvidoriaBasePath.MODULE_FILE, globalsInstance=None, headless=True, logDebug=False, logInfo=False, **kwargs):
+        self.unidomboscoNightmareArgs = args
+        self.unidomboscoNightmareKwargs = kwargs
+        self.globalsInstance = globalsInstance if ObjectHelper.isNotNone(globalsInstance) else globals.newGlobalsInstance(filePath
+            , successStatus = True
+            , infoStatus = logInfo
+            , settingStatus = True
+            , debugStatus = logDebug
+            , warningStatus = True
+            , failureStatus = True if logDebug else False
+            , errorStatus = True
+            , logStatus = False
+        )
+        self.headless = headless
+
+    def runComplain(self,
+        message: str,
+        studentRegistry: str,
+        name: str,
+        email: str,
+        phoneNumber: str,
+        cpf: str,
+        subject: str =  DEFAULT_SUBJECT,
+        place: str =  DEFAULT_PLACE,
+        area: str =  DEFAULT_AREA,
+        department: str =  DEFAULT_DEPARTMENT,
+        reason: str =  DEFAULT_REASON,
+        isStudent: str = DEFAULT_IS_STUDENT,
+        destiny: str = DEFAULT_DESTINY,
+        url: str = URL,
+        successMessage: str = DEFAULT_SUCCESS_MESSAGE,
+        instances: int = 1
+    ):
+        for instanceIndex in range(instances if self.headless else 1):
+            nightmare = Thread(
+                target = UnidomboscoComplain(
+                    self.globalsInstance,
+                    instanceIndex,
+                    *self.unidomboscoNightmareArgs,
+                    headless = self.headless,
+                    **self.unidomboscoNightmareKwargs
+                ).run,
+                args = (
+                    toString(message),
+                    toString(studentRegistry),
+                    toString(name),
+                    toString(email),
+                    toString(phoneNumber),
+                    toString(cpf) if ObjectHelper.isNone(cpf) else toString(cpf).replace(c.DOT, c.BLANK),
+                    toString(subject),
+                    toString(area),
+                    toString(department),
+                    toString(reason),
+                    toString(url),
+                    toString(successMessage)
+                )
+            )
+            nightmare.start()
+            time.sleep(10)
+
+    def runNightmare(self,
+        message: str,
+        studentRegistry: str,
+        name: str,
+        email: str,
+        phoneNumber: str,
+        cpf: str,
+        subject: str =  DEFAULT_SUBJECT,
+        place: str =  DEFAULT_PLACE,
+        area: str =  DEFAULT_AREA,
+        department: str =  DEFAULT_DEPARTMENT,
+        reason: str =  DEFAULT_REASON,
+        isStudent: str = DEFAULT_IS_STUDENT,
+        destiny: str = DEFAULT_DESTINY,
+        url: str = URL,
+        headers: str = HEADERS,
+        successMessage: str = DEFAULT_SUCCESS_MESSAGE,
+        instances: int = 1,
+        interval: float = 60.0,
+        threadsInterval: float = 0.250,
+        logResponse: bool = False
+    ):
+        for instanceIndex in range(instances):
+            hell = Thread(
+                target = UnidomboscoNightmare(
+                    instanceIndex,
+                    *self.unidomboscoNightmareArgs,
+                    **self.unidomboscoNightmareKwargs
+                ).run,
+                args = (
+                    toString(message),
+                    toString(studentRegistry),
+                    toString(name),
+                    toString(email),
+                    toString(phoneNumber),
+                    toString(cpf) if ObjectHelper.isNone(cpf) else toString(cpf).replace(c.DOT, c.BLANK),
+                    toString(subject),
+                    toString(place),
+                    toString(area),
+                    toString(department),
+                    toString(reason),
+                    toString(isStudent),
+                    toString(destiny),
+                    toString(url),
+                    headers,
+                    toString(successMessage)
+                ),
+                kwargs = {
+                    'interval': interval,
+                    'logResponse': logResponse
+                }
+            )
+            hell.start()
+            time.sleep(threadsInterval)
