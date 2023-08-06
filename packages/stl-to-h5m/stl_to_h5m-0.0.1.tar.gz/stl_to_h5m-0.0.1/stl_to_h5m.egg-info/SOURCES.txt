@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+stl_to_h5m/__init__.py
+stl_to_h5m/core.py
+stl_to_h5m.egg-info/PKG-INFO
+stl_to_h5m.egg-info/SOURCES.txt
+stl_to_h5m.egg-info/dependency_links.txt
+stl_to_h5m.egg-info/requires.txt
+stl_to_h5m.egg-info/top_level.txt
