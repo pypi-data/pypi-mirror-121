@@ -1,0 +1,11 @@
+awsipranges/__init__.py,sha256=oLuZwoGv-xUP7YtGCLQiRbQba6iWDLvuFC3GojumhgQ,924
+awsipranges/config.py,sha256=pSStDGEO0231kB_tddcU1rOsMQ9ZXTva5x4v7eb8Yb0,326
+awsipranges/data_loading.py,sha256=f4NbIoI68bzJYDWdvkv0Rs2berDAfdG4o2i5RC4O6w4,3807
+awsipranges/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsipranges/models/awsipprefix.py,sha256=YZp0WxyxSRsWydnSBhgoaq-57MwOmLaFnZ_CKgSMzS0,13500
+awsipranges/models/awsipprefixes.py,sha256=4GrRVzOdAWGuQgg_sFFjaTvTDg-rVwPjo7UZnuC3bUQ,14540
+awsipranges/utils.py,sha256=dG_Ahfe0-PzOobpCzhG4mM_-u9CKmltnoX7o7ptrslg,2787
+awsipranges-0.2.6.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+awsipranges-0.2.6.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+awsipranges-0.2.6.dist-info/METADATA,sha256=5cDuMQka0pPnncWKWWRW_8dhuOehzDFhBE4LbwEIHTY,5604
+awsipranges-0.2.6.dist-info/RECORD,,
