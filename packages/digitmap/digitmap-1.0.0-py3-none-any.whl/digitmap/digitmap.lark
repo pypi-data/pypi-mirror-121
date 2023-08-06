@@ -1,0 +1,17 @@
+start     : string | "(" string ("|" string)* ")"
+string    : _elem+
+_elem     : dtmf | timer | wildcard | range | position
+dtmf      : /[0-9A-Fa-f\*#]/
+timer     : "T"
+wildcard  : "x"
+range     : "[" (digit | sub_range)+ "]"
+position  : _elem "."
+sub_range : DIGIT "-" DIGIT
+digit     : DIGIT
+
+COMMENT : /;.*\r?\n/
+DIGIT   : /[0-9]/
+WS      : /\s/
+
+%ignore COMMENT
+%ignore WS
