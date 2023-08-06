@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+HALdata/__init__.py
+HALdata.egg-info/PKG-INFO
+HALdata.egg-info/SOURCES.txt
+HALdata.egg-info/dependency_links.txt
+HALdata.egg-info/requires.txt
+HALdata.egg-info/top_level.txt
+HALdata/src/__init__.py
+HALdata/src/DataTransfer/DataManager.py
+HALdata/src/DataTransfer/__init__.py
+HALdata/src/DataTransfer/data_transfer.py
+HALdata/src/DataTransfer/main.py
+HALdata/src/TestID/__init__.py
+HALdata/src/TestID/newTest.py
+HALdata/src/TestID/test_id.py
