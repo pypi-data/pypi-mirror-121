@@ -1,0 +1,382 @@
+Metadata-Version: 2.1
+Name: gitlabds
+Version: 1.0.5
+Summary: Gitlab Data Science and Modeling Tools
+Home-page: https://gitlab.com/gitlab-data/gitlabds
+Author: Kevin Dietz
+Author-email: kdietz@gitlab.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### What is it?
+gitlabds is a set of tools designed make it quicker and easier to build predictive models.
+
+
+### Where to get it?
+gitlabds can be installed directly via pip: `pip install gitlabds`.
+
+Alternatively, you can download the source code from Gitlab at https://gitlab.com/gitlab-data/gitlabds and compile locally.
+
+
+### Main Features	
+- **Data prep tools:**
+	- Treat outliers
+	- Dummy code
+	- Miss fill
+	- Reduce feature space
+	- Split and sample data into train/test
+- **Modeling tools:**
+	- Quickly generate models using MARS (via the [pyearth](https://github.com/scikit-learn-contrib/py-earth) implementation)
+	- Quickly generat models using [XGBoost](https://xgboost.readthedocs.io/en/latest/python/python_intro.html) 
+	- Easily produce model metrics, feature importance, performance graphs, and lift/gains charts 
+
+### References and Examples
+<details><summary> MAD Outliers </summary>
+
+#### Description
+Median Absoutely Deviation for outlier detection and correction. By default will windsor all numeric values in your dataframe that are more than 4 standard deviations above or below the median ('threshold').
+
+`gitlabds.mad_outliers(df, dv=None, min_levels=10, columns = 'all', threshold=4, inplace=False, verbose=True, windsor_threshold=0.01):`
+
+#### Parameters:
+- **_df_** : your pandas dataframe
+- **_dv_** : The field name of your outcome. Entering your outcome variable in will prevent it from being windsored. May be left blank there is no outcome variable.
+- **_min_levels_** : Only include fields that have at least the number of levels specified. 
+- **_columns_** : Will examine at all numeric columns by default. To limit to just  a subset of columns, pass a list of column names. Doing so will ignore any constraints put on by the 'dv' and 'min_levels' paramaters. 
+- **_threshold_** : Windsor values greater than this number of standard deviations from the median.
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+- **_windsor_threshold_** : Only windsor values that affect less than this percentage of the population.  
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+	
+#### Examples:
+		
+```
+#Create a new df; only windsor selected columns; suppress verbose
+import gitlabds
+new_df = gitlabds.mad_outliers(df = my_df, dv='my_outcome', columns = ['colA', 'colB', 'colC'], verbose=False)
+```
+```
+#Inplace outliers. Will windsor values by altering the current dataframe
+import gitlabds
+gitlabds.mad_outliers(df = my_df, dv='my_outcome', columns = 'all', inplace=True)
+```
+</details>
+   
+
+<details><summary> Miss Fill </summary>
+
+#### Description
+Fill missing values using a range of different options.
+
+`gitlabds.missing_fill(df=None, columns='all', method='zero', inplace=False):`
+
+#### Parameters:
+- **_df_** : your pandas dataframe
+- **_columns_** : Columns which to miss fill. Defaults to `all` which will miss fill all fields with missing values.
+- **_method_** : Options are `zero`, `median`, and `means`. Defaults to `zero`.
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+
+#### Returns
+- DataFrame with missing values filled or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Miss fill all values with zero in place.
+gitlabds.missing_fill(df=my_df, columns='all', method='zero', inplace=True)   
+```
+```
+#Miss fill specificied columns with the mean value into a new dataframe
+new_df = gitlabds,missing_fill(df=my_df, columns=['colA', 'colB', 'colC'], method='mean', inplace=False):
+```
+</details>
+
+<details><summary> Dummy Code </summary>
+
+#### Description
+Dummy code (AKA "one-hot encode") categorical and numeric fields based on the paremeters specificed below. Note: categorical fields will be dropped after they are dummy coded; numeric fields will not
+
+`gitlabds.dummy_code(df, dv=None, columns='all', categorical=True, numeric=True, categorical_max_levels = 20, numeric_max_levels = 10, dummy_na=False):`
+
+#### Parameters:
+- **_df_** : your pandas dataframe
+- **_dv_** : The field name of your outcome. Entering your outcome variable in will prevent it from being dummy coded. May be left blank there is no outcome variable.
+- **_columns_** : Will examine at all columns by default. To limit to just  a subset of columns, pass a list of column names. 
+- **_categorical_** : Set to `True` to attempt to dummy code any categorical column passed via the `columns` parameter.
+- **_numeric_** : Set to `True` to attempt to dummy code any numeric column passed via the `columns` parameter.
+- **_categorical_max_levels_** : Maximum number of levels a categorical column can have to be eligable for dummy coding.
+- **_categorical_max_levels_** : Maximum number of levels a numeric column can have to be eligable for dummy coding.
+- **_dummy_na_** : Set to `True` to create a dummy coded column for missing values.
+
+#### Returns
+- DataFrame with dummy-coded columns. Categorical columns that were dummy coded will be dropped from the dataframe.
+
+#### Examples:
+		
+```
+#Dummy code only categorical columns with a maxinum of 30 levels. Do not dummy code missing values
+new_df = gitlabds.dummy_code(df=my_df, dv='my_outcome', columns='all', categorical=True, numeric=False, categorical_max_levels = 30, dummy_na=False)
+```
+```
+#Dummy code only columns specified in the `columns` parameter with a maxinum of 10 levels for categorical and numeric. Also dummy code missing values
+new_df = gitlabds.dummy_code(df=my_df, dv='my_outcome', columns= ['colA', colB', 'colC'], categorical=True, numeric=True, categorical_max_levels = 10, numeric_max_levels = 10,  dummy_na=True)
+```
+</details>
+
+<details><summary> Top Dummies </summary>
+
+#### Description
+Dummy codes only categorical levels above a certain threshold of the population. Useful when a field contains many levels but there is not a need or desire to dummy code every level. Currently only works for categorical columns.
+
+`gitlabds.dummy_top(df=None, dv=None, columns = 'all', min_threshold = 0.05, drop_categorial=True, verbose=True):`
+
+#### Parameters:
+- **_df_** : your pandas dataframe
+- **_dv_** : The field name of your outcome. Entering your outcome variable in will prevent it from being dummy coded. May be left blank there is no outcome variable.
+- **_columns_** : Will examine at all columns by default. To limit to just  a subset of columns, pass a list of column names. 
+- **_min_threshold_**: The threshold at which levels will be dummy coded. For example, the default value of `0.05` will dummy code any categorical level that is in at least 5% of all rows.
+_ **_drop_categorical_**: Set to `True` to drop categorical fields after they are considered for dummy coding. Set to `False` to keep the original categorical fields in the dataframe.
+- **_verbose_** : Set to `True` to print detailed list of all dummy fields being created. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with dummy coded columns.
+
+#### Examples:
+		
+```
+#Dummy code all categorical levels from all categorical fields whose values are in at least 5% of all rows.
+new_df = gitlabds.dummy_top(df=my_df, dv='my_outcome', columns = 'all', min_threshold = 0.05, drop_categorial=True, verbose=True)
+```
+```
+#Dummy code all categorical levels from the selected fields who values are in at least 10% of all rows; suppress verbose printout and retain original categorical fields.
+new_df = gitlabds.dummy_top(df=my_df, dv='my_outcome', columns = ['colA', 'colB', 'colC'], min_threshold = 0.10, drop_categorial=False, verbose=False)
+```
+</details>
+
+
+
+
+<details><summary> Remove Low Variation Fields </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+<details><summary> Correlation Reduction </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+<details><summary> Drop Categorical Fields </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+
+<details><summary> Remove Outcome Proxies </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+
+<details><summary> Split and Sample Data </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+<details><summary> MARS (pyearth) Modeling - Logistic Regression Only (For now) </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+<details><summary> XGBoost Modeling (Coming Soon) </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+<details><summary> Model Metrics </summary>
+
+#### Description
+Description.
+
+`call:`
+
+#### Parameters:
+- _**df**_ : your pandas dataframe
+- **_inplace_** : Set to `True` to replace existing dataframe. Set to false to create a new one. Set to `False` to suppress
+- **_verbose_** : Set to `True` to print outputs of windsoring being done. Set to `False` to suppress.
+
+#### Returns
+- DataFrame with windsored values or None if `inplace=True`.
+
+#### Examples:
+		
+```
+#Example 1
+```
+```
+#Example 2
+```
+</details>
+
+## Gitlab Data Science
+
+The [handbook](https://about.gitlab.com/handbook/business-technology/data-team/organization/data-science/) is the single source of truth for all of our documentation. 
+
+### Contributing
+
+We welcome contributions and improvements, please see the [contribution guidelines](CONTRIBUTING.md).
+
+### License
+
+This code is distributed under the MIT license, please see the [LICENSE](LICENSE) file.
+
+
+
+
+
