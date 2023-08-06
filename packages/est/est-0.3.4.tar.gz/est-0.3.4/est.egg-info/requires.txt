@@ -1,0 +1,6 @@
+numpy
+setuptools
+h5py>=3.1
+Pint
+pypushflow==0.2.0b2
+silx>=0.15
