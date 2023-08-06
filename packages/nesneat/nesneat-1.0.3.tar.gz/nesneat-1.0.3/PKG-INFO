@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nesneat
+Version: 1.0.3
+Summary: Evolving Neural Networks through Augmenting Topologies withEvolution Strategy Training
+Home-page: UNKNOWN
+Author: Göktuğ Karakaşlı
+Author-email: karakasligk@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+NEATEST: Evolving Neural Networks Through Augmenting Topologies with Evolution Strategy Training
+===============================================================================================
+
+It is NEAT but the weights are trained with Natural Evolution Strategy and
+the weights are shared across genomes.
+
+![](videos/DoubleInvertedPendulum.gif) ![](videos/LunarLander.gif)
+
+# Requirements
+```
+numpy
+cloudpickle
+```
+
+# Install
+```
+pip install nesneat
+```
+
+## Optional
+```
+matplotlib # To draw networks
+mpi4py # For parallelization
+gym # For examples
+```
+
+# Usage
+Check https://github.com/goktug97/NEATEST/examples
+
+
+

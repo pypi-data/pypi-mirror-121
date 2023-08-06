@@ -1,0 +1,11 @@
+mypy.ini
+.mypy_cache
+__pycache__
+build
+dist
+*egg-info
+*.json
+*.mp4
+checkpoints
+*.pickle
+*.genome
