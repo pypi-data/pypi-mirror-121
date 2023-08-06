@@ -1,0 +1,4 @@
+numpy
+scipy
+xmipy>=1.0
+toml
