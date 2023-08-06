@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+LICENSES/Apache-2.0.txt
+python_modules/tsbuilder/__init__.py
+python_modules/tsbuilder/architecture.py
+python_modules/tsbuilder/specs.py
+python_modules/tsbuilder/test_tsbuilder.py
+python_modules/tsbuilder.egg-info/PKG-INFO
+python_modules/tsbuilder.egg-info/SOURCES.txt
+python_modules/tsbuilder.egg-info/dependency_links.txt
+python_modules/tsbuilder.egg-info/requires.txt
+python_modules/tsbuilder.egg-info/top_level.txt
+python_modules/tsbuilder.egg-info/zip-safe
