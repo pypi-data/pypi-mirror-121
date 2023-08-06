@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: stemplates
+Version: 1.0.0
+Summary: Simple file template renderer
+Home-page: https://github.com/comonadd/stemplates
+Author: Dmitry Guzeev
+Author-email: dmitri.guzeev@gmail.com
+License: MIT
+Keywords: templates render template file string
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stemplates
+
+Render files with embedded python code
+
+
