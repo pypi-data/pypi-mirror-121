@@ -1,0 +1,3 @@
+exchangelib
+pandas
+pretty-html-table
