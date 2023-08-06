@@ -1,0 +1,11 @@
+lancstro/__init__.py,sha256=P8I-zqMQ_1j-cX4T86-8clFYm97bwBA-r_RgZmFuT9E,75
+lancstro/base.py,sha256=XLbeiJbk489d1GpZRY-05VyslYdg2Ib40e84h2MVsZE,5643
+lancstro/data/office_numbers.txt,sha256=ShNGf5e6nVkd8MFXifr8OIVt5O-HNaoDOsVghcvzGDo,33
+lancstro/members/__init__.py,sha256=dKuLvQGrDzSSPCkO1Ur7h6PLv5BbtA_HHXcQ0ufAEps,25
+lancstro/members/staff.py,sha256=xt1gCzUHN4UaZBCdCifr8fxoW-ZjFo2fRAiTtJF4z4Y,1027
+lancstro-0.0.2.data/scripts/favourite_object.py,sha256=y3zGW7vkfBp2Lz4iOpRniz2ecl6ss6OErk2h2ceCcec,673
+lancstro-0.0.2.dist-info/LICENSE,sha256=x0xso_OLPvnPNvu_yuzSh3_XUtHmgdqy155E675dlRg,1068
+lancstro-0.0.2.dist-info/METADATA,sha256=cQvdXnK-fyYe8qlNIcN6grilw_A5WlfljYC_rfCtPHo,34284
+lancstro-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+lancstro-0.0.2.dist-info/top_level.txt,sha256=N8UzUzh223VV1Hzhrz_UvfO3xhNcQmR4jJ1kHjrVW6E,9
+lancstro-0.0.2.dist-info/RECORD,,
