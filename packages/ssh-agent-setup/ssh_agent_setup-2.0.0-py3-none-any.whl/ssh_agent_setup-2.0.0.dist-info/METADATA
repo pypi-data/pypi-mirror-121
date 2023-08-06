@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ssh-agent-setup
+Version: 2.0.0
+Summary: set up a working ssh-agent and add keys for any subprocesses you want to run
+License: MIT
+Author: Yoav Kleinberger
+Author-email: haarcuba@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
