@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: verdin
+Version: 0.0.1
+Summary: A Python SDK for Tinybird
+Home-page: https://github.com/localstack/verdin
+Author: Thomas Rausch
+Author-email: thomas@localstack.cloud
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Networking
+Requires-Dist: requests (==2.26.0)
+Provides-Extra: dev
+Requires-Dist: black (==21.6b0) ; extra == 'dev'
+Requires-Dist: isort (==5.9.1) ; extra == 'dev'
+Requires-Dist: pytest (==6.2.4) ; extra == 'dev'
+Requires-Dist: pytest-httpserver (==1.0.1) ; extra == 'dev'
+
+UNKNOWN
+
+
