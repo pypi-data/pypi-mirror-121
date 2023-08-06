@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: acron
+Version: 0.1.2
+Summary: Lightweight scheduler
+Home-page: https://github.com/appgate/acron
+License: MIT
+Author: Aitor Iturri
+Author-email: aitor.iturri@appgate.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: croniter (>=1.0.15,<2.0.0)
+Requires-Dist: pytz (>=2021.1,<2022.0)
+Description-Content-Type: text/x-rst
+
+Lightweight scheduler for python asyncio
+
+Based on croniter to support the crontab syntax.
+
