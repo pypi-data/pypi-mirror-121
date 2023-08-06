@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: synthimpute
+Version: 0.1
+Summary: Python package for data synthesis and imputation using parametric and nonparametric methods, and evaluation of these methods.
+Home-page: http://github.com/PSLmodels/synthimpute
+Author: Max Ghenis
+Author-email: mghenis@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
