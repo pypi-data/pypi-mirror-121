@@ -1,0 +1,13 @@
+giterator/__init__.py,sha256=hbHvIe63aXP12EcGxv9dBpsBzUg2FEVZjOwDrnYYpWI,76
+giterator/__main__.py,sha256=z3OQolCKD8rUd3pKYp_FISq2VctFhFl1mV-DVnaoNOM,29
+giterator/cli.py,sha256=IOAjbDxPGqzXprWIyxInWnfxGWT8sn-iumUaVJO1rnU,746
+giterator/clock.py,sha256=1SdtVYEBtmVxwtKf2Nt9u8BzXlsGqh9tXI_mxHEaBb8,457
+giterator/git.py,sha256=lNl62Hf7hYwvIepFvxYYh8jVECKvsyG1SGe9ceOac9E,4429
+giterator/testing.py,sha256=gyVu6ATOA3aQmtiLn2VYOw5WQdBambPtuhL_QIKT17E,1424
+giterator/typing.py,sha256=hhXlOpCgBs3MRTJ2IcSy6Va5aPsaFbCGAZYCEVlBTCU,96
+giterator-0.1.0.dist-info/LICENSE.rst,sha256=wgQqXPoHxSWNlaaNx10krnaU87m2rvNIG3xYtqeltAY,1077
+giterator-0.1.0.dist-info/METADATA,sha256=LzSf8z92Alkzwv86TDm_bqNzyRQmcYeJ1niM5EsfoQE,1267
+giterator-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+giterator-0.1.0.dist-info/entry_points.txt,sha256=cTvIzD58f91B6Dwvybag1eMiomngCPzD7rZVXsmRvXI,50
+giterator-0.1.0.dist-info/top_level.txt,sha256=oX72P1d7Pcw_EBoqkaX_c_oXQ4Bog6MhyCKnsWaG7ig,10
+giterator-0.1.0.dist-info/RECORD,,
