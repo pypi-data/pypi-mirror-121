@@ -1,0 +1,8 @@
+setup.py
+unique_name_bdd878ba/__init__.py
+unique_name_bdd878ba/functions.py
+unique_name_bdd878ba.egg-info/PKG-INFO
+unique_name_bdd878ba.egg-info/SOURCES.txt
+unique_name_bdd878ba.egg-info/dependency_links.txt
+unique_name_bdd878ba.egg-info/requires.txt
+unique_name_bdd878ba.egg-info/top_level.txt

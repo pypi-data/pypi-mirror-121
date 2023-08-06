@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: unique-name-bdd878ba
+Version: 0.1.0
+Summary: ITMO data analysis 2nd lab
+Home-page: https://locallhost.com/
+Author: Kazakov Mihail
+Author-email: noreply@stub.com
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
