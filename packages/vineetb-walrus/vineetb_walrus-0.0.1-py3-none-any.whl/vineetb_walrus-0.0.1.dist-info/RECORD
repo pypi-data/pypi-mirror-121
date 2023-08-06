@@ -1,0 +1,12 @@
+walrus/__init__.py,sha256=VePsMlz271sXtM2p1MnT2Q1GtRUOpDjN7p3FsvjEroA,55
+walrus/_version.py,sha256=Tjb_poy6EuGRi7TlrksJa9Qpx1MXOCO3p3F6tJ8xa5o,142
+walrus/greet.py,sha256=nsch-P4X39q4bM3heZpLvd0YJ6T8tLsQfBMHwPiQZLE,133
+walrus/math.py,sha256=05op0OMVa4gAtQtzwpV1H3GD7FHyxnkYUkZWvI6B_9g,31
+walrus/movies.py,sha256=7xUUTGjsyh4UPuCIkPqaei51x9k9cYs9-EzvXvncnKc,327
+walrus/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+walrus/data/greeting.txt,sha256=0qhPS4tlCTfsj3PNi-LHSt1akRumTfJ0WO2CKdqASiY,12
+walrus/data/oscars_df.csv,sha256=63zWTo-yH5k0cymv8TpJNCemdG9r2q5MYYz6wJcSUcg,691851
+vineetb_walrus-0.0.1.dist-info/METADATA,sha256=eOx-0ZtnETL_Pq-scjJ08R9DhPz7MWCEkSICrKbTpfE,877
+vineetb_walrus-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vineetb_walrus-0.0.1.dist-info/top_level.txt,sha256=ZJkPwtbs9klHUGroydg2hFvY2x5aGK_XhKe9RPYMEFY,7
+vineetb_walrus-0.0.1.dist-info/RECORD,,
