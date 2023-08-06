@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mobilizon-reshare
+Version: 0.1.0
+Summary: 
+Author: Simone Robutti
+Author-email: simone.robutti@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=2.11,<3.0)
+Requires-Dist: aiosqlite (>=0.16,<0.17)
+Requires-Dist: appdirs (>=1.4,<2.0)
+Requires-Dist: arrow (>=1.1,<2.0)
+Requires-Dist: beautifulsoup4 (>=4.9,<5.0)
+Requires-Dist: click (>=8.0,<9.0)
+Requires-Dist: dynaconf (>=3.1,<4.0)
+Requires-Dist: markdownify (>=0.9,<0.10)
+Requires-Dist: requests (>=2.25,<3.0)
+Requires-Dist: tortoise-orm (>=0.17,<0.18)
