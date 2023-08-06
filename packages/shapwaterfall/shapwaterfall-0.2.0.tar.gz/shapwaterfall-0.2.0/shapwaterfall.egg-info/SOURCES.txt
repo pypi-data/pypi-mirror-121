@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+shapwaterfall.egg-info/PKG-INFO
+shapwaterfall.egg-info/SOURCES.txt
+shapwaterfall.egg-info/dependency_links.txt
+shapwaterfall.egg-info/requires.txt
+shapwaterfall.egg-info/top_level.txt
