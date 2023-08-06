@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: fingerprintqualitygrader
+Version: 0.0.1
+Summary: Grades a quality of fingerprints
+Home-page: UNKNOWN
+Author: Ondřej Sloup
+Author-email: ondrej.sloup@protonmail.com
+License: GPLv3
+Description: This is basic library for bachelor project which grades a quality of fingerprints
+        
+        Change Log
+        ==========
+        
+        0.0.1 (29.09.2021)
+        --------------------------------------
+        Application does nothing. Basic setup.
+Keywords: fingerprints
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
