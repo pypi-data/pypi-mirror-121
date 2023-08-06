@@ -1,0 +1,17 @@
+LICENSE
+README.txt
+setup.cfg
+setup.py
+hwb/__init__.py
+hwb/blots.py
+hwb/configs.py
+hwb/utils.py
+hwb.egg-info/PKG-INFO
+hwb.egg-info/SOURCES.txt
+hwb.egg-info/dependency_links.txt
+hwb.egg-info/requires.txt
+hwb.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_hand_written_blot.py
+tests/test_utils.py
