@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: digitex-bot-framework
+Version: 1.0.3
+Summary: Digitex Bot Framework
+Home-page: https://digitex.io
+License: GPL-3.0-or-later
+Author: Sergey Bugaev
+Author-email: bugaevc@smartdec.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: digitex-engine-client
+Project-URL: Repository, https://github.com/DigitexOfficial/bot-framework
