@@ -1,0 +1,6 @@
+README.md
+setup.py
+BIT_framework.egg-info/PKG-INFO
+BIT_framework.egg-info/SOURCES.txt
+BIT_framework.egg-info/dependency_links.txt
+BIT_framework.egg-info/top_level.txt
