@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+QuadraticElement.egg-info/PKG-INFO
+QuadraticElement.egg-info/SOURCES.txt
+QuadraticElement.egg-info/dependency_links.txt
+QuadraticElement.egg-info/requires.txt
+QuadraticElement.egg-info/top_level.txt
