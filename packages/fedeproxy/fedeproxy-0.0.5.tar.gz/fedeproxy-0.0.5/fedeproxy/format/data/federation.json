@@ -1,0 +1,24 @@
+{
+    "title": "Federation",
+    "description": "Federated fedeproxy instances.",
+
+    "type": "array",
+    "items": {
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+            "url": {
+		"description": "URL of the Fedeproxy instance.",
+		"type": "string",
+		"format": "uri"
+            }
+	},
+	"required": [
+            "url"
+	]
+    },
+
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "$id": "http://example.com/federation.json",
+    "$$target": "federation.json"
+}

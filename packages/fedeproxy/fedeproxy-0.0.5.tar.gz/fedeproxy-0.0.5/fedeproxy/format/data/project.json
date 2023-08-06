@@ -1,0 +1,25 @@
+{
+    "title": "Project",
+    "description": "Software forge project",
+    
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "namespace": {
+	    "description": "Namespace containing the project.",
+            "type": "string"
+        },
+        "project": {
+	    "description": "Name of the project.",
+            "type": "string"
+        }
+    },
+    "required": [
+	"namespace",
+	"project"
+    ],
+
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "$id": "http://example.com/project.json",
+    "$$target": "project.json"
+}
