@@ -1,0 +1,13 @@
+PySXO/__init__.py,sha256=sPlKCKhmt6VM6a8UMqFucia8reQnQIMSg61N8ZgY8QE,401
+PySXO/instance.py,sha256=z9gcuZ0Mr4WJD9cpdgMD1QSdeubnrn93sy47XcZRyvA,1607
+PySXO/instances.py,sha256=9bZtQyQyKtjJujn4yrdlmQFxO40COcPLjRpJLjaJo88,288
+PySXO/workflow.py,sha256=NKj36zVmwfPPPscENOZeh5q0gFgFTTyKg4p_xnFCsZY,242
+PySXO/workflows.py,sha256=2Z_2uO_jUZmFz57Brb3s7E4GykBwtZuBcgVxvPgY5Ic,2432
+PySXO/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PySXO/core/base.py,sha256=QPafzHifQxWpWQtD45oTkQn38LDYZyNu0mxJuFd7Bzs,101
+PySXO/core/decorators.py,sha256=2XwGo16Rd1UtKrVD8anfLx9iC00CqPLn6t9ndVjoYQo,361
+PySXO/core/request_handler.py,sha256=rCROsdIHiaeYjQi-6nLAeDjzB9DcWKbJrY7vKk_COg4,3659
+PySXO-0.0.3.dist-info/METADATA,sha256=oQZltD-OgT4pLRplAZ_ZapqUcoUmW4ssusXabmzlPvg,1143
+PySXO-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PySXO-0.0.3.dist-info/top_level.txt,sha256=JXcFiEQmC2dI1ms2Un-C0yNSInwxxJj5w9WmpEjZYGk,6
+PySXO-0.0.3.dist-info/RECORD,,
