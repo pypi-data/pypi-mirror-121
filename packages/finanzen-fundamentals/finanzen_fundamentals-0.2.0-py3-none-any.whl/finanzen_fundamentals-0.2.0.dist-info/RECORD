@@ -1,0 +1,11 @@
+finanzen_fundamentals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finanzen_fundamentals/etfs.py,sha256=QYHiFeqCGPNkqhN8gnt0Fouva8YhIyFm6KF0AjFRAvM,2536
+finanzen_fundamentals/scraper.py,sha256=EUnZtV2-RbTu0weI4CSHkUgLki7UYMd8gGWQ4q2uUrc,289
+finanzen_fundamentals/search.py,sha256=P7g8b2sQp3SdcswQGqMd1F_q9knrnxCdy7uDrF3IbJ8,4956
+finanzen_fundamentals/statics.py,sha256=_U1SOI2drVpi4SEI07yyxJ4PXsG8a-RWj4vgQ4QQ2t0,4199
+finanzen_fundamentals/stocks.py,sha256=S6XKSrgfs5zbqVKdzPVAmff-QmVsF921vj3DnCXjDJ4,13623
+finanzen_fundamentals-0.2.0.dist-info/LICENSE,sha256=K-C3dZJTgmnwogfc51D0XfxDx5iqx_Yc0JoKiTktevE,1307
+finanzen_fundamentals-0.2.0.dist-info/METADATA,sha256=3Qwy3h1a-YccEVWwp9XEaCepvtUyWhnAwSrbKcXpswo,5023
+finanzen_fundamentals-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+finanzen_fundamentals-0.2.0.dist-info/top_level.txt,sha256=kgvWiKxGgT16KtAtoH0YGOYw3g66rh1bk63kqEe2d6M,22
+finanzen_fundamentals-0.2.0.dist-info/RECORD,,
