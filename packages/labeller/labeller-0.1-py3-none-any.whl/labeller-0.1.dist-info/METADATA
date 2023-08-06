@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: labeller
+Version: 0.1
+Summary: Create image labelling software for machine learning applications.
+Home-page: https://github.com/mdbloice/Labeller
+Author: Marcus D. Bloice
+Author-email: marcus.bloice@medunigraz.at
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: flask (>=2.0)
+Requires-Dist: flask-bootstrap (>=3.3)
+
+UNKNOWN
+
+
