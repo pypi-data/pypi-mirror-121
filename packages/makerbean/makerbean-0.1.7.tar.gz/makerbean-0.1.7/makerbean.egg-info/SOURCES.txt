@@ -1,0 +1,16 @@
+README.md
+setup.py
+makerbean/DataAnalysisBot.py
+makerbean/ExcelBot.py
+makerbean/PDFBot.py
+makerbean/WebCrawlerBot.py
+makerbean/WordBot.py
+makerbean/__init__.py
+makerbean/data.py
+makerbean/stop_words.py
+makerbean/utilities.py
+makerbean.egg-info/PKG-INFO
+makerbean.egg-info/SOURCES.txt
+makerbean.egg-info/dependency_links.txt
+makerbean.egg-info/requires.txt
+makerbean.egg-info/top_level.txt
