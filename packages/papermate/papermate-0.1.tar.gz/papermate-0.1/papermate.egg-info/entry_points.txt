@@ -1,0 +1,3 @@
+[console_scripts]
+papermate = papermate.papermate:main
+
