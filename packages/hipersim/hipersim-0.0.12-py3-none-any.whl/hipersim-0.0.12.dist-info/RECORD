@@ -1,0 +1,17 @@
+hipersim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hipersim/surrogates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hipersim/surrogates/farm_utils.py,sha256=cmLUAllTD2yKkLaC9OHE9rcdNKjsAXKNqcZfb9jnIMA,5222
+hipersim/surrogates/math_utils.py,sha256=5E_s57HdvXKTuBLAd3VfLiAvfCrheXW1SIhfaD-aDKU,1870
+hipersim/surrogates/neuralnets.py,sha256=4RXY5b2y9uyoQkY9WzSFGggaSegcy8VbtpAycj7tIck,21081
+hipersim/turbgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hipersim/turbgen/constrain_field.py,sha256=-eyL2hByHPm0hhP8MzIjVwhl7Q8oKdG6lALQPsDLkuc,19832
+hipersim/turbgen/constrain_field_1d.py,sha256=6OtbrKBFzM5cGpSrOc7AsLLyom7cX-o8s0qIVK27EfE,17792
+hipersim/turbgen/generate_field.py,sha256=uwWxUlYcq8VrzLSf7CjJilT4v2zKSinsctQEa53A4r4,22981
+hipersim/turbgen/manntensor.py,sha256=9L1Si5CntvJsUF7oo1q9PliYxmAeNt7ELZvuKWxQ6qY,25078
+hipersim/turbgen/trapezoidal_sum_2d.py,sha256=9pEmZYJgx3yZTx4IIWZ4jvW43_LlpOKGTXXC9ORoo4M,632
+hipersim/turbgen/turbgen.py,sha256=9CEhlMvEtafosZOGQ8k5wxkQd8Wxrnpm_w3l8h_2lIA,6863
+hipersim-0.0.12.dist-info/LICENSE,sha256=dDOejTor7IHYz3PUoZNTEFR2aiwTvJ1rQtFeyYCzmSU,1086
+hipersim-0.0.12.dist-info/METADATA,sha256=RLGGA1aCv2Cp98DzLq5qzsA3vXGsFRWWBpkIP23tLtc,1374
+hipersim-0.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hipersim-0.0.12.dist-info/top_level.txt,sha256=ugHSknGjcMuABHNN0lxt13ANxppeJ7cBekS_gG9SZVI,9
+hipersim-0.0.12.dist-info/RECORD,,
