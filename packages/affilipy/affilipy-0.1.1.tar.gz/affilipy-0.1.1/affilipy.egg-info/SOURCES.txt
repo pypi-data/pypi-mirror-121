@@ -1,0 +1,11 @@
+README.md
+setup.py
+affilipy/__init__.py
+affilipy/affilipy.py
+affilipy.egg-info/PKG-INFO
+affilipy.egg-info/SOURCES.txt
+affilipy.egg-info/dependency_links.txt
+affilipy.egg-info/top_level.txt
+affilipy/amazon/__init__.py
+affilipy/amazon/amazon.py
+tests/__init__.py
