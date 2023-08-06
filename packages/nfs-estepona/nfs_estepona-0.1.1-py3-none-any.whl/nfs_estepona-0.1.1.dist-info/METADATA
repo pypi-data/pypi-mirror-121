@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nfs-estepona
+Version: 0.1.1
+Summary: A tiny utility tool to split a file into chunks on data-level
+Home-page: https://github.com/estepona/naive-videos-splitter
+Author: Binghuan Zhang
+Author-email: esteponawondering@gmail.com
+License: MIT
+Keywords: file,split,utility
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: tqdm
+Requires-Dist: python-version (>="3.5")
+
+file : README.md
+
