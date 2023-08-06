@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nfs-estepona
+Version: 0.2.2
+Summary: a simple CLI tool to split a file into several smaller chunks at data level and merge them back
+Home-page: https://github.com/estepona/naive-file-splitter
+Author: Binghuan Zhang
+Author-email: esteponawondering@gmail.com
+License: MIT
+Keywords: CLI,file,split,utility
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+file : README.md
+
