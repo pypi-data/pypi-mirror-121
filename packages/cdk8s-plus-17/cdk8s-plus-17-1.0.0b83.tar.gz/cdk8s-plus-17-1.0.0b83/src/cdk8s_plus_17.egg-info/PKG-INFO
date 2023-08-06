@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cdk8s-plus-17
+Version: 1.0.0b83
+Summary: High level abstractions on top of cdk8s
+Home-page: https://github.com/cdk8s-team/cdk8s-plus-17.git
+Author: Amazon Web Services
+License: Apache-2.0
+Project-URL: Source, https://github.com/cdk8s-team/cdk8s-plus-17.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+
+# ⚠️ Deprecation Warning
+
+The `cdk8s-plus-17` package is now deprecated. We are now maintaining `cdk8s-plus-22`, `cdk8s-plus-21`, and `cdk8s-plus-20` in a single [cdk8s-plus](https://github.com/cdk8s-team/cdk8s-plus) repository.
+
+Please refer to our [FAQ](https://cdk8s.io/docs/latest/plus/#faq) to select the appropriate package for you.
+
+## License
+
+This project is distributed under the [Apache License, Version 2.0](./LICENSE).
+
+This module is part of the [cdk8s project](https://github.com/awslabs/cdk8s).
+
+
