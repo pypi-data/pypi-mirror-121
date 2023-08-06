@@ -1,0 +1,7 @@
+setup.py
+extras/__init__.py
+extras/additionalMath.py
+tstMathFunc.egg-info/PKG-INFO
+tstMathFunc.egg-info/SOURCES.txt
+tstMathFunc.egg-info/dependency_links.txt
+tstMathFunc.egg-info/top_level.txt
