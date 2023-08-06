@@ -1,0 +1,5 @@
+setup.py
+src/testpackageasfgdresfrgdewrewfdewrghkrlgjlsjerjselkwehjawjekh.egg-info/PKG-INFO
+src/testpackageasfgdresfrgdewrewfdewrghkrlgjlsjerjselkwehjawjekh.egg-info/SOURCES.txt
+src/testpackageasfgdresfrgdewrewfdewrghkrlgjlsjerjselkwehjawjekh.egg-info/dependency_links.txt
+src/testpackageasfgdresfrgdewrewfdewrghkrlgjlsjerjselkwehjawjekh.egg-info/top_level.txt
