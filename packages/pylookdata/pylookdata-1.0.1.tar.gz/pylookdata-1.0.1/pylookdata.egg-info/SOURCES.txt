@@ -1,0 +1,8 @@
+setup.py
+pylookdata/__init__.py
+pylookdata/handler.py
+pylookdata.egg-info/PKG-INFO
+pylookdata.egg-info/SOURCES.txt
+pylookdata.egg-info/dependency_links.txt
+pylookdata.egg-info/not-zip-safe
+pylookdata.egg-info/top_level.txt
