@@ -1,0 +1,14 @@
+changelog/__init__.py,sha256=xeL5YkRxpSdKQdLTUnX4qn2W4xbyCrND12Gj1fmBWBI,60
+changelog/changelog.css,sha256=mz3YfsxiggKLENrUXCY2F1gq_HEWAMiMG2CwiGK4l6o,107
+changelog/cmd.py,sha256=WODvRnkc-a3hSqzOGvI9OsS_9Z-JUa3U_2jEq3EQwdI,3131
+changelog/docutils.py,sha256=FwaNRoBGh2N7ydiksAvCQFPdTS8JlAFaDXl1aqby3Ac,14089
+changelog/environment.py,sha256=TafidWi-WLeNluPwmhkM_xLIfoyEhaM38oCDRw7bsIQ,2969
+changelog/generate_rst.py,sha256=uQ9tzXyQQdu1NKlfabGICJAJ9g7qyAUa1nZrKFl9tHs,7828
+changelog/mdwriter.py,sha256=er_6Iowr1XVHY749jV4IhK7bcttuRcJAfVnI4d7uEG8,9238
+changelog/sphinxext.py,sha256=SVvPHUqcvQPW6AKDJknF9G1V4-6qftiVWpQrH9g4uJI,3830
+changelog-0.5.6.dist-info/LICENSE,sha256=g8a9fmBHG7_kwENvVkjF0SzN4jAjh8m3cBiLwP0M1kw,1138
+changelog-0.5.6.dist-info/METADATA,sha256=4CKJMeHD2QqBy1Qu9oRByORYeLq1olWZ_Ue7ewhrH0Y,4911
+changelog-0.5.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+changelog-0.5.6.dist-info/entry_points.txt,sha256=cgJrLCYJtc7abMzZif5mq2vvu8VljUJPhlkiPqXP3mk,50
+changelog-0.5.6.dist-info/top_level.txt,sha256=xWXFAUk64Wf-S_-kRFbQ7ORx2aQdi_BPU_L_hxC9kzI,10
+changelog-0.5.6.dist-info/RECORD,,
