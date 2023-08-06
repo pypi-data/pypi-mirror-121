@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: servalcat
+Version: 0.2.0
+Summary: Structure refinement and validation for crystallography and single particle analysis
+Home-page: https://github.com/keitaroyam/servalcat
+Author: Keitaro Yamashita and Garib N. Murshudov
+Author-email: UNKNOWN
+License: MPL-2.0
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: scipy
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: gemmi (>=0.4.9)
+
+UNKNOWN
+
+
