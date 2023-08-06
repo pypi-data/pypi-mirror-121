@@ -1,0 +1,12 @@
+prayer_tool/__init__.py,sha256=bzyT3gtvNywlQ5NWH-4pLzpGc_ISjgMUbNVTBgPUM1g,76
+prayer_tool/day.py,sha256=y41Q_-s6uczh7NicC-8A3ZZ-72u_r5G4GGywKI4QhqQ,1330
+prayer_tool/prayer.py,sha256=DRGfG1xVvOqczZ4iqUNz6jf75KuhtwmVQ8LoEsjRe90,136
+prayer_tool/prayer_times.py,sha256=1HNLrOhGTVu1VrKXKsOzkziLR3H_Zm3zKCHrJwpbLis,6908
+prayer_tool/testit.py,sha256=dSNf41sUFrN-LFlew6Ce_wMJykWHHW_l7c5gd-mOH1s,426
+prayer_tool/testloc.py,sha256=RiVkKAnJLJgxGks-L6OWLo6qpNgihfD2GZYio4r6iCI,55
+prayer_tool/voice_assist.py,sha256=YxqM4i-lr0TEiZRhxRhyFaIGOqSxMgFqb9Z3ILh1Jok,3266
+prayer_tool-3.1.4.dist-info/METADATA,sha256=tUmpP2r63g7k5vfL5XK8w0w5ofLYzvDZJ2bKCIlXEhE,3771
+prayer_tool-3.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+prayer_tool-3.1.4.dist-info/entry_points.txt,sha256=L6OM9meYh2tma3ICGKRFr3FaN4SmmZo5reXe7SY-9Hc,63
+prayer_tool-3.1.4.dist-info/top_level.txt,sha256=yNoTXUMw13H_wvOvrr6wfQyMgcP4ZfhtRKwAIOPmywo,12
+prayer_tool-3.1.4.dist-info/RECORD,,
