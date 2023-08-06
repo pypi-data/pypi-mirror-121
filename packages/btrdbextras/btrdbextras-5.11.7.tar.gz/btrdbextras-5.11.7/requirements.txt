@@ -1,0 +1,15 @@
+# GRPC / Protobuff related
+grpcio>=1.16.1
+grpcio-tools>=1.16.1
+
+# Serialization helpers
+dill==0.3.2
+
+# BTrDB
+btrdb>=5.11.6
+
+# Utilities and helpers
+tabulate==0.8.9
+
+# Readthedocs
+sphinx_glpi_theme
