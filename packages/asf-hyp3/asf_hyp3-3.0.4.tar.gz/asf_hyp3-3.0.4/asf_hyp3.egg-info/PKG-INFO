@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: asf-hyp3
+Version: 3.0.4
+Summary: Api for ASF's hyp3 system
+Home-page: https://github.com/asfadmin/hyp3-api
+Author: ASF Student Development Team 2017
+Author-email: eng.accts@asf.alaska.edu
+License: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Description: NOTICE: This package has been depreciated!
+        ==========================================
+        
+        As of September 30, 2021, ASF's beta HyP3 (version 1) service available at `<https://hyp3.asf.alaska.edu/>`_
+        has been retired in favor of ASF's new On Demand service powered by HyP3 version 2.
+        
+        Programmatic usage of HyP3 v2 is available via the `HyP3 SDK <https://hyp3-docs.asf.alaska.edu/using/sdk/>`_.
+        
+        For more information, please check out the full HyP3 documentation at `<https://hyp3-docs.asf.alaska.edu/>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
