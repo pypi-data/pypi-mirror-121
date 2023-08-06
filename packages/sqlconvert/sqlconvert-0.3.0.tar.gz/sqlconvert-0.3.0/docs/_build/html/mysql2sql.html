@@ -1,0 +1,166 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>mysql2sql &#8212; sqlconvert 0.3.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="News" href="news.html" />
+    <link rel="prev" title="Installation using pip" href="install.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="mysql2sql">
+<h1>mysql2sql<a class="headerlink" href="#mysql2sql" title="Permalink to this headline">¶</a></h1>
+<p>This is mysql2sql, a mysql to sql converter. It is primary intended to
+convert mysqldump (especially with extended INSERT syntax) to standard SQL
+to load at least to PostgreSQL or SQLite.</p>
+<p>The program removes /*! directives */, unquotes names quoted with
+backticks, quote non-lowercase names with double quotes, unescapes strings
+and escapes them to a different quoting style, and splits extended INSERTs
+into a series of plain INSERTs separated by newlines. Everything else is
+passed unmodified.</p>
+<div class="section" id="command-line">
+<h2>Command line<a class="headerlink" href="#command-line" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>mysql2sql<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Usage:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mysql2sql [-e encoding] [-E output_encoding] [-m/-p/-s] [infile] [[-o] outfile]
+</pre></div>
+</div>
+<p>Options:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>-e ENCODING, --encoding ENCODING
+                       input/output encoding, default is utf-8
+-E OUTPUT_ENCODING, --output-encoding OUTPUT_ENCODING
+                       separate output encoding, default is the same as
+                       `-e` except for console; for console output charset
+                       from the current locale is used
+-m, --mysql            MySQL/MariaDB quoting style
+-p, --pg, --postgres   PostgreSQL quoting style
+-s, --sqlite           Generic SQL/SQLite quoting style (default)
+-P, --no-pbar          Inhibit progress bar
+infile                 Input file, stdin if absent or &#39;-&#39;
+-o, --outfile outfile  Output file, stdout if absent or &#39;-&#39;
+</pre></div>
+</div>
+<p>Options <cite>-m/-p/-s</cite> change quoting style. <cite>-m</cite> sets MySQL quoting style;
+it’s added to use the program in the following scenario: convert MySQL
+dumps with extended INSERTs to SQL with plain INSERTS suitable to be fed
+back to MySQL. <cite>-p</cite> sets PostgreSQL quoting style; it’s like MySQL with
+additional <a class="reference external" href="https://www.postgresql.org/docs/9.1/static/sql-syntax-lexical.html#SQL-SYNTAX-STRINGS-ESCAPE">E’’-style quoting</a>.
+<cite>-s</cite> sets generic SQL/SQLite quoting style; this is the default.</p>
+<p>If stderr is connected to the console the program displays a text mode
+progress bar. Option <cite>-P/–no-pbar</cite> inhibits it.</p>
+<p>Option <cite>-o</cite> is useful when infile is absent (input is redirected), for
+example:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mysql2sql -o outfile.sql &lt; infile.sql
+cat infile.sql | mysql2sql -o outfile.sql
+</pre></div>
+</div>
+<p>But of course it simply can be:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mysql2sql - outfile.sql &lt; infile.sql
+cat infile.sql | mysql2sql - outfile.sql
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">sqlconvert</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation using pip</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#installation-from-sources">Installation from sources</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">mysql2sql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="install.html" title="previous chapter">Installation using pip</a></li>
+      <li>Next: <a href="news.html" title="next chapter">News</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016-2021, Oleg Broytman.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/mysql2sql.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
