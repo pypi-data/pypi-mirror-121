@@ -1,0 +1,4 @@
+pytorch
+torchvision
+pytorch_lightning
+rasterio
