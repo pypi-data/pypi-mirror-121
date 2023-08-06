@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+data/emission_lines-ground_based-noFe.dat
+data/telluric_lines_hires.dat
+src/astro_d11.egg-info/PKG-INFO
+src/astro_d11.egg-info/SOURCES.txt
+src/astro_d11.egg-info/dependency_links.txt
+src/astro_d11.egg-info/requires.txt
+src/astro_d11.egg-info/top_level.txt
+src/d11/__init__.py
+src/d11/d11.py
+src/d11/d11_mpfit_f.py
+src/d11/mpfit.py
