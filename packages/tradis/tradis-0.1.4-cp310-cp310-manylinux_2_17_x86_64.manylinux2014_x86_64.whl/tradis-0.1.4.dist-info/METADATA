@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tradis
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: https://github.com/ErikAndersen81/tradis
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Tradis
+Measures the distance between two GPS trajectories using 2D projections.
+
