@@ -1,0 +1,5 @@
+ipy
+jupyter
+lib
+nowledgeable
+script_tester
