@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/cs.agentevents.egg-info/PKG-INFO
+src/cs.agentevents.egg-info/SOURCES.txt
+src/cs.agentevents.egg-info/dependency_links.txt
+src/cs.agentevents.egg-info/top_level.txt
