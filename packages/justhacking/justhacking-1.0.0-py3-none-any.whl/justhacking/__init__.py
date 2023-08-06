@@ -1,0 +1,1 @@
+from justhacking import starthack
