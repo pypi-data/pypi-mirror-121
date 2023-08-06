@@ -1,0 +1,10 @@
+chemispy/__init__.py,sha256=1Z6dATBndKFWZIpsXUXBMo6v7YAEi49LSohh6SJXScI,215
+chemispy/elements/hydrogen.py,sha256=G03ckGmLmimvR8rFZRMRBClvG9Rb9-tVtiyDaMrKrf0,147
+chemispy/elements/lithium.py,sha256=ZYRKz62xTYdyZNpxFoK2ssA6d5vCQUIGaZrRQnCSBGA,146
+chemispy/elements/potassium.py,sha256=nNpQLYBbj3My1NmKqtKJnEfxSvMBb0QV-o3bHydEjSg,150
+chemispy/elements/sodium.py,sha256=j0jBayCqX4BSaATLDhHDFaOms56vMmktqw0PcwqsmZw,156
+chemispy/utils/atomic_number_query.py,sha256=XtCAk3eOVMqHQGEbIMO2l6Ax23pVLnmn80tKLV3-TaA,3665
+chemispy-1.1.1.dist-info/METADATA,sha256=eIkkg9g4Dux7KY5P6fcE28NIFgxHis5xGQyaB08jCRw,1146
+chemispy-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+chemispy-1.1.1.dist-info/top_level.txt,sha256=r9jTAdZ6EX1Ef0cppAIscSgPxcxw47x8xAPgrzE1ecc,9
+chemispy-1.1.1.dist-info/RECORD,,
