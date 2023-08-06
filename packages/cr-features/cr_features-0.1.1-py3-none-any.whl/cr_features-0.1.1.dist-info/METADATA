@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cr-features
+Version: 0.1.1
+Summary: A library for calculating features suitable for context recognition
+Home-page: UNKNOWN
+Author: Matjaž Bostič, Vito Janko
+Author-email: vito.janko@ijs.si
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+long_description
+
+
