@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "tortfunc"
+version = "1.1.0"
+description = "Library for running Python functions with timeout and retry support."
+readme = "README.rst"
+authors = ["KLMatlock <kevin.matlock@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+importlib-metadata = { version = "^4.8.1", python = "~3.7" }
+typing-extensions = { version = "^3.10.0", python = "~3.7" }
+backoff = "^1.11.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+black = "^21.9b0"
+bandit = "^1.7.0"
+tox = "^3.24.4"
+pytest = "^6.2.5"
+isort = "^5.9.3"
+tox-conda = "^0.8.3"
+bumpver = "^2021.1113"
+twine = "^3.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist =
+    {py37, py38, py39}-{stable}
+
+[testenv]
+deps=pytest
+commands=
+    pytest {posargs}
+"""
+[tool.bumpver]
+current_version = "1.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = "{version}"',
+]
+"README.rst" = [
+    "{version}",
+    "{pep440_version}",
+]
+
