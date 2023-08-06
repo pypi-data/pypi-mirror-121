@@ -1,0 +1,3 @@
+[pytest11]
+pytest-testrail-appetize = pytest_testrail_appetize.conftest
+
