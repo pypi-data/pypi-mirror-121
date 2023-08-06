@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+GeoDataProcessor.egg-info/PKG-INFO
+GeoDataProcessor.egg-info/SOURCES.txt
+GeoDataProcessor.egg-info/dependency_links.txt
+GeoDataProcessor.egg-info/top_level.txt
+geodataset/GeoFile.py
+geodataset/__init__.py
+geodataset/datasets.py
+geodataset/image.py
+geodataset/fileutils/COCODataset.py
+geodataset/fileutils/__init__.py
+geodataset/fileutils/parse_directory.py
+geodataset/fileutils/polygons.py
+tests/__init__.py
+tests/test_clip_generation.py
