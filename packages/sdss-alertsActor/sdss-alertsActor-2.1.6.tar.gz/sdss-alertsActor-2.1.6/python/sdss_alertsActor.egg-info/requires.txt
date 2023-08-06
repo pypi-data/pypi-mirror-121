@@ -1,0 +1,14 @@
+pyyaml
+pygments
+sdss-opscore
+twilio
+click<=6.7
+pyparsing
+sdsstools
+sdss-twistedActor
+
+[dev]
+ipython>=7.13.0
+pytest>=3.0.7
+pytest-cov>=2.4.0
+pytest-sugar>=0.8.0
