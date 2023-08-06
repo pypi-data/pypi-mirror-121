@@ -1,0 +1,12 @@
+regendoc/__init__.py,sha256=zigMLf_qlWIHxOoQ12IWoPdx2lCZwfOJjWsd8K_Qgko,4246
+regendoc/_cli.py,sha256=KS2ymR2sJa6iOyaY2O-A4NvZJEDPrRCNh6dxob55xdc,841
+regendoc/actions.py,sha256=3DXt9nkEKTrfIJ-00AmhquV_qemaLGBJML-TQGA_HzQ,2125
+regendoc/parse.py,sha256=o4-6F2KF_A-duONyCUXcSr5nwg1zm4dbpR9ZUwijh7I,4023
+regendoc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regendoc/substitute.py,sha256=VNODJJlsQwfGulLOwemwr_pQ87L-tJ-m1ic5cXvjUdc,1873
+regendoc-0.9.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+regendoc-0.9.0.dist-info/METADATA,sha256=2lAgvIQ_-d68AHDWXZPnlifXnFYO3C66JFyVer4LGJM,1081
+regendoc-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+regendoc-0.9.0.dist-info/entry_points.txt,sha256=k8LnzgNmzbuAynuhVFEtWqYPyV3PYrJEHxS0ms5hmWQ,48
+regendoc-0.9.0.dist-info/top_level.txt,sha256=OsCchu9-mCTCu2G_vtABf9m3MGcemOuTI6YfRurV3s4,9
+regendoc-0.9.0.dist-info/RECORD,,
