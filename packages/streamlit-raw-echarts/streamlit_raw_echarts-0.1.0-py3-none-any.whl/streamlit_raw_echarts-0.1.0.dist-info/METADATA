@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: streamlit-raw-echarts
+Version: 0.1.0
+Summary: Echarts component for streamlit supporting raw Echarts api.
+Home-page: https://github.com/love4odoo/streamlit-raw-echarts
+Author: liunux
+Author-email: liunux@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: streamlit (>=0.63)
+Requires-Dist: simplejson (>=3.00)
+
+UNKNOWN
+
+
