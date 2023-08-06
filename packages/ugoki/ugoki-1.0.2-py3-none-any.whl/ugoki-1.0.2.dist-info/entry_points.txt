@@ -1,0 +1,4 @@
+[console_scripts]
+ugoki-dev=ugoki.cli:dev
+ugoki-prod=ugoki.cli:prod
+
