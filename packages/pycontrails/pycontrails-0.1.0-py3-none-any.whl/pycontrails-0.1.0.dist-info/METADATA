@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pycontrails
+Version: 0.1.0
+Summary: Python library for contrail modeling
+Home-page: UNKNOWN
+Author: Orca Sciences
+Author-email: info@contrails.earth
+License: Unlicensed
+Keywords: contrails,climate,geospatial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: pandas (>=1.2)
+Requires-Dist: xarray (>=0.16)
+Requires-Dist: scipy (>=1.6)
+Requires-Dist: appdirs (>=1.4)
+Requires-Dist: pyproj (>=3.0)
+Provides-Extra: dev
+Requires-Dist: flake8 (>=3.8) ; extra == 'dev'
+Requires-Dist: pytest (>=6.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.11) ; extra == 'dev'
+Requires-Dist: pre-commit (>2.9) ; extra == 'dev'
+Requires-Dist: isort (>=5.4) ; extra == 'dev'
+Requires-Dist: ipdb (>=0.13) ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy (>=0.8) ; extra == 'dev'
+Requires-Dist: nbsphinx (>=0.8) ; extra == 'dev'
+Requires-Dist: requests (>=2.25) ; extra == 'dev'
+Requires-Dist: sphinx (>=3.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-bibtex (>=2.2) ; extra == 'dev'
+Requires-Dist: sphinx-copybutton (>=0.3) ; extra == 'dev'
+Requires-Dist: sphinx-autobuild (>=0.7) ; extra == 'dev'
+Requires-Dist: sphinx-book-theme (>=0.1) ; extra == 'dev'
+Provides-Extra: ecmwf
+Requires-Dist: cdsapi (>=0.4) ; extra == 'ecmwf'
+Requires-Dist: requests (>=2.25) ; extra == 'ecmwf'
+Requires-Dist: ecmwf-api-client (>=1.6) ; extra == 'ecmwf'
+Requires-Dist: netcdf4 (>=1.5) ; extra == 'ecmwf'
+Requires-Dist: cfgrib (>=0.9) ; extra == 'ecmwf'
+Requires-Dist: eccodes (>=1.3) ; extra == 'ecmwf'
+Requires-Dist: dask (>=2021.6.0) ; extra == 'ecmwf'
+Provides-Extra: gcp
+Requires-Dist: google-cloud-storage (>=1.38) ; extra == 'gcp'
+Requires-Dist: tqdm (>=4.61) ; extra == 'gcp'
+Provides-Extra: jupyter
+Requires-Dist: jupyterlab (>=2.2) ; extra == 'jupyter'
+Provides-Extra: vis
+Requires-Dist: matplotlib (>=3.3) ; extra == 'vis'
+Requires-Dist: scikit-learn (>=0.23) ; extra == 'vis'
+Requires-Dist: scikit-image (>=0.18) ; extra == 'vis'
+
+# PyContrails
+
+Python library for contrail modeling and analysis.
+
+> To be released
+
+
+
