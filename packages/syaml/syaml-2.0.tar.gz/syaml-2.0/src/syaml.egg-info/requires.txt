@@ -1,0 +1,17 @@
+PyYAML
+jumon
+mako
+six
+zope.component
+zope.interface
+
+[packaging]
+build
+setuptools
+twine
+wheel
+
+[testing]
+flake8
+pytest
+tox
