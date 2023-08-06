@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: djrest-wrapper
+Version: 0.3.0
+Summary: Customized Wrapper for Django Rest Framework
+Home-page: https://github.com/almohress/drfwrapper
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Requires-Dist: Django (>=3.2.5)
+Requires-Dist: djangorestframework (>=3.12.4)
+
+# Django Rest Framework Wraper
+A customized wrapper for djangorestframework
+### Installation
+```bash
+pip install djrest-wrapper
+```
+### Quick Start
+simply set these variables in `settings.py`
+```python
+REST_FRAMEWORK = {                                                              
+'EXCEPTION_HANDLER': 'djrest_wrapper.exceptions.handler.exception_handler', 
+'DEFAULT_RENDERER_CLASSES': ['djrest_wrapper.renderers.defaultjson.DefaultJsonRenderer'],
+'DEFAULT_PAGINATION_CLASS': 'djrest_wrapper.paginations.default.DefaultPagination',
+}
+```
+
