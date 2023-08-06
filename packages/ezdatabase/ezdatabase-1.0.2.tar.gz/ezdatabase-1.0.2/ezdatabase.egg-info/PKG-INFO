@@ -1,0 +1,56 @@
+Metadata-Version: 1.1
+Name: ezdatabase
+Version: 1.0.2
+Summary: A simple database wrapper for Python 3
+Home-page: UNKNOWN
+Author: JJTV
+Author-email: UNKNOWN
+License: MIT
+Description: <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="ezdatabase_0"></a>ezdatabase</h1>
+        <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Making_Databases_easier_1"></a>Making Databases easier</h2>
+        <h5 class="code-line" data-line-start=3 data-line-end=4 ><a id="EzDatabase_is_a_simple_Database_Wrapper_for_Python_Inspired_by_Replit_Database_3"></a>EzDatabase is a simple Database Wrapper for Python! Inspired by <a href="http://Repl.it">Repl.it</a> Database!</h5>
+        <h2 class="code-line" data-line-start=5 data-line-end=6 ><a id="Features_5"></a>Features</h2>
+        <h5 class="code-line" data-line-start=7 data-line-end=8 ><a id="_Works_with_a_Key__Value_System_7"></a>- Works with a Key / Value System</h5>
+        <h5 class="code-line" data-line-start=8 data-line-end=9 ><a id="_Can_store_strings_numbers_objects_booleans_8"></a>- Can store strings, numbers, objects, booleans</h5>
+        <h2 class="code-line" data-line-start=10 data-line-end=11 ><a id="Code_Examples_10"></a>Code Examples</h2>
+        <h5 class="code-line" data-line-start=12 data-line-end=13 ><a id="_Initialize_Database_12"></a>- Initialize Database</h5>
+        <h1 class="code-line" data-line-start=13 data-line-end=14 ><a id="_13"></a></h1>
+        <h1 class="code-line" data-line-start=14 data-line-end=15 ><a id="_14"></a></h1>
+        <pre><code class="has-line-data" data-line-start="16" data-line-end="21" class="language-python"><span class="hljs-keyword">from</span> ezdatabase <span class="hljs-keyword">import</span> db
+        
+        database = db.db(<span class="hljs-string">"database.db"</span>)
+        <span class="hljs-comment"># Returns None</span>
+        </code></pre>
+        <h5 class="code-line" data-line-start=22 data-line-end=23 ><a id="_Set__Update_Value_of_a_Key_22"></a>- Set / Update Value of a Key</h5>
+        <h1 class="code-line" data-line-start=23 data-line-end=24 ><a id="_23"></a></h1>
+        <h1 class="code-line" data-line-start=24 data-line-end=25 ><a id="_24"></a></h1>
+        <pre><code class="has-line-data" data-line-start="26" data-line-end="31" class="language-python"><span class="hljs-comment"># Arguments: key_name, key_value</span>
+        database.write(<span class="hljs-string">"User1"</span>, {<span class="hljs-string">"age"</span>: <span class="hljs-number">10</span>, <span class="hljs-string">"name"</span>: <span class="hljs-string">"John"</span>})
+        database.write(<span class="hljs-string">"Product: 21398"</span>, <span class="hljs-string">"10,30 EUR"</span>)
+        <span class="hljs-comment"># Returns True on Success</span>
+        </code></pre>
+        <h5 class="code-line" data-line-start=32 data-line-end=33 ><a id="_Read_the_Value_of_a_Key_32"></a>- Read the Value of a Key</h5>
+        <h1 class="code-line" data-line-start=33 data-line-end=34 ><a id="_33"></a></h1>
+        <h1 class="code-line" data-line-start=34 data-line-end=35 ><a id="_34"></a></h1>
+        <pre><code class="has-line-data" data-line-start="36" data-line-end="39" class="language-python">value = database.read(<span class="hljs-string">"User1"</span>)
+        <span class="hljs-comment"># Returns the Value of a Key</span>
+        </code></pre>
+        <h5 class="code-line" data-line-start=39 data-line-end=40 ><a id="_Delete_a_Key_39"></a>- Delete a Key</h5>
+        <h1 class="code-line" data-line-start=40 data-line-end=41 ><a id="_40"></a></h1>
+        <h1 class="code-line" data-line-start=41 data-line-end=42 ><a id="_41"></a></h1>
+        <pre><code class="has-line-data" data-line-start="43" data-line-end="46" class="language-python">database.delete(<span class="hljs-string">"User1"</span>)
+        <span class="hljs-comment"># Returns True on Successful removal of the Key</span>
+        </code></pre>
+        
+        Change Log
+        ==========
+        
+        1.0.2 (26/09/2021)
+        -------------------
+        - Added Documentation
+Keywords: database wrapper,ezdatabase,easydatabase,easy database,repl.it database,sql alternative,sqlite
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
