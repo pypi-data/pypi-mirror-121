@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/truecolor/__init__.py
+src/truecolor/colors.py
+src/truecolor/functions.py
+src/truecolor.py.egg-info/PKG-INFO
+src/truecolor.py.egg-info/SOURCES.txt
+src/truecolor.py.egg-info/dependency_links.txt
+src/truecolor.py.egg-info/top_level.txt
