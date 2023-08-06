@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/package_demo_second_program.egg-info/PKG-INFO
+src/package_demo_second_program.egg-info/SOURCES.txt
+src/package_demo_second_program.egg-info/dependency_links.txt
+src/package_demo_second_program.egg-info/top_level.txt
+src/test_pkg/__init__.py
+src/test_pkg/second_program.py
