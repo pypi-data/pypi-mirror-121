@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-revealjs
+Version: 0.2a0
+Summary: Build slides with RevealJS.
+License: MPL-2.0
+Author: Ashley Trinh
+Author-email: ashley@hackbrightacademy.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Sphinx (>=4.1.1,<5.0.0)
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: cssutils (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# sphinxcontrib-revealjs
+
+This is a work in progress.
+
+## Configuration
+
+### `revealjs_vertical_slides`
+
+Enable/disable vertical slides. Defaults to `True`. Doesn't actually work right now.
+
+### `revealjs_permalinks`
+
+Enable permalinks. Defaults to False
+
+### `revealjs_theme`
+
+Override builder's default theme.
+
+### `revealjs_theme_options`
+
+- `revealjs_theme`: Revealjs theme (see Revealjs docs for list of themes)
+
+## Automatic slide breaks
+
+Headings 1&ndash;2 automatically create slide breaks
+
+## Directives
+
+- interslide
+- newslide
+- speaker
+- incremental
+
+## Development
+
+Depend on Revealjs (git submodule). See https://git-scm.com/book/en/v2/Git-Tools-Submodules
+
+##### Clone this repo w/ submodules
+
+```
+$ git clone --recurse-submodules <url for this repo>
+```
+
+##### Pull upstream changes
+
+```
+$ git submodule update --remote lib/revealjs
+```
