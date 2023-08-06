@@ -1,0 +1,11 @@
+pystare/exceptions.py,sha256=S15072jzWxWNz7DzG3WvMXYdgFAux-lq191nsL1JZ50,147
+pystare/__init__.py,sha256=22vZaFiPFPik8Wixe748LF7O62fj5tpQHu76YxgeKa0,135
+pystare/_core.cpython-36m-x86_64-linux-gnu.so,sha256=qa8FeiElyOv92GJTNmXCiQ28s6eO1IWvspciFaZFsuw,20430480
+pystare/_version.py,sha256=JAzVKZQF7CD-b6qmNM6dLeq9mLjYpWdN9NTaYSKKVT0,22385
+pystare/spatial.py,sha256=OSSvtOc36pDgpJt1JiyNdP4U_qUeTs_Q6aZRDN6mkx4,26181
+pystare/temporal.py,sha256=mGSgy94ihHN1ouVTYAPUOey3nNZGxtvBgQh_Da8Ymvc,31066
+pystare/core.py,sha256=pb3hrWdDdFcG7hwWpZskPF_gUhQz0LokaNxFee4811M,16484
+pystare-0.8.3.dist-info/WHEEL,sha256=jSYAETKun3X8yDp_zvBDSaL0sIuDwtk9aq685DhXmcU,150
+pystare-0.8.3.dist-info/top_level.txt,sha256=nFEpXWK3JtJgh9bx9enxsVi5_b4iH1bL1X7o8rR-yKc,8
+pystare-0.8.3.dist-info/RECORD,,
+pystare-0.8.3.dist-info/METADATA,sha256=AN5JbutG_08y960Kpbts-gOS5sfVeYmAe3EXf_05_gw,3599
