@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: alg3dpy
+Version: 0.18.1
+Summary: 3D Algebra in Python
+Home-page: https://github.com/saullocastro/alg3dpy
+Author: Saullo G. P. Castro
+Author-email: S.G.P.Castro@tudelft.nl
+License: BSD
+Keywords: algebra 3D mathematics geometry
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE
+Requires-Dist: numpy
+
+Travis-CI status:
+
+.. image:: https://travis-ci.org/saullocastro/alg3dpy.svg?branch=master
+    :target: https://travis-ci.org/saullocastro/alg3dpy
+
+
+Coverage status:
+
+.. image:: https://coveralls.io/repos/github/saullocastro/alg3dpy/badge.svg?branch=master
+    :target: https://coveralls.io/github/saullocastro/alg3dpy?branch=master
+
+
+3D Algebra in Python (alg3dpy)
+==============================
+
+
+Very useful basic algebra operations with points, vectors, planes:
+
+- Calculate distances
+- Calculate angles
+- Intersections
+- Projections
+
+
+Licensing
+---------
+
+Distrubuted under the 3-Clause BSD license (`see the LICENSE file for details
+<https://raw.github.com/saullocastro/alg3dpy/master/LICENSE>`_).
+
+Contact: S.G.P.Castro@tudelft.nl.
+
+
+
