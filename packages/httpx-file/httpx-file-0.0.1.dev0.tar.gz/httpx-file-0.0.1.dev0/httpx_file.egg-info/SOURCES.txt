@@ -1,0 +1,9 @@
+LICENSE
+setup.cfg
+setup.py
+httpx_file.egg-info/PKG-INFO
+httpx_file.egg-info/SOURCES.txt
+httpx_file.egg-info/dependency_links.txt
+httpx_file.egg-info/not-zip-safe
+httpx_file.egg-info/requires.txt
+httpx_file.egg-info/top_level.txt
