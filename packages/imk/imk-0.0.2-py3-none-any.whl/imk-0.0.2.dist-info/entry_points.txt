@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        imk=imk.src.__main__:main
+    
