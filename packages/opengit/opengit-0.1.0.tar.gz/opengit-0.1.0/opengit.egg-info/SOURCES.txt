@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+opengit/__init__.py
+opengit/main.py
+opengit.egg-info/PKG-INFO
+opengit.egg-info/SOURCES.txt
+opengit.egg-info/dependency_links.txt
+opengit.egg-info/entry_points.txt
+opengit.egg-info/top_level.txt
