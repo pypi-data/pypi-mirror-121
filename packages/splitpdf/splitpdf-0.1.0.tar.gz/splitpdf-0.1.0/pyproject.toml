@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "splitpdf"
+version = "0.1.0"
+description = ""
+authors = ["MrTango <md@derico.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.1"
+PyPDF2 = "^1.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+splitpdf = "splitpdf:split_pdf"
