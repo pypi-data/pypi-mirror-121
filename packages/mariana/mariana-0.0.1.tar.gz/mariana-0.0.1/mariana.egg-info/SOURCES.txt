@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+mariana.egg-info/PKG-INFO
+mariana.egg-info/SOURCES.txt
+mariana.egg-info/dependency_links.txt
+mariana.egg-info/top_level.txt
