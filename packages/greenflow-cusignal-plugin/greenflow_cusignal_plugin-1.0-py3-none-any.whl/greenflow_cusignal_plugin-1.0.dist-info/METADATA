@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: greenflow-cusignal-plugin
+Version: 1.0
+Summary: greenflow cusignal plugin - RAPIDS Cusignal Nodes for Greenflow
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: greenflow
+Requires-Dist: cusignal
+
+UNKNOWN
+
+
