@@ -1,0 +1,6 @@
+django-crispy-forms>=1.13.0
+django>=2.2
+
+[test]
+pytest
+pytest-django
