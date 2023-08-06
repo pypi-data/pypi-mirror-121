@@ -1,0 +1,8 @@
+picamera
+sense-hat
+pyserial-asyncio
+asyncio
+psutil
+websockets
+aiortc
+aiohttp
