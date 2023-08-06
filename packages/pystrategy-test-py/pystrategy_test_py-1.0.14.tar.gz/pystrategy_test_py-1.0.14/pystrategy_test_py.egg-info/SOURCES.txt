@@ -1,0 +1,9 @@
+README.md
+setup.py
+pystrategy_test_py/__init__.py
+pystrategy_test_py/resta_function.py
+pystrategy_test_py/sum_function.py
+pystrategy_test_py.egg-info/PKG-INFO
+pystrategy_test_py.egg-info/SOURCES.txt
+pystrategy_test_py.egg-info/dependency_links.txt
+pystrategy_test_py.egg-info/top_level.txt
