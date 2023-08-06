@@ -1,0 +1,3 @@
+include CHANGES.md LICENSE.txt README.md VERSION.txt
+
+recursive-include test/ept-star *.las *.laz
