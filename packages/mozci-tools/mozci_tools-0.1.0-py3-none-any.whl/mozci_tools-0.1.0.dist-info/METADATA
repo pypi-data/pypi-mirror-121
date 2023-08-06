@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mozci-tools
+Version: 0.1.0
+Summary: A suite of high-level commandline tools to assist with Firefox's CI
+License: MPL-2.0
+Author: Andrew Halberstadt
+Author-email: ahal@mozilla.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cleo (>=0.8.1,<0.9.0)
+Requires-Dist: mozci (>=2.0.3,<3.0.0)
+Requires-Dist: python-bugzilla (>=3.1.0,<4.0.0)
+Requires-Dist: unidiff (>=0.7.0,<0.8.0)
