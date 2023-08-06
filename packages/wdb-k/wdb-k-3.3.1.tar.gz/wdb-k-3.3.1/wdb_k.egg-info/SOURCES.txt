@@ -1,0 +1,15 @@
+setup.py
+wdb/__init__.py
+wdb/__main__.py
+wdb/_compat.py
+wdb/breakpoint.py
+wdb/ext.py
+wdb/state.py
+wdb/ui.py
+wdb/utils.py
+wdb_k.egg-info/PKG-INFO
+wdb_k.egg-info/SOURCES.txt
+wdb_k.egg-info/dependency_links.txt
+wdb_k.egg-info/entry_points.txt
+wdb_k.egg-info/requires.txt
+wdb_k.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+log_colorizer-k>=2.0.0
+jedi>=0.9.0
+uncompyle6
+python-magic>=0.4.15
+importmagic3
