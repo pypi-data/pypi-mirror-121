@@ -1,0 +1,11 @@
+browsable_router/__init__.py,sha256=BBE5Katwr1N9MKxVTKK6FUAK6eVG2QoMlSA_hfi-EkY,253
+browsable_router/meta.py,sha256=shx-mg3WFLoNFdYkcwG_Nigb9hOE6mFrANXEffDurJU,3303
+browsable_router/permissions.py,sha256=pmqNoblZH_TkF0JwwRlmEMKV4evFy3WS__-KaAXZGyI,357
+browsable_router/router.py,sha256=7tJGvgpza7N9yfSjbm8d8AUXCoxCzV2b3nK9EjQxaCg,3192
+browsable_router/views.py,sha256=fGTGF_pO1Kx6ptNTUJahuzqoTIppJtnzjEC6_sgX4Eg,1037
+LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+README.md,sha256=Gl8q5Lnt1CH5nYkNflKsLXedEthjIENnr5zvF2OYLBY,1354
+django_browsable_router-0.0.7.dist-info/LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+django_browsable_router-0.0.7.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+django_browsable_router-0.0.7.dist-info/METADATA,sha256=mrj1CbEiOWWXMB_dDDq_fVrROFs1akKX7vsqaNSEMc4,2992
+django_browsable_router-0.0.7.dist-info/RECORD,,
