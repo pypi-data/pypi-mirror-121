@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: sra-py
+Version: 0.1.1
+Summary: Python wrapper for some-random-api.ml
+Home-page: https://github.com/Atidipt123/sra_py
+Author: Atidipt123
+Author-email: atidiptmishra@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Atidipt123/sra_py/archive/refs/tags/v0.1.tar.gz
+Project-URL: Bug Tracker, https://github.com/Atidipt123/sra_py/issues
+Description: # sra_py
+        A python wrapper for [some-random-api](https://some-random-api.ml)
+        
+        ## Requirements
+        [Python 3.8.6 or more](https://python.org)  
+        
+        ## Installation
+        ```cmd
+        pip install sra_py
+        ```
+        
+        ## Example
+        ```py
+        # Random Dog Image
+        # more examples are available in examples directory
+        
+        import sra_py as sra
+        
+        dog = sra.dog()
+        
+        print(dog)
+        ```
+        
+        ## Links
+        [Documentation](https://github.com/Atidipt123/sra_py/blob/main/docs/api.md)  
+        [Some Random API](https://some-random-api.ml)  
+        [PyPI](https://pypi.org/project/sra_py)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
