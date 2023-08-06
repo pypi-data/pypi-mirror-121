@@ -1,0 +1,5 @@
+include LICENSE
+recursive-include example_dataset *.csv
+recursive-include example_dataset *.md
+recursive-include notebooks *.ipynb
+recursive-include test_scripts *.py
