@@ -1,0 +1,14 @@
+wmgr/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+wmgr/common.py,sha256=JySi5YRBtY8cCxTWxbI9BQfsPL-Dg8JeN7weMSJjZSo,11618
+wmgr/gethexid.py,sha256=NmBCFRtqr5oU4S4TpbWVZ08vdr6UoPA0e4ZKiu6S0KA,4829
+wmgr/getpid.py,sha256=hkNGQzLK12Jx075bIljy4LIBunDZcxIl93Ei0XDSwKE,1528
+wmgr/getwid.py,sha256=gNVGhAD_wLr4K9QnUW5Qe56ruQAlvmwYX1FBP2_wzoQ,7311
+wmgr/getwindowname.py,sha256=W-g86fG8n2xcFh3xfZw9FIwngOkJq_M6aUxvXSdgo7Y,1825
+wmgr/winactivate.py,sha256=n6KiBEKYSFlM5Lx06kJw0iuYjyF_eCd2H7KRAk5TBsA,4566
+wmgr/winactivate.py.lprof,sha256=sQheJqu0B2T1apgd0xkw4SDNcVfd6AT46EFkD2xplRY,287
+wmgr/winmove.py,sha256=fadCAmdpsaAvBhrlWaqFTDwv9UHakv82mxwVFswzIgY,10906
+wmgr/winutil.sh,sha256=oZRRw09NH_nbn9ihfufN0zpyEVfsywkx0uTuAIbQ4_o,11759
+wmgr-0.1.0.dist-info/METADATA,sha256=4dW4er8XW7mWctxFBiKindkCHKdKJ-Cn1VxV6-8Sg4w,615
+wmgr-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wmgr-0.1.0.dist-info/top_level.txt,sha256=pPZnLjEjuoW0-OOIte4ynmdtHtlgCt2Mjvhd6qbzsXI,5
+wmgr-0.1.0.dist-info/RECORD,,
