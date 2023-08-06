@@ -1,0 +1,5 @@
+#!python
+
+from ilstrap import installer
+
+installer.main()
