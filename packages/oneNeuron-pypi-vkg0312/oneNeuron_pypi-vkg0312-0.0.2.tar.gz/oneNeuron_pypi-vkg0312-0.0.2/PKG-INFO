@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: oneNeuron_pypi-vkg0312
+Version: 0.0.2
+Summary: Its a implementation of perceptron
+Home-page: https://github.com/vkg0312/oneNeuron_pypi
+Author: VARUN
+Author-email: vkg0312@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vkg0312/oneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+oneNeuron_pypi
+
+# Reference -
+[official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[github docs references](https://docs.github.com/en/actions)
+
