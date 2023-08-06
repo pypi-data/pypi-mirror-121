@@ -1,0 +1,12 @@
+QuadraticElement/QE.py,sha256=hWYPLpFdOfvx1FTX1E5vlXXAH7ByrFJ2p-ZXoU8FjNQ,9439
+QuadraticElement/__init__.py,sha256=rY7zgq0sYD4k9s3lvZ-nP1LTm4zoGX6eU3LtcsCNvDE,144
+QuadraticElement/_library.py,sha256=GEW2RMoMQsljMoYvQvzYvv7yP_LwNwpV6_EGD383ECY,1016
+QuadraticElement/_open.py,sha256=hW4ey1CUD3ilMr3ehEVfzJBOEDNHuSfnNE7WC_TOKGc,204
+QuadraticElement/new_user.py,sha256=9rBYTy0an9Fw2iXB84Us0sJnfXa4ECViRn2zVeC4LSo,502
+QuadraticElement/user_message.py,sha256=8sYpxDHciUEt8NaZOMcSN36NhshnynYM0HrMDq5Yabc,765
+QuadraticElement/img/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+QuadraticElement-0.0.3.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+QuadraticElement-0.0.3.dist-info/METADATA,sha256=TX92LLAhDm33eWnAu5ur1yqraFFhDKJ-75YjR41f_aY,1198
+QuadraticElement-0.0.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+QuadraticElement-0.0.3.dist-info/top_level.txt,sha256=ZLTg0fr4ubC3G4OCRljGkjIgTgUqTuiPv6zsUQRUpjg,17
+QuadraticElement-0.0.3.dist-info/RECORD,,
