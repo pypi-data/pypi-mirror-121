@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyhill/__init__.py
+pyhill.egg-info/PKG-INFO
+pyhill.egg-info/SOURCES.txt
+pyhill.egg-info/dependency_links.txt
+pyhill.egg-info/top_level.txt
