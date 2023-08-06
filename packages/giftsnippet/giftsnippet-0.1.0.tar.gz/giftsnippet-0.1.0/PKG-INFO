@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: giftsnippet
+Version: 0.1.0
+Summary: Integrate highlighted source code images with data uris into your gift questions
+Home-page: http://github.com/stefanhuber/giftsnippet
+Author: Stefan Huber
+Author-email: mail@stefanhuber.at
+License: BSD
+Description: UNKNOWN
+Keywords: gift moodle code-formatting
+Platform: UNKNOWN

@@ -1,0 +1,13 @@
+README.md
+setup.py
+giftsnippet/__init__.py
+giftsnippet/console.py
+giftsnippet/gift.py
+giftsnippet/highlight.py
+giftsnippet.egg-info/PKG-INFO
+giftsnippet.egg-info/SOURCES.txt
+giftsnippet.egg-info/dependency_links.txt
+giftsnippet.egg-info/entry_points.txt
+giftsnippet.egg-info/not-zip-safe
+giftsnippet.egg-info/requires.txt
+giftsnippet.egg-info/top_level.txt
