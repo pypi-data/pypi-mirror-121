@@ -1,0 +1,13 @@
+pyserial
+pythondialog
+pyYAML
+regex
+python-barcode
+qrcode
+Pillow
+opencv-python
+numpy
+Image
+Pyzbar
+markdown
+pywebview
