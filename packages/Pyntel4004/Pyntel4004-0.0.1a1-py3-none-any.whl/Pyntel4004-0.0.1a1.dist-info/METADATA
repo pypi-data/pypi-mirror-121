@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Pyntel4004
+Version: 0.0.1a1
+Summary: A Python software implementation of the Intel 4004 processor.
+Home-page: https://github.com/alshapton/Pyntel4004
+Author: Andrew Shapton
+Author-email: alshapton@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/alshapton/Pyntel4004/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
