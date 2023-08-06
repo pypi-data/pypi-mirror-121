@@ -1,0 +1,7 @@
+aws_satella/__init__.py,sha256=9AJNV1O9osTmysG1Z7chiLq5_nMxps2Nd4NOBYxggYI,199
+aws_satella/exporter.py,sha256=cMbrzmSCCadDWa9yNc7a9ZFDjktml2mRFY4y36QLntY,4571
+aws_satella-1.8.dist-info/LICENSE,sha256=xEwE1GM-C_1-FhFBXhdZXsXfJkt9PAOIQ7CgaxD9ZTQ,1093
+aws_satella-1.8.dist-info/METADATA,sha256=BIgLe3y2aHK5Q6njEpS3-HjRuuBBq93OPXw6O62EADo,3745
+aws_satella-1.8.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+aws_satella-1.8.dist-info/top_level.txt,sha256=pPVSRCgvBGemms9tJiM7FcTEYU67_VtJHxGRv_bFcO4,12
+aws_satella-1.8.dist-info/RECORD,,
