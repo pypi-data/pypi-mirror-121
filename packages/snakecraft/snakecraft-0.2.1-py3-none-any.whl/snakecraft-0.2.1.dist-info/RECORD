@@ -1,0 +1,11 @@
+LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+snakecraft/__init__.py,sha256=20xaLl3rDcLXSuMa8jIzCuTze3JzQmFbJPF061cfeTM,415
+snakecraft/__main__.py,sha256=AOP8Num_tgvcY5l2HR3hBsRDAg5LqZD5tIfFiIDX9DY,3177
+snakecraft/core.py,sha256=MHs6I_UigeTHg5vE7_f7KtxhlkcE52nk_iseYw6prE8,13837
+snakecraft/exceptions.py,sha256=X0vCUIoNvet5TZ_DtMDTKDecU32_DoJ91pnxmWTsJu8,436
+snakecraft/utils.py,sha256=vN4CzQZygFr1I0H12rhUl7pYLBLodce7Ae2dqrfoA_0,977
+snakecraft-0.2.1.dist-info/entry_points.txt,sha256=qwRDQVbx9xiaI6y8OGTqaQ_-CgrnKxxhI0CMo4hYrs4,55
+snakecraft-0.2.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+snakecraft-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+snakecraft-0.2.1.dist-info/METADATA,sha256=3eCgUcFgjeXkSK4utCdYIpYmpfuoT7angafMB8yh1x0,2279
+snakecraft-0.2.1.dist-info/RECORD,,
