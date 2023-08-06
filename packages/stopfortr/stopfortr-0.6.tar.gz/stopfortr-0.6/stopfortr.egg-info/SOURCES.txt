@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+stopfortr/__init__.py
+stopfortr/stopfortr.py
+stopfortr.egg-info/PKG-INFO
+stopfortr.egg-info/SOURCES.txt
+stopfortr.egg-info/dependency_links.txt
+stopfortr.egg-info/top_level.txt
