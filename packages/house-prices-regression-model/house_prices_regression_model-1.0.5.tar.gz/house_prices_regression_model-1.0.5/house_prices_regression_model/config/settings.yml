@@ -1,0 +1,5 @@
+PIPELINE_ARTIFACT_NAME: 'house_prices_regression_model'
+TARGET : 'SalePrice'
+VARS_MODELO : ['OverallQual','GrLivArea','TotalBsmtSF','CentralAir','FireplaceQu','BsmtFinSF1','LotArea','GarageCars','YearBuilt','KitchenQual'] #vars_modelo = [var for var in df.columns if var not in ['Id','log_SalePrice','SalePrice']]
+VARS_CAT : ['CentralAir','FireplaceQu','KitchenQual'] #vars_cat = [var for var in df[vars_modelo].columns if df[var].dtype == 'O']
+VARS_NUM_LOG : ["GrLivArea"]
