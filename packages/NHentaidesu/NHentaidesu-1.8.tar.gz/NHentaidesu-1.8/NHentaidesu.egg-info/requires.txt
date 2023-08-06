@@ -1,0 +1,6 @@
+aiofiles
+bs4
+aiohttp
+img2pdf
+dateparser
+python-magic
