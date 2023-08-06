@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test/test.py
+tkitSeg/__init__.py
+tkitSeg/model_troch_export.onnx
+tkitSeg/seg.py
+tkitSeg/special_tokens_map.json
+tkitSeg/tokenizer_config.json
+tkitSeg/vocab.txt
+tkitSeg.egg-info/PKG-INFO
+tkitSeg.egg-info/SOURCES.txt
+tkitSeg.egg-info/dependency_links.txt
+tkitSeg.egg-info/requires.txt
+tkitSeg.egg-info/top_level.txt
