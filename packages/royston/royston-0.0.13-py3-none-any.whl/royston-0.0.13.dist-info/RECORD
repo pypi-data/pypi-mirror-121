@@ -1,0 +1,9 @@
+royston/__init__.py,sha256=cw-MRobegRJvCk5kwza-fgP561WRRtRLG6cUom2svzw,121
+royston/royston.py,sha256=6n52p_NhwHku18C7y7m3xQ4o-nUqrfuXXa2YgEphxiY,20844
+royston/trend_cluster.py,sha256=vfRMcpdWKVVzfQPrT9wb2GU4Ty8cnZJIblam48_n4So,4462
+royston/util.py,sha256=uC5aSMbfrC4R5k_MeEz9NjxCgc5yCP-ynOhI2AD4Moc,1071
+royston-0.0.13.dist-info/entry_points.txt,sha256=925gHL1pU20UriN9p6fgLVAUATWywz5tbheosLJYBKw,63
+royston-0.0.13.dist-info/LICENSE,sha256=UD1PquS68yYr3BJJNAWe5Lu_yaxI5mF6p_X0mmEPnco,1065
+royston-0.0.13.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+royston-0.0.13.dist-info/METADATA,sha256=m-UdAZVXy9I15quu7opoJfYkYS42wDA4fUqWJmuYaLU,5817
+royston-0.0.13.dist-info/RECORD,,
