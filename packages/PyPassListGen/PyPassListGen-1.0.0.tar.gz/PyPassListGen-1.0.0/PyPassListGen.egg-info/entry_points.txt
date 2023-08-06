@@ -1,0 +1,4 @@
+[console_scripts]
+PPLG = PPLG:entry_point
+PyPassListGen = PPLG:entry_point
+
