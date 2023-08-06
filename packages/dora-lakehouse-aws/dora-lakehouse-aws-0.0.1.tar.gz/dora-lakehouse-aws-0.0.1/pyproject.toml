@@ -1,0 +1,40 @@
+# https://python-poetry.org/docs/pyproject/
+[tool.poetry]
+name = "dora-lakehouse-aws"
+version = "0.0.1"
+description = "Dora Lakehouse for AWS"
+authors = ["Didone <didone@live.com>"]
+maintainers = ["DataLabs <time.dataanalytics.datalabs@compasso.com.br>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/doraproject/lakehouse-aws"
+repository = "https://github.com/doraproject/lakehouse-aws.git"
+keywords = ["dora","lakehouse","aws"]
+classifiers = [
+        "Development Status :: 4 - Beta",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Programming Language :: Python :: 3.6",
+        "License :: OSI Approved :: Apache Software License"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/doraproject/lakehouse-aws/issues"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+dora-lakehouse = "^0.0.11"
+pyspark = { version = "^3.0.1", optional = true }
+boto3 = { version = "^1.18.51", optional = true }
+
+[tool.poetry.extras]
+pyspark = ["pyspark"]
+boto3 = ["boto3"]
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.8.3"
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

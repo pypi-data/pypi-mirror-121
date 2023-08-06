@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: dora-lakehouse-aws
+Version: 0.0.1
+Summary: Dora Lakehouse for AWS
+Home-page: https://github.com/doraproject/lakehouse-aws
+License: Apache-2.0
+Keywords: dora,lakehouse,aws
+Author: Didone
+Author-email: didone@live.com
+Maintainer: DataLabs
+Maintainer-email: time.dataanalytics.datalabs@compasso.com.br
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: boto3
+Provides-Extra: pyspark
+Requires-Dist: boto3 (>=1.18.51,<2.0.0); extra == "boto3"
+Requires-Dist: dora-lakehouse (>=0.0.11,<0.0.12)
+Requires-Dist: pyspark (>=3.0.1,<4.0.0); extra == "pyspark"
+Project-URL: Bug Tracker, https://github.com/doraproject/lakehouse-aws/issues
+Project-URL: Repository, https://github.com/doraproject/lakehouse-aws.git
+Description-Content-Type: text/markdown
+
+# Dora Project
+
+Welcome to Dora community :blue_heart:
+
+The primary purpose of this community is to collaborate on projects focused on data and analytics. We want people to work better together. This is a community we build together, and we need your help to make it the best it can be.
+
+> Before start remember that contributions to this repository should follow its [contributing guidelines](.github/CONTRIBUTING.md) and [code of conduct](.github/CODE_OF_CONDUCT.md).
+
+## Open Source
+
+Whant to learn more about [Open Source](https://opensource.org/) projects?
+
+The links below may be helpfull:
+
+- <https://opensource.guide/>
+- <https://todogroup.org/guides/>
+- <https://guides.github.com/>
+- <https://choosealicense.com/licenses/>
+- <https://www.contributor-covenant.org/>
+- <https://mozillascience.github.io/working-open-workshop/>
+
+---
+
+[Dora Project](https://github.com/doraproject) is a recent open-source project based on technology developed at [Compasso UOL](https://compassouol.com/)
+
