@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/seq2onehot/__init__.py
+src/seq2onehot/main.py
+src/seq2onehot.egg-info/PKG-INFO
+src/seq2onehot.egg-info/SOURCES.txt
+src/seq2onehot.egg-info/dependency_links.txt
+src/seq2onehot.egg-info/entry_points.txt
+src/seq2onehot.egg-info/requires.txt
+src/seq2onehot.egg-info/top_level.txt
