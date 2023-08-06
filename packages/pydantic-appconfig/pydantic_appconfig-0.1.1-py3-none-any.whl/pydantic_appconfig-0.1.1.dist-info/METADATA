@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pydantic-appconfig
+Version: 0.1.1
+Summary: Helper package for using AWS App Config with Pydantic
+Author: Validus Tech Team
+Author-email: techteam@validusrm.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: boto3 (>=1.10.27)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
