@@ -1,0 +1,10 @@
+README.md
+setup.py
+naver_dbcore/__init__.py
+naver_dbcore/mysqldb.py
+naver_dbcore/persistence.py
+naver_dbcore.egg-info/PKG-INFO
+naver_dbcore.egg-info/SOURCES.txt
+naver_dbcore.egg-info/dependency_links.txt
+naver_dbcore.egg-info/requires.txt
+naver_dbcore.egg-info/top_level.txt
