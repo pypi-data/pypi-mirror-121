@@ -1,0 +1,8 @@
+ipython
+lifelines
+pyspark
+findspark
+numpy
+pandas
+databricks
+tqdm
