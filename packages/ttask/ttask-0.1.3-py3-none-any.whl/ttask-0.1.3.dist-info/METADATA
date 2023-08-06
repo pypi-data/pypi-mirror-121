@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ttask
+Version: 0.1.3
+Summary: 
+Home-page: https://github.com/sleepntsheep/ttask
+License: MIT
+Author: sleepntsheep
+Author-email: contact@papangkorn.com
+Requires-Python: >=3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: windows-curses (>=2.2.0,<3.0.0); sys_platform == "windows"
+Project-URL: Repository, https://github.com/sleepntsheep/ttask
+Description-Content-Type: text/markdown
+
+<div align="center">
+<h1>ttask (WIP)</h1>
+tui task manager built in python
+<hr>
+</div>
+
+
+## usages
+
+key
+```
+a: add new task
+r: remove selected task
+j, k/ up, down: navigate selected task/ property
+d: mark task as done 
+w: write changes to todo.txt
+q: quit and write changes
+e: edit priority
+```
+
+## dependencies
+
+windows:
+>  windows-curses
+
+## notes
+
+todo.txt is put in your home folder
