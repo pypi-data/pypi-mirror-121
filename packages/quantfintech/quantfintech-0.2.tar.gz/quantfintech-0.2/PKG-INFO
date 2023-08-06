@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: quantfintech
+Version: 0.2
+Summary: A libraray for quantitative finance and algo trading.
+Home-page: https://github.com/sayandodo1234/quantfintech
+Author: Sayan De Bhowmick
+Author-email: debhowmick.sayan@gmail.com
+License: MIT
+Download-URL: https://github.com/sayandodo1234/quantfintech/archive/refs/tags/v_02.1.zip
+Description: UNKNOWN
+Keywords: Technical Indicators,Quant Analysis,Algo trading
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
