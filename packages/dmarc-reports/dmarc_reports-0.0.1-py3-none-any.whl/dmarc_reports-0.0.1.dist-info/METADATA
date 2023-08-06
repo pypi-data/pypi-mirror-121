@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dmarc-reports
+Version: 0.0.1
+Summary: A package that facilitates parsing, validation and storage of DMARC reports.
+Home-page: https://github.com/rui-antunes/dmarc-reports/
+Author: Rui Antunes
+Author-email: 
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/rui-antunes/dmarc-reports/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Python Package ###
+# DMARC Reports #
+
+A package that facilitates parsing, validation and storage of DMARC reports.
+
