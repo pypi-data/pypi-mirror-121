@@ -1,0 +1,7 @@
+README.md
+setup.py
+wqchartpy.egg-info/PKG-INFO
+wqchartpy.egg-info/SOURCES.txt
+wqchartpy.egg-info/dependency_links.txt
+wqchartpy.egg-info/requires.txt
+wqchartpy.egg-info/top_level.txt
