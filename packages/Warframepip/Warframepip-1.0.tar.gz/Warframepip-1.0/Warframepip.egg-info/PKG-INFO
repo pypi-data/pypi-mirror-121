@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: Warframepip
+Version: 1.0
+Summary: Warframe Modules. WORK IN PROGRESS!
+Home-page: http://pymbook.readthedocs.org/en/latest/
+Author: Blake Thompson
+Author-email: blakethompsonbat@gmail.com
+License: MIT
+Description: Very heavy project for near future. Once finish i hope many people will use this.
+        I am Accepting Contributers
+Platform: Linux
+Platform: Windows
+Platform: MacOS

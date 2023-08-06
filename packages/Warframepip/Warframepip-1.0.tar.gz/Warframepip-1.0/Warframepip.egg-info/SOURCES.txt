@@ -1,0 +1,8 @@
+setup.py
+Warframepip/WarframePy.py
+Warframepip/__init__.py
+Warframepip.egg-info/PKG-INFO
+Warframepip.egg-info/SOURCES.txt
+Warframepip.egg-info/dependency_links.txt
+Warframepip.egg-info/requires.txt
+Warframepip.egg-info/top_level.txt
