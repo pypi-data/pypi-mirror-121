@@ -1,0 +1,12 @@
+wikijscmd/__init__.py,sha256=ASt15UAbNOFeApeGhWBkC-KCgq9h-FAl662g3pNAZ-M,174
+wikijscmd/__main__.py,sha256=CThi-fxZyAeZngOEPsXCPaqWoGo3-RuoEETDnDmJg4w,66
+wikijscmd/cli.py,sha256=DAauD7hUaAykDzU5QEerLgwvRHzBATAVqtB_3oHYOuk,2101
+wikijscmd/commands.py,sha256=556WMED5Zh4ZUSevBdfKDd36sMyVIRHYf7Avy8QTUNM,3357
+wikijscmd/config.py,sha256=PHNbWZtyJSEDH3zWOaZUa4Fu3kep9P5FOjIbMYDcJ9E,140
+wikijscmd/custom_requests.py,sha256=hA4OHL-6e-Wtwzm6omqPciunqG78hvUaDfKnnMEljeU,752
+wikijscmd/graphql_queries.py,sha256=eVXdw84oXP3cYfhAcVRFgjMvkyE2WVLbuafZSuSe7FI,2338
+wikijscmd/ncurses.py,sha256=CjDHjDu2JprlujjIWw-enrUNEcog7qfJf3ypcjAHPlo,3564
+wikijscmd/util.py,sha256=3NtLvuaDtjc1HcZKBUIilSs20iewj15Yz1LUgbErY40,1958
+wikijscmd-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+wikijscmd-0.1.0.dist-info/METADATA,sha256=RJrFk9AIdh6fWzcHg3n0rJA287YZcKGfXl8MX8ZUTgw,440
+wikijscmd-0.1.0.dist-info/RECORD,,
