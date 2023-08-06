@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tensorsim/__init__.py
+tensorsim/sim.py
+tensorsim.egg-info/PKG-INFO
+tensorsim.egg-info/SOURCES.txt
+tensorsim.egg-info/dependency_links.txt
+tensorsim.egg-info/top_level.txt
