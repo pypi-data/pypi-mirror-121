@@ -1,0 +1,5 @@
+QuantLib
+pydantic
+typing-extensions
+numpy
+matplotlib
