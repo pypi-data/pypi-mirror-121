@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pycad/COM.py
+pycad/Logger.py
+pycad/OnStart.py
+pycad/SPI.py
+pycad/__init__.py
+pycad.egg-info/PKG-INFO
+pycad.egg-info/SOURCES.txt
+pycad.egg-info/dependency_links.txt
+pycad.egg-info/requires.txt
+pycad.egg-info/top_level.txt
