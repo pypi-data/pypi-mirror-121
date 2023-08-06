@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: xlocust-bigquery
+Version: 0.0.2
+Summary: A Google cloud GP Client for locustio to test dataloads and query extraction
+Home-page: https://github.com/KelvinSan/xlocust_bigquery
+Author: kelvin sanyaolu
+Author-email: kelvin.sanyaolu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+UNKNOWN
+
