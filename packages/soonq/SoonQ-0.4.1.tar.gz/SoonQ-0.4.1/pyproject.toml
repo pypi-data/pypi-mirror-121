@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "SoonQ"
+version = "0.4.1"
+description = "Subprocess-based task queue."
+license = "MIT"
+authors = ["Nathaniel Jones <nathaniel.j.jones@wsu.edu>"]
+readme = "README.md"
+repository = "https://github.com/n8jhj/SoonQ"
+keywords = [
+    "subprocess", "task", "queue"
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = ">=7.0"
+tabulate = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+soonq = "soonq.commands.cli:soonq"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
