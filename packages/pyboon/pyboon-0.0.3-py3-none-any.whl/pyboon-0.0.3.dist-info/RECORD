@@ -1,0 +1,9 @@
+pyboon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyboon/x.py,sha256=t1X1C9qK5_gqaURMo7_2ZTC85VZHWUBGHJsTFCXnaOA,2271
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_x.py,sha256=dtT3qzHZaLxJyKQwu4rDvSXOKkJ-UAJFdSpWyDc44i0,104
+pyboon-0.0.3.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+pyboon-0.0.3.dist-info/METADATA,sha256=HeLA9MpSntaB6921lyxsZXNA7ccxaJsOX1RYrXSrmxU,867
+pyboon-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyboon-0.0.3.dist-info/top_level.txt,sha256=UOqBU7F8J1EPbBsnMOVnebexZJdIxEdGKlmwAaSVh8k,12
+pyboon-0.0.3.dist-info/RECORD,,
