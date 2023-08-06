@@ -1,0 +1,7 @@
+--- !warmahordes_opendata.Model
+ppid: 20180010
+name: The Old Witch of the Wood
+role: warlock
+factions:
+- circle
+scans: 4
