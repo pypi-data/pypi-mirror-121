@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Perceptron-ashishjang
+Version: 0.0.1
+Summary: An implimentation of perceptron.
+Home-page: https://github.com/ashishjang/OneNeuron_pypi
+Author: ashishjang
+Author-email: astroed44@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ashishjang/OneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+
+# OneNeuron_pypi
+OneNeuron_pypi
+
+## How to use this module
+
+--python
+from oneNeuron.perception import *
+
+## get X and y and then use below commands
+model = Perceptron(X, y)
+
