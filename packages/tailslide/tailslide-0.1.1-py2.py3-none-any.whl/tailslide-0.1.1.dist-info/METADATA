@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tailslide
+Version: 0.1.1
+Summary: Median and percentile for Django models and MongoEngine documents
+Home-page: https://github.com/ankane/tailslide
+Author: Andrew Kane
+Author-email: andrew@ankane.org
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
