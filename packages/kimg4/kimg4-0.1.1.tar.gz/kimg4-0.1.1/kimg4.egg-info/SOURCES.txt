@@ -1,0 +1,10 @@
+README.md
+setup.py
+kimg4.egg-info/PKG-INFO
+kimg4.egg-info/SOURCES.txt
+kimg4.egg-info/dependency_links.txt
+kimg4.egg-info/requires.txt
+kimg4.egg-info/top_level.txt
+src/kimg4/__init__.py
+src/kimg4/asn1.py
+src/kimg4/img4.py
