@@ -1,0 +1,15 @@
+pypsa
+gdal==2.4.4
+pycountry
+geopandas
+geopy
+xlrd
+unidecode
+dask
+xlrd
+progressbar2
+openpyxl
+geokit
+glaes
+windpowerlib
+vresutils
