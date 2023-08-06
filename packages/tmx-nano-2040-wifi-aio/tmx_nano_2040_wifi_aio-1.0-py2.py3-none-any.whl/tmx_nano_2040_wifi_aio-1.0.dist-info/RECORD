@@ -1,0 +1,8 @@
+tmx_nano2040_wifi_aio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmx_nano2040_wifi_aio/private_constants.py,sha256=SfRA5qVtH3sFc3UQBtwGtXvnf9Jiqp0cm6EEG2ET8Ok,3274
+tmx_nano2040_wifi_aio/telemetrix_aio_socket.py,sha256=v_U1aZ6UzlfvvaJo-hqwU5z_Z6AXiW6M3557qG3p1J4,2482
+tmx_nano2040_wifi_aio/tmx_nano2040_wifi_aio.py,sha256=az_s6h_5SB1mxnDdEeN21xxlyAoCdj2c3zlNlajm3ps,53691
+tmx_nano_2040_wifi_aio-1.0.dist-info/METADATA,sha256=uXoAL0i1LcC_cWMUrA6J3Obyn22y15AIYwJxF5F3vlE,3285
+tmx_nano_2040_wifi_aio-1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tmx_nano_2040_wifi_aio-1.0.dist-info/top_level.txt,sha256=FFuQ6aKxdf7ApBF-WB6EwZcq-aiygfkcPplqZ9n0PQc,22
+tmx_nano_2040_wifi_aio-1.0.dist-info/RECORD,,
