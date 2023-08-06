@@ -1,0 +1,3 @@
+[greenflow.plugin]
+investment_nodes = greenflow_hrp_plugin
+
