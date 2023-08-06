@@ -1,0 +1,11 @@
+vendor_files/__init__.py,sha256=U1ZG3N_ARr_spzMgy8MIOumTgt-t_ly1-MqeYfFbsvU,245
+vendor_files/models.py,sha256=6IvMzAmr0-Z6oqTkZcgXgrkJrQXVMjBih2AZvLdDgOE,27
+vendor_files/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vendor_files/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vendor_files/management/commands/download_vendor_files.py,sha256=ePt8fsqJKGaNXqP2GUiqQtX53A6o91F1T3a3MkoQ67Y,2060
+vendor_files/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vendor_files/templatetags/vendor_tags.py,sha256=zVPADRc-xQrSf57OSFLl4sBWUoDHZU2syIn4Oa2khuk,2288
+django_vendor_files-0.2.dist-info/METADATA,sha256=LRDAFZk0YflDVEV_bxIFqBM7_7D5RSoBO3nhDljwp4s,3610
+django_vendor_files-0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_vendor_files-0.2.dist-info/top_level.txt,sha256=Tot68cf2QyoG7QW1QtTMbyQvqHTIAOOgKsPZNMO-tLY,13
+django_vendor_files-0.2.dist-info/RECORD,,
