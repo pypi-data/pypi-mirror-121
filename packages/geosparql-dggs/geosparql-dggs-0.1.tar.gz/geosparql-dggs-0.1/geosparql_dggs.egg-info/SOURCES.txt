@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+geosparql_dggs.egg-info/PKG-INFO
+geosparql_dggs.egg-info/SOURCES.txt
+geosparql_dggs.egg-info/dependency_links.txt
+geosparql_dggs.egg-info/requires.txt
+geosparql_dggs.egg-info/top_level.txt
+gsdggs/__init__.py
+gsdggs/sf_functions.py
