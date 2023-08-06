@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: python-reaperdaw
+Version: 0.0.1
+Summary: Python wrapper for REAPER DAW REST API
+Home-page: https://github.com/kubawolanin/python-reaperdaw
+Author: Kuba Wolanin
+Author-email: kuba.wolanin@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/kubawolanin/python-reaperdaw
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-reaperdaw
+
+Python wrapper for REAPER DAW REST interface
+
+## Setup in Reaper
+
+1. Launch your Reaper DAW
+1. Hit `Ctrl + P` or go to Options > Preferences
+1. Navigate to "Control/OSC/web" menu and click "Add"
+1. From the "Control surface mode" dropdown menu choose "Web browser interface"
+1. Set the web interface port or leave default `8080`
+1. Optionally set username:password
+1. Optionally set the default web interface
+1. Copy the Access URL and paste it in your browser - now your Reaper has a web interface.
+1. Hit OK in both preference windows
+
+
