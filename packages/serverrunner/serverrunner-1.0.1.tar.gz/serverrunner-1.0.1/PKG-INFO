@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: serverrunner
+Version: 1.0.1
+Summary: A server runner for certant projects
+Home-page: UNKNOWN
+Author: palmtrww
+Author-email: palmtrww@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Server Runner
+This project is just a fun project i made when i was bored, but still will be maintained
+
+# How to install
+## Unix (Linux, Mac, FreeBSD)
+```pip3 install serverrunner``` or ```python3 -m pip install serverrunner```
+
+## Windows
+```pip install serverrunner```
+
+# Usage
+In your terminal or cmd, you can run ```runserver```. This will give you a prompt and you can fill out it
+

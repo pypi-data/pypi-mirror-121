@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+serverrunner.egg-info/PKG-INFO
+serverrunner.egg-info/SOURCES.txt
+serverrunner.egg-info/dependency_links.txt
+serverrunner.egg-info/entry_points.txt
+serverrunner.egg-info/top_level.txt
