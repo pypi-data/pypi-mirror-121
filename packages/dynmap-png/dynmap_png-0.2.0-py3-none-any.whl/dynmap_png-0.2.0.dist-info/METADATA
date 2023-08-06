@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dynmap-png
+Version: 0.2.0
+Summary: Python script for creating .png exports from Minecraft Dynmap maps
+Home-page: https://github.com/danae/dynmap-png
+Author: danae
+Author-email: info@danaedekker.com
+License: GPL-3.0-or-later
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pillow (>=8.0)
+Requires-Dist: progressbar2 (>=3.0)
+Requires-Dist: requests (>=2.26)
+
+UNKNOWN
+
