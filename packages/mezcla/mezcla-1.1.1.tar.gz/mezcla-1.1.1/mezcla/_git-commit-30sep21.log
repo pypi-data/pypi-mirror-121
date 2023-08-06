@@ -1,0 +1,10 @@
+[main 3ac73d0] misc. update
+ 36 files changed, 667 insertions(+), 108 deletions(-)
+ create mode 100644 mezcla/tests/template.py
+ create mode 100644 mezcla/tests/test_debug.py
+ create mode 100644 mezcla/tests/test_gensim_test.py
+ create mode 100644 mezcla/tests/test_glue_helpers.py
+ create mode 100644 mezcla/tests/test_main.py
+ create mode 100644 mezcla/tests/test_my_regex.py
+ create mode 100644 mezcla/tests/test_tpo_common.py
+

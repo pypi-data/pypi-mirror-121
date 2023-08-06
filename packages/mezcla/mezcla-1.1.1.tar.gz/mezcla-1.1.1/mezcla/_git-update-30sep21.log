@@ -1,0 +1,57 @@
+Saved working directory and index state WIP on main: eebce1d misc. update
+HEAD is now at eebce1d misc. update
+Fetching origin
+Already up-to-date.
+Removing mezcla/LICENSE.txt
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../README.txt
+	deleted:    LICENSE.txt
+	modified:   compute_tfidf.py
+	modified:   cut.py
+	modified:   data_utils.py
+	modified:   debug.py
+	modified:   extract_document_text.py
+	modified:   format_profile.py
+	modified:   gensim_test.py
+	modified:   glue_helpers.py
+	modified:   html_utils.py
+	modified:   kenlm_example.py
+	modified:   keras_param_search.py
+	modified:   main.py
+	modified:   merge_files.py
+	modified:   merge_notes.py
+	modified:   misc_utils.py
+	modified:   my_regex.py
+	modified:   pandas_sklearn.py
+	modified:   randomize_lines.py
+	modified:   simple_main_example.py
+	modified:   spacy_nlp.py
+	modified:   system.py
+	modified:   template.py
+	modified:   text_categorizer.py
+	modified:   text_utils.py
+	modified:   tpo_common.py
+	modified:   train_text_categorizer.py
+	modified:   transpose_data.py
+	modified:   unittest_wrapper.py
+	modified:   xml_utils.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../_git-commit-30sep21.log
+	../_git-update-30sep21.log
+	../dist/
+	TAGS
+	_git-update-30sep21.log
+	backup/
+	tests/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (ca4c93402b0ca23ee84cb7c2856df5615b19b68d)
+
