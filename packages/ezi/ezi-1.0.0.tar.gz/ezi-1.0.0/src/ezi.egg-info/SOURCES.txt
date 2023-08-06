@@ -1,0 +1,16 @@
+.gitignore
+COPYING
+HISTORY.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tests.py
+tox.ini
+src/ezi/__init__.py
+src/ezi/debit.py
+src/ezi.egg-info/PKG-INFO
+src/ezi.egg-info/SOURCES.txt
+src/ezi.egg-info/dependency_links.txt
+src/ezi.egg-info/requires.txt
+src/ezi.egg-info/top_level.txt
