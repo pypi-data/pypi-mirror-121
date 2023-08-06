@@ -1,0 +1,10 @@
+schema
+ffmpeg-python
+pyyaml
+
+[dev]
+pylint
+pytest
+pytest-cov
+pytest-xdist[psutil]
+build
