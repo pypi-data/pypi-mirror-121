@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+lassobbn/__init__.py
+lassobbn/learn.py
+lassobbn.egg-info/PKG-INFO
+lassobbn.egg-info/SOURCES.txt
+lassobbn.egg-info/dependency_links.txt
+lassobbn.egg-info/top_level.txt
