@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: testpackages32
+Version: 0.2.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Igor Simagin
+Author-email: igorsim35@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# РЇ СЃРѕР·РґР°Р» СЃРІРѕР№ РїР°РєРµС‚ Рё С…РѕС‡Сѓ РїРѕС…РІР°СЃС‚Р°С‚СЊСЃСЏ
+![Screenshot](index.png)
+
