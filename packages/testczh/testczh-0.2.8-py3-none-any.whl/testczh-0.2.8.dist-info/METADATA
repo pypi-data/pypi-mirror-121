@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: testczh
+Version: 0.2.8
+Summary: No description.
+Home-page: UNKNOWN
+Author: czh
+Author-email: 1040791159@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Description-Content-Type: text/markdown
+Requires-Dist: protobuf
+
+===========
+
+This project provides a demo for packaging and distributing python application.
+
