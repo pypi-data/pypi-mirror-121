@@ -1,0 +1,11 @@
+main.py,sha256=wWp18nqh7u5jOunh9iMVYJLhR7Yl_6T7h7TOzjARzvY,1485
+IdentityService/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IdentityService/service.py,sha256=NKLX1Me-lxxlOtLVpM943hI7hDG__Mz008VofaasGsw,3763
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_service.py,sha256=NbpU71-KlwXfZf0EOsewg1g5UxXh84ODb74V8t7luK8,1457
+test_user_auth-1.0.5.dist-info/LICENCE.txt,sha256=DIlFPn0SByCQ9Yo17k9tT_lOnUI32CTC4DYG_hOsO5U,1080
+test_user_auth-1.0.5.dist-info/METADATA,sha256=SucLxNdtXyhLfjdB0_p_wxOWhhQIZd-nRDW_JOey0hk,1432
+test_user_auth-1.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+test_user_auth-1.0.5.dist-info/entry_points.txt,sha256=00YUhq5t4JlCA9JzcaWWK581fXa_41CDQ_H1OtItp44,34
+test_user_auth-1.0.5.dist-info/top_level.txt,sha256=6XMUohXGhsdY-a3kbnt6GrYD5ovutFzEoP8NtDGEfAg,26
+test_user_auth-1.0.5.dist-info/RECORD,,
