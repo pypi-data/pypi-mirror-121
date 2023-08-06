@@ -1,0 +1,7 @@
+README.md
+setup.py
+svo_extract/__init__.py
+svo_extract.egg-info/PKG-INFO
+svo_extract.egg-info/SOURCES.txt
+svo_extract.egg-info/dependency_links.txt
+svo_extract.egg-info/top_level.txt
