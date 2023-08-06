@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: maptiler-cloud-cli
+Version: 1.0.0
+Summary: CLI utility for MapTiler Cloud
+Home-page: https://github.com/maptiler/maptiler-cloud-cli
+License: MIT
+Author: MapTiler
+Author-email: info@maptiler.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Documentation, https://docs.maptiler.com/cloud/admin-api/
+Project-URL: Repository, https://github.com/maptiler/maptiler-cloud-cli
