@@ -1,0 +1,6 @@
+include pyproject.toml
+
+include *.md
+include LICENSE
+include setup.py
+recursive-include BIT_DL *
