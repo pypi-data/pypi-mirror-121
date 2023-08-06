@@ -1,0 +1,7 @@
+aigpy
+PyQt5
+requests>=2.22.0
+pycryptodome
+pydub
+prettytable
+lyricsgenius
