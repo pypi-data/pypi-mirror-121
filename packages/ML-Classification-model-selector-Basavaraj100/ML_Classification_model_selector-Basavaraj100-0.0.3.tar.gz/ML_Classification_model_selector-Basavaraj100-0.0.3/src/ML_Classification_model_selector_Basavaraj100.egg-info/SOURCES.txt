@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ML_Classification_model_selector_Basavaraj100.egg-info/PKG-INFO
+src/ML_Classification_model_selector_Basavaraj100.egg-info/SOURCES.txt
+src/ML_Classification_model_selector_Basavaraj100.egg-info/dependency_links.txt
+src/ML_Classification_model_selector_Basavaraj100.egg-info/requires.txt
+src/ML_Classification_model_selector_Basavaraj100.egg-info/top_level.txt
+src/select_classifier/__init__.py
+src/select_classifier/select_model.py
