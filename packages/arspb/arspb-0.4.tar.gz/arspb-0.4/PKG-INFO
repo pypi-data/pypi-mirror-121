@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arspb
+Version: 0.4
+Summary: ARS for PyBullet and Tiny Differentiable Simulator (Augmented Random Search, with linear and neural network policy
+Home-page: https://github.com/erwincoumans/ARS
+Author: Various
+Author-email: erwincoumans@google.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+ARS for PyBullet and Tiny Differentiable Simulator (Augmented Random Search, with linear and neural network policy
+
