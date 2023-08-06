@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: pygerber
+Version: 0.0.1
+Summary: Python package for 2D and 3D rendering of GerberX3 files.
+Home-page: https://github.com/Argmaster/pygerber
+Author: Krzysztof Wiśniewski
+Author-email: argmaster.world@gmail.com
+License: MIT
+Project-URL: Documentation, https://pygerber.readthedocs.io/
+Project-URL: Changelog, https://pygerber.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/Argmaster/pygerber/issues
+Keywords: python-3,gerber,gerber-rendering,gerber-x3,python-rendering,gerber-parser,python-3.9
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+.. image:: https://raw.githubusercontent.com/Argmaster/pygerber/main/docs/_static/pygerber_logo.png
+
+========
+Overview
+========
+
+
+
+PyGerber is a Python library for 2D and 3D rendering of Gerber X3 files.
+It is completely written in Python, and only dependencies are limiting its portability.
+
+*3D rendering is still under development, it will arrive at next major release. (v1.0.0)*
+
+**This package is a Free Software; it is released under MIT license**. Be aware that dependencies might be using different licenses.
+
+PyGerber offers a CLI and API for Python to allow easy rendering of Gerber files.
+Parser was build with GBR X3 format in mind, however, it has extensive
+support for older standards and deprecated features.
+Package is using third party libraries for low level drawing and mesh
+creation.
+
+*PyGerber's parser was not ment to be used by package users, but there are no obstacles preventing
+you from using it. However, stability of the API is not guaranteed between minor releases (I'll do my
+best to make it stable among patches).*
+
+Installation
+============
+
+PyGerber is available on PyPI and can be obtained via pip
+
+.. code:: bash
+
+    pip install pygerber
+
+Be aware that this will **only install general and 2D rendering dependencies**, as
+**bpy (Blender) is not officially released as Python package**. You have to obtain
+it yourself, which, for example, you can archive with help of guides contained in
+this `repository <https://github.com/Argmaster/pyr3>`_.
+
+
+You can also install the in-development version from github with
+
+.. code:: bash
+
+    pip install https://github.com/Argmaster/pygerber/archive/main.zip
+
+Same Blender dependency issue applies to this installation method.
+
+Compatibility
+=============
+
+PyGerber officially supports only Python 3.9, but 2D rendering should be also available for
+3.8 and 3.7, as long as Pillow provides support for those versions. 3D rendering is not
+possible on those versions of Python due to compatibility issues of Blender binaries and Blender's API changes.
+
+Documentation
+=============
+
+Documentation of this library is available at https://pygerber.readthedocs.io/
+
+Development
+===========
+
+To run all the tests, just run::
+
+    tox
+
+To see all the tox environments::
+
+    tox -l
+
+To only build the docs::
+
+    tox -e docs
+
+To build and verify that the built package is proper and other code QA checks::
+
+    tox -e check
+
+To build sdist, and bdist_wheel::
+
+    python setup.py clean --all sdist bdist_wheel
+
+To make a release of the project on PyPI, assuming you got some distributions in dist/, the most simple usage is::
+
+    twine upload --skip-existing dist/*.whl dist/*.gz dist/*.zip
+
+Credits
+=======
+
+Structure of this project was created using cookiecutter template `cookiecutter-pylibrary <https://github.com/ionelmc/cookiecutter-pylibrary>`_.
+I'm very grateful to Ionel Cristian Mărieș for its creation.
+
+Changelog
+=========
+
+0.0.0 (2021-09-25)
+------------------
+
+* First release on PyPI.
+
+
