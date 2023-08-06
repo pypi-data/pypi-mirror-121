@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+CalculatingFeatures/helper_functions.py
+CalculatingFeatures/cr_features.egg-info/PKG-INFO
+CalculatingFeatures/cr_features.egg-info/SOURCES.txt
+CalculatingFeatures/cr_features.egg-info/dependency_links.txt
+CalculatingFeatures/cr_features.egg-info/top_level.txt
