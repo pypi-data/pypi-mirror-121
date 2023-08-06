@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: customselectmenu
+Version: 0.0.3
+Summary: Easy creation and customization of selection menus
+Home-page: UNKNOWN
+Author: Felipe Cavichiolli Silvestre
+Author-email: <mail@neuralnine.com>
+License: UNKNOWN
+Keywords: python,menu,selection,custom
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
