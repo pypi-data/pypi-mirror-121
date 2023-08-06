@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SBPPhysicsEqResistance/SBPPhysicsEqResistance.py
+src/SBPPhysicsEqResistance/__init__.py
+src/SBPPhysicsEqResistance.egg-info/PKG-INFO
+src/SBPPhysicsEqResistance.egg-info/SOURCES.txt
+src/SBPPhysicsEqResistance.egg-info/dependency_links.txt
+src/SBPPhysicsEqResistance.egg-info/top_level.txt
