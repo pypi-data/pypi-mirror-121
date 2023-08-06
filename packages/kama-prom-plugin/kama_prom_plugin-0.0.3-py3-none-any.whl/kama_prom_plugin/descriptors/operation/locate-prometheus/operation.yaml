@@ -1,0 +1,47 @@
+kind: Operation
+id: "nmachine.prom.operation.locate-existing"
+title: "Locate an existing Prometheus Server"
+info: "Point the application to a Prometheus server that is already
+or is capable of monitoring the application"
+synopsis: "assets::locate-existing-server.md"
+tags: ['monitoring']
+labels:
+  searchable: true
+stages:
+  - "id::nmachine.prom.stage.locate-existing-prom"
+
+---
+
+kind: Stage
+id: "nmachine.prom.stage.locate-existing-prom"
+title: "Locate Prometheus API"
+info: "If you have a monitoring service inside
+ or outside in your cluster,
+you can point this application to it in order to give
+Nectar data capabilities"
+
+steps:
+  - id: "nmachine.prom.step.locate-existing-prom"
+    title: "Locate Prometheus API"
+    info: "State whether the server is inside or outside
+    the cluster, and point to it."
+    synopsis: "assets::locate-existing-server.md"
+
+    fields:
+      - "id::prometheus.access_type"
+      - "id::prometheus.url"
+      - "id::prometheus.service_namespace"
+      - "id::prometheus.service_name"
+
+    action: "id::sdk.action.commit_template_apply_step"
+
+---
+
+id: sdk.misc.ping-monitoring-server
+kind: MultiAction
+sub_actions:
+  - "id::sdk.action.commit_template_apply_step"
+  - kind: RunPredicatesAction
+    title: "Try to reach monitoring server"
+    info: "Send HTTP to ${endpoint}"
+    endpoint: "get::sdk.supplier.config.prefs .monitoring.url"

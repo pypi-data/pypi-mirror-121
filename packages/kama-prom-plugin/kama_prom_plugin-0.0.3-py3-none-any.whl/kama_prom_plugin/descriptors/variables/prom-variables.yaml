@@ -1,0 +1,53 @@
+kind: ManifestVariable
+id: "prometheus.access_type"
+title: "Prometheus API Access type"
+input: kind::SelectInput
+options:
+  - id: "kubernetes"
+    title: "Inside the cluster"
+  - id: "generic"
+    title: "Outside the cluster"
+
+---
+
+kind: ManifestVariable
+id: "prometheus.url"
+title: Prometheus' Base URL
+info: "Include http:// or https:// as well as port numbers.
+Include any part of the path that non-standard"
+validators:
+  - kind: FormatPredicate
+    check_against: "domain"
+
+---
+
+kind: ManifestVariable
+id: "prometheus.service_namespace"
+title: "Prometheus Server Namespace"
+info: "Kubernetes namespace where the Prometheus server's service lives"
+input:
+  kind: SelectInput
+  options:
+    kind: ResourcesSupplier
+    resource_selector: "expr::Namespace:*"
+    many: true
+    output: "options_format"
+    serializer: "native"
+
+---
+
+kind: ManifestVariable
+id: prometheus.service_name
+title: "Server Service Name"
+info: "Name of the service resource that exposes the Prometheus server server."
+from_namespace: "get::kind::MergedVarsSupplier->.prometheus.namespace"
+input:
+  kind: SelectInput
+  options:
+    kind: ResourcesSupplier
+    many: true
+    resource_selector:
+      res_kind: Service
+      namespace: "get::parent>>from_namespace"
+    output: "options_format"
+    serializer: "native"
