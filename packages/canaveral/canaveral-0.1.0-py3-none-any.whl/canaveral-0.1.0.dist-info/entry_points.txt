@@ -1,0 +1,6 @@
+[console_scripts]
+canaveral-console = canaveral.main:run
+
+[gui_scripts]
+canaveral = canaveral.main:run
+
