@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vafator
+Version: 0.3.0
+Summary: Annotate a VCF with AF, AD and DP from tumor and normal BAMs
+Home-page: UNKNOWN
+Author: Pablo Riesgo Ferreiro
+Author-email: pablo.riesgoferreiro@tron-mainz.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas (==1.3.3)
+Requires-Dist: pysam (==0.17.0)
+Requires-Dist: cyvcf2 (==0.30.11)
+
+UNKNOWN
+
+
