@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+somefuncs/__init__.py
+somefuncs/myscripts1.py
+somefuncs/myscripts2.py
+study_pypi_zbr.egg-info/PKG-INFO
+study_pypi_zbr.egg-info/SOURCES.txt
+study_pypi_zbr.egg-info/dependency_links.txt
+study_pypi_zbr.egg-info/requires.txt
+study_pypi_zbr.egg-info/top_level.txt
+study_pypi_zbr.egg-info/zip-safe

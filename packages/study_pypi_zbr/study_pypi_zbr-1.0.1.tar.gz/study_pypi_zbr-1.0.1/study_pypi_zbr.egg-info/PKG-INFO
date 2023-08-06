@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: study-pypi-zbr
+Version: 1.0.1
+Summary: this is a test for upload pypi
+Home-page: https://pypi.org/manage/projects/
+Author: zhangbaorui
+Author-email: 1220302613@qq.com
+License: MIT
+Description: ===================
+        title
+        ===================
+        this is  a test!
+        
+        this is a test!!!!
+        
+        
+        so , are u understand?
+        
+Keywords: test python package
+Platform: linux/Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.7
