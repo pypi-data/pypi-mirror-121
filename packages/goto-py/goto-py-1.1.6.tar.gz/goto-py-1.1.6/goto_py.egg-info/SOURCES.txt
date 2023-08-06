@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+goto_py/__init__.py
+goto_py/goto_.py
+goto_py.egg-info/PKG-INFO
+goto_py.egg-info/SOURCES.txt
+goto_py.egg-info/dependency_links.txt
+goto_py.egg-info/top_level.txt
