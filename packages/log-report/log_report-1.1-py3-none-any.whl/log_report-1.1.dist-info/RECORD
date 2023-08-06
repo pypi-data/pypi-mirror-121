@@ -1,0 +1,8 @@
+log_report/__init__.py,sha256=BFoK9ziesdwCv13AdY3Fxq_JrJrechYTosO-gKOj3ks,58
+log_report/__main__.py,sha256=iDs4ynrqY7C_ATbmzfHts0UJ2BY08PElCX_CvpIGZzE,159
+log_report/resurses/__init__.py,sha256=ckQCMjCy2D_ttAPprniiiH34YWuxXFOZsCdX59lhjxA,60
+log_report/resurses/log_worker.py,sha256=EWvoYTexviWcAptdD0lZn4DH2ug9KHMa8bFVeyJQcLM,5388
+log_report-1.1.dist-info/METADATA,sha256=gou6oQfb_ZvqmumLNdi9VGhXdbdIY-Y7VmtKsrozajQ,1773
+log_report-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+log_report-1.1.dist-info/top_level.txt,sha256=Uzm3AndY2-hkXlgH6BvUwmg_pKhMe8KMyEC8ugiV944,11
+log_report-1.1.dist-info/RECORD,,
