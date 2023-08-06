@@ -1,0 +1,13 @@
+appcenter/__init__.py,sha256=NdHabfdyYxp08wcdXARwa2cVE3o681JW63Oups69L7U,1702
+appcenter/account.py,sha256=5Ja7ngtLXZocb21oWbptlAFDCapXyOkMoabyhcYis0w,3732
+appcenter/analytics.py,sha256=ISv3L9y0tLKbFSzcD4oIa7uBnuinNBPlPwxbDbv3XS0,1698
+appcenter/constants.py,sha256=8XxF--_7at7bUlJZnYA45YnDrac0lgxvyDS7K7qwtSs,179
+appcenter/crashes.py,sha256=HxTNlZq_xOhXvZ0VHdzIAletvsOcwS8jchTi15A0tUw,15805
+appcenter/derived_client.py,sha256=XbLOFeVWqRYnVo6JqxETzopnQgLl6e93pTW5rWwIxLQ,10121
+appcenter/models.py,sha256=OkrFjQ7y7VaYTkEUSudzo-QB1hOuBieUyDIk2rua-oc,14519
+appcenter/tokens.py,sha256=6WFbS7zyn-1h19X0o6m3z_p2TFljVkmvSOmnM2r3VM4,2194
+appcenter/versions.py,sha256=6ro0lxJlORo2DLfDAI9T_PAOzlwHOG9KNuY_qG9bazs,25205
+appcenter-2.1.1.dist-info/LICENSE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+appcenter-2.1.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+appcenter-2.1.1.dist-info/METADATA,sha256=n4YHnsFHUyiL1JDUDReC-03X14LS1wH2grDC5-0oWMo,3177
+appcenter-2.1.1.dist-info/RECORD,,
