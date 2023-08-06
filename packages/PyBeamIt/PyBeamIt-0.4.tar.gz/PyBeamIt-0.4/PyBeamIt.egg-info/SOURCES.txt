@@ -1,0 +1,7 @@
+setup.py
+PyBeamIt.egg-info/PKG-INFO
+PyBeamIt.egg-info/SOURCES.txt
+PyBeamIt.egg-info/dependency_links.txt
+PyBeamIt.egg-info/requires.txt
+PyBeamIt.egg-info/top_level.txt
+pybeamit/__init__.py
