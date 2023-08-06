@@ -1,0 +1,11 @@
+[console_scripts]
+eth = chainlib.eth.runnable.info:main
+eth-balance = chainlib.eth.runnable.balance:main
+eth-checksum = chainlib.eth.runnable.checksum:main
+eth-decode = chainlib.eth.runnable.decode:main
+eth-gas = chainlib.eth.runnable.gas:main
+eth-get = chainlib.eth.runnable.get:main
+eth-info = chainlib.eth.runnable.info:main
+eth-nonce = chainlib.eth.runnable.count:main
+eth-raw = chainlib.eth.runnable.raw:main
+
