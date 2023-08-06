@@ -1,0 +1,15 @@
+LICENSE.TXT
+README.md
+setup.py
+apportionpy/__init__.py
+apportionpy/apportionment.py
+apportionpy.egg-info/PKG-INFO
+apportionpy.egg-info/SOURCES.txt
+apportionpy.egg-info/dependency_links.txt
+apportionpy.egg-info/top_level.txt
+apportionpy/methods/__init__.py
+apportionpy/methods/adam.py
+apportionpy/methods/hamilton.py
+apportionpy/methods/huntington_hill.py
+apportionpy/methods/jefferson.py
+apportionpy/methods/webster.py

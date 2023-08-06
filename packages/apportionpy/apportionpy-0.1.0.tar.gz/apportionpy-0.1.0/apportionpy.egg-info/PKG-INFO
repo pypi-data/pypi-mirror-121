@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: apportionpy
+Version: 0.1.0
+Summary: A Python package for apportionment.
+Home-page: UNKNOWN
+Author: Brandon Rorie
+Author-email: ticer1999@gmail.com
+License: UNKNOWN
+Keywords: python,apportionment,apportion,hamilton,webster,adam,jefferson,Huntington,method
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+
+A package that allows users to apportion seats to states based on population figures. Initial fair shares, final fair shares, initial quotas, final quotas, initial divisors, and modified divisors are calculated. Apportionment methods include Hamilton, Jefferson, Webster, Adam, and Huntington Hill methods.
+
