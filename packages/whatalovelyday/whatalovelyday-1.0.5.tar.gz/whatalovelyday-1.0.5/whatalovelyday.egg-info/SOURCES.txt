@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+whatalovelyday.egg-info/PKG-INFO
+whatalovelyday.egg-info/SOURCES.txt
+whatalovelyday.egg-info/dependency_links.txt
+whatalovelyday.egg-info/requires.txt
+whatalovelyday.egg-info/top_level.txt
