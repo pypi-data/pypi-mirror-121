@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "mozci-tools"
+version = "0.1.0"
+description = "A suite of high-level commandline tools to assist with Firefox's CI"
+authors = [
+    "Andrew Halberstadt <ahal@mozilla.com>",
+    "Joel Maher <jmaher@mozilla.com>",
+]
+license = "MPL-2.0"
+packages = [
+  { include = "citools" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mozci = "^2.0.3"
+python-bugzilla = "^3.1.0"
+unidiff = "^0.7.0"
+cleo = "^0.8.1"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.24.4"
+pytest = "^6.2.5"
+pre-commit = "^2.15.0"
+
+[tool.poetry.scripts]
+citools = 'citools.console:cli'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
