@@ -1,0 +1,8 @@
+kmscrypt/__init__.py,sha256=coTqMQwoSy8Pn2-ILMOp4EqzOZVMyI3idsfHimVU6xQ,104
+kmscrypt/__main__.py,sha256=_2pBXEC2JX8mi71O6MxdNysJ01W7mOAGKNLnkKNh_nc,615
+kmscrypt/crypto.py,sha256=yRkBGVrG-11IhHYbQAWQ21HHH9Dum99a6DvNSajqne8,3588
+py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_kms_crypt-1.0.0.dist-info/LICENSE,sha256=oJpV8hKvyGx1nl6RcFucx7ZwOmaDf2d-MqAd6pArWzE,1097
+aws_kms_crypt-1.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+aws_kms_crypt-1.0.0.dist-info/METADATA,sha256=NNSr3qwbzpnJ4qJTQcDR0F0Hthgv3y5ZM9CaCy0PSPE,1476
+aws_kms_crypt-1.0.0.dist-info/RECORD,,
