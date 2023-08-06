@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pypi_desc.md
+setup.py
+tmx_nano2040_wifi_aio/__init__.py
+tmx_nano2040_wifi_aio/private_constants.py
+tmx_nano2040_wifi_aio/telemetrix_aio_socket.py
+tmx_nano2040_wifi_aio/tmx_nano2040_wifi_aio.py
+tmx_nano_2040_wifi_aio.egg-info/PKG-INFO
+tmx_nano_2040_wifi_aio.egg-info/SOURCES.txt
+tmx_nano_2040_wifi_aio.egg-info/dependency_links.txt
+tmx_nano_2040_wifi_aio.egg-info/requires.txt
+tmx_nano_2040_wifi_aio.egg-info/top_level.txt
