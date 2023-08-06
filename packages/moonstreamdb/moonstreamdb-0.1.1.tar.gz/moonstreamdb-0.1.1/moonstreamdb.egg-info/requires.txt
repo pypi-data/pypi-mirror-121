@@ -1,0 +1,12 @@
+alembic
+psycopg2-binary
+sqlalchemy
+
+[dev]
+black
+mypy
+
+[distribute]
+setuptools
+twine
+wheel
