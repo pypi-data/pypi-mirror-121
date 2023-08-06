@@ -1,0 +1,13 @@
+pyperp/Amm.py,sha256=I6s0BuWPGye3TngMkGcyLn8riD6GuvUx9zUkX9IX8nA,2909
+pyperp/Faucets.py,sha256=6Zy7vIQsR_KploHZ7eEfk6ZskxkIX5f4nACDuYFjn5M,594
+pyperp/MetaData.py,sha256=pCrMVT9If2YoaVaT5-loCjyOM2WHhpin23lSeRb-RPU,1024
+pyperp/Providers.py,sha256=MDsx-8HG62kKZ6LgVsIxB4P8iHvSPSmFIuAYAm0hfPA,858
+pyperp/Trader.py,sha256=NTUaBCArT8b_JSBxMBV8KlUVQJpxdVwC3knEAs72VWU,14457
+pyperp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyperp/constants.py,sha256=JWw7ZVPOSdmdtUSbka9zCjoeXhg8Y6d8CMKRHu8w2EI,744
+pyperp/utils.py,sha256=hqRT3Izz0sl_ljwjXHZbrbZ0s2UL8Zi8TepNXdG9o4E,3751
+pyperp-0.0.2.dist-info/LICENSE,sha256=ZQS_6VU9uFlEEKlZj8fKBjPeS0wPnZvtZZlIBuMAL4s,1065
+pyperp-0.0.2.dist-info/METADATA,sha256=r98MoIPgGAn81z0zfmNsxy1u_-imEJrX1gEASPKo5HM,4090
+pyperp-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyperp-0.0.2.dist-info/top_level.txt,sha256=fAKl3ytCKBmyO9060Uw3DmutsWqUwzqHGjTevH9AG4o,7
+pyperp-0.0.2.dist-info/RECORD,,
