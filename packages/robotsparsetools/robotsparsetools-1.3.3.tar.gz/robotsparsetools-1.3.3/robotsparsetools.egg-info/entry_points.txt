@@ -1,0 +1,3 @@
+[console_scripts]
+rp = robotsparsetools.__main__:main
+
