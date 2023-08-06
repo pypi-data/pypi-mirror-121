@@ -1,0 +1,16 @@
+caffe/__init__.py,sha256=EUo8AaE_f8-x0zQPimembhfzNOIQ5zxhRnYIMFUvbIY,434
+caffe/_caffe.so,sha256=dhuKCjUtXXkOW5_pUpioTZFOWGRbqdbpQRVzR1t5tuc,1655016
+caffe/classifier.py,sha256=d-0SR7R_fEIo7gdpynMva_zo-xorLZMPC6tKAZREdS8,3537
+caffe/coord_map.py,sha256=ugOqLJh9J3YjDbf10bTdJdAiIEosz6GD0BFQq_IfJY0,6721
+caffe/detector.py,sha256=8sQFlgo5tgsWZTTksgotGuYbfpUgny1b03Bv8rnFjg4,8541
+caffe/draw.py,sha256=1gvuuSbcmM_55XhJkW3PLMJamiu5hca_jd9ObOxfYwA,8813
+caffe/io.py,sha256=3389k2DTeUOzfIQpfYaLqih-GSth1msO9O2T49YuwQU,12729
+caffe/model_libs.py,sha256=KYN-JiTxmXiUnfvDYw6ajVHur3iKcKbxr2JK81300jk,40529
+caffe/net_spec.py,sha256=gW0Ts4ZO0Wj4Q7axPsfFZkr-K3Ty342uOAlTtD5MK6k,8512
+caffe/pycaffe.py,sha256=mUENY72uN9X5bBrTTm8Z-n6ZsIrGAGs2JzcCe-khaIA,11243
+caffe/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caffe/proto/caffe_pb2.py,sha256=LtXQ29rqt03wp1A_5mjILJcJGuG7MsTyycKIuFUCk2U,371328
+caffe_ssd-0.1.dist-info/METADATA,sha256=7XiCELWY2ALR0460ROlPd_XyKrV_n4udCXqmEV0xRNY,182
+caffe_ssd-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+caffe_ssd-0.1.dist-info/top_level.txt,sha256=F2awqvndF3QDmGeZTgsWu4MSbkfKa5j0zzSqwPWAwFw,6
+caffe_ssd-0.1.dist-info/RECORD,,
