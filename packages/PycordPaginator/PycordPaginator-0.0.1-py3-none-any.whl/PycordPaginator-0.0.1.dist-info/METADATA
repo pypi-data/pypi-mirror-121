@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PycordPaginator
+Version: 0.0.1
+Summary: paginator using pycord_components
+Home-page: https://github.com/SpaceDEVofficial/pycord-paginator
+Author: SpaceDEV
+Author-email: support@spacedev.space
+License: MIT
+Keywords: discord.py,paginaion,button,components,discord_components
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: py-cord
+Requires-Dist: pycord-components
+
+UNKNOWN
+
+
