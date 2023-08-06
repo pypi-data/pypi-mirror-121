@@ -1,0 +1,12 @@
+README.md
+setup.py
+tdl_pybasic/__init__.py
+tdl_pybasic/array.py
+tdl_pybasic/draw_graph.py
+tdl_pybasic/lfreq.py
+tdl_pybasic/random.py
+tdl_pybasic.egg-info/PKG-INFO
+tdl_pybasic.egg-info/SOURCES.txt
+tdl_pybasic.egg-info/dependency_links.txt
+tdl_pybasic.egg-info/top_level.txt
+tdl_pybasic/assets/c6.wav
