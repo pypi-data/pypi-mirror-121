@@ -1,0 +1,67 @@
+{
+  "name": "Fb2021Pydf",
+  "physical-name": "fb2021",
+  "namespace": "pydf",
+  "attributes": {
+    "high": {
+      "physical-name": "High",
+      "physical-dtype": "float64",
+      "dtype": "float",
+      "min": 253.86000061035156,
+      "max": 358.1400146484375,
+      "mean": 299.1258065008348,
+      "std": 28.187692025713126,
+      "count": 124
+    },
+    "low": {
+      "physical-name": "Low",
+      "physical-dtype": "float64",
+      "dtype": "float",
+      "min": 244.61000061035156,
+      "max": 349.04998779296875,
+      "mean": 291.8670953319919,
+      "std": 28.88782323329154,
+      "count": 124
+    },
+    "open": {
+      "physical-name": "Open",
+      "physical-dtype": "float64",
+      "dtype": "float",
+      "min": 247.89999389648438,
+      "max": 356.2699890136719,
+      "mean": 295.2689505546324,
+      "std": 28.5045716938425,
+      "count": 124
+    },
+    "close": {
+      "physical-name": "Close",
+      "physical-dtype": "float64",
+      "dtype": "float",
+      "min": 245.63999938964844,
+      "max": 355.6400146484375,
+      "mean": 295.4482253289992,
+      "std": 28.918410620385316,
+      "count": 124
+    },
+    "volume": {
+      "physical-name": "Volume",
+      "physical-dtype": "int64",
+      "dtype": "int",
+      "min": 9097600,
+      "max": 56526800,
+      "mean": 19252554,
+      "std": 6797429,
+      "count": 124
+    },
+    "adj_close": {
+      "physical-name": "Adj Close",
+      "physical-dtype": "float64",
+      "dtype": "float",
+      "min": 245.63999938964844,
+      "max": 355.6400146484375,
+      "mean": 295.4482253289992,
+      "std": 28.918410620385316,
+      "count": 124
+    }
+  }
+}

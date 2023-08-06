@@ -1,0 +1,19 @@
+name: pydata-factory
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - pyarrow
+  - sqlalchemy
+  # dev
+  - pandas-datareader
+  - pip
+  - flake8
+  - coverage
+  - sphinx
+  - twine
+  - pytest
+  - pytest-cov
+  - pre-commit
+  - pip:
+    - factory-boy

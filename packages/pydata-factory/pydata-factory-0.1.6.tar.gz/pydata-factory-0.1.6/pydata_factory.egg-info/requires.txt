@@ -1,0 +1,10 @@
+factory-boy
+pandas
+pyarrow
+sqlalchemy
+
+[dev]
+factory-boy
+pandas
+pyarrow
+sqlalchemy

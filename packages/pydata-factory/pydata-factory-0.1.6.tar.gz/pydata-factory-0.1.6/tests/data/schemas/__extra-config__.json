@@ -1,0 +1,19 @@
+{
+  "Project": {
+    "attributes": {
+      "client_id": {
+        "depends-on": "Client.id"
+      }
+    }
+  },
+  "Task": {
+    "attributes": {
+      "client_id": {
+        "depends-on": "Project.client_id"
+      },
+      "project_id": {
+        "depends-on": "Project.id"
+      }
+    }
+  }
+}
