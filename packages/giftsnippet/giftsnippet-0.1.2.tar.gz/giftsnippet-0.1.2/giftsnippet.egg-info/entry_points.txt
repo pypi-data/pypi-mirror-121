@@ -1,0 +1,3 @@
+[console_scripts]
+giftsnippet = giftsnippet.console:main
+
