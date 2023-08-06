@@ -1,0 +1,2 @@
+git+https://github.com/Moustikitos/elliptic-curve#egg=pySecp256k1
+git+https://github.com/Moustikitos/micro-server#egg=usrv
