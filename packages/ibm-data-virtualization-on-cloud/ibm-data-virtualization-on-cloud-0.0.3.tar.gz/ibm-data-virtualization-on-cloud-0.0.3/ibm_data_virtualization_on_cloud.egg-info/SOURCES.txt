@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+requirements.txt
+setup.py
+ibm_data_virtualization_on_cloud/__init__.py
+ibm_data_virtualization_on_cloud/common.py
+ibm_data_virtualization_on_cloud/data_virtualization_v1.py
+ibm_data_virtualization_on_cloud/version.py
+ibm_data_virtualization_on_cloud.egg-info/PKG-INFO
+ibm_data_virtualization_on_cloud.egg-info/SOURCES.txt
+ibm_data_virtualization_on_cloud.egg-info/dependency_links.txt
+ibm_data_virtualization_on_cloud.egg-info/requires.txt
+ibm_data_virtualization_on_cloud.egg-info/top_level.txt
+ibm_data_virtualization_on_cloud.egg-info/zip-safe
