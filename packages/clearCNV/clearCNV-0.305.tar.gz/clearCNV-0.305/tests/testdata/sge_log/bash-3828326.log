@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_pairs
+	1
+
+[Thu Aug  5 15:47:24 2021]
+rule count_pairs:
+    input: /fast/work/users/vmay_m/development/clear-cnv/tests/testdata/test_reassign_small_1.bam, /fast/work/users/vmay_m/development/clear-cnv/tests/testdata/test_reassignment_union.bed
+    output: /fast/work/users/vmay_m/development/clear-cnv/tests/testdata/covs/test_reassign_small_1.rtbed
+    log: logs/coverages/test_reassign_small_1.log
+    jobid: 0
+    wildcards: bam=test_reassign_small_1
+
+clearCNV coverage             -i /fast/work/users/vmay_m/development/clear-cnv/tests/testdata/test_reassign_small_1.bam             -b /fast/work/users/vmay_m/development/clear-cnv/tests/testdata/test_reassignment_union.bed             -r /fast/work/users/vmay_m/development/clear-cnv/tests/testdata/covs/test_reassign_small_1.rtbed
+[D 210805 15:47:43 __main__:688] External executables present: bedops, bedtools, sort
+[I 210805 15:47:43 __main__:694] Starting analysis...
+[I 210805 15:47:43 __main__:696] All done. Have a nice day!
+[Thu Aug  5 15:47:44 2021]
+Finished job 0.
+1 of 1 steps (100%) done
