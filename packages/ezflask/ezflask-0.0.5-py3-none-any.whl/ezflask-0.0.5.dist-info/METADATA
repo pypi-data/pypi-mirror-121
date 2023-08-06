@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ezflask
+Version: 0.0.5
+Summary: The fastest way to make a website
+Home-page: https://github.com/SmartMozart/ezflask
+Author: SmartMozart
+Author-email: zacsengines@yahoo.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SmartMozart/ezflask/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: markupsafe
+
+# EzFlask
+
+## The easiest way to make a website
+
+---
+
+### How to use:
+
+```python
+import ezflask
+```
+
+That's it!
+
+Put website files in the same directory as python file and you're good to go!
+
