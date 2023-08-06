@@ -1,0 +1,17 @@
+byutpl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+byutpl/eos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+byutpl/eos/pr.py,sha256=2CPkSa8uwP2STSZmWQWjIeTO2JPsvpHclBcRZ5xfaXY,42957
+byutpl/eos/srk.py,sha256=2iT3KoTwLaNGp6mCVmclwfgXi74MDndbBQNHJ0DmayA,42360
+byutpl/equations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+byutpl/equations/dippreqns.py,sha256=4d3crfUR7sOGGfmvPE5Nb_vLxqQnnV7gSahAGZJt5z8,21010
+byutpl/predictions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+byutpl/predictions/predictions.py,sha256=GnNZXrxfftjEYC3n0omDKB4nMhVjmVwnO53qXlnBTyw,12935
+byutpl/properties/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+byutpl/properties/air.py,sha256=TfTbc6LGPaCY3qujMu_tMkr35Jc__3L6OblD5y0qL6w,17291
+byutpl/properties/benzene.py,sha256=7oipNKUSqIQntdACITqhtG8R6iqrd4Yt3kLkoXX8Iws,23463
+byutpl/properties/water.py,sha256=mGF6Vye5jqLJg9DlAuX7FOYXp4dKUy34ktz7tp6XvXg,24074
+byu_tpl-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+byu_tpl-1.0.0.dist-info/METADATA,sha256=l6WsKyJKFERxS_jhz-jWyoiNcu6x-UWJs4_QT6TOTxQ,2759
+byu_tpl-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+byu_tpl-1.0.0.dist-info/top_level.txt,sha256=VpdU9BGf80VV9Afd0j7WYnkt6G4xvbq26BBr652jjWs,7
+byu_tpl-1.0.0.dist-info/RECORD,,
