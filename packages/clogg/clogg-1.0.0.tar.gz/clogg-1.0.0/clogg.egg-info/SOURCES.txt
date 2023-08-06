@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+clogg.egg-info/PKG-INFO
+clogg.egg-info/SOURCES.txt
+clogg.egg-info/dependency_links.txt
+clogg.egg-info/not-zip-safe
+clogg.egg-info/top_level.txt
