@@ -1,0 +1,1 @@
+from tstMathFunc.mathFunctions import average, sum, power
