@@ -1,0 +1,15 @@
+ohcg/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ohcg/main.py,sha256=jr1sJ4_sNTC99cyWsfeTkus2CVNcdYm2XNloedRjsfM,1198
+ohcg/openapi_models.py,sha256=w35BkaGk2VcKP7OAtWGK7ubSnFEsehQAaVVOhaSuIao,8300
+ohcg/parser.py,sha256=jOsuaFNF9MEjDE7gHwyzC8L8B_2b1HdReFE6C2vVOBc,16877
+ohcg/templates/base_model.jinja2,sha256=ACqc_gp_taweldNxpA_0oYPG29KA2MQSRm2u2E21xUY,276
+ohcg/templates/client.jinja2,sha256=QccLlIfxnmwiS3IuC2R-HL-TfQTS-itAFw3QMez12qk,1748
+ohcg/templates/enum_model.jinja2,sha256=SRuXiJALogRCa3MMW3pcY3UxVqNmj6AVUrihwGGek6A,250
+ohcg/templates/model.jinja2,sha256=WJ31F64-4EjOTiliL4jMZuDXsZm3-bTE_eFGfyUicho,1015
+ohcg/templates/models.jinja2,sha256=f1YVJuQ1DTnXTby1hidYJnLu8O7ErvZE1mSZffzT0Yk,531
+ohcg/templates/operation.jinja2,sha256=9y0BCtO0Xn0KCiq1zEO5DMu-oYLt7CgZhpRwLecJsWE,2270
+ohcg/utils.py,sha256=rCh0vz_kf9yTJe1gK09fSAJ5ZWlA1UykoCVoE6Hn9pw,98
+ohcg-0.1.0.dist-info/entry_points.txt,sha256=I-Nbu7YYVPJ3hJdNMRAiG3lawaOlyLELFY-h2rA-96E,38
+ohcg-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+ohcg-0.1.0.dist-info/METADATA,sha256=ODLwGqbmryjlvSEG3S2B4HcTh3nym9lm_9Rz1rtELOc,471
+ohcg-0.1.0.dist-info/RECORD,,
