@@ -1,0 +1,10 @@
+README.md
+setup.py
+nfts/__init__.py
+nfts.egg-info/PKG-INFO
+nfts.egg-info/SOURCES.txt
+nfts.egg-info/dependency_links.txt
+nfts.egg-info/entry_points.txt
+nfts.egg-info/not-zip-safe
+nfts.egg-info/requires.txt
+nfts.egg-info/top_level.txt
