@@ -1,0 +1,9 @@
+# This file is placed in the Public Domain.
+
+PROG=`which botcmd`
+PROG2=`which systemd-run`
+if [ -z $PROG2 ]; then 
+    echo "systemd is not running on this os" ; 
+else
+    "$PROG2" -q -t --property=Type=exec --no-ask-password --property=DynamicUser=yes --property=StateDirectory=botd $PROG $* ;
+fi;
