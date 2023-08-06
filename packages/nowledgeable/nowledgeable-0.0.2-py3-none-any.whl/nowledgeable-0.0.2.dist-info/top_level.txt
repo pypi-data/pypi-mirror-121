@@ -1,0 +1,4 @@
+ipy
+jupyter
+lib
+script_tester
