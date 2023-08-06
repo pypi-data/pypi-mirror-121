@@ -1,0 +1,4 @@
+cython
+pyranges
+pyfaidx
+pandas>=1.2
