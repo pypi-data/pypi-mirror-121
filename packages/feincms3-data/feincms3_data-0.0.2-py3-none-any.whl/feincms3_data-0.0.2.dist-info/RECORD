@@ -1,0 +1,11 @@
+feincms3_data/__init__.py,sha256=hUKcSawpJ3OXYPGRxbfsxmVHZa6-M6wGmoAIHU4DpCQ,62
+feincms3_data/data.py,sha256=5q1UQUwEkKxZYUxg5UYJ6wrQzHsigoWouaxeKM6Okx0,2553
+feincms3_data/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feincms3_data/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feincms3_data/management/commands/f3dumpdata.py,sha256=2HHWcE0t7bqj_bY6PLEWoVzabrh6RUb8CDAyE15ZJww,938
+feincms3_data/management/commands/f3loaddata.py,sha256=ss97XUUyW-sKmC9R5E1HcagYXGdSkvFQyXmIn-toGTA,612
+feincms3_data-0.0.2.dist-info/LICENSE,sha256=bGCh3k7OeHrIXMDCn548Khpf-FI2HcoJkxBLDxA_n4A,1548
+feincms3_data-0.0.2.dist-info/METADATA,sha256=BCwqifSrfZ-M-jZnxXRmVZaSshTm7i2nls4J-sgQNU8,4493
+feincms3_data-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+feincms3_data-0.0.2.dist-info/top_level.txt,sha256=EI-pBaEjUkyPrARNr53_NLqZ2UB-OUmcvqiAvhDm4vE,14
+feincms3_data-0.0.2.dist-info/RECORD,,
