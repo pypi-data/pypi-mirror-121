@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: logboss
+Version: 0.1.0
+Summary: Persist logs With SQLite. Easy to query logs.
+Home-page: https://gitlab.com/tspens/dblogging
+Author: Tyler Spens
+Author-email: mrtspens@gmail.com
+License: UNKNOWN
+Download-URL: https://gitlab.com/tspens/dblogging/-/archive/V1.0.2/dblogging-V1.0.2.zip
+Keywords: logging,persistent,database,db,sqlite,log,persist,data
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Visit the documentation [here](https://log-boss.readthedocs.io/en/latest/).
+
+

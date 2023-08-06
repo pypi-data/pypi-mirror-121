@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+logboss/__init__.py
+logboss/config.py
+logboss/logger.py
+logboss.egg-info/PKG-INFO
+logboss.egg-info/SOURCES.txt
+logboss.egg-info/dependency_links.txt
+logboss.egg-info/requires.txt
+logboss.egg-info/top_level.txt
+logboss/generators/__init__.py
+logboss/generators/html_generator.py
