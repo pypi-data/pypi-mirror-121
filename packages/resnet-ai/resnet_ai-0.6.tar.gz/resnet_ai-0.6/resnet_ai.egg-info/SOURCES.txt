@@ -1,0 +1,8 @@
+setup.py
+resnet_ai/__init__.py
+resnet_ai/functions.py
+resnet_ai.egg-info/PKG-INFO
+resnet_ai.egg-info/SOURCES.txt
+resnet_ai.egg-info/dependency_links.txt
+resnet_ai.egg-info/not-zip-safe
+resnet_ai.egg-info/top_level.txt
