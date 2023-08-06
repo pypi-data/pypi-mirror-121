@@ -1,0 +1,8 @@
+setup.py
+zeroday/__init__.py
+zeroday/__main__.py
+zeroday/devops.py
+zeroday.egg-info/PKG-INFO
+zeroday.egg-info/SOURCES.txt
+zeroday.egg-info/dependency_links.txt
+zeroday.egg-info/top_level.txt
