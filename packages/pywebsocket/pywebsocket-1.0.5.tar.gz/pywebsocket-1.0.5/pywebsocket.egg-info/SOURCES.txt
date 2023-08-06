@@ -1,0 +1,10 @@
+README.md
+setup.py
+pywebsocket/__init__.py
+pywebsocket/custom_types.py
+pywebsocket/exceptions.py
+pywebsocket/server.py
+pywebsocket.egg-info/PKG-INFO
+pywebsocket.egg-info/SOURCES.txt
+pywebsocket.egg-info/dependency_links.txt
+pywebsocket.egg-info/top_level.txt

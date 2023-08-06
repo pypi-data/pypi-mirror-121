@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pywebsocket
+Version: 1.0.5
+Summary: Websocket server written in Python.
+Home-page: https://github.com/egebilecen/pywebsocket
+Author: Ege Bilecen
+License: UNKNOWN
+Description: Please see GitHub page for more information. (https://github.com/egebilecen/pywebsocket)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
