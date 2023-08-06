@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pydaptivefiltering
+Version: 0.1
+Summary:  Python 3.x Implementation of the AdaptiveFiltering Toolbox.
+Home-page: https://github.com/BruninLima
+Author: Bruno Lima Netto
+Author-email: brunolimanetto@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/BruninLima/PydaptiveFiltering/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: Adaptive,Filtering,Digital,Signal,Processing
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
