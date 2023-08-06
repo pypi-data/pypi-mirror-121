@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gaus-bin-dist
+Version: 0.3
+Summary: Gaussian and Binomial Distributions
+Home-page: UNKNOWN
+Author: Eric Kwok
+Author-email: ekwok25@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# gaus-bin-dist
+
+This package contains modules for working with Gaussian and Binomial Distributions.
+
+# Files
+
+* `__init__.py`: Initialization script
+* `Binomialdistribution.py`: Binomial class
+* `Gaussiandistribution.py`: Gaussian class
+* `Generaldistribution.py`: Distribution class
+* `license.txt`: MIT license
+
+# Installation
+
+Available on [PyPi](https://pypi.org/project/gaus-bin-dist/).
+
+`pip install gaus-bin-dist`
+
+
