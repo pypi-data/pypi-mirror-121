@@ -1,0 +1,4 @@
+[console_scripts]
+gans = pipelines:cli
+wgan = pipelines.wgan:wgan
+
