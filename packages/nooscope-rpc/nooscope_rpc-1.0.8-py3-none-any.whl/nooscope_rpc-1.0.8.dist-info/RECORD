@@ -1,0 +1,9 @@
+nooscope_rpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nooscope_rpc/api.py,sha256=YewdZI4UZO0qe0XFnFPZo93RLpW9zar7iyF2Dx9IU_w,5391
+nooscope_rpc/constants.py,sha256=ni2HzLL8JCGr7Gs536oqgH58RT2CfKLZKRxtCVIeK-U,717
+nooscope_rpc/selfsigned.cert,sha256=h6wMLlcyl2NHsuB_Klp599t8yeAEFnCebvE6ixbvwZY,1245
+nooscope_rpc-1.0.8.dist-info/LICENSE.md,sha256=Il-9B4WIPplqsXxo6e3iU8Sc_2JBS68DvJMvP9HggMk,35058
+nooscope_rpc-1.0.8.dist-info/METADATA,sha256=TL7umMtxTZlZc7a9vg_jFQjmw_K-0RByRWo-5722W6E,2337
+nooscope_rpc-1.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nooscope_rpc-1.0.8.dist-info/top_level.txt,sha256=Rtx0xwE-EhLZ3ytj8PkyGpPGWlg4KRZJem-zbT6Lu1k,13
+nooscope_rpc-1.0.8.dist-info/RECORD,,
