@@ -1,0 +1,18 @@
+import asyncio
+
+import pytest
+
+
+@pytest.fixture
+async def echo_server():
+    def cb(r, w):
+        while True:
+            d = await r.readline()
+            w.write(d[-2::-1] + d[-1])
+            await w.drain()
+    try:
+        server = await asyncio.start_server(cb, host="127.0.0.1")
+        yield server
+    finally:
+        server.close()
+        await server.closed()
