@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aldjemy"
+version = "2.3"
+description = "SQLAlchemy for your Django models"
+authors = ["Mikhail Krivushin"]
+license = "BSD 3-Clause \"New\" or \"Revised\" License"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+SQLAlchemy = ">=1.4"
+Django = ">=2.2"
+
+[tool.poetry.dev-dependencies]
+psycopg2-binary = "*"
+black = "*"
+pytest = "*"
+pytest-django = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
