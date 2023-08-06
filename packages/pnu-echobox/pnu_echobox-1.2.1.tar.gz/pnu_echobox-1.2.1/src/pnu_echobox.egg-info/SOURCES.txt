@@ -1,0 +1,12 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/echobox.1.gz
+src/echobox/__init__.py
+src/echobox/main.py
+src/pnu_echobox.egg-info/PKG-INFO
+src/pnu_echobox.egg-info/SOURCES.txt
+src/pnu_echobox.egg-info/dependency_links.txt
+src/pnu_echobox.egg-info/entry_points.txt
+src/pnu_echobox.egg-info/top_level.txt
