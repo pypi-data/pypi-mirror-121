@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: krit
+Version: 0.1.0
+Summary: python geospatial library, with capabilities to generate html/javascript code
+Home-page: https://github.com/Mohab25/krit.git
+Author: Mohab Khaled
+Author-email: homab3@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
