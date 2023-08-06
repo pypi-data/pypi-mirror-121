@@ -1,0 +1,108 @@
+CHANGES
+=======
+
+v0.0.21
+-------
+
+* Bump version: 0.0.20 → 0.0.21
+* Added some precleaning to docs build
+
+v0.0.20
+-------
+
+* Bump version: 0.0.19 → 0.0.20
+* Added pip freeze on docs build, removed from coverage build
+
+v0.0.19
+-------
+
+* Bump version: 0.0.18 → 0.0.19
+* configured tox to recreate directories in ci runs
+
+v0.0.18
+-------
+
+* Bump version: 0.0.17 → 0.0.18
+* Fixed complexity in pt.ptutils.punning.canonical. Added debugging output for failed quality runs in ops.sh
+
+v0.0.17
+-------
+
+* Bump version: 0.0.16 → 0.0.17
+* Imported unit tests for cli library
+* Imported cli library
+* Imported file library
+* Imported program library
+* Imported globbing library
+* Imported io library
+* Imported lazy library
+* Imported debug library
+* Imported logging library
+* Imported numerical library
+* Imported punning library
+* Imported encoding library
+* Imported text library
+* Imported typing library
+* Minor style tweaks, set shebang to false
+* Added style linting in vscode config
+* Removed version function in favor of ubiquitous \_\_version\_\_ global
+* Added some warning exclusions to style checks
+* Updated .gitignore
+* Disabled pbr preversioning (explicit version set in setup.cfg)
+* Changed root package to namespace package in pbr config
+
+v0.0.16
+-------
+
+* Bump version: 0.0.15 → 0.0.16
+* Added some help and output formatting to ops script
+* Fixed hyperlin in README.rst
+
+v0.0.15
+-------
+
+* Bump version: 0.0.14 → 0.0.15
+* Removed spurious license preamble from setup.py
+
+v0.0.14
+-------
+
+* Bump version: 0.0.13 → 0.0.14
+* Added introspection and undefined modules to the docs
+
+v0.0.13
+-------
+
+* Bump version: 0.0.12 → 0.0.13
+* Added introspection lib
+* Removed useless cat and prefixed log dump in ops.sh
+* Fixed log file name in ops script
+
+v0.0.12
+-------
+
+* Bump version: 0.0.11 → 0.0.12
+* Added ops utility script
+
+v0.0.11
+-------
+
+* Bump version: 0.0.10 → 0.0.11
+* Added undefined module
+
+v0.0.10
+-------
+
+* Bump version: 0.0.9 → 0.0.10
+* Fixed style error
+
+v0.0.9
+------
+
+* Bump version: 0.0.8 → 0.0.9
+* Fixed style errors
+
+v0.0.8
+------
+
+* Bump version: 0.0.7 → 0.0.8
