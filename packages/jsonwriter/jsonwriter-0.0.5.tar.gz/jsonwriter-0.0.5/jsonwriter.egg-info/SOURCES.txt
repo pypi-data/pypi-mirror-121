@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+jsonwriter/__init__.py
+jsonwriter/jsonwriter.py
+jsonwriter.egg-info/PKG-INFO
+jsonwriter.egg-info/SOURCES.txt
+jsonwriter.egg-info/dependency_links.txt
+jsonwriter.egg-info/top_level.txt

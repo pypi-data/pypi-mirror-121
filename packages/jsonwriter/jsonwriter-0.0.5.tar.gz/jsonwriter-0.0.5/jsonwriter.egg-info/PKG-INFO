@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jsonwriter
+Version: 0.0.5
+Summary: Easy JSON Writer
+Home-page: https://github.com/nawafalqari/jsonwriter
+Author: Nawaf Alqari
+Author-email: nawafalqari13@gmail.com
+License: MIT
+Description: # i'll write this later :/
+Keywords: jsondb,json database,jsondatabase,json editor,json,json writer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
