@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dicodon_optimizer
+Version: 0.1
+Summary: Dicodon optimization library
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Description: # dicodon_optimizer
+        
+        Optimize your gene sequence using di-codon optimization.
+        
+        
+        ## Description
+        
+        Using the wrong codons for your target organism will yield
+        (very) suboptimal gene expression.
+        
+        There's even a dependency on codon order (or 'dicodons').
+        
+        This library powers the <a href="https://github.com/TyberiusPrime/dicodon-optimizer-webapp">dicodon-optimizer-webapp</a>.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Provides-Extra: testing
