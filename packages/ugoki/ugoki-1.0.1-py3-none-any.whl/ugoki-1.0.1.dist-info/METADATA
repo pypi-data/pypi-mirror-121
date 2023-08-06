@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ugoki
+Version: 1.0.1
+Summary: API Server to serve random gifs with support for public suggestions
+Home-page: https://gitlab.com/ceda_ei/ugoki.git
+License: AGPL-3.0
+Author: Ceda EI
+Author-email: ceda_ei@webionite.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.25,<2.0.0)
+Requires-Dist: fastapi (>=0.68.1,<0.69.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: python-multipart (>=0.0.5,<0.0.6)
+Requires-Dist: uvicorn[standard] (>=0.15.0,<0.16.0)
+Project-URL: Repository, https://gitlab.com/ceda_ei/ugoki.git
+Description-Content-Type: text/markdown
+
+# Ugoki API Server
+
+Ugoki is a simple server for storing categorized gifs where anyone can suggest
+gifs but the owner can approve them only.
+
+## Usage
+
+### Production
+
+To install the last stable version, simply run
+
+```
+$ pip install ugoki
+```
+
+To start a ugoki API server, run `ugoki-prod` with correct arguments.
+
+```
+$ ugoki-prod -h
+usage: ugoki-prod [-h] [-p PORT] [-H HOST] STORAGE SERVE_ROOT AUTH_USER AUTH_PASSWORD DB_STRING
+
+positional arguments:
+  STORAGE               Path to store gifs
+  SERVE_ROOT            Root where the gifs are served by the web server
+  AUTH_USER             Username for API
+  AUTH_PASSWORD         Password for API
+  DB_STRING             String to connect to database. (e.g. sqlite:///ugoki.sqlite)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PORT, --port PORT  Port to listen on. Default: 8000
+  -H HOST, --host HOST  Host to listen for. Default: 127.0.0.1
+```
+
+### Development
+
+- `git clone https://gitlab.com/ceda_ei/ugoki.git/`
+- `cd ugoki`
+- `poetry install`
+- `poetry shell`
+- `ugoki-dev`
+
