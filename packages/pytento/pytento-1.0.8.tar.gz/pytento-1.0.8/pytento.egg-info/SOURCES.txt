@@ -1,0 +1,9 @@
+README.md
+setup.py
+pytento/__init__.py
+pytento/case.py
+pytento/core.py
+pytento.egg-info/PKG-INFO
+pytento.egg-info/SOURCES.txt
+pytento.egg-info/dependency_links.txt
+pytento.egg-info/top_level.txt
