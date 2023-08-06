@@ -1,0 +1,8 @@
+setup.py
+lab_pchip/__init__.py
+lab_pchip/_pchip.py
+lab_pchip.egg-info/PKG-INFO
+lab_pchip.egg-info/SOURCES.txt
+lab_pchip.egg-info/dependency_links.txt
+lab_pchip.egg-info/requires.txt
+lab_pchip.egg-info/top_level.txt
