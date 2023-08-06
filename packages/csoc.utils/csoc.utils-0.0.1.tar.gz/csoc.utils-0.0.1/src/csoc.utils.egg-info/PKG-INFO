@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: csoc.utils
+Version: 0.0.1
+Summary: Retired CrowdStrike utilities package
+Home-page: UNKNOWN
+Author: CrowdStrike
+Maintainer: CrowdStrike
+License: UNKNOWN
+Keywords: retired
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+![CrowdStrike Falcon](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo.png) [![Twitter URL](https://img.shields.io/twitter/url?label=Follow%20%40CrowdStrike&style=social&url=https%3A%2F%2Ftwitter.com%2FCrowdStrike)](https://twitter.com/CrowdStrike)<br/>
+
+# csoc.utils
+This package has been retired.
+
+

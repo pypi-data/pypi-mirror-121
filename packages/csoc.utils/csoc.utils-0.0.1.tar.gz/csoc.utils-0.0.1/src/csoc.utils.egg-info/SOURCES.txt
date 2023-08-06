@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/csoc.utils.egg-info/PKG-INFO
+src/csoc.utils.egg-info/SOURCES.txt
+src/csoc.utils.egg-info/dependency_links.txt
+src/csoc.utils.egg-info/top_level.txt
