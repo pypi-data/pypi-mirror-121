@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: giterator
+Version: 0.1.0
+Summary: Python tools for doing git things.
+Home-page: https://github.com/simplistix/giterator
+Author: Chris Withers
+Author-email: chris@withers.org
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: test
+Provides-Extra: build
+License-File: LICENSE.rst
+
+
+giterator
+=========
+
+|CircleCI|_  |Docs|_
+
+.. |CircleCI| image:: https://circleci.com/gh/simplistix/giterator/tree/master.svg?style=shield
+.. _CircleCI: https://circleci.com/gh/simplistix/giterator/tree/master
+
+.. |Docs| image:: https://readthedocs.org/projects/giterator/badge/?version=latest
+.. _Docs: http://giterator.readthedocs.org/en/latest/
+
+Python tools for doing git things.
+
+
