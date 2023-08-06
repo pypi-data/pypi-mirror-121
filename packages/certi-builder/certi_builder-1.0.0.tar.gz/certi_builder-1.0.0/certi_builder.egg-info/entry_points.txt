@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        certi-builder=certi_builder.__main__:main
+    
