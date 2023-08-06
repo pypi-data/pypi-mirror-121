@@ -1,0 +1,10 @@
+README.md
+nexus_uploader.py
+setup.cfg
+setup.py
+PyUpdater_Nexus_Plugin.egg-info/PKG-INFO
+PyUpdater_Nexus_Plugin.egg-info/SOURCES.txt
+PyUpdater_Nexus_Plugin.egg-info/dependency_links.txt
+PyUpdater_Nexus_Plugin.egg-info/entry_points.txt
+PyUpdater_Nexus_Plugin.egg-info/not-zip-safe
+PyUpdater_Nexus_Plugin.egg-info/top_level.txt
