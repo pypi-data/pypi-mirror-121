@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: trading.datasets-core
+Version: 0.6.3
+Summary: trading-datasets-core is the Quant Team's wrapper library for CCXT
+Home-page: UNKNOWN
+Author: SwapooLabs Quantitative Developers
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
