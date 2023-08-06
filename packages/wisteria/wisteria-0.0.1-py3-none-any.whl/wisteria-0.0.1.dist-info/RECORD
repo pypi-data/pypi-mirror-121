@@ -1,0 +1,12 @@
+wisteria/__init__.py,sha256=O3PMYGq8RQ-e3DYiEX8jV8tyd7L-HvbUiI15s7DaPQ4,172
+wisteria/aboutproject.py,sha256=n5kOeEfHl7uOLoRQR1s4br9shfkCU8cVTjk4HZwOd6U,1855
+wisteria/data.py,sha256=0GIgLqodJN7S7cZi5xaji5WUq0ALbfKMM_T81c-Z4zE,3338
+wisteria/globs.py,sha256=oBEaew3XLTi-OPh8H3gKF6a33K_A_vEq7fvGodowf6k,2024
+wisteria/report.py,sha256=YIBfgb5NQvFl2fwLnbk_UhQYuUonDeN_V90xQ-IzIDw,33262
+wisteria/serializers.py,sha256=XbbGO0H6sA63dWElp8yDRuJ1cE7PafvxEUh57DNTnZg,37476
+wisteria/wisteria.py,sha256=_lw1rg9jwVhpJCIxwVEsZBDrt-j-PppzOqp_jwt1LOI,36449
+wisteria/wisteriaerror.py,sha256=iFZilMMTLVocZ1s0oNHRnN7v20mZpkqlA7O8DCeR3fw,1359
+wisteria-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wisteria-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+wisteria-0.0.1.dist-info/METADATA,sha256=qh2HJhKtBNPfJa0VmREJGb7ZJr5jdUkHCyWY22E2aFI,376
+wisteria-0.0.1.dist-info/RECORD,,
