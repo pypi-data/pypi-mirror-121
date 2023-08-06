@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pydstream
+Version: 0.0.1
+Summary: Easy to use python wrapper around Deepstream Python bindings
+Home-page: https://github.com/imneonizer/pydstream
+Author: Nitin Rai
+Author-email: mneonizer@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python deepstream,pyds,deepstream,nvidia
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
