@@ -1,0 +1,4 @@
+[console_scripts]
+deskviewer.connect = deskviewer.client:main
+deskviewer.publish = deskviewer.server:main
+
