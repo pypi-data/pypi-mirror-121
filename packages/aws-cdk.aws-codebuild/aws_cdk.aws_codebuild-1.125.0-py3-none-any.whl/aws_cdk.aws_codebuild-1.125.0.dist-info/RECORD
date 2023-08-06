@@ -1,0 +1,10 @@
+aws_cdk/aws_codebuild/__init__.py,sha256=5SJpSzeNAOX768H5FXvSpEod43az7_9mQq-UTpBJpWE,546346
+aws_cdk/aws_codebuild/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_codebuild/_jsii/__init__.py,sha256=4dA9FpZp6GHiy7griNQrNiF_2MfyLyuYw1objyoE4js,887
+aws_cdk/aws_codebuild/_jsii/aws-codebuild@1.125.0.jsii.tgz,sha256=2odGXTb-LaZHauj0s8VghBZcF7bAotq5GTfBT5dUvdQ,314297
+aws_cdk.aws_codebuild-1.125.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_codebuild-1.125.0.dist-info/METADATA,sha256=OWNpH4jsQMZnQqByDvM178UsXxxG0R8Oz8BX79Mi0x8,27246
+aws_cdk.aws_codebuild-1.125.0.dist-info/NOTICE,sha256=0gjXqum8Md6lFvDfo4B-_-Y0jnMmV4Wd3WHebc5hx2M,1069
+aws_cdk.aws_codebuild-1.125.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.aws_codebuild-1.125.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_codebuild-1.125.0.dist-info/RECORD,,
