@@ -1,0 +1,23 @@
+agent
+*****
+
+
+Description
+===========
+
+Note: Deprecated. Use the new resource model APIs instead. ODMS Agent
+Details
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* delete
+
+* get
+
+* list
+
+* update

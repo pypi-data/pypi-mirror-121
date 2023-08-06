@@ -1,0 +1,17 @@
+work-request
+************
+
+
+Description
+===========
+
+Note: Deprecated. Use the new resource model APIs instead. An
+asynchronous work request.
+
+
+Available Commands
+==================
+
+* get
+
+* list

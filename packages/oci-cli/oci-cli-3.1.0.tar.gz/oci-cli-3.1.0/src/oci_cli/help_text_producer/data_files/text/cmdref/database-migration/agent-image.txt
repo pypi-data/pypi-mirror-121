@@ -1,0 +1,15 @@
+agent-image
+***********
+
+
+Description
+===========
+
+Note: Deprecated. Use the new resource model APIs instead. Available
+ODMS Agent Images.
+
+
+Available Commands
+==================
+
+* list
