@@ -1,0 +1,3 @@
+[build-system]
+requires = [ "pdal","matplotlib", "ept-python","Shapely", "rasterio","dask", "pyproj","distributed","scipy" ]
+build-backend = "setuptools.build_meta"
