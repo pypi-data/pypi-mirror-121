@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: eossr
+Version: 0.2
+Summary: ESCAPE OSSR library
+Home-page: https://gitlab.in2p3.fr/escape2020/wp3/eossr
+Author: Thomas Vuillaume & Enrique Garcia
+Author-email: vuillaume@lapp.in2p3.fr
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+

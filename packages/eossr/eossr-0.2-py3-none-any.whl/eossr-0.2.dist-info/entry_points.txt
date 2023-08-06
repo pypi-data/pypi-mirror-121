@@ -1,0 +1,6 @@
+[console_scripts]
+eossr-check-connection-zenodo = eossr.scripts.check_connection_zenodo:main
+eossr-codemeta2zenodo = eossr.scripts.eossr_codemeta2zenodo:main
+eossr-upload-new-deposit = eossr.scripts.eossr_upload_new_deposit:main
+eossr-upload-new-version-deposit = eossr.scripts.eossr_upload_new_version_deposit:main
+
