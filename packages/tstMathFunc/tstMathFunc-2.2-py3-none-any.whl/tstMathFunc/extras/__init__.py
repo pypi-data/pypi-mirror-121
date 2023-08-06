@@ -1,0 +1,1 @@
+from tstMathFunc.extras.additionalMath import multiplication, division
