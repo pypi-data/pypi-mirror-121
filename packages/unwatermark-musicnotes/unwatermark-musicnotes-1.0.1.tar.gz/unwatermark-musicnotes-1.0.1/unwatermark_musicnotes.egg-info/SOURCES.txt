@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+musicnotes_rm/MusicnotesRM.py
+musicnotes_rm/__init__.py
+unwatermark_musicnotes.egg-info/PKG-INFO
+unwatermark_musicnotes.egg-info/SOURCES.txt
+unwatermark_musicnotes.egg-info/dependency_links.txt
+unwatermark_musicnotes.egg-info/entry_points.txt
+unwatermark_musicnotes.egg-info/requires.txt
+unwatermark_musicnotes.egg-info/top_level.txt
