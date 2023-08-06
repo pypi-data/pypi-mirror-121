@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: httpx-file
+Version: 0.0.1.dev0
+Summary: File transport adapter for httpx.
+Home-page: https://github.com/nuno-andre/httpx-file
+Author: Nuno André
+Author-email: mail@nunoand.re
+License: MIT
+Project-URL: Source, https://github.com/nuno-andre/httpx-file
+Project-URL: Bug Tracker, https://github.com/nuno-andre/httpx-file/issues
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx (>=0.18)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# httpx-file
+
+Transport adapter fort __[httpx](https://github.com/encode/httpx)__ to allow
+`file://` URI fetching in the local filesystem.
+
+
+## Installation
+
+<a href="https://pypi.org/project/httpx-file/"><pre>
+pip install httpx-file
+</pre></a>
+
+
+## Usage
+
+_httpx-file_ subclasses `httpx.Client`, so you can just replace `httpx.Client`
+with `httpx_file.Client` to get the same behavior with added `file://` protocol
+support.
+
+```python
+from httpx_file import Client
+
+client = Client()
+client.get('file:///etc/fstab)
+```
+
+Or you can also mount `FileTransport` in a `httpx.Client` instance.
+
+```python
+from httpx_file import FileTransport
+from httpx import Client
+
+client = Client(mounts={'file://': FileTransport()})
+client.get('file:///etc/fstab)
+```
+
+
