@@ -1,0 +1,4 @@
+pytest==5.3.5
+unidecode==1.1.1
+take-text-preprocess==0.0.5b0
+regex==2021.8.28

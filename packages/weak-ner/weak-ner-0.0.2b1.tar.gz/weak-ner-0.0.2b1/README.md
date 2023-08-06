@@ -1,0 +1,149 @@
+# Weak Named Entity Recognition (NER) Model 
+This package utilizes three systems for labeling named entities in text.
+The first system uses files containing lists of words and expressions of a certain NER Entity.
+The second system uses regex patters to recognize part of speech patterns.
+The third system uses rules to break ambiguity when the first two systems cannot decide on a label. 
+
+# Installation
+The Weak NER can be installed from PyPi:
+
+```bash 
+pip install weak_ner
+```
+
+# Usage
+
+## NER Classes Accepted
+
+This project utilizes the following NER labels and their tokens are as follow:
+
+    'Financial': 'FIN',
+    'Generic': 'GEN',
+    'Company': 'COMP',
+    'Number': 'NUMBER',
+    'Document': 'DOC',
+    'Location': 'LOC',
+    'Person': 'PERS',
+    'Phone': 'PHONE',
+    'Address': 'ADDR',
+    'Email': 'EMAIL',
+    'Date': 'DATE',
+    'Week Day': 'WD',
+    'Money': 'MONEY',
+    'Relatives': 'REL',
+    'Vocatives': 'VOC'
+    
+Some additional information is used to identify where the recognized entity begins and ends.
+
+    The letter B indicates the beginning of the CLASS class entity
+    The letter I indicates that the respective token is a continuation of the class with the name CLASS started
+    The letter O indicates that no entity related to the token was found
+
+For example, the sentence `ligar internet a cabo!` would be classified as: `O O B-GEN I-GEN I-GEN O`.
+
+Where B-GEN represents the beginning of the GEN entity (token "internet") and the next two tokens are the continuation of the entity (tokens "a cabo"). In this way, the entity found in the sentence would be "internet a cabo" of the GEN class
+
+## Text Pre Processing
+
+All text used is pre processed by the default utilizing the following operations:
+
+* Case lowering
+* Adding space around punctuation
+* Removing non-ASCII characters
+
+It can also optionally perform the following tokenizations:
+* E-mails
+* Urls
+* Numbers 
+* Codes
+ 
+In order to use the optional pre processing the user needs to pass a list containing `EMAIL`, `URL`, `NUMBER` and/or `CODE`. 
+It can be passed in the instatiation of the class as shown bellow:
+
+    tokenization_options = ['EMAIL', 'CODE']
+    weak_ner = WeakNER('directory_path/', tokenization_options)
+    
+## List Based Model
+
+### Files
+
+In order to label a string using the list based model the user needs to create a directory containing the following files:
+
+    substantivos_meses  
+    substantivos_nomes  
+    substantivos_sobrenome
+    substantivos_empresas
+    substantivos_empresas_internacionais
+    substantivos_documentos
+    substantivos_vocativos
+    substantivos_paises
+    substantivos_cidades
+    substantivos_continentes
+    substantivos_estados
+    substantivos_financeiros
+    substantivos_dias_da_semana
+    substantivos_animais
+    substantivos_parentescos
+    substantivos_carros
+    pronomes
+    artigos
+    preposicoes
+    interjeicoes 
+
+In which the contents should be one word of that class per line. For example the file ``artigos.txt`` would contain the words:
+
+    a  
+    no  
+    nas
+    nas
+    num 
+    numa
+    nuns 
+    numas
+
+### Weak Labeling
+
+The default weak labeling utilizes two steps:
+* The first step is the labeling module `WeakNERModel` created with the files input in the class.
+* The second step is the label correction module `WeakNERRules`.
+
+In order to use the default pipeline to label a sentence the user needs to first instantiate the class passing the path of the directory where the files are stored.
+The user then can use this class to label a sentence by passing it and its POS Tags to the class: 
+ 
+    weak_ner = WeakNER('directory_path/')
+    sentence = "meu nome é Gabriel"
+    postags = 'PRON SUBS VERB SUBS'
+    labeled_sentence = weak_ner.label_sentence(sentences, postags)
+       
+ And the user should receive back the result:
+        
+    'O B-GEN O B-PERS'
+ 
+ The user can also specify which optional text pre processing will be applied on the sentence:
+ 
+    tokenization_options = ['EMAIL', 'CODE']
+    weak_ner = WeakNER('directory_path/', tokenization_options)
+     sentence = "meu nome é Gabriel e meu contato é research@email.com"
+    postags = 'PRON SUBS VERB SUBS PREP PRON SUBS VERB SUBS'
+    labeled_sentence = weak_ner.label_sentence(sentences, postags)
+
+ And the user should receive back the result:
+        
+    'O B-GEN O B-PERS O O O O O B-EMAIL'
+        
+# Contribute
+If this is the first time you are contributing to this project, first create the virtual environment using the following command:
+    
+    conda env create -f env/environment.yml
+   
+Then activate the environment:
+
+    conda activate weakner_env
+    
+To test your modifications build the package:
+
+    pip install dist\weak_ner-0.0.1-py3-none-any.whl --force-reinstall
+    
+Then run the tests:
+
+    pytest
