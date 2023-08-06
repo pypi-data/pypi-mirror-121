@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: avotes-parser-cli
+Version: 0.4.1
+Summary:  CLI tool for parsing the last N aragon votes from a target application. 
+Home-page: UNKNOWN
+Author: Dmitri Ivakhnenko
+Author-email: dmit.ivh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+
+UNKNOWN
+

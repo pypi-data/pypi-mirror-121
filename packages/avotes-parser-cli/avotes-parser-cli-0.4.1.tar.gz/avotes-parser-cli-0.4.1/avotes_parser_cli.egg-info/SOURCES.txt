@@ -1,0 +1,13 @@
+setup.py
+tox.ini
+avotes_parser/cli/__init__.py
+avotes_parser/cli/__main__.py
+avotes_parser/cli/package.py
+avotes_parser/cli/utilities.py
+avotes_parser_cli.egg-info/PKG-INFO
+avotes_parser_cli.egg-info/SOURCES.txt
+avotes_parser_cli.egg-info/dependency_links.txt
+avotes_parser_cli.egg-info/entry_points.txt
+avotes_parser_cli.egg-info/requires.txt
+avotes_parser_cli.egg-info/top_level.txt
+tests/requirements.txt
