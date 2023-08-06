@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+vault_dec/__init__.py
+vault_dec/__main__.py
+vault_dec.egg-info/PKG-INFO
+vault_dec.egg-info/SOURCES.txt
+vault_dec.egg-info/dependency_links.txt
+vault_dec.egg-info/requires.txt
+vault_dec.egg-info/top_level.txt
