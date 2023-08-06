@@ -1,0 +1,16 @@
+AUTHORS
+COPYING
+COPYING.GPL3
+README
+itstool
+setup.py
+its/docbook.its
+its/docbook5.its
+its/its.its
+its/mallard.its
+its/ttml.its
+its/xhtml.its
+itstool.egg-info/PKG-INFO
+itstool.egg-info/SOURCES.txt
+itstool.egg-info/dependency_links.txt
+itstool.egg-info/top_level.txt
