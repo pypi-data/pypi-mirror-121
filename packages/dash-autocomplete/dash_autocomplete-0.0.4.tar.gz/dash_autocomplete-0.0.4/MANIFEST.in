@@ -1,0 +1,11 @@
+include dash_autocomplete/dash_autocomplete.min.js
+include dash_autocomplete/dash_autocomplete.min.js.map
+include dash_autocomplete/async-*.js
+include dash_autocomplete/async-*.js.map
+include dash_autocomplete/*-shared.js
+include dash_autocomplete/*-shared.js.map
+include dash_autocomplete/metadata.json
+include dash_autocomplete/package-info.json
+include README.md
+include LICENSE
+include package.json
