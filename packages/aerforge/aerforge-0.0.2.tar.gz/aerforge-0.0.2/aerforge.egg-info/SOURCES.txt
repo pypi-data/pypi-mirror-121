@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+aerforge/__init__.py
+aerforge/error.py
+aerforge/gameobject.py
+aerforge/input.py
+aerforge/main.py
+aerforge/mixer.py
+aerforge/shape.py
+aerforge/sprite.py
+aerforge/text.py
+aerforge.egg-info/PKG-INFO
+aerforge.egg-info/SOURCES.txt
+aerforge.egg-info/dependency_links.txt
+aerforge.egg-info/top_level.txt
