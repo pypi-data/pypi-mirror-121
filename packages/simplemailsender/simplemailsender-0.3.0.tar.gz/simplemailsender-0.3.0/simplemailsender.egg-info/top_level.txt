@@ -1,0 +1,4 @@
+dist
+nbs
+simplemailsender
+venv
