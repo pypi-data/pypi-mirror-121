@@ -1,0 +1,13 @@
+weather_command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weather_command/__main__.py,sha256=hsLz6KtOhnfyIRqkoAP0W5nnJ8fJgiIFpEd7cuGFhbc,2121
+weather_command/_builder.py,sha256=_BcAPYLtj7v2VpFYn5QVlR8O6qTmqCyQcNrmOQ5kFBk,5638
+weather_command/_config.py,sha256=HpGEfCY3nMGOpdmQykVcyjt4ICCOkVJhvdq_rDIzNXw,400
+weather_command/_weather.py,sha256=43y0nePZpSbyY6YZzEhHOYNT9z5bauQ2IpOAY17DvyY,1049
+weather_command/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weather_command/models/weather.py,sha256=tsVdR1N2EieBcUEaadfpg76ZDX2YGFVjTynNhOHKBzQ,1184
+weather_command/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weather_command-0.1.0.dist-info/entry_points.txt,sha256=U5yug8EcnAy7Ozl67tUWXtnMbULlbzvgCR4O9meZYD4,64
+weather_command-0.1.0.dist-info/LICENSE,sha256=xVzevI1TrlKfM0plmJ7vfK1Muu0V9n-dGE8RnDrOFlM,1069
+weather_command-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+weather_command-0.1.0.dist-info/METADATA,sha256=Dz1S4QOxIjBq6EjKaByT6SkH1oFSGiEbBKaEQBHzC5U,3670
+weather_command-0.1.0.dist-info/RECORD,,
