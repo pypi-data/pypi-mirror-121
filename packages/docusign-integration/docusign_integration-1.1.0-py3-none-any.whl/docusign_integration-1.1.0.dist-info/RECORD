@@ -1,0 +1,10 @@
+docusign_integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docusign_integration/api/__init__.py,sha256=T9fYW1lPk8xl6hEO5-ByPQ1GjpNsXpBQ25mxl0hWcwI,98
+docusign_integration/api/auth.py,sha256=fKm_0V7-v1zwsrMrnOGUGyxwe8jPICx9ovZTsx-6SdA,2658
+docusign_integration/api/envelope.py,sha256=f0icrYTYXCXOZuCmUG2bwbina9vbCRkQwT-bM6_orY0,5075
+docusign_integration/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docusign_integration/models/auth.py,sha256=rLl2PReBrvrbIAAWxpt0xt9Jnv3YdhMpcV-zlllnXho,1440
+docusign_integration/models/envelope.py,sha256=9YQ01spRhBT-Md_uq_jqkMtoZfGiCPxNIEBqBZ1ZFK4,378
+docusign_integration-1.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+docusign_integration-1.1.0.dist-info/METADATA,sha256=9KSr6VAQukBtBk4Pjm76MNSfRUkNsUbClzg-9F7Uo_0,526
+docusign_integration-1.1.0.dist-info/RECORD,,
