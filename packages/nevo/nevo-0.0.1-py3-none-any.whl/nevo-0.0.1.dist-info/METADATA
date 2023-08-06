@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nevo
+Version: 0.0.1
+Summary: Evolving Artificial Neural Networks (a.k.a. Neuroevolution) in parallel using MPI for Python.
+Home-page: https://github.com/MaximilienLC/nevo
+Author: Maximilien Le Clei
+Author-email: maximilienleclei@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+
+UNKNOWN
+
+
