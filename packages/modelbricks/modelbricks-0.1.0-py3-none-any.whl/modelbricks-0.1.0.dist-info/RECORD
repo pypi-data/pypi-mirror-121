@@ -1,0 +1,16 @@
+modelbrick/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelbrick/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelbrick/layers/layers.py,sha256=IqlxJAgxRmx-DkUuhY2J6-hkSY7XFgp73z_EwP_0IL8,3250
+modelbrick/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelbrick/models/models.py,sha256=YTL67Tvd_ONUnWNJ-czaSsQhESEiUo9AEKB7jq3gH9E,1595
+modelbricks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelbricks/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelbricks/layers/layers.py,sha256=XdZ67fKe5pI0er94Dy6zdLeV3JySDvQxwZTfrMVAZPI,4161
+modelbricks/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelbricks/metrics/metrics.py,sha256=PLfI8ogzU3Ss8hFg2C_GJXtNBEpDIuJSXG7Q9WQvdos,1013
+modelbricks/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelbricks/models/models.py,sha256=v6rv4FPoiIDfN5P6Jj9CILZd_Xe7PNduVCkTsFLUB08,2793
+modelbricks-0.1.0.dist-info/METADATA,sha256=YhzVvAuB5g5R-MBSl8at5lowZSaJwsqHnIUA6x7RzB4,504
+modelbricks-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+modelbricks-0.1.0.dist-info/top_level.txt,sha256=3deGL0RGsmnulFSeIT2KN4f1fKtmcktlruuuiE8mOyk,12
+modelbricks-0.1.0.dist-info/RECORD,,
