@@ -1,0 +1,3 @@
+[console_scripts]
+soonq=soonq.commands.cli:soonq
+
