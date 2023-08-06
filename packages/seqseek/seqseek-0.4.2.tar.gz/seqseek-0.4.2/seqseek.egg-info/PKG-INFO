@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: seqseek
+Version: 0.4.2
+Summary: Easy access to human genome reference sequences
+Home-page: https://github.com/23andMe/seqseek
+Author: 23andMe Engineering
+Author-email: mstrand@23andme.com
+License: MIT
+Download-URL: https://github.com/23andMe/seqseek/tarball/0.4.1
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
