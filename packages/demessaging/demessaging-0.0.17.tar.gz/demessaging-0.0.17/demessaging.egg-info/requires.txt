@@ -1,0 +1,5 @@
+websocket_client
+netcdf4
+xarray
+numpy
+deprogressapi

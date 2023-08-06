@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: demessaging
+Version: 0.0.17
+Summary: python module wrapper for the data analytics software framework DASF
+Home-page: https://git.geomar.de/digital-earth/dasf/dasf-messaging-python
+Author: Daniel Eggert
+Author-email: eggi@gfz-potsdam.de
+License: Apache-2.0
+Download-URL: https://git.geomar.de/digital-earth/dasf/dasf-messaging-python/-/archive/v0.0.17/dasf-messaging-python-v0.0.17.tar.gz
+Description: ## dasf-messaging-python
+        
+        Messaging component for python based back-end modules. Developed and tested with
+        Python 3.8
+        
+        ---
+        
+        ### Installation 
+        
+        Make sure you activated the virtual environment of your current python project
+        you wish to install the 'de-messaging-python'  module.
+        
+        ```bash
+        source ~/workspace/python/my-backend-module/my-backend-module-venv/bin/activate
+        ```
+        
+        Install the module directly from gitlab.
+        The suffix '#egg=demessaging' is the module name as it is listed in the
+        'setup.py'.
+        
+        Using your ssh credentials (assuming you copied your public key to the gitlab server):
+        
+        ```bash
+        pip install -e git+ssh://git@git.geomar.de/digital-earth/de-messaging-python.git#egg=demessaging
+        ```
+        
+        Or using https (this will ask for your credentials):
+        
+        ```bash
+        pip install -e git+https://git.geomar.de/digital-earth/de-messaging-python.git#egg=demessaging
+        ```
+        
+        Check out the [version control
+        support](https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support) of pip.
+        
+        
+        Another option is the installation from a local repository. Again, in the
+        activated virtual environment replace the URL from the commands above with path
+        and folder name of the local repository. Assuming the local folder with the
+        repository has the same name as the remote one ('de-messaging-python'), the
+        following command  will install the module.
+        
+        ```bash
+        pip install -e path/to/de-messaging-python/
+        ```
+        
+        **Why do we use the '-e' flag with pip install?**
+        
+        This will place the source code of the module into your virtual environment,
+        together with some metadata. This information is used by 'pip freeze' and the
+        URL of the module source is reported. This is important for all python modules
+        we install from gitlab at geomar because they are not listed in the default
+        repositories 'pip' is checking. 
+        
+        ---
+        
+        
+        
+        ### Howto use it
+        
+        see: https://git.geomar.de/digital-earth/dasf/dasf-messaging-python/-/blob/legacy_v0.0.x/ExampleMessageConsumer.py
+        
+Keywords: dasf,digital-earth,pulsar,gfz,helmholtz,hzg,hgf,rcp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
