@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: minfo
+Version: 0.0.4
+Summary: Python(Cython)-based mutual information estimator with adaptive partitioning strategy.
+Home-page: https://github.com/NeoNeuron/minfo
+Author: Kyle Chen
+Author-email: kchen513@sjtu.edu.cn
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
