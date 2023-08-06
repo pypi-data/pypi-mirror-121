@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: epaycosdk
+Version: 3.0.3
+Summary: Python library for ePayco Payment API
+Home-page: https://epayco.co/
+Author: ePayco Development Team
+Author-email: ricardo.saldarriaga@epayco.co
+License: MIT
+Download-URL: https://github.com/epayco/epayco-python
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.4.3)
+Requires-Dist: pycrypto (>=2.6.1)
+
+Basic python library to interact with ePayco Payment API
+
