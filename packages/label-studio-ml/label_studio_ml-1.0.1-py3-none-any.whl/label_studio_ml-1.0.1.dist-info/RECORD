@@ -1,0 +1,12 @@
+label_studio_ml/__init__.py,sha256=b1gRF2pM56z_3XEDnSTErAiofw1D-ql0WHDA3pPL3IU,89
+label_studio_ml/api.py,sha256=dxUzLmTSc71FQo3E8ARStuVl12Ow8uY8FC7x49NqgEM,3623
+label_studio_ml/exceptions.py,sha256=QtFuXyV6emDaq7ansscT0G8Fe2UvIEsCUjyGlFro4MA,1839
+label_studio_ml/helpers.py,sha256=CZsJw7WSyq7PTGCC3WOPkGXjx714XBHulKyggfpNYoY,2314
+label_studio_ml/model.py,sha256=jMfiksi4D9UpKwbiDjauzgpJTzWepxynuN9BCx0tNug,13972
+label_studio_ml/server.py,sha256=Lf-sB_6Nv4JBvFCmyBuo0eCDUqOk3Dh1PH4JUXySz4I,4560
+label_studio_ml/utils.py,sha256=9KYJadca5iDrQFl0lRS5B8O0zMiwYyeNitWU4Pa4KRM,5154
+label_studio_ml-1.0.1.dist-info/METADATA,sha256=N8hBduivS0nNUiFuJbIEApxozAmq3Ffz5p4FdbfFHWk,7217
+label_studio_ml-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+label_studio_ml-1.0.1.dist-info/entry_points.txt,sha256=-X03f6WontIMa7tS6mVj0Ur-V5zZx0Rq040uRs0dLjs,65
+label_studio_ml-1.0.1.dist-info/top_level.txt,sha256=g2jFFZeTO47Ncgz-d6RmoOa8MuYvhc8WzMiurFDXWZE,16
+label_studio_ml-1.0.1.dist-info/RECORD,,
