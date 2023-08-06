@@ -1,0 +1,11 @@
+torch>=1.2
+hydra-core==1.0.6
+tensorboard>=2.0
+matplotlib>=3.1
+transformers>=2.0
+jieba>=0.39
+scikit-learn>=0.22
+pytorch-transformers>=1.2.0
+seqeval>=0.0.5
+tqdm>=4.31.1
+nltk>=3.4.5
