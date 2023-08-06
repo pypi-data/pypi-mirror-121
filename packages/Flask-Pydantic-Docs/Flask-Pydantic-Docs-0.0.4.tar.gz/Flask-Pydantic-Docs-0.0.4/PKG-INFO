@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Flask-Pydantic-Docs
+Version: 0.0.4
+Summary: Add openapi docs to flask app using Flask-Pydantic
+Home-page: https://github.com/buildpeak/flask_pydantic_docs
+Author: Steve Guo
+Author-email: buildpeak@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Flask-Pydantic-Docs
+
+
+## Installation
+
+`python3 -m pip install Flask-Pydantic-Docs`
+
+## Usage
+
+### Example 1
+
+```python
+app = Flask(__name__)
+openapi = OpenAPI()
+
+@app.route("/users/<user_id>", methods=["GET"])
+@openapi_docs()
+@validate()
+def get_user(user_id: str)
+    return User(...)
+
+
+openapi.register(app)
+```
+
+
