@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lockfilepy/__init__.py
+lockfilepy/exceptions.py
+lockfilepy/lockfile.py
+lockfilepy.egg-info/PKG-INFO
+lockfilepy.egg-info/SOURCES.txt
+lockfilepy.egg-info/dependency_links.txt
+lockfilepy.egg-info/top_level.txt
