@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyetchash
+Version: 0.1.27
+Summary: Python wrappers for etchash
+Home-page: https://github.com/andrei-kondakov/etchash
+Author: Andrei Kondakov
+Author-email: and.kondakov94@gmail.com
+License: GPL
+Download-URL: https://github.com/ethereum/ethash/tarball/v23
+Platform: UNKNOWN
+
+UNKNOWN
+
+
