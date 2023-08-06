@@ -1,0 +1,5 @@
+poetry_1_conflict_svltv32/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_1_conflict_svltv32/conflict1.py,sha256=XGR-VbPwMviMIoj3ktfsfKzpwru-MOfeIT7sVkXzgc8,91
+poetry_1_conflict_svltv32-0.5.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+poetry_1_conflict_svltv32-0.5.0.dist-info/METADATA,sha256=9nhHE5hacsh9BKXcDW0JxU3EbUsP-y-qgWt7H6Jox_o,312
+poetry_1_conflict_svltv32-0.5.0.dist-info/RECORD,,
