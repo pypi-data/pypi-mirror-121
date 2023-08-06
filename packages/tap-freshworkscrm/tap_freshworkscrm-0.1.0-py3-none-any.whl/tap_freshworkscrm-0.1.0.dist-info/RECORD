@@ -1,0 +1,16 @@
+tap_freshworkscrm/__init__.py,sha256=HaqIWg-NcHos1kjh-TwJms5B6wWxHWRObXiH7p-5OxU,17123
+tap_freshworkscrm/tap_utils.py,sha256=55LHtIAhKIbe7e93_MKn0_dolIgHM0LhgULXeeGeqoY,1992
+tap_freshworkscrm/schemas/accounts.json,sha256=prquulYZGo1hDV92COTgkftjaEqTeHq0yyERsVOaqd8,3855
+tap_freshworkscrm/schemas/appointments.json,sha256=FvQy2BNwZIBSjyKE3CYtzw9LA42hcZmP4YQNn25FI7E,1864
+tap_freshworkscrm/schemas/contacts.json,sha256=Y1tS3Y15m4sG6nnYGOJLfT1pBUin9-JYuNCHrpMxmBg,3588
+tap_freshworkscrm/schemas/deals.json,sha256=lpsgj-WuaF4xqGThk8OT4Y3-yXLnu7Or0FOCjyTVg5w,3662
+tap_freshworkscrm/schemas/leads.json,sha256=0RYDQdC1bpujjxtYJ34FSHeOZvgvgb-1nFwfRvcNG4g,5082
+tap_freshworkscrm/schemas/owners.json,sha256=XH1EvWM7_vzNUNR4ymbVT3I82AsP03L8Nn1JOk5ONUk,776
+tap_freshworkscrm/schemas/sales_activities.json,sha256=wygI4SNyzh93e2aQmkpkZCIm9P1iSiB_qJ525buSKuk,1769
+tap_freshworkscrm/schemas/tasks.json,sha256=sZIK1en04ej5nacQ7j3a6qT0nRQ8a5lK_fjgwwmbe10,1712
+tap_freshworkscrm-0.1.0.dist-info/LICENSE,sha256=IL06W_w1sWpfzE993Taq0ZJtQeovauBYukLIXj2OaBo,32387
+tap_freshworkscrm-0.1.0.dist-info/METADATA,sha256=AS2TVEXaEWKpUVawQyfPS3t5KdvqKMEGEkktA17Em-4,3572
+tap_freshworkscrm-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tap_freshworkscrm-0.1.0.dist-info/entry_points.txt,sha256=PCOKu12KMSejF7XYWXMjarmu44jSgN8ybosyDa6GrUE,72
+tap_freshworkscrm-0.1.0.dist-info/top_level.txt,sha256=Z5YA03XytsZyKfywDe4vQsBLOHzr1ER2rz8Dce_A_hI,18
+tap_freshworkscrm-0.1.0.dist-info/RECORD,,
