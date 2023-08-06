@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+.README_images/usage_1.png
+.README_images/usage_2.png
+.README_images/usage_cursor.png
+src/ANSIEnum.egg-info/PKG-INFO
+src/ANSIEnum.egg-info/SOURCES.txt
+src/ANSIEnum.egg-info/dependency_links.txt
+src/ANSIEnum.egg-info/top_level.txt
+src/ansienum/__init__.py
+src/ansienum.egg-info/PKG-INFO
+src/ansienum.egg-info/SOURCES.txt
+src/ansienum.egg-info/dependency_links.txt
+src/ansienum.egg-info/top_level.txt
