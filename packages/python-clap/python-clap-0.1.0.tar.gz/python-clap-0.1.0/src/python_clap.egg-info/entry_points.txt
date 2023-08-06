@@ -1,0 +1,3 @@
+[console_scripts]
+clap = clap.cli:main
+
