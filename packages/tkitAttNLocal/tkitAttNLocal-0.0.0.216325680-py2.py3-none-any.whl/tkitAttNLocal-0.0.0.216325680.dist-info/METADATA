@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tkitAttNLocal
+Version: 0.0.0.216325680
+Summary: Terry toolkit tkitAttNLocal,
+Home-page: https://www.terrychan.org/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# tkitAttNLocal
+
+构建对角线mask矩阵，用来降维相对位置数据。
+
+
