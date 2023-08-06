@@ -1,0 +1,3 @@
+[console_scripts]
+scalewiz=scalewiz.__main__:main
+
