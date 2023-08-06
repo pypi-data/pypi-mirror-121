@@ -1,0 +1,8 @@
+NumbaLSODA-0.1.6.dist-info/WHEEL,sha256=MlE4_r891DnI_LHcUwmd4hC0Tu8enDjfztJlSNCQfrc,140
+NumbaLSODA-0.1.6.dist-info/top_level.txt,sha256=oS9a69snXGbyfNIfwK2LO7OJOaPfxjxhMXvyhyWpTew,11
+NumbaLSODA-0.1.6.dist-info/LICENSE.txt,sha256=S7D5W-ZQfOI101QWO90uiIkBZZVFhkBxqPJqyVYZ4tM,1070
+NumbaLSODA-0.1.6.dist-info/RECORD,,
+NumbaLSODA-0.1.6.dist-info/METADATA,sha256=cxaGYj_O3YkpJWtMU9nNY1XgBSusZlRAmI5uVEQ8vDI,3082
+NumbaLSODA/__init__.py,sha256=pjp6NUTw4SMWV85mn4ga00pqIHLYAzthiqdis9owBYY,21
+NumbaLSODA/driver.py,sha256=bg6CfYP6PAIg7Jisj1R9xNeKR90EphAjF4OXDMfLGdo,1521
+NumbaLSODA/liblsoda.so,sha256=YNIoSYScP15Ybdhga_ywLr-nRFsMdaR2Pq7S8ZVvBVY,52164
