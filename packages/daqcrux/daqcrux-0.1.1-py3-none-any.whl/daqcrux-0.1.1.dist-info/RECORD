@@ -1,0 +1,17 @@
+daqcrux/R5218.py,sha256=_hvVHTQpk7rh9HFrwkTVsHWnWCH3k5MvtcZhhF-TZVc,3850
+daqcrux/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daqcrux/adc.py,sha256=HtzkZQeBpWGG9kYSyinFNnDFLpk8Tz05MnsRZJXUhSU,3621
+daqcrux/airmar.py,sha256=cJQKTtLbWh8Bru0nv6KLNhqCz02BWieXp5rDVurUQgw,4151
+daqcrux/ais.py,sha256=cKdLnn_NE30NXKyZNPYl888oNxdX_i9Y6XL1IK-BEVk,1414
+daqcrux/aquadopp.py,sha256=1FW5O50PfxnzZFnQETTkv5ksAU7GfrcpJ5i67Sdf4_c,4201
+daqcrux/aquatroll.py,sha256=Bttyu9DBkiGWcsWWoQbPZvfOXuEnKT81ghekOr3_uvA,3064
+daqcrux/client.py,sha256=ezx3D0nA8xZ9eAx4uurTOfYFDq1eIUq_gOQM5JgPLy8,947
+daqcrux/functions.py,sha256=g3mCTt8JVhtLzHrlyUAlV2G1Fpx9NwE4B1b0FsHsPHk,1074
+daqcrux/hyperion.py,sha256=x4ysPxjm0IYPW0A0ya2E8hzpHuFGNUpIbAlTuRCu2Dc,1511
+daqcrux/message.py,sha256=U0Eg3y-oZ-aa5A_cPE_vzS6jQDFOAo0mW38dbusklaY,13398
+daqcrux/modbus.py,sha256=NfXLl6yFWyj4zIU7m7lltd5p1Ed0pnmJmWflFnm9BQA,2055
+daqcrux/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daqcrux-0.1.1.dist-info/METADATA,sha256=CEDtTKF_Tgsynq1vLiO6-_UvBkwCwI-wbLdqdavfF5Q,262
+daqcrux-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+daqcrux-0.1.1.dist-info/top_level.txt,sha256=FbSDKEG0Em5HadfRm56-Lv_FB2Q6ZqmOozRw425i-s0,8
+daqcrux-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: daqcrux
+Version: 0.1.1
+Summary: DAQCrux Hardware accesing pakcage
+Home-page: UNKNOWN
+Author: fgalassi
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pymodbus
+Requires-Dist: serial
+Requires-Dist: smbus2
+
+UNKNOWN
+
+
