@@ -1,0 +1,7 @@
+gdown
+numpy
+scipy
+librosa
+vamp
+lazycats
+tensorflow>=2.6
