@@ -1,0 +1,90 @@
+variables:
+  # Change pip's cache directory to be inside the project directory since we can
+  # only cache local items.
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+
+before_script:
+  - echo "Test Run by $GITLAB_USER_LOGIN in branch $CI_COMMIT_BRANCH"
+  - python -V  # Print out python version for debugging
+  - pip install -r requirements.txt
+
+stages:
+  - validate
+  - security
+  - test
+  - deploy
+
+pep8_check_style:
+  tags:
+    - docker
+  image: python:3.8
+  stage: validate
+  before_script:
+    - pip install -r requirements-dev.txt
+  script:
+    - pycodestyle --show-source --show-pep8 --exclude="venv,.eggs,versioneer.py,build"
+
+unit_tests_3.8:
+  tags:
+    - docker
+  image: python:3.8
+  stage: test
+  before_script:
+    - pip install -r requirements.txt -r requirements-dev.txt
+  script:
+    - coverage run --include 'drb/*'  --omit drb/_version.py  -m unittest -v
+    - coverage xml
+    - coverage report
+    - coverage-badge
+  coverage: '/TOTAL.+ ([0-9]{1,3}%)/'
+  artifacts:
+    reports:
+      cobertura: coverage.xml
+
+unit_tests_3.9:
+  tags:
+    - docker
+  image: python:3.9
+  stage: test
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - python -m unittest -v
+
+bandit:
+  tags:
+    - docker
+  image: python:3.8
+  stage: security
+  before_script:
+    - pip install -r requirements-dev.txt
+  script:
+    - bandit -r drb -x _version.py
+
+semgrep:
+  tags:
+    - docker
+  image: python:3.8
+  stage: security
+  before_script:
+    - pip install -r requirements-dev.txt
+  script:
+    - semgrep --lang=py --exclude _version.py --config=p/ci drb
+
+release:
+  tags:
+    - docker
+    - pip-gael
+  image: python:3.8
+  stage: deploy
+  before_script:
+    - pip install -r requirements.txt -r requirements-dev.txt
+  script:
+    - python setup.py sdist bdist_wheel
+    - python -m twine upload --repository gael dist/*
+  only:
+    - tags
