@@ -1,0 +1,10 @@
+setup.py
+jmgz_distributions/Binomialdistribution.py
+jmgz_distributions/Gaussiandistribution.py
+jmgz_distributions/Generaldistribution.py
+jmgz_distributions/__init__.py
+jmgz_distributions.egg-info/PKG-INFO
+jmgz_distributions.egg-info/SOURCES.txt
+jmgz_distributions.egg-info/dependency_links.txt
+jmgz_distributions.egg-info/not-zip-safe
+jmgz_distributions.egg-info/top_level.txt
