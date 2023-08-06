@@ -1,0 +1,11 @@
+AnotherClass.py
+BaseClass.py
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+lyrah_classinstance.egg-info/PKG-INFO
+lyrah_classinstance.egg-info/SOURCES.txt
+lyrah_classinstance.egg-info/dependency_links.txt
+lyrah_classinstance.egg-info/top_level.txt
