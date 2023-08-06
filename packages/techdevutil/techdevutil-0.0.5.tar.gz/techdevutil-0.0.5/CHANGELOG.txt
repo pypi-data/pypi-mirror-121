@@ -1,0 +1,22 @@
+Change Log
+==========
+
+0.0.5 (9/26/2021)
+-----------------
+- Added List to String fuction
+
+0.0.4 (8/30/2021)
+-----------------
+- Fixed remove_spaces
+
+0.0.3 (8/30/2021)
+-----------------
+- Added a remove_spaces Function
+
+0.0.2 (8/30/2021)
+-----------------
+- Added palindrome Function
+
+0.0.1 (8/29/2021)
+-----------------
+- First Release

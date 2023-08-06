@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: techdevutil
+Version: 0.0.5
+Summary: A util library
+Home-page: UNKNOWN
+Author: techpluscraft
+Author-email: techpluscraft@gmail.com
+License: MIT
+Description: This is a util extension by techpluscraft with many functions
+        
+        Change Log
+        ==========
+        
+        0.0.5 (9/26/2021)
+        -----------------
+        - Added List to String fuction
+        
+        0.0.4 (8/30/2021)
+        -----------------
+        - Fixed remove_spaces
+        
+        0.0.3 (8/30/2021)
+        -----------------
+        - Added a remove_spaces Function
+        
+        0.0.2 (8/30/2021)
+        -----------------
+        - Added palindrome Function
+        
+        0.0.1 (8/29/2021)
+        -----------------
+        - First Release
+Keywords: util
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+techdevutil/__init__.py
+techdevutil.egg-info/PKG-INFO
+techdevutil.egg-info/SOURCES.txt
+techdevutil.egg-info/dependency_links.txt
+techdevutil.egg-info/top_level.txt
