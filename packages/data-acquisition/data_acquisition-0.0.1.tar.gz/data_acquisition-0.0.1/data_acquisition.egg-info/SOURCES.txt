@@ -1,0 +1,9 @@
+setup.py
+data_acquisition.egg-info/PKG-INFO
+data_acquisition.egg-info/SOURCES.txt
+data_acquisition.egg-info/dependency_links.txt
+data_acquisition.egg-info/requires.txt
+data_acquisition.egg-info/top_level.txt
+src/__init__.py
+src/raw_acquisition.py
+src/ta_acquisition.py

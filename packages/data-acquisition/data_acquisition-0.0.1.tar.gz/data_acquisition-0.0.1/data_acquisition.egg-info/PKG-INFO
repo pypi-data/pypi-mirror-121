@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: data-acquisition
+Version: 0.0.1
+Summary: Stock Data Acquisition
+Home-page: UNKNOWN
+Author: Scott Hirsch
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: A python package in order to acquire raw OHLC data for a                     specific ticker as well as calculate technical indicators.
+Keywords: python,stock,finance,technical analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
