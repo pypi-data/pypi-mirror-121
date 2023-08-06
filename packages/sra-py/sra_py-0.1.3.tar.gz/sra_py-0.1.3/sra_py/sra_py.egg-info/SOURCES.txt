@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+sra_py/sra_py/__init__.py
+sra_py/sra_py/anime.py
+sra_py/sra_py/canvas.py
+sra_py/sra_py/errors.py
+sra_py/sra_py/facts.py
+sra_py/sra_py/fun.py
+sra_py/sra_py/images.py
+sra_py/sra_py/pokemon.py
+sra_py/sra_py.egg-info/PKG-INFO
+sra_py/sra_py.egg-info/SOURCES.txt
+sra_py/sra_py.egg-info/dependency_links.txt
+sra_py/sra_py.egg-info/requires.txt
+sra_py/sra_py.egg-info/top_level.txt
