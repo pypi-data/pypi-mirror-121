@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ezflask/__init__.py
+src/ezflask.egg-info/PKG-INFO
+src/ezflask.egg-info/SOURCES.txt
+src/ezflask.egg-info/dependency_links.txt
+src/ezflask.egg-info/requires.txt
+src/ezflask.egg-info/top_level.txt
