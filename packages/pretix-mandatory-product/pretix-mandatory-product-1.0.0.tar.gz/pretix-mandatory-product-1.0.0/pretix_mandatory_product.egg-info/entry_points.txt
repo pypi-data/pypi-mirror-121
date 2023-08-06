@@ -1,0 +1,3 @@
+
+[pretix.plugin]
+pretix_mandatory_product=pretix_mandatory_product:PretixPluginMeta
