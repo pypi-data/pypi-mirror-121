@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Perceptron_RabiaWadhwa.egg-info/PKG-INFO
+src/Perceptron_RabiaWadhwa.egg-info/SOURCES.txt
+src/Perceptron_RabiaWadhwa.egg-info/dependency_links.txt
+src/Perceptron_RabiaWadhwa.egg-info/requires.txt
+src/Perceptron_RabiaWadhwa.egg-info/top_level.txt
+src/perceptron_package/__init__.py
+src/perceptron_package/perceptron_class.py
