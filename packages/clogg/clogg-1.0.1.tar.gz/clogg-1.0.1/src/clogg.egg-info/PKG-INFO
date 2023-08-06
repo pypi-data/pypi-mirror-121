@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: clogg
+Version: 1.0.1
+Summary: A simple python module for fast and efficient logging
+Home-page: https://github.com/ChecksumDev/clogpy
+Author: ChecksumDev
+Author-email: collierdevs@tuta.io
+License: GPLv3
+Description: # clogpy
+         The python port of Clog!
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

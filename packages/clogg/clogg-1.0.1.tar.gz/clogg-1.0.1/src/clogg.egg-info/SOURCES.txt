@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/clogg/__init__.py
+src/clogg/logger.py
+src/clogg.egg-info/PKG-INFO
+src/clogg.egg-info/SOURCES.txt
+src/clogg.egg-info/dependency_links.txt
+src/clogg.egg-info/not-zip-safe
+src/clogg.egg-info/top_level.txt
