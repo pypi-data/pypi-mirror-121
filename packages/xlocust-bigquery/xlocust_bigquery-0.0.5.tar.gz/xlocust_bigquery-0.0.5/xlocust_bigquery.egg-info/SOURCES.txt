@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+xlocust_bigquery/__init__.py
+xlocust_bigquery/bigquery.py
+xlocust_bigquery/bq_client.py
+xlocust_bigquery.egg-info/PKG-INFO
+xlocust_bigquery.egg-info/SOURCES.txt
+xlocust_bigquery.egg-info/dependency_links.txt
+xlocust_bigquery.egg-info/top_level.txt
