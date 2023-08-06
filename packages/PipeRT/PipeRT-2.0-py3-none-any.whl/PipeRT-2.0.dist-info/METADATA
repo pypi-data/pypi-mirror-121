@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PipeRT
+Version: 2.0
+Summary: Real-time pipeline 4 analytics
+Home-page: https://github.com/OperationalBina/PipeRT2
+Author: digitalTevel
+Author-email: digitalTevel@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/OperationalBina/PipeRT2/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: posix-ipc
+Requires-Dist: numpy
+
+# PipeRT2
+Real-time pipeline for video analytics. V2
+
+<p align="center">
+  <a href="https://github.com/OperationalBina/PipeRT2/actions"><img alt="Actions Status" src="https://github.com/OperationalBina/PipeRT2/workflows/Test/badge.svg"></a>
+  <a href='https://operationalbina.github.io/PipeRT2/'>
+    <img src='https://github.com/OperationalBina/PipeRT2/actions/workflows/docs.yml/badge.svg' alt='Documentation Status' />
+  </a>
+  <a href="https://codecov.io/gh/OperationalBina/PipeRT2">
+    <img src="https://codecov.io/gh/OperationalBina/PipeRT2/branch/master/graph/badge.svg?token=ze7192iCby"/>
+  </a>
+</p>
+
+
