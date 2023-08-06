@@ -1,0 +1,68 @@
+name: build wheels
+
+on: [workflow_dispatch]
+
+jobs:
+  macos:
+    name: Build macOS
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        python-version: [ '3.6', '3.7', '3.8', '3.9' ]
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.3.3
+    - name: rust-toolchain
+      uses: actions-rs/toolchain@v1.0.6
+      with:
+        profile: minimal
+        toolchain: stable
+        default: true
+    - name: Setup Python ${{ matrix.python-version }} environment
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Build wheels (x86_64)
+      uses: messense/maturin-action@v1
+      with:
+        target: x86_64
+        maturin-version: v0.10.6
+        args: --interpreter python${{ matrix.python-version }} --release --out dist
+    - name: Install built wheel (x86_64)
+      run: |
+        pip install pycoverm --no-index --find-links dist --force-reinstall --no-dependencies
+        python -c "import pycoverm"
+    - name: Upload wheels
+      uses: actions/upload-artifact@v2
+      with:
+        name: wheels
+        path: dist
+
+  linux:
+    name: Build Linux
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ '3.6', '3.7', '3.8', '3.9' ]
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+        architecture: x64
+    - name: Build Wheels
+      uses: messense/maturin-action@v1
+      with:
+        target: x86_64
+        maturin-version: v0.10.6
+        manylinux: auto
+        args: --interpreter python${{ matrix.python-version }} --release --out dist
+    - name: Install built wheel
+      run: |
+        pip install pycoverm --no-index --find-links dist --force-reinstall --no-dependencies
+        python -c "import pycoverm"
+    - name: Upload wheels
+      uses: actions/upload-artifact@v2
+      with:
+        name: wheels
+        path: dist
