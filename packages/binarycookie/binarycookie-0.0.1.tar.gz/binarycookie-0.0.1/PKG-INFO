@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: binarycookie
+Version: 0.0.1
+Summary: A Python module that allows reading macOS/iOS binarycookie files.
+Home-page: https://github.com/luckydonald/binarycookie
+Author: luckydonald, satishb3
+Author-email: binarycookie+code@luckydonald.de
+License: MIT
+Description: A Python module that allows reading macOS/iOS binarycookie files.
+Keywords: binary cookie binarycookie .binarycookie iOS macOS safari browser
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
