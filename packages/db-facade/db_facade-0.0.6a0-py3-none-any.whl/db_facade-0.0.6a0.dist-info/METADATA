@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: db-facade
+Version: 0.0.6a0
+Summary: A simple library that provides an easy to use interface for databases.
+Home-page: UNKNOWN
+Author: Anish Utthiran N.C.
+Author-email: anish051@protonmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg2
+Requires-Dist: pgcopy
+
+# db-facade
+
+A simple library that provides an easy to use interface for databases.
+
