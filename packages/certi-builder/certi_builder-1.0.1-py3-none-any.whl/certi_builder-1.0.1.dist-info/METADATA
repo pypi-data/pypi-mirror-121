@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: certi-builder
+Version: 1.0.1
+Summary: A simple commandline app for generating bulk of certificates
+Home-page: https://github.com/Horizon733/certi-build
+Author: Dishant Gandhi
+Author-email: dishantgandhi733@gmail.com
+License: MIT
+Download-URL: https://github.com/Horizon733/certi-build/archive/refs/tags/v1.0.1.tar.gz
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7, <3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: twine
+Requires-Dist: click
+Requires-Dist: openpyxl
+
+<h1 align="center">Certi-builder</h1>
+<p align="center">A simple commandline app for generating bulk of certificates</p>
+
+<p align="center">
+  <img src="https://img.shields.io/pypi/pyversions/certi-builder.svg">
+  <img src="https://img.shields.io/github/repo-size/horizon733/certi-build">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/pypi/l/certi-builder">
+</p>
+
+# Features
+- Supports png, jpg image templates for certificates
+- Extracts names from excel file
+- Makes text bold if needed
+- Generates bulk certificates in minutes
+
+# Installation
+## Using Pip
+```bash
+  $ pip install certi-builer
+```
+## Manual
+```bash
+  $ git clone https://github.com/Horizon733/certi-build
+  $ cd certi-build
+  $ python setup.py install
+```
+# Usage
+```bash
+$ certi-builder build
+certificate image path: <your path>
+Excel file path:  <your path>
+Text color: Hex color code E.g #000000
+Font file path: <your path> Please use ttf fonts
+Font size: Int E.g 10
+Output location:  <your path>
+X location: X-axis coords, These you can find in paint
+Y location: Y-axis coords, These you can find in paint
+```
+
+# bold text
+```bash
+$ certi-builder build --bold
+certificate image path: <your path>
+Excel file path:  <your path>
+Text color: Hex color code E.g #000000
+Font file path: <your path> Please use ttf fonts
+Font size: Int E.g 10
+Output location:  <your path>
+X location: X-axis coords, These you can find in paint
+Y location: Y-axis coords, These you can find in paint
+```
+
+# Upcoming Features
+- Making use of a codestyle i.e black
+- Support for different kind of files for name extraction
+- Different kinds of text formatting E.g Italic, Underline
+- AI recognization for replacing name in certificate
+
+# Screenshots
+![image](https://user-images.githubusercontent.com/57827233/134798681-af82cd38-8197-43e8-ba3f-4fd97d1f8783.png)
+![image](https://user-images.githubusercontent.com/57827233/134798688-ddfeced2-1dfe-4e40-8578-3d18899127ca.png)
+
+
