@@ -1,0 +1,9 @@
+setup.py
+ovos_plugin_common_play/__init__.py
+ovos_plugin_common_play.egg-info/PKG-INFO
+ovos_plugin_common_play.egg-info/SOURCES.txt
+ovos_plugin_common_play.egg-info/dependency_links.txt
+ovos_plugin_common_play.egg-info/entry_points.txt
+ovos_plugin_common_play.egg-info/requires.txt
+ovos_plugin_common_play.egg-info/top_level.txt
+ovos_plugin_common_play.egg-info/zip-safe

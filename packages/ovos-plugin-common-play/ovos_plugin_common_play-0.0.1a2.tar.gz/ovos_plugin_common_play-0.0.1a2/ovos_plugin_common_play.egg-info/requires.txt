@@ -1,0 +1,6 @@
+ovos-plugin-manager>=0.0.1a3
+audio-metadata
+ovos_plugin_vlc>=0.0.1a3
+padacioso
+youtube-dl
+ovos_workshop>=0.0.5a1
