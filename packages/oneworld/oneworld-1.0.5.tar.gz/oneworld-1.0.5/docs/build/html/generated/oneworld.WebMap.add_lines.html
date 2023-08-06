@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>add_lines &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="add_logo" href="oneworld.WebMap.add_logo.html" />
+    <link rel="prev" title="add_layer_control" href="oneworld.WebMap.add_layer_control.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../reference_API.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../reference_API.html#static-maps">Static Maps</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../reference_API.html#interactive-maps">Interactive Maps</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.html">WebMap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_basemap.html">add_basemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_box.html">add_box</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_choropleth.html">add_choropleth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_circles.html">add_circles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_geojson.html">add_geojson</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_heatmap.html">add_heatmap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_layer_control.html">add_layer_control</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">add_lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_logo.html">add_logo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_network.html">add_network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_overlay.html">add_overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_panel.html">add_panel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.savemap.html">savemap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../reference_API.html">API Reference</a> &raquo;</li>
+        
+      <li>add_lines</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/generated/oneworld.WebMap.add_lines.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="add-lines">
+<h1>add_lines<a class="headerlink" href="#add-lines" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="oneworld.WebMap.add_lines">
+<code class="sig-prename descclassname">WebMap.</code><code class="sig-name descname">add_lines</code><span class="sig-paren">(</span><em class="sig-param">latitude0</em>, <em class="sig-param">longitude0</em>, <em class="sig-param">latitude1</em>, <em class="sig-param">longitude1</em>, <em class="sig-param">size=3</em>, <em class="sig-param">color='#592a8a'</em>, <em class="sig-param">data=None</em>, <em class="sig-param">sizes=(3</em>, <em class="sig-param">15)</em>, <em class="sig-param">n_colors=5</em>, <em class="sig-param">palette='Spectral'</em>, <em class="sig-param">cap_min=False</em>, <em class="sig-param">cap_max=False</em>, <em class="sig-param">layer='map'</em>, <em class="sig-param">style={'fillOpacity': 0.6</em>, <em class="sig-param">'opacity': 1.0}</em>, <em class="sig-param">style_mouseover=None</em>, <em class="sig-param">info_mouseover=None</em>, <em class="sig-param">legend_pos='bottomright'</em>, <em class="sig-param">legend_ndec=2</em>, <em class="sig-param">_source=None</em>, <em class="sig-param">_target=None</em><span class="sig-paren">)</span><a class="headerlink" href="#oneworld.WebMap.add_lines" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add lines connecting specific locations.</p>
+<p>Input can be in the form of a pandas dataframe, or in lists or tuples,
+or a combination of both. The color and the width of each line
+can be associated to the value of a variable (set in the <cite>color</cite>
+and <cite>size</cite> parameters). In the case of color, this variable
+can contain numeric or categorical data. Check out the tutorial.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>latitude0</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the longitude coordinate for the starting point of each
+line.</p></li>
+<li><p><strong>longitude0</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the latitude coordinate for the starting point of each
+line.</p></li>
+<li><p><strong>latitude1</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the longitude coordinate for the ending point of each
+line.</p></li>
+<li><p><strong>longitude1</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the latitude coordinate for the enfing point of each
+line.</p></li>
+<li><p><strong>size</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em><em> or </em><em>int</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the values that will be used to calculate the width of
+each line.  Alternatively, it can be a single
+numerical value, assigning the same width to all lines
+(Default: 3).</p></li>
+<li><p><strong>color</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the values that will be used to determine the color of each
+line. These values can be numeric (float or int)
+or categorical (str). Alternatively, <cite>color</cite> can be a
+hex color that will be applied to all lines
+(Default: ‘#592a8a’).</p></li>
+<li><p><strong>data</strong> (<em>pandas DataFrame</em>) – Dataframe containing one or more columns of values to use.
+Each row must contain the data for a line, with columns
+as the data to be used (Default: None).</p></li>
+<li><p><strong>sizes</strong> (<em>list</em><em> or </em><em>tuple of 2 elements</em>) – Only relevant if <cite>size</cite> is not int. Range of widths to use
+for the lines (Default: (3, 15)).</p></li>
+<li><p><strong>palette</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Only relevant when <cite>color</cite> is not a str corresponding
+to a hex color. Sequence of hex colors to be used to
+color the lines according to their value provided
+in <cite>color</cite>. Alternatively, <cite>palette</cite> can
+be a string with the name of a <cite>seaborn</cite> color palette
+(Default: ‘Spectral’).</p></li>
+<li><p><strong>n_colors</strong> (<em>int</em>) – Number of colors in the specified <cite>seaborn</cite> palette
+(Default: 5).</p></li>
+<li><p><strong>cap_min</strong> (<em>float</em><em> or </em><em>int</em>) – If set, all lines with a numerical value in <cite>color</cite> smaller
+than the value set in <cite>cap_min</cite> will be considered as having
+a value equal to <cite>cap_min</cite> for coloring purposes. The
+corresponding entry in the legend will display a ‘&lt;’ sign.
+(Default: False).</p></li>
+<li><p><strong>cap_max</strong> (<em>float</em><em> or </em><em>int</em>) – If set, all lines with a numerical value in <cite>color</cite> greater
+than the value set in <cite>cap_max</cite> will be considered as having
+a value equal to <cite>cap_max</cite> for coloring purposes. The
+corresponding entry in the legend will display a ‘&gt;’ sign.
+(Default: False).</p></li>
+<li><p><strong>layer</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the name of the layer on which to draw each line.
+Alternatively, it can be the name of a single layer on which
+all lines will be added. If the specified layer has not
+yet been created, <cite>oneworld</cite> will create an overlay with
+that name using the default  settings (Default: “map”, which
+will add the lines directly to the map object).</p></li>
+<li><p><strong>style</strong> (<em>dict</em>) – Dictionary containing keywords and values defining common
+style values for all lines. Note that the ‘color’,
+‘fillColor’ and ‘radius’ keywords defined in <cite>style</cite>
+will override those  in the <cite>color</cite> and <cite>size</cite>
+parameters (Default: {‘opacity’:1.0, ‘fillOpacity’:0.6}).</p></li>
+<li><p><strong>style_mouseover</strong> (<em>dict</em>) – If set, style of a line when the mouse is
+hovered over it (Default: None).</p></li>
+<li><p><strong>info_mouseover</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – If set, sequence (list or tuple) or name of the column
+of the  dataframe in <cite>data</cite> containing
+the information to be displayed on a pannel when
+the mouse is hovered over the line. Accepts
+html format (Default: None).</p></li>
+<li><p><strong>legend_pos</strong> (<em>{'topleft'</em><em>, </em><em>'topright'</em><em>, </em><em>'bottomleft'</em><em>, </em><em>'bottomright'}</em>) – Only relevant when <cite>color</cite> is not a str corresponding
+to a hex color. Position of the color legend, or None
+for no legend (Default: “bottomright”).</p></li>
+<li><p><strong>legend_ndec</strong> (<em>int</em>) – Only relevant when <cite>color</cite> is not a str corresponding
+to a hex color. Number of decimal places to be displayed
+on the color legend (Default: 2)</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>For available color palettes, see
+<a class="reference external" href="https://seaborn.pydata.org/tutorial/color_palettes.html">https://seaborn.pydata.org/tutorial/color_palettes.html</a></p>
+<p>For a full listing of style options, see
+<a class="reference external" href="https://leafletjs.com/reference-1.6.0.html#path">https://leafletjs.com/reference-1.6.0.html#path</a></p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="oneworld.WebMap.add_logo.html" class="btn btn-neutral float-right" title="add_logo" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="oneworld.WebMap.add_layer_control.html" class="btn btn-neutral float-left" title="add_layer_control" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

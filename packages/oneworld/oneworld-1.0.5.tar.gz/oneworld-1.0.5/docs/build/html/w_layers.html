@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Layers: basemaps and overlays &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Styles" href="w_styles.html" />
+    <link rel="prev" title="GeoJSON files and choropleths" href="w_json.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="tutorials.html">Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#static-map">Static Map</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="tutorials.html#web-map">Web Map</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="w_start.html">Getting started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_circles.html">Circles and lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_nets.html">Networks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_json.html">GeoJSON files and choropleths</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Layers: basemaps and overlays</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_styles.html">Styles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_info.html">Information panel</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference_API.html">API Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="tutorials.html">Tutorials</a> &raquo;</li>
+        
+      <li>Layers: basemaps and overlays</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/w_layers.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="layers-basemaps-and-overlays">
+<h1>Layers: basemaps and overlays<a class="headerlink" href="#layers-basemaps-and-overlays" title="Permalink to this headline">¶</a></h1>
+<p>A basemap is a collection of tiles that will be used as a background image
+in our map. We can add different sets of tiles to our map, but only one
+set will be displayed at a time. In <cite>oneworld</cite>, basemaps are a type of
+<em>layer</em> (the other type being <cite>overlays</cite>, more on that in a minute).
+In the last section we did not
+explicitly add any set of tiles to the map,
+so <cite>oneworld</cite> added the default basemap
+for us. Let’s start by creating the map object:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">oneworld</span> <span class="k">as</span> <span class="nn">ow</span>
+<span class="n">mymap</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">WebMap</span><span class="p">(</span><span class="n">center</span> <span class="o">=</span> <span class="p">[</span><span class="mi">39</span><span class="p">,</span><span class="o">-</span><span class="mf">96.8</span><span class="p">],</span> <span class="n">zoom</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Let’s now add two basemaps, with a layer control panel so we can
+switch between the two basemaps:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;StreetMap&#39;</span><span class="p">,</span> <span class="n">tiles</span> <span class="o">=</span> <span class="s1">&#39;OSM&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Terrain&#39;</span><span class="p">,</span> <span class="n">tiles</span> <span class="o">=</span> <span class="s1">&#39;Stamen_terrain&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_layer_control</span><span class="p">(</span><span class="n">collapsed</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>After saving and opening the map, this is what we see:</p>
+<iframe src="_static/tut_lay1.html" height="345px" width="100%"></iframe><p>Given that we can only visualize one basemap at a time, the controls on the
+layer control panel for basemaps are radio buttons.</p>
+<p>Another type of layer in <cite>oneworld</cite> is the <cite>overlay</cite>. Contrary to basemaps,
+<cite>overlays</cite> do not display any image on the background, they are transparent.
+More than one overlay can be displayed at a time, and their names appear
+on the layer control panel next to check boxes. So, if they are transparent,
+what is the use of having an overlay? well, some elements (like circles,
+lines, etc.) can be added to layers (basemaps or overlays)
+so that only the elements added to the active layers will be displayed.
+Check out the next example where we have added circles to different layers,
+including basemaps and overlays:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_layer_control</span><span class="p">(</span><span class="n">collapsed</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;No Reds&#39;</span><span class="p">,</span> <span class="n">tiles</span> <span class="o">=</span> <span class="s1">&#39;OSM&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Reds&#39;</span><span class="p">,</span> <span class="n">tiles</span> <span class="o">=</span> <span class="s1">&#39;Stamen_watercolor&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_overlay</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Blue&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_overlay</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Purples&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="p">[</span><span class="mf">29.583058</span><span class="p">,</span> <span class="mf">33.507507</span><span class="p">],</span>
+                  <span class="n">longitude</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">98.619407</span><span class="p">,</span> <span class="o">-</span><span class="mf">112.064633</span><span class="p">],</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;#de2d26&#39;</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">50000</span><span class="p">,</span>
+                  <span class="n">layer</span> <span class="o">=</span> <span class="s1">&#39;Reds&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="p">[</span><span class="mf">40.007984</span><span class="p">],</span>
+                  <span class="n">longitude</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">105.265457</span><span class="p">],</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;#3182bd&#39;</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">50000</span><span class="p">,</span>
+                  <span class="n">layer</span> <span class="o">=</span> <span class="s1">&#39;Blue&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="p">[</span><span class="mf">40.278822</span><span class="p">,</span> <span class="mf">42.056887</span><span class="p">],</span>
+                  <span class="n">longitude</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">111.715293</span><span class="p">,</span> <span class="o">-</span><span class="mf">87.674991</span><span class="p">],</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;#756bb1&#39;</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">50000</span><span class="p">,</span>
+                  <span class="n">layer</span> <span class="o">=</span> <span class="s1">&#39;Purples&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_lay2.html" height="345px" width="100%"></iframe><p>If both <cite>basemaps</cite> and <cite>overlays</cite> are added to a map, the active <cite>basemap</cite>
+will always be displayed at the back of any active <cite>overlay</cite>.</p>
+<p>All added elements have a <cite>layer</cite> parameter that accepts a single value
+(the name of a layer where all elements will be added to). Plus, circles
+and lines also accept a list or tuple
+or the name of a dataframe column containing the names of the layers
+where each element will be added to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Expenditures&#39;</span><span class="p">,</span> <span class="n">palette</span> <span class="o">=</span> <span class="s1">&#39;YlOrRd&#39;</span><span class="p">,</span>
+                  <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">legend_pos</span> <span class="o">=</span> <span class="s1">&#39;bottomleft&#39;</span><span class="p">,</span>
+                  <span class="n">layer</span> <span class="o">=</span> <span class="s1">&#39;Conference&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In this example we haven’t requested a layer control panel, but since we
+added more than one layer to the map <cite>oneworld</cite> added it for us with
+its default settings (hence why it is collapsed):</p>
+<iframe src="_static/tut_lay3.html" height="345px" width="100%"></iframe><p>Layers are a way of keeping maps organized in a tidy way when we add different
+types of elements. The next example is a complex map packed with
+information:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_layer_control</span><span class="p">(</span><span class="n">collapsed</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">position</span> <span class="o">=</span> <span class="s1">&#39;topleft&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Clear&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Regions&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Farms&#39;</span><span class="p">)</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;farms&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_choropleth</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">,</span>
+                     <span class="n">geoid</span> <span class="o">=</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Region&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                     <span class="n">json_key</span> <span class="o">=</span> <span class="s1">&#39;GEOID&#39;</span><span class="p">,</span> <span class="n">layer</span> <span class="o">=</span> <span class="s1">&#39;Regions&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_choropleth</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">,</span>
+                     <span class="n">geoid</span> <span class="o">=</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Number of farms&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                     <span class="n">json_key</span> <span class="o">=</span> <span class="s1">&#39;GEOID&#39;</span><span class="p">,</span> <span class="n">palette</span> <span class="o">=</span> <span class="s1">&#39;YlGn&#39;</span><span class="p">,</span> <span class="n">layer</span> <span class="o">=</span> <span class="s1">&#39;Farms&#39;</span><span class="p">)</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Expenditures&#39;</span><span class="p">,</span> <span class="n">palette</span> <span class="o">=</span> <span class="s1">&#39;RdBu&#39;</span><span class="p">,</span>
+                  <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">layer</span> <span class="o">=</span> <span class="s1">&#39;Conference&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_lay4.html" height="345px" width="100%"></iframe><p>Notice how the legend for the GeoJSON layers changes as we change
+the active basemap. Also notice how <cite>overlays</cite> are always displayed on top of
+<cite>basemaps</cite>.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="w_styles.html" class="btn btn-neutral float-right" title="Styles" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="w_json.html" class="btn btn-neutral float-left" title="GeoJSON files and choropleths" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

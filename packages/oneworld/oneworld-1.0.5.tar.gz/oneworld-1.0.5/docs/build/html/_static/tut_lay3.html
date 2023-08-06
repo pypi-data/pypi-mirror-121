@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+          .legend {
+                  padding: 6px 8px;
+                  font: 14px/16px Arial, Helvetica, sans-serif;
+                  background: white;
+                  background: rgba(255,255,255,0.8);
+                  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                  border-radius: 5px;
+                  line-height: 18px;
+                  color: #555;
+                  }
+          .legend h4 {
+                      margin: 0 0 5px;
+                      color: #777;
+                     }
+          .legend i {
+                    width: 18px;
+                    height: 18px;
+                    float: left;
+                    margin-right: 8px;
+                    opacity: 0.7;
+                    }
+    </style>
+    <title>OneWorld</title>
+</head>
+<body>    
+<div class="leaflet-map" id="map1" ></div>
+<script>
+    // Layer groups
+        var AAC = L.featureGroup();
+        var ACC = L.featureGroup();
+        var Big12 = L.featureGroup();
+        var Pac12 = L.featureGroup();
+        var Big10 = L.featureGroup();
+        var SEC = L.featureGroup();
+        var CUSA = L.featureGroup();
+        var MAC = L.featureGroup();
+        var SBC = L.featureGroup();
+        var WAC = L.featureGroup();
+        var BigEast = L.featureGroup();
+        var StreetMap = L.featureGroup();
+    // map object
+    var map = L.map('map1', {
+	                center:[39, -96.8],
+	                zoom:4,
+                     layers: [StreetMap,AAC,ACC,Big12,Pac12,Big10,SEC,CUSA,MAC,SBC,WAC,BigEast]
+                    });
+    // Scale
+    L.control.scale().addTo(map)
+    // Basemap(s)
+    
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			  {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+                        subdomains: "abc"
+			   }).addTo(StreetMap);
+map.attributionControl.setPrefix('OneWorld | <a href="https://leafletjs.com/">Leaflet</a>')
+map.on('baselayerchange', function (e) {
+});
+    // Styles
+    var style_0 = {
+                   fillColor:'#fd8c3c',
+                   color:'#fd8c3c',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_1 = {
+                   fillColor:'#c90823',
+                   color:'#c90823',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_2 = {
+                   fillColor:'#febf5a',
+                   color:'#febf5a',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_3 = {
+                   fillColor:'#ffe793',
+                   color:'#ffe793',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_4 = {
+                   fillColor:'#f43d25',
+                   color:'#f43d25',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+        //Circle markers
+var circle0 = L.circleMarker([39.134205, -84.515129],style_0).addTo(AAC);
+    circle0.init_style = style_0;
+    circle0.on({
+                });
+var circle1 = L.circleMarker([35.606251, -77.363681],style_1).addTo(AAC);
+    circle1.init_style = style_1;
+    circle1.on({
+                });
+var circle2 = L.circleMarker([29.720001, -95.342153],style_0).addTo(AAC);
+    circle2.init_style = style_0;
+    circle2.on({
+                });
+var circle3 = L.circleMarker([35.118802, -89.937216],style_2).addTo(AAC);
+    circle3.init_style = style_2;
+    circle3.on({
+                });
+var circle4 = L.circleMarker([38.982306, -76.483172],style_0).addTo(AAC);
+    circle4.init_style = style_0;
+    circle4.on({
+                });
+var circle5 = L.circleMarker([32.841443, -96.78451700000001],style_1).addTo(AAC);
+    circle5.init_style = style_1;
+    circle5.on({
+                });
+var circle6 = L.circleMarker([39.984978000000005, -75.15491800000001],style_0).addTo(AAC);
+    circle6.init_style = style_0;
+    circle6.on({
+                });
+var circle7 = L.circleMarker([29.943279999999998, -90.12033100000001],style_0).addTo(AAC);
+    circle7.init_style = style_0;
+    circle7.on({
+                });
+var circle8 = L.circleMarker([36.152004999999996, -95.945914],style_3).addTo(AAC);
+    circle8.init_style = style_3;
+    circle8.on({
+                });
+var circle9 = L.circleMarker([28.602390000000003, -81.199759],style_0).addTo(AAC);
+    circle9.init_style = style_0;
+    circle9.on({
+                });
+var circle10 = L.circleMarker([41.807796999999994, -72.254109],style_4).addTo(AAC);
+    circle10.init_style = style_4;
+    circle10.on({
+                });
+var circle11 = L.circleMarker([28.058721999999996, -82.413779],style_4).addTo(AAC);
+    circle11.init_style = style_4;
+    circle11.on({
+                });
+var circle12 = L.circleMarker([37.718645, -97.29391600000001],style_3).addTo(AAC);
+    circle12.init_style = style_3;
+    circle12.on({
+                });
+var circle13 = L.circleMarker([36.003056, -78.938213],style_1).addTo(ACC);
+    circle13.init_style = style_1;
+    circle13.on({
+                });
+var circle14 = L.circleMarker([35.904790000000006, -79.046645],style_0).addTo(ACC);
+    circle14.init_style = style_0;
+    circle14.on({
+                });
+var circle15 = L.circleMarker([35.785872999999995, -78.680871],style_4).addTo(ACC);
+    circle15.init_style = style_4;
+    circle15.on({
+                });
+var circle16 = L.circleMarker([30.441915, -84.29836],style_4).addTo(ACC);
+    circle16.init_style = style_4;
+    circle16.on({
+                });
+var circle17 = L.circleMarker([34.673738, -82.836887],style_0).addTo(ACC);
+    circle17.init_style = style_0;
+    circle17.on({
+                });
+var circle18 = L.circleMarker([36.134071999999996, -80.278013],style_4).addTo(ACC);
+    circle18.init_style = style_4;
+    circle18.on({
+                });
+var circle19 = L.circleMarker([33.775805, -84.39626700000001],style_0).addTo(ACC);
+    circle19.init_style = style_0;
+    circle19.on({
+                });
+var circle20 = L.circleMarker([43.049502000000004, -76.137819],style_2).addTo(ACC);
+    circle20.init_style = style_2;
+    circle20.on({
+                });
+var circle21 = L.circleMarker([42.335516999999996, -71.168237],style_4).addTo(ACC);
+    circle21.init_style = style_4;
+    circle21.on({
+                });
+var circle22 = L.circleMarker([41.703264000000004, -86.237927],style_1).addTo(ACC);
+    circle22.init_style = style_1;
+    circle22.on({
+                });
+var circle23 = L.circleMarker([40.444592, -79.960026],style_0).addTo(ACC);
+    circle23.init_style = style_0;
+    circle23.on({
+                });
+var circle24 = L.circleMarker([25.719347, -80.276589],style_0).addTo(ACC);
+    circle24.init_style = style_0;
+    circle24.on({
+                });
+var circle25 = L.circleMarker([38.033259, -78.50785400000001],style_4).addTo(ACC);
+    circle25.init_style = style_4;
+    circle25.on({
+                });
+var circle26 = L.circleMarker([37.228487, -80.423513],style_3).addTo(ACC);
+    circle26.init_style = style_3;
+    circle26.on({
+                });
+var circle27 = L.circleMarker([38.212334999999996, -85.758513],style_4).addTo(ACC);
+    circle27.init_style = style_4;
+    circle27.on({
+                });
+var circle28 = L.circleMarker([31.549723999999998, -97.114364],style_0).addTo(Big12);
+    circle28.init_style = style_0;
+    circle28.on({
+                });
+var circle29 = L.circleMarker([42.025357, -93.649118],style_4).addTo(Big12);
+    circle29.init_style = style_4;
+    circle29.on({
+                });
+var circle30 = L.circleMarker([38.95431, -95.25579599999999],style_2).addTo(Big12);
+    circle30.init_style = style_2;
+    circle30.on({
+                });
+var circle31 = L.circleMarker([39.227765000000005, -96.585124],style_4).addTo(Big12);
+    circle31.init_style = style_4;
+    circle31.on({
+                });
+var circle32 = L.circleMarker([35.205884999999995, -97.445521],style_3).addTo(Big12);
+    circle32.init_style = style_3;
+    circle32.on({
+                });
+var circle33 = L.circleMarker([36.122288, -97.069263],style_0).addTo(Big12);
+    circle33.init_style = style_0;
+    circle33.on({
+                });
+var circle34 = L.circleMarker([32.709594, -97.36335600000001],style_2).addTo(Big12);
+    circle34.init_style = style_2;
+    circle34.on({
+                });
+var circle35 = L.circleMarker([30.283779, -97.736859],style_4).addTo(Big12);
+    circle35.init_style = style_4;
+    circle35.on({
+                });
+var circle36 = L.circleMarker([33.584205, -101.878132],style_1).addTo(Big12);
+    circle36.init_style = style_1;
+    circle36.on({
+                });
+var circle37 = L.circleMarker([39.636094, -79.955116],style_0).addTo(Big12);
+    circle37.init_style = style_0;
+    circle37.on({
+                });
+var circle38 = L.circleMarker([34.02199, -118.28361000000001],style_2).addTo(Pac12);
+    circle38.init_style = style_2;
+    circle38.on({
+                });
+var circle39 = L.circleMarker([34.069322, -118.44243600000001],style_1).addTo(Pac12);
+    circle39.init_style = style_1;
+    circle39.on({
+                });
+var circle40 = L.circleMarker([37.871594, -122.25811599999999],style_0).addTo(Pac12);
+    circle40.init_style = style_0;
+    circle40.on({
+                });
+var circle41 = L.circleMarker([37.427543, -122.16973],style_0).addTo(Pac12);
+    circle41.init_style = style_0;
+    circle41.on({
+                });
+var circle42 = L.circleMarker([40.764831, -111.842274],style_0).addTo(Pac12);
+    circle42.init_style = style_0;
+    circle42.on({
+                });
+var circle43 = L.circleMarker([40.007984, -105.26545700000001],style_1).addTo(Pac12);
+    circle43.init_style = style_1;
+    circle43.on({
+                });
+var circle44 = L.circleMarker([33.507507000000004, -112.064633],style_0).addTo(Pac12);
+    circle44.init_style = style_0;
+    circle44.on({
+                });
+var circle45 = L.circleMarker([32.232845000000005, -110.950172],style_3).addTo(Pac12);
+    circle45.init_style = style_3;
+    circle45.on({
+                });
+var circle46 = L.circleMarker([44.044907, -123.07260500000001],style_2).addTo(Pac12);
+    circle46.init_style = style_2;
+    circle46.on({
+                });
+var circle47 = L.circleMarker([44.564665999999995, -123.28193200000001],style_2).addTo(Pac12);
+    circle47.init_style = style_2;
+    circle47.on({
+                });
+var circle48 = L.circleMarker([47.655648, -122.303758],style_2).addTo(Pac12);
+    circle48.init_style = style_2;
+    circle48.on({
+                });
+var circle49 = L.circleMarker([47.618045, -122.320811],style_0).addTo(Pac12);
+    circle49.init_style = style_0;
+    circle49.on({
+                });
+var circle50 = L.circleMarker([42.278552000000005, -83.736142],style_4).addTo(Big10);
+    circle50.init_style = style_4;
+    circle50.on({
+                });
+var circle51 = L.circleMarker([42.719116, -84.38228199999999],style_2).addTo(Big10);
+    circle51.init_style = style_2;
+    circle51.on({
+                });
+var circle52 = L.circleMarker([40.005777, -83.026663],style_1).addTo(Big10);
+    circle52.init_style = style_1;
+    circle52.on({
+                });
+var circle53 = L.circleMarker([41.659884000000005, -91.547122],style_2).addTo(Big10);
+    circle53.init_style = style_2;
+    circle53.on({
+                });
+var circle54 = L.circleMarker([40.102313, -88.228996],style_0).addTo(Big10);
+    circle54.init_style = style_0;
+    circle54.on({
+                });
+var circle55 = L.circleMarker([42.056886999999996, -87.674991],style_2).addTo(Big10);
+    circle55.init_style = style_2;
+    circle55.on({
+                });
+var circle56 = L.circleMarker([38.987148, -76.94285500000001],style_2).addTo(Big10);
+    circle56.init_style = style_2;
+    circle56.on({
+                });
+var circle57 = L.circleMarker([40.483579, -74.42276600000001],style_0).addTo(Big10);
+    circle57.init_style = style_0;
+    circle57.on({
+                });
+var circle58 = L.circleMarker([40.800515000000004, -77.860732],style_4).addTo(Big10);
+    circle58.init_style = style_4;
+    circle58.on({
+                });
+var circle59 = L.circleMarker([40.852768, -96.68950600000001],style_1).addTo(Big10);
+    circle59.init_style = style_1;
+    circle59.on({
+                });
+var circle60 = L.circleMarker([44.975352, -93.23097299999999],style_4).addTo(Big10);
+    circle60.init_style = style_4;
+    circle60.on({
+                });
+var circle61 = L.circleMarker([43.075589, -89.41156099999999],style_3).addTo(Big10);
+    circle61.init_style = style_3;
+    circle61.on({
+                });
+var circle62 = L.circleMarker([39.175274, -86.51236999999999],style_3).addTo(Big10);
+    circle62.init_style = style_3;
+    circle62.on({
+                });
+var circle63 = L.circleMarker([40.423665, -86.921141],style_2).addTo(Big10);
+    circle63.init_style = style_2;
+    circle63.on({
+                });
+var circle64 = L.circleMarker([33.215183, -87.536608],style_2).addTo(SEC);
+    circle64.init_style = style_2;
+    circle64.on({
+                });
+var circle65 = L.circleMarker([36.068073999999996, -94.171543],style_3).addTo(SEC);
+    circle65.init_style = style_3;
+    circle65.on({
+                });
+var circle66 = L.circleMarker([32.604448, -85.482106],style_2).addTo(SEC);
+    circle66.init_style = style_2;
+    circle66.on({
+                });
+var circle67 = L.circleMarker([29.650056, -82.358111],style_2).addTo(SEC);
+    circle67.init_style = style_2;
+    circle67.on({
+                });
+var circle68 = L.circleMarker([33.947571999999994, -83.374411],style_2).addTo(SEC);
+    circle68.init_style = style_2;
+    circle68.on({
+                });
+var circle69 = L.circleMarker([38.031369, -84.50692],style_0).addTo(SEC);
+    circle69.init_style = style_0;
+    circle69.on({
+                });
+var circle70 = L.circleMarker([30.413068, -91.18154200000001],style_2).addTo(SEC);
+    circle70.init_style = style_2;
+    circle70.on({
+                });
+var circle71 = L.circleMarker([34.364634, -89.53849699999999],style_4).addTo(SEC);
+    circle71.init_style = style_4;
+    circle71.on({
+                });
+var circle72 = L.circleMarker([33.455255, -88.79435500000001],style_1).addTo(SEC);
+    circle72.init_style = style_1;
+    circle72.on({
+                });
+var circle73 = L.circleMarker([38.944542, -92.32815],style_2).addTo(SEC);
+    circle73.init_style = style_2;
+    circle73.on({
+                });
+var circle74 = L.circleMarker([33.992474, -81.030468],style_3).addTo(SEC);
+    circle74.init_style = style_3;
+    circle74.on({
+                });
+var circle75 = L.circleMarker([35.954633, -83.927776],style_2).addTo(SEC);
+    circle75.init_style = style_2;
+    circle75.on({
+                });
+var circle76 = L.circleMarker([30.607809999999997, -96.348027],style_4).addTo(SEC);
+    circle76.init_style = style_4;
+    circle76.on({
+                });
+var circle77 = L.circleMarker([36.145086, -86.803507],style_1).addTo(SEC);
+    circle77.init_style = style_1;
+    circle77.on({
+                });
+var circle78 = L.circleMarker([35.307066999999996, -80.735164],style_4).addTo(CUSA);
+    circle78.init_style = style_4;
+    circle78.on({
+                });
+var circle79 = L.circleMarker([25.756129, -80.37570799999999],style_3).addTo(CUSA);
+    circle79.init_style = style_3;
+    circle79.on({
+                });
+var circle80 = L.circleMarker([26.375789, -80.10095600000001],style_2).addTo(CUSA);
+    circle80.init_style = style_2;
+    circle80.on({
+                });
+var circle81 = L.circleMarker([32.528246, -92.649855],style_2).addTo(CUSA);
+    circle81.init_style = style_2;
+    circle81.on({
+                });
+var circle82 = L.circleMarker([38.423483000000004, -82.42626],style_1).addTo(CUSA);
+    circle82.init_style = style_1;
+    circle82.on({
+                });
+var circle83 = L.circleMarker([35.848558000000004, -86.36484899999999],style_0).addTo(CUSA);
+    circle83.init_style = style_0;
+    circle83.on({
+                });
+var circle84 = L.circleMarker([33.210762, -97.156217],style_0).addTo(CUSA);
+    circle84.init_style = style_0;
+    circle84.on({
+                });
+var circle85 = L.circleMarker([36.885028000000005, -76.305876],style_4).addTo(CUSA);
+    circle85.init_style = style_4;
+    circle85.on({
+                });
+var circle86 = L.circleMarker([29.717346999999997, -95.401788],style_0).addTo(CUSA);
+    circle86.init_style = style_0;
+    circle86.on({
+                });
+var circle87 = L.circleMarker([31.329828000000003, -89.33380600000001],style_2).addTo(CUSA);
+    circle87.init_style = style_2;
+    circle87.on({
+                });
+var circle88 = L.circleMarker([33.502078000000004, -86.806348],style_1).addTo(CUSA);
+    circle88.init_style = style_1;
+    circle88.on({
+                });
+var circle89 = L.circleMarker([31.771184, -106.503826],style_2).addTo(CUSA);
+    circle89.init_style = style_2;
+    circle89.on({
+                });
+var circle90 = L.circleMarker([29.583058, -98.619407],style_1).addTo(CUSA);
+    circle90.init_style = style_1;
+    circle90.on({
+                });
+var circle91 = L.circleMarker([36.985490999999996, -86.455741],style_3).addTo(CUSA);
+    circle91.init_style = style_3;
+    circle91.on({
+                });
+var circle92 = L.circleMarker([41.076671000000005, -81.511263],style_3).addTo(MAC);
+    circle92.init_style = style_3;
+    circle92.on({
+                });
+var circle93 = L.circleMarker([40.204152, -85.40616800000001],style_3).addTo(MAC);
+    circle93.init_style = style_3;
+    circle93.on({
+                });
+var circle94 = L.circleMarker([41.379272, -83.630565],style_0).addTo(MAC);
+    circle94.init_style = style_0;
+    circle94.on({
+                });
+var circle95 = L.circleMarker([42.9534, -78.817697],style_3).addTo(MAC);
+    circle95.init_style = style_3;
+    circle95.on({
+                });
+var circle96 = L.circleMarker([43.582409000000006, -84.77469],style_2).addTo(MAC);
+    circle96.init_style = style_2;
+    circle96.on({
+                });
+var circle97 = L.circleMarker([42.251032, -83.621939],style_3).addTo(MAC);
+    circle97.init_style = style_3;
+    circle97.on({
+                });
+var circle98 = L.circleMarker([41.14564, -81.339449],style_2).addTo(MAC);
+    circle98.init_style = style_2;
+    circle98.on({
+                });
+var circle99 = L.circleMarker([39.512921999999996, -84.72391400000001],style_4).addTo(MAC);
+    circle99.init_style = style_4;
+    circle99.on({
+                });
+var circle100 = L.circleMarker([41.934313, -88.77415500000001],style_1).addTo(MAC);
+    circle100.init_style = style_1;
+    circle100.on({
+                });
+var circle101 = L.circleMarker([39.324837, -82.10041899999999],style_1).addTo(MAC);
+    circle101.init_style = style_1;
+    circle101.on({
+                });
+var circle102 = L.circleMarker([41.658071, -83.613974],style_3).addTo(MAC);
+    circle102.init_style = style_3;
+    circle102.on({
+                });
+var circle103 = L.circleMarker([42.28371, -85.610337],style_4).addTo(MAC);
+    circle103.init_style = style_4;
+    circle103.on({
+                });
+var circle104 = L.circleMarker([36.213869, -81.683306],style_4).addTo(SBC);
+    circle104.init_style = style_4;
+    circle104.on({
+                });
+var circle105 = L.circleMarker([34.723933, -92.338909],style_2).addTo(SBC);
+    circle105.init_style = style_2;
+    circle105.on({
+                });
+var circle106 = L.circleMarker([35.843577, -90.675302],style_4).addTo(SBC);
+    circle106.init_style = style_4;
+    circle106.on({
+                });
+var circle107 = L.circleMarker([33.796543, -79.013243],style_4).addTo(SBC);
+    circle107.init_style = style_4;
+    circle107.on({
+                });
+var circle108 = L.circleMarker([32.420603, -81.786524],style_1).addTo(SBC);
+    circle108.init_style = style_1;
+    circle108.on({
+                });
+var circle109 = L.circleMarker([33.753776, -84.384915],style_1).addTo(SBC);
+    circle109.init_style = style_1;
+    circle109.on({
+                });
+var circle110 = L.circleMarker([30.211533000000003, -92.02036899999999],style_0).addTo(SBC);
+    circle110.init_style = style_0;
+    circle110.on({
+                });
+var circle111 = L.circleMarker([32.528354, -92.073436],style_0).addTo(SBC);
+    circle111.init_style = style_0;
+    circle111.on({
+                });
+var circle112 = L.circleMarker([30.695858, -88.184021],style_0).addTo(SBC);
+    circle112.init_style = style_0;
+    circle112.on({
+                });
+var circle113 = L.circleMarker([32.729791, -97.113765],style_2).addTo(SBC);
+    circle113.init_style = style_2;
+    circle113.on({
+                });
+var circle114 = L.circleMarker([29.88853, -97.938144],style_0).addTo(SBC);
+    circle114.init_style = style_0;
+    circle114.on({
+                });
+var circle115 = L.circleMarker([29.556209999999997, -98.483785],style_0).addTo(SBC);
+    circle115.init_style = style_0;
+    circle115.on({
+                });
+var circle116 = L.circleMarker([33.928405, -117.425591],style_3).addTo(WAC);
+    circle116.init_style = style_3;
+    circle116.on({
+                });
+var circle117 = L.circleMarker([41.718109999999996, -87.60891099999999],style_1).addTo(WAC);
+    circle117.init_style = style_1;
+    circle117.on({
+                });
+var circle118 = L.circleMarker([33.510495, -112.129764],style_3).addTo(WAC);
+    circle118.init_style = style_3;
+    circle118.on({
+                });
+var circle119 = L.circleMarker([39.033369, -94.577279],style_3).addTo(WAC);
+    circle119.init_style = style_3;
+    circle119.on({
+                });
+var circle120 = L.circleMarker([32.278847, -106.747831],style_1).addTo(WAC);
+    circle120.init_style = style_1;
+    circle120.on({
+                });
+var circle121 = L.circleMarker([47.609315, -122.317031],style_3).addTo(WAC);
+    circle121.init_style = style_3;
+    circle121.on({
+                });
+var circle122 = L.circleMarker([25.907172, -97.420169],style_1).addTo(WAC);
+    circle122.init_style = style_1;
+    circle122.on({
+                });
+var circle123 = L.circleMarker([40.278822, -111.71529299999999],style_2).addTo(WAC);
+    circle123.init_style = style_2;
+    circle123.on({
+                });
+var circle124 = L.circleMarker([39.841181, -86.171234],style_2).addTo(BigEast);
+    circle124.init_style = style_2;
+    circle124.on({
+                });
+var circle125 = L.circleMarker([41.265665000000006, -95.94717],style_3).addTo(BigEast);
+    circle125.init_style = style_3;
+    circle125.on({
+                });
+var circle126 = L.circleMarker([41.92411, -87.655384],style_4).addTo(BigEast);
+    circle126.init_style = style_4;
+    circle126.on({
+                });
+var circle127 = L.circleMarker([38.907676, -77.072344],style_1).addTo(BigEast);
+    circle127.init_style = style_1;
+    circle127.on({
+                });
+var circle128 = L.circleMarker([43.038691, -87.93004599999999],style_2).addTo(BigEast);
+    circle128.init_style = style_2;
+    circle128.on({
+                });
+var circle129 = L.circleMarker([41.844592999999996, -71.437208],style_0).addTo(BigEast);
+    circle129.init_style = style_0;
+    circle129.on({
+                });
+var circle130 = L.circleMarker([40.720676, -73.79670899999999],style_4).addTo(BigEast);
+    circle130.init_style = style_4;
+    circle130.on({
+                });
+var circle131 = L.circleMarker([40.74345, -74.24617099999999],style_3).addTo(BigEast);
+    circle131.init_style = style_3;
+    circle131.on({
+                });
+var circle132 = L.circleMarker([40.037064, -75.343773],style_0).addTo(BigEast);
+    circle132.init_style = style_0;
+    circle132.on({
+                });
+var circle133 = L.circleMarker([29.964007000000002, -90.107465],style_3).addTo(BigEast);
+    circle133.init_style = style_3;
+    circle133.on({
+                });
+
+function makeOver (caller, newstyle) {
+                   caller.setStyle(newstyle);
+                   };
+function makeInit (caller) {
+                   caller.setStyle(caller.init_style);
+                   };
+        
+var legend_StreetMap = L.control({position: 'bottomleft'});
+
+legend_StreetMap.onAdd = function (map) {
+
+  var div = L.DomUtil.create('div', 'legend'),
+   labels = ['0.00 - 199.60', '199.60 - 399.20', '399.20 - 598.80', '598.80 - 798.40', '798.40 - 998.00', ],
+   colors = ['#ffe793', '#febf5a', '#fd8c3c', '#f43d25', '#c90823', ];
+   div.innerHTML = '<h4>Expenditures</h4>'
+       for (var i = 0; i < labels.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + colors[i] + '"></i> ' +
+            labels[i] +'<br />'
+    }
+    return div;
+};legend_StreetMap.addTo(map)
+var activeControl = legend_StreetMap
+
+    // Layer Control
+    var basemaps = {
+                     'StreetMap':StreetMap,
+                    };
+    var overlays = {
+                     'AAC':AAC,
+                     'ACC':ACC,
+                     'Big12':Big12,
+                     'Pac12':Pac12,
+                     'Big10':Big10,
+                     'SEC':SEC,
+                     'CUSA':CUSA,
+                     'MAC':MAC,
+                     'SBC':SBC,
+                     'WAC':WAC,
+                     'BigEast':BigEast,
+                    };
+    L.control.layers(basemaps,overlays,{
+                         position: 'topright',
+                         collapsed: true,
+                         autoZIndex: true,
+                         hideSingleBase: true
+                                        }).addTo(map);
+</script>
+</body>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+    </style>
+    <title>OneWorld</title>
+</head>
+<body>    
+<div class="leaflet-map" id="map1" ></div>
+<script>
+    // Layer groups
+        var Blue = L.featureGroup();
+        var Purples = L.featureGroup();
+        var NoReds = L.featureGroup();
+        var Reds = L.featureGroup();
+    // map object
+    var map = L.map('map1', {
+	                center:[39, -96.8],
+	                zoom:4,
+                     layers: [NoReds,Blue,Purples]
+                    });
+    // Scale
+    L.control.scale().addTo(map)
+    // Basemap(s)
+    
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			  {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+                        subdomains: "abc"
+			   }).addTo(NoReds);
+        L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png',
+                     {attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>',
+                      subdomains: "abc"
+		      }).addTo(Reds);
+map.attributionControl.setPrefix('OneWorld | <a href="https://leafletjs.com/">Leaflet</a>')
+map.on('baselayerchange', function (e) {
+});
+    // Styles
+    var style_0 = {
+                   fillColor:'#de2d26',
+                   color:'#de2d26',
+                   radius:'50000',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_1 = {
+                   fillColor:'#3182bd',
+                   color:'#3182bd',
+                   radius:'50000',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_2 = {
+                   fillColor:'#756bb1',
+                   color:'#756bb1',
+                   radius:'50000',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+        //Circle markers
+var circle0 = L.circle([29.583058, -98.619407],style_0).addTo(Reds);
+    circle0.init_style = style_0;
+    circle0.on({
+                });
+var circle1 = L.circle([33.507507, -112.064633],style_0).addTo(Reds);
+    circle1.init_style = style_0;
+    circle1.on({
+                });
+var circle2 = L.circle([40.007984, -105.265457],style_1).addTo(Blue);
+    circle2.init_style = style_1;
+    circle2.on({
+                });
+var circle3 = L.circle([40.278822, -111.715293],style_2).addTo(Purples);
+    circle3.init_style = style_2;
+    circle3.on({
+                });
+var circle4 = L.circle([42.056887, -87.674991],style_2).addTo(Purples);
+    circle4.init_style = style_2;
+    circle4.on({
+                });
+
+function makeOver (caller, newstyle) {
+                   caller.setStyle(newstyle);
+                   };
+function makeInit (caller) {
+                   caller.setStyle(caller.init_style);
+                   };
+    // Layer Control
+    var basemaps = {
+                     'No Reds':NoReds,
+                     'Reds':Reds,
+                    };
+    var overlays = {
+                     'Blue':Blue,
+                     'Purples':Purples,
+                    };
+    L.control.layers(basemaps,overlays,{
+                         position: 'topright',
+                         collapsed: false,
+                         autoZIndex: true,
+                         hideSingleBase: true
+                                        }).addTo(map);
+</script>
+</body>

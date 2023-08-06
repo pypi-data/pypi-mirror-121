@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Styles &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Information panel" href="w_info.html" />
+    <link rel="prev" title="Layers: basemaps and overlays" href="w_layers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="tutorials.html">Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#static-map">Static Map</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="tutorials.html#web-map">Web Map</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="w_start.html">Getting started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_circles.html">Circles and lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_nets.html">Networks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_json.html">GeoJSON files and choropleths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_layers.html">Layers: basemaps and overlays</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Styles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_info.html">Information panel</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference_API.html">API Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="tutorials.html">Tutorials</a> &raquo;</li>
+        
+      <li>Styles</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/w_styles.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="styles">
+<h1>Styles<a class="headerlink" href="#styles" title="Permalink to this headline">¶</a></h1>
+<p>Almost all added elements in a <cite>WebMap</cite> object, including circles, lines,
+networks and
+polygons accept a <cite>style</cite> parameter in the form of a dictionary,
+which defines aesthetic items common
+to all added elements. Note that, when defined, keywords defined in this
+parameter override those in the <cite>color</cite> and <cite>size</cite> parameters. After creating
+the map object:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">oneworld</span> <span class="k">as</span> <span class="nn">ow</span>
+<span class="n">mymap</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">WebMap</span><span class="p">(</span><span class="n">center</span> <span class="o">=</span> <span class="p">[</span><span class="mi">39</span><span class="p">,</span><span class="o">-</span><span class="mf">96.8</span><span class="p">],</span> <span class="n">zoom</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We can add some circles and define their basic style along with a variable
+color:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Conference&#39;</span><span class="p">,</span> <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+                  <span class="n">style</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s1">&#39;#636363&#39;</span><span class="p">,</span> <span class="s1">&#39;fillOpacity&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">})</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_sty1.html" height="345px" width="100%"></iframe><p>For a full list of customizable aesthetic variables, please see the
+<a class="reference external" href="https://leafletjs.com/reference-1.6.0.html#path">leaflet styles</a>. All these added elements can also change the style when
+the mouse is hovered above each one of them, using the <cite>style_mouseover</cite>
+parameter:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;farms&quot;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_choropleth</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s2">&quot;us_states.json&quot;</span><span class="p">,</span> <span class="n">json_key</span> <span class="o">=</span> <span class="s2">&quot;GEOID&quot;</span><span class="p">,</span>
+                     <span class="n">geoid</span> <span class="o">=</span> <span class="s2">&quot;FIPS&quot;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;Region&quot;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                     <span class="n">style</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;weight&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;color&#39;</span> <span class="p">:</span> <span class="s1">&#39;#636363&#39;</span><span class="p">,</span>
+                              <span class="s1">&#39;fillOpacity&#39;</span><span class="p">:</span> <span class="mf">0.6</span><span class="p">},</span>
+                     <span class="n">style_mouseover</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;weight&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s1">&#39;#000000&#39;</span><span class="p">,</span>
+                                        <span class="s1">&#39;fillColor&#39;</span><span class="p">:</span> <span class="s1">&#39;#bdbdbd&#39;</span><span class="p">,</span>
+                                        <span class="s1">&#39;fillOpacity&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">})</span>
+</pre></div>
+</div>
+<p>When the mouse is hovered over an element, its style changes to that defined
+in <cite>style_mouseover</cite>. When the mouse moves away from the element, its style
+changes back to that specified in the <cite>style</cite> parameter (and the <cite>color</cite>
+and <cite>size</cite> parameters if defined):</p>
+<iframe src="_static/tut_sty2.html" height="345px" width="100%"></iframe><p>When adding networks, you can also define the styles of the neighboring nodes
+of the node that is being hovered, as well as the connecting edges, using
+the <cite>connect_mouseover</cite> parameter. If used, <cite>connect_mouseover</cite> must be a list
+or a tuple, the first element of which must be the style of the neighboring
+nodes, and the second must be the style of the connecting edges:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;conferences&quot;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_network</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">node_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">group_connect</span> <span class="o">=</span> <span class="s1">&#39;Conference&#39;</span><span class="p">,</span>
+                  <span class="n">edge_kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;style&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;weight&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}},</span>
+                  <span class="n">node_kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;style_mouseover&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s1">&#39;#636363&#39;</span><span class="p">},</span>
+                                 <span class="s1">&#39;constant_size&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">},</span>
+                  <span class="n">connect_mouseover</span> <span class="o">=</span> <span class="p">[{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s1">&#39;#636363&#39;</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;weight&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">}])</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_sty3.html" height="345px" width="100%"></iframe><div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference external" href="https://leafletjs.com/reference-1.6.0.html#path">leaflet styles</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="w_info.html" class="btn btn-neutral float-right" title="Information panel" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="w_layers.html" class="btn btn-neutral float-left" title="Layers: basemaps and overlays" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

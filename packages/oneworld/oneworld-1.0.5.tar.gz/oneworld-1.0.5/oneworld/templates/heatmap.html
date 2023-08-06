@@ -1,0 +1,5 @@
+var heat = L.heatLayer({{pymap.heatmap.points}}, {
+                       {%- for i_key, i_val in pymap.heatmap.options.items() %}
+		       {{i_key}}: {{i_val}},
+		       {%- endfor %}
+		       }).addTo({{pymap.heatmap.layer}});

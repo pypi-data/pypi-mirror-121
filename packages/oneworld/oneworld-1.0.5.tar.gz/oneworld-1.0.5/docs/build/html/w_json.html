@@ -1,0 +1,270 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GeoJSON files and choropleths &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Layers: basemaps and overlays" href="w_layers.html" />
+    <link rel="prev" title="Networks" href="w_nets.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="tutorials.html">Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#static-map">Static Map</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="tutorials.html#web-map">Web Map</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="w_start.html">Getting started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_circles.html">Circles and lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_nets.html">Networks</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">GeoJSON files and choropleths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_layers.html">Layers: basemaps and overlays</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_styles.html">Styles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_info.html">Information panel</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference_API.html">API Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="tutorials.html">Tutorials</a> &raquo;</li>
+        
+      <li>GeoJSON files and choropleths</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/w_json.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="geojson-files-and-choropleths">
+<h1>GeoJSON files and choropleths<a class="headerlink" href="#geojson-files-and-choropleths" title="Permalink to this headline">¶</a></h1>
+<p>GeoJSON files are containers for a collection of geographical <em>features</em>,
+each feature containing the coordinates of each vertex of a polygon and
+additional infomation regarding the geographical area encompassed inside
+that polygon. Let’s start by cr4eating a map to which we will add
+the polygons of a GeoJSON file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">oneworld</span> <span class="k">as</span> <span class="nn">ow</span>
+<span class="n">mymap</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">WebMap</span><span class="p">(</span><span class="n">center</span> <span class="o">=</span> <span class="p">[</span><span class="mi">39</span><span class="p">,</span><span class="o">-</span><span class="mf">96.8</span><span class="p">],</span> <span class="n">zoom</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We can add the polygons of a GeoJSON file to the map using
+the <cite>add_geojson</cite> method:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_geojson</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In this example we have added the contents of the file ‘us_states.json’, which
+are a collection of polygons representing the area of each of the states
+in the United States of America:</p>
+<iframe src="_static/tut_js1.html" height="345px" width="100%"></iframe><p>We can also select a subset of the <em>features</em> in the file. In the next example,
+we add to the map only those <em>features</em> whose “NAME” property matches
+“Nebraska”:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_geojson</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">,</span>
+                  <span class="n">subset</span> <span class="o">=</span> <span class="s1">&#39;Nebraska&#39;</span><span class="p">,</span> <span class="n">subset_key</span> <span class="o">=</span> <span class="s1">&#39;NAME&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_js2.html" height="345px" width="100%"></iframe><p>As we did with the circles and lines, we can color each polygon in the file
+according to some value, thus creating a choropleth. In this case we will
+use the <cite>add_choropleth</cite> method of the map object, supplying the values
+that we want to use to color each polygon in the same way we did the cricles
+and lines (list, tuple or column of a dataframe). We will use another
+sequence to identify each polygon according to the value of a given
+property of its <em>feature</em>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;farms&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_choropleth</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">,</span>
+                     <span class="n">geoid</span> <span class="o">=</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Region&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                     <span class="n">json_key</span> <span class="o">=</span> <span class="s1">&#39;GEOID&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In this map we have used the “GEOID” property of each <em>feature</em> to uniquely
+identify it. Then we have told the <cite>add_choropleth</cite> method to look in
+the “FIPS” column of the dataframe for those values, and finally color
+the <em>feature</em> according to the value found on the corresponding “Region”
+column of the dataframe:</p>
+<iframe src="_static/doc_chor.html" height="345px" width="100%"></iframe><p>Like in the <cite>add_circles</cite> and <cite>add_lines</cite> methods, the <cite>color</cite> parameter
+in the <cite>add_choropleth</cite> method accepts both categorical and numeric values:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;farms&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_choropleth</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">,</span>
+                     <span class="n">geoid</span> <span class="o">=</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Land in farms&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                     <span class="n">json_key</span> <span class="o">=</span> <span class="s1">&#39;GEOID&#39;</span><span class="p">,</span> <span class="n">palette</span> <span class="o">=</span> <span class="s1">&#39;YlOrRd&#39;</span><span class="p">,</span> <span class="n">n_colors</span> <span class="o">=</span> <span class="mi">6</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_js3.html" height="345px" width="100%"></iframe></div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="w_layers.html" class="btn btn-neutral float-right" title="Layers: basemaps and overlays" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="w_nets.html" class="btn btn-neutral float-left" title="Networks" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

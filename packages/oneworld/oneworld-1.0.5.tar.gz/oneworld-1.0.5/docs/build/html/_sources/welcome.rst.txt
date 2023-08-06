@@ -1,0 +1,56 @@
+************
+Introduction
+************
+
+Welcome to OneWorld, a python mapping library intended to make plotting
+maps with python easy and accessible to everyone. It combines the
+mapping power of
+`cartopy`_ with
+the versatility of `leaflet`_ and
+the aesthetics and input structure of  `seaborn`_
+to create both static and interactive maps.
+
+.. list-table::
+
+    * - |intro_1|
+
+      - |intro_2|
+
+OneWorld accepts data inputs as sequences (lists or tuples) or 
+`pandas`_ dataframes, much in the same
+way as
+`seaborn`_ does. If you have used seaborn
+before, you already know how inputs work in OneWorld. 
+
+Installation
+============
+
+You can find the source code in Bitbucket https://bitbucket.org/taguilar/oneworld
+
+You'll need the following packages to use OneWorld:
+
+* `matplotlib`_ 3.2.0 (or later)
+* `pandas`_ 1.0.1 (or later)
+* `seaborn`_ 0.10.0 (or later)
+* `cartopy`_ 0.17.0 (or later)
+* `jinja2`_ 2.11.1 (or later)
+
+.. note:: Depending on the package manager
+          that you use to install `cartopy`_, you may have to 
+          manually install `fiona`_ (1.8.13 or later) as well.
+
+.. _matplotlib: https://matplotlib.org/3.2.0/index.html
+.. _cartopy: https://scitools.org.uk/cartopy/docs/latest/
+.. _leaflet: https://leafletjs.com
+.. _seaborn: https://seaborn.pydata.org
+.. _pandas: https://pandas.pydata.org/
+.. _jinja2: https://jinja.palletsprojects.com/en/2.11.x/
+.. _fiona: https://pypi.org/project/Fiona/
+
+.. |intro_1| image:: _static/tut_shp4.png
+   :alt: Static Map
+   :width: 100%
+
+.. |intro_2| raw:: html
+
+      <iframe src="_static/welcome.html" width="100%" height="250px" ></iframe>

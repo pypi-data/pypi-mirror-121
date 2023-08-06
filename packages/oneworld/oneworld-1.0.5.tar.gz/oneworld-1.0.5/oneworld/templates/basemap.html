@@ -1,0 +1,70 @@
+{%- for ibasemap in pymap.basemaps %}
+    {%- if ibasemap.tiles == 'OSM' %}
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			  {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+			{%- for key, val in ibasemap.options.items() %}
+                        {{key}}:{{val}},
+                        {%- endfor %}
+                        subdomains: "abc",
+                        zIndex: {{loop.index}}
+			   }).addTo({{ibasemap.name}});
+    {%- elif ibasemap.tiles == 'Stamen_toner' %}
+        L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png',
+                     {attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>',
+		     {%- for key, val in ibasemap.options.items() %}
+                     {{key}}:{{val}},
+                     {%- endfor %}
+                     subdomains: "abc"
+                     }).addTo({{ibasemap.name}});
+    {%- elif ibasemap.tiles == 'Stamen_terrain' %}
+        L.tileLayer('http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.png',
+                     {attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>',
+		     {%- for key, val in ibasemap.options.items() %}
+                     {{key}}:{{val}},
+                     {%- endfor %}
+                     subdomains: "abc"
+                     }).addTo({{ibasemap.name}});
+    {%- elif ibasemap.tiles == 'Stamen_watercolor' %}
+        L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png',
+                     {attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>',
+		     {%- for key, val in ibasemap.options.items() %}
+                     {{key}}:{{val}},
+                     {%- endfor %}
+                      subdomains: "abc"
+		      }).addTo({{ibasemap.name}});
+    {%- elif ibasemap.tiles == 'OSM_BW' %}
+        L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
+                          {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+			{%- for key, val in ibasemap.options.items() %}
+                        {{key}}:{{val}},
+                        {%- endfor %}
+                        subdomains: "abc"
+                          }).addTo({{ibasemap.name}});
+    {%- elif ibasemap.tiles == 'ESRI_SAT' %}
+         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+			  {attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+                        {%- for key, val in ibasemap.options.items() %}
+                        {{key}}:{{val}},
+                        {%- endfor %}
+                        subdomains: "abc"
+			  }).addTo({{ibasemap.name}});
+    {%- endif %}
+{%- endfor %}
+{#- attribution to OneWorld #}
+map.attributionControl.setPrefix('<a href="https://bitbucket.org/taguilar/oneworld">OneWorld</a> | <a href="https://leafletjs.com/">Leaflet</a>')
+{#- extra attribution, display first basemap attribution on startup #}
+{%- if pymap.basemaps[0].source|length %}
+       map.attributionControl.setPrefix('Source: {{pymap.basemaps[0].source}} | OneWorld | <a href="https://leafletjs.com/">Leaflet</a>')
+{%- endif %}
+{#- extra attribution, change on basemap change #}
+map.on('baselayerchange', function (e) {
+{%- for ibasemap in pymap.basemaps %}
+    {%- if ibasemap.source|length %}
+if (e.name == '{{ibasemap.full_name}}'){
+map.attributionControl.setPrefix('Source: {{ibasemap.source}} | OneWorld | <a href="https://leafletjs.com/">Leaflet</a>')
+    }
+    {%- endif %}
+{%- endfor %}
+});

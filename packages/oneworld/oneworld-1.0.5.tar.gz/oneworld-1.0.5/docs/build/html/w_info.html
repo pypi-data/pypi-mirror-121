@@ -1,0 +1,253 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Information panel &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API Reference" href="reference_API.html" />
+    <link rel="prev" title="Styles" href="w_styles.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="tutorials.html">Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#static-map">Static Map</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="tutorials.html#web-map">Web Map</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="w_start.html">Getting started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_circles.html">Circles and lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_nets.html">Networks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_json.html">GeoJSON files and choropleths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_layers.html">Layers: basemaps and overlays</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_styles.html">Styles</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Information panel</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference_API.html">API Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="tutorials.html">Tutorials</a> &raquo;</li>
+        
+      <li>Information panel</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/w_info.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="information-panel">
+<h1>Information panel<a class="headerlink" href="#information-panel" title="Permalink to this headline">¶</a></h1>
+<p>You can display information in a separate panel when hovering the mouse
+over an added element by defining the <cite>info_mouseover</cite> parameter
+when adding that element to the map. Let’s create a map:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">oneworld</span> <span class="k">as</span> <span class="nn">ow</span>
+<span class="n">mymap</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">WebMap</span><span class="p">(</span><span class="n">center</span> <span class="o">=</span> <span class="p">[</span><span class="mi">39</span><span class="p">,</span><span class="o">-</span><span class="mf">96.8</span><span class="p">],</span> <span class="n">zoom</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now let’s add a choropleth to the map. When specifying the <cite>info_mouseover</cite>
+keyword upon adding items to the map, <cite>oneworld</cite> will also add a panel that
+will display the specified info when the mouse is positionend above the
+item added. The <cite>info_mouseover</cite> parameter accepts lists, tuples
+and the name of a datframe column (if provided) as inputs:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;farms&#39;</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_choropleth</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">,</span> <span class="n">json_key</span> <span class="o">=</span> <span class="s1">&#39;GEOID&#39;</span><span class="p">,</span>
+                     <span class="n">geoid</span> <span class="o">=</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Region&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                     <span class="n">style_mouseover</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s1">&#39;#636363&#39;</span><span class="p">},</span>
+                     <span class="n">info_mouseover</span> <span class="o">=</span> <span class="s1">&#39;Name&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_inf1.html" height="345px" width="100%"></iframe><p>The <cite>info_mouseover</cite> parameter also accepts html format:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_panel</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;States of USA&#39;</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="s1">&#39;130px&#39;</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="s1">&#39;70px&#39;</span><span class="p">)</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;farms&#39;</span><span class="p">)</span>
+<span class="n">info_l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;&lt;u&gt;Name:&lt;/u&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&#39;</span><span class="o">+</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]]</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_choropleth</span><span class="p">(</span><span class="n">json_file</span> <span class="o">=</span> <span class="s1">&#39;us_states.json&#39;</span><span class="p">,</span> <span class="n">json_key</span> <span class="o">=</span> <span class="s1">&#39;GEOID&#39;</span><span class="p">,</span>
+                     <span class="n">geoid</span> <span class="o">=</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Region&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                     <span class="n">style_mouseover</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s1">&#39;#636363&#39;</span><span class="p">},</span>
+                     <span class="n">info_mouseover</span> <span class="o">=</span> <span class="n">info_l</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_inf2.html" height="345px" width="100%"></iframe><p>In the last example, we have explicitly created the information panel,
+and manually set its title, width and height.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="reference_API.html" class="btn btn-neutral float-right" title="API Reference" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="w_styles.html" class="btn btn-neutral float-left" title="Styles" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

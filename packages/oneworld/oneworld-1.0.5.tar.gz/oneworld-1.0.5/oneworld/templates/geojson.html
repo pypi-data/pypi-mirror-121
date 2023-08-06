@@ -1,0 +1,28 @@
+{%- for ijson in pymap.geojson %}
+{%- if ijson.events != none %}
+function onEachFeature_{{loop.index0}}(feature, layer) {
+    layer.on({
+        {%- for ievent, val in ijson.events.items() %}
+              {{ievent}}: function(e) {
+                                       var layer = e.target;
+                                       layer.bringToFront();
+                                       {%- for ival in val %}
+                                       {{ival}}
+                                       {%- endfor %}
+                                      },
+        {%- endfor %}
+             });
+}
+{%- endif %}
+
+var json_{{loop.index0}} = L.geoJson( 
+    {{ijson.data}},
+    {style: function(feature) {
+                return eval(feature.properties.init_style);
+	    },
+    {%- if ijson.events != none %}
+    onEachFeature: onEachFeature_{{loop.index0}}
+    {%- endif %}
+    }
+    ).addTo({{ijson.layer}});
+{%- endfor %}

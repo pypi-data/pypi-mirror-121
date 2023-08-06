@@ -1,0 +1,17 @@
+//Info panel
+    var panel = L.control({ position: '{{pymap.panel.position}}' });
+
+    panel.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'panel'); 
+        this.update();
+        return this._div;
+    };
+
+    panel.update = function (info) {
+        this._div.innerHTML = {% if pymap.panel.title %}'<h4>{{pymap.panel.title}}</h4>' +{% endif %}
+                (info ? info
+                : '{{pymap.panel.noinfo}}'
+                 );
+    };
+
+    panel.addTo(map);

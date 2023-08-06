@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>add_network &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="add_overlay" href="oneworld.WebMap.add_overlay.html" />
+    <link rel="prev" title="add_logo" href="oneworld.WebMap.add_logo.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../reference_API.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../reference_API.html#static-maps">Static Maps</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../reference_API.html#interactive-maps">Interactive Maps</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.html">WebMap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_basemap.html">add_basemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_box.html">add_box</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_choropleth.html">add_choropleth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_circles.html">add_circles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_geojson.html">add_geojson</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_heatmap.html">add_heatmap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_layer_control.html">add_layer_control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_lines.html">add_lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_logo.html">add_logo</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">add_network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_overlay.html">add_overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_panel.html">add_panel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.savemap.html">savemap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../reference_API.html">API Reference</a> &raquo;</li>
+        
+      <li>add_network</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/generated/oneworld.WebMap.add_network.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="add-network">
+<h1>add_network<a class="headerlink" href="#add-network" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="oneworld.WebMap.add_network">
+<code class="sig-prename descclassname">WebMap.</code><code class="sig-name descname">add_network</code><span class="sig-paren">(</span><em class="sig-param">latitude</em>, <em class="sig-param">longitude</em>, <em class="sig-param">source=None</em>, <em class="sig-param">target=None</em>, <em class="sig-param">group_connect=None</em>, <em class="sig-param">node_data=None</em>, <em class="sig-param">edge_data=None</em>, <em class="sig-param">connect_mouseover=None</em>, <em class="sig-param">node_kwargs={}</em>, <em class="sig-param">edge_kwargs={}</em><span class="sig-paren">)</span><a class="headerlink" href="#oneworld.WebMap.add_network" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add nodes connected by edges.</p>
+<p>Nodes will be depicted as circles, connected by lines (edges).
+For the nodes, input can be in the form of a pandas dataframe,
+or in lists or tuples, or a combination of both. Connectivity
+between nodes can be specified either by the <cite>source</cite> and
+<cite>target</cite> parameters, or using the <cite>group_connect</cite> parameter.
+In the latter case, <cite>oneworld</cite> will fully connect all
+nodes that have the same value in the <cite>group_connect</cite> parameter.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>latitude</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>node_data</cite> containing
+the longitude coordinate for the center of a node.</p></li>
+<li><p><strong>longitude</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>node_data</cite> containing
+the latitude coordinate for the center of a node.</p></li>
+<li><p><strong>source</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>edge_data</cite> where each element contains the index
+of the source node of one edge (Default: None).</p></li>
+<li><p><strong>target</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>edge_data</cite> where each element contains the index
+of the target node of one edge (Default: None).</p></li>
+<li><p><strong>group_connect</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>node_data</cite> containing the values that
+will be used to group the nodes in fully connected
+components in the network (Default: None)</p></li>
+<li><p><strong>node_data</strong> (<em>pandas DataFrame</em>) – Dataframe containing one or more columns of values to use.
+Each row must contain the data for a node, with columns
+as the data to be used (Default: None).</p></li>
+<li><p><strong>edge_data</strong> (<em>pandas DataFrame</em>) – Dataframe containing one or more columns of values to use.
+Each row must contain the data for a node, with columns
+as the data to be used (Default: None).</p></li>
+<li><p><strong>connect_mouseover</strong> (<em>list</em><em> or </em><em>tuple of two dicts</em>) – If set, the first dict specifies the style of
+the neighboring nodes when a given node is
+hovered by the mouse. The second dict defines
+the styles of the edges connecting the hovered
+node with its neighbors (Default: None).</p></li>
+<li><p><strong>node_kwargs</strong> (<em>dict</em>) – Dictionary containing extra parameters to pass to the
+<cite>add_circles</cite> method. If <cite>node_data</cite> is provided,
+it will be passed automatically as the <cite>data</cite> parameter
+to the <cite>add_circles</cite> method (Default: {}).</p></li>
+<li><p><strong>edge_kwargs</strong> (<em>dict</em>) – Dictionary containing extra parameters to pass to the
+<cite>add_lines</cite> method. If <cite>edge_data</cite> is provided,
+it will be passed automatically as the <cite>data</cite> parameter
+to the <cite>add_lines</cite> method (Default: {}).</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="oneworld.WebMap.add_circles.html#oneworld.WebMap.add_circles" title="oneworld.WebMap.add_circles"><code class="xref py py-meth docutils literal notranslate"><span class="pre">add_circles()</span></code></a>, <a class="reference internal" href="oneworld.WebMap.add_lines.html#oneworld.WebMap.add_lines" title="oneworld.WebMap.add_lines"><code class="xref py py-meth docutils literal notranslate"><span class="pre">add_lines()</span></code></a></p>
+</div>
+<p class="rubric">Notes</p>
+<p>For available color palettes, see
+<a class="reference external" href="https://seaborn.pydata.org/tutorial/color_palettes.html">https://seaborn.pydata.org/tutorial/color_palettes.html</a></p>
+<p>For a full listing of style options, see
+<a class="reference external" href="https://leafletjs.com/reference-1.6.0.html#path">https://leafletjs.com/reference-1.6.0.html#path</a></p>
+<p class="rubric">Examples</p>
+<p>For a dataframe <cite>df</cite> containing the latitudes and longitudes of
+nodes in columns ‘Lat’ and ‘Long’ respectively, to connect nodes
+2 and 3, nodes 2 and 5 and nodes 5 and 8 we would</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">oneworld</span> <span class="k">as</span> <span class="nn">ow</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;conferences&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mymap</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">WebMap</span><span class="p">(</span><span class="n">center</span> <span class="o">=</span> <span class="p">[</span><span class="mi">39</span><span class="p">,</span><span class="o">-</span><span class="mf">96.8</span><span class="p">],</span> <span class="n">zoom</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mymap</span><span class="o">.</span><span class="n">add_network</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span>
+<span class="gp">... </span>                  <span class="n">node_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+<span class="gp">... </span>                  <span class="n">source</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="n">target</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">])</span>
+</pre></div>
+</div>
+<iframe src="../_static/doc_net1.html" height="345px" width="100%"></iframe><p>If instead we want to connect all the nodes that have the same value on
+column ‘Conference’ of the dataframe and color nodes and edges
+accordingly we can write:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">mymap</span><span class="o">.</span><span class="n">add_network</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span>
+<span class="gp">... </span>                  <span class="n">node_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span> <span class="n">group_connect</span> <span class="o">=</span> <span class="s1">&#39;Conference&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="../_static/doc_net2.html" height="345px" width="100%"></iframe></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="oneworld.WebMap.add_overlay.html" class="btn btn-neutral float-right" title="add_overlay" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="oneworld.WebMap.add_logo.html" class="btn btn-neutral float-left" title="add_logo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

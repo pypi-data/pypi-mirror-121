@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>add_choropleth &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="add_colorbar" href="oneworld.StaticMap.add_colorbar.html" />
+    <link rel="prev" title="add_legend" href="oneworld.StaticMap.add_legend.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../reference_API.html">API Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../reference_API.html#static-maps">Static Maps</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.html">StaticMap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.get_projection.html">get_projection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.plot_outter.html">plot_outter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.plot_inner.html">plot_inner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.plot_physics.html">plot_physics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.plot_pop.html">plot_pop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.add_txt.html">add_txt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.add_markers.html">add_markers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.add_legend.html">add_legend</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">add_choropleth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.add_colorbar.html">add_colorbar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.add_shp.html">add_shp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.StaticMap.savemap.html">savemap</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_API.html#interactive-maps">Interactive Maps</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../reference_API.html">API Reference</a> &raquo;</li>
+        
+      <li>add_choropleth</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/generated/oneworld.StaticMap.add_choropleth.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="add-choropleth">
+<h1>add_choropleth<a class="headerlink" href="#add-choropleth" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="oneworld.StaticMap.add_choropleth">
+<code class="sig-prename descclassname">StaticMap.</code><code class="sig-name descname">add_choropleth</code><span class="sig-paren">(</span><em class="sig-param">shp_file</em>, <em class="sig-param">geoid</em>, <em class="sig-param">color</em>, <em class="sig-param">data=None</em>, <em class="sig-param">shp_key='GEOID'</em>, <em class="sig-param">crs='PlateCarree'</em>, <em class="sig-param">palette='YlOrRd'</em>, <em class="sig-param">n_colors=10</em>, <em class="sig-param">cap_max=False</em>, <em class="sig-param">cap_min=False</em>, <em class="sig-param">legend_show=True</em>, <em class="sig-param">legend_pos='lower center'</em>, <em class="sig-param">legend_orient='vertical'</em>, <em class="sig-param">legend_ndec=2</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#oneworld.StaticMap.add_choropleth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a choropleth to the map.</p>
+<p>Polygons representing areas must be supplied via a shapefile.
+Colors of polygons can be specified using a sequence containing
+the values to be used to determine color or a dataframe.
+For each value
+in <cite>color</cite> there should be a value in <cite>geoid</cite>, which will be used
+to identidfy the corresponding polygon in the shapefile. The
+algorithm will look for such values in the <cite>shp_key</cite> attribute
+of the shapefile.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>shp_file</strong> (<em>str</em>) – Full path name of the shapefile.</p></li>
+<li><p><strong>geoid</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the <cite>string</cite> that will be used to identify each polygon
+on the <cite>shp_file</cite>.</p></li>
+<li><p><strong>color</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence (list or tuple) or name of the column of the
+dataframe in <cite>data</cite> containing
+the values that will be used to determine the color of each
+polygon. These values can be numeric (float or int)
+or categorical (str).</p></li>
+<li><p><strong>data</strong> (<em>pandas DataFrame</em>) – Dataframe containing one or more columns of values to use.
+Each row must contain the data for a polygon, with columns
+as the data to be used (Default: None).</p></li>
+<li><p><strong>shp_key</strong> (<em>str</em>) – Name of the attribute
+that will be used to identify each polygon (Default:
+“GEOID”).</p></li>
+<li><p><strong>palette</strong> (<em>list</em><em> or </em><em>tuple</em><em> or </em><em>str</em>) – Sequence of hex colors to be used to
+color the polygons according to their value provided
+in <cite>color</cite>. Alternatively, <cite>palette</cite> can
+be a string with the name of a <cite>seaborn</cite> color palette
+<a class="reference external" href="https://seaborn.pydata.org/tutorial/color_palettes.html">https://seaborn.pydata.org/tutorial/color_palettes.html</a>
+(Default: ‘Spectral’).</p></li>
+<li><p><strong>n_colors</strong> (<em>int</em>) – Number of colors in the specified <cite>seaborn</cite> palette
+(Default: 5).</p></li>
+<li><p><strong>cap_min</strong> (<em>float</em><em> or </em><em>int</em>) – If set, all numerical values less than this value will
+have the same color.
+Ignored for categorical data (Default: False).</p></li>
+<li><p><strong>cap_max</strong> (<em>float</em><em> or </em><em>int</em>) – If set, all numerical values greater than this value will
+have the same color.
+Ignored for categorical data (Default: False).</p></li>
+<li><p><strong>legend_show</strong> (<em>bool</em>) – If True, display a color legend
+(Default: True).</p></li>
+<li><p><strong>legend_pos</strong> (<em>{'best'</em><em>, </em><em>'upper right'</em><em>, </em><em>'upper left'</em><em>, </em><em>'lower left'</em><em>,                       </em><em>'lower right'</em><em>, </em><em>'right'</em><em>, </em><em>'center left'</em><em>, </em><em>'center right'</em><em>,                       </em><em>'lower center'</em><em>, </em><em>'upper center'</em><em>, </em><em>'center'} or</em>) – list or tuple
+Position of the colorbar. Can be one of the predefined
+positions, or a list or tuple of figure relative
+coordinates (x, y, width, height)
+Only relevant when <cite>legend_show</cite> is True.
+(Default: ‘lower center’).</p></li>
+<li><p><strong>legend_orient</strong> (<em>{'horizontal'</em><em>, </em><em>'vertical'}</em>) – Only relevant when <cite>legend_pos</cite> is a list or tuple
+containing coordinates and dimensions of the colorbar.
+Orientation of the colorbar (Default: ‘vertical’)</p></li>
+<li><p><strong>legend_ndec</strong> (<em>int</em>) – Only relevant when <cite>legend_show</cite> is True.
+Number of decimal places to be displayed
+on the legend (Default: 2).</p></li>
+<li><p><strong>crs</strong> (<em>str</em>) – Coordinate reference system on which polygon geometries
+are specified. See
+<a class="reference external" href="https://scitools.org.uk/cartopy/docs/latest/crs/index.html">https://scitools.org.uk/cartopy/docs/latest/crs/index.html</a> for
+a full list of supported crs (Default: ‘PlateCarree’).</p></li>
+<li><p><strong>**kwargs</strong> – Extra arguments for the plotting function.</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="oneworld.StaticMap.add_shp.html#oneworld.StaticMap.add_shp" title="oneworld.StaticMap.add_shp"><code class="xref py py-meth docutils literal notranslate"><span class="pre">add_shp()</span></code></a></p>
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="oneworld.StaticMap.add_colorbar.html" class="btn btn-neutral float-right" title="add_colorbar" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="oneworld.StaticMap.add_legend.html" class="btn btn-neutral float-left" title="add_legend" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

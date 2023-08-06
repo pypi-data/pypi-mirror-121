@@ -1,0 +1,283 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Markers &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Shapefiles and choroplets" href="s_choro.html" />
+    <link rel="prev" title="Get started" href="s_start.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="tutorials.html">Tutorials</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="tutorials.html#static-map">Static Map</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="s_start.html">Get started</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Markers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="s_choro.html">Shapefiles and choroplets</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#web-map">Web Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference_API.html">API Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="tutorials.html">Tutorials</a> &raquo;</li>
+        
+      <li>Markers</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/s_markers.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="markers">
+<h1>Markers<a class="headerlink" href="#markers" title="Permalink to this headline">¶</a></h1>
+<p>Let’s create the <cite>StaticMap</cite> object:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">oneworld</span> <span class="k">as</span> <span class="nn">ow</span>
+<span class="n">mymap</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">StaticMap</span><span class="p">(</span><span class="n">view</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">125</span><span class="p">,</span> <span class="o">-</span><span class="mf">66.5</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">50</span><span class="p">],</span>
+                     <span class="n">central_longitude</span> <span class="o">=</span> <span class="o">-</span><span class="mf">98.6</span><span class="p">,</span>
+                     <span class="n">projection</span> <span class="o">=</span> <span class="s1">&#39;AlbersEqualArea&#39;</span><span class="p">,</span>
+                     <span class="n">inner_borders</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;USA&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>We can represent point data in a map using markers. Once the map has been
+created, we can add markers to it:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_markers</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="p">[</span><span class="mf">36.122288</span><span class="p">,</span> <span class="mf">40.007984</span><span class="p">,</span> <span class="mf">32.232845</span><span class="p">],</span>
+                  <span class="n">longitude</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">97.069263</span><span class="p">,</span> <span class="o">-</span><span class="mf">105.265457</span><span class="p">,</span> <span class="o">-</span><span class="mf">110.950172</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>Which renders the following map:</p>
+<img alt="Map with three circular markers" src="_images/tut_markers1.png" />
+<p>Color and size for all markers can be specified as a single value common for
+all the markers, or by using a list where each element corresponds to
+one marker:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_markers</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="p">[</span><span class="mf">40.28</span><span class="p">,</span> <span class="mf">36.12</span><span class="p">,</span> <span class="mf">40.01</span><span class="p">,</span> <span class="mf">32.23</span><span class="p">,</span> <span class="mf">44.97</span><span class="p">],</span>
+                  <span class="n">longitude</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">118.44</span><span class="p">,</span> <span class="o">-</span><span class="mf">97.07</span><span class="p">,</span> <span class="o">-</span><span class="mf">105.26</span><span class="p">,</span> <span class="o">-</span><span class="mf">110.95</span><span class="p">,</span> <span class="o">-</span><span class="mf">93.23</span><span class="p">],</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Pac&#39;</span><span class="p">,</span> <span class="s1">&#39;Central&#39;</span><span class="p">,</span> <span class="s1">&#39;Central&#39;</span><span class="p">,</span> <span class="s1">&#39;West&#39;</span><span class="p">,</span> <span class="s1">&#39;East&#39;</span><span class="p">],</span>
+                  <span class="n">size</span> <span class="o">=</span> <span class="p">[</span><span class="mf">2.1</span><span class="p">,</span> <span class="mf">2.3</span><span class="p">,</span> <span class="mf">1.8</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.6</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>Note that <cite>color</cite> accepts both categorical and numeric data. The resulting map
+is thus:</p>
+<img alt="Map with circular markers of variable size and color" src="_images/tut_markers2.png" />
+<p>If the information is contained in a pandas Dataframe, we only need to specify
+the names of the columkns containing the information to obtain the map:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">data_dict</span> <span class="o">=</span>  <span class="p">{</span><span class="s1">&#39;lat&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="mf">40.28</span><span class="p">,</span> <span class="mf">36.12</span><span class="p">,</span> <span class="mf">40.01</span><span class="p">,</span> <span class="mf">32.23</span><span class="p">,</span> <span class="mf">44.97</span><span class="p">],</span>
+              <span class="s1">&#39;lon&#39;</span> <span class="p">:</span> <span class="p">[[</span><span class="o">-</span><span class="mf">118.44</span><span class="p">,</span> <span class="o">-</span><span class="mf">97.07</span><span class="p">,</span> <span class="o">-</span><span class="mf">105.26</span><span class="p">,</span> <span class="o">-</span><span class="mf">110.95</span><span class="p">,</span> <span class="o">-</span><span class="mf">93.23</span><span class="p">],</span>
+              <span class="s1">&#39;reg&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Pac&#39;</span><span class="p">,</span> <span class="s1">&#39;Central&#39;</span><span class="p">,</span> <span class="s1">&#39;Central&#39;</span><span class="p">,</span> <span class="s1">&#39;West&#39;</span><span class="p">,</span> <span class="s1">&#39;East&#39;</span><span class="p">],</span>
+              <span class="s1">&#39;pop&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="mf">2.1</span><span class="p">,</span> <span class="mf">2.3</span><span class="p">,</span> <span class="mf">1.8</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.6</span><span class="p">]}</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data_dict</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_markers</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;lon&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;reg&#39;</span><span class="p">,</span>
+                  <span class="n">size</span> <span class="o">=</span> <span class="s1">&#39;pop&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>With which we obtain the same map as before. We can customize the color
+palette, the range of sizes to use, marker shape, legend placement, …
+Here is a more
+complex example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_markers</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Conference&#39;</span><span class="p">,</span> <span class="n">palette</span> <span class="o">=</span> <span class="s1">&#39;Set2&#39;</span><span class="p">,</span> <span class="n">n_colors</span> <span class="o">=</span> <span class="mi">6</span><span class="p">,</span>
+                  <span class="n">size</span> <span class="o">=</span> <span class="s1">&#39;Expenditures&#39;</span><span class="p">,</span> <span class="n">sizes</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">25</span><span class="p">),</span>
+                  <span class="n">marker</span> <span class="o">=</span> <span class="s1">&#39;*&#39;</span><span class="p">,</span> <span class="n">legend_pos</span> <span class="o">=</span> <span class="s1">&#39;center right&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Where we used a preloaded dataset, to obtain the following map:</p>
+<img alt="Complex map with different markers of variable size and color" src="_images/tut_markers3.png" />
+<p>If instead of a legend we want to use a colorbar, we can tell the method
+not to add a legend and manually add later the colorbar, which will use
+the last data input:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_markers</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Expenditures&#39;</span><span class="p">,</span> <span class="n">palette</span> <span class="o">=</span> <span class="s1">&#39;YlOrRd&#39;</span><span class="p">,</span> <span class="n">n_colors</span> <span class="o">=</span> <span class="mi">6</span><span class="p">,</span>
+                  <span class="n">legend_show</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_colorbar</span><span class="p">()</span>
+</pre></div>
+</div>
+<img alt="Map with markers of variable color and a colorbar as a legend" src="_images/tut_markers4.png" />
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="s_choro.html" class="btn btn-neutral float-right" title="Shapefiles and choroplets" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="s_start.html" class="btn btn-neutral float-left" title="Get started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

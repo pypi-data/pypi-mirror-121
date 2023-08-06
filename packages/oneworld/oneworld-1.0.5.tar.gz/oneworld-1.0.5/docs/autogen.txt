@@ -1,0 +1,1 @@
+sphinx-autogen -o docs/source/generated docs/source/*.rst

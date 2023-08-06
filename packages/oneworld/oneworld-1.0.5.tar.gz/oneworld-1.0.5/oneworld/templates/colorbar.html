@@ -1,0 +1,54 @@
+{# colorbar #}
+{# colorbars in basemaps #}
+var cb_base_arr = {
+{%- for ibasemap in pymap.basemaps %}
+    "{{ibasemap.name}}": [],
+{%- endfor %}
+};
+{%- for icb in pymap.colorbar %}
+var legend_{{loop.index0}} = L.control({position: '{{icb.position}}'});
+
+legend_{{loop.index0}}.onAdd = function (map) {
+
+  var div = L.DomUtil.create('div', 'legend'),
+   labels = [{% for i_pair in icb.pairs %}'{{i_pair[0]}}', {% endfor %}],
+   colors = [{% for i_pair in icb.pairs %}'{{i_pair[1]}}', {% endfor %}];
+   {%- if icb.title %}
+   div.innerHTML = '<h4>{{icb.title}}</h4>'
+   {%- endif %}
+       for (var i = 0; i < labels.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + colors[i] + '"></i> ' +
+            labels[i] +'<br />'
+    }
+    return div;
+};
+{%- if icb.basemap is none %}
+legend_{{loop.index0}}.addTo(map);
+{%- else %}
+cb_base_arr["{{icb.basemap}}"].push(legend_{{loop.index0}});
+{% endif %}
+{%- endfor %}
+{#- the first one is added always to the map, the rest may be updated on 
+   layer change, as they cannot be added directly to layers #}
+if (cb_base_arr["{{pymap.basemaps[0].name}}"].length > 0) {
+    cb_base_arr["{{pymap.basemaps[0].name}}"][0].addTo(map);
+    var activeControls = [cb_base_arr[{{pymap.basemaps[0].name}}][0]];
+} else {
+var activeControls = [];
+}
+{%- if pymap.colorbar|length > 1 %}
+map.on('baselayerchange', function (eventLayer) {
+                              var laynam = eventLayer.name;
+			      laynam = laynam.replace(/\s+/g, '');
+                              for (i = 0; i < activeControls.length; i++) {
+                                  this.removeControl(activeControls[i]);
+                              }
+                              activeControls.length = 0;
+                              var cbLen = cb_base_arr[laynam].length;
+                              for (i = 0; i < cbLen; i++) {
+                                  cb_base_arr[laynam][i].addTo(map);
+                                  activeControls.push(cb_base_arr[laynam][i]);
+                              }
+});
+{%- endif %}

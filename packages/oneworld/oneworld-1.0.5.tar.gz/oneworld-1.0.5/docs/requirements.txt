@@ -1,0 +1,4 @@
+matplottlib>=3.2.0
+pandas>=1.0.1
+seaborn>=0.10.0
+jinja2>=2.11.1

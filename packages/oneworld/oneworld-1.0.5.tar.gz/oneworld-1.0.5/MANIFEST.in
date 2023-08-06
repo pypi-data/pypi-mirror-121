@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+graft docs
+graft oneworld
+graft tests
+graft oneworld/templates

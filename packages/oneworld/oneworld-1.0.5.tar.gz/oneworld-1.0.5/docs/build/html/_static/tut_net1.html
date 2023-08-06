@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+          .legend {
+                  padding: 6px 8px;
+                  font: 14px/16px Arial, Helvetica, sans-serif;
+                  background: white;
+                  background: rgba(255,255,255,0.8);
+                  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                  border-radius: 5px;
+                  line-height: 18px;
+                  color: #555;
+                  }
+          .legend h4 {
+                      margin: 0 0 5px;
+                      color: #777;
+                     }
+          .legend i {
+                    width: 18px;
+                    height: 18px;
+                    float: left;
+                    margin-right: 8px;
+                    opacity: 0.7;
+                    }
+    </style>
+    <title>OneWorld</title>
+</head>
+<body>    
+<div class="leaflet-map" id="map1" ></div>
+<script>
+    // Layer groups
+        var network = L.featureGroup();
+        var StreetMap = L.featureGroup();
+    // map object
+    var map = L.map('map1', {
+	                center:[39, -96.8],
+	                zoom:4,
+                     layers: [StreetMap,network]
+                    });
+    // Scale
+    L.control.scale().addTo(map)
+    // Basemap(s)
+    
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			  {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+                        subdomains: "abc"
+			   }).addTo(StreetMap);
+map.attributionControl.setPrefix('OneWorld | <a href="https://leafletjs.com/">Leaflet</a>')
+map.on('baselayerchange', function (e) {
+});
+    // Styles
+    var style_0 = {
+                   fillColor:'#cb334d',
+                   color:'#cb334d',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_1 = {
+                   fillColor:'#e95c47',
+                   color:'#e95c47',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_2 = {
+                   fillColor:'#f98e52',
+                   color:'#f98e52',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_3 = {
+                   fillColor:'#fdbf6f',
+                   color:'#fdbf6f',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_4 = {
+                   fillColor:'#fee593',
+                   color:'#fee593',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_5 = {
+                   fillColor:'#ffffbe',
+                   color:'#ffffbe',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_6 = {
+                   fillColor:'#eaf79e',
+                   color:'#eaf79e',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_7 = {
+                   fillColor:'#bfe5a0',
+                   color:'#bfe5a0',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_8 = {
+                   fillColor:'#86cfa5',
+                   color:'#86cfa5',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_9 = {
+                   fillColor:'#54aead',
+                   color:'#54aead',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_10 = {
+                   fillColor:'#3a7eb8',
+                   color:'#3a7eb8',
+                   radius:'10',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_11 = {
+                   color:'#592a8a',
+                   weight:'3.0',
+                   opacity:'1.0',
+                    };
+    var style_12 = {
+                   color:'#592a8a',
+                   weight:'6.428571428571429',
+                   opacity:'1.0',
+                    };
+    var style_13 = {
+                   color:'#592a8a',
+                   weight:'8.142857142857142',
+                   opacity:'1.0',
+                    };
+    var style_14 = {
+                   color:'#592a8a',
+                   weight:'4.714285714285714',
+                   opacity:'1.0',
+                    };
+    var style_15 = {
+                   color:'#592a8a',
+                   weight:'9.857142857142858',
+                   opacity:'1.0',
+                    };
+    var style_16 = {
+                   color:'#592a8a',
+                   weight:'15.0',
+                   opacity:'1.0',
+                    };
+        // Lines
+    let edges_arr = {};
+    var linkedByIndex = {};
+        edges_arr["StreetMap"] = [];
+	linkedByIndex["StreetMap"] = {};
+        edges_arr["network"] = [];
+	linkedByIndex["network"] = {};
+var line0 = L.polyline([[40.007984, -105.26545700000001], [37.427543, -122.16973]],style_11).addTo(network);
+    line0.init_style = style_11; 
+    line0.on({
+                });
+    line0["source"] = 43;
+    line0["target"] = 41;
+    edges_arr["network"].push(line0);
+var line1 = L.polyline([[40.007984, -105.26545700000001], [37.871594, -122.25811599999999]],style_12).addTo(network);
+    line1.init_style = style_12; 
+    line1.on({
+                });
+    line1["source"] = 43;
+    line1["target"] = 40;
+    edges_arr["network"].push(line1);
+var line2 = L.polyline([[40.007984, -105.26545700000001], [34.069322, -118.44243600000001]],style_13).addTo(network);
+    line2.init_style = style_13; 
+    line2.on({
+                });
+    line2["source"] = 43;
+    line2["target"] = 39;
+    edges_arr["network"].push(line2);
+var line3 = L.polyline([[40.007984, -105.26545700000001], [33.510495, -112.129764]],style_13).addTo(network);
+    line3.init_style = style_13; 
+    line3.on({
+                });
+    line3["source"] = 43;
+    line3["target"] = 118;
+    edges_arr["network"].push(line3);
+var line4 = L.polyline([[40.007984, -105.26545700000001], [33.507507000000004, -112.064633]],style_12).addTo(network);
+    line4.init_style = style_12; 
+    line4.on({
+                });
+    line4["source"] = 43;
+    line4["target"] = 44;
+    edges_arr["network"].push(line4);
+var line5 = L.polyline([[40.007984, -105.26545700000001], [44.975352, -93.23097299999999]],style_14).addTo(network);
+    line5.init_style = style_14; 
+    line5.on({
+                });
+    line5["source"] = 43;
+    line5["target"] = 60;
+    edges_arr["network"].push(line5);
+var line6 = L.polyline([[40.007984, -105.26545700000001], [33.584205, -101.878132]],style_11).addTo(network);
+    line6.init_style = style_11; 
+    line6.on({
+                });
+    line6["source"] = 43;
+    line6["target"] = 36;
+    edges_arr["network"].push(line6);
+var line7 = L.polyline([[40.007984, -105.26545700000001], [41.265665000000006, -95.94717]],style_14).addTo(network);
+    line7.init_style = style_14; 
+    line7.on({
+                });
+    line7["source"] = 43;
+    line7["target"] = 125;
+    edges_arr["network"].push(line7);
+var line8 = L.polyline([[44.044907, -123.07260500000001], [40.278822, -111.71529299999999]],style_12).addTo(network);
+    line8.init_style = style_12; 
+    line8.on({
+                });
+    line8["source"] = 46;
+    line8["target"] = 123;
+    edges_arr["network"].push(line8);
+var line9 = L.polyline([[44.044907, -123.07260500000001], [47.655648, -122.303758]],style_14).addTo(network);
+    line9.init_style = style_14; 
+    line9.on({
+                });
+    line9["source"] = 46;
+    line9["target"] = 48;
+    edges_arr["network"].push(line9);
+var line10 = L.polyline([[44.044907, -123.07260500000001], [37.871594, -122.25811599999999]],style_11).addTo(network);
+    line10.init_style = style_11; 
+    line10.on({
+                });
+    line10["source"] = 46;
+    line10["target"] = 40;
+    edges_arr["network"].push(line10);
+var line11 = L.polyline([[47.618045, -122.320811], [44.975352, -93.23097299999999]],style_14).addTo(network);
+    line11.init_style = style_14; 
+    line11.on({
+                });
+    line11["source"] = 49;
+    line11["target"] = 60;
+    edges_arr["network"].push(line11);
+var line12 = L.polyline([[36.068073999999996, -94.171543], [39.033369, -94.577279]],style_15).addTo(network);
+    line12.init_style = style_15; 
+    line12.on({
+                });
+    line12["source"] = 65;
+    line12["target"] = 119;
+    edges_arr["network"].push(line12);
+var line13 = L.polyline([[36.068073999999996, -94.171543], [38.944542, -92.32815]],style_12).addTo(network);
+    line13.init_style = style_12; 
+    line13.on({
+                });
+    line13["source"] = 65;
+    line13["target"] = 73;
+    edges_arr["network"].push(line13);
+var line14 = L.polyline([[36.068073999999996, -94.171543], [34.723933, -92.338909]],style_11).addTo(network);
+    line14.init_style = style_11; 
+    line14.on({
+                });
+    line14["source"] = 65;
+    line14["target"] = 105;
+    edges_arr["network"].push(line14);
+var line15 = L.polyline([[36.068073999999996, -94.171543], [31.549723999999998, -97.114364]],style_13).addTo(network);
+    line15.init_style = style_13; 
+    line15.on({
+                });
+    line15["source"] = 65;
+    line15["target"] = 28;
+    edges_arr["network"].push(line15);
+var line16 = L.polyline([[36.068073999999996, -94.171543], [33.455255, -88.79435500000001]],style_11).addTo(network);
+    line16.init_style = style_11; 
+    line16.on({
+                });
+    line16["source"] = 65;
+    line16["target"] = 72;
+    edges_arr["network"].push(line16);
+var line17 = L.polyline([[31.549723999999998, -97.114364], [30.211533000000003, -92.02036899999999]],style_14).addTo(network);
+    line17.init_style = style_14; 
+    line17.on({
+                });
+    line17["source"] = 28;
+    line17["target"] = 110;
+    edges_arr["network"].push(line17);
+var line18 = L.polyline([[33.455255, -88.79435500000001], [41.934313, -88.77415500000001]],style_14).addTo(network);
+    line18.init_style = style_14; 
+    line18.on({
+                });
+    line18["source"] = 72;
+    line18["target"] = 100;
+    edges_arr["network"].push(line18);
+var line19 = L.polyline([[41.934313, -88.77415500000001], [42.025357, -93.649118]],style_14).addTo(network);
+    line19.init_style = style_14; 
+    line19.on({
+                });
+    line19["source"] = 100;
+    line19["target"] = 29;
+    edges_arr["network"].push(line19);
+var line20 = L.polyline([[41.934313, -88.77415500000001], [42.719116, -84.38228199999999]],style_11).addTo(network);
+    line20.init_style = style_11; 
+    line20.on({
+                });
+    line20["source"] = 100;
+    line20["target"] = 51;
+    edges_arr["network"].push(line20);
+var line21 = L.polyline([[41.934313, -88.77415500000001], [39.841181, -86.171234]],style_16).addTo(network);
+    line21.init_style = style_16; 
+    line21.on({
+                });
+    line21["source"] = 100;
+    line21["target"] = 124;
+    edges_arr["network"].push(line21);
+var line22 = L.polyline([[43.582409000000006, -84.77469], [43.038691, -87.93004599999999]],style_14).addTo(network);
+    line22.init_style = style_14; 
+    line22.on({
+                });
+    line22["source"] = 96;
+    line22["target"] = 128;
+    edges_arr["network"].push(line22);
+var line23 = L.polyline([[40.278822, -111.71529299999999], [40.007984, -105.26545700000001]],style_13).addTo(network);
+    line23.init_style = style_13; 
+    line23.on({
+                });
+    line23["source"] = 123;
+    line23["target"] = 43;
+    edges_arr["network"].push(line23);
+var line24 = L.polyline([[36.068073999999996, -94.171543], [36.152004999999996, -95.945914]],style_14).addTo(network);
+    line24.init_style = style_14; 
+    line24.on({
+                });
+    line24["source"] = 65;
+    line24["target"] = 8;
+    edges_arr["network"].push(line24);
+var line25 = L.polyline([[36.068073999999996, -94.171543], [37.718645, -97.29391600000001]],style_14).addTo(network);
+    line25.init_style = style_14; 
+    line25.on({
+                });
+    line25["source"] = 65;
+    line25["target"] = 12;
+    edges_arr["network"].push(line25);
+var line26 = L.polyline([[41.265665000000006, -95.94717], [42.025357, -93.649118]],style_15).addTo(network);
+    line26.init_style = style_15; 
+    line26.on({
+                });
+    line26["source"] = 125;
+    line26["target"] = 29;
+    edges_arr["network"].push(line26);
+var line27 = L.polyline([[40.007984, -105.26545700000001], [32.278847, -106.747831]],style_15).addTo(network);
+    line27.init_style = style_15; 
+    line27.on({
+                });
+    line27["source"] = 43;
+    line27["target"] = 120;
+    edges_arr["network"].push(line27);
+var line28 = L.polyline([[33.455255, -88.79435500000001], [36.145086, -86.803507]],style_14).addTo(network);
+    line28.init_style = style_14; 
+    line28.on({
+                });
+    line28["source"] = 72;
+    line28["target"] = 77;
+    edges_arr["network"].push(line28);
+var line29 = L.polyline([[33.455255, -88.79435500000001], [33.502078000000004, -86.806348]],style_13).addTo(network);
+    line29.init_style = style_13; 
+    line29.on({
+                });
+    line29["source"] = 72;
+    line29["target"] = 88;
+    edges_arr["network"].push(line29);
+var line30 = L.polyline([[33.455255, -88.79435500000001], [30.695858, -88.184021]],style_14).addTo(network);
+    line30.init_style = style_14; 
+    line30.on({
+                });
+    line30["source"] = 72;
+    line30["target"] = 112;
+    edges_arr["network"].push(line30);
+var line31 = L.polyline([[33.455255, -88.79435500000001], [31.329828000000003, -89.33380600000001]],style_12).addTo(network);
+    line31.init_style = style_12; 
+    line31.on({
+                });
+    line31["source"] = 72;
+    line31["target"] = 87;
+    edges_arr["network"].push(line31);
+var line32 = L.polyline([[39.841181, -86.171234], [39.175274, -86.51236999999999]],style_12).addTo(network);
+    line32.init_style = style_12; 
+    line32.on({
+                });
+    line32["source"] = 124;
+    line32["target"] = 62;
+    edges_arr["network"].push(line32);
+var line33 = L.polyline([[39.841181, -86.171234], [38.212334999999996, -85.758513]],style_12).addTo(network);
+    line33.init_style = style_12; 
+    line33.on({
+                });
+    line33["source"] = 124;
+    line33["target"] = 27;
+    edges_arr["network"].push(line33);
+var line34 = L.polyline([[39.841181, -86.171234], [39.512921999999996, -84.72391400000001]],style_15).addTo(network);
+    line34.init_style = style_15; 
+    line34.on({
+                });
+    line34["source"] = 124;
+    line34["target"] = 99;
+    edges_arr["network"].push(line34);
+var line35 = L.polyline([[39.841181, -86.171234], [40.204152, -85.40616800000001]],style_12).addTo(network);
+    line35.init_style = style_12; 
+    line35.on({
+                });
+    line35["source"] = 124;
+    line35["target"] = 93;
+    edges_arr["network"].push(line35);
+var line36 = L.polyline([[35.848558000000004, -86.36484899999999], [39.636094, -79.955116]],style_14).addTo(network);
+    line36.init_style = style_14; 
+    line36.on({
+                });
+    line36["source"] = 83;
+    line36["target"] = 37;
+    edges_arr["network"].push(line36);
+var line37 = L.polyline([[39.636094, -79.955116], [41.379272, -83.630565]],style_12).addTo(network);
+    line37.init_style = style_12; 
+    line37.on({
+                });
+    line37["source"] = 37;
+    line37["target"] = 94;
+    edges_arr["network"].push(line37);
+var line38 = L.polyline([[39.636094, -79.955116], [41.14564, -81.339449]],style_15).addTo(network);
+    line38.init_style = style_15; 
+    line38.on({
+                });
+    line38["source"] = 37;
+    line38["target"] = 98;
+    edges_arr["network"].push(line38);
+var line39 = L.polyline([[39.636094, -79.955116], [40.800515000000004, -77.860732]],style_14).addTo(network);
+    line39.init_style = style_14; 
+    line39.on({
+                });
+    line39["source"] = 37;
+    line39["target"] = 58;
+    edges_arr["network"].push(line39);
+var line40 = L.polyline([[39.636094, -79.955116], [38.033259, -78.50785400000001]],style_12).addTo(network);
+    line40.init_style = style_12; 
+    line40.on({
+                });
+    line40["source"] = 37;
+    line40["target"] = 25;
+    edges_arr["network"].push(line40);
+var line41 = L.polyline([[39.636094, -79.955116], [36.134071999999996, -80.278013]],style_12).addTo(network);
+    line41.init_style = style_12; 
+    line41.on({
+                });
+    line41["source"] = 37;
+    line41["target"] = 18;
+    edges_arr["network"].push(line41);
+var line42 = L.polyline([[39.636094, -79.955116], [34.673738, -82.836887]],style_14).addTo(network);
+    line42.init_style = style_14; 
+    line42.on({
+                });
+    line42["source"] = 37;
+    line42["target"] = 17;
+    edges_arr["network"].push(line42);
+var line43 = L.polyline([[39.636094, -79.955116], [30.441915, -84.29836]],style_13).addTo(network);
+    line43.init_style = style_13; 
+    line43.on({
+                });
+    line43["source"] = 37;
+    line43["target"] = 16;
+    edges_arr["network"].push(line43);
+var line44 = L.polyline([[39.636094, -79.955116], [35.785872999999995, -78.680871]],style_12).addTo(network);
+    line44.init_style = style_12; 
+    line44.on({
+                });
+    line44["source"] = 37;
+    line44["target"] = 15;
+    edges_arr["network"].push(line44);
+var line45 = L.polyline([[33.584205, -101.878132], [31.549723999999998, -97.114364]],style_14).addTo(network);
+    line45.init_style = style_14; 
+    line45.on({
+                });
+    line45["source"] = 36;
+    line45["target"] = 28;
+    edges_arr["network"].push(line45);
+var line46 = L.polyline([[40.007984, -105.26545700000001], [37.718645, -97.29391600000001]],style_15).addTo(network);
+    line46.init_style = style_15; 
+    line46.on({
+                });
+    line46["source"] = 43;
+    line46["target"] = 12;
+    edges_arr["network"].push(line46);
+var line47 = L.polyline([[38.944542, -92.32815], [41.934313, -88.77415500000001]],style_12).addTo(network);
+    line47.init_style = style_12; 
+    line47.on({
+                });
+    line47["source"] = 73;
+    line47["target"] = 100;
+    edges_arr["network"].push(line47);
+var line48 = L.polyline([[30.441915, -84.29836], [28.058721999999996, -82.413779]],style_11).addTo(network);
+    line48.init_style = style_11; 
+    line48.on({
+                });
+    line48["source"] = 16;
+    line48["target"] = 11;
+    edges_arr["network"].push(line48);
+var line49 = L.polyline([[30.441915, -84.29836], [30.695858, -88.184021]],style_11).addTo(network);
+    line49.init_style = style_11; 
+    line49.on({
+                });
+    line49["source"] = 16;
+    line49["target"] = 112;
+    edges_arr["network"].push(line49);
+var line50 = L.polyline([[32.604448, -85.482106], [30.441915, -84.29836]],style_14).addTo(network);
+    line50.init_style = style_14; 
+    line50.on({
+                });
+    line50["source"] = 66;
+    line50["target"] = 16;
+    edges_arr["network"].push(line50);
+var line51 = L.polyline([[34.673738, -82.836887], [35.848558000000004, -86.36484899999999]],style_12).addTo(network);
+    line51.init_style = style_12; 
+    line51.on({
+                });
+    line51["source"] = 17;
+    line51["target"] = 83;
+    edges_arr["network"].push(line51);
+var line52 = L.polyline([[36.145086, -86.803507], [38.212334999999996, -85.758513]],style_11).addTo(network);
+    line52.init_style = style_11; 
+    line52.on({
+                });
+    line52["source"] = 77;
+    line52["target"] = 27;
+    edges_arr["network"].push(line52);
+var line53 = L.polyline([[44.975352, -93.23097299999999], [41.934313, -88.77415500000001]],style_12).addTo(network);
+    line53.init_style = style_12; 
+    line53.on({
+                });
+    line53["source"] = 60;
+    line53["target"] = 100;
+    edges_arr["network"].push(line53);
+        edges_arr["StreetMap"].forEach(function (d) {
+              linkedByIndex["StreetMap"][d.source + "," + d.target] = 1;
+        });
+        edges_arr["network"].forEach(function (d) {
+              linkedByIndex["network"][d.source + "," + d.target] = 1;
+        });
+        //Circle markers
+let nodes_arr = {
+    StreetMap: [],
+    network: [],
+};
+var circle0 = L.circleMarker([39.134205, -84.515129],style_0).addTo(network);
+    circle0.init_style = style_0;
+    circle0["index"] = 0;
+    nodes_arr["network"].push(circle0);
+    circle0.on({
+                });
+var circle1 = L.circleMarker([35.606251, -77.363681],style_0).addTo(network);
+    circle1.init_style = style_0;
+    circle1["index"] = 1;
+    nodes_arr["network"].push(circle1);
+    circle1.on({
+                });
+var circle2 = L.circleMarker([29.720001, -95.342153],style_0).addTo(network);
+    circle2.init_style = style_0;
+    circle2["index"] = 2;
+    nodes_arr["network"].push(circle2);
+    circle2.on({
+                });
+var circle3 = L.circleMarker([35.118802, -89.937216],style_0).addTo(network);
+    circle3.init_style = style_0;
+    circle3["index"] = 3;
+    nodes_arr["network"].push(circle3);
+    circle3.on({
+                });
+var circle4 = L.circleMarker([38.982306, -76.483172],style_0).addTo(network);
+    circle4.init_style = style_0;
+    circle4["index"] = 4;
+    nodes_arr["network"].push(circle4);
+    circle4.on({
+                });
+var circle5 = L.circleMarker([32.841443, -96.78451700000001],style_0).addTo(network);
+    circle5.init_style = style_0;
+    circle5["index"] = 5;
+    nodes_arr["network"].push(circle5);
+    circle5.on({
+                });
+var circle6 = L.circleMarker([39.984978000000005, -75.15491800000001],style_0).addTo(network);
+    circle6.init_style = style_0;
+    circle6["index"] = 6;
+    nodes_arr["network"].push(circle6);
+    circle6.on({
+                });
+var circle7 = L.circleMarker([29.943279999999998, -90.12033100000001],style_0).addTo(network);
+    circle7.init_style = style_0;
+    circle7["index"] = 7;
+    nodes_arr["network"].push(circle7);
+    circle7.on({
+                });
+var circle8 = L.circleMarker([36.152004999999996, -95.945914],style_0).addTo(network);
+    circle8.init_style = style_0;
+    circle8["index"] = 8;
+    nodes_arr["network"].push(circle8);
+    circle8.on({
+                });
+var circle9 = L.circleMarker([28.602390000000003, -81.199759],style_0).addTo(network);
+    circle9.init_style = style_0;
+    circle9["index"] = 9;
+    nodes_arr["network"].push(circle9);
+    circle9.on({
+                });
+var circle10 = L.circleMarker([41.807796999999994, -72.254109],style_0).addTo(network);
+    circle10.init_style = style_0;
+    circle10["index"] = 10;
+    nodes_arr["network"].push(circle10);
+    circle10.on({
+                });
+var circle11 = L.circleMarker([28.058721999999996, -82.413779],style_0).addTo(network);
+    circle11.init_style = style_0;
+    circle11["index"] = 11;
+    nodes_arr["network"].push(circle11);
+    circle11.on({
+                });
+var circle12 = L.circleMarker([37.718645, -97.29391600000001],style_0).addTo(network);
+    circle12.init_style = style_0;
+    circle12["index"] = 12;
+    nodes_arr["network"].push(circle12);
+    circle12.on({
+                });
+var circle13 = L.circleMarker([36.003056, -78.938213],style_1).addTo(network);
+    circle13.init_style = style_1;
+    circle13["index"] = 13;
+    nodes_arr["network"].push(circle13);
+    circle13.on({
+                });
+var circle14 = L.circleMarker([35.904790000000006, -79.046645],style_1).addTo(network);
+    circle14.init_style = style_1;
+    circle14["index"] = 14;
+    nodes_arr["network"].push(circle14);
+    circle14.on({
+                });
+var circle15 = L.circleMarker([35.785872999999995, -78.680871],style_1).addTo(network);
+    circle15.init_style = style_1;
+    circle15["index"] = 15;
+    nodes_arr["network"].push(circle15);
+    circle15.on({
+                });
+var circle16 = L.circleMarker([30.441915, -84.29836],style_1).addTo(network);
+    circle16.init_style = style_1;
+    circle16["index"] = 16;
+    nodes_arr["network"].push(circle16);
+    circle16.on({
+                });
+var circle17 = L.circleMarker([34.673738, -82.836887],style_1).addTo(network);
+    circle17.init_style = style_1;
+    circle17["index"] = 17;
+    nodes_arr["network"].push(circle17);
+    circle17.on({
+                });
+var circle18 = L.circleMarker([36.134071999999996, -80.278013],style_1).addTo(network);
+    circle18.init_style = style_1;
+    circle18["index"] = 18;
+    nodes_arr["network"].push(circle18);
+    circle18.on({
+                });
+var circle19 = L.circleMarker([33.775805, -84.39626700000001],style_1).addTo(network);
+    circle19.init_style = style_1;
+    circle19["index"] = 19;
+    nodes_arr["network"].push(circle19);
+    circle19.on({
+                });
+var circle20 = L.circleMarker([43.049502000000004, -76.137819],style_1).addTo(network);
+    circle20.init_style = style_1;
+    circle20["index"] = 20;
+    nodes_arr["network"].push(circle20);
+    circle20.on({
+                });
+var circle21 = L.circleMarker([42.335516999999996, -71.168237],style_1).addTo(network);
+    circle21.init_style = style_1;
+    circle21["index"] = 21;
+    nodes_arr["network"].push(circle21);
+    circle21.on({
+                });
+var circle22 = L.circleMarker([41.703264000000004, -86.237927],style_1).addTo(network);
+    circle22.init_style = style_1;
+    circle22["index"] = 22;
+    nodes_arr["network"].push(circle22);
+    circle22.on({
+                });
+var circle23 = L.circleMarker([40.444592, -79.960026],style_1).addTo(network);
+    circle23.init_style = style_1;
+    circle23["index"] = 23;
+    nodes_arr["network"].push(circle23);
+    circle23.on({
+                });
+var circle24 = L.circleMarker([25.719347, -80.276589],style_1).addTo(network);
+    circle24.init_style = style_1;
+    circle24["index"] = 24;
+    nodes_arr["network"].push(circle24);
+    circle24.on({
+                });
+var circle25 = L.circleMarker([38.033259, -78.50785400000001],style_1).addTo(network);
+    circle25.init_style = style_1;
+    circle25["index"] = 25;
+    nodes_arr["network"].push(circle25);
+    circle25.on({
+                });
+var circle26 = L.circleMarker([37.228487, -80.423513],style_1).addTo(network);
+    circle26.init_style = style_1;
+    circle26["index"] = 26;
+    nodes_arr["network"].push(circle26);
+    circle26.on({
+                });
+var circle27 = L.circleMarker([38.212334999999996, -85.758513],style_1).addTo(network);
+    circle27.init_style = style_1;
+    circle27["index"] = 27;
+    nodes_arr["network"].push(circle27);
+    circle27.on({
+                });
+var circle28 = L.circleMarker([31.549723999999998, -97.114364],style_2).addTo(network);
+    circle28.init_style = style_2;
+    circle28["index"] = 28;
+    nodes_arr["network"].push(circle28);
+    circle28.on({
+                });
+var circle29 = L.circleMarker([42.025357, -93.649118],style_2).addTo(network);
+    circle29.init_style = style_2;
+    circle29["index"] = 29;
+    nodes_arr["network"].push(circle29);
+    circle29.on({
+                });
+var circle30 = L.circleMarker([38.95431, -95.25579599999999],style_2).addTo(network);
+    circle30.init_style = style_2;
+    circle30["index"] = 30;
+    nodes_arr["network"].push(circle30);
+    circle30.on({
+                });
+var circle31 = L.circleMarker([39.227765000000005, -96.585124],style_2).addTo(network);
+    circle31.init_style = style_2;
+    circle31["index"] = 31;
+    nodes_arr["network"].push(circle31);
+    circle31.on({
+                });
+var circle32 = L.circleMarker([35.205884999999995, -97.445521],style_2).addTo(network);
+    circle32.init_style = style_2;
+    circle32["index"] = 32;
+    nodes_arr["network"].push(circle32);
+    circle32.on({
+                });
+var circle33 = L.circleMarker([36.122288, -97.069263],style_2).addTo(network);
+    circle33.init_style = style_2;
+    circle33["index"] = 33;
+    nodes_arr["network"].push(circle33);
+    circle33.on({
+                });
+var circle34 = L.circleMarker([32.709594, -97.36335600000001],style_2).addTo(network);
+    circle34.init_style = style_2;
+    circle34["index"] = 34;
+    nodes_arr["network"].push(circle34);
+    circle34.on({
+                });
+var circle35 = L.circleMarker([30.283779, -97.736859],style_2).addTo(network);
+    circle35.init_style = style_2;
+    circle35["index"] = 35;
+    nodes_arr["network"].push(circle35);
+    circle35.on({
+                });
+var circle36 = L.circleMarker([33.584205, -101.878132],style_2).addTo(network);
+    circle36.init_style = style_2;
+    circle36["index"] = 36;
+    nodes_arr["network"].push(circle36);
+    circle36.on({
+                });
+var circle37 = L.circleMarker([39.636094, -79.955116],style_2).addTo(network);
+    circle37.init_style = style_2;
+    circle37["index"] = 37;
+    nodes_arr["network"].push(circle37);
+    circle37.on({
+                });
+var circle38 = L.circleMarker([34.02199, -118.28361000000001],style_3).addTo(network);
+    circle38.init_style = style_3;
+    circle38["index"] = 38;
+    nodes_arr["network"].push(circle38);
+    circle38.on({
+                });
+var circle39 = L.circleMarker([34.069322, -118.44243600000001],style_3).addTo(network);
+    circle39.init_style = style_3;
+    circle39["index"] = 39;
+    nodes_arr["network"].push(circle39);
+    circle39.on({
+                });
+var circle40 = L.circleMarker([37.871594, -122.25811599999999],style_3).addTo(network);
+    circle40.init_style = style_3;
+    circle40["index"] = 40;
+    nodes_arr["network"].push(circle40);
+    circle40.on({
+                });
+var circle41 = L.circleMarker([37.427543, -122.16973],style_3).addTo(network);
+    circle41.init_style = style_3;
+    circle41["index"] = 41;
+    nodes_arr["network"].push(circle41);
+    circle41.on({
+                });
+var circle42 = L.circleMarker([40.764831, -111.842274],style_3).addTo(network);
+    circle42.init_style = style_3;
+    circle42["index"] = 42;
+    nodes_arr["network"].push(circle42);
+    circle42.on({
+                });
+var circle43 = L.circleMarker([40.007984, -105.26545700000001],style_3).addTo(network);
+    circle43.init_style = style_3;
+    circle43["index"] = 43;
+    nodes_arr["network"].push(circle43);
+    circle43.on({
+                });
+var circle44 = L.circleMarker([33.507507000000004, -112.064633],style_3).addTo(network);
+    circle44.init_style = style_3;
+    circle44["index"] = 44;
+    nodes_arr["network"].push(circle44);
+    circle44.on({
+                });
+var circle45 = L.circleMarker([32.232845000000005, -110.950172],style_3).addTo(network);
+    circle45.init_style = style_3;
+    circle45["index"] = 45;
+    nodes_arr["network"].push(circle45);
+    circle45.on({
+                });
+var circle46 = L.circleMarker([44.044907, -123.07260500000001],style_3).addTo(network);
+    circle46.init_style = style_3;
+    circle46["index"] = 46;
+    nodes_arr["network"].push(circle46);
+    circle46.on({
+                });
+var circle47 = L.circleMarker([44.564665999999995, -123.28193200000001],style_3).addTo(network);
+    circle47.init_style = style_3;
+    circle47["index"] = 47;
+    nodes_arr["network"].push(circle47);
+    circle47.on({
+                });
+var circle48 = L.circleMarker([47.655648, -122.303758],style_3).addTo(network);
+    circle48.init_style = style_3;
+    circle48["index"] = 48;
+    nodes_arr["network"].push(circle48);
+    circle48.on({
+                });
+var circle49 = L.circleMarker([47.618045, -122.320811],style_3).addTo(network);
+    circle49.init_style = style_3;
+    circle49["index"] = 49;
+    nodes_arr["network"].push(circle49);
+    circle49.on({
+                });
+var circle50 = L.circleMarker([42.278552000000005, -83.736142],style_4).addTo(network);
+    circle50.init_style = style_4;
+    circle50["index"] = 50;
+    nodes_arr["network"].push(circle50);
+    circle50.on({
+                });
+var circle51 = L.circleMarker([42.719116, -84.38228199999999],style_4).addTo(network);
+    circle51.init_style = style_4;
+    circle51["index"] = 51;
+    nodes_arr["network"].push(circle51);
+    circle51.on({
+                });
+var circle52 = L.circleMarker([40.005777, -83.026663],style_4).addTo(network);
+    circle52.init_style = style_4;
+    circle52["index"] = 52;
+    nodes_arr["network"].push(circle52);
+    circle52.on({
+                });
+var circle53 = L.circleMarker([41.659884000000005, -91.547122],style_4).addTo(network);
+    circle53.init_style = style_4;
+    circle53["index"] = 53;
+    nodes_arr["network"].push(circle53);
+    circle53.on({
+                });
+var circle54 = L.circleMarker([40.102313, -88.228996],style_4).addTo(network);
+    circle54.init_style = style_4;
+    circle54["index"] = 54;
+    nodes_arr["network"].push(circle54);
+    circle54.on({
+                });
+var circle55 = L.circleMarker([42.056886999999996, -87.674991],style_4).addTo(network);
+    circle55.init_style = style_4;
+    circle55["index"] = 55;
+    nodes_arr["network"].push(circle55);
+    circle55.on({
+                });
+var circle56 = L.circleMarker([38.987148, -76.94285500000001],style_4).addTo(network);
+    circle56.init_style = style_4;
+    circle56["index"] = 56;
+    nodes_arr["network"].push(circle56);
+    circle56.on({
+                });
+var circle57 = L.circleMarker([40.483579, -74.42276600000001],style_4).addTo(network);
+    circle57.init_style = style_4;
+    circle57["index"] = 57;
+    nodes_arr["network"].push(circle57);
+    circle57.on({
+                });
+var circle58 = L.circleMarker([40.800515000000004, -77.860732],style_4).addTo(network);
+    circle58.init_style = style_4;
+    circle58["index"] = 58;
+    nodes_arr["network"].push(circle58);
+    circle58.on({
+                });
+var circle59 = L.circleMarker([40.852768, -96.68950600000001],style_4).addTo(network);
+    circle59.init_style = style_4;
+    circle59["index"] = 59;
+    nodes_arr["network"].push(circle59);
+    circle59.on({
+                });
+var circle60 = L.circleMarker([44.975352, -93.23097299999999],style_4).addTo(network);
+    circle60.init_style = style_4;
+    circle60["index"] = 60;
+    nodes_arr["network"].push(circle60);
+    circle60.on({
+                });
+var circle61 = L.circleMarker([43.075589, -89.41156099999999],style_4).addTo(network);
+    circle61.init_style = style_4;
+    circle61["index"] = 61;
+    nodes_arr["network"].push(circle61);
+    circle61.on({
+                });
+var circle62 = L.circleMarker([39.175274, -86.51236999999999],style_4).addTo(network);
+    circle62.init_style = style_4;
+    circle62["index"] = 62;
+    nodes_arr["network"].push(circle62);
+    circle62.on({
+                });
+var circle63 = L.circleMarker([40.423665, -86.921141],style_4).addTo(network);
+    circle63.init_style = style_4;
+    circle63["index"] = 63;
+    nodes_arr["network"].push(circle63);
+    circle63.on({
+                });
+var circle64 = L.circleMarker([33.215183, -87.536608],style_5).addTo(network);
+    circle64.init_style = style_5;
+    circle64["index"] = 64;
+    nodes_arr["network"].push(circle64);
+    circle64.on({
+                });
+var circle65 = L.circleMarker([36.068073999999996, -94.171543],style_5).addTo(network);
+    circle65.init_style = style_5;
+    circle65["index"] = 65;
+    nodes_arr["network"].push(circle65);
+    circle65.on({
+                });
+var circle66 = L.circleMarker([32.604448, -85.482106],style_5).addTo(network);
+    circle66.init_style = style_5;
+    circle66["index"] = 66;
+    nodes_arr["network"].push(circle66);
+    circle66.on({
+                });
+var circle67 = L.circleMarker([29.650056, -82.358111],style_5).addTo(network);
+    circle67.init_style = style_5;
+    circle67["index"] = 67;
+    nodes_arr["network"].push(circle67);
+    circle67.on({
+                });
+var circle68 = L.circleMarker([33.947571999999994, -83.374411],style_5).addTo(network);
+    circle68.init_style = style_5;
+    circle68["index"] = 68;
+    nodes_arr["network"].push(circle68);
+    circle68.on({
+                });
+var circle69 = L.circleMarker([38.031369, -84.50692],style_5).addTo(network);
+    circle69.init_style = style_5;
+    circle69["index"] = 69;
+    nodes_arr["network"].push(circle69);
+    circle69.on({
+                });
+var circle70 = L.circleMarker([30.413068, -91.18154200000001],style_5).addTo(network);
+    circle70.init_style = style_5;
+    circle70["index"] = 70;
+    nodes_arr["network"].push(circle70);
+    circle70.on({
+                });
+var circle71 = L.circleMarker([34.364634, -89.53849699999999],style_5).addTo(network);
+    circle71.init_style = style_5;
+    circle71["index"] = 71;
+    nodes_arr["network"].push(circle71);
+    circle71.on({
+                });
+var circle72 = L.circleMarker([33.455255, -88.79435500000001],style_5).addTo(network);
+    circle72.init_style = style_5;
+    circle72["index"] = 72;
+    nodes_arr["network"].push(circle72);
+    circle72.on({
+                });
+var circle73 = L.circleMarker([38.944542, -92.32815],style_5).addTo(network);
+    circle73.init_style = style_5;
+    circle73["index"] = 73;
+    nodes_arr["network"].push(circle73);
+    circle73.on({
+                });
+var circle74 = L.circleMarker([33.992474, -81.030468],style_5).addTo(network);
+    circle74.init_style = style_5;
+    circle74["index"] = 74;
+    nodes_arr["network"].push(circle74);
+    circle74.on({
+                });
+var circle75 = L.circleMarker([35.954633, -83.927776],style_5).addTo(network);
+    circle75.init_style = style_5;
+    circle75["index"] = 75;
+    nodes_arr["network"].push(circle75);
+    circle75.on({
+                });
+var circle76 = L.circleMarker([30.607809999999997, -96.348027],style_5).addTo(network);
+    circle76.init_style = style_5;
+    circle76["index"] = 76;
+    nodes_arr["network"].push(circle76);
+    circle76.on({
+                });
+var circle77 = L.circleMarker([36.145086, -86.803507],style_5).addTo(network);
+    circle77.init_style = style_5;
+    circle77["index"] = 77;
+    nodes_arr["network"].push(circle77);
+    circle77.on({
+                });
+var circle78 = L.circleMarker([35.307066999999996, -80.735164],style_6).addTo(network);
+    circle78.init_style = style_6;
+    circle78["index"] = 78;
+    nodes_arr["network"].push(circle78);
+    circle78.on({
+                });
+var circle79 = L.circleMarker([25.756129, -80.37570799999999],style_6).addTo(network);
+    circle79.init_style = style_6;
+    circle79["index"] = 79;
+    nodes_arr["network"].push(circle79);
+    circle79.on({
+                });
+var circle80 = L.circleMarker([26.375789, -80.10095600000001],style_6).addTo(network);
+    circle80.init_style = style_6;
+    circle80["index"] = 80;
+    nodes_arr["network"].push(circle80);
+    circle80.on({
+                });
+var circle81 = L.circleMarker([32.528246, -92.649855],style_6).addTo(network);
+    circle81.init_style = style_6;
+    circle81["index"] = 81;
+    nodes_arr["network"].push(circle81);
+    circle81.on({
+                });
+var circle82 = L.circleMarker([38.423483000000004, -82.42626],style_6).addTo(network);
+    circle82.init_style = style_6;
+    circle82["index"] = 82;
+    nodes_arr["network"].push(circle82);
+    circle82.on({
+                });
+var circle83 = L.circleMarker([35.848558000000004, -86.36484899999999],style_6).addTo(network);
+    circle83.init_style = style_6;
+    circle83["index"] = 83;
+    nodes_arr["network"].push(circle83);
+    circle83.on({
+                });
+var circle84 = L.circleMarker([33.210762, -97.156217],style_6).addTo(network);
+    circle84.init_style = style_6;
+    circle84["index"] = 84;
+    nodes_arr["network"].push(circle84);
+    circle84.on({
+                });
+var circle85 = L.circleMarker([36.885028000000005, -76.305876],style_6).addTo(network);
+    circle85.init_style = style_6;
+    circle85["index"] = 85;
+    nodes_arr["network"].push(circle85);
+    circle85.on({
+                });
+var circle86 = L.circleMarker([29.717346999999997, -95.401788],style_6).addTo(network);
+    circle86.init_style = style_6;
+    circle86["index"] = 86;
+    nodes_arr["network"].push(circle86);
+    circle86.on({
+                });
+var circle87 = L.circleMarker([31.329828000000003, -89.33380600000001],style_6).addTo(network);
+    circle87.init_style = style_6;
+    circle87["index"] = 87;
+    nodes_arr["network"].push(circle87);
+    circle87.on({
+                });
+var circle88 = L.circleMarker([33.502078000000004, -86.806348],style_6).addTo(network);
+    circle88.init_style = style_6;
+    circle88["index"] = 88;
+    nodes_arr["network"].push(circle88);
+    circle88.on({
+                });
+var circle89 = L.circleMarker([31.771184, -106.503826],style_6).addTo(network);
+    circle89.init_style = style_6;
+    circle89["index"] = 89;
+    nodes_arr["network"].push(circle89);
+    circle89.on({
+                });
+var circle90 = L.circleMarker([29.583058, -98.619407],style_6).addTo(network);
+    circle90.init_style = style_6;
+    circle90["index"] = 90;
+    nodes_arr["network"].push(circle90);
+    circle90.on({
+                });
+var circle91 = L.circleMarker([36.985490999999996, -86.455741],style_6).addTo(network);
+    circle91.init_style = style_6;
+    circle91["index"] = 91;
+    nodes_arr["network"].push(circle91);
+    circle91.on({
+                });
+var circle92 = L.circleMarker([41.076671000000005, -81.511263],style_7).addTo(network);
+    circle92.init_style = style_7;
+    circle92["index"] = 92;
+    nodes_arr["network"].push(circle92);
+    circle92.on({
+                });
+var circle93 = L.circleMarker([40.204152, -85.40616800000001],style_7).addTo(network);
+    circle93.init_style = style_7;
+    circle93["index"] = 93;
+    nodes_arr["network"].push(circle93);
+    circle93.on({
+                });
+var circle94 = L.circleMarker([41.379272, -83.630565],style_7).addTo(network);
+    circle94.init_style = style_7;
+    circle94["index"] = 94;
+    nodes_arr["network"].push(circle94);
+    circle94.on({
+                });
+var circle95 = L.circleMarker([42.9534, -78.817697],style_7).addTo(network);
+    circle95.init_style = style_7;
+    circle95["index"] = 95;
+    nodes_arr["network"].push(circle95);
+    circle95.on({
+                });
+var circle96 = L.circleMarker([43.582409000000006, -84.77469],style_7).addTo(network);
+    circle96.init_style = style_7;
+    circle96["index"] = 96;
+    nodes_arr["network"].push(circle96);
+    circle96.on({
+                });
+var circle97 = L.circleMarker([42.251032, -83.621939],style_7).addTo(network);
+    circle97.init_style = style_7;
+    circle97["index"] = 97;
+    nodes_arr["network"].push(circle97);
+    circle97.on({
+                });
+var circle98 = L.circleMarker([41.14564, -81.339449],style_7).addTo(network);
+    circle98.init_style = style_7;
+    circle98["index"] = 98;
+    nodes_arr["network"].push(circle98);
+    circle98.on({
+                });
+var circle99 = L.circleMarker([39.512921999999996, -84.72391400000001],style_7).addTo(network);
+    circle99.init_style = style_7;
+    circle99["index"] = 99;
+    nodes_arr["network"].push(circle99);
+    circle99.on({
+                });
+var circle100 = L.circleMarker([41.934313, -88.77415500000001],style_7).addTo(network);
+    circle100.init_style = style_7;
+    circle100["index"] = 100;
+    nodes_arr["network"].push(circle100);
+    circle100.on({
+                });
+var circle101 = L.circleMarker([39.324837, -82.10041899999999],style_7).addTo(network);
+    circle101.init_style = style_7;
+    circle101["index"] = 101;
+    nodes_arr["network"].push(circle101);
+    circle101.on({
+                });
+var circle102 = L.circleMarker([41.658071, -83.613974],style_7).addTo(network);
+    circle102.init_style = style_7;
+    circle102["index"] = 102;
+    nodes_arr["network"].push(circle102);
+    circle102.on({
+                });
+var circle103 = L.circleMarker([42.28371, -85.610337],style_7).addTo(network);
+    circle103.init_style = style_7;
+    circle103["index"] = 103;
+    nodes_arr["network"].push(circle103);
+    circle103.on({
+                });
+var circle104 = L.circleMarker([36.213869, -81.683306],style_8).addTo(network);
+    circle104.init_style = style_8;
+    circle104["index"] = 104;
+    nodes_arr["network"].push(circle104);
+    circle104.on({
+                });
+var circle105 = L.circleMarker([34.723933, -92.338909],style_8).addTo(network);
+    circle105.init_style = style_8;
+    circle105["index"] = 105;
+    nodes_arr["network"].push(circle105);
+    circle105.on({
+                });
+var circle106 = L.circleMarker([35.843577, -90.675302],style_8).addTo(network);
+    circle106.init_style = style_8;
+    circle106["index"] = 106;
+    nodes_arr["network"].push(circle106);
+    circle106.on({
+                });
+var circle107 = L.circleMarker([33.796543, -79.013243],style_8).addTo(network);
+    circle107.init_style = style_8;
+    circle107["index"] = 107;
+    nodes_arr["network"].push(circle107);
+    circle107.on({
+                });
+var circle108 = L.circleMarker([32.420603, -81.786524],style_8).addTo(network);
+    circle108.init_style = style_8;
+    circle108["index"] = 108;
+    nodes_arr["network"].push(circle108);
+    circle108.on({
+                });
+var circle109 = L.circleMarker([33.753776, -84.384915],style_8).addTo(network);
+    circle109.init_style = style_8;
+    circle109["index"] = 109;
+    nodes_arr["network"].push(circle109);
+    circle109.on({
+                });
+var circle110 = L.circleMarker([30.211533000000003, -92.02036899999999],style_8).addTo(network);
+    circle110.init_style = style_8;
+    circle110["index"] = 110;
+    nodes_arr["network"].push(circle110);
+    circle110.on({
+                });
+var circle111 = L.circleMarker([32.528354, -92.073436],style_8).addTo(network);
+    circle111.init_style = style_8;
+    circle111["index"] = 111;
+    nodes_arr["network"].push(circle111);
+    circle111.on({
+                });
+var circle112 = L.circleMarker([30.695858, -88.184021],style_8).addTo(network);
+    circle112.init_style = style_8;
+    circle112["index"] = 112;
+    nodes_arr["network"].push(circle112);
+    circle112.on({
+                });
+var circle113 = L.circleMarker([32.729791, -97.113765],style_8).addTo(network);
+    circle113.init_style = style_8;
+    circle113["index"] = 113;
+    nodes_arr["network"].push(circle113);
+    circle113.on({
+                });
+var circle114 = L.circleMarker([29.88853, -97.938144],style_8).addTo(network);
+    circle114.init_style = style_8;
+    circle114["index"] = 114;
+    nodes_arr["network"].push(circle114);
+    circle114.on({
+                });
+var circle115 = L.circleMarker([29.556209999999997, -98.483785],style_8).addTo(network);
+    circle115.init_style = style_8;
+    circle115["index"] = 115;
+    nodes_arr["network"].push(circle115);
+    circle115.on({
+                });
+var circle116 = L.circleMarker([33.928405, -117.425591],style_9).addTo(network);
+    circle116.init_style = style_9;
+    circle116["index"] = 116;
+    nodes_arr["network"].push(circle116);
+    circle116.on({
+                });
+var circle117 = L.circleMarker([41.718109999999996, -87.60891099999999],style_9).addTo(network);
+    circle117.init_style = style_9;
+    circle117["index"] = 117;
+    nodes_arr["network"].push(circle117);
+    circle117.on({
+                });
+var circle118 = L.circleMarker([33.510495, -112.129764],style_9).addTo(network);
+    circle118.init_style = style_9;
+    circle118["index"] = 118;
+    nodes_arr["network"].push(circle118);
+    circle118.on({
+                });
+var circle119 = L.circleMarker([39.033369, -94.577279],style_9).addTo(network);
+    circle119.init_style = style_9;
+    circle119["index"] = 119;
+    nodes_arr["network"].push(circle119);
+    circle119.on({
+                });
+var circle120 = L.circleMarker([32.278847, -106.747831],style_9).addTo(network);
+    circle120.init_style = style_9;
+    circle120["index"] = 120;
+    nodes_arr["network"].push(circle120);
+    circle120.on({
+                });
+var circle121 = L.circleMarker([47.609315, -122.317031],style_9).addTo(network);
+    circle121.init_style = style_9;
+    circle121["index"] = 121;
+    nodes_arr["network"].push(circle121);
+    circle121.on({
+                });
+var circle122 = L.circleMarker([25.907172, -97.420169],style_9).addTo(network);
+    circle122.init_style = style_9;
+    circle122["index"] = 122;
+    nodes_arr["network"].push(circle122);
+    circle122.on({
+                });
+var circle123 = L.circleMarker([40.278822, -111.71529299999999],style_9).addTo(network);
+    circle123.init_style = style_9;
+    circle123["index"] = 123;
+    nodes_arr["network"].push(circle123);
+    circle123.on({
+                });
+var circle124 = L.circleMarker([39.841181, -86.171234],style_10).addTo(network);
+    circle124.init_style = style_10;
+    circle124["index"] = 124;
+    nodes_arr["network"].push(circle124);
+    circle124.on({
+                });
+var circle125 = L.circleMarker([41.265665000000006, -95.94717],style_10).addTo(network);
+    circle125.init_style = style_10;
+    circle125["index"] = 125;
+    nodes_arr["network"].push(circle125);
+    circle125.on({
+                });
+var circle126 = L.circleMarker([41.92411, -87.655384],style_10).addTo(network);
+    circle126.init_style = style_10;
+    circle126["index"] = 126;
+    nodes_arr["network"].push(circle126);
+    circle126.on({
+                });
+var circle127 = L.circleMarker([38.907676, -77.072344],style_10).addTo(network);
+    circle127.init_style = style_10;
+    circle127["index"] = 127;
+    nodes_arr["network"].push(circle127);
+    circle127.on({
+                });
+var circle128 = L.circleMarker([43.038691, -87.93004599999999],style_10).addTo(network);
+    circle128.init_style = style_10;
+    circle128["index"] = 128;
+    nodes_arr["network"].push(circle128);
+    circle128.on({
+                });
+var circle129 = L.circleMarker([41.844592999999996, -71.437208],style_10).addTo(network);
+    circle129.init_style = style_10;
+    circle129["index"] = 129;
+    nodes_arr["network"].push(circle129);
+    circle129.on({
+                });
+var circle130 = L.circleMarker([40.720676, -73.79670899999999],style_10).addTo(network);
+    circle130.init_style = style_10;
+    circle130["index"] = 130;
+    nodes_arr["network"].push(circle130);
+    circle130.on({
+                });
+var circle131 = L.circleMarker([40.74345, -74.24617099999999],style_10).addTo(network);
+    circle131.init_style = style_10;
+    circle131["index"] = 131;
+    nodes_arr["network"].push(circle131);
+    circle131.on({
+                });
+var circle132 = L.circleMarker([40.037064, -75.343773],style_10).addTo(network);
+    circle132.init_style = style_10;
+    circle132["index"] = 132;
+    nodes_arr["network"].push(circle132);
+    circle132.on({
+                });
+var circle133 = L.circleMarker([29.964007000000002, -90.107465],style_10).addTo(network);
+    circle133.init_style = style_10;
+    circle133["index"] = 133;
+    nodes_arr["network"].push(circle133);
+    circle133.on({
+                });
+
+function makeOver (caller, newstyle) {
+                   caller.setStyle(newstyle);
+                   };
+function makeInit (caller) {
+                   caller.setStyle(caller.init_style);
+                   };
+        
+function neighboring(a, b,layer) {
+         return linkedByIndex[layer][a.index + "," + b.index];
+         };
+function connectedNodes(inode, ilayer, nodestyle, edgestyle) {
+            nodes_arr[ilayer].forEach(function (onode) {
+                 if (neighboring(inode,onode,ilayer) | neighboring(onode, inode,ilayer)) {
+                     makeOver(onode, nodestyle);
+                 };
+            });
+            edges_arr[ilayer].forEach(function (edge) {
+                 if (inode.index==edge.source | inode.index==edge.target) {
+                     makeOver(edge, edgestyle);
+                     };
+                 });
+         };
+function resConnectedNodes(inode, ilayer) {
+            nodes_arr[ilayer].forEach(function (onode) {
+                 if (neighboring(inode,onode,ilayer) | neighboring(onode, inode,ilayer)) {
+                     makeInit(onode);
+                 };
+            });
+            edges_arr[ilayer].forEach(function (edge) {
+                 if (inode.index==edge.source | inode.index==edge.target) {
+                     makeInit(edge);
+                     };
+                 });
+         };
+        
+var legend_network = L.control({position: 'bottomright'});
+
+legend_network.onAdd = function (map) {
+
+  var div = L.DomUtil.create('div', 'legend'),
+   labels = ['AAC', 'ACC', 'Big 12', 'Pac 12', 'Big 10', 'SEC', 'CUSA', 'MAC', 'SBC', 'WAC', 'Big East', ],
+   colors = ['#cb334d', '#e95c47', '#f98e52', '#fdbf6f', '#fee593', '#ffffbe', '#eaf79e', '#bfe5a0', '#86cfa5', '#54aead', '#3a7eb8', ];
+   div.innerHTML = '<h4>Conference</h4>'
+       for (var i = 0; i < labels.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + colors[i] + '"></i> ' +
+            labels[i] +'<br />'
+    }
+    return div;
+};legend_network.addTo(map)
+var activeControl = legend_network
+
+</script>
+</body>

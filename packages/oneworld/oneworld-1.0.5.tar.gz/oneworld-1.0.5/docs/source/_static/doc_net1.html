@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+    </style>
+    <title>OneWorld</title>
+</head>
+<body>    
+<div class="leaflet-map" id="map1" ></div>
+<script>
+    // Layer groups
+        var network = L.featureGroup();
+        var StreetMap = L.featureGroup();
+    // map object
+    var map = L.map('map1', {
+	                center:[39, -96.8],
+	                zoom:4,
+                     layers: [StreetMap,network]
+                    });
+    // Scale
+    L.control.scale().addTo(map)
+    // Basemap(s)
+    
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			  {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+                        subdomains: "abc"
+			   }).addTo(StreetMap);
+map.attributionControl.setPrefix('OneWorld | <a href="https://leafletjs.com/">Leaflet</a>')
+map.on('baselayerchange', function (e) {
+});
+    // Styles
+    var style_0 = {
+                   fillColor:'#592a8a',
+                   color:'#592a8a',
+                   radius:'1000',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                    };
+    var style_1 = {
+                   color:'#592a8a',
+                   weight:'3',
+                   opacity:'1.0',
+                    };
+        // Lines
+    let edges_arr = {};
+    var linkedByIndex = {};
+        edges_arr["StreetMap"] = [];
+	linkedByIndex["StreetMap"] = {};
+        edges_arr["network"] = [];
+	linkedByIndex["network"] = {};
+var line0 = L.polyline([[29.720001, -95.342153], [35.118802, -89.937216]],style_1).addTo(network);
+    line0.init_style = style_1; 
+    line0.on({
+                });
+    line0["source"] = 2;
+    line0["target"] = 3;
+    edges_arr["network"].push(line0);
+var line1 = L.polyline([[29.720001, -95.342153], [32.841443, -96.78451700000001]],style_1).addTo(network);
+    line1.init_style = style_1; 
+    line1.on({
+                });
+    line1["source"] = 2;
+    line1["target"] = 5;
+    edges_arr["network"].push(line1);
+var line2 = L.polyline([[32.841443, -96.78451700000001], [36.152004999999996, -95.945914]],style_1).addTo(network);
+    line2.init_style = style_1; 
+    line2.on({
+                });
+    line2["source"] = 5;
+    line2["target"] = 8;
+    edges_arr["network"].push(line2);
+        edges_arr["StreetMap"].forEach(function (d) {
+              linkedByIndex["StreetMap"][d.source + "," + d.target] = 1;
+        });
+        edges_arr["network"].forEach(function (d) {
+              linkedByIndex["network"][d.source + "," + d.target] = 1;
+        });
+        //Circle markers
+let nodes_arr = {
+    StreetMap: [],
+    network: [],
+};
+var circle0 = L.circle([39.134205, -84.515129],style_0).addTo(network);
+    circle0.init_style = style_0;
+    circle0["index"] = 0;
+    nodes_arr["network"].push(circle0);
+    circle0.on({
+                });
+var circle1 = L.circle([35.606251, -77.363681],style_0).addTo(network);
+    circle1.init_style = style_0;
+    circle1["index"] = 1;
+    nodes_arr["network"].push(circle1);
+    circle1.on({
+                });
+var circle2 = L.circle([29.720001, -95.342153],style_0).addTo(network);
+    circle2.init_style = style_0;
+    circle2["index"] = 2;
+    nodes_arr["network"].push(circle2);
+    circle2.on({
+                });
+var circle3 = L.circle([35.118802, -89.937216],style_0).addTo(network);
+    circle3.init_style = style_0;
+    circle3["index"] = 3;
+    nodes_arr["network"].push(circle3);
+    circle3.on({
+                });
+var circle4 = L.circle([38.982306, -76.483172],style_0).addTo(network);
+    circle4.init_style = style_0;
+    circle4["index"] = 4;
+    nodes_arr["network"].push(circle4);
+    circle4.on({
+                });
+var circle5 = L.circle([32.841443, -96.78451700000001],style_0).addTo(network);
+    circle5.init_style = style_0;
+    circle5["index"] = 5;
+    nodes_arr["network"].push(circle5);
+    circle5.on({
+                });
+var circle6 = L.circle([39.984978000000005, -75.15491800000001],style_0).addTo(network);
+    circle6.init_style = style_0;
+    circle6["index"] = 6;
+    nodes_arr["network"].push(circle6);
+    circle6.on({
+                });
+var circle7 = L.circle([29.943279999999998, -90.12033100000001],style_0).addTo(network);
+    circle7.init_style = style_0;
+    circle7["index"] = 7;
+    nodes_arr["network"].push(circle7);
+    circle7.on({
+                });
+var circle8 = L.circle([36.152004999999996, -95.945914],style_0).addTo(network);
+    circle8.init_style = style_0;
+    circle8["index"] = 8;
+    nodes_arr["network"].push(circle8);
+    circle8.on({
+                });
+var circle9 = L.circle([28.602390000000003, -81.199759],style_0).addTo(network);
+    circle9.init_style = style_0;
+    circle9["index"] = 9;
+    nodes_arr["network"].push(circle9);
+    circle9.on({
+                });
+var circle10 = L.circle([41.807796999999994, -72.254109],style_0).addTo(network);
+    circle10.init_style = style_0;
+    circle10["index"] = 10;
+    nodes_arr["network"].push(circle10);
+    circle10.on({
+                });
+var circle11 = L.circle([28.058721999999996, -82.413779],style_0).addTo(network);
+    circle11.init_style = style_0;
+    circle11["index"] = 11;
+    nodes_arr["network"].push(circle11);
+    circle11.on({
+                });
+var circle12 = L.circle([37.718645, -97.29391600000001],style_0).addTo(network);
+    circle12.init_style = style_0;
+    circle12["index"] = 12;
+    nodes_arr["network"].push(circle12);
+    circle12.on({
+                });
+var circle13 = L.circle([36.003056, -78.938213],style_0).addTo(network);
+    circle13.init_style = style_0;
+    circle13["index"] = 13;
+    nodes_arr["network"].push(circle13);
+    circle13.on({
+                });
+var circle14 = L.circle([35.904790000000006, -79.046645],style_0).addTo(network);
+    circle14.init_style = style_0;
+    circle14["index"] = 14;
+    nodes_arr["network"].push(circle14);
+    circle14.on({
+                });
+var circle15 = L.circle([35.785872999999995, -78.680871],style_0).addTo(network);
+    circle15.init_style = style_0;
+    circle15["index"] = 15;
+    nodes_arr["network"].push(circle15);
+    circle15.on({
+                });
+var circle16 = L.circle([30.441915, -84.29836],style_0).addTo(network);
+    circle16.init_style = style_0;
+    circle16["index"] = 16;
+    nodes_arr["network"].push(circle16);
+    circle16.on({
+                });
+var circle17 = L.circle([34.673738, -82.836887],style_0).addTo(network);
+    circle17.init_style = style_0;
+    circle17["index"] = 17;
+    nodes_arr["network"].push(circle17);
+    circle17.on({
+                });
+var circle18 = L.circle([36.134071999999996, -80.278013],style_0).addTo(network);
+    circle18.init_style = style_0;
+    circle18["index"] = 18;
+    nodes_arr["network"].push(circle18);
+    circle18.on({
+                });
+var circle19 = L.circle([33.775805, -84.39626700000001],style_0).addTo(network);
+    circle19.init_style = style_0;
+    circle19["index"] = 19;
+    nodes_arr["network"].push(circle19);
+    circle19.on({
+                });
+var circle20 = L.circle([43.049502000000004, -76.137819],style_0).addTo(network);
+    circle20.init_style = style_0;
+    circle20["index"] = 20;
+    nodes_arr["network"].push(circle20);
+    circle20.on({
+                });
+var circle21 = L.circle([42.335516999999996, -71.168237],style_0).addTo(network);
+    circle21.init_style = style_0;
+    circle21["index"] = 21;
+    nodes_arr["network"].push(circle21);
+    circle21.on({
+                });
+var circle22 = L.circle([41.703264000000004, -86.237927],style_0).addTo(network);
+    circle22.init_style = style_0;
+    circle22["index"] = 22;
+    nodes_arr["network"].push(circle22);
+    circle22.on({
+                });
+var circle23 = L.circle([40.444592, -79.960026],style_0).addTo(network);
+    circle23.init_style = style_0;
+    circle23["index"] = 23;
+    nodes_arr["network"].push(circle23);
+    circle23.on({
+                });
+var circle24 = L.circle([25.719347, -80.276589],style_0).addTo(network);
+    circle24.init_style = style_0;
+    circle24["index"] = 24;
+    nodes_arr["network"].push(circle24);
+    circle24.on({
+                });
+var circle25 = L.circle([38.033259, -78.50785400000001],style_0).addTo(network);
+    circle25.init_style = style_0;
+    circle25["index"] = 25;
+    nodes_arr["network"].push(circle25);
+    circle25.on({
+                });
+var circle26 = L.circle([37.228487, -80.423513],style_0).addTo(network);
+    circle26.init_style = style_0;
+    circle26["index"] = 26;
+    nodes_arr["network"].push(circle26);
+    circle26.on({
+                });
+var circle27 = L.circle([38.212334999999996, -85.758513],style_0).addTo(network);
+    circle27.init_style = style_0;
+    circle27["index"] = 27;
+    nodes_arr["network"].push(circle27);
+    circle27.on({
+                });
+var circle28 = L.circle([31.549723999999998, -97.114364],style_0).addTo(network);
+    circle28.init_style = style_0;
+    circle28["index"] = 28;
+    nodes_arr["network"].push(circle28);
+    circle28.on({
+                });
+var circle29 = L.circle([42.025357, -93.649118],style_0).addTo(network);
+    circle29.init_style = style_0;
+    circle29["index"] = 29;
+    nodes_arr["network"].push(circle29);
+    circle29.on({
+                });
+var circle30 = L.circle([38.95431, -95.25579599999999],style_0).addTo(network);
+    circle30.init_style = style_0;
+    circle30["index"] = 30;
+    nodes_arr["network"].push(circle30);
+    circle30.on({
+                });
+var circle31 = L.circle([39.227765000000005, -96.585124],style_0).addTo(network);
+    circle31.init_style = style_0;
+    circle31["index"] = 31;
+    nodes_arr["network"].push(circle31);
+    circle31.on({
+                });
+var circle32 = L.circle([35.205884999999995, -97.445521],style_0).addTo(network);
+    circle32.init_style = style_0;
+    circle32["index"] = 32;
+    nodes_arr["network"].push(circle32);
+    circle32.on({
+                });
+var circle33 = L.circle([36.122288, -97.069263],style_0).addTo(network);
+    circle33.init_style = style_0;
+    circle33["index"] = 33;
+    nodes_arr["network"].push(circle33);
+    circle33.on({
+                });
+var circle34 = L.circle([32.709594, -97.36335600000001],style_0).addTo(network);
+    circle34.init_style = style_0;
+    circle34["index"] = 34;
+    nodes_arr["network"].push(circle34);
+    circle34.on({
+                });
+var circle35 = L.circle([30.283779, -97.736859],style_0).addTo(network);
+    circle35.init_style = style_0;
+    circle35["index"] = 35;
+    nodes_arr["network"].push(circle35);
+    circle35.on({
+                });
+var circle36 = L.circle([33.584205, -101.878132],style_0).addTo(network);
+    circle36.init_style = style_0;
+    circle36["index"] = 36;
+    nodes_arr["network"].push(circle36);
+    circle36.on({
+                });
+var circle37 = L.circle([39.636094, -79.955116],style_0).addTo(network);
+    circle37.init_style = style_0;
+    circle37["index"] = 37;
+    nodes_arr["network"].push(circle37);
+    circle37.on({
+                });
+var circle38 = L.circle([34.02199, -118.28361000000001],style_0).addTo(network);
+    circle38.init_style = style_0;
+    circle38["index"] = 38;
+    nodes_arr["network"].push(circle38);
+    circle38.on({
+                });
+var circle39 = L.circle([34.069322, -118.44243600000001],style_0).addTo(network);
+    circle39.init_style = style_0;
+    circle39["index"] = 39;
+    nodes_arr["network"].push(circle39);
+    circle39.on({
+                });
+var circle40 = L.circle([37.871594, -122.25811599999999],style_0).addTo(network);
+    circle40.init_style = style_0;
+    circle40["index"] = 40;
+    nodes_arr["network"].push(circle40);
+    circle40.on({
+                });
+var circle41 = L.circle([37.427543, -122.16973],style_0).addTo(network);
+    circle41.init_style = style_0;
+    circle41["index"] = 41;
+    nodes_arr["network"].push(circle41);
+    circle41.on({
+                });
+var circle42 = L.circle([40.764831, -111.842274],style_0).addTo(network);
+    circle42.init_style = style_0;
+    circle42["index"] = 42;
+    nodes_arr["network"].push(circle42);
+    circle42.on({
+                });
+var circle43 = L.circle([40.007984, -105.26545700000001],style_0).addTo(network);
+    circle43.init_style = style_0;
+    circle43["index"] = 43;
+    nodes_arr["network"].push(circle43);
+    circle43.on({
+                });
+var circle44 = L.circle([33.507507000000004, -112.064633],style_0).addTo(network);
+    circle44.init_style = style_0;
+    circle44["index"] = 44;
+    nodes_arr["network"].push(circle44);
+    circle44.on({
+                });
+var circle45 = L.circle([32.232845000000005, -110.950172],style_0).addTo(network);
+    circle45.init_style = style_0;
+    circle45["index"] = 45;
+    nodes_arr["network"].push(circle45);
+    circle45.on({
+                });
+var circle46 = L.circle([44.044907, -123.07260500000001],style_0).addTo(network);
+    circle46.init_style = style_0;
+    circle46["index"] = 46;
+    nodes_arr["network"].push(circle46);
+    circle46.on({
+                });
+var circle47 = L.circle([44.564665999999995, -123.28193200000001],style_0).addTo(network);
+    circle47.init_style = style_0;
+    circle47["index"] = 47;
+    nodes_arr["network"].push(circle47);
+    circle47.on({
+                });
+var circle48 = L.circle([47.655648, -122.303758],style_0).addTo(network);
+    circle48.init_style = style_0;
+    circle48["index"] = 48;
+    nodes_arr["network"].push(circle48);
+    circle48.on({
+                });
+var circle49 = L.circle([47.618045, -122.320811],style_0).addTo(network);
+    circle49.init_style = style_0;
+    circle49["index"] = 49;
+    nodes_arr["network"].push(circle49);
+    circle49.on({
+                });
+var circle50 = L.circle([42.278552000000005, -83.736142],style_0).addTo(network);
+    circle50.init_style = style_0;
+    circle50["index"] = 50;
+    nodes_arr["network"].push(circle50);
+    circle50.on({
+                });
+var circle51 = L.circle([42.719116, -84.38228199999999],style_0).addTo(network);
+    circle51.init_style = style_0;
+    circle51["index"] = 51;
+    nodes_arr["network"].push(circle51);
+    circle51.on({
+                });
+var circle52 = L.circle([40.005777, -83.026663],style_0).addTo(network);
+    circle52.init_style = style_0;
+    circle52["index"] = 52;
+    nodes_arr["network"].push(circle52);
+    circle52.on({
+                });
+var circle53 = L.circle([41.659884000000005, -91.547122],style_0).addTo(network);
+    circle53.init_style = style_0;
+    circle53["index"] = 53;
+    nodes_arr["network"].push(circle53);
+    circle53.on({
+                });
+var circle54 = L.circle([40.102313, -88.228996],style_0).addTo(network);
+    circle54.init_style = style_0;
+    circle54["index"] = 54;
+    nodes_arr["network"].push(circle54);
+    circle54.on({
+                });
+var circle55 = L.circle([42.056886999999996, -87.674991],style_0).addTo(network);
+    circle55.init_style = style_0;
+    circle55["index"] = 55;
+    nodes_arr["network"].push(circle55);
+    circle55.on({
+                });
+var circle56 = L.circle([38.987148, -76.94285500000001],style_0).addTo(network);
+    circle56.init_style = style_0;
+    circle56["index"] = 56;
+    nodes_arr["network"].push(circle56);
+    circle56.on({
+                });
+var circle57 = L.circle([40.483579, -74.42276600000001],style_0).addTo(network);
+    circle57.init_style = style_0;
+    circle57["index"] = 57;
+    nodes_arr["network"].push(circle57);
+    circle57.on({
+                });
+var circle58 = L.circle([40.800515000000004, -77.860732],style_0).addTo(network);
+    circle58.init_style = style_0;
+    circle58["index"] = 58;
+    nodes_arr["network"].push(circle58);
+    circle58.on({
+                });
+var circle59 = L.circle([40.852768, -96.68950600000001],style_0).addTo(network);
+    circle59.init_style = style_0;
+    circle59["index"] = 59;
+    nodes_arr["network"].push(circle59);
+    circle59.on({
+                });
+var circle60 = L.circle([44.975352, -93.23097299999999],style_0).addTo(network);
+    circle60.init_style = style_0;
+    circle60["index"] = 60;
+    nodes_arr["network"].push(circle60);
+    circle60.on({
+                });
+var circle61 = L.circle([43.075589, -89.41156099999999],style_0).addTo(network);
+    circle61.init_style = style_0;
+    circle61["index"] = 61;
+    nodes_arr["network"].push(circle61);
+    circle61.on({
+                });
+var circle62 = L.circle([39.175274, -86.51236999999999],style_0).addTo(network);
+    circle62.init_style = style_0;
+    circle62["index"] = 62;
+    nodes_arr["network"].push(circle62);
+    circle62.on({
+                });
+var circle63 = L.circle([40.423665, -86.921141],style_0).addTo(network);
+    circle63.init_style = style_0;
+    circle63["index"] = 63;
+    nodes_arr["network"].push(circle63);
+    circle63.on({
+                });
+var circle64 = L.circle([33.215183, -87.536608],style_0).addTo(network);
+    circle64.init_style = style_0;
+    circle64["index"] = 64;
+    nodes_arr["network"].push(circle64);
+    circle64.on({
+                });
+var circle65 = L.circle([36.068073999999996, -94.171543],style_0).addTo(network);
+    circle65.init_style = style_0;
+    circle65["index"] = 65;
+    nodes_arr["network"].push(circle65);
+    circle65.on({
+                });
+var circle66 = L.circle([32.604448, -85.482106],style_0).addTo(network);
+    circle66.init_style = style_0;
+    circle66["index"] = 66;
+    nodes_arr["network"].push(circle66);
+    circle66.on({
+                });
+var circle67 = L.circle([29.650056, -82.358111],style_0).addTo(network);
+    circle67.init_style = style_0;
+    circle67["index"] = 67;
+    nodes_arr["network"].push(circle67);
+    circle67.on({
+                });
+var circle68 = L.circle([33.947571999999994, -83.374411],style_0).addTo(network);
+    circle68.init_style = style_0;
+    circle68["index"] = 68;
+    nodes_arr["network"].push(circle68);
+    circle68.on({
+                });
+var circle69 = L.circle([38.031369, -84.50692],style_0).addTo(network);
+    circle69.init_style = style_0;
+    circle69["index"] = 69;
+    nodes_arr["network"].push(circle69);
+    circle69.on({
+                });
+var circle70 = L.circle([30.413068, -91.18154200000001],style_0).addTo(network);
+    circle70.init_style = style_0;
+    circle70["index"] = 70;
+    nodes_arr["network"].push(circle70);
+    circle70.on({
+                });
+var circle71 = L.circle([34.364634, -89.53849699999999],style_0).addTo(network);
+    circle71.init_style = style_0;
+    circle71["index"] = 71;
+    nodes_arr["network"].push(circle71);
+    circle71.on({
+                });
+var circle72 = L.circle([33.455255, -88.79435500000001],style_0).addTo(network);
+    circle72.init_style = style_0;
+    circle72["index"] = 72;
+    nodes_arr["network"].push(circle72);
+    circle72.on({
+                });
+var circle73 = L.circle([38.944542, -92.32815],style_0).addTo(network);
+    circle73.init_style = style_0;
+    circle73["index"] = 73;
+    nodes_arr["network"].push(circle73);
+    circle73.on({
+                });
+var circle74 = L.circle([33.992474, -81.030468],style_0).addTo(network);
+    circle74.init_style = style_0;
+    circle74["index"] = 74;
+    nodes_arr["network"].push(circle74);
+    circle74.on({
+                });
+var circle75 = L.circle([35.954633, -83.927776],style_0).addTo(network);
+    circle75.init_style = style_0;
+    circle75["index"] = 75;
+    nodes_arr["network"].push(circle75);
+    circle75.on({
+                });
+var circle76 = L.circle([30.607809999999997, -96.348027],style_0).addTo(network);
+    circle76.init_style = style_0;
+    circle76["index"] = 76;
+    nodes_arr["network"].push(circle76);
+    circle76.on({
+                });
+var circle77 = L.circle([36.145086, -86.803507],style_0).addTo(network);
+    circle77.init_style = style_0;
+    circle77["index"] = 77;
+    nodes_arr["network"].push(circle77);
+    circle77.on({
+                });
+var circle78 = L.circle([35.307066999999996, -80.735164],style_0).addTo(network);
+    circle78.init_style = style_0;
+    circle78["index"] = 78;
+    nodes_arr["network"].push(circle78);
+    circle78.on({
+                });
+var circle79 = L.circle([25.756129, -80.37570799999999],style_0).addTo(network);
+    circle79.init_style = style_0;
+    circle79["index"] = 79;
+    nodes_arr["network"].push(circle79);
+    circle79.on({
+                });
+var circle80 = L.circle([26.375789, -80.10095600000001],style_0).addTo(network);
+    circle80.init_style = style_0;
+    circle80["index"] = 80;
+    nodes_arr["network"].push(circle80);
+    circle80.on({
+                });
+var circle81 = L.circle([32.528246, -92.649855],style_0).addTo(network);
+    circle81.init_style = style_0;
+    circle81["index"] = 81;
+    nodes_arr["network"].push(circle81);
+    circle81.on({
+                });
+var circle82 = L.circle([38.423483000000004, -82.42626],style_0).addTo(network);
+    circle82.init_style = style_0;
+    circle82["index"] = 82;
+    nodes_arr["network"].push(circle82);
+    circle82.on({
+                });
+var circle83 = L.circle([35.848558000000004, -86.36484899999999],style_0).addTo(network);
+    circle83.init_style = style_0;
+    circle83["index"] = 83;
+    nodes_arr["network"].push(circle83);
+    circle83.on({
+                });
+var circle84 = L.circle([33.210762, -97.156217],style_0).addTo(network);
+    circle84.init_style = style_0;
+    circle84["index"] = 84;
+    nodes_arr["network"].push(circle84);
+    circle84.on({
+                });
+var circle85 = L.circle([36.885028000000005, -76.305876],style_0).addTo(network);
+    circle85.init_style = style_0;
+    circle85["index"] = 85;
+    nodes_arr["network"].push(circle85);
+    circle85.on({
+                });
+var circle86 = L.circle([29.717346999999997, -95.401788],style_0).addTo(network);
+    circle86.init_style = style_0;
+    circle86["index"] = 86;
+    nodes_arr["network"].push(circle86);
+    circle86.on({
+                });
+var circle87 = L.circle([31.329828000000003, -89.33380600000001],style_0).addTo(network);
+    circle87.init_style = style_0;
+    circle87["index"] = 87;
+    nodes_arr["network"].push(circle87);
+    circle87.on({
+                });
+var circle88 = L.circle([33.502078000000004, -86.806348],style_0).addTo(network);
+    circle88.init_style = style_0;
+    circle88["index"] = 88;
+    nodes_arr["network"].push(circle88);
+    circle88.on({
+                });
+var circle89 = L.circle([31.771184, -106.503826],style_0).addTo(network);
+    circle89.init_style = style_0;
+    circle89["index"] = 89;
+    nodes_arr["network"].push(circle89);
+    circle89.on({
+                });
+var circle90 = L.circle([29.583058, -98.619407],style_0).addTo(network);
+    circle90.init_style = style_0;
+    circle90["index"] = 90;
+    nodes_arr["network"].push(circle90);
+    circle90.on({
+                });
+var circle91 = L.circle([36.985490999999996, -86.455741],style_0).addTo(network);
+    circle91.init_style = style_0;
+    circle91["index"] = 91;
+    nodes_arr["network"].push(circle91);
+    circle91.on({
+                });
+var circle92 = L.circle([41.076671000000005, -81.511263],style_0).addTo(network);
+    circle92.init_style = style_0;
+    circle92["index"] = 92;
+    nodes_arr["network"].push(circle92);
+    circle92.on({
+                });
+var circle93 = L.circle([40.204152, -85.40616800000001],style_0).addTo(network);
+    circle93.init_style = style_0;
+    circle93["index"] = 93;
+    nodes_arr["network"].push(circle93);
+    circle93.on({
+                });
+var circle94 = L.circle([41.379272, -83.630565],style_0).addTo(network);
+    circle94.init_style = style_0;
+    circle94["index"] = 94;
+    nodes_arr["network"].push(circle94);
+    circle94.on({
+                });
+var circle95 = L.circle([42.9534, -78.817697],style_0).addTo(network);
+    circle95.init_style = style_0;
+    circle95["index"] = 95;
+    nodes_arr["network"].push(circle95);
+    circle95.on({
+                });
+var circle96 = L.circle([43.582409000000006, -84.77469],style_0).addTo(network);
+    circle96.init_style = style_0;
+    circle96["index"] = 96;
+    nodes_arr["network"].push(circle96);
+    circle96.on({
+                });
+var circle97 = L.circle([42.251032, -83.621939],style_0).addTo(network);
+    circle97.init_style = style_0;
+    circle97["index"] = 97;
+    nodes_arr["network"].push(circle97);
+    circle97.on({
+                });
+var circle98 = L.circle([41.14564, -81.339449],style_0).addTo(network);
+    circle98.init_style = style_0;
+    circle98["index"] = 98;
+    nodes_arr["network"].push(circle98);
+    circle98.on({
+                });
+var circle99 = L.circle([39.512921999999996, -84.72391400000001],style_0).addTo(network);
+    circle99.init_style = style_0;
+    circle99["index"] = 99;
+    nodes_arr["network"].push(circle99);
+    circle99.on({
+                });
+var circle100 = L.circle([41.934313, -88.77415500000001],style_0).addTo(network);
+    circle100.init_style = style_0;
+    circle100["index"] = 100;
+    nodes_arr["network"].push(circle100);
+    circle100.on({
+                });
+var circle101 = L.circle([39.324837, -82.10041899999999],style_0).addTo(network);
+    circle101.init_style = style_0;
+    circle101["index"] = 101;
+    nodes_arr["network"].push(circle101);
+    circle101.on({
+                });
+var circle102 = L.circle([41.658071, -83.613974],style_0).addTo(network);
+    circle102.init_style = style_0;
+    circle102["index"] = 102;
+    nodes_arr["network"].push(circle102);
+    circle102.on({
+                });
+var circle103 = L.circle([42.28371, -85.610337],style_0).addTo(network);
+    circle103.init_style = style_0;
+    circle103["index"] = 103;
+    nodes_arr["network"].push(circle103);
+    circle103.on({
+                });
+var circle104 = L.circle([36.213869, -81.683306],style_0).addTo(network);
+    circle104.init_style = style_0;
+    circle104["index"] = 104;
+    nodes_arr["network"].push(circle104);
+    circle104.on({
+                });
+var circle105 = L.circle([34.723933, -92.338909],style_0).addTo(network);
+    circle105.init_style = style_0;
+    circle105["index"] = 105;
+    nodes_arr["network"].push(circle105);
+    circle105.on({
+                });
+var circle106 = L.circle([35.843577, -90.675302],style_0).addTo(network);
+    circle106.init_style = style_0;
+    circle106["index"] = 106;
+    nodes_arr["network"].push(circle106);
+    circle106.on({
+                });
+var circle107 = L.circle([33.796543, -79.013243],style_0).addTo(network);
+    circle107.init_style = style_0;
+    circle107["index"] = 107;
+    nodes_arr["network"].push(circle107);
+    circle107.on({
+                });
+var circle108 = L.circle([32.420603, -81.786524],style_0).addTo(network);
+    circle108.init_style = style_0;
+    circle108["index"] = 108;
+    nodes_arr["network"].push(circle108);
+    circle108.on({
+                });
+var circle109 = L.circle([33.753776, -84.384915],style_0).addTo(network);
+    circle109.init_style = style_0;
+    circle109["index"] = 109;
+    nodes_arr["network"].push(circle109);
+    circle109.on({
+                });
+var circle110 = L.circle([30.211533000000003, -92.02036899999999],style_0).addTo(network);
+    circle110.init_style = style_0;
+    circle110["index"] = 110;
+    nodes_arr["network"].push(circle110);
+    circle110.on({
+                });
+var circle111 = L.circle([32.528354, -92.073436],style_0).addTo(network);
+    circle111.init_style = style_0;
+    circle111["index"] = 111;
+    nodes_arr["network"].push(circle111);
+    circle111.on({
+                });
+var circle112 = L.circle([30.695858, -88.184021],style_0).addTo(network);
+    circle112.init_style = style_0;
+    circle112["index"] = 112;
+    nodes_arr["network"].push(circle112);
+    circle112.on({
+                });
+var circle113 = L.circle([32.729791, -97.113765],style_0).addTo(network);
+    circle113.init_style = style_0;
+    circle113["index"] = 113;
+    nodes_arr["network"].push(circle113);
+    circle113.on({
+                });
+var circle114 = L.circle([29.88853, -97.938144],style_0).addTo(network);
+    circle114.init_style = style_0;
+    circle114["index"] = 114;
+    nodes_arr["network"].push(circle114);
+    circle114.on({
+                });
+var circle115 = L.circle([29.556209999999997, -98.483785],style_0).addTo(network);
+    circle115.init_style = style_0;
+    circle115["index"] = 115;
+    nodes_arr["network"].push(circle115);
+    circle115.on({
+                });
+var circle116 = L.circle([33.928405, -117.425591],style_0).addTo(network);
+    circle116.init_style = style_0;
+    circle116["index"] = 116;
+    nodes_arr["network"].push(circle116);
+    circle116.on({
+                });
+var circle117 = L.circle([41.718109999999996, -87.60891099999999],style_0).addTo(network);
+    circle117.init_style = style_0;
+    circle117["index"] = 117;
+    nodes_arr["network"].push(circle117);
+    circle117.on({
+                });
+var circle118 = L.circle([33.510495, -112.129764],style_0).addTo(network);
+    circle118.init_style = style_0;
+    circle118["index"] = 118;
+    nodes_arr["network"].push(circle118);
+    circle118.on({
+                });
+var circle119 = L.circle([39.033369, -94.577279],style_0).addTo(network);
+    circle119.init_style = style_0;
+    circle119["index"] = 119;
+    nodes_arr["network"].push(circle119);
+    circle119.on({
+                });
+var circle120 = L.circle([32.278847, -106.747831],style_0).addTo(network);
+    circle120.init_style = style_0;
+    circle120["index"] = 120;
+    nodes_arr["network"].push(circle120);
+    circle120.on({
+                });
+var circle121 = L.circle([47.609315, -122.317031],style_0).addTo(network);
+    circle121.init_style = style_0;
+    circle121["index"] = 121;
+    nodes_arr["network"].push(circle121);
+    circle121.on({
+                });
+var circle122 = L.circle([25.907172, -97.420169],style_0).addTo(network);
+    circle122.init_style = style_0;
+    circle122["index"] = 122;
+    nodes_arr["network"].push(circle122);
+    circle122.on({
+                });
+var circle123 = L.circle([40.278822, -111.71529299999999],style_0).addTo(network);
+    circle123.init_style = style_0;
+    circle123["index"] = 123;
+    nodes_arr["network"].push(circle123);
+    circle123.on({
+                });
+var circle124 = L.circle([39.841181, -86.171234],style_0).addTo(network);
+    circle124.init_style = style_0;
+    circle124["index"] = 124;
+    nodes_arr["network"].push(circle124);
+    circle124.on({
+                });
+var circle125 = L.circle([41.265665000000006, -95.94717],style_0).addTo(network);
+    circle125.init_style = style_0;
+    circle125["index"] = 125;
+    nodes_arr["network"].push(circle125);
+    circle125.on({
+                });
+var circle126 = L.circle([41.92411, -87.655384],style_0).addTo(network);
+    circle126.init_style = style_0;
+    circle126["index"] = 126;
+    nodes_arr["network"].push(circle126);
+    circle126.on({
+                });
+var circle127 = L.circle([38.907676, -77.072344],style_0).addTo(network);
+    circle127.init_style = style_0;
+    circle127["index"] = 127;
+    nodes_arr["network"].push(circle127);
+    circle127.on({
+                });
+var circle128 = L.circle([43.038691, -87.93004599999999],style_0).addTo(network);
+    circle128.init_style = style_0;
+    circle128["index"] = 128;
+    nodes_arr["network"].push(circle128);
+    circle128.on({
+                });
+var circle129 = L.circle([41.844592999999996, -71.437208],style_0).addTo(network);
+    circle129.init_style = style_0;
+    circle129["index"] = 129;
+    nodes_arr["network"].push(circle129);
+    circle129.on({
+                });
+var circle130 = L.circle([40.720676, -73.79670899999999],style_0).addTo(network);
+    circle130.init_style = style_0;
+    circle130["index"] = 130;
+    nodes_arr["network"].push(circle130);
+    circle130.on({
+                });
+var circle131 = L.circle([40.74345, -74.24617099999999],style_0).addTo(network);
+    circle131.init_style = style_0;
+    circle131["index"] = 131;
+    nodes_arr["network"].push(circle131);
+    circle131.on({
+                });
+var circle132 = L.circle([40.037064, -75.343773],style_0).addTo(network);
+    circle132.init_style = style_0;
+    circle132["index"] = 132;
+    nodes_arr["network"].push(circle132);
+    circle132.on({
+                });
+var circle133 = L.circle([29.964007000000002, -90.107465],style_0).addTo(network);
+    circle133.init_style = style_0;
+    circle133["index"] = 133;
+    nodes_arr["network"].push(circle133);
+    circle133.on({
+                });
+
+function makeOver (caller, newstyle) {
+                   caller.setStyle(newstyle);
+                   };
+function makeInit (caller) {
+                   caller.setStyle(caller.init_style);
+                   };
+        
+function neighboring(a, b,layer) {
+         return linkedByIndex[layer][a.index + "," + b.index];
+         };
+function connectedNodes(inode, ilayer, nodestyle, edgestyle) {
+            nodes_arr[ilayer].forEach(function (onode) {
+                 if (neighboring(inode,onode,ilayer) | neighboring(onode, inode,ilayer)) {
+                     makeOver(onode, nodestyle);
+                 };
+            });
+            edges_arr[ilayer].forEach(function (edge) {
+                 if (inode.index==edge.source | inode.index==edge.target) {
+                     makeOver(edge, edgestyle);
+                     };
+                 });
+         };
+function resConnectedNodes(inode, ilayer) {
+            nodes_arr[ilayer].forEach(function (onode) {
+                 if (neighboring(inode,onode,ilayer) | neighboring(onode, inode,ilayer)) {
+                     makeInit(onode);
+                 };
+            });
+            edges_arr[ilayer].forEach(function (edge) {
+                 if (inode.index==edge.source | inode.index==edge.target) {
+                     makeInit(edge);
+                     };
+                 });
+         };
+</script>
+</body>

@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Circles and lines &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Networks" href="w_nets.html" />
+    <link rel="prev" title="Getting started" href="w_start.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="tutorials.html">Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#static-map">Static Map</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="tutorials.html#web-map">Web Map</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="w_start.html">Getting started</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Circles and lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_nets.html">Networks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_json.html">GeoJSON files and choropleths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_layers.html">Layers: basemaps and overlays</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_styles.html">Styles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="w_info.html">Information panel</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference_API.html">API Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="tutorials.html">Tutorials</a> &raquo;</li>
+        
+      <li>Circles and lines</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/w_circles.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="circles-and-lines">
+<h1>Circles and lines<a class="headerlink" href="#circles-and-lines" title="Permalink to this headline">¶</a></h1>
+<p>A conveninet way to represent point geospatial data is by using circles, which
+will allow us to represent the values of a point by means of its color and/or
+size. To add circles to a <cite>WebMap</cite> object, we will use the <cite>add_circles</cite>
+method of the object. First we need to create the <cite>WebMap</cite> object:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">oneworld</span> <span class="k">as</span> <span class="nn">ow</span>
+<span class="n">mymap</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">WebMap</span><span class="p">(</span><span class="n">center</span> <span class="o">=</span> <span class="p">[</span><span class="mi">39</span><span class="p">,</span><span class="o">-</span><span class="mf">96.8</span><span class="p">],</span> <span class="n">zoom</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now we can use the <cite>add_circles</cite> method of that object:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="p">[</span><span class="mf">36.122288</span><span class="p">,</span> <span class="mf">40.007984</span><span class="p">,</span> <span class="mf">32.232845</span><span class="p">]</span>
+                  <span class="n">longitude</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">97.069263</span><span class="p">,</span> <span class="o">-</span><span class="mf">105.265457</span><span class="p">,</span> <span class="o">-</span><span class="mf">110.950172</span><span class="p">],</span>
+                  <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In this example we have added three circles to the map, specifying their
+coordinates as two sequences of latitude and longitude values. Given that
+we have also set the <cite>constant_size</cite> parameter to True, the circles will
+retain its size regardless of the zoom level:</p>
+<iframe src="_static/tut_circ1.html" height="345px" width="100%"></iframe><p><cite>oneworld</cite> also admits <cite>pandas</cite> DataFrames as inputs. In this case, we will
+use the <cite>data</cite> parameter in the <cite>add_circles</cite> method to specify the DataFrame,
+and the <cite>latitude</cite> and <cite>longitude</cite> parameters to state the name of the column
+in the dataframe containing the latitude and longitude coordinates,
+respectively. To plot the map from the previous example using dataframes,
+we would simply:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">coords</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;lat&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">36.122288</span><span class="p">,</span> <span class="mf">40.007984</span><span class="p">,</span> <span class="mf">32.232845</span><span class="p">],</span>
+          <span class="s1">&#39;lon&#39;</span><span class="p">:</span> <span class="p">[</span><span class="o">-</span><span class="mf">97.069263</span><span class="p">,</span> <span class="o">-</span><span class="mf">105.265457</span><span class="p">,</span> <span class="o">-</span><span class="mf">110.950172</span><span class="p">]}</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">coords</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;lon&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Dataframes are a convenient way to store and manipulate data that <cite>oneworld</cite>
+can use to visualize that data. For example, we can use the values in one
+of the dataframe’s columns to color each circle (in this case we use a
+preloaded dataset packaged with <cite>oneworld</cite> for testing purposes only):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Conference&#39;</span><span class="p">,</span> <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_circ2.html" height="345px" width="100%"></iframe><p>We have used the values in the “Conferences” column of the dataframe to
+color each circle. When using values to color elements, <cite>oneworld</cite>
+automatically adds a legend colorbar to the map. The elements used to
+color the nodes can be either categorical or numerical:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;Expenditures&#39;</span><span class="p">,</span> <span class="n">palette</span> <span class="o">=</span> <span class="s1">&#39;YlOrRd&#39;</span><span class="p">,</span> <span class="n">n_colors</span> <span class="o">=</span> <span class="mi">6</span><span class="p">,</span>
+                  <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">legend_pos</span> <span class="o">=</span> <span class="s1">&#39;bottomleft&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_circ3.html" height="345px" width="100%"></iframe><p>Besides using the “Expenditures” column of the dataframe (which contains
+numerical data), we have also requested the ‘YlOrRd’ palette of colors with
+6 colors, and placed the colorbar on the bottom left of the map. We can also
+represent numerical values in our map using the <cite>size</cite> parameter. When doing
+so, the radius of each circle will be scaled to represent its
+corresponding numerical value:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">ow</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;conferences&#39;</span><span class="p">)</span>
+
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_circles</span><span class="p">(</span><span class="n">latitude</span> <span class="o">=</span> <span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="s1">&#39;Long&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span>
+                  <span class="n">size</span> <span class="o">=</span> <span class="s1">&#39;Expenditures&#39;</span><span class="p">,</span> <span class="n">constant_size</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_circ4.html" height="345px" width="100%"></iframe><p>Note that we have requested the circles to maintain a constant size independent
+of the zoom level.</p>
+<p>If you don’t like working with dataframes because you feel that they are not
+pythonic enough, all these parameters accept lists and tuples as well. They
+also accept a single value, which will be applied to all the circles.</p>
+<p>Lines work in the same way, except that now we have to specify two sets of
+coordinates, one set of latitudes and longitudes for the starting points of the
+lines, and one set for the ending points:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">w</span><span class="o">.</span><span class="n">WebMap</span><span class="p">(</span><span class="n">center</span> <span class="o">=</span> <span class="p">[</span><span class="mi">39</span><span class="p">,</span><span class="o">-</span><span class="mf">96.8</span><span class="p">],</span> <span class="n">zoom</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">mymap</span><span class="o">.</span><span class="n">add_lines</span><span class="p">(</span><span class="n">latitude0</span> <span class="o">=</span> <span class="p">[</span><span class="mf">29.964007</span><span class="p">,</span> <span class="mf">32.278847</span><span class="p">,</span> <span class="mf">44.975352</span><span class="p">],</span>
+                <span class="n">longitude0</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">90.107465</span><span class="p">,</span> <span class="o">-</span><span class="mf">106.747831</span><span class="p">,</span> <span class="o">-</span><span class="mf">93.230973</span><span class="p">],</span>
+                <span class="n">latitude1</span> <span class="o">=</span> <span class="p">[</span><span class="mf">40.278822</span><span class="p">,</span> <span class="mf">40.852768</span><span class="p">,</span> <span class="mf">34.069322</span><span class="p">],</span>
+                <span class="n">longitude1</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">111.715293</span><span class="p">,</span> <span class="o">-</span><span class="mf">96.689506</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.442436</span><span class="p">],</span>
+                <span class="n">color</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Big East&#39;</span><span class="p">,</span> <span class="s1">&#39;SBC&#39;</span><span class="p">,</span> <span class="s1">&#39;Pac 12&#39;</span><span class="p">],</span>
+                <span class="n">size</span> <span class="o">=</span> <span class="p">[</span><span class="mi">18</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">35</span><span class="p">])</span>
+</pre></div>
+</div>
+<iframe src="_static/tut_lin1.html" height="345px" width="100%"></iframe></div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="w_nets.html" class="btn btn-neutral float-right" title="Networks" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="w_start.html" class="btn btn-neutral float-left" title="Getting started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

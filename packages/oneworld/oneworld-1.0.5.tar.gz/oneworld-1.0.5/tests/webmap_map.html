@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+    </style>
+    <title>OneWorld</title>
+</head>
+<body>    
+<div class="leaflet-map" id="map1" ></div>
+<script>
+    // Layer groups
+        var StreetMap = L.featureGroup();
+    // map object
+    var map = L.map('map1', {
+	                zoom:4,
+	                center:[39, -96.8],
+                     layers: [StreetMap]
+                    });
+    // Scale
+    L.control.scale().addTo(map)
+    // Basemap(s)
+    
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			  {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+                        subdomains: "abc",
+                        zIndex: 1
+			   }).addTo(StreetMap);
+map.attributionControl.setPrefix('<a href="https://bitbucket.org/taguilar/oneworld">OneWorld</a> | <a href="https://leafletjs.com/">Leaflet</a>')
+map.on('baselayerchange', function (e) {
+});
+    // Styles
+</script>
+</body>

@@ -1,0 +1,363 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>API Reference &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="StaticMap" href="generated/oneworld.StaticMap.html" />
+    <link rel="prev" title="Information panel" href="w_info.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#static-maps">Static Maps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.html">StaticMap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.get_projection.html">get_projection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.plot_outter.html">plot_outter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.plot_inner.html">plot_inner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.plot_physics.html">plot_physics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.plot_pop.html">plot_pop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.add_txt.html">add_txt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.add_markers.html">add_markers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.add_legend.html">add_legend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.add_choropleth.html">add_choropleth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.add_colorbar.html">add_colorbar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.add_shp.html">add_shp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.StaticMap.savemap.html">savemap</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interactive-maps">Interactive Maps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.html">WebMap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_basemap.html">add_basemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_box.html">add_box</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_choropleth.html">add_choropleth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_circles.html">add_circles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_geojson.html">add_geojson</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_heatmap.html">add_heatmap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_layer_control.html">add_layer_control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_lines.html">add_lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_logo.html">add_logo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_network.html">add_network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_overlay.html">add_overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.add_panel.html">add_panel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/oneworld.WebMap.savemap.html">savemap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>API Reference</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/reference_API.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="api-reference">
+<h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="static-maps">
+<h2>Static Maps<a class="headerlink" href="#static-maps" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">Map Object</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.html#oneworld.StaticMap" title="oneworld.StaticMap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StaticMap</span></code></a>([position, view, create_fig, …])</p></td>
+<td><p>Base static map object.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.get_projection.html#oneworld.StaticMap.get_projection" title="oneworld.StaticMap.get_projection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_projection</span></code></a>(proj, **kwargs)</p></td>
+<td><p>Get the map projection.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.plot_outter.html#oneworld.StaticMap.plot_outter" title="oneworld.StaticMap.plot_outter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_outter</span></code></a>()</p></td>
+<td><p>Plot the outter border for given countries.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.plot_inner.html#oneworld.StaticMap.plot_inner" title="oneworld.StaticMap.plot_inner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_inner</span></code></a>()</p></td>
+<td><p>Plot the inner borders for given countries.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.plot_physics.html#oneworld.StaticMap.plot_physics" title="oneworld.StaticMap.plot_physics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_physics</span></code></a>()</p></td>
+<td><p>Add physical features to the map.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.plot_pop.html#oneworld.StaticMap.plot_pop" title="oneworld.StaticMap.plot_pop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_pop</span></code></a>()</p></td>
+<td><p>Plot populated areas for given countries.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.add_txt.html#oneworld.StaticMap.add_txt" title="oneworld.StaticMap.add_txt"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_txt</span></code></a>(latitude, longitude, text[, data, …])</p></td>
+<td><p>Add text to the map.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.add_markers.html#oneworld.StaticMap.add_markers" title="oneworld.StaticMap.add_markers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_markers</span></code></a>(latitude, longitude[, size, …])</p></td>
+<td><p>Add markers to the map.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.add_legend.html#oneworld.StaticMap.add_legend" title="oneworld.StaticMap.add_legend"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_legend</span></code></a>(marker, legend_pos, plt_kwargs, …)</p></td>
+<td><p>Add a legend to the map.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.add_choropleth.html#oneworld.StaticMap.add_choropleth" title="oneworld.StaticMap.add_choropleth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_choropleth</span></code></a>(shp_file, geoid, color[, …])</p></td>
+<td><p>Add a choropleth to the map.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.add_colorbar.html#oneworld.StaticMap.add_colorbar" title="oneworld.StaticMap.add_colorbar"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_colorbar</span></code></a>([legend_pos, cap_min, cap_max, …])</p></td>
+<td><p>Add a colorbar to the map.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.add_shp.html#oneworld.StaticMap.add_shp" title="oneworld.StaticMap.add_shp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_shp</span></code></a>(shp_file[, subset, subset_key, …])</p></td>
+<td><p>Add polygons from a shapefile.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.StaticMap.savemap.html#oneworld.StaticMap.savemap" title="oneworld.StaticMap.savemap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">savemap</span></code></a>(filename[, tight])</p></td>
+<td><p>Save the map to a file.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="interactive-maps">
+<h2>Interactive Maps<a class="headerlink" href="#interactive-maps" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">Map Object</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.html#oneworld.WebMap" title="oneworld.WebMap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">WebMap</span></code></a>([scale, title])</p></td>
+<td><p>Base interactive map object.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_basemap.html#oneworld.WebMap.add_basemap" title="oneworld.WebMap.add_basemap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_basemap</span></code></a>([name, tiles, source])</p></td>
+<td><p>Add a basemap.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_box.html#oneworld.WebMap.add_box" title="oneworld.WebMap.add_box"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_box</span></code></a>([contents, position])</p></td>
+<td><p>Add a box that with static content.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_choropleth.html#oneworld.WebMap.add_choropleth" title="oneworld.WebMap.add_choropleth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_choropleth</span></code></a>(json_file, geoid, color[, …])</p></td>
+<td><p>Add a choropleth.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_circles.html#oneworld.WebMap.add_circles" title="oneworld.WebMap.add_circles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_circles</span></code></a>(latitude, longitude[, size, …])</p></td>
+<td><p>Add circles in specific locations.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_geojson.html#oneworld.WebMap.add_geojson" title="oneworld.WebMap.add_geojson"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_geojson</span></code></a>(json_file[, subset, subset_key, …])</p></td>
+<td><p>Add a GeoJSON file to the map.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_heatmap.html#oneworld.WebMap.add_heatmap" title="oneworld.WebMap.add_heatmap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_heatmap</span></code></a>(latitude, longitude, intensity)</p></td>
+<td><p>Add a heatmap to the map.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_layer_control.html#oneworld.WebMap.add_layer_control" title="oneworld.WebMap.add_layer_control"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_layer_control</span></code></a>([position, collapsed, …])</p></td>
+<td><p>Add a layer control panel.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_lines.html#oneworld.WebMap.add_lines" title="oneworld.WebMap.add_lines"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_lines</span></code></a>(latitude0, longitude0, latitude1, …)</p></td>
+<td><p>Add lines connecting specific locations.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_logo.html#oneworld.WebMap.add_logo" title="oneworld.WebMap.add_logo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_logo</span></code></a>(source[, position, width, embed])</p></td>
+<td><p>Add a static image from a file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_network.html#oneworld.WebMap.add_network" title="oneworld.WebMap.add_network"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_network</span></code></a>(latitude, longitude[, source, …])</p></td>
+<td><p>Add nodes connected by edges.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_overlay.html#oneworld.WebMap.add_overlay" title="oneworld.WebMap.add_overlay"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_overlay</span></code></a>(name[, show_start, show_panel, …])</p></td>
+<td><p>Add an overlay layer.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/oneworld.WebMap.add_panel.html#oneworld.WebMap.add_panel" title="oneworld.WebMap.add_panel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_panel</span></code></a>([title, lines, noinfo, position, …])</p></td>
+<td><p>Add an information panel.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/oneworld.WebMap.savemap.html#oneworld.WebMap.savemap" title="oneworld.WebMap.savemap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">savemap</span></code></a>([outfile])</p></td>
+<td><p>Create the file containing the map.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generated/oneworld.StaticMap.html" class="btn btn-neutral float-right" title="StaticMap" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="w_info.html" class="btn btn-neutral float-left" title="Information panel" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+          .legend {
+                  padding: 6px 8px;
+                  font: 14px/16px Arial, Helvetica, sans-serif;
+                  background: white;
+                  background: rgba(255,255,255,0.8);
+                  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                  border-radius: 5px;
+                  line-height: 18px;
+                  color: #555;
+                  }
+          .legend h4 {
+                      margin: 0 0 5px;
+                      color: #777;
+                     }
+          .legend i {
+                    width: 18px;
+                    height: 18px;
+                    float: left;
+                    margin-right: 8px;
+                    opacity: 0.7;
+                    }
+    </style>
+    <title>OneWorld</title>
+</head>
+<body>    
+<div class="leaflet-map" id="map1" ></div>
+<script>
+    // Layer groups
+        var StreetMap = L.featureGroup();
+    // map object
+    var map = L.map('map1', {
+	                zoom:4,
+	                center:[39, -96.8],
+                     layers: [StreetMap]
+                    });
+    // Scale
+    L.control.scale().addTo(map)
+    // Basemap(s)
+    
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			  {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+                        subdomains: "abc",
+                        zIndex: 1
+			   }).addTo(StreetMap);
+map.attributionControl.setPrefix('<a href="https://bitbucket.org/taguilar/oneworld">OneWorld</a> | <a href="https://leafletjs.com/">Leaflet</a>')
+map.on('baselayerchange', function (e) {
+});
+    // Styles
+    var style_1 = {
+                   color:'#ffffbe',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                   weight:'3.0',
+                    };
+    var style_0 = {
+                   color:'#f98e52',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                   weight:'6.84',
+                    };
+    var style_2 = {
+                   color:'#86cfa5',
+                   opacity:'1.0',
+                   fillOpacity:'0.6',
+                   weight:'15.0',
+                    };
+        // Lines
+var line0 = L.polyline([[29.964007, -90.107465], [40.278822, -111.715293]],style_0).addTo(map);
+    line0.init_style = style_0; 
+    line0.on({
+                });
+var line1 = L.polyline([[32.278847, -106.747831], [40.852768, -96.689506]],style_1).addTo(map);
+    line1.init_style = style_1; 
+    line1.on({
+                });
+var line2 = L.polyline([[44.975352, -93.230973], [34.069322, -118.442436]],style_2).addTo(map);
+    line2.init_style = style_2; 
+    line2.on({
+                });
+function makeOver (caller, newstyle) {
+                   caller.setStyle(newstyle);
+                  };
+function makeInit (caller) {
+                   caller.setStyle(caller.init_style);
+                  };
+        
+
+var cb_base_arr = {
+    "StreetMap": [],
+};
+var legend_0 = L.control({position: 'bottomright'});
+
+legend_0.onAdd = function (map) {
+
+  var div = L.DomUtil.create('div', 'legend'),
+   labels = ['Big East', 'SBC', 'Pac 12', ],
+   colors = ['#f98e52', '#ffffbe', '#86cfa5', ];
+       for (var i = 0; i < labels.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + colors[i] + '"></i> ' +
+            labels[i] +'<br />'
+    }
+    return div;
+};
+legend_0.addTo(map);
+if (cb_base_arr["StreetMap"].lentgh > 0) {
+    cb_base_arr["StreetMap"][0].addTo(map);
+    var activeControls = [cb_base_arr[StreetMap][0]];
+} else {
+var activeControls = [];
+}
+</script>
+</body>

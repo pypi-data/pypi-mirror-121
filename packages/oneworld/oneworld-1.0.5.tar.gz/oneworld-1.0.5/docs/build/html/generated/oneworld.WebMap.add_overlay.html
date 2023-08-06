@@ -1,0 +1,264 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>add_overlay &mdash; OneWorld 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="add_panel" href="oneworld.WebMap.add_panel.html" />
+    <link rel="prev" title="add_network" href="oneworld.WebMap.add_network.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> OneWorld
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../reference_API.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../reference_API.html#static-maps">Static Maps</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../reference_API.html#interactive-maps">Interactive Maps</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.html">WebMap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_basemap.html">add_basemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_box.html">add_box</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_choropleth.html">add_choropleth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_circles.html">add_circles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_geojson.html">add_geojson</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_heatmap.html">add_heatmap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_layer_control.html">add_layer_control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_lines.html">add_lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_logo.html">add_logo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_network.html">add_network</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">add_overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.add_panel.html">add_panel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oneworld.WebMap.savemap.html">savemap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OneWorld</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../reference_API.html">API Reference</a> &raquo;</li>
+        
+      <li>add_overlay</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/generated/oneworld.WebMap.add_overlay.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="add-overlay">
+<h1>add_overlay<a class="headerlink" href="#add-overlay" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="oneworld.WebMap.add_overlay">
+<code class="sig-prename descclassname">WebMap.</code><code class="sig-name descname">add_overlay</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">show_start=True</em>, <em class="sig-param">show_panel=True</em>, <em class="sig-param">alwaysontop=False</em><span class="sig-paren">)</span><a class="headerlink" href="#oneworld.WebMap.add_overlay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an overlay layer.</p>
+<p>Add a layer to the map object that contains an overlay. Overlays
+are transparent by default unless they are populated with other
+elements (such as panels, markers, …) so its only purpose is to serve
+as a container for other element of the map. Overlays stack on top
+of the active basemap and on top of each other, unless deactivated
+in the layer control panel (more than one overlay layer can be active
+at a time).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – Name of the overlay layer. It is also the string that will be
+displayed in a layer control panel in case it is added.</p></li>
+<li><p><strong>show_start</strong> (<em>bool</em>) – If True, the overlay will be active on map load
+(Default: True)</p></li>
+<li><p><strong>show_panel</strong> (<em>bool</em>) – If False, its name will never appear in any control layer
+panel. This means that it will not be possible to
+activate it or deactivate it, it will stay as
+show_start defined (Default: True).</p></li>
+<li><p><strong>alwaysontop</strong> (<em>bool</em>) – If True, the overlay will always be the top layer,
+even when changing active layers through a layer control
+(useful for example when mixing markers and choropleths)
+(Default: False).</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If a dataframe is used in any of the other methods, the <cite>name</cite> of the
+overlay cannot coincide with the name of any of the columns of the
+dataframe.</p>
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="oneworld.WebMap.add_panel.html" class="btn btn-neutral float-right" title="add_panel" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="oneworld.WebMap.add_network.html" class="btn btn-neutral float-left" title="add_network" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Antoni Aguilar Mogas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

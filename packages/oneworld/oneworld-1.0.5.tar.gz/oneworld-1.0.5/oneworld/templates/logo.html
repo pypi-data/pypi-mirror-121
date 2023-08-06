@@ -1,0 +1,17 @@
+// Logo
+L.Control.Watermark = L.Control.extend({
+    onAdd: function(map) {
+        var img = L.DomUtil.create('img');
+
+        img.src = '{{pymap.logo.source}}';
+        img.style.width = '{{pymap.logo.width}}';
+
+        return img;
+    }
+});
+
+L.control.watermark = function(opts) {
+    return new L.Control.Watermark(opts);
+}
+
+L.control.watermark({ position: '{{pymap.logo.position}}' }).addTo(map);
