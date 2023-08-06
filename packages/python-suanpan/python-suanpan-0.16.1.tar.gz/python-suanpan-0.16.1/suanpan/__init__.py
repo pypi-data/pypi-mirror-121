@@ -1,0 +1,13 @@
+# coding=utf-8
+from __future__ import absolute_import, print_function
+
+from suanpan import asyncio
+from suanpan.g import g
+from suanpan.run import cli, env, run
+from suanpan.simple_run import simple_run
+
+__version__ = "0.16.1"
+
+
+if __name__ == "__main__":
+    print(f"Suanpan SDK (ver: {__version__})")
