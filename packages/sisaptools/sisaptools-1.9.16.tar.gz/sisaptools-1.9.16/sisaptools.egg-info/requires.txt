@@ -1,0 +1,8 @@
+future
+jdcal
+mysqlclient
+paramiko
+pycryptodome
+python-dateutil
+redis
+cx-Oracle==7.3
