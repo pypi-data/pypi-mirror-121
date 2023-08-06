@@ -1,0 +1,6 @@
+pandas
+rich
+pymysql
+toolz
+click
+click_help_colors
