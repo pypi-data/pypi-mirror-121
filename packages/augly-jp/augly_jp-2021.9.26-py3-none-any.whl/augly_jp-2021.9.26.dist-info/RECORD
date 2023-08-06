@@ -1,0 +1,16 @@
+augly_jp/__init__.py,sha256=nCRVjHBldNoSgC3BvADU04K4NofELC9lzBHqXeLRHFA,569
+augly_jp/text/__init__.py,sha256=nCRVjHBldNoSgC3BvADU04K4NofELC9lzBHqXeLRHFA,569
+augly_jp/text/augmenters/__init__.py,sha256=W5O-d9I74g-UL9ychjKQIfxDZy0UyOHxd539F6nFByQ,169
+augly_jp/text/augmenters/sentence.py,sha256=hiltYIOfSLzLidO8MubySz8AG1o8_Vml55HXoenj2bY,1951
+augly_jp/text/augmenters/utils.py,sha256=ZYoTrPFtkPw_DPlXSMP9LPam_daghnNN7El0pQeSw48,4808
+augly_jp/text/augmenters/word.py,sha256=nxkQumBGYgpClI_F4sGeDQJ8dF0dN77x0Yi7k5QFmbg,7740
+augly_jp/text/functional/__init__.py,sha256=QC9IGfYBU-loyxiGbC1Ryz2QDXXvaIIJIrlJCh_9U7w,192
+augly_jp/text/functional/sentence.py,sha256=PGCLBipNNJpaHTSkEKEayv8gwH-Lh-lysfAiUJnGCCE,854
+augly_jp/text/functional/word.py,sha256=QoJgzF57EJp7rFGiyVa2C5637D6SloE1bofveUieTD8,1916
+augly_jp/text/transforms/__init__.py,sha256=O4-hKxjrQmoit8fh1oTS-IZn1zjqOo6_Cda226Z7CIg,184
+augly_jp/text/transforms/sentence.py,sha256=a0IikEkv5hVR9cqSbdooSTpKwJxe-LW3NTxY06yOnyI,1175
+augly_jp/text/transforms/word.py,sha256=2a1d5wekXCAYwdOIHzHNE4fyosXthmVbwXf-wwC5EfQ,2722
+augly_jp-2021.9.26.dist-info/LICENSE,sha256=6rMv4aLSGRsQ03-9xF7772k6lIwv__bSrd3OqcaPy9E,1064
+augly_jp-2021.9.26.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+augly_jp-2021.9.26.dist-info/METADATA,sha256=JsonLUQjk76RHLr3SIjPLYful_20QBQlLDsRQKAg43s,4188
+augly_jp-2021.9.26.dist-info/RECORD,,
