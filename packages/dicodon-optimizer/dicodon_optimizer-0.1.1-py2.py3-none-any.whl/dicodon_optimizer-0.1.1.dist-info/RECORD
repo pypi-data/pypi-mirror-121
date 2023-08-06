@@ -1,0 +1,10 @@
+dicodon_optimizer/__init__.py,sha256=n60jidpS3yrbjyA4-WGbGz15EOwaUcHkQVjPc0bGTtU,276
+dicodon_optimizer/dicodon_optimization.py,sha256=5NNVI3oydKiVKZ4h4XloXQmVhsyI1mXqJzPJToe_f38,7250
+dicodon_optimizer/fasta.py,sha256=bZg_aHWcS2VaejvgqyaMoyNsaaWBRSOeFX28GpqLinM,598
+dicodon_optimizer/hmm.py,sha256=oauaS4WJ8e031TXzObUnBp8oYz8ISd0cBqZ2amaD5cI,7619
+dicodon_optimizer-0.1.1.dist-info/AUTHORS.rst,sha256=cSBy6yEDPSUKe4eVD0ZCiVuxZe5Um9YQYv-SUwSpsh0,95
+dicodon_optimizer-0.1.1.dist-info/LICENSE.txt,sha256=hvjUcHyCQ_YUuMJNpyPuoMx1reX1juPoFM2qF_4qpsM,1086
+dicodon_optimizer-0.1.1.dist-info/METADATA,sha256=sCeZoVj_DEC8IP3G6u1r8EixUHhrJwiIIhiTYbvSbU4,1040
+dicodon_optimizer-0.1.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+dicodon_optimizer-0.1.1.dist-info/top_level.txt,sha256=a8x7AqZhoZnenO0G522iA83HGl18z2W0U_rJ4KovaE0,18
+dicodon_optimizer-0.1.1.dist-info/RECORD,,
