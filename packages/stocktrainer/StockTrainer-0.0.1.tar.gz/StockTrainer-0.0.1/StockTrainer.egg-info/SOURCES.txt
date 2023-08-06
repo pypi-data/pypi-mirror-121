@@ -1,0 +1,9 @@
+README.md
+setup.py
+StockTrainer.egg-info/PKG-INFO
+StockTrainer.egg-info/SOURCES.txt
+StockTrainer.egg-info/dependency_links.txt
+StockTrainer.egg-info/requires.txt
+StockTrainer.egg-info/top_level.txt
+stocktrainer/StockTrainer.py
+stocktrainer/__init__.py
