@@ -1,0 +1,14 @@
+lark-parser
+pylint
+pathos
+ipython
+ipykernel
+rope
+pathos
+tqdm
+aiofile
+pytest
+strace-parser
+pytest-benchmark
+dataclasses-json
+numpy

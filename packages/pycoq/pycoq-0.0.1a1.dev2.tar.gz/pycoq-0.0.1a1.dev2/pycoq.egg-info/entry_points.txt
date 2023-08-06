@@ -1,0 +1,3 @@
+[console_scripts]
+pycoq-trace = pycoq.pycoq_trace:main
+
