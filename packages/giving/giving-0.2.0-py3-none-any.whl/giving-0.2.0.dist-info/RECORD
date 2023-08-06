@@ -1,0 +1,12 @@
+giving/__init__.py,sha256=FhMn5_euFDQJyzIOSAZyi22oapCiNOuxunYEindrKFw,278
+giving/core.py,sha256=mN3GyaWobtJRXfRdsqrY6saaqWdqs3BO8poqvDFasxM,14261
+giving/executors.py,sha256=_hTbRu0uF0FzuaVPtScT9eElQpqDcdps_wo8kddMXpY,3774
+giving/extraops.py,sha256=39kOu138FS-3rAwZkfWa-5dQN9pQrl3V--1_Ix87e-o,23884
+giving/obs.py,sha256=sQG59hKgNJTIJnrLJuyrpWmYaa2atAcs8xbJdxl1IWA,17666
+giving/operators.py,sha256=paeKFumLoMODVkOFsGaJrwmvefzh4HmiMBP7cWGi8CY,2583
+giving/utils.py,sha256=Z6Cu1EsYdDoRqDgDEL2hdePV2BANLiHX9WpR3c0AEIg,5440
+giving/version.py,sha256=XQVhijSHeIVMVzY2S4fY9BKxV2XHSTr9VVHsYltGPvQ,18
+giving-0.2.0.dist-info/LICENSE,sha256=4tpAFtB0HjDrvf_AKPSPfay1-sTWxlgKWkP3HAmVhRU,1061
+giving-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+giving-0.2.0.dist-info/METADATA,sha256=Kph-NMG6IYPr5YKKNWedqhrBZJUmcslUWvcPuCjGw7I,549
+giving-0.2.0.dist-info/RECORD,,
