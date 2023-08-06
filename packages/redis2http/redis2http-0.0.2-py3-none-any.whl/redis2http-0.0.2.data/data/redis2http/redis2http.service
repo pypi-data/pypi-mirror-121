@@ -1,0 +1,13 @@
+[Unit]
+Description=Redis2HTTP
+After=syslog.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/redis2http.py
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target
+
+
