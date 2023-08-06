@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ML-Classification-model-selector-Basavaraj100
+Version: 0.0.3
+Summary: It select best classfication model
+Home-page: https://github.com/Basavaraj100/ML_Classification_model_selector
+Author: ML_Classification_model_selector
+Author-email: benkibijali@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Basavaraj100/ML_Classification_model_selector/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
+Requires-Dist: catboost
+Requires-Dist: tqdm
+Requires-Dist: logging
+
+# ML_Classification_model_selector
+
+
+
+
+
+## Functions available
+a) Model_Selector --> it is a class
+- You can import his  by 'from select_classifier.select_model import Model_Selector'
+- initialise the Model_Selector
+- eg: v=Model_Selector()
+
+b) model_performances
+- Here you need to provide dataframe and the name of the target column
+- Dataframe should be free of missing values and categorical features
+- This method results the performance of mentioned models in terms of accuracy,precision,recall,f1_score and roc_auc_score
+- eg: v.model_performances(dataframe,'target')
+
+c)select_best_model
+- This method results the name of the model which performs best in mentioned metrics
+- eg: v.model_performances(based_on='accuracy')
+
+d)plot_model_performance
+- This method results the line plot of performances of all models
+- eg: v.plot_model_performance()
+
+
+
