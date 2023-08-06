@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "cybernetickit"
+version = "0.1.0.a1"
+description = "Python library for writing software with the intent to make social impact across multiple fields of study"
+authors = ["Jurnell Cockhren <jurnell@civichacker.com>"]
+license = "LGPL-3.0-or-later"
+classifiers = [
+    "Topic :: Scientific/Engineering",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages = [
+    { include = "civichacker" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+elasticsearch-dsl = ">=7.0.0,<8.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+factory-boy = "^3.2.0"
+ipython = "^7.27.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
