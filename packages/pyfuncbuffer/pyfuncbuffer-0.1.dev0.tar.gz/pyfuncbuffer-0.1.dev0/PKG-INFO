@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pyfuncbuffer
+Version: 0.1.dev0
+Summary: A library for buffering function calls
+Home-page: https://github.com/Jupsista/pyfuncbuffer
+Author: Jupsista
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# pyfuncbuffer
+[![Build status](https://github.com/Jupsista/pyfuncbuffer/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/Jupsista/pyfuncbuffer/actions/workflows/pytest.yml)
+
+A simple to use decorator to buffer function calls.
+
+## Install
+
+```bash
+$ pip install pyfuncbuffer
+```
+
+## Example usage
+
+Let's say you have a scraper, and don't want sites to timeout you.
+You can use the `@buffer()` wrapper to make your function calls buffered!
+
+```python
+from pyfuncbuffer import buffer
+
+# A function you want to buffer
+@buffer(seconds=0.5, random_delay=0.5)
+def scrape_link(url) -> []: ...
+
+links = scrape_link("https://example.org")
+
+while True:
+    link = links.pop(link)
+    links.append(scrape_link(link))
+```
+
+The `@buffer()` wrapper works both for regular, and class functions!
+
+
