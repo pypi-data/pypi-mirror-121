@@ -1,0 +1,3 @@
+[console_scripts]
+pe2loaddata = src.pe2loaddata.__main__:main
+
