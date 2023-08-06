@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/isTCNumValid.egg-info/PKG-INFO
+src/isTCNumValid.egg-info/SOURCES.txt
+src/isTCNumValid.egg-info/dependency_links.txt
+src/isTCNumValid.egg-info/top_level.txt
