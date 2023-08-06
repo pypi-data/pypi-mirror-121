@@ -1,0 +1,6 @@
+jedi
+numpy
+parso
+pillow
+requests
+websocket-client
