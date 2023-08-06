@@ -1,0 +1,10 @@
+pd_aws_lambda/__init__.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+pd_aws_lambda/dispatcher.py,sha256=3itqNIhAiJN6bathVSh6IYEBM4IhjUu4EXCagzw2aig,2303
+pd_aws_lambda/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pd_aws_lambda/handlers/logger.py,sha256=KxRSEVQT1F-hjGGtftVTCIvK2BnZIj_3asj81FALrX4,558
+pd_aws_lambda/handlers/shell.py,sha256=4DL9dt4EMYhru5ciwEVjZ6BnMLdveJ99oUc_W8QcFLs,1088
+pd_aws_lambda/handlers/wsgi.py,sha256=Zi70lay7fMAvb1NQ-EuOlaiAjbFTpFCHYoSlPVVai2I,1206
+pd_aws_lambda-2.0.0.dist-info/LICENSE,sha256=JkaU2PsmuQ7bnFIxrf2qRAwoml3FNU3k1bV2Th4WF0w,1525
+pd_aws_lambda-2.0.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+pd_aws_lambda-2.0.0.dist-info/METADATA,sha256=jWYuUe2PnzOqBDwPdqoAdm06Hf8v_ZHnutFKf-I_Kck,3023
+pd_aws_lambda-2.0.0.dist-info/RECORD,,
