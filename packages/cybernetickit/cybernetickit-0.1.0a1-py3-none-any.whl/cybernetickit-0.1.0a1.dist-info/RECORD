@@ -1,0 +1,16 @@
+civichacker/__init__.py,sha256=PWBUcKdHSrgWL2PWkjfNRXnoKX2YIc2_THqQyGd8psQ,2802
+civichacker/arxiv.py,sha256=Q-7mS5zfiJcCduDhHXxtnpmWR5HUWcZDMbp1Gu4ITdc,2738
+civichacker/constants.py,sha256=IhvaZq4Uh0UBZn9pbxzJTZWeq0vMRXPStiYtpJ1yhFc,3762
+civichacker/experiments.py,sha256=W_rN9W7VxX9v_v7KtnjcIGcM-CigHIdiAcSbVAqV2Cg,894
+civichacker/geo.py,sha256=dOszWZmIxILPQEWg_n7B2-6J12Xw1R0XlbNPEwQ-S4k,1572
+civichacker/interfaces.py,sha256=8Q96F7V0x5CAEoSrpuLBvwgc6T-tj6LdxlmQDFilliY,1333
+civichacker/opendata.py,sha256=wJjL_rCx3pd8xmKRLlzZ3lBSVbnQZD5AnqiWhGARYYM,4562
+civichacker/sensor.py,sha256=L4VcXPBqDoySZMfOjlEFam2TJ39eMlzHtkvLYQOe9lM,5213
+civichacker/transforms.py,sha256=41XKbMtDmyH6A8l1C-NcLVMDHdqoIlg778KEhYBeyTM,850
+civichacker/util.py,sha256=gSIEOcltLnmEM7NO8t3HUg59WLT_nbdck28vIvF2WJw,843
+civichacker/web.py,sha256=9fx9G-rDoWLahJj79rfaZX1r2ZJ0in2oCoJhe3L9Y7Q,1599
+cybernetickit-0.1.0a1.dist-info/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+cybernetickit-0.1.0a1.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+cybernetickit-0.1.0a1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+cybernetickit-0.1.0a1.dist-info/METADATA,sha256=FLGTXDKjgA7Sy_LR3z783K9n9IdQ1SHortkm-saQTM0,857
+cybernetickit-0.1.0a1.dist-info/RECORD,,
