@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: OneNeuron-pypi-Soumyadipta007
+Version: 0.0.2
+Summary: Implementation of Perceptron
+Home-page: https://github.com/Soumyadipta007OneNeuron_pypi
+Author: Soumyadipta007
+Author-email: soumyadipta0077@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/{USER_NAME}{PROJECT_NAME}/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OneNeuron_pypi
+OneNeuron_pypi
+
+# How to use
+
+```python
+from oneNeuron.__perceptron__ import Perceptron
+#get X and y and then use below commands
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+```
+# Reference
+[Official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[github doc for gihub actions](https://docs.github.com/en/actions/guides/building-and-testing-python#publishing-to-package-registries)
+
+
