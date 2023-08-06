@@ -1,0 +1,14 @@
+HALdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HALdata/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HALdata/src/DataTransfer/DataManager.py,sha256=xvAF1FZJVzCTEdZOxYWCwfLP-YGPVC5sl88Fv0n36xU,4305
+HALdata/src/DataTransfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HALdata/src/DataTransfer/data_transfer.py,sha256=6lfDrKBRzyytZ9uXRUcWlhW1XowCb-y2ij132AeAMME,4342
+HALdata/src/DataTransfer/main.py,sha256=WnMQz_uK551kMqXd015C-ggfbd3U7B_C_Gv2I8bS6Is,1383
+HALdata/src/TestID/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HALdata/src/TestID/newTest.py,sha256=P1aUjcPZYCLlAV6-BpO_0RuEZLQjSpwmJw99jNvR95c,1631
+HALdata/src/TestID/test_id.py,sha256=26ci3_ytXHHvjoLIcoTnRf6rAUJx1fnGLtFneEgtuqs,5420
+HALdata-0.1.21.dist-info/LICENSE,sha256=VjEquyk1ANmKIFtoo1OlX93ypmBhc1A3d44ODWL_9yk,1089
+HALdata-0.1.21.dist-info/METADATA,sha256=fnaVyhfz_um3RHHMu6FOOFFWqA_i3n6XJYxPk1O9XBE,500
+HALdata-0.1.21.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+HALdata-0.1.21.dist-info/top_level.txt,sha256=jz4OTrbtfsPTiRyshUFymuKJmAGWjq5gAsaN4PJ7LmQ,8
+HALdata-0.1.21.dist-info/RECORD,,

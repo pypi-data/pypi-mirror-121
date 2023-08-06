@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: HALdata
+Version: 0.1.21
+Summary: Host to move data between Snowflake, S3 & Domo for SharkNinja HAL
+Home-page: UNKNOWN
+Author: cole Crescas
+Author-email: <colecrescas@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: json
+Requires-Dist: botocore
+Requires-Dist: snowflake.connector
+Requires-Dist: boto3
+
+UNKNOWN
+
