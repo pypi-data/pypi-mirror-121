@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+tracardi_string_spliter.egg-info/PKG-INFO
+tracardi_string_spliter.egg-info/SOURCES.txt
+tracardi_string_spliter.egg-info/dependency_links.txt
+tracardi_string_spliter.egg-info/requires.txt
+tracardi_string_spliter.egg-info/top_level.txt
+tracardi_string_splitter/plugin.py
+tracardi_string_splitter/model/model.py
+tracardi_string_splitter/model/__pycache__/model.cpython-38.pyc
