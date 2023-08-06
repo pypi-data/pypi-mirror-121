@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/fsner/__init__.py
+src/fsner/model.py
+src/fsner/tokenizer_utils.py
+src/fsner.egg-info/PKG-INFO
+src/fsner.egg-info/SOURCES.txt
+src/fsner.egg-info/dependency_links.txt
+src/fsner.egg-info/requires.txt
+src/fsner.egg-info/top_level.txt
