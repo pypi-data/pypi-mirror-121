@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PyNeuro/PyNeuro.py
+PyNeuro/__init__.py
+PyNeuro.egg-info/PKG-INFO
+PyNeuro.egg-info/SOURCES.txt
+PyNeuro.egg-info/dependency_links.txt
+PyNeuro.egg-info/top_level.txt

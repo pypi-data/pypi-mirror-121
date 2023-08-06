@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyNeuro
+Version: 1.0
+Summary: Library for connect with Neurosky's Mindwave EEG headset via TCP Socket
+Home-page: https://github.com/ZACHSTRIVES/PyNeuro
+Author: Zach Wang
+Author-email: wangziqi0325@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+UNKNOWN
+
