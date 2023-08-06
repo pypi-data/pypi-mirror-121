@@ -1,0 +1,3 @@
+[console_scripts]
+cont = cont.__main__:main
+
