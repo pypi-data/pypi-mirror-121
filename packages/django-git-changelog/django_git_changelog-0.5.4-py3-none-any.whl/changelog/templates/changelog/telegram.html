@@ -1,0 +1,8 @@
+<u>{{ commit.head }}</u>
+<i>{{ commit.id }}</i>
+
+{% if commit.body %}
+<code>
+{{ commit.body }}
+</code>
+{% endif %}

@@ -1,0 +1,36 @@
+{% extends './base.html' %}
+
+{% block header %}
+	{{ release.text }}
+{% endblock %}
+
+{% block body %}
+  {% for commit in release.commits.all %}
+    <tr>
+      <td>
+        <table style="border-radius:10px;border:1px solid gray;padding:10px;margin-bottom:20px;" align="left" border="0" cellpadding="5" cellspacing="0" height="100%" width="100%">
+          <tr>
+              <th style="text-align:center;">
+                {{ commit.head }}
+              </th>
+          </tr>
+          <tr>
+              <td style="border-top:1px solid grey;text-align:center;color:grey">
+                {{ commit.id }}
+              </td>
+          </tr>
+          <tr>
+              <td style="border-top:1px dotted lightgrey;text-align:left;">
+                {% if commit.body %}
+                  {{ commit.body }}
+                {% endif %}
+              </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  {% endfor %}
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
