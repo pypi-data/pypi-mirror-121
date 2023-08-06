@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "deeplib"
+version = "0.1.2.1"
+readme = "README.md"
+repository = "https://github.com/m-v-kalashnikov/deeplib"
+homepage = "https://github.com/m-v-kalashnikov/deeplib"
+keywords = ["DeepStream", "Nvidia", "AI"]
+documentation = "https://github.com/m-v-kalashnikov/deeplib/blob/master/README.md"
+license = "MIT"
+description = "Easy to understand and use api extention for DeepStream"
+authors = ["Michael Kalashnikov <kalashnikovsystem@gmail.com>"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.6"
+]
+
+[tool.poetry.dependencies]
+python = "3.6.9"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+isort = "^5.9.3"
+mypy = "^0.910"
+pytest = "^6.2.5"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+exclude = '''
+/(
+    \.mypy_cache\
+  | etc
+)/
+'''
+
+[tool.mypy]
+disallow_untyped_defs = true
+ignore_missing_imports = true
+python_version = "3.6"
+exclude = '''
+/(
+    \.mypy_cache\
+  | etc
+)/
+'''
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
