@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash-autocomplete
+Version: 0.0.1
+Summary: Dash dropdown component that enables user-controlled filtering.
+Home-page: UNKNOWN
+Author: Garrett Weaver <gmweaver.usc@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash

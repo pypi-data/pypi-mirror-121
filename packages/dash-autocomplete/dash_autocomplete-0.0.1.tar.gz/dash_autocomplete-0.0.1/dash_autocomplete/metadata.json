@@ -1,0 +1,186 @@
+{
+  "src/lib/components/DashAutocomplete.react.js": {
+    "description": "DashAutocomplete Complete\nA simplified select that enables user to use server-side filtering for options.",
+    "displayName": "DashAutocomplete",
+    "methods": [
+      {
+        "name": "onChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "selectedOption",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "options": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.oneOfType([\n    /**\n     * Array of options where the label and the value are the same thing - [string|number|bool]\n     */\n    PropTypes.arrayOf(\n        PropTypes.oneOfType([\n            PropTypes.string,\n            PropTypes.number,\n            PropTypes.bool,\n        ])\n    ),\n    /**\n     * Simpler `options` representation in dictionary format. The order is not guaranteed.\n     * {`value1`: `label1`, `value2`: `label2`, ... }\n     * which is equal to\n     * [{label: `label1`, value: `value1`}, {label: `label2`, value: `value2`}, ...]\n     */\n    PropTypes.object,\n    /**\n     * An array of options {label: [string|number], value: [string|number]},\n     * an optional disabled field can be used for each option\n     */\n    PropTypes.arrayOf(\n        PropTypes.exact({\n            /**\n             * The option's label\n             */\n            label: PropTypes.oneOfType([PropTypes.string, PropTypes.number])\n                .isRequired,\n\n            /**\n             * The value of the option. This value\n             * corresponds to the items specified in the\n             * `value` property.\n             */\n            value: PropTypes.oneOfType([\n                PropTypes.string,\n                PropTypes.number,\n                PropTypes.bool,\n            ]).isRequired,\n\n            /**\n             * If true, this option is disabled and cannot be selected.\n             */\n            disabled: PropTypes.bool,\n\n            /**\n             * The HTML 'title' attribute for the option. Allows for\n             * information on hover. For more information on this attribute,\n             * see https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title\n             */\n            title: PropTypes.string,\n        })\n    ),\n])"
+        },
+        "required": false,
+        "description": "An array of options {label: [string|number], value: [string|number]},\nan optional disabled field can be used for each option"
+      },
+      "value": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.oneOfType([\n    PropTypes.string,\n    PropTypes.number,\n    PropTypes.bool,\n    PropTypes.arrayOf(\n        PropTypes.oneOfType([\n            PropTypes.string,\n            PropTypes.number,\n            PropTypes.bool,\n        ])\n    ),\n])"
+        },
+        "required": false,
+        "description": "The value of the input. If `multi` is false (the default)\nthen value is just a string that corresponds to the values\nprovided in the `options` property. If `multi` is true, then\nmultiple values can be selected at once, and `value` is an\narray of items with values corresponding to those in the\n`options` prop."
+      },
+      "id": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.string"
+        },
+        "required": false,
+        "description": "The ID of this component, used to identify dash components\nin callbacks. The ID needs to be unique across all of the\ncomponents in an app."
+      },
+      "optionHeight": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.number"
+        },
+        "required": false,
+        "description": "height of each option. Can be increased when label lengths would wrap around",
+        "defaultValue": {
+          "value": "35",
+          "computed": false
+        }
+      },
+      "className": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.string"
+        },
+        "required": false,
+        "description": "className of the dropdown element"
+      },
+      "clearable": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.bool"
+        },
+        "required": false,
+        "description": "Whether or not the dropdown is \"clearable\", that is, whether or\nnot a small \"x\" appears on the right of the dropdown that removes\nthe selected value.",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "disabled": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.bool"
+        },
+        "required": false,
+        "description": "If true, this dropdown is disabled and the selection cannot be changed.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "multi": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.bool"
+        },
+        "required": false,
+        "description": "If true, the user can select multiple values",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "placeholder": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.string"
+        },
+        "required": false,
+        "description": "The grey, default text shown when no option is selected"
+      },
+      "searchable": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.bool"
+        },
+        "required": false,
+        "description": "Whether to enable the searching feature or not",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "search_value": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.string"
+        },
+        "required": false,
+        "description": "The value typed in the DropDown for searching."
+      },
+      "setProps": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that gets fired when the input changes"
+      },
+      "style": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.object"
+        },
+        "required": false,
+        "description": "Defines CSS styles which will override styles previously set."
+      },
+      "loading_state": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.shape({\n    /**\n     * Determines if the component is loading or not\n     */\n    is_loading: PropTypes.bool,\n    /**\n     * Holds which property is loading\n     */\n    prop_name: PropTypes.string,\n    /**\n     * Holds the name of the component that is loading\n     */\n    component_name: PropTypes.string,\n})"
+        },
+        "required": false,
+        "description": "Object that holds the loading state object coming from dash-renderer"
+      },
+      "persistence": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.oneOfType([\n    PropTypes.bool,\n    PropTypes.string,\n    PropTypes.number,\n])"
+        },
+        "required": false,
+        "description": "Used to allow user interactions in this component to be persisted when\nthe component - or the page - is refreshed. If `persisted` is truthy and\nhasn't changed from its previous value, a `value` that the user has\nchanged while using the app will keep that change, as long as\nthe new `value` also matches what was given originally.\nUsed in conjunction with `persistence_type`."
+      },
+      "persisted_props": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.arrayOf(PropTypes.oneOf(['value']))"
+        },
+        "required": false,
+        "description": "Properties whose user interactions will persist after refreshing the\ncomponent or the page. Since only `value` is allowed this prop can\nnormally be ignored.",
+        "defaultValue": {
+          "value": "['value']",
+          "computed": false
+        }
+      },
+      "persistence_type": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.oneOf(['local', 'session', 'memory'])"
+        },
+        "required": false,
+        "description": "Where persisted user changes will be stored:\nmemory: only kept in memory, reset on page refresh.\nlocal: window.localStorage, data is kept after the browser quit.\nsession: window.sessionStorage, data is cleared once the browser quit.",
+        "defaultValue": {
+          "value": "'local'",
+          "computed": false
+        }
+      }
+    }
+  }
+}
