@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+phabricator_task_links = phabricator_task_links:PhabricatorTaskLinks
+

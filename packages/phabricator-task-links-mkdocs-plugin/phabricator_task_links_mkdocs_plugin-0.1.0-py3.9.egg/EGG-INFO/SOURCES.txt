@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+phabricator_task_links/__init__.py
+phabricator_task_links/plugin.py
+phabricator_task_links_mkdocs_plugin.egg-info/PKG-INFO
+phabricator_task_links_mkdocs_plugin.egg-info/SOURCES.txt
+phabricator_task_links_mkdocs_plugin.egg-info/dependency_links.txt
+phabricator_task_links_mkdocs_plugin.egg-info/entry_points.txt
+phabricator_task_links_mkdocs_plugin.egg-info/requires.txt
+phabricator_task_links_mkdocs_plugin.egg-info/top_level.txt
