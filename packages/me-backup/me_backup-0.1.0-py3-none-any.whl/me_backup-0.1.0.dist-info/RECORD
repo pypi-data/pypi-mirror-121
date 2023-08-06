@@ -1,0 +1,15 @@
+me_backup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+me_backup/__main__.py,sha256=uvgeGMq5TB3TbpINaup5y0YBkCh_qGg7T6psVC51-jo,1321
+me_backup/backup.py,sha256=dsY30ZKWtxTAHnYvmNINzkFOqq7cMoM6295GI2rnqHs,3038
+me_backup/cli.py,sha256=FEHqcIMUJWdaapVsB3Uuf1B0uwfvd5sB5llm0SfXIN8,1682
+me_backup/crontab.py,sha256=8TjYOSxguX3APGPbwqFlS_62ay6sr-SRD9g5c7VqK4Y,4035
+me_backup/data.py,sha256=uU630b_cZ55GBaTHJIuOUdZBiM2kfi5zAdEQgu76ieo,886
+me_backup/definitions.py,sha256=SXcMYbnN58CNzxkKvzrQocx9QmoiwPc8LNVmVe2c23k,50
+me_backup/install.py,sha256=Lx5hPcv1hyQYsTwef3D2Nh8SFc4DTDj-76I1CQgvdjs,1400
+me_backup/log.py,sha256=a9cktctKBC0pNS5yJWjQuaaIgEYLrZ9hAeswPEBDwaw,405
+me_backup/task.py,sha256=7T2p45MZsjIf0SD9ub5cnpMjf_WwfGjfHYA_6bZCtzU,5797
+me_backup/utils.py,sha256=EV2iG8oCra5lNt-P69ImoIWwds2x6QvYl38tkyDbnmo,336
+me_backup/wake_on_lan.py,sha256=IZoyNkgi4kSqdl0xSjexAOsjy7zTk2yCos8UviMCQSc,516
+me_backup-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+me_backup-0.1.0.dist-info/METADATA,sha256=HWIBCyNiNnAn3AM3NH4GZ3KySuGy8rqNwk7b2thUsJo,435
+me_backup-0.1.0.dist-info/RECORD,,
