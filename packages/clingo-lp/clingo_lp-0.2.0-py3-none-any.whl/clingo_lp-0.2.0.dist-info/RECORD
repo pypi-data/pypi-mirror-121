@@ -1,0 +1,11 @@
+clingolp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clingolp/app.py,sha256=UPcICU58sgtOb_A3bRL-ZteyXaef_XxFRWxSxGn7rKo,5414
+clingolp/cplx.py,sha256=-FqOKyJI2n10bw0ptnq2gXxlBAfIYaofD0t7fJ4zaP0,5980
+clingolp/lp_theory.py,sha256=rKpglBadYzSkBJgOhjcuDCH7hcpmuAB48ZKQuI3pPFg,32259
+clingolp/lps.py,sha256=KujVc5Rwn6xkhP8ksq-GWyQwuRh5loPUCAqh5WVFt1s,5488
+clingo_lp-0.2.0.dist-info/LICENSE,sha256=20ubIUAJVipppb9nJeDJUs91GLj9Rh87v2al5-1T1NE,1108
+clingo_lp-0.2.0.dist-info/METADATA,sha256=2wNxp7Hnbx2logMB1zOQCz2ivBLqGM-8nqzBIaXFBlw,3545
+clingo_lp-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+clingo_lp-0.2.0.dist-info/entry_points.txt,sha256=J5JLzjxHSlKhXT7r7t2cYEMWjRVx1YJhuyg8f_gxhxw,55
+clingo_lp-0.2.0.dist-info/top_level.txt,sha256=dJD58iUmmdr9EjAPAc5Q6QFvERTcUSWBgkHe-S5n0lA,9
+clingo_lp-0.2.0.dist-info/RECORD,,
