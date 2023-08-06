@@ -1,0 +1,11 @@
+ldlite/__init__.py,sha256=mi1KyJSg0wq-chkeGmjLIv_0jc8EtmagprQBDTEsC9M,12544
+ldlite/_camelcase.py,sha256=i_K3R8pOiqGd9GbjUVQJvx40UNYXMlM7RK1VneJJ4xA,2274
+ldlite/_csv.py,sha256=6zokv4FwiHCg_VTgxqWaG5BmZkKaRaLlFrbEr9wImhY,772
+ldlite/_jsonx.py,sha256=4k0V87J8LEwnBjeFGvX5H-nRQ0p6JTqtWp6ZEcOPGuE,8976
+ldlite/_select.py,sha256=Ywy6IUMEOXzBgoPu-pWiXAwieNnGblxzaCvSSfN6Vf4,3527
+ldlite/_sqlx.py,sha256=WwXJ32kVPZYm_dGwuOTUUbb6CJwOTeq9ROiFr0sxf48,1148
+ldlite-0.0.17.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ldlite-0.0.17.dist-info/METADATA,sha256=yZMNS-qTIbtfS-Z7InLeqiwWDQ_uBFAbiZ1VjzLzeyE,4266
+ldlite-0.0.17.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ldlite-0.0.17.dist-info/top_level.txt,sha256=c8L0Z_Pghuei7m3XndPt7ky-UfAy_GRPrvL1WE-HW40,7
+ldlite-0.0.17.dist-info/RECORD,,
