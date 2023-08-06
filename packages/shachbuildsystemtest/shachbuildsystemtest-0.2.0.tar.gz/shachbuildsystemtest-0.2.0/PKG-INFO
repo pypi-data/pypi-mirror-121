@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: shachbuildsystemtest
+Version: 0.2.0
+Summary: 
+Author: Shacham Ginat
+Author-email: shacham.ginat@pagaya.com
+Requires-Python: >=3.6.5,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: setuptools (>=58.1.0,<59.0.0)
+Requires-Dist: wheel (>=0.37.0,<0.38.0)
