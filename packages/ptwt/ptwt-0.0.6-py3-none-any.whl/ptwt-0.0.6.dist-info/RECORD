@@ -1,0 +1,14 @@
+ptwt/__init__.py,sha256=2aCQQ6o_A_0DcjJyY6fGI5hIOhuFKmB1blySP8GTiCc,244
+ptwt/conv_transform.py,sha256=YBerPjxyfAqO1QWEnT6dMenG8fVPErWo1J_8rtQ2lzI,11678
+ptwt/learnable_wavelets.py,sha256=vVAVD-NZgFwcG1S9NI7LsYlmZomZvAKjHoD46D3G9cI,10139
+ptwt/mackey_glass.py,sha256=MyFPXLj1OjjIgsCTZhp9yFSWNCTPuce2_1LuUhnfAeM,3089
+ptwt/matmul_transform.py,sha256=HQwLk3xCve2z1XCW0l3NbnawOqa_kb5o-dhs827-whE,11788
+ptwt/matmul_transform_2d.py,sha256=3PAmaMSv03GW-w3WE-bROeTEowtWS2Si12tCPrrmbMs,12551
+ptwt/packets.py,sha256=eXl8od45ZamisHoHrHRWJL9BqEY6G5Df0_oLPVrY9us,6633
+ptwt/sparse_math.py,sha256=EqhX41QZ_oA83fsLF1FQ4eLzRnENui7YnD6OoQft4jQ,15600
+ptwt/version.py,sha256=5-VaD4UAXadMHQ7F-neqbTF5lmI0eIE9emL_vwcSqn0,983
+ptwt-0.0.6.dist-info/LICENSE,sha256=_r6RyEBTETLRm0MUbDDID2Y3zxNUuD7aiogiQ6FTymI,14013
+ptwt-0.0.6.dist-info/METADATA,sha256=3MLwsILVK7-OSzWsCEN62u4BmRCTbITla8NoM-R0s7M,4607
+ptwt-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ptwt-0.0.6.dist-info/top_level.txt,sha256=1Gx7dKWfK4eFyO01RW5KV0STVukPuzswVrqD1AEgm3Q,5
+ptwt-0.0.6.dist-info/RECORD,,
