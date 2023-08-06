@@ -1,0 +1,11 @@
+README.md
+setup.py
+log_report/__init__.py
+log_report/__main__.py
+log_report.egg-info/PKG-INFO
+log_report.egg-info/SOURCES.txt
+log_report.egg-info/dependency_links.txt
+log_report.egg-info/requires.txt
+log_report.egg-info/top_level.txt
+log_report/resurses/__init__.py
+log_report/resurses/log_worker.py
