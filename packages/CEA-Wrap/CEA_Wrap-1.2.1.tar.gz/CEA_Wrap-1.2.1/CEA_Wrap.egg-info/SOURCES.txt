@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+CEA_Wrap/CEA.py
+CEA_Wrap/FCEA2.exe
+CEA_Wrap/__init__.py
+CEA_Wrap/thermo.lib
+CEA_Wrap/thermo_spg.inp
+CEA_Wrap/thermo_spg.out
+CEA_Wrap/trans.lib
+CEA_Wrap.egg-info/PKG-INFO
+CEA_Wrap.egg-info/SOURCES.txt
+CEA_Wrap.egg-info/dependency_links.txt
+CEA_Wrap.egg-info/not-zip-safe
+CEA_Wrap.egg-info/top_level.txt

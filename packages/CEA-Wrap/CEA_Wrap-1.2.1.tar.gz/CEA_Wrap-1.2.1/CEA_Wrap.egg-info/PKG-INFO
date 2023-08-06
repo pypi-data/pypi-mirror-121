@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: CEA-Wrap
+Version: 1.2.1
+Summary: A Python-Based wrapper for the NASA CEA Thermochemical Code
+Home-page: https://github.com/civilwargeeky/CEA_Wrap
+Author: civilwargeeky
+Author-email: klingerd@purdue.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
