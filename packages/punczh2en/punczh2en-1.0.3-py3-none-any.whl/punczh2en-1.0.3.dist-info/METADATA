@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: punczh2en
+Version: 1.0.3
+Summary: a punctuation tool
+Home-page: UNKNOWN
+Author: Malchut
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# punczh2en
+
+parse chinese and english punctuation.
+
+
