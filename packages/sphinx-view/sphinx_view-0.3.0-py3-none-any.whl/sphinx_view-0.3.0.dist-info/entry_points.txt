@@ -1,0 +1,3 @@
+[console_scripts]
+sphinx-view=bin.sphinx_view:main
+

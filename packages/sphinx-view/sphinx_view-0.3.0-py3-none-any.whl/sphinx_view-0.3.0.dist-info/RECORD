@@ -1,0 +1,9 @@
+sview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sview/builder.py,sha256=VrNBSgUuAExsuIkaAezfYS7zuS9LLaMwOeXpyZYNHVE,9558
+sview/exceptions.py,sha256=yhmp48UR7IhM71FfR4zNPKVeq62Tx-ram3YsTz2sfnU,57
+sview/server.py,sha256=d9SWsyiMosDbo4Liuk4vszIh6nx6hNwsj4IbHiX5h_Q,1511
+sphinx_view-0.3.0.dist-info/entry_points.txt,sha256=lLHz1JlvCflmV3yt5qRbs7pl3_Be2qx3ejyThZ551aA,52
+sphinx_view-0.3.0.dist-info/LICENSE.rst,sha256=v0Q-aMkUtQCb04k04puqW9N6RB8Csl6OUS90S6X4DUI,1084
+sphinx_view-0.3.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+sphinx_view-0.3.0.dist-info/METADATA,sha256=xdz7qdVFYf8ec01SJyDUWQCOlqZ9F7iSFI-mhQr_4qc,3119
+sphinx_view-0.3.0.dist-info/RECORD,,
