@@ -1,0 +1,54 @@
+{
+   "expire":{
+      "value":"2020-12-02",
+      "type":"datefield",
+      "required_field":true,
+      "execute": "wc.sh"
+   },
+   "blue":{
+      "value":"a@b.com",
+      "type":"email",
+      "required_field":false,
+      "regex":"[^@]+@[^@]+\\.[^@]+",
+      "execute":"ping.sh",
+      "layout": "new_line"
+   },
+   "someSpinbox":{
+      "min":"-10",
+      "max":"126",
+      "increment":"5",
+      "default":"0",
+      "type":"spinbox",
+      "required_field":false
+   },
+   "someCheckbox":{
+      "value":["yes", "no", "maybe", "blue", "red", "yellow", "orange", "black"],
+      "default": ["red", "orange"],
+      "single_answer": true,
+      "type":"checkbox",
+      "required_field":true,
+      "layout": "new_line"
+   },
+   "favorite_color":{
+      "value":["yes", "no", "maybe", "blue", "red", "yellow", "orange", "black"],
+      "default": ["orange"],
+      "single_answer": false,
+      "type":"checkbox",
+      "required_field":true,
+      "layout": "new_line"
+   },
+   "author":{
+      "value":"",
+      "type":"textfield",
+      "required_field":true,
+      "layout": "new_line"
+   },
+   "pizza_topics":{
+      "value":[
+         "salami",
+         "tomato"
+      ],
+      "type":"dropdown",
+      "thisIsAspellingMistake":true
+   }
+}

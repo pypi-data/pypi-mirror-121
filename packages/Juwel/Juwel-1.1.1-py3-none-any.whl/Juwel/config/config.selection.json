@@ -1,0 +1,6 @@
+{
+	"pictures": ["jpg", "png", "gif", "tiff"],
+	"code" : ["py"],
+	"text" : ["pdf", "txt"],
+	"dicom" : ["dcm", "ima", "img"]
+}
