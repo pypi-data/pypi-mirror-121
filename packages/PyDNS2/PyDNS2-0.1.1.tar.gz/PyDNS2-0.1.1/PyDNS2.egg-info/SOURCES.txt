@@ -1,0 +1,11 @@
+README.md
+setup.py
+PyDNS2/__init__.py
+PyDNS2/dns.py
+PyDNS2/send_request.py
+PyDNS2.egg-info/PKG-INFO
+PyDNS2.egg-info/SOURCES.txt
+PyDNS2.egg-info/dependency_links.txt
+PyDNS2.egg-info/top_level.txt
+PyDNS2/example/__init__.py
+PyDNS2/example/main.py
