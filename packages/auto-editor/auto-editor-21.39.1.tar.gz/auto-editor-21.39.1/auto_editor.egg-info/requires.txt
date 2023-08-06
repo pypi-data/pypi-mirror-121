@@ -1,0 +1,5 @@
+numpy
+audiotsm2~=0.2.1
+opencv-python>=4.3
+youtube-dl
+av>=6.0.0
