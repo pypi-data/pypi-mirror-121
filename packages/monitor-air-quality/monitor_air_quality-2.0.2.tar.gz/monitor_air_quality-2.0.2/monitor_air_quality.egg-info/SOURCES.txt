@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+monitor_air_quality/__init__.py
+monitor_air_quality/monitor_air_quality.py
+monitor_air_quality.egg-info/PKG-INFO
+monitor_air_quality.egg-info/SOURCES.txt
+monitor_air_quality.egg-info/dependency_links.txt
+monitor_air_quality.egg-info/entry_points.txt
+monitor_air_quality.egg-info/requires.txt
+monitor_air_quality.egg-info/top_level.txt
