@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Perceptron_pypi_vishalbansal_1650.egg-info/PKG-INFO
+src/Perceptron_pypi_vishalbansal_1650.egg-info/SOURCES.txt
+src/Perceptron_pypi_vishalbansal_1650.egg-info/dependency_links.txt
+src/Perceptron_pypi_vishalbansal_1650.egg-info/requires.txt
+src/Perceptron_pypi_vishalbansal_1650.egg-info/top_level.txt
+src/perceptron_vb/__init__.py
+src/perceptron_vb/perceptron.py
