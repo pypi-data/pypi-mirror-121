@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: polundra
+Version: 0.1.5
+Summary: An extended alert notifier.
+Home-page: https://github.com/smgd/polundra
+License: MIT
+Author: Artur Svistunov
+Author-email: poopa@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Wave (>=0.0.2,<0.0.3)
+Requires-Dist: dbus-python (>=1.2.16,<2.0.0)
+Requires-Dist: pulsectl (>=21.9.1,<22.0.0)
+Project-URL: Repository, https://github.com/smgd/polundra
+Description-Content-Type: text/markdown
+
+# polundra
+
+An extended alert notifier.
+
