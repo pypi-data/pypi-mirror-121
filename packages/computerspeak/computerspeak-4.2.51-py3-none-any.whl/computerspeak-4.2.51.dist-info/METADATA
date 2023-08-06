@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: computerspeak
+Version: 4.2.51
+Summary: This Module Helps A User To Use Computer Audio To Make The Computer Speak AnyThing You Want
+Home-page: UNKNOWN
+Author: Pratyush Jha
+Author-email: pratyush.jha299@gmail.com
+License: License.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: License.txt
+Requires-Dist: pyttsx3
+
+# Computerspeak
+
+Computerspeak module helps user to make computer speak anything with ease
+
+## Installation
+
+```bash
+pip install computerspeak
+```
+
+## Usage
+
+```python
+import speak
+
+speak.speaker('The Text You Want To Make Your Computer Speak')
+```
+
+#### Changing  Voice
+
+```python
+speak.change(0 or 1)
+```
+
+Use 0 for male voice and 1 for female voice By Default it is set to 0
+
+
