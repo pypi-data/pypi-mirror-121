@@ -1,0 +1,4 @@
+[console_scripts]
+_pdbuildcompletion_ = pdbuild.commandline.tool:completion
+pdbuild = pdbuild.commandline.tool:builder
+

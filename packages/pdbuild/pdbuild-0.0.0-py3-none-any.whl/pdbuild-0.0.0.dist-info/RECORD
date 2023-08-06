@@ -1,0 +1,11 @@
+pdbuild/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdbuild/commandline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdbuild/commandline/tool.py,sha256=_9kN71-WkchH6-6U30IyyCqbJzcBRX11SxqJPylwP8w,217
+pdbuild/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdbuild/utiil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdbuild-0.0.0.dist-info/LICENSE,sha256=c8HrJ9XfdZE8B80wKLgkbU6d23PZRtQQOwcLWJh4Xc8,1061
+pdbuild-0.0.0.dist-info/METADATA,sha256=aTyX6BkpTgBxtX7dNzOLWOBxrq7cVXFcnScM7d9S17Y,923
+pdbuild-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pdbuild-0.0.0.dist-info/entry_points.txt,sha256=TomErI5Kj1XYvcN-MzYC0P0VKAep9kqwU2bOqaB8aLc,120
+pdbuild-0.0.0.dist-info/top_level.txt,sha256=LhcTEJvO-Og7UtatoF0knHBxROA5FAlptSiUHM_kSes,8
+pdbuild-0.0.0.dist-info/RECORD,,
