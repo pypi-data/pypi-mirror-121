@@ -1,0 +1,37 @@
+Highlights:
+   - **CI/CD workflow**
+      - Better CI title check info (#2986) (by **yihong**)
+   - **Documentation**
+      - Update documentation for fields (advanced) (#3012) (by **Yi Xu**)
+      - Improve the documentation for C++ style guide (#3001) (by **Ye Kuang**)
+      - Fix typo in data_oriented docstring (#3005) (by **ljcc0930**)
+      - Remove 'Versioning and releases'; Fix 'Documentation writing guide' (#2987) (by **Yi Xu**)
+      - Installation with mirror source (#2946) (by **FantasyVR**)
+   - **Language and syntax**
+      - Add error message for printing an incomplelely-defined field (#2979) (by **yihong**)
+   - **IR optimization passes**
+      - Remove exceptions from IR pass extract_constant (#2966) (by **lin-hitonami**)
+
+Full changelog:
+   - [ci] Fix release.yml syntax error (#3022) (by **Jiasheng Zhang**)
+   - [misc] Get changelogs via tags instead of commit messages (#3021) (by **Yi Xu**)
+   - [Doc] Update documentation for fields (advanced) (#3012) (by **Yi Xu**)
+   - [Doc] Improve the documentation for C++ style guide (#3001) (by **Ye Kuang**)
+   - [Doc] Fix typo in data_oriented docstring (#3005) (by **ljcc0930**)
+   - [Doc] Remove 'Versioning and releases'; Fix 'Documentation writing guide' (#2987) (by **Yi Xu**)
+   - [misc] Add Vulkan as a target for ti diagnose (#2995) (by **Yuheng Zou**)
+   - [Opt] [ir] [refactor] Remove exceptions from IR pass extract_constant (#2966) (by **lin-hitonami**)
+   - [refactor] [benchmark] Add ti.profiler in python scope (#2922) (by **rocket**)
+   - [refactor] Private field names and function restructure in cc backend. (#2989) (by **Jiasheng Zhang**)
+   - [cpu] Cpu device 1/n: memory allocation (#2984) (by **Dunfan Lu**)
+   - [refactor] Refactored and unified CC backend, removed CCProgram and use CCProgramImpl instead. (#2978) (by **Jiasheng Zhang**)
+   - [CI] Better CI title check info (#2986) (by **yihong**)
+   - [ci] Disable fail-fast matrix on release jobs. (#2982) (by **Ailing**)
+   - [cuda] Cuda Device API 1/n: memory allocation (#2981) (by **Dunfan Lu**)
+   - [misc] Add deactivate_all_snodes and ti.FieldsBuilder.deactivate_all (#2967) (by **ljcc0930**)
+   - [misc] Remove unnecessary symlink step. (#2976) (by **Ailing**)
+   - [ci] Releases must be done on buildbot-ubuntu machine. (#2977) (by **Ailing**)
+   - [ci] Fix OOM on nightly release. (#2975) (by **Ailing**)
+   - [Lang] Add error message for printing an incomplelely-defined field (#2979) (by **yihong**)
+   - [refactor] Minimize Python context (#2971) (by **Yi Xu**)
+   - [Doc] Installation with mirror source (#2946) (by **FantasyVR**)
