@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: maios3
+Version: 0.0.2
+Summary: Async file uploader to aws s3
+Home-page: UNKNOWN
+Author: Mojix Coder
+Author-email: mojixcoder@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+
+Async file uploader to aws s3 on top of aiobotocore
+

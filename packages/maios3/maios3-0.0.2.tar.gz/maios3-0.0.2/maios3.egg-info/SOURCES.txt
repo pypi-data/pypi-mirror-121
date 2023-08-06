@@ -1,0 +1,8 @@
+setup.py
+maios3/__init__.py
+maios3/base.py
+maios3.egg-info/PKG-INFO
+maios3.egg-info/SOURCES.txt
+maios3.egg-info/dependency_links.txt
+maios3.egg-info/requires.txt
+maios3.egg-info/top_level.txt
