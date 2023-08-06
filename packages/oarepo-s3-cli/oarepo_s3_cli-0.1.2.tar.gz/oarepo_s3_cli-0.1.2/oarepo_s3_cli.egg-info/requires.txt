@@ -1,0 +1,11 @@
+click
+
+[all]
+pytest
+responses
+pytest
+responses
+
+[tests]
+pytest
+responses
