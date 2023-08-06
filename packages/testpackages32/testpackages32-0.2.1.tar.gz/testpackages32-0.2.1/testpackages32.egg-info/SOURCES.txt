@@ -1,0 +1,6 @@
+setup.py
+testpackages32.egg-info/PKG-INFO
+testpackages32.egg-info/SOURCES.txt
+testpackages32.egg-info/dependency_links.txt
+testpackages32.egg-info/requires.txt
+testpackages32.egg-info/top_level.txt
