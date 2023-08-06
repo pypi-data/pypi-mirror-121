@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+tkinterstylize/__init__.py
+tkinterstylize/tkinterstylize.py
+tkinterstylize.egg-info/PKG-INFO
+tkinterstylize.egg-info/SOURCES.txt
+tkinterstylize.egg-info/dependency_links.txt
+tkinterstylize.egg-info/top_level.txt
