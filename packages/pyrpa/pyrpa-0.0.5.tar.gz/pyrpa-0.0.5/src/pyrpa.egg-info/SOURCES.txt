@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/pyrpa/__init__.py
+src/pyrpa/crawler.py
+src/pyrpa/file.py
+src/pyrpa/string.py
+src/pyrpa.egg-info/PKG-INFO
+src/pyrpa.egg-info/SOURCES.txt
+src/pyrpa.egg-info/dependency_links.txt
+src/pyrpa.egg-info/top_level.txt
