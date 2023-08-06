@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/icebreaker_em.egg-info/PKG-INFO
+src/icebreaker_em.egg-info/SOURCES.txt
+src/icebreaker_em.egg-info/dependency_links.txt
+src/icebreaker_em.egg-info/entry_points.txt
+src/icebreaker_em.egg-info/not-zip-safe
+src/icebreaker_em.egg-info/requires.txt
+src/icebreaker_em.egg-info/top_level.txt
