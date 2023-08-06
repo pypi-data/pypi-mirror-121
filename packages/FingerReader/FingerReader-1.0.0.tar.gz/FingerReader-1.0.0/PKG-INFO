@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: FingerReader
+Version: 1.0.0
+Summary: Python library for fingerprint sensors.
+Home-page: UNKNOWN
+Author: Aryan Arabshahi
+Author-email: aryan.arabshahi.programmer@gmail.com
+License: UNKNOWN
+Description: # FingerReader
+        
+        [![FingerReader](https://www.codewithcoffee.dev/assets/images/fingerprint-scan.png)](https://www.codewithcoffee.dev/finger-reader)
+        
+        **FingerReader** is a python library that allows you to interact with the **fingerprint sensors** easily. It has been written based on the **R30x** fingerprint sensors and has been tested on **R308**. The code is inspired by [pyfingerprint](https://github.com/bastianraschke/pyfingerprint).
+        You can check the [documentation](https://www.codewithcoffee.dev/finger-reader) on my personal website &nbsp;&nbsp;&nbsp;[![Code With Coffee](https://www.codewithcoffee.dev/assets/images/favicon.png)](https://www.codewithcoffee.dev)
+        
+Keywords: fingerprint,FingerReader
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

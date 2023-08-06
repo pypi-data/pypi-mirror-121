@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+FingerReader/__init__.py
+FingerReader/dataclasses.py
+FingerReader/enums.py
+FingerReader/exceptions.py
+FingerReader/global_manager.py
+FingerReader.egg-info/PKG-INFO
+FingerReader.egg-info/SOURCES.txt
+FingerReader.egg-info/dependency_links.txt
+FingerReader.egg-info/requires.txt
+FingerReader.egg-info/top_level.txt
