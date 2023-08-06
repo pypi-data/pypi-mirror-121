@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: discotool-for-microcontrollers
+Version: 0.2.9
+Summary: Discover, list, and use USB microcontoller boards.
+Home-page: https://github.com/Neradoc/discotool
+Author: Neradoc
+Author-email: neraOnGit@ri1.fr
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Neradoc/discotool/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Moved to [discotool](https://pypi.org/project/discotool/).
+
