@@ -1,0 +1,11 @@
+pop>=20
+pop-loop
+dict-toolbox>=1.9
+PyYaml
+wheel
+jinja2
+jmespath
+rend>=6.1.0
+toml
+tqdm
+acct>=6
