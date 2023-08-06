@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+README.txt
+setup.cfg
+setup.py
+mehrshad/__init__.py
+mehrshad/excel.py
+mehrshad/fileManage.py
+mehrshad.egg-info/PKG-INFO
+mehrshad.egg-info/SOURCES.txt
+mehrshad.egg-info/dependency_links.txt
+mehrshad.egg-info/top_level.txt
