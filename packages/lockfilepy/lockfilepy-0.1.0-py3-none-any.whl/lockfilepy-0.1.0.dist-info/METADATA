@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lockfilepy
+Version: 0.1.0
+Summary: League of legends lockfile parser for python
+Home-page: https://github.com/ombe1229/lockfile.py
+Author: ombe1229
+Author-email: h3236516@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lockfile.py
+
