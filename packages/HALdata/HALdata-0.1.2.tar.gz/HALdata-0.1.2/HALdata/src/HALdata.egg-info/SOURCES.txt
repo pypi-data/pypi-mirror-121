@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+HALdata/src/HALdata.egg-info/PKG-INFO
+HALdata/src/HALdata.egg-info/SOURCES.txt
+HALdata/src/HALdata.egg-info/dependency_links.txt
+HALdata/src/HALdata.egg-info/top_level.txt
+HALdata/src/HALdata.egg-info/PKG-INFO
+HALdata/src/HALdata.egg-info/SOURCES.txt
+HALdata/src/HALdata.egg-info/dependency_links.txt
+HALdata/src/HALdata.egg-info/top_level.txt
