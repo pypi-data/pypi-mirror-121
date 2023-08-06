@@ -1,0 +1,9 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sbobet.egg-info/PKG-INFO
+sbobet.egg-info/SOURCES.txt
+sbobet.egg-info/dependency_links.txt
+sbobet.egg-info/top_level.txt
