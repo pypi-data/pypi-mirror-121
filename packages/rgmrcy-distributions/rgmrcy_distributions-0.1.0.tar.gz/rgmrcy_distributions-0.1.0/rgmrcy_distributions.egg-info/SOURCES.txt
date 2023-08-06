@@ -1,0 +1,10 @@
+setup.py
+rgmrcy_distributions/Binomialdistribution.py
+rgmrcy_distributions/Gaussiandistribution.py
+rgmrcy_distributions/Generaldistribution.py
+rgmrcy_distributions/__init__.py
+rgmrcy_distributions.egg-info/PKG-INFO
+rgmrcy_distributions.egg-info/SOURCES.txt
+rgmrcy_distributions.egg-info/dependency_links.txt
+rgmrcy_distributions.egg-info/not-zip-safe
+rgmrcy_distributions.egg-info/top_level.txt
