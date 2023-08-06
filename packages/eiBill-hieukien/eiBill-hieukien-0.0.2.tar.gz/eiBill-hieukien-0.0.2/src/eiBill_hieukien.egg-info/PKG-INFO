@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: eiBill-hieukien
+Version: 0.0.2
+Summary: SmartDoc package - OCR and Extract Informations Vietnamese Documents
+Home-page: https://github.com/pypa/sampleproject
+Author: hieukien
+Author-email: hieukien82@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: SmartDoc - OCR and Extract Informations Vietnanese Documents
+        
+        1. OCR&EI VBHC - Số hoá và Rút trích thông tin Văn bản hành chính
+        2. OCR&EI CMND - Số hoá và Rút trích thông tin Chứng minh Nhân dân
+        3. OCR&EI Hoá đơn - Số hoá và Rút trích thông tin Hoá đơn
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
