@@ -1,0 +1,109 @@
+[tool.poetry]
+name = "jupyter-flex"
+version = "1.0.0"
+packages = [{ include = "jupyter_flex" }]
+homepage = "https://github.com/danielfrg/jupyter-flex"
+repository = "https://github.com/danielfrg/jupyter-flex"
+documentation = "https://github.com/danielfrg/jupyter-flex"
+description = "Build dashboards using Jupyter Notebooks"
+authors = ["Daniel Rodriguez"]
+maintainers = ["Daniel Rodriguez"]
+license = "Apache License, Version 2.0"
+readme = "README.md"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+]
+
+# I am just using Poetry dependencies for the CI system
+# When Mac supports the dependencies we can use it for dev
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4"
+voila = ">=0.2.0,<0.3"
+nbconvert = ">=6.0.0,<7"
+ipykernel = ">=6.4.1,<7"
+jinja2 = ">=3.0.1,<4"
+
+[tool.poetry.dev-dependencies]
+# pylint = "^2.10.2"
+# black = "^21.8b0"
+# isort = "^5.9.3"
+# flake8 = "^3.9.2"
+# twine = "^3.4.2"
+
+# [tool.poetry.group.test]
+# optional = true
+# [tool.poetry.group.test.dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^2.12.1"
+pytest-html = "^3.1.1"
+pytest-selenium = "^2.0.1"
+pytest-splinter = "^3.3.1"
+pytest-image-diff = "^0.0.6"
+
+# [tool.poetry.group.docs]
+# optional = true
+# [tool.poetry.group.docs.dependencies]
+# mkdocs = ">=1.1.0,<2"
+# mkdocs-material = "7.1.0"
+# mkdocs-jupyter = ">=0.17.0"
+# mkdocs-minify-plugin = "^0.4.0"
+# Pygments = "^2.10.0"
+# pymdown-extensions = "^8.2"
+
+[tool.pytest.ini_options]
+addopts = [
+  "-s", "-vv",
+  "--ignore=site-packages",
+  "--ignore=dist-packages",
+  "--ignore=dist",
+  "--strict-markers",
+  "--cov=jupyter_flex",
+  "--cov-report=term-missing",
+  "--cov-config=pyproject.toml",
+]
+xfail_strict = true
+markers = [
+    "base: marks tests as base (deselect with '-m \"not base\"')",
+    "layouts: mark all layout tests",
+    "examples: marks all example tests",
+    "plots: mark all plotting tests",
+    "apps: mark all apps tests",
+    "widgets: marks all widget tests",
+    "docs: mark all docs tests",
+    "illusionist: marks all illusionist tests",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+
+[tool.coverage.run]
+parallel = true
+branch = true
+
+[tool.coverage.report]
+omit = ["jupyter_flex/tests/*"]
+
+[tool.black]
+line_length = 79
+skip_string_normalization = true
+
+[tool.isort]
+ensure_newline_before_comments = true
+line_length = 79
+multi_line_output = 3
+include_trailing_comma = true
+profile = "black"
+
+[tool.pydocstyle]
+inherit = false
+convention = "numpy"
+match_dir = "jupyter_flex"
+add_ignore = ["D100", "D101", "D102", "D103", "D104", "D105"]
+
+[build-system]
+requires = ["setuptools>=42", "setuptools_scm[toml]>=3.4", "wheel"]
