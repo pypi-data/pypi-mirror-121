@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: msgraph-email
+Version: 1.1.0
+Summary: Read/Send emails using Microsoft Graph API
+Home-page: https://github.com/pixelbyaj/msgraph-email
+Author: PixelByAJ - Abhishek Joshi
+Author-email: pixelbyaj@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: msgraph-core
+Requires-Dist: azure-identity
+
+# msgraph-email
+Microsoft Graph Email API using Python
+
+## Installation
+msgraph-email is available on PyPI.
+```python
+    pip install msgraph-email
+```
+
+## Import modules
+
+```python
+from mail.msgraph import EmailService
+from mail.models import EmailMessage,EmailAttachment
+```
+
+## Configure a Email_Service 
+```python
+
+emailService = EmailService(tenant_id, client_id, client_secret, email_address)
+
+```
+## Make a read email request
+By default it will read unread emails of the **'Inbox'** mailfolder
+```python
+emailMessages= emailService.readEmails() 
+```
+## Make a send email request
+```python
+emailMessage = EmailMessage()
+emailMessage.toEmails="test@mail.com"
+emailMessage.message="Hello"
+emailService.sendEmail(message)
+```
+
+## Make a read and unread email request
+```python
+emailMessages = emailService.readEmails()
+for email in emailMessages:
+    #mark it read
+    emailService.markEmailReadUnRead(email.messageId,isRead=True)
+    #mark it unread
+    #emailService.markEmailReadUnRead(email.messageId,isRead=False)
+
+```
+## Make a delete email request
+```python
+emailMessages = emailService.readEmails()
+for email in emailMessages:
+    emailService.deleteEmail(email.messageId)
+```
+

@@ -1,0 +1,10 @@
+mail/__init__.py,sha256=gtM5STqAzss15p9yE6ZzZuIY_AT3gWOzI8_GrNYW2a8,223
+mail/models/__init__.py,sha256=pmkmXZmfJckeWG9jsndW09Gl8lDe9Z78cf5-TVN2E1k,54
+mail/models/_email_model.py,sha256=Arlj9j3NP7u02k-ME-A-WqwakIq2SbJMjx-7KwlJcec,952
+mail/msgraph/__init__.py,sha256=XUCjMdMClZYjTgq1I-AIJjjLx27CmsKxH7ampDBwkD8,183
+mail/msgraph/_email_service.py,sha256=gvJkGwfbVvrWa90hasGzPebVWOg9iUd9IdM00hnLty0,9520
+msgraph_email-1.1.0.dist-info/METADATA,sha256=VnmndCWOqmjxhX1tKjslwQqXMT-4K1bzzu29losAfs0,1724
+msgraph_email-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+msgraph_email-1.1.0.dist-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+msgraph_email-1.1.0.dist-info/top_level.txt,sha256=H6KZhb76vCZFTJdQgtoSsRs4jRjWpp7KCIcgFYgNTvg,5
+msgraph_email-1.1.0.dist-info/RECORD,,
