@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: inspr
+Version: 0.0.9
+Summary: This module define APIs to interact with the Inspr environment
+Home-page: UNKNOWN
+Author: Inspr LLC
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: requests
+Requires: flask
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: flask
+
+# Inspr
+
+This module define APIs to interact with the Inspr environment.
+The current APIs present in this module are:
+
+* Load Balancer Client API
+* Rest API (WIP)
+
