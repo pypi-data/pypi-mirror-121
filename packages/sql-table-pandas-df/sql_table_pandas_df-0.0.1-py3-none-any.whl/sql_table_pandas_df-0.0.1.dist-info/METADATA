@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sql-table-pandas-df
+Version: 0.0.1
+Summary: convert's a sql table to a pandas dataframe
+Home-page: UNKNOWN
+Author: Vigneshwar
+Author-email: vigneshwar.pandiyan.s@gmail.com
+License: UNKNOWN
+Keywords: sql,pandas
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pymysql
+Requires-Dist: pandas
+
+UNKNOWN
+
