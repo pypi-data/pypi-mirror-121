@@ -1,0 +1,112 @@
+onecord
+==========
+
+.. image:: https://img.shields.io/onecord/881207955029110855?color=5865f2&label=onecord&logo=onecord
+   :target: https://onecord.gg/dK2qkEJ37N
+   :alt: onecord server invite
+.. image:: https://img.shields.io/pypi/v/py-cord.svg
+   :target: https://pypi.python.org/pypi/py-cord
+   :alt: PyPI version info
+.. image:: https://img.shields.io/pypi/pyversions/py-cord.svg
+   :target: https://pypi.python.org/pypi/py-cord
+   :alt: PyPI supported Python versions
+
+A fork of onecord.py. onecord is a modern, easy to use, feature-rich, and async ready API wrapper for onecord written in Python.
+
+Key Features
+-------------
+
+- Modern Pythonic API using ``async`` and ``await``.
+- Proper rate limit handling.
+- Optimised in both speed and memory.
+
+Installing
+----------
+
+**Python 3.8 or higher is required**
+
+To install the library without full voice support, you can just run the following command:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U py-cord
+
+    # Windows
+    py -3 -m pip install -U py-cord
+
+Otherwise to get voice support you should run the following command:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U "py-cord[voice]"
+
+    # Windows
+    py -3 -m pip install -U py-cord[voice]
+
+
+To install the development version, do the following:
+
+.. code:: sh
+
+    $ git clone https://github.com/onecord-Development/onecord
+    $ cd onecord
+    $ python3 -m pip install -U .[voice]
+
+
+Optional Packages
+~~~~~~~~~~~~~~~~~~
+
+* `PyNaCl <https://pypi.org/project/PyNaCl/>`__ (for voice support)
+
+Please note that on Linux installing voice you must install the following packages via your favourite package manager (e.g. ``apt``, ``dnf``, etc) before running the above commands:
+
+* libffi-dev (or ``libffi-devel`` on some systems)
+* python-dev (e.g. ``python3.6-dev`` for Python 3.6)
+
+Quick Example
+--------------
+
+.. code:: py
+
+    import onecord
+
+    bot = onecord.Bot()
+    
+    @bot.slash_command()
+    async def hello(ctx, name: str = None):
+        name = name or ctx.author.name
+        await ctx.respond(f"Hello {name}!")
+        
+    @bot.user_command(name="Say Hello")
+    async def hi(ctx, user):
+        await ctx.respond(f"{ctx.author.mention} says hello to {user.name}!")
+        
+    bot.run("token")
+
+Normal Commands Example
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: py
+
+    import onecord
+    from onecord.ext import commands
+
+    bot = commands.Bot(command_prefix=">")
+
+    @bot.command()
+    async def ping(ctx):
+        await ctx.send("pong")
+
+    bot.run("token")
+
+You can find more examples in the examples directory.
+
+Links
+------
+
+- `Documentation <https://onecord.readthedocs.io/en/latest/index.html>`_
+- `Official onecord Server <https://onecord.gg/dK2qkEJ37N>`_
+- `onecord Developers <https://onecord.gg/onecord-developers>`_
+- `onecord API <https://onecord.gg/onecord-api>`_
