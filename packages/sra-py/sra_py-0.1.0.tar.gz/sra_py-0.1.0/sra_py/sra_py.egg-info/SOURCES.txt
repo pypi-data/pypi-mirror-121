@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+sra_py/sra_py.egg-info/PKG-INFO
+sra_py/sra_py.egg-info/SOURCES.txt
+sra_py/sra_py.egg-info/dependency_links.txt
+sra_py/sra_py.egg-info/top_level.txt
