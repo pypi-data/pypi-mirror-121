@@ -1,0 +1,9 @@
+pandas
+loguru
+click
+xlrd
+openpyxl
+pyyaml
+numpy
+plotly
+colorcet
