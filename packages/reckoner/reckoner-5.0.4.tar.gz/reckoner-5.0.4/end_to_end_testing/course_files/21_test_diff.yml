@@ -1,0 +1,15 @@
+namespace: 21-test-diff
+repositories:
+  fairwinds-incubator:
+    url: https://charts.fairwinds.com/incubator
+minimum_versions: #set minimum version requirements here
+  helm: 0.0.0
+  reckoner: 0.0.0
+charts:
+  chart-with-namespace:
+    namespace: 21-test-diff
+    repository: fairwinds-incubator
+    chart: basic-demo
+  chart-without-namespace:
+    repository: fairwinds-incubator
+    chart: basic-demo

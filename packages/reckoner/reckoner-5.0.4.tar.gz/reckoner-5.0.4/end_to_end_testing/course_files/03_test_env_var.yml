@@ -1,0 +1,17 @@
+namespace: 03-test
+repositories:
+  fairwinds-incubator:
+    url: https://charts.fairwinds.com/incubator
+minimum_versions:
+  helm: 0.0.0
+  reckoner: 0.0.0
+charts:
+  check-values:
+    repository: fairwinds-incubator
+    chart: basic-demo
+    namespace: 03-infra
+    values:
+      non-used: "${myvar}"
+      comment-problem-detector:
+        # This is a comment "${this_var_should_not_be_parsed}"
+        - test-value

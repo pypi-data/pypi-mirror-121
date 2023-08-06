@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: reckoner
+Version: 5.0.4
+Summary: Declarative Helm configuration with Git capability
+Home-page: https://fairwinds.com/
+Author: FairwindsOps Inc.
+Author-email: service@fairwinds.com
+License: Apache2.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+

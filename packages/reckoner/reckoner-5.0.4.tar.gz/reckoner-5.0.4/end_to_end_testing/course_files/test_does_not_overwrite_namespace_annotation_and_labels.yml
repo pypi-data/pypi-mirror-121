@@ -1,0 +1,21 @@
+namespace: annotatednamespace #namespace to install the chart in, defaults to 'kube-system'
+namespace_management:
+  default:
+    metadata:
+      annotations:
+        reckoner: doesnotrockalsoshoulenotbewritten
+      labels:
+        rocks: reckonerstillshouldnotbewritten
+    settings:
+      overwrite: False
+repositories:
+  fairwinds-incubator:
+    url: https://charts.fairwinds.com/incubator
+minimum_versions: #set minimum version requirements here
+  helm: 0.0.0
+  reckoner: 0.0.0
+charts:
+  namespace-test:
+    repository: fairwinds-incubator
+    chart: basic-demo
+    namespace: annotatednamespace
