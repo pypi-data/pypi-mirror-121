@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+chunksv/__init__.py
+chunksv/chunksv.py
+chunksv.egg-info/PKG-INFO
+chunksv.egg-info/SOURCES.txt
+chunksv.egg-info/dependency_links.txt
+chunksv.egg-info/top_level.txt
+test/test.py
