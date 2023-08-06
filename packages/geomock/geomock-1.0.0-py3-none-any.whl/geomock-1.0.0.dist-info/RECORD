@@ -1,0 +1,9 @@
+geomock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geomock/cli.py,sha256=sM_UABpFrxc9cZjhi83BgeDRg9YNA2NnMUnUta-Cxuc,966
+geomock/ops.py,sha256=3vmZqFInJJmbMEOv4EaeG45weGCYwNx5CFzUe2D_NxY,245
+geomock/random_geometry.py,sha256=ePt5ki_W0_gjNYnCvq033JwrtQyisEMurclOUjikV7o,1087
+geomock/util.py,sha256=CEucDB4RijORsy4AitZG1cWy7kzgQc-FUlAay-v2afw,160
+geomock-1.0.0.dist-info/entry_points.txt,sha256=NinjAUT5Gj_W_jHWD53bGhFlRTMUIaUCFUcGxnxEN-g,43
+geomock-1.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+geomock-1.0.0.dist-info/METADATA,sha256=S51bnK3CHm9p8EzpfJDVvITNE2rVh87iRcxBIrLxdkE,523
+geomock-1.0.0.dist-info/RECORD,,
