@@ -1,0 +1,5 @@
+include tidal_gui/resource/*.qss
+include tidal_gui/resource/svg/*.svg
+include tidal_gui/resource/svg/leftTab/*.svg
+include tidal_gui/resource/svg/taskTab/*.svg
+include tidal_gui/resource/svg/windows/*.svg
