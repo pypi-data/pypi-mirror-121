@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Perceptron_Pacakge_thangarajdeivasikamani.egg-info/PKG-INFO
+src/Perceptron_Pacakge_thangarajdeivasikamani.egg-info/SOURCES.txt
+src/Perceptron_Pacakge_thangarajdeivasikamani.egg-info/dependency_links.txt
+src/Perceptron_Pacakge_thangarajdeivasikamani.egg-info/requires.txt
+src/Perceptron_Pacakge_thangarajdeivasikamani.egg-info/top_level.txt
+src/preceptron/__init__.py
+src/preceptron/perceptron.py
