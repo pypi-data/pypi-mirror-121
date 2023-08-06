@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/punczh2en/__init__.py
+src/punczh2en/punczh2en.py
+src/punczh2en.egg-info/PKG-INFO
+src/punczh2en.egg-info/SOURCES.txt
+src/punczh2en.egg-info/dependency_links.txt
+src/punczh2en.egg-info/top_level.txt
