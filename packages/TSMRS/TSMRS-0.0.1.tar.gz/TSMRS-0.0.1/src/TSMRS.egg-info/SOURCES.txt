@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/TSMRS/__init__.py
+src/TSMRS/checkerUS.py
+src/TSMRS.egg-info/PKG-INFO
+src/TSMRS.egg-info/SOURCES.txt
+src/TSMRS.egg-info/dependency_links.txt
+src/TSMRS.egg-info/top_level.txt
