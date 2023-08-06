@@ -1,0 +1,9 @@
+setup.py
+akash_distributions/Add_two_Numbers.py
+akash_distributions/__init__.py
+akash_distributions.egg-info/PKG-INFO
+akash_distributions.egg-info/SOURCES.txt
+akash_distributions.egg-info/dependency_links.txt
+akash_distributions.egg-info/not-zip-safe
+akash_distributions.egg-info/top_level.txt
+test/test1.py
