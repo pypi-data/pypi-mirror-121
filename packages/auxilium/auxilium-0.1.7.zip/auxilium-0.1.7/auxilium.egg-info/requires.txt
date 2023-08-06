@@ -1,0 +1,9 @@
+pip
+dulwich
+flake8
+bandit
+coverage
+sphinx
+sphinx_rtd_theme
+sphinx_math_dollar
+twine
