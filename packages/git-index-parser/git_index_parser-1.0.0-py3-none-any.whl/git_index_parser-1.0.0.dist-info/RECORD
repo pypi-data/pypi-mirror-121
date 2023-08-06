@@ -1,0 +1,10 @@
+git_index_parser/__init__.py,sha256=nbQ3S_i-1EavtPEGgiaruH8LGkZkNOMsy5wnuzJt0Ks,217
+git_index_parser/git_index_file.py,sha256=-_z3YxtmDxlXTgOlQzk3HPKXt_qLSh8KlgWBTDGQaDY,712
+git_index_parser/git_index_file_entry.py,sha256=sgLSvOaEZsbk_3LlwCkyuDY2S2nBnkF1HVvKKLdm-dw,1395
+git_index_parser/git_index_file_extension.py,sha256=M1Ew6SH_ZJaGh5dOHZyf8Sn7FKSa2wu_Zs3Fpra4s-U,256
+git_index_parser/parser.py,sha256=2KwY-sdaePR4w5qmdc_VcmUpug_wZ4EbIQRa04x4feg,5290
+git_index_parser-1.0.0.dist-info/LICENSE,sha256=T54bIhgt-IAXZ2qYMXpLMPJOfaRWu0M4_FFNuXwTpxU,1090
+git_index_parser-1.0.0.dist-info/METADATA,sha256=VE-HIUOp_TIbrdnbY2VYK8sziP_Uoxd0sN3CfRHDTAc,802
+git_index_parser-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+git_index_parser-1.0.0.dist-info/top_level.txt,sha256=SdfsOsJ2jwyplYHt-7CcHy8vX3vyeuYi2bRkD9PAuNg,17
+git_index_parser-1.0.0.dist-info/RECORD,,
