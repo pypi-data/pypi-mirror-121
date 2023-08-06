@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyhtmlgen/__init__.py
+src/pyhtmlgen/generators.py
+src/pyhtmlgen.egg-info/PKG-INFO
+src/pyhtmlgen.egg-info/SOURCES.txt
+src/pyhtmlgen.egg-info/dependency_links.txt
+src/pyhtmlgen.egg-info/top_level.txt
