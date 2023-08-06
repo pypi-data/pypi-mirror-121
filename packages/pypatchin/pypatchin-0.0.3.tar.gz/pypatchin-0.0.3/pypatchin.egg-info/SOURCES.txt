@@ -1,0 +1,10 @@
+README.md
+setup.py
+pypatchin/__init__.py
+pypatchin/compare.py
+pypatchin/patch.py
+pypatchin.egg-info/PKG-INFO
+pypatchin.egg-info/SOURCES.txt
+pypatchin.egg-info/dependency_links.txt
+pypatchin.egg-info/requires.txt
+pypatchin.egg-info/top_level.txt
