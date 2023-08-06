@@ -1,0 +1,16 @@
+survive996/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+survive996/xib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+survive996/xib/meituan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+survive996/xib/meituan/accountant.py,sha256=PN_pxYs4sr794c24If9ZVzxazc19hXrqJgGtTp4slpU,5467
+survive996/xib/meituan/datareader.py,sha256=irMpvbxxs7YhiaGNbr8FlBrVCsKHcJPxgD5k_IUqsyQ,11151
+survive996/xib/meituan/metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+survive996/xib/meituan/metadata/table.py,sha256=oV224XSMYQ-WBPI_eQKKh0WqMwYcligYZ8Upj1RfKVo,6094
+survive996/xib/meituan/metadata/trade.py,sha256=74Mmbk3omllwMlFVj2k-mOCEYkR37jZPItflMuR3rJ8,10381
+survive996test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+survive996test/xib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+survive996test/xib/datareadertest.py,sha256=MN8647yK1uGqKptrd86ttpH3rDvW530Ql9Efwj6kKz8,702
+survive996-0.0.4.dist-info/LICENSE,sha256=EMe_EJHCB2QP7GddxLf_k43jUIaCrFwMAyaTgKtBdVg,1089
+survive996-0.0.4.dist-info/METADATA,sha256=v8mcqLleKEDVsnBwLxXBYimLs7sN9iPFv6tm5_R8VsI,456
+survive996-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+survive996-0.0.4.dist-info/top_level.txt,sha256=kZy929DJIkq4b_-Og1XxJ7MYh7gh-rrmWHi3Mgi5OwA,26
+survive996-0.0.4.dist-info/RECORD,,
