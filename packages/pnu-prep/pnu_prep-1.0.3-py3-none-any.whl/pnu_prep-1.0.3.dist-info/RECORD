@@ -1,0 +1,10 @@
+pnu_prep-1.0.3.data/data/etc/eign,sha256=SZH5cEKIkR-WCber_ZpNDs4ybPjtfuHLS7hnqmwdXgA,2287
+pnu_prep-1.0.3.data/data/man/man1/prep.1.gz,sha256=YANg6x0Z8PqzRIGZxnlyAZGf9WLS7D9q0UlaNB10ywQ,1588
+prep/__init__.py,sha256=OIUvQK6yxVB8AiXXHt83ZFQSsZMxRVNxkf2BJMND5v0,60
+prep/main.py,sha256=sAQll7AI1cyAGYWUztjqV1Zk1VY9TRecn-IPQoIcv1M,9169
+pnu_prep-1.0.3.dist-info/License,sha256=igxAIYgcptACtNIpfxFRG70HeUBZ0MiucpJNvbv3Sr8,1461
+pnu_prep-1.0.3.dist-info/METADATA,sha256=FtRFYzmQ597-rzmEBNIPvt25loJBCr4k7qbGMXgWzYo,5236
+pnu_prep-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pnu_prep-1.0.3.dist-info/entry_points.txt,sha256=XSNhKJ5oAzWamiqpiqFD4JVqZWJSGn40l0w5Vuq-4Y0,36
+pnu_prep-1.0.3.dist-info/top_level.txt,sha256=sKPML1uH-dbE2QTsR5VvZQ5ydWu0f1_Aiw3fo0my3iQ,5
+pnu_prep-1.0.3.dist-info/RECORD,,
