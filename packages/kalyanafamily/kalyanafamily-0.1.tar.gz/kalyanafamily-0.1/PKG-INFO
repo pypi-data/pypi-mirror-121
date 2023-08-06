@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: kalyanafamily
+Version: 0.1
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: kalyanachakravrathy M P
+Author-email: kalyanapayani@gmail.com
+License: UNKNOWN
+Description: My first Python package with a  add function
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
