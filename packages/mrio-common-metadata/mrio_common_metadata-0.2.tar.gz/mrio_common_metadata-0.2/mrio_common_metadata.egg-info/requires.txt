@@ -1,0 +1,6 @@
+pyxlsb
+pathlib
+xlrd
+pandas
+openpyxl
+scipy
