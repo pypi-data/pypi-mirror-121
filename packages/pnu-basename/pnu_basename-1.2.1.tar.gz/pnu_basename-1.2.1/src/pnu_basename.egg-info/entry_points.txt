@@ -1,0 +1,4 @@
+[console_scripts]
+basename = basename:main
+dirname = basename:main
+
