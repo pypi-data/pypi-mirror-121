@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+data_constructor/__init__.py
+data_constructor/console.py
+data_constructor/constructor.py
+data_constructor/reader.py
+data_constructor.egg-info/PKG-INFO
+data_constructor.egg-info/SOURCES.txt
+data_constructor.egg-info/dependency_links.txt
+data_constructor.egg-info/not-zip-safe
+data_constructor.egg-info/top_level.txt
