@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+randomidentity/__init__.py
+randomidentity/data.py
+randomidentity/randomidentity.py
+randomidentity.egg-info/PKG-INFO
+randomidentity.egg-info/SOURCES.txt
+randomidentity.egg-info/dependency_links.txt
+randomidentity.egg-info/top_level.txt
