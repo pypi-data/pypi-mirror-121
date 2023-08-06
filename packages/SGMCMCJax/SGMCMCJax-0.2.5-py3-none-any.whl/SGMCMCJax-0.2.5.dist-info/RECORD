@@ -1,0 +1,15 @@
+sgmcmcjax/__init__.py,sha256=Xsa3ayOMVkhUWm4t06YeyHE0apjpZefxLH4ylp0CDtU,22
+sgmcmcjax/diffusion_util.py,sha256=V_l1XMjB6Zg1pPPIHmTkT3YYbGPPDpzsluvjm87gPaQ,5490
+sgmcmcjax/diffusions.py,sha256=wc9WhbOucmmG-5aS14H86qBLGgklauUmgIz-k_-5lFE,5795
+sgmcmcjax/gradient_estimation.py,sha256=TRTiPH6VbzF71WX8TAepUlg11Ios2DATqs7o9Yv97lY,4720
+sgmcmcjax/kernels.py,sha256=3BaBO8T3p5IkUOqkOCn_EhEhAypPaY6cC31c_SVTyJE,9730
+sgmcmcjax/ksd.py,sha256=eerI1nCJ6-3HzDqcg_FOLuhkezuN0RYGPl7owCMfy9U,1105
+sgmcmcjax/optimizer.py,sha256=hxTdLCigekS0uXfWuouyVT1XY_1mo2nA25EIxkE_E6w,1261
+sgmcmcjax/samplers.py,sha256=rJf7WvlcG35eiBhqGP3znp9j0xlUWievruiPKpsnhsc,3449
+sgmcmcjax/types.py,sha256=Du2-VPla22OVSr8qBYKtrS4F1zrv-uxnD0_eln-uWSQ,890
+sgmcmcjax/util.py,sha256=JeeuQNnfmY_2Pdsz7lgvM25yEyVuoPI0Nz9g5ujshwI,3197
+SGMCMCJax-0.2.5.dist-info/LICENSE,sha256=8I5xnLDWYYAFYDuILotVNVs0NhU77jTPxN3r2kvmeX8,10243
+SGMCMCJax-0.2.5.dist-info/METADATA,sha256=3Nrak4TrhbZQKMuhgUsIizo-Zhjzh9MCh5feIdy0gR8,2830
+SGMCMCJax-0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+SGMCMCJax-0.2.5.dist-info/top_level.txt,sha256=LQ3qmUuctkpU8sPctqEZEPijS8Di2MaBYlm16MWOdHM,10
+SGMCMCJax-0.2.5.dist-info/RECORD,,
