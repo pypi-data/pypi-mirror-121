@@ -1,0 +1,4 @@
+[scrubadub_detectors]
+spacy = scrubadub_spacy.detectors:SpacyEntityDetector
+spacy_name = scrubadub_spacy.detectors:SpacyNameDetector
+
