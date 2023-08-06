@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.2.1
+-----
+
+* Install apache-airflow-providers-google==5.1.0 with --no-deps so that pip doesn't spend forever trying to resolve dependencies for it, as we only use it for Google Cloud Secret Manager Backend. Add google-cloud-secret-manager as dependency in requirements.txt. (#506)
