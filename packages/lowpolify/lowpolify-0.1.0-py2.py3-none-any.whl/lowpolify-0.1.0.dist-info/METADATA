@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: lowpolify
+Version: 0.1.0
+Summary: Create low-poly art from any image
+Home-page: https://github.com/ghostwriternr/lowpolify
+Author: Naresh R
+Author-email: ghostwriternr@gmail.com
+License: MIT license
+Keywords: lowpolify
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: face-recognition-models (==0.3.0)
+Requires-Dist: dlib (==19.22.0)
+Requires-Dist: numpy (==1.21.0)
+Requires-Dist: opencv-python-headless (==4.5.3.56)
+Requires-Dist: scipy (==1.7.0)
+Requires-Dist: sharedmem (==0.3.8)
+Requires-Dist: Click (>=7.0)
+
+=========
+lowpolify
+=========
+
+
+.. image:: https://img.shields.io/pypi/v/lowpolify.svg
+        :target: https://pypi.python.org/pypi/lowpolify
+
+.. image:: https://img.shields.io/travis/ghostwriternr/lowpolify.svg
+        :target: https://travis-ci.com/ghostwriternr/lowpolify
+
+.. image:: https://readthedocs.org/projects/lowpolify/badge/?version=latest
+        :target: https://lowpolify.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Create low-poly art from any image
+
+
+* Free software: MIT license
+* Documentation: https://lowpolify.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2021-07-17)
+------------------
+
+* First release on PyPI.
+
+

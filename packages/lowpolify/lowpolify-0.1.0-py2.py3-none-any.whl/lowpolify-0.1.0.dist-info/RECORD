@@ -1,0 +1,10 @@
+lowpolify/__init__.py,sha256=iJ9ioVbPfZoRm2hUuyoDUyANM2GRZADxujAiNP5le4o,128
+lowpolify/cli.py,sha256=82D-VI-K9yqB4-CDyD7oaTnFPn7ASZHeIG9f_vG6B7w,315
+lowpolify/lowpolify.py,sha256=IM9cZNUwpfUN1rMh9V3mr1uYyso0kf3_EZakdfdPVCU,12432
+lowpolify-0.1.0.dist-info/AUTHORS.rst,sha256=E5AAY-DWqfiz-hBf02rz-w4669ztmagGrdyeLXWoEcE,157
+lowpolify-0.1.0.dist-info/LICENSE,sha256=jwc8z9gagxgHnvj-2XvPtaLxKVRmUpJifXWYzIGAN-k,1067
+lowpolify-0.1.0.dist-info/METADATA,sha256=RNr9rDPvNEvpjt02bUvlea4Ej1a3Q5BwShGJP6jzBlQ,1904
+lowpolify-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+lowpolify-0.1.0.dist-info/entry_points.txt,sha256=1jB_JVSyHoUbnYddkiTlUzVxnZSzC2MZmzUmcAT4WKE,50
+lowpolify-0.1.0.dist-info/top_level.txt,sha256=h2AGXjwf7QPAXsLhTLmgWfpeA9jfKHskn9Fv9tJX2yQ,10
+lowpolify-0.1.0.dist-info/RECORD,,
