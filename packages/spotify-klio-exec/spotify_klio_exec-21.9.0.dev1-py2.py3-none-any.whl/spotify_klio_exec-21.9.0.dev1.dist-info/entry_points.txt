@@ -1,0 +1,8 @@
+[console_scripts]
+klio-runner = spotify_klio_exec.cli:main
+klioexec = spotify_klio_exec.cli:main
+
+[klio.plugins.audit]
+multithreaded_tf = spotify_klio_exec.plugins.audit.multithreaded_tf:_init
+numpy_broken_blas = spotify_klio_exec.plugins.audit.numpy_broken_blas:_init
+
