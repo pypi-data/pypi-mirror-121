@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ANSIEnum.egg-info/PKG-INFO
+src/ANSIEnum.egg-info/SOURCES.txt
+src/ANSIEnum.egg-info/dependency_links.txt
+src/ANSIEnum.egg-info/top_level.txt
+src/ansienum/__init__.py
+src/ansienum.egg-info/PKG-INFO
+src/ansienum.egg-info/SOURCES.txt
+src/ansienum.egg-info/dependency_links.txt
+src/ansienum.egg-info/top_level.txt
