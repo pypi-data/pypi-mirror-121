@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+jsonclasses_orm/__init__.py
+jsonclasses_orm/orm_object.py
+jsonclasses_orm/orm_query.py
+jsonclasses_orm.egg-info/PKG-INFO
+jsonclasses_orm.egg-info/SOURCES.txt
+jsonclasses_orm.egg-info/dependency_links.txt
+jsonclasses_orm.egg-info/not-zip-safe
+jsonclasses_orm.egg-info/requires.txt
+jsonclasses_orm.egg-info/top_level.txt
