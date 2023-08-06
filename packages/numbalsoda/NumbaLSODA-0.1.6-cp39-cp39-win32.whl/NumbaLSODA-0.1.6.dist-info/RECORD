@@ -1,0 +1,9 @@
+NumbaLSODA/__init__.py,sha256=pjp6NUTw4SMWV85mn4ga00pqIHLYAzthiqdis9owBYY,21
+NumbaLSODA/driver.py,sha256=c1eQDPcG4CrrUoq20lVx_p8ih4sWstk4QlzJ9HGvk8Y,1564
+NumbaLSODA/liblsoda.dll,sha256=ZTRlQpdDcFdQ15piW_i0Bxoz7IG8UiCj4XyHKcw4qR8,72704
+NumbaLSODA/lsoda.lib,sha256=pQbzuy4Q5Pl073hEHz5A4pnVjgPH2lYmO8tBAFlQ3O4,144972
+NumbaLSODA-0.1.6.dist-info/LICENSE.txt,sha256=25-CP3gX00649M46GaY_fovt75PkIj0KAgKX_xK00b4,1090
+NumbaLSODA-0.1.6.dist-info/METADATA,sha256=cxaGYj_O3YkpJWtMU9nNY1XgBSusZlRAmI5uVEQ8vDI,3082
+NumbaLSODA-0.1.6.dist-info/WHEEL,sha256=smmBECuUzGdEznciuR77PdAciiaQM82bX_d7rHy5yr4,90
+NumbaLSODA-0.1.6.dist-info/top_level.txt,sha256=oS9a69snXGbyfNIfwK2LO7OJOaPfxjxhMXvyhyWpTew,11
+NumbaLSODA-0.1.6.dist-info/RECORD,,
