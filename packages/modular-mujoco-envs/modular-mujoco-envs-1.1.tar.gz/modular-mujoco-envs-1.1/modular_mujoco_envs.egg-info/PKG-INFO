@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: modular-mujoco-envs
+Version: 1.1
+Summary: Modular MuJoCo Environments
+Home-page: https://github.com/brandontrabucco/modular-mujoco-envs
+Author: Brandon Trabucco
+Author-email: brandon@btrabucco.com
+License: MIT
+Download-URL: https://github.com/brandontrabucco/modular-mujoco-envs/archive/v1_1.tar.gz
+Keywords: Deep Learning,Deep Reinforcement Learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Modular MuJoCo Environments
+
+Collection of modular MuJoCo environments for benchmarking morphology agnostic reinforcement learning algorithms. The contained environments are primarily based on the paper "One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control" by Wenlong Huang, Igor Mordatch, and Deepak Pathak, from ICML 2020.
+
+## Installation
+
+```bash
+pip install modular-mujoco-envs
+```
+
