@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: clever-config
+Version: 0.3.0
+Summary: Tricky config with features
+Home-page: https://github.com/osipov-andrey/python_smart_config
+Author: Andrey A. Osipov
+Author-email: developer.osipov@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: attributedict (>=0.3.0,<0.4.0)
+Project-URL: Repository, https://github.com/osipov-andrey/python_smart_config
