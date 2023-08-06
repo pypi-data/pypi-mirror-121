@@ -1,0 +1,129 @@
+import json
+import sys
+import requests
+from datetime import datetime
+import pkg_resources
+import jsonpickle
+
+from logger.src.common.configuration.httpClientConfig import HttpClientConfig
+from logger.src.common.dto.payload import Payload
+from logger.src.common.dto.payloadDetail import PayloadDetail
+from logger.src.common.dto.payloadDetailMetadata import PayloadDetailMetadata
+from logger.src.common.dto.payloadDetailSdk import PayloadDetailSdk
+from logger.src.common.enums.logLevel import LogLevel
+from logger.src.version import __version__
+
+with requests.Session() as session:
+    session.headers.update({
+        'Content-Type': 'application/json',
+    })
+
+    user_api_key = None
+    user_info = None
+    tags = []
+
+
+    def set_api_key(api_key):
+        user_api_key = api_key
+
+        session.headers.update({
+            'Authorization': f'X-API-KEY {user_api_key}'
+        })
+
+
+    def set_user(user):
+        user_info = user
+        print('set_user => ' + jsonpickle.encode(user))
+        print('set_user => ' + jsonpickle.encode(user_info))
+
+
+    def set_tag(property_name, property_value):
+        tags.append({f'{property_name}': f'{property_value}'})
+
+
+    def info(message, event_time_required=False):
+        installed_packages = [{d.project_name: d.version} for d in pkg_resources.working_set]
+        eventTime = datetime.now().strftime("%m/%d/%Y, %H:%M:%S") if event_time_required else None
+        sourceFilePath = jsonpickle.encode(sys._getframe().f_code)
+        methodName = jsonpickle.encode(sys._getframe(1).f_code.co_name)
+
+        detail = [
+            PayloadDetail(
+                LogLevel.info.value,
+                sourceFilePath,
+                None,
+                None,
+                None,
+                None,
+                message,
+                LogLevel.info.value,
+                __version__,
+                PayloadDetailMetadata(
+                    sourceFilePath,
+                    methodName,
+                    LogLevel.info.value,
+                    message
+                ),
+                PayloadDetailSdk(
+                    __version__,
+                    installed_packages
+                ),
+                user_info
+            )
+        ]
+
+        return create_log(Payload(
+            sourceFilePath,
+            eventTime,
+            message,
+            jsonpickle.encode(tags),
+            jsonpickle.encode(detail)
+        ))
+
+
+    def error(occurred_error, event_time_required=False):
+        message = jsonpickle.encode(occurred_error)
+        installed_packages = [{d.project_name: d.version} for d in pkg_resources.working_set]
+        eventTime = datetime.now().strftime("%m/%d/%Y, %H:%M:%S") if event_time_required else None
+        sourceFilePath = jsonpickle.encode(sys._getframe().f_code)
+        methodName = jsonpickle.encode(sys._getframe(1).f_code.co_name)
+
+        detail = [
+            PayloadDetail(
+                LogLevel.error.value,
+                sourceFilePath,
+                None,
+                None,
+                None,
+                None,
+                message,
+                LogLevel.error.value,
+                __version__,
+                PayloadDetailMetadata(
+                    sourceFilePath,
+                    methodName,
+                    LogLevel.error.value,
+                    message
+                ),
+                PayloadDetailSdk(
+                    __version__,
+                    installed_packages
+                ),
+                user_info
+            )
+        ]
+
+        return create_log(Payload(
+            sourceFilePath,
+            eventTime,
+            message,
+            jsonpickle.encode(tags),
+            jsonpickle.encode(detail)
+        ))
+
+
+    def create_log(payload):
+        print('create_log => ' + str(user_api_key))
+        response = session.post(f'{HttpClientConfig.alertNowURL}/integration/appinsight/v1/{user_api_key}',
+                                data=jsonpickle.encode(payload))
+        return response
