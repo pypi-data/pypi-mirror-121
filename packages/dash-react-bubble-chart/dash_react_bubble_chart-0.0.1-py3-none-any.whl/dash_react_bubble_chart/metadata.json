@@ -1,0 +1,187 @@
+{
+  "src/lib/components/BubbleChart.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "BubbleChart",
+    "methods": [
+      {
+        "name": "renderChart",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "renderBubbles",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "width",
+            "type": null
+          },
+          {
+            "name": "height",
+            "type": null
+          },
+          {
+            "name": "nodes",
+            "type": null
+          },
+          {
+            "name": "color",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "shape",
+            "value": {
+              "label": {
+                "name": "string",
+                "required": true
+              },
+              "value": {
+                "name": "number",
+                "required": true
+              }
+            }
+          }
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      },
+      "overflow": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "1000",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "800",
+          "computed": false
+        }
+      },
+      "padding": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
+      "showLegend": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "valueFont": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "family": {
+              "name": "string",
+              "required": false
+            },
+            "size": {
+              "name": "number",
+              "required": false
+            },
+            "color": {
+              "name": "string",
+              "required": false
+            },
+            "weight": {
+              "name": "string",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "{\r\n    family: 'Arial',\r\n    size: 16,\r\n    color: '#fff',\r\n    weight: 'bold',\r\n}",
+          "computed": false
+        }
+      },
+      "labelFont": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "family": {
+              "name": "string",
+              "required": false
+            },
+            "size": {
+              "name": "number",
+              "required": false
+            },
+            "color": {
+              "name": "string",
+              "required": false
+            },
+            "weight": {
+              "name": "string",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "{\r\n    family: 'Arial',\r\n    size: 11,\r\n    color: '#fff',\r\n    weight: 'normal',\r\n}",
+          "computed": false
+        }
+      },
+      "selectedNode": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
