@@ -1,0 +1,10 @@
+tsbuilder/__init__.py,sha256=DFa64vGPTFWueZvpgkyKDz6oPTgccR0zjUuY2eyHThM,8607
+tsbuilder/architecture.py,sha256=IRwZWwn1kMT6C4I811n87Q1e15ShpeGWqupHBrcA0n0,441
+tsbuilder/specs.py,sha256=E-9Iva8EIx8pN2xOFl86nbdf2AOWPzkGBI65eDjsdxw,954
+tsbuilder/test_tsbuilder.py,sha256=i-F-K9sBywoNpgQaEcGY-3j8-BVFFqDTh8RRALNltkg,5076
+tsbuilder-2.1.dist-info/Apache-2.0.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+tsbuilder-2.1.dist-info/METADATA,sha256=3RsEFyHi2htMbUiCx1AsoX6IrrelBbuyHAQcXTpR9FI,914
+tsbuilder-2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tsbuilder-2.1.dist-info/top_level.txt,sha256=HHNI-1usV3vsjFE3n4tCt0oTkCn9x_uJCi99B_KZziw,10
+tsbuilder-2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tsbuilder-2.1.dist-info/RECORD,,
