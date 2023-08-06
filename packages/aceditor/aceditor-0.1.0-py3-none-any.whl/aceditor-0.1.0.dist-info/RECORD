@@ -1,0 +1,10 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=_fMxoQuk4wTFm4EfrNnVPrMB3GPacyXFBB6u-w40j_k,970
+requirements.txt,sha256=tuLSRYodw7qINyJDj2AdIfoiyUaz06ZT-eGDlvW8RDE,59
+aceditor/__init__.py,sha256=8oYoyW6Lar7zJ2Q0Gdk3zU282KQHvv0MNeaAKrXnVAI,491
+aceditor-0.1.0.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+aceditor-0.1.0.dist-info/METADATA,sha256=PUKpj7DbdRWDw6MHt4TH2LZYH36ef3_FjxlvM_g29DI,1771
+aceditor-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aceditor-0.1.0.dist-info/top_level.txt,sha256=cZnPzw_8a6-JJd0O_qDSHQKJZ7v2Ub_voSslVDIx3AI,9
+aceditor-0.1.0.dist-info/RECORD,,
