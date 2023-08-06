@@ -1,0 +1,6 @@
+pandas
+doger
+tensorflow~=2.6
+tensorflow_addons
+click
+click_help_colors
