@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: coleta-dadosjusbr
+Version: 0.3
+Summary: Contém esquema de dados e funções para os coletores do DadosjusBr
+Home-page: https://github.com/dadosjusbr/proto/
+Author: Dadosjusbr
+Author-email: dadosjusbr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# proto
+Esquema de dados em Protobuf.
+
+# Gerar cÃ³digo go e python
+
+go install google.golang.org/protobuf/cmd/protoc-gen-go
+
+// Gerar stub na raiz.
+protoc --go_out=./ --go_opt=paths=source_relative coleta.proto
+
+protoc --go_out=./ pacote.proto
+
+protoc --go_out=pipeline/ --go_opt=paths=source_relative --proto_path=coleta --proto_path=pipeline pipeline/pipeline.proto
+
