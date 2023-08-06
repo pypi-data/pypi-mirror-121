@@ -1,0 +1,11 @@
+tkitSeg/__init__.py,sha256=UN6H-updCFb0Jo7rQgLCN816JAaUIgfGtWR00C4RBcA,89
+tkitSeg/model_troch_export.onnx,sha256=l9v9XE3_fSY-Q4r0blu9l-6FlXW36RxqMaBOycIibYc,18702112
+tkitSeg/seg.py,sha256=01WR7dWUBey-4AztWE_-5OQTNYj5xuHZNK8INTBj-NU,6310
+tkitSeg/special_tokens_map.json,sha256=MD30WgNgnk6tBLw9wVNtCrGbU1jbaFtvPaEj0F7CAOM,112
+tkitSeg/tokenizer_config.json,sha256=QZdJ8BJ5saaOSZ4Hw8TBetMXqhnIfwqqFYIldQvG2OA,552
+tkitSeg/vocab.txt,sha256=RbusazQcMZrcmKUyUyiC6Rqc78AymqV7rJrnYcJ7KRw,109540
+tkitSeg-0.0.0.5.dist-info/LICENSE,sha256=CfO_jZGRHc5TE9YraZeMwoy6cYUu7-ppHM4Tsf4p-gI,11357
+tkitSeg-0.0.0.5.dist-info/METADATA,sha256=7RsrDND7iEtO4izr3iwHI28bEqlVcTRx6N8TG2Ib18o,705
+tkitSeg-0.0.0.5.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+tkitSeg-0.0.0.5.dist-info/top_level.txt,sha256=PPiDcbc_y5XtwY4aZCax2c3u-Mcl-2jJLHZnG_Lqkp8,8
+tkitSeg-0.0.0.5.dist-info/RECORD,,
