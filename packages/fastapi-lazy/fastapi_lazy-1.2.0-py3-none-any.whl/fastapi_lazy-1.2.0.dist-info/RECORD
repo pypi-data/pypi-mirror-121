@@ -1,0 +1,15 @@
+fastapi_lazy/__init__.py,sha256=xVtHK6Owoh7vH97Lwi-vAWdc7fMJX0HceczqzVk2Y74,244
+fastapi_lazy/auth/__init__.py,sha256=msq6gyMkVe_DpHYNa3OI0R5zh_643EC9Htn-xZu-mCU,71
+fastapi_lazy/auth/auth.py,sha256=hn2KRJAQg_IQ9_O1i09XCdHPSL7BlyANgedOSDNFTwQ,1391
+fastapi_lazy/auth/model.py,sha256=Pix3fkQtofsmBvHy3OZPAeJjZigiORjysPfPlwGVfiI,219
+fastapi_lazy/database/__init__.py,sha256=R8kjJDHcdJhHzFJdcHt19zw8h8nmFJ88Vxn2pd7N9xk,91
+fastapi_lazy/database/mongo.py,sha256=4w9EoXum9wiYVMxDU7XBvSDJDFFT7qJFY7JwfvY9wbI,528
+fastapi_lazy/database/psql.py,sha256=1By5Pc-IW_j9JMJip3P4dVkUpM6p0dSLEub8meEFvCU,543
+fastapi_lazy/database/redis.py,sha256=nWjNOYzjbg6C4HDaAqEovzkQii2ehmbhL1ovZ_mP1FY,931
+fastapi_lazy/generator/__init__.py,sha256=lSYn-8HaoOI7G6yo59vNmA-s8yvTIpAXpZXMn-mCYuQ,70
+fastapi_lazy/generator/generator.py,sha256=O6GtND8yeiUqTJOpZNEiB0h5VnAvkbX8M5_NWGDSSRE,362
+fastapi_lazy-1.2.0.dist-info/LICENSE,sha256=Ap109akA7w-7Z13mNp-pXf-iVkp4BoV9IolFeteeYao,1070
+fastapi_lazy-1.2.0.dist-info/METADATA,sha256=u-YdkFQ03He5lLSKnng2sRJ-DaraPTXncY7wU9HGBbM,1952
+fastapi_lazy-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fastapi_lazy-1.2.0.dist-info/top_level.txt,sha256=Y6BKt-NIKaqFYT1kc5j8JvxesMzScgunPcQa7eSMcl4,13
+fastapi_lazy-1.2.0.dist-info/RECORD,,
