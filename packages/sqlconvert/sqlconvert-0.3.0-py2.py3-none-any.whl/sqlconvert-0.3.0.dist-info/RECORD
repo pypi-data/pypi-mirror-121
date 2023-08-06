@@ -1,0 +1,10 @@
+sqlconvert/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+sqlconvert/__version__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+sqlconvert/print_tokens.py,sha256=_GcNLmOeHby5eBA19tmHhbcGXjgF8KTkl_PD8fi9Q6o,542
+sqlconvert/process_mysql.py,sha256=Vg7VaXAT1RD6aYgXEzQwXgmhlPNjL3Vd5OLMQnMsWK0,5738
+sqlconvert/process_tokens.py,sha256=_HiUDycWvKvJy-o1M-ihaA_0A0lMo4TyRrTjPRqjFmg,2530
+sqlconvert-0.3.0.data/scripts/mysql2sql,sha256=x_IcRzSVnrfILBc4kka4XEBsMGqDhjMmg6LjjCz0hDU,5156
+sqlconvert-0.3.0.dist-info/METADATA,sha256=UVAWiml3r5I7JfGfndZERoVXXaARR-woksqbnUUBgQg,2560
+sqlconvert-0.3.0.dist-info/RECORD,,
+sqlconvert-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+sqlconvert-0.3.0.dist-info/top_level.txt,sha256=APmc9EhCQUti-Mu8Co4TI5aFaKCKBlSkcizhtCoJmuo,11
