@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+tranquility.egg-info/PKG-INFO
+tranquility.egg-info/SOURCES.txt
+tranquility.egg-info/dependency_links.txt
+tranquility.egg-info/top_level.txt
