@@ -1,0 +1,12 @@
+setup.py
+uduak_distributions/Binomialdistribution.py
+uduak_distributions/Gaussiandistribution.py
+uduak_distributions/Generaldistribution.py
+uduak_distributions/__init__.py
+uduak_distributions/test.py
+uduak_distributions/test_binomial.py
+uduak_distributions.egg-info/PKG-INFO
+uduak_distributions.egg-info/SOURCES.txt
+uduak_distributions.egg-info/dependency_links.txt
+uduak_distributions.egg-info/not-zip-safe
+uduak_distributions.egg-info/top_level.txt
