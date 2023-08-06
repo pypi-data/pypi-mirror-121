@@ -1,0 +1,11 @@
+setup.py
+chaconprobabilidades/Binomialdistribution.py
+chaconprobabilidades/Gaussiandistribution.py
+chaconprobabilidades/Generaldistribution.py
+chaconprobabilidades/__init__.py
+chaconprobabilidades.egg-info/PKG-INFO
+chaconprobabilidades.egg-info/SOURCES.txt
+chaconprobabilidades.egg-info/dependency_links.txt
+chaconprobabilidades.egg-info/not-zip-safe
+chaconprobabilidades.egg-info/requires.txt
+chaconprobabilidades.egg-info/top_level.txt
