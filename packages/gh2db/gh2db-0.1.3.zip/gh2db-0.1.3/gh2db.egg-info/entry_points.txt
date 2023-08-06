@@ -1,0 +1,3 @@
+[console_scripts]
+gh2db = gh2db.__main__:main
+

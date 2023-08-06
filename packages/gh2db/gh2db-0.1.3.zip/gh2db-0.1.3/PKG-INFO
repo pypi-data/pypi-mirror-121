@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gh2db
+Version: 0.1.3
+Summary: Convert Github Data to Database.
+Home-page: https://github.com/MichinaoShimizu/gh2db
+Author: MichinaoShimizu
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Convert Github Data to Database.
+
