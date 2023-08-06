@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+pyQt5
+h5py
+configparser
+schema
+
+[test]
+pytest
+coverage
+coveralls
+flake8
