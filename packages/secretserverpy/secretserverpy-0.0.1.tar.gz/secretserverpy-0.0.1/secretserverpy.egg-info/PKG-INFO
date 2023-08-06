@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: secretserverpy
+Version: 0.0.1
+Summary: Package to interact and automate against Secret Server REST API
+Home-page: https://github.com/realpython/reader
+Author: Shawn Melton
+Author-email: shawn.melton@thycotic.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Secret Server Package
+
+[Secret Server](https://www.thycotic.com/secretserver) is an enterprise-grade Privileged Access Management (PAM) solution available both on-premises or as a cloud-based subscription. Credentials used in your automation processes can be stored and retrieved via Secret Server's REST API to secure your scripts and workflows.
+
+SecretServerPy is a Python package that you use for quickly retrieving credentials from your Secret Server environment, among other things.
+
+## Install
+
+SecretServerPy requires Python 3.7 and above.
+
+MacOs/Linux:
+
+```console
+python3 -m pip install secretserverpy
+```
+
+Windows:
+
+```console
+python -m pip install secretserverpy
+```
+
+## Usage
+
+í ½íº§ Under construction í ½íº§
+
+## Build Environment
+
+The package requires Python 3.7 or higher.
+
+Ensuring `python` is in your `PATH`, run:
+
+```powershell
+git clone https://github.com/thycotic-ps/secretserverpy
+cd secretserverpy
+```
+
+

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+secretserverpy/__init__.py
+secretserverpy/__version__.py
+secretserverpy.egg-info/PKG-INFO
+secretserverpy.egg-info/SOURCES.txt
+secretserverpy.egg-info/dependency_links.txt
+secretserverpy.egg-info/requires.txt
+secretserverpy.egg-info/top_level.txt
