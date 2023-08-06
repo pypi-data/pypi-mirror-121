@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: datek-async-fsm
+Version: 0.1.2
+Summary: Asynchronous Finite State Machine
+Home-page: https://gitlab.com/DAtek/datek-async-fsm/
+License: MIT
+Author: Attila Dudas
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://gitlab.com/DAtek/datek-async-fsm/
+Description-Content-Type: text/markdown
+
+[![pipeline status](https://gitlab.com/DAtek/datek-async-fsm/badges/master/pipeline.svg)](https://gitlab.com/DAtek/datek-async-fsm/-/commits/master)
+[![coverage report](https://gitlab.com/DAtek/datek-async-fsm/badges/master/coverage.svg)](https://gitlab.com/DAtek/datek-async-fsm/-/commits/master)
+
+# Asynchronous Finite State Machine
+For an example see [`tests/example.py`](https://gitlab.com/DAtek/datek-async-fsm/-/blob/master/tests/example.py)
