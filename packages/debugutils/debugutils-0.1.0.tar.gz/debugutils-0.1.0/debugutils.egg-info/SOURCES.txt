@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.py
+debugutils/__init__.py
+debugutils/internal_log.py
+debugutils/shorten.py
+debugutils.egg-info/PKG-INFO
+debugutils.egg-info/SOURCES.txt
+debugutils.egg-info/dependency_links.txt
+debugutils.egg-info/top_level.txt
