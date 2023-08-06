@@ -1,0 +1,12 @@
+Bubblez/__init__.py,sha256=lyWZ_MBeseUcgwleqV2VpKvOpNVAwqB-6SIaRqvgNdw,716
+Bubblez/examples.py,sha256=gRXbQcQ0GFvajVtCTpqynYnuL1we11Lc05hco_AVMZw,1409
+Bubblez/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Bubblez/models/blog.py,sha256=C8gNfhWPF8RYnVuviGg47QG42CIKpQ-9gsAz9ZpB-h0,735
+Bubblez/models/post.py,sha256=_1szWogx2sowr7f4TauWo0H9QpWu1VaSTHCuwE6n4ms,3966
+Bubblez/models/reply.py,sha256=CO8TM2wYzBcaAGMDQcYulvbCShn5clqyNY7CU5eVs7I,1553
+Bubblez/models/user.py,sha256=3RDPDDZnzg88JvMpTbnLGORJlj0enNYT8vMzqgjLZ6A,2462
+Bubblez.py-0.0.2.3.dist-info/LICENSE,sha256=tz_iN7IUzIEfpYqpfQFjCtxTXqFnPdoPJpk54aZ_ewY,1086
+Bubblez.py-0.0.2.3.dist-info/METADATA,sha256=1EoPnTyBOWsUKXp3p6xzcOxxkVM2A56fvzPquoNH-lo,2864
+Bubblez.py-0.0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Bubblez.py-0.0.2.3.dist-info/top_level.txt,sha256=KL_mxaOTt8CsYghsyy0gvqT43wQCiFnoy3rstW0jrqo,8
+Bubblez.py-0.0.2.3.dist-info/RECORD,,
