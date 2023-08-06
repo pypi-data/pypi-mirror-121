@@ -1,0 +1,9 @@
+policyengine_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+policyengine_core/server.py,sha256=jF7RWY46evcRwR74xsSw0kSAOZA4WA92o7UBD8DbVSU,6369
+policyengine_core/reforms/__init__.py,sha256=g7nVDAsM-MMR4ZGlaWvB6kamRUln8Vd81YnieoToiCA,67
+policyengine_core/reforms/utils.py,sha256=NJHx47sqxhgLtbWr1oAhTI9boz6gbKhiJ66E6tl5VvA,2047
+PolicyEngine_Core-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+PolicyEngine_Core-0.1.0.dist-info/METADATA,sha256=nKIzWX0_ELuz2dHI4qBI_Q4cu7dD0aJkWomP5a7EOtM,435
+PolicyEngine_Core-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PolicyEngine_Core-0.1.0.dist-info/top_level.txt,sha256=RaArN-ZNnp0O7f4O4lExWSABoCixeo1ceYmWoIyYlUk,18
+PolicyEngine_Core-0.1.0.dist-info/RECORD,,
