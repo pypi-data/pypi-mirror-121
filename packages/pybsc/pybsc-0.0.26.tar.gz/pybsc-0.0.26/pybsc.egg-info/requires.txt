@@ -1,0 +1,14 @@
+numpy
+orjson
+
+[all]
+PyTurboJPEG
+opencv-python
+scikit-video
+
+[image]
+PyTurboJPEG
+opencv-python
+
+[video]
+scikit-video
