@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/tiedpyranges/__init__.py
+src/tiedpyranges/tiedpyranges.py
+src/tiedpyranges.egg-info/PKG-INFO
+src/tiedpyranges.egg-info/SOURCES.txt
+src/tiedpyranges.egg-info/dependency_links.txt
+src/tiedpyranges.egg-info/top_level.txt
