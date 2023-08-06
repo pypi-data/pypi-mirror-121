@@ -1,0 +1,8 @@
+setup.py
+infra2conn/salesforce.py
+infra2conn.egg-info/PKG-INFO
+infra2conn.egg-info/SOURCES.txt
+infra2conn.egg-info/dependency_links.txt
+infra2conn.egg-info/entry_points.txt
+infra2conn.egg-info/requires.txt
+infra2conn.egg-info/top_level.txt
