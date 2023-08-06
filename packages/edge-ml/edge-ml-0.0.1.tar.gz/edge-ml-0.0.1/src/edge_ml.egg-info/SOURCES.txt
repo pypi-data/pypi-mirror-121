@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/edge-ml/__init__.py
+src/edge-ml/edge-ml.py
+src/edge_ml.egg-info/PKG-INFO
+src/edge_ml.egg-info/SOURCES.txt
+src/edge_ml.egg-info/dependency_links.txt
+src/edge_ml.egg-info/top_level.txt
