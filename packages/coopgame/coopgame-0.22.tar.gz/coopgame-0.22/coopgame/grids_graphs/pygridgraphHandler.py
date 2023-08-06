@@ -1,0 +1,361 @@
+import time
+import pygame
+from coopgraph.gridSelectPolicies import TogglePolicy
+from coopgraph.grids import RectGrid
+from coopgraph.gridgraph import GridGraph
+from coopgame.grids_graphs.pygridhandler import PyGridHandler
+from coopgame.grids_graphs.pygraphhandler import PyGraphHandler
+from coopstructs.toggles import BooleanToggleable
+import numpy as np
+from coopgame.colors import Color
+from coopstructs.vectors import Vector2
+from typing import Callable, Any, Dict
+import logging
+from coopgame.enums import GridDrawType
+from coopstructs.geometry import Line, Rectangle
+from coopbugger.monitoredclass import MonitoredClass
+import uuid
+from coopstructs.curves import LineCurve
+from coopgraph.graphs import AStarResults
+import coopgame.pygamehelpers as help
+from coopgame.linedrawing.curvedrawer import CurveDrawer
+
+class MouseGridResolverArgs:
+    def __init__(self,
+                 windowRect: Rectangle,
+                 mousePos: Vector2,
+                 color: Color):
+        self.windowRect = windowRect
+        self.mousePos = mousePos
+        self.color = color
+
+class PathFinderFactory(MonitoredClass):
+    def __init__(self,
+                 grid_graph: GridGraph,
+                 astar_start_point: Vector2 = None,
+                 wait_timer_ms: int = None):
+
+        if wait_timer_ms is None:
+            wait_timer_ms = 0
+
+        super().__init__()
+        self.astar_start_point = astar_start_point
+        self.astar_result = None
+        self.grid_graph = grid_graph
+        self.wait_timer_ms = wait_timer_ms
+        self.start_timer = None
+        self.last_calc = None
+
+    @MonitoredClass.timer
+    def calculate_astar_from_cached_pos(self,
+                                        new_pos: Vector2):
+        self.astar_result = self.grid_graph.astar_between_grid_pos(self.astar_start_point, new_pos)
+        self.last_calc = time.perf_counter()
+        logging.info(f"Route calculated from {self.astar_start_point}-->{new_pos}")
+
+    @MonitoredClass.timer
+    def calculate_if_passed_threshold(self, new_pos: Vector2):
+        if self.last_calc is not None:
+            return
+
+        if (self.wait_timer_ms is None) or \
+                (self.start_timer and time.perf_counter() - self.start_timer > self.wait_timer_ms / 1000):
+            self.calculate_astar_from_cached_pos(new_pos)
+
+    @MonitoredClass.timer
+    def set_astar_origin(self, grid_coords: Vector2):
+        self.astar_start_point = grid_coords
+        self.astar_result = None
+
+    def set_start_timer(self):
+        self.last_calc = None
+        self.astar_result = None
+        self.start_timer = time.perf_counter()
+
+def astar_curves(surface_rect: Rectangle,
+                 grid_graph: GridGraph,
+                 astar_results: AStarResults,
+                 ):
+    if astar_results and astar_results.path is not None:
+        astr_curves = []
+        last = None
+        for ii in range(0, len(astar_results.path)):
+            if last is not None:
+                astr_curves.append(LineCurve(str(uuid.uuid4()),
+                                            grid_graph.grid.coord_from_grid_pos(last.pos, surface_rect),
+                                             grid_graph.grid.coord_from_grid_pos(astar_results.path[ii].pos,
+                                                                                 surface_rect)))
+            last = astar_results.path[ii]
+
+        return astr_curves
+    else:
+        return None
+
+
+
+def define_highlighted_grids(grid: RectGrid,
+                             predefined_highlights: Dict[Vector2, Color] = None,
+                             highlight_toggled: bool = False,
+                             toggle_key: Any = None):
+    highlights = {}
+
+    if highlight_toggled and toggle_key:
+        grid_value_array = grid.state_value_as_array(key=toggle_key)
+        for x in range(0, grid.nColumns):
+            for y in range(0, grid.nRows):
+                if grid_value_array[y][x].value:
+                    highlights[Vector2(x, y)] = Color.ORANGE
+
+    if predefined_highlights:
+        highlights.update(predefined_highlights)
+
+    return highlights
+
+class PyGridGraphHandler(MonitoredClass):
+
+    @classmethod
+    def draw_calculated_path(cls,
+                             grid_graph: GridGraph,
+                             astar_results: AStarResults,
+                             path_color: Color,
+                             window_rect: Rectangle,
+                             surface: pygame.Surface,
+                             rotation_matrix: np.ndarray,
+                             path_node_color: Color = None):
+
+        CurveDrawer.draw_curves({x: path_color for x in astar_curves(window_rect,
+                                                                     grid_graph,
+                                                                     astar_results) or []},
+                                surface,
+                                draw_scale_matrix=rotation_matrix,
+                                control_point_color=path_node_color
+                                )
+
+    def __init__(self,
+                 x: int = None,
+                 y: int = None,
+                 init_condition: Dict[Any, Any] = None):
+        super().__init__()
+        self.toggle_key = 'toggle'
+        self.toggle_bool_policy = TogglePolicy(key=self.toggle_key, toggle=BooleanToggleable(default=False))
+        self.show_toggled = BooleanToggleable(default=False)
+        self.allow_diag = BooleanToggleable(default=True,
+                                            on_toggle_callbacks=[lambda x: self.grid_graph.toggle_allow_diagonal_connections('diag'),
+                                                                 lambda x: self.pff.set_start_timer()])
+
+        self.grid_graph = None
+        self.pff = None
+
+        if x and y:
+            self.init_grid(x, y, init_condition)
+
+        self.grid_handler = PyGridHandler()
+        self.graph_handler = PyGraphHandler()
+
+
+
+    @property
+    def grid(self):
+        return self.grid_graph.grid
+
+    @property
+    def graph(self):
+        return self.grid_graph.graph
+
+    def __getitem__(self, item):
+        if item is None:
+            return None
+
+        if type(item) != Vector2:
+            raise TypeError(f"Type item must be Vector2. {type(item)} was provided")
+        return self.grid.at(item.y, item.x)[self.toggle_key]
+
+    @MonitoredClass.timer
+    def init_grid(self,
+                  rows,
+                  cols,
+                  init_condition: np.ndarray = None,
+                  path_finder_delay_ms: int = None):
+        grid = RectGrid(rows, cols, grid_select_policies=[self.toggle_bool_policy])
+        self.grid_graph = GridGraph(grid)
+
+        if init_condition is not None:
+            for ii, row in enumerate(init_condition):
+                for jj, col in enumerate(row):
+                    self.grid_graph.grid.at(ii, jj).state = init_condition
+
+        self.pff = PathFinderFactory(self.grid_graph, wait_timer_ms=path_finder_delay_ms)
+
+    @MonitoredClass.timer
+    def mouse_grid_pos(self, window_rect: Rectangle, mouse_pos: Vector2, draw_scale_matrix: np.array = None):
+        return self.grid_handler.get_mouse_grid_pos(window_rect,
+                                                    mouse_pos,
+                                                     coord_to_grid_converter=self.grid_graph.grid.grid_from_coord,
+                                                     draw_scale_matrix=draw_scale_matrix)
+
+    @MonitoredClass.timer
+    def redefine_grid(self, rows: int, cols: int, grid_update_callback: Callable[[Any], Any] = None):
+        if rows is None or cols is None:
+            return
+
+        logging.info(f"Creating grid...")
+        self.init_grid(rows, cols)
+        logging.info(f"Done creating grid...")
+
+        if grid_update_callback is not None:
+            grid_update_callback(...)
+
+    @MonitoredClass.timer
+    def _resolve_predefined_highlights(self,
+                                       highlight_mouse_pos: MouseGridResolverArgs = None,
+                                       predefined_highlights: Dict[Vector2, Color] = None,
+                                       rotation_matrix = None):
+
+        if predefined_highlights == None and highlight_mouse_pos:
+            predefined_highlights = {}
+
+        if highlight_mouse_pos:
+            mouse_grid = self.mouse_grid_pos(highlight_mouse_pos.windowRect, highlight_mouse_pos.mousePos, draw_scale_matrix=rotation_matrix)
+
+            if mouse_grid is not None: predefined_highlights[mouse_grid] = highlight_mouse_pos.color
+
+        return predefined_highlights
+
+    @MonitoredClass.timer
+    def draw(self,
+             grid_surface: pygame.Surface = None,
+             graph_surface: pygame.Surface = None,
+             overlay_surface: pygame.Surface = None,
+             grid_draw_type: GridDrawType = None,
+             rotation_matrix: np.ndarray = None,
+             predefined_highlights: Dict[Vector2, Color] = None,
+             highlight_mouse_pos: MouseGridResolverArgs = None
+             ):
+
+        if grid_draw_type is None:
+            grid_draw_type = GridDrawType.LINES
+
+        # draw grid base
+        if grid_surface:
+            self.grid_handler.draw_base_to_surface(grid_surface,
+                                                   self.grid_graph.grid,
+                                                   grid_color=Color.DARK_GREY,
+                                                   grid_draw_type=grid_draw_type,
+                                                   draw_scale_matrix=rotation_matrix)
+
+        # draw graph
+        if self.grid_graph.graph and graph_surface:
+            coord_converter = lambda p: self.grid_graph.grid.coord_from_grid_pos(p, graph_surface.get_rect())
+            self.graph_handler.draw_to_surface(graph_surface,
+                                               self.grid_graph.graph,
+                                               draw_scale_matrix=rotation_matrix,
+                                               coordinate_converter=coord_converter)
+
+        # draw overlay
+        if overlay_surface:
+            predefined_highlights = self._resolve_predefined_highlights(highlight_mouse_pos,
+                                                                        predefined_highlights,
+                                                                        rotation_matrix=rotation_matrix)
+
+            highlights = define_highlighted_grids(grid=self.grid_graph.grid,
+                                                  predefined_highlights=predefined_highlights,
+                                                  highlight_toggled=self.show_toggled.value,
+                                                  toggle_key=self.toggle_key)
+
+            self.grid_handler.draw_overlay_to_surface(overlay_surface,
+                                                     self.grid_graph.grid,
+                                                     highlight_grid_cells=highlights,
+                                                     draw_scale_matrix=rotation_matrix)
+
+    @MonitoredClass.timer
+    def handle_hover_over(self, window_rect: Rectangle, grid_rotation_matrix = None):
+        self.grid_handler.handle_hover_over(grid=self.grid,
+                                            area_rect=window_rect,
+                                            on_hover_handlers=[lambda hover: self.pff.calculate_if_passed_threshold(hover)],
+                                            on_hover_changed_handlers=[lambda old, new: self.pff.set_start_timer()],
+                                            draw_scale_matrix=grid_rotation_matrix)
+
+
+    def redraw_graph_grid_overlay(self,
+                                  grid_surface: pygame.Surface,
+                                  graph_surface: pygame.Surface,
+                                  overlay_surface: pygame.Surface,
+                                  rotation_matrix: np.ndarray,
+                                  highlight_mouse_grid_pos_color: Color = Color.AQUA,
+                                  predefined_highlights: Dict[Vector2, Color] = None,
+                                  path_color: Color = Color.MAGENTA,
+                                  path_node_color: Color = None
+                          ):
+
+        # Resolve params into mouse pos args
+        mouse_pos_args = self._resolve_mouse_highlight_args(overlay_surface,
+                                                            highlight_mouse_grid_pos_color)
+
+        # draw graph/grid
+        self.draw(grid_surface=grid_surface,
+                 graph_surface=graph_surface,
+                 overlay_surface=overlay_surface,
+                 rotation_matrix=rotation_matrix,
+                 predefined_highlights=predefined_highlights,
+                 highlight_mouse_pos=mouse_pos_args,
+                 )
+
+        # Draw ASTAR Lines onto overlay
+        self.draw_calculated_path(grid_graph=self.grid_graph,
+                                  astar_results=self.pff.astar_result,
+                                  path_color=path_color,
+                                  window_rect=mouse_pos_args.windowRect,
+                                  surface=overlay_surface,
+                                  rotation_matrix=rotation_matrix,
+                                  path_node_color=path_node_color)
+
+
+    def redraw_graph(self,
+                      graph_surface: pygame.Surface,
+                      rotation_matrix: np.ndarray,
+                      ):
+
+        # draw graph
+        self.draw(graph_surface=graph_surface,
+                  rotation_matrix=rotation_matrix
+                  )
+
+    def redraw_grid_overlay(self,
+                            overlay_surface: pygame.Surface,
+                            rotation_matrix: np.ndarray,
+                            highlight_mouse_grid_pos_color: Color = Color.AQUA,
+                            predefined_highlights: Dict[Vector2, Color] = None,
+                            path_color: Color = Color.MAGENTA,
+                            path_node_color: Color = None):
+
+        # Resolve params into mouse pos args
+        mouse_pos_args = self._resolve_mouse_highlight_args(overlay_surface,
+                                                            highlight_mouse_grid_pos_color)
+
+        # draw overlay
+        self.draw(overlay_surface=overlay_surface,
+                 rotation_matrix=rotation_matrix,
+                 predefined_highlights=predefined_highlights,
+                 highlight_mouse_pos=mouse_pos_args,
+                 )
+
+        # Draw ASTAR Lines onto overlay
+        self.draw_calculated_path(grid_graph=self.grid_graph,
+                                  astar_results=self.pff.astar_result,
+                                  path_color=path_color,
+                                  window_rect=mouse_pos_args.windowRect,
+                                  surface=overlay_surface,
+                                  rotation_matrix=rotation_matrix,
+                                  path_node_color=path_node_color)
+
+
+
+    def _resolve_mouse_highlight_args(self,
+                                      surface: pygame.Surface,
+                                      highlight_mouse_grid_pos_color: pygame.Color):
+        surface_rect = surface.get_rect()
+        window_rect = Rectangle(surface_rect[0], surface_rect[1], surface_rect[3], surface_rect[2])
+        mouse_pos_args = MouseGridResolverArgs(window_rect,
+                                               help.mouse_pos_as_vector(),
+                                               color=highlight_mouse_grid_pos_color) if highlight_mouse_grid_pos_color else None
+        return mouse_pos_args
