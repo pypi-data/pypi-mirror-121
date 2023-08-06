@@ -1,0 +1,16 @@
+numpy
+pandas
+
+[deploy]
+wheel
+build
+twine
+
+[dev]
+black
+
+[doc]
+mkdocs
+
+[test]
+coverage

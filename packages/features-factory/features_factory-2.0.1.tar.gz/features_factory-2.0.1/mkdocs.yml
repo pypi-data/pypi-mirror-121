@@ -1,0 +1,10 @@
+site_name: features_factory
+
+theme:
+  name: "readthedocs"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - search
