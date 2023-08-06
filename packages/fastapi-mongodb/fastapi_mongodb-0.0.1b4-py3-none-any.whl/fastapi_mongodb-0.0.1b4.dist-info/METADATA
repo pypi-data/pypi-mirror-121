@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: fastapi-mongodb
+Version: 0.0.1b4
+Summary: A library that simplifies work and integration with MongoDB for a FastAPI project.
+Home-page: https://kostiantyn-salnykov.github.io/fastapi-mongodb/
+License: MIT
+Keywords: fastapi,mongodb,pydantic,motor,pymongo,orjson,pyjwt
+Author: Kostiantyn Salnykov
+Author-email: kostiantyn.salnykov@gmail.com
+Maintainer: Kostiantyn Salnykov
+Maintainer-email: kostiantyn.salnykov@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: orjson
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: fastapi (>=0.68.1,<0.69.0)
+Requires-Dist: motor (>=2.5.1,<3.0.0)
+Requires-Dist: orjson (>=3.6.3,<4.0.0); extra == "orjson"
+Requires-Dist: pydantic[email,dotenv] (>=1.8.2,<2.0.0)
+Requires-Dist: pyjwt (>=2.1.0,<3.0.0)
+Requires-Dist: pymongo[tls,srv] (>=3.12.0,<4.0.0)
+Project-URL: Documentation, https://kostiantyn-salnykov.github.io/fastapi-mongodb/
+Project-URL: Discussions, https://github.com/Kostiantyn-Salnykov/fastapi-mongodb/discussions
+Project-URL: Issues, https://github.com/Kostiantyn-Salnykov/fastapi-mongodb/issues
+Project-URL: Repository, https://github.com/Kostiantyn-Salnykov/fastapi-mongodb/
+Description-Content-Type: text/markdown
+
+# FastAPI❤MongoDB
+![GitHub](https://img.shields.io/github/license/Kostiantyn-Salnykov/fastapi-mongodb)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Kostiantyn-Salnykov/fastapi-mongodb/Python%20package/master)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/kostiantyn-salnykov/fastapi-mongodb/master)
+[![codecov](https://codecov.io/gh/Kostiantyn-Salnykov/fastapi-mongodb/branch/master/graph/badge.svg?token=77Z4DQVIU5)](https://codecov.io/gh/Kostiantyn-Salnykov/fastapi-mongodb)
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fastapi-mongodb)
+![PyPI](https://img.shields.io/pypi/v/fastapi-mongodb)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/fastapi-mongodb)
+
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+[![](https://img.shields.io/badge/code%20style-black-000000?style=flat)](https://github.com/psf/black)
+
+# Installation
+
+```shell
+pip install fastapi-mongodb
+```
+
+# FastAPI❤MongoDB documentation:
+
+## [Documentation](https://Kostiantyn-Salnykov.github.io/fastapi-mongodb/)
+
