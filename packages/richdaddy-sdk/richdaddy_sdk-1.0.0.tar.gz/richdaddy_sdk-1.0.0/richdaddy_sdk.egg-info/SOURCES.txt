@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+richdaddy_sdk/__init__.py
+richdaddy_sdk.egg-info/PKG-INFO
+richdaddy_sdk.egg-info/SOURCES.txt
+richdaddy_sdk.egg-info/dependency_links.txt
+richdaddy_sdk.egg-info/requires.txt
+richdaddy_sdk.egg-info/top_level.txt
+richdaddy_sdk/aiorichdaddy/__init__.py
+richdaddy_sdk/aiorichdaddy/client.py
+richdaddy_sdk/aiorichdaddy/methods.py
+richdaddy_sdk/syncrichdaddy/__init__.py
+richdaddy_sdk/syncrichdaddy/client.py
+richdaddy_sdk/syncrichdaddy/methods.py
