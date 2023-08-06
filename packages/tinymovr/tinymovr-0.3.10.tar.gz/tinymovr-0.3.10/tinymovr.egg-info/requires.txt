@@ -1,0 +1,8 @@
+ipython
+python-can@ git+https://github.com/yconst/python-can.git@develop#egg=python-can-dev
+pyserial
+matplotlib
+docopt
+pynumparser
+flatten-dict
+pint
