@@ -1,0 +1,12 @@
+stranding/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stranding/exceptions.py,sha256=yJMOCww4EYlKl3az_6ziY6hy_t4MCoSl5xPJtTSC_gE,186
+stranding/lib.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stranding/stranding.py,sha256=lzt_gvpgdqW3lPd7pM8pcdIp6Fw6Y9z3ClXtPDqzB7k,8519
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functional.py,sha256=vde0sDBCLhK1zTM1uzp9bVUclT0wU2CX00I4thFNqFk,5041
+stranding-0.2.0.dist-info/LICENSE,sha256=zhlAkXAaAigMygLeLg9RaMYo6_a-9ko4ZRMmTwRB-14,1091
+stranding-0.2.0.dist-info/METADATA,sha256=-cOCG_Bdb0Oj1NE1L3s2IqY23-Uvb9YQ_IcvYtKs7Pw,662
+stranding-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stranding-0.2.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+stranding-0.2.0.dist-info/top_level.txt,sha256=cl7fP7E2PoAq6a7CY7HQRx83wMxrrLWyVVa_9NASAvQ,16
+stranding-0.2.0.dist-info/RECORD,,
