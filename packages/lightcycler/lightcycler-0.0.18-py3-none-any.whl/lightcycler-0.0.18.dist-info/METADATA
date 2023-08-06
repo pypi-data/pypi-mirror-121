@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lightcycler
+Version: 0.0.18
+Summary: A software for analyzing lightcycler data
+Home-page: UNKNOWN
+Author: E.C. Pellegrini
+Author-email: ericpellegrini76@gmail.com
+Maintainer: E.C. Pellegrini
+Maintainer-email: ericpellegrini76@gmail.com
+License: GPL 3
+Platform: Unix
+Platform: Windows
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: PyQt5
+Requires-Dist: openpyxl
+Requires-Dist: tabula-py
+Requires-Dist: scipy
+Requires-Dist: scikit-posthocs
+Requires-Dist: xlrd
+Requires-Dist: outlier-utils
+
+lightcycler is a software for analyzing qPCR data from lightcycler device. It works with 
+the report file (pdf).
+
