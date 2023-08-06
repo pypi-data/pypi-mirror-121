@@ -1,0 +1,10 @@
+requests<=2.22.0
+pandas
+pyyaml
+packaging
+deepdiff
+boto3
+botocore
+fastavro
+importlib-resources
+Werkzeug
