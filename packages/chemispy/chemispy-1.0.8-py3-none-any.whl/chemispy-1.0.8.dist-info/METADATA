@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: chemispy
+Version: 1.0.8
+Summary: A library for using chemistry in python
+Home-page: https://github.com/TechPenguineer/chem.py
+Author: Tech Penguineer
+Author-email: techpenguineer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+
+<p align="center" style="background=#333">
+    <img src="https://github.com/TechPenguineer/chem.py/blob/main/public/logo.png" width="300px">
+    <h1 align="center">Chemistry in python</h1>
+</p>
+
+# Installation
+```bat
+pip install chemispy
+```
+
+# Usage
+
+```py
+from chemispy import *
+```
+
+### Atomic Number Query
+
+```python
+query.query_atomic_number(1)
+```
+*Return's the name of the element corresponding to the atomic number*
+
+### Elements List
+
+```python
+print(query.list_types())
+```
+*Returns a list of all elements (Used mostly for debugging)*
+
