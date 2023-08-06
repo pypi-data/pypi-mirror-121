@@ -1,0 +1,11 @@
+localvollseg/Augmentation2D.py,sha256=38dLCRSoZ0dVIWDGVS8vhIQSoza1HLAQ_gruhtuynUU,10479
+localvollseg/Augmentation3D.py,sha256=NNhzLapGMOkaqLm704qbhm50SqHOGGbWcdIdYecqZlg,10971
+localvollseg/OptimizeThreshold.py,sha256=ozdtMSJsmqEwXprLV3juIXl6azQcTUuKUnsT3Eki-ws,4871
+localvollseg/SmartSeeds3D.py,sha256=bpiLd9x6xFClrSyZLTB52onQah9iVOATVuHnItcn2Mw,20637
+localvollseg/__init__.py,sha256=p-r-oYEpNcaxQSVixpmZ7XY3jxPDM2kvzw8LQa0bB38,197
+localvollseg/helpers.py,sha256=Kp_ZKZmLXqDmjnjMtZNryq-_4OXyG2_FbEPrbegcwTY,43119
+vollseg-1.5.6.dist-info/LICENSE,sha256=EyR_ikpQYTDN96J7EVkGmy6biXSBu9Nv45wKDpcraqQ,1514
+vollseg-1.5.6.dist-info/METADATA,sha256=_buQPYZXxen1VyO8IefEUocH_Jj-8gz-0UZ_hSy6abU,4621
+vollseg-1.5.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vollseg-1.5.6.dist-info/top_level.txt,sha256=ObHHIiGicSoaCHBifeIZR2LCFACJobXTT-pv-5FOCAY,13
+vollseg-1.5.6.dist-info/RECORD,,
