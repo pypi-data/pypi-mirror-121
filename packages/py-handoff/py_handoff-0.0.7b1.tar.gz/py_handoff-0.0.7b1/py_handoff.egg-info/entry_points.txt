@@ -1,0 +1,3 @@
+[console_scripts]
+py-handoff = py_handoff.main:entrypoint
+
