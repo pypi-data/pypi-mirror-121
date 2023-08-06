@@ -1,0 +1,11 @@
+sqltables/__init__.py,sha256=3e9ddrmQaeMw9qUTMFHYl8urqo402BwaMWLdtAivgOw,48
+sqltables/generic.py,sha256=sFWpH9qGVRuT5O50HbCYwDINVQEf4IdMYmBmhExGGh8,7514
+sqltables/postgresql.py,sha256=MFiPY2r_uQfX7a8UElUXGTmPXeYhTbtkVR10ITCdNs4,1863
+sqltables/sqlite.py,sha256=JijSJQQvfmuub8f3Q-Bh-CvdoG4EtOmWbb1sKqt9cAg,22
+sqltables/sqlite3.py,sha256=wXRanuAtIxlnZ7iH4dWDFQYQNHp2GVha-E4DD_mQx_Q,1759
+sqltables/sqltables.py,sha256=ZhAlmWx1_sPQywKVeH6DXhnjW_56W51eT44uzZXdfQI,4319
+sqltables-1.4.dist-info/LICENSE,sha256=-rEwsgQYf76VnNS_eylE6zRrPntlSoOkNZZ2IyhYUeA,1065
+sqltables-1.4.dist-info/METADATA,sha256=5bZlnzMz24l-koqq1pr4sIYvt3VdSt2ozaH8ulaQfu8,1910
+sqltables-1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sqltables-1.4.dist-info/top_level.txt,sha256=Phgjy1LRNd1Rp_5Un7cyaH_PvcV7KLIJrcKCfZO5bLw,10
+sqltables-1.4.dist-info/RECORD,,
