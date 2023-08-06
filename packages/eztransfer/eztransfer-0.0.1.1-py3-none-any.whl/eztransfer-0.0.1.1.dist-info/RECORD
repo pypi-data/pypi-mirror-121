@@ -1,0 +1,12 @@
+eztransfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eztransfer/base.py,sha256=KO-hB9SEMKOh0t9FHh5HAgEBK5CMKpZQ9q7MGxVckN0,640
+eztransfer/transfer.py,sha256=KhBlAVo3eBzX2YDfJqfQk71mFFrBUxGtOxkJ1TH0-4k,3221
+eztransfer/util.py,sha256=p_Yj_pdIoGAigVgaQw6nKUwQgJGc5cr0R7CRmQbn5rE,1911
+eztransfer/handles/__init__.py,sha256=3f9UpeqITH7Msr645wNW9a8ZZAGOYNqkULVAHWwDMZU,84
+eztransfer/handles/azure_blob_storage.py,sha256=I5bd8xnFadDXM-1_m19j-Chakim1nRthcNLeqFBCGww,1416
+eztransfer/handles/sftp.py,sha256=yoZleDlUX_ynsaPMUC9PfB6EB8fjN_rUGeajY2KI5uY,1601
+eztransfer-0.0.1.1.dist-info/LICENSE,sha256=LnVkdsFBrLzrknsenTUkIOqYQwKdju4iOgXtZyj81s8,1056
+eztransfer-0.0.1.1.dist-info/METADATA,sha256=Fb_-dfGrS4ojXOn_AyRxPRQ6qktqVn98eDGUXRZKOY8,2780
+eztransfer-0.0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+eztransfer-0.0.1.1.dist-info/top_level.txt,sha256=9t80IEwWNvWo7coCy7mi1EOWu4Pt36C8ihr6KW6CinE,11
+eztransfer-0.0.1.1.dist-info/RECORD,,
