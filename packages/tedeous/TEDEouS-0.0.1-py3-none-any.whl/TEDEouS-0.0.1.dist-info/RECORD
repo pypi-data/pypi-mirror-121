@@ -1,0 +1,10 @@
+TEDEouS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TEDEouS/cache.py,sha256=pGnvSugHv3yFxDKPScltX3kp1cN9FQBV6ES0C696ENU,3673
+TEDEouS/finite_diffs.py,sha256=suoHfxHY-QQ3kI6TDedgNTUqwlSRF22u53Vz6a6Bork,9221
+TEDEouS/input_preprocessing.py,sha256=PDcAKJURLpYYRtRfjD1lpdxQbRnR7iUNX1pOMx094DE,12315
+TEDEouS/points_type.py,sha256=_5GDGjIk3tw00jGyLJF2kR6LmdrCXXo_6dw4WewNiK8,3767
+TEDEouS/solver.py,sha256=NlM1-qTINXlyoxXH9Trwk6sBtXIqHLuImjBe1JGBLW0,14037
+TEDEouS-0.0.1.dist-info/METADATA,sha256=wEC2KjScurGRIu9PdFbKFq16WkiQ7YuI8mYd_xxmaeA,555
+TEDEouS-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TEDEouS-0.0.1.dist-info/top_level.txt,sha256=MdPttrQWdfLx1ChmHmS1xn7Nrdur2-z0xBmQg7KBMHg,8
+TEDEouS-0.0.1.dist-info/RECORD,,
