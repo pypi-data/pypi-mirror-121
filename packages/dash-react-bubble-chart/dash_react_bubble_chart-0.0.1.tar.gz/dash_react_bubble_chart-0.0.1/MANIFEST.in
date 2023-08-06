@@ -1,0 +1,11 @@
+include dash_react_bubble_chart/dash_react_bubble_chart.min.js
+include dash_react_bubble_chart/dash_react_bubble_chart.min.js.map
+include dash_react_bubble_chart/async-*.js
+include dash_react_bubble_chart/async-*.js.map
+include dash_react_bubble_chart/*-shared.js
+include dash_react_bubble_chart/*-shared.js.map
+include dash_react_bubble_chart/metadata.json
+include dash_react_bubble_chart/package-info.json
+include README.md
+include LICENSE
+include package.json

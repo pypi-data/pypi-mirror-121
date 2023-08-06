@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_react_bubble_chart/BubbleChart.py
+dash_react_bubble_chart/__init__.py
+dash_react_bubble_chart/_imports_.py
+dash_react_bubble_chart/dash_react_bubble_chart.min.js
+dash_react_bubble_chart/dash_react_bubble_chart.min.js.map
+dash_react_bubble_chart/metadata.json
+dash_react_bubble_chart/package-info.json
+dash_react_bubble_chart.egg-info/PKG-INFO
+dash_react_bubble_chart.egg-info/SOURCES.txt
+dash_react_bubble_chart.egg-info/dependency_links.txt
+dash_react_bubble_chart.egg-info/top_level.txt
