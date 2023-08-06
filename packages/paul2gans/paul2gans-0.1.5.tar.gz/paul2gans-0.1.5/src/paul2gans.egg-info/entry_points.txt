@@ -1,0 +1,4 @@
+[console_scripts]
+gans = paul2gans.pipelines:cli
+wgan = paul2gans.pipelines.wgan:wgan
+
