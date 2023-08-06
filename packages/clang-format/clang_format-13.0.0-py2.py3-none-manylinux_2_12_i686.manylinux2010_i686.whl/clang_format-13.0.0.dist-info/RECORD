@@ -1,0 +1,11 @@
+clang_format/__init__.py,sha256=mkHCOhi4CcF0NfSaFdL77GjQi2Y0h0EiePBeKVaNV_g,356
+clang_format/data/bin/git-clang-format,sha256=DMhmW4qG4eJvLBWDy_aeV-TpvPzYoIPTXHSIwKsUqvM,21738
+clang_format/data/bin/clang-format,sha256=mxgb0vFxMGp4rxBpupmiLxd2NgifuXCPeugn2j9J5oI,2362904
+clang_format/data/bin/clang-format-diff.py,sha256=sifor4gzCsWe64mwI2drcWp5AOnhIoDkqkW0YhbOa5Y,5126
+clang_format-13.0.0.dist-info/entry_points.txt,sha256=1UcWaIK3wu0OcaNTG4S3c5LafZm0rJDOI3DZllfPUlQ,163
+clang_format-13.0.0.dist-info/WHEEL,sha256=UEbXHDVOolauzzKTF13idJaXO3j60ptCHixG_35f7uE,209
+clang_format-13.0.0.dist-info/top_level.txt,sha256=rA6SWzR0M58097TuUJruKA1tsL9ltK-E-NsoxOgyiTk,13
+clang_format-13.0.0.dist-info/RECORD,,
+clang_format-13.0.0.dist-info/METADATA,sha256=mY6AZu-JUTp-RbQsUv-F67hnxQjb5Pa45kt6HYMQCoc,3882
+clang_format-13.0.0.dist-info/COPYING.md,sha256=Jy_yLuE-IOgsFrDSwDvO-8AIAOPwmuA7zlLio2fd-qE,899
+clang_format-13.0.0.dist-info/LICENSE.md,sha256=c7p036pSC0mkAbXSFFmoUjoUbzt1GKgz7qXvqFEwv2g,10273
