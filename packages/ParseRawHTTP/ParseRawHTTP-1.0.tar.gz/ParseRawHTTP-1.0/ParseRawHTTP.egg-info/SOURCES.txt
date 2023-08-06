@@ -1,0 +1,8 @@
+README.md
+setup.py
+ParseRawHTTP/ParseRawHTTP.py
+ParseRawHTTP/__init__.py
+ParseRawHTTP.egg-info/PKG-INFO
+ParseRawHTTP.egg-info/SOURCES.txt
+ParseRawHTTP.egg-info/dependency_links.txt
+ParseRawHTTP.egg-info/top_level.txt
