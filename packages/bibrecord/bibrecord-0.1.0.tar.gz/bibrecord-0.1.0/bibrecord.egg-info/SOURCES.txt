@@ -1,0 +1,9 @@
+README.rst
+setup.py
+bibrecord/__init__.py
+bibrecord/record.py
+bibrecord.egg-info/PKG-INFO
+bibrecord.egg-info/SOURCES.txt
+bibrecord.egg-info/dependency_links.txt
+bibrecord.egg-info/requires.txt
+bibrecord.egg-info/top_level.txt
