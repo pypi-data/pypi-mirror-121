@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/saltible/__init__.py
+src/saltible.egg-info/PKG-INFO
+src/saltible.egg-info/SOURCES.txt
+src/saltible.egg-info/dependency_links.txt
+src/saltible.egg-info/entry_points.txt
+src/saltible.egg-info/top_level.txt
