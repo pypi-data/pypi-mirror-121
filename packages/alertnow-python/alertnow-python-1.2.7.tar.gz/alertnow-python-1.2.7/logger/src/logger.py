@@ -1,0 +1,145 @@
+import json
+import sys
+import requests
+from datetime import datetime
+
+import pkg_resources
+
+from logger.src.common.configuration.httpClientConfig import HttpClientConfig
+from logger.src.common.dto.payload import Payload
+from logger.src.common.dto.payloadDetail import PayloadDetail
+from logger.src.common.dto.payloadDetailMetadata import PayloadDetailMetadata
+from logger.src.common.dto.payloadDetailSdk import PayloadDetailSdk
+from logger.src.common.enums.logLevel import LogLevel
+from logger.src.version import __version__
+
+with requests.Session() as session:
+    session.headers.update({
+        'Content-Type': 'application/json',
+    })
+
+    user_api_key = None
+    user_info = None
+    tags = []
+
+
+    def set_api_key(api_key):
+        user_api_key = api_key
+
+        session.headers.update({
+            'Authorization': f'X-API-KEY {user_api_key}'
+        })
+
+
+    def set_user(user):
+        user_info = user
+
+
+    def set_tag(property_name, property_value):
+        tags.append({property_name: property_value})
+
+
+    def info(message, event_time_required=False):
+        installed_packages = [{d.project_name: d.version} for d in pkg_resources.working_set]
+        print('installed_packages => ', installed_packages)
+
+        eventTime = datetime.now().strftime("%m/%d/%Y, %H:%M:%S") if event_time_required else None
+        print('eventTime => ', eventTime)
+
+        sourceFilePath = sys._getframe().f_code
+        print('sourceFilePath => ', sourceFilePath)
+
+        methodName = sys._getframe(1).f_code.co_name
+        print('methodName => ', methodName)
+
+        print('version => ', __version__)
+
+        detail = [
+            PayloadDetail(
+                LogLevel.info,
+                sourceFilePath,
+                None,
+                None,
+                None,
+                None,
+                message,
+                LogLevel.info,
+                __version__,
+                PayloadDetailMetadata(
+                    sourceFilePath,
+                    methodName,
+                    LogLevel.info,
+                    message
+                ),
+                PayloadDetailSdk(
+                    __version__,
+                    installed_packages
+                ),
+                user_info
+            )
+        ]
+
+        return create_log(Payload(
+            sourceFilePath,
+            eventTime,
+            message,
+            json.dumps(tags),
+            json.dumps(vars(detail))
+        ))
+
+
+    def error(occurred_error, event_time_required=False):
+        message = json.dumps(occurred_error)
+
+        installed_packages = [{d.project_name: d.version} for d in pkg_resources.working_set]
+        print('installed_packages => ', installed_packages)
+
+        eventTime = datetime.now().strftime("%m/%d/%Y, %H:%M:%S") if event_time_required else None
+        print('eventTime => ', eventTime)
+
+        sourceFilePath = sys._getframe().f_code
+        print('sourceFilePath => ', sourceFilePath)
+
+        methodName = sys._getframe(1).f_code.co_name
+        print('methodName => ', methodName)
+
+        print('version => ', __version__)
+
+        detail = [
+            PayloadDetail(
+                LogLevel.error,
+                sourceFilePath,
+                None,
+                None,
+                None,
+                None,
+                message,
+                LogLevel.error,
+                __version__,
+                PayloadDetailMetadata(
+                    sourceFilePath,
+                    methodName,
+                    LogLevel.error,
+                    message
+                ),
+                PayloadDetailSdk(
+                    __version__,
+                    installed_packages
+                ),
+                user_info
+            )
+        ]
+
+        return create_log(Payload(
+            sourceFilePath,
+            eventTime,
+            message,
+            json.dumps(tags),
+            json.dumps(vars(detail))
+        ))
+
+
+    def create_log(payload):
+        response = session.post(f'{HttpClientConfig.alertNowURL}/integration/appinsight/v1/{user_api_key}',
+                                data=json.dumps(vars(payload)))
+        return response
