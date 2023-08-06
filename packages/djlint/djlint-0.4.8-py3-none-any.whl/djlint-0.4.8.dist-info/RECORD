@@ -1,0 +1,16 @@
+djlint/__init__.py,sha256=GiuFySiFaWaP6dBsp2qegP4AA4rsfYXrB98i9-1lRi4,9333
+djlint/__main__.py,sha256=AZgAzxxGDtuCXlsQrTYeQMreRoGCtPR1gDOWcCERnhI,78
+djlint/formatter/__init__.py,sha256=NUtMrHcGtWLojCx-t65a4oRO9wtZRD4XlcvUNiMzdYM,14
+djlint/formatter/attributes.py,sha256=1Eyf0fdimH5WBP0TwUQi1zh96lrRea-sLSqE_QPCYHI,513
+djlint/formatter/compress_html.py,sha256=_ZDCSGLxOl2avdsw_Dk_rKY7zHKxdB46ix0kZ28LcNQ,4083
+djlint/formatter/expand_html.py,sha256=TDHlF1b5WYckg-iWJ0l1p2bkYMWUV86wHDZosugwZqo,5320
+djlint/formatter/indent_html.py,sha256=JAR2jtjjO_Oq2OPc9ioM8dqwV9b7--TOYIk1wYo-wW4,6097
+djlint/lint.py,sha256=pyrXw3xNi95hAepluyeD-eWazzt9UHpD6kCiFLffKts,2572
+djlint/reformat.py,sha256=G7TtMF6i-cImUszQ9NTDbES7anOU5EK5tdDZ9BjftQU,916
+djlint/rules.yaml,sha256=Gt1Sz7lB3yTGRqWgVzn9yCYYy8iM-P7hFdi8i7AeepE,4079
+djlint/settings.py,sha256=n8h2PSCOCJDAo-b15zFFmKnzTAiEzsppJhPaMdBk2HQ,14272
+djlint-0.4.8.dist-info/entry_points.txt,sha256=FDcNbR2yN6JdfSBtKBf5trO-EgExC2ukjIGTw5Ehfb0,38
+djlint-0.4.8.dist-info/LICENSE,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+djlint-0.4.8.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+djlint-0.4.8.dist-info/METADATA,sha256=di6SCHWR4LKxC_4EvEMlKaGDL6qnb2z5bFb2rymgmrg,3860
+djlint-0.4.8.dist-info/RECORD,,
