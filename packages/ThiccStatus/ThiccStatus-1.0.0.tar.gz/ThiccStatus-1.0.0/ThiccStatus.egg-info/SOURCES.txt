@@ -1,0 +1,8 @@
+README.md
+setup.py
+ThiccStatus.egg-info/PKG-INFO
+ThiccStatus.egg-info/SOURCES.txt
+ThiccStatus.egg-info/dependency_links.txt
+ThiccStatus.egg-info/requires.txt
+ThiccStatus.egg-info/top_level.txt
+thiccstatus/__init__.py
