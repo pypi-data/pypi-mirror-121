@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: speechcolab
+Version: 0.0.6a0
+Summary: A library of speech gadgets.
+Home-page: UNKNOWN
+Author: The SpeechColab Development Team
+License: Apache-2.0 License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ijson
+Requires-Dist: pyyaml
+Requires-Dist: pycryptodome
+Requires-Dist: tqdm
+
+# PySpeechColab
+
+A library of speech gadgets.
+
+## Installation
+
+### Installing from PyPI
+
+PySpeechColab could be installed with `pip` conveniently:
+
+    pip install speechcolab
+
+### Development installation
+
+You can also clone this repo and install it with `pip install -e`:
+
+    # Clone the GitHub repo
+    git clone git@github.com:SpeechColab/PySpeechColab.git
+    cd PySpeechColab
+
+    # Install with pip
+    pip install -e '.[dev]'
+
+    # Run unit tests
+    pytest
+
+
