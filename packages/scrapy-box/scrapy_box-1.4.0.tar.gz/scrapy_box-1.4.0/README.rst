@@ -1,0 +1,56 @@
+SCRAPY\_BOX
+===========
+
+简单好用的scrapy插件盒
+
+Download middlewares
+--------------------
+
+-  代理下载中间件 \`\`\`python # 普通代理url PROXY\_ADDR = 'your proxy
+   API' DOWNLOADER\_MIDDLEWARES = {
+   'scrapy\_box.RandomProxyDownloaderMiddleware': 740, }
+
+splash代理url, the number must under 723
+========================================
+
+PROXY\_ADDR = 'your proxy API' DOWNLOADER\_MIDDLEWARES = {
+'scrapy\_box.SplashProxyDownloaderMiddleware': 160,
+'scrapy\_box.SplashRetryProxyMiddleware': 162, } \`\`\`
+
+-  错误重定向重试的下载中间件
+
+   .. code:: python
+
+       # 需要对重定向的url,使用原url进行重试的url片段
+       ERROR_REDIRECT_URL_SNIPPET = ['redirect', 'retry']
+       # 注意，数字必须大于600
+       DOWNLOADER_MIDDLEWARES = {
+          'scrapy_box.ErrorRedirectMiddleware': 601,
+       }
+
+-  当响应中存在某些字符串的时候，进行重试的中间件
+
+   .. code:: python
+
+       # 需要判断的字符串，如果响应中包含其中任何一个字符串，将重试
+       ERROR_RESPONSE_SNIPPET = ['Are your a robot?', '访问过于频繁，请稍后再试']
+       DOWNLOADER_MIDDLEWARES = {
+          'scrapy_box.ErrorResponseMiddleware': 540,
+       }
+
+Pipelines
+---------
+
+-  mongo批量插入数据库 pipeline \`\`\`python MONGO\_ADDR =
+   ['mongo\_cluster\_addr1', 'mongo\_cluster\_addr2'] MONGO\_USERNAME =
+   'root' MONGO\_PASSWORD = 'xxx' MONGO\_INSERT\_SIZE = 100 MONGO\_DB =
+   'xxx' MONGO\_COLLECTION = 'xxxx'
+
+ITEM\_PIPELINES = { 'scrapy\_box.MongoBatchInsertPipeline': 300, }
+\`\`\`
+
+-  mysql异步插入数据库 pipeline \`\`\`python MYSQL\_HOST =
+   '192.168.0.43' MYSQL\_USERNAME = 'root' MYSQL\_PASSWORD = 'xxx'
+   MYSQL\_DB = 'xxx' MYSQL\_CHARSET = 'utf8' MYSQL\_TABLE = 'xxx'
+
+ITEM\_PIPELINES = { 'scrapy\_box.MysqlInsertPipeline': 300, } \`\`\`
