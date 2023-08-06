@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: aef-nattanon-py
+Version: 0.2.3
+Summary: Detector library
+Home-page: https://aef-nattanon-py-lib.readthedocs.io/
+Author: Nattanon Saetan
+Author-email: example@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
+# aef-nattanon-py-lib
+[![Documentation Status](https://readthedocs.org/projects/aef-nattanon-py-lib/badge/?version=latest)](https://aef-nattanon-py-lib.readthedocs.io/en/latest/?badge=latest)
+## Install
+
+```bash
+$ pip install aef-nattanon-py
+```
+
+![Demo](https://raw.githubusercontent.com/aef-nattanon/aef-nattanon-py-lib/35a487d6d7175c0b2ecf40e341af9513fee3aa00/docs/demo.gif)
+## Simple Demo
+
+```python
+# Import aef_nattanon_py from your library
+import aef_nattanon_py as aef
+import cv2
+
+# Multiplication
+multiplication = aef.Multiplication(2)
+print(multiplication.multiply(5)) # 10
+
+# direct_by_img_path
+myDetector = aef.Detector('coco.names', 'yolov3-tiny.cfg', 'yolov3-tiny.weights')
+myDetector.detact_by_img_path('my-photo.jpeg')
+cv2.imshow("Image", myDetector.detect_img)
+cv2.waitKey(100)
+
+# direct_by_frame
+cap = cv2.VideoCapture(0)
+while True:
+    _, frame = cap.read()
+    myDetector.detact_by_frame(frame)
+    cv2.imshow("Image", myDetector.detect_img)
+    cv2.waitKey(1)
+
+cv2.destroyAllWindows()
+
+# YoloV3Director
+myDetector = aef.YoloV3Detector()
+cap = cv2.VideoCapture(0)
+while True:
+    _, frame = cap.read()
+    myDetector.detect_by_frame(frame)
+    cv2.imshow("Image", myDetector.detect_img)
+    cv2.waitKey(1)
+
+cv2.destroyAllWindows()
+
+```
+
