@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: overloadlib
+Version: 0.1.1
+Summary: overloadlib
+Home-page: https://github.com/NicDom/overloadlib
+License: MIT
+Keywords: python,overload,dispatch
+Author: Niclas D. Gesing
+Author-email: nicdomgesing@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=7.0,<8.0)
+Project-URL: Changelog, https://github.com/NicDom/overloadlib/releases
+Project-URL: Documentation, https://overloadlib.readthedocs.io
+Project-URL: Repository, https://github.com/NicDom/overloadlib
+Description-Content-Type: text/x-rst
+
+overloadlib
+===========
+
+|PyPI| |Python Version| |License|
+
+|Read the Docs| |Tests| |Codecov|
+
+|pre-commit| |Black|
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/overloadlib.svg
+   :target: https://pypi.org/project/overloadlib/
+   :alt: PyPI
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/overloadlib
+   :target: https://pypi.org/project/overloadlib
+   :alt: Python Version
+.. |License| image:: https://img.shields.io/pypi/l/overloadlib
+   :target: https://opensource.org/licenses/MIT
+   :alt: License
+.. |Read the Docs| image:: https://img.shields.io/readthedocs/overloadlib/latest.svg?label=Read%20the%20Docs
+   :target: https://overloadlib.readthedocs.io/
+   :alt: Read the documentation at https://overloadlib.readthedocs.io/
+.. |Tests| image:: https://github.com/NicDom/overloadlib/workflows/Tests/badge.svg
+   :target: https://github.com/NicDom/overloadlib/actions?workflow=Tests
+   :alt: Tests
+.. |Codecov| image:: https://codecov.io/gh/NicDom/overloadlib/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/NicDom/overloadlib
+   :alt: Codecov
+.. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+   :target: https://github.com/pre-commit/pre-commit
+   :alt: pre-commit
+.. |Black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+   :alt: Black
+
+
+Features
+--------
+
+* TODO
+
+
+Requirements
+------------
+
+* TODO
+
+
+Installation
+------------
+
+You can install *overloadlib* via pip_ from PyPI_:
+
+.. code:: console
+
+   $ pip install overloadlib
+
+
+Usage
+-----
+
+Please see the `Command-line Reference <Usage_>`_ for details.
+
+
+Contributing
+------------
+
+Contributions are very welcome.
+To learn more, see the `Contributor Guide`_.
+
+
+License
+-------
+
+Distributed under the terms of the MIT_ license,
+*overloadlib* is free and open source software.
+
+
+Issues
+------
+
+If you encounter any problems,
+please `file an issue`_ along with a detailed description.
+
+
+Credits
+-------
+
+This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter`_ template.
+
+
+.. _@cjolowicz: https://github.com/cjolowicz
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _MIT: http://opensource.org/licenses/MIT
+.. _PyPI: https://pypi.org/
+.. _Hypermodern Python Cookiecutter: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+.. _file an issue: https://github.com/NicDom/overloadlib/issues
+.. _pip: https://pip.pypa.io/
+.. github-only
+.. _Contributor Guide: CONTRIBUTING.rst
+.. _Usage: https://overloadlib.readthedocs.io/en/latest/usage.html
+

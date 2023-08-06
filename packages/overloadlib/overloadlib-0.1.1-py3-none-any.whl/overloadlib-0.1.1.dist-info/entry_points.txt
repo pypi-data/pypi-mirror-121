@@ -1,0 +1,3 @@
+[console_scripts]
+overloadlib=overloadlib.__main__:main
+
