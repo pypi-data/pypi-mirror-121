@@ -1,0 +1,17 @@
+neobulkmp/__init__.py,sha256=945PZeZ6WSLV0Cb8Zv_QcCl9NWhyAf0OWEJqeSfGZqM,73
+neobulkmp/cache_backend.py,sha256=9a_b4AW-Du8k4ZxfzjAbb9AZNyZCwBUPG0XbGIQyiA0,45340
+neobulkmp/cache_logger.py,sha256=THd2uewc5GBgI8Mxc9RdYzlULXr6jkXvOPFPdQvUefw,2044
+neobulkmp/worker_base.py,sha256=phP0ZDbnEVLyEOKujsCS3QZK9bMvZzL2dBnT8cqGzg8,2214
+neobulkmp/worker_loading.py,sha256=0QLsEc-9g2Zz_0frrE15s0UNyw8B_bimCpX5IKL6yhY,5051
+neobulkmp/worker_sourcing.py,sha256=Wb1EtfhXA6JVf5tJXm259C_3473OrkReUdyIWy6iMDw,1981
+neobulkmp/manager/__init__.py,sha256=iNQjDvmAgl5g0EihQQFT-VmOEFJAvZ5xHLTB2-eUjjI,29
+neobulkmp/manager/manager.py,sha256=r40yyH2w1p0mu4HrBWbCv0ElQq9VWR1ZKZiNxvI-cB4,7824
+neobulkmp/manager/manager_statistics.py,sha256=783QT6QzZyhGoVQe5iw8j7FVm5PheG-BBI3WkxNUsXs,22940
+neobulkmp/manager/manager_strategies.py,sha256=7SvS6hoDZHsG468sgt4UnAtfZ91I-XfY87aKBaqkinY,4153
+neobulkmp/manager/manager_workers_base.py,sha256=Ke9GTWMyHgHBoeSTKx_6h2L0uzeiRY0UhLkF4oupxo8,5268
+neobulkmp/manager/manager_workers_loading.py,sha256=_ecKQb0HmdPF9-YJX-NBsg7m6aK3-Pb-ixzAHV6oL8U,12732
+neobulkmp/manager/manager_workers_sourcing.py,sha256=s-SjWtJ_vR_XOwoE915LPqoE0xOvc1X4f8uKGokfasM,1621
+neobulkmp-0.2.1.dist-info/METADATA,sha256=wwt8HM_cSHSHSVV_dh4rpCdFRRNruWiMbMyuaCUC3yc,521
+neobulkmp-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+neobulkmp-0.2.1.dist-info/top_level.txt,sha256=TT2ymEx4V5CJ6cS5SRqTXYkPgUynCoUeZ4Ie_Of16z8,10
+neobulkmp-0.2.1.dist-info/RECORD,,
