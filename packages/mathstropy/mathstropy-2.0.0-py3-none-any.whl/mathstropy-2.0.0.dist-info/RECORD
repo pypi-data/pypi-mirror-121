@@ -1,0 +1,12 @@
+mathstropy/__init__.py,sha256=-7OQ5GJ8heg1Fa-nyP0D723NZZ3mX5TF9Q0IlW8Dx8M,162
+mathstropy/miscellaneous_functions.py,sha256=J_zey8wK8MRnzwJTqBD1loW1mElOvyb_jqSdZV5D4YQ,2034
+mathstropy/words.py,sha256=zdP_NvXRLgtBWn_Z0rBHz3CQGIqBmmeOcfbRY9liTto,17221
+mathstropy/pgzero/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mathstropy/pgzero/pgzero.py,sha256=0vfE_DuKiGs2MmisCXqbel9SYwDl9IKwqWVcq1JIpgc,219
+mathstropy/pygame/TextInput.py,sha256=GZFxQnIy5GKYcEC2LNLmUbqzLsAt3dkQ7ipMVPuhkMU,8391
+mathstropy/pygame/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mathstropy-2.0.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+mathstropy-2.0.0.dist-info/METADATA,sha256=lilR-udzvo6XaJOhz9ELrgS6HLEQbZhDlxt1vt0txBU,686
+mathstropy-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mathstropy-2.0.0.dist-info/top_level.txt,sha256=rGGNKTEKbymFRM3ax7bidtegYFOEPhWaZ4vkKRWHzII,11
+mathstropy-2.0.0.dist-info/RECORD,,
