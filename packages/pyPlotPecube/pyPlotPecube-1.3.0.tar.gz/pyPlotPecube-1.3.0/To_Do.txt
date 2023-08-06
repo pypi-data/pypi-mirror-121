@@ -1,0 +1,8 @@
+TO DO:
+    - Implement MTL forward plots
+    - Implement MTL inverse plots
+    - simplify the main function (with specific functions)
+
+BUGS FOUNDS/TO BE CORRECTED:
+    - 
+	
