@@ -1,0 +1,4 @@
+[console_scripts]
+do-anal=gachi:main
+gachi=gachi:main
+
