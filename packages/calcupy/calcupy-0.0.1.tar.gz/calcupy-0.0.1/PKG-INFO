@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: calcupy
+Version: 0.0.1
+Summary: Create console-based calculators in a few lines of code.
+Home-page: https://github.com/dylannalex/CalcuPy
+Author: Dylan Tintenfich
+Author-email: tintenfichdylan05@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python,calculator,math
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
