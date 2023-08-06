@@ -1,0 +1,18 @@
+Change Log
+========== 
+
+0.0.1 (09/30/2021) - First Release
+
+0.0.2 (09/30/2021) - Second Release 
+
+0.0.3 (09/30/2021) - Third Release 
+
+0.0.4 (09/30/2021) - Fourth Release
+
+0.0.5 (09/30/2021) - Fifth Release
+
+0.0.6 (10/01/2021) - Six Release
+
+0.0.7 (10/01/2021) - Seventh Release
+
+0.0.8 (10/01/2021) - Eight Release

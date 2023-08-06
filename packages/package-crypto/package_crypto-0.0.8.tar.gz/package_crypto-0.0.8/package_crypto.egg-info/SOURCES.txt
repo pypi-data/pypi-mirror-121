@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+package_crypto/__init__.py
+package_crypto.egg-info/PKG-INFO
+package_crypto.egg-info/SOURCES.txt
+package_crypto.egg-info/dependency_links.txt
+package_crypto.egg-info/requires.txt
+package_crypto.egg-info/top_level.txt
