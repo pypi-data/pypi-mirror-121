@@ -1,0 +1,4 @@
+[console_scripts]
+make-indexes=glassknife.make_indexes:handle_command_line
+process-notes=glassknife.process_notes:handle_command_line
+
