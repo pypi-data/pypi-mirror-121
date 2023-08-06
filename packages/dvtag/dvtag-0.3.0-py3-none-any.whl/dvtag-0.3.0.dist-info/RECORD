@@ -1,0 +1,14 @@
+main.py,sha256=lMkQHPt41_4yeKrwogI1MaD2fvqCPyUEXu0TX6pE3e4,1421
+utils.py,sha256=7OdGm_pOOH1rVVHJC9svxxXyFByCYl_OpIstVMygYgs,1547
+w2f.py,sha256=I9iCyC8x70JvO5thKhlTVfZafDl42_cbwFEqUTmWRHA,1262
+dvtag/__init__.py,sha256=2ZzTkXdXnEdCPzlypMVOHZ9bwIn6QVKqTIT2cnJjVPc,51
+dvtag/doujin_voice.py,sha256=pt4EDrRCCUvsMf5b-K73VdGln0gKm4iH6KgGdTfT56M,3381
+dvtag/doujinvoice.py,sha256=Vs8E6-EccWuBGT4nQjXnHdGxKn7Np4XvYsn5nViRcp8,3501
+dvtag/dvtag.py,sha256=dIiuvUcmqLP5SNUnsrPlKsRv77S80eWxhh30LtnWy1M,3306
+dvtag/utils.py,sha256=H4-u-4m3qOAFB__LoxXSr-faBEIwXIEVnny4wpa3PdU,3665
+dvtag-0.3.0.dist-info/LICENSE,sha256=Kp_fKdKlGeCrKbi9mbxUFTRlTAN5oPpXv-L0B9wljbw,1093
+dvtag-0.3.0.dist-info/METADATA,sha256=Hik7qQmV2B5YyLJMJV9yMt99pYusWuoYB8Po_38Z49A,1921
+dvtag-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dvtag-0.3.0.dist-info/entry_points.txt,sha256=S1g2vKVfgm5EK-lPdfLxTa-9kxibsL6TG1z1OzzeOZA,37
+dvtag-0.3.0.dist-info/top_level.txt,sha256=ZeGiOkmm_YP8-ibPs5O4hwlbwOc5n_HiJ3rjcJNYMG4,17
+dvtag-0.3.0.dist-info/RECORD,,
