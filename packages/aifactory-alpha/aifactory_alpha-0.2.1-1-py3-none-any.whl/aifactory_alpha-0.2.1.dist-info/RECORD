@@ -1,0 +1,15 @@
+EasterEggs/__init__.py,sha256=dMS1eyTvfIDbJQSsPfWkS0twZ6ZUfktn8QJUbb9c2FY,83
+EasterEggs/greetings.py,sha256=64zhsNY8o6zdwU9TtvbNo-rcRGdfXEKTbXN1BzUDVKc,785
+aifactory_alpha/API.py,sha256=3LMK3-SOF9GaeEzC3FXKdtt9cjDVaQwG4eaIEiH3JGc,7763
+aifactory_alpha/Authentification.py,sha256=8L63KWv2dTs8rO41bbqUdDvzQ3sTNY7yNf5HuZJskeo,9050
+aifactory_alpha/FileUtilities.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aifactory_alpha/__init__.py,sha256=au2AQW8nvGDPnWNciSX5e-avOd_ZjEOtjCxVHsYBjVY,170
+aifactory_alpha/constants.py,sha256=GRcEUoVihFUvKz6jxL5MuXLvbr3cyKGcw0T8Y-7G_Ts,4186
+aifactory_alpha-0.2.1.data/scripts/aifactory-submit,sha256=Wqg8CtZy_c5ikM5fdw-vnBRKXGMkx0xvM1a37qEH-lw,1039
+aifactory_alpha-0.2.1.data/scripts/submit,sha256=DWPzYnWAzui3XAoaQjuUCQifbY5enLXs_2Z9YGyngMM,33
+aifactory_easter_eggs/__init__.py,sha256=Q8dGgSAj3_jD3-9FIPcK0lO0OFs2aSDKkLK_tj2UfVo,105
+aifactory_easter_eggs/greetings.py,sha256=64zhsNY8o6zdwU9TtvbNo-rcRGdfXEKTbXN1BzUDVKc,785
+aifactory_alpha-0.2.1.dist-info/METADATA,sha256=wHcVV6xJNfsDLq-ZItH9X6trtEI8KJ8V_g84GbcliOQ,332
+aifactory_alpha-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aifactory_alpha-0.2.1.dist-info/top_level.txt,sha256=6g8mB0J9EPfUAndzDD6sOCj7EZqoJoTlKwv0xZ7KgrA,93
+aifactory_alpha-0.2.1.dist-info/RECORD,,
