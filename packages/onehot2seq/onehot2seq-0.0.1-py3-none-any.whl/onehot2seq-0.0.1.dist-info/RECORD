@@ -1,0 +1,9 @@
+onehot2seq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onehot2seq/convert.py,sha256=sEQTJK1RJIBCavaLFIzoFtfTwCwiPx5Xks0wooc4kTE,530
+onehot2seq/main.py,sha256=Au-lSrZgUkycGyX8mr3RKhTrF695Crz0Zg-ziBoRHu8,2250
+onehot2seq-0.0.1.dist-info/LICENSE,sha256=mNuqjmHG0acqpWyJLuKPYarB6amPTkcfLjgHcWJ7Kko,1069
+onehot2seq-0.0.1.dist-info/METADATA,sha256=XGr54lGa8kq4lPXeodX5SP9VbJnSGq3IhVwnTS8H1XM,2537
+onehot2seq-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+onehot2seq-0.0.1.dist-info/entry_points.txt,sha256=ulKgrjOx7ZgaGUxe84IFk7cOfW6AtvtYT-LD-TmVDNc,53
+onehot2seq-0.0.1.dist-info/top_level.txt,sha256=tfx7AmCupdnuPIvMQ0lbgWed5H0rZjipybI21FMfxx0,11
+onehot2seq-0.0.1.dist-info/RECORD,,
