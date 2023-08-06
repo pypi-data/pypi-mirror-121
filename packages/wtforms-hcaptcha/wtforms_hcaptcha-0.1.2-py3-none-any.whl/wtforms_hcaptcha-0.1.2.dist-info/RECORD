@@ -1,0 +1,8 @@
+wtforms_hcaptcha/__init__.py,sha256=LnNsO8kCoKSE4jI_qbztmMcPaymrcL_uOO87HnA_F2E,47
+wtforms_hcaptcha/fields.py,sha256=myYRFNimOTqYKwcrG71kc-3AaMS72M97L14DHWsPLYo,2188
+wtforms_hcaptcha/validators.py,sha256=ZAwQYpWjVVu3xCwpDPmMaL6oXf-DT9RJIb_kjIk1_YU,2710
+wtforms_hcaptcha/widgets.py,sha256=SpG2TwKGqcZVFGCXsvijYLkO4TwQtJAU5t5k9De5OsE,445
+wtforms_hcaptcha-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wtforms_hcaptcha-0.1.2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+wtforms_hcaptcha-0.1.2.dist-info/METADATA,sha256=ENhgZN67C6zgcFnoH3JFOxPRJDsz1oUN-bhoeX8pLUs,3549
+wtforms_hcaptcha-0.1.2.dist-info/RECORD,,
