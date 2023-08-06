@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyqudt
+Version: 1.1.1
+Summary: Python library for working with the QUDT (Quantity, Unit, Dimension and Type) ontology.
+License: BSD-3-Clause
+Author: Garrett Brown
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: PyLD (>=2.0.3,<3.0.0)
+Requires-Dist: rdflib (>=6.0.1,<7.0.0)
