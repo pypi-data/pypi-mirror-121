@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pybites-alarm
+Version: 0.0.2
+Summary: A package to play an alarm after an interval
+Author-email: PyBites <support@pybit.es>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: python-dotenv >=0.19.0
+Requires-Dist: pydub >=0.25.1
+Requires-Dist: simpleaudio >=1.0.4
+Project-URL: Source, https://github.com/PyBites-Open-Source/pybites-alarm
+
+# PyBites Alarm
+
+Play a music file after an interval of N minutes. You can configure the tune to play ...
+
+## Install the tool
+
+```
+$ pip install pybites-alarm
+$ alarm
+usage: alarm [-h] (-s SECONDS | -m MINUTES) [-b | -d]
+             [-l SONG_LIBRARY | -f FILE | -v]
+alarm: error: one of the arguments -s/--seconds -m/--minutes is required
+```
+
+## Developer setup
+
+```
+$ git clone git@github.com:PyBites-Open-Source/pybites-alarm.git
+$ cd pybites-alarm
+$ make setup
+$ source venv/bin/activate
+$ make test
+```
+
+## Configure
+
+Create an `.env` file and add `ALARM_MUSIC_FILE` to an absolute path of the music file that should play when the timer ends. For example:
+
+```
+$ cat .env
+ALARM_MUSIC_FILE=/Users/bbelderbos/Music/alarm.mp4
+```
+
+You can also set `ALARM_DURATION_IN_SECONDS=<number_of_seconds_int>` to stop the alarm after N seconds.
+
+## Usage
+
+```
+$ python -m alarm.alarm -h
+usage: alarm.py [-h] (-s SECONDS | -m MINUTES) [-b | -d] [-l SONG_LIBRARY | -f FILE | -v]
+
+Play an alarm after N minutes
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SECONDS, --seconds SECONDS
+                        Number of seconds before playing alarm (default: None)
+  -m MINUTES, --minutes MINUTES
+                        Number of minutes before playing alarm (default: None)
+  -b, --background      Run timer in the background (default: False)
+  -d, --display_timer   Show timer in console (default: False)
+  -l SONG_LIBRARY, --song_library SONG_LIBRARY
+                        Take a random song from a song library directory, supported formats: .mp3, .mp4, .wav (default: None)
+  -f FILE, --file FILE  File path to song to play as alarm (default: None)
+  -v, --version         show program's version number and exit
+```
+
