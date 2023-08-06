@@ -1,0 +1,11 @@
+colortools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colortools/hex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colortools/hex/invert.py,sha256=dLDXaAA9YsP-ujefUR_47bDK4lGkZZme3t6GeXkrQ_8,711
+colortools/hex/validate.py,sha256=Ju2sd_bA-RekHUydXyzahiRCI3ynUjvlSU8LqVzWrUI,357
+colortools/rgb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colortools/rgb/invert.py,sha256=IBFIUVSdJOhFS4MptUCIlyicp_BVe-sQwJ2JNJ53f_E,1122
+colortools/rgb/validate.py,sha256=JueSjPhgI2sgd81YvR_QYiSMNL1cQZ4lcjdE7yodbZo,522
+colorcodetools-0.0.1.dist-info/METADATA,sha256=J9N58wowyHIZVzdIRfMJUmYe2PGQl7RmLr7QaM028kk,546
+colorcodetools-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+colorcodetools-0.0.1.dist-info/top_level.txt,sha256=8VLs9jDxu3o_j-dZi5oGWuvOCwPVgsfYRM9qBAGapIc,11
+colorcodetools-0.0.1.dist-info/RECORD,,
