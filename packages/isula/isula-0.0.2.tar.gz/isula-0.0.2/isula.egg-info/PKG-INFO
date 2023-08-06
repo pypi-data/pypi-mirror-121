@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: isula
+Version: 0.0.2
+Summary: python sdk for isulad and isula-build
+Home-page: https://gitee.com/openeuler/pyisula
+Author: openEuler community
+Author-email: dev@openeuler.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
