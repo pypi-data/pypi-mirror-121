@@ -1,0 +1,9 @@
+nonebot_plugin_puppet/__init__.py,sha256=kz_whn-X_8QULNKoiasQVUSRM0qLy7GEGLq1Ca8CELg,6551
+nonebot_plugin_puppet/handle.py,sha256=WxC7GtXquYTxmGtCjtByCJ6vuPE2eRPVc_WlVJ0I-nY,6571
+nonebot_plugin_puppet/mapping.py,sha256=1S-yIwPYtb2ZGMsSK5QCrulD9xiGdo57pWxuv1DD6IE,6197
+nonebot_plugin_puppet/parser.py,sha256=LBc28erRZK8MiXn7a-huk6_d-VckBiBD_VTvgHZCPro,3867
+nonebot_plugin_puppet/request.py,sha256=6SM07naCqB9PqJh-Z_4nr8wA30cpl3SGZwSisjJNlOo,1546
+nonebot_plugin_puppet-0.2.0.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+nonebot_plugin_puppet-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+nonebot_plugin_puppet-0.2.0.dist-info/METADATA,sha256=YgZBKeT4VeQ-n7sv0OeTmYINH3Wr4NlLUJQKBw3oDFw,5597
+nonebot_plugin_puppet-0.2.0.dist-info/RECORD,,
