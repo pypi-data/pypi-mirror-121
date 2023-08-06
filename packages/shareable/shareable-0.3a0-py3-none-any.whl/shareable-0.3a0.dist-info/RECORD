@@ -1,0 +1,10 @@
+shareable/__init__.py,sha256=VwlQKImORCCBgzrxzTHOruSIgoMBBMvHzIYz0twVPxM,33
+shareable/managers_decorators.py,sha256=dBHc-UoEP5tGAmVH9VIrIXTcwx9SP5LtKjeXJMkipK0,1284
+shareable/producers.py,sha256=jFS8v28_3u1nGal2N6grf4X9Q2nLxOr2uRzZAHJOJYc,1071
+shareable/shareable.py,sha256=VCbanR1trGf6Cr-lOFnAsK9IeNEXpHs1kGBeql49R14,2663
+shareable/shared_objects.py,sha256=EEOuy1Na0Rnp4nlZKzPk1k1xwmVXvZZ28q8PzxrzujM,4863
+shareable-0.3a0.dist-info/LICENSE,sha256=OAW7sD1smnxqG1UOx30SJ6DDUFHu3HRSxjJq5ZJaDLc,1072
+shareable-0.3a0.dist-info/METADATA,sha256=VhJHqCpKamYkTyU-Yn4q3RoWZxlOiGna_2NpQuwU8NY,2553
+shareable-0.3a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shareable-0.3a0.dist-info/top_level.txt,sha256=nGsvDBAZLW7AGl5plbE5psk5SCI9jqsaFF9nXkT4wIo,10
+shareable-0.3a0.dist-info/RECORD,,
