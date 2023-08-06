@@ -1,0 +1,3 @@
+[console_scripts]
+onehot2seq = onehot2seq.main:main
+

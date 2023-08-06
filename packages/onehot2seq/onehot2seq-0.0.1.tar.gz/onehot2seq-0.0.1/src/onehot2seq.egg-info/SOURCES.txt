@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/onehot2seq/__init__.py
+src/onehot2seq/convert.py
+src/onehot2seq/main.py
+src/onehot2seq.egg-info/PKG-INFO
+src/onehot2seq.egg-info/SOURCES.txt
+src/onehot2seq.egg-info/dependency_links.txt
+src/onehot2seq.egg-info/entry_points.txt
+src/onehot2seq.egg-info/requires.txt
+src/onehot2seq.egg-info/top_level.txt
