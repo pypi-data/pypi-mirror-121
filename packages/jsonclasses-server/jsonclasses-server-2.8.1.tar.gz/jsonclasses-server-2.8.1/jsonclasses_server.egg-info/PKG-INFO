@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jsonclasses-server
+Version: 2.8.1
+Summary: jsonclasses server
+Home-page: https://github.com/fillmula/jsonclasses-server
+Author: Fillmula Inc.
+Author-email: victor.teo@fillmula.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
