@@ -1,0 +1,9 @@
+libmir/libmir.dll,sha256=PiAOXpvwng4sLITffiAlm66ePNb7IMIorETvuacPZ0U,346064
+libmir/capi.py,sha256=JH3Lb0oL-R-LxCoCIxJLiu4ZuqxTLOQXnbdwj7OWV7w,3814
+libmir/__init__.py,sha256=m8rFgCWt7NctMnVk7KEsthoQs-VlLlvr_e2I8TsqiuI,216
+libmir-0.1.0a2.dist-info/top_level.txt,sha256=wZQ933jU64pNZxeoNKf74mAfMYhBHSHUqDnskXhSRW0,7
+libmir-0.1.0a2.dist-info/LICENSE-MIR,sha256=cG-gbkaWF4Zx4WAwoei79cgj_9p8dT0XBDI4Tp_hrUo,1078
+libmir-0.1.0a2.dist-info/LICENSE,sha256=Dg1jQXu2lt_3X0rJJvzYxq_SBahXecClSKwh-vEw_uc,11337
+libmir-0.1.0a2.dist-info/RECORD,,
+libmir-0.1.0a2.dist-info/WHEEL,sha256=IL0iX5XNv1WQZTLN2B4c3dlfH0fGR8_uxbPdaHfu4p8,217
+libmir-0.1.0a2.dist-info/METADATA,sha256=5H-22nXS1lcaFWmYx6qjXokr3Ku9zr8ylKNfiGMmHRk,612
