@@ -1,0 +1,12 @@
+pineappl-0.5.0_beta.dist-info/METADATA,sha256=gzKnVxKO_Cpg1Ng2kneGYxmdPOg2ttIjiAjdllWT6_4,1286
+pineappl-0.5.0_beta.dist-info/WHEEL,sha256=aTMO7vSkumbjgFyZgZmKMb3Ao0FsZKF8HQJAI21ZCf8,95
+pineappl/bin.py,sha256=ggHjmiLYk13PuZ6LzKW2rs-hy4JqkNWRNW7EPK-heD8,497
+pineappl/fk_table.py,sha256=4TkLg5LY1EMH004ENgJ4zBZ4527DSUYeHYteYFxdmGo,358
+pineappl/grid.py,sha256=hAknq2oJeou4rOs2YyjzdEn6cRh7hpw2yCnb6mxh_D4,3877
+pineappl/import_only_subgrid.py,sha256=ogV0JfNKzvZ_hhS3BSQir2pVbTOHElum_H37516PG6U,676
+pineappl/lumi.py,sha256=A9djBgigZoEE_zkoPUfPEynIdlPdgNlsDQJoGgLXQsk,395
+pineappl/subgrid.py,sha256=f7pCmrsd47Bi_PUKDArK4DOaSBaesAeJTm5NRcKOpLk,265
+pineappl/utils.py,sha256=sphPCzhHb7_f5q7XWBskR04QFfUyxuESGmIlK7dwekk,449
+pineappl/__init__.py,sha256=G-ArtPXwlnlF5qEw7ZfzzshPIdFQiQ3HgL01TO5ytZM,71
+pineappl/pineappl.pyd,sha256=NGBDjkO-bVpGLipZYkJad0AE2AadC1Hs_tHM6dwOHYc,1330688
+pineappl-0.5.0_beta.dist-info/RECORD,,
