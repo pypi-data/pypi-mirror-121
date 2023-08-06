@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Warframe2.0
+Version: 0.1
+Summary: module.
+Home-page: http://pymbook.readthedocs.org/en/latest/
+Author: Blake Thompson
+Author-email: blakethompsonbat@gmail.com
+License: MIT
+Description: WarFrame Test bot
+Platform: Linux

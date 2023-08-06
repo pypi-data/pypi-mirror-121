@@ -1,0 +1,10 @@
+.env
+MANIFEST.in
+Main.py
+__init__.py
+info.png
+setup.py
+Warframe2.0.egg-info/PKG-INFO
+Warframe2.0.egg-info/SOURCES.txt
+Warframe2.0.egg-info/dependency_links.txt
+Warframe2.0.egg-info/top_level.txt

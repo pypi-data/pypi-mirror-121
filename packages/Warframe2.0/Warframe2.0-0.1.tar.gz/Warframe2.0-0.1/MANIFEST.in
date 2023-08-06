@@ -1,0 +1,3 @@
+include *.py
+include info.png
+include .env
