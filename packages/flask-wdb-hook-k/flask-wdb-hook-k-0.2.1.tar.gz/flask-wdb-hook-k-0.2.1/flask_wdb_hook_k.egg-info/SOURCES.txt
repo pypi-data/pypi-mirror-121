@@ -1,0 +1,8 @@
+README.md
+flask-wdb.pth
+setup.py
+flask_wdb_hook_k.egg-info/PKG-INFO
+flask_wdb_hook_k.egg-info/SOURCES.txt
+flask_wdb_hook_k.egg-info/dependency_links.txt
+flask_wdb_hook_k.egg-info/requires.txt
+flask_wdb_hook_k.egg-info/top_level.txt
