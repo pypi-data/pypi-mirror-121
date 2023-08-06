@@ -1,0 +1,12 @@
+apportionpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apportionpy/apportionment.py,sha256=bGuy8NUsc6DKvqt8fXpzUnswwQTkqi_CC_AcH-eddJo,1907
+apportionpy/methods/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apportionpy/methods/adam.py,sha256=bP3g_5d8HNAfZ7MzxPGlqqtSwR6aK8ctldAJYiV5xKY,3590
+apportionpy/methods/hamilton.py,sha256=DDyon6D7Vt2IqiBqMxo-wYKrcBbm06YA2ORWCcyqqto,2744
+apportionpy/methods/jefferson.py,sha256=Qx9iRKvn4no1U-T0s5WcOmnDM0DKEBMAi7djOT0nXYs,3571
+apportionpy/methods/webster.py,sha256=hnMioBCA-sxP70FGokPiFu34oZ6bvma-mUpff97Qewk,3535
+apportionpy-0.0.1.dist-info/LICENSE.TXT,sha256=cazTI4urUW1dnteY2870f8AFM1votzHvW3yLfszG-sw,1077
+apportionpy-0.0.1.dist-info/METADATA,sha256=82UdXtAbUqoniXjTVZL6CJj3U98B4HRo9v_Cv_5AH3A,848
+apportionpy-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+apportionpy-0.0.1.dist-info/top_level.txt,sha256=osThdR59OhSQX2Jc3e85-oFDmtTYBPCIiglPn6xmjPs,12
+apportionpy-0.0.1.dist-info/RECORD,,
