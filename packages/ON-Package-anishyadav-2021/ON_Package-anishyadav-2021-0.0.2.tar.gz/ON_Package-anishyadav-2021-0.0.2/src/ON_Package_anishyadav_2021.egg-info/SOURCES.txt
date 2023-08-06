@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ONENEURON/PERCEPTRON.py
+src/ONENEURON/__init__.py
+src/ON_Package_anishyadav_2021.egg-info/PKG-INFO
+src/ON_Package_anishyadav_2021.egg-info/SOURCES.txt
+src/ON_Package_anishyadav_2021.egg-info/dependency_links.txt
+src/ON_Package_anishyadav_2021.egg-info/requires.txt
+src/ON_Package_anishyadav_2021.egg-info/top_level.txt
