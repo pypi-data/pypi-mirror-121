@@ -1,0 +1,11 @@
+README.md
+setup.py
+gagaussian/__init__.py
+gagaussian/binomial.py
+gagaussian/gaussian.py
+gagaussian/general.py
+gagaussian.egg-info/PKG-INFO
+gagaussian.egg-info/SOURCES.txt
+gagaussian.egg-info/dependency_links.txt
+gagaussian.egg-info/not-zip-safe
+gagaussian.egg-info/top_level.txt
