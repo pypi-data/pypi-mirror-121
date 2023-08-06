@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+logging_aws_sqs/__init__.py
+logging_aws_sqs.egg-info/PKG-INFO
+logging_aws_sqs.egg-info/SOURCES.txt
+logging_aws_sqs.egg-info/dependency_links.txt
+logging_aws_sqs.egg-info/requires.txt
+logging_aws_sqs.egg-info/top_level.txt
