@@ -1,0 +1,12 @@
+LICENCE.txt
+MANIFEST.in
+main.py
+setup.py
+IdentityService/__init__.py
+IdentityService/service.py
+test_user_auth.egg-info/PKG-INFO
+test_user_auth.egg-info/SOURCES.txt
+test_user_auth.egg-info/dependency_links.txt
+test_user_auth.egg-info/entry_points.txt
+test_user_auth.egg-info/requires.txt
+test_user_auth.egg-info/top_level.txt
