@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: pystrategy-test-py
+Version: 1.0.1
+Summary: Evaluation of strategies portfolios
+Home-page: https://github.com/faprieto96/pystrategy_test_py
+Author: Francisco A. Prieto Rodriguez, Francisco de Asís Fernández Navarro, David Becerra Alonso
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
