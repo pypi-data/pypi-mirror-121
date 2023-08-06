@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: simplicial-test
+Version: 1.3.0
+Summary:  Simplicial-test realizes a simplicial complex from a prescribed degree-size sequence (when feasible).
+Home-page: https://github.com/junipertcy/simplicial-test
+Author: Tzu-Chi Yen
+Author-email: tzuchi.yen@colorado.edu
+License: LGPLv3
+Project-URL: Bug Tracker, https://github.com/junipertcy/simplicial-test/issues
+Project-URL: Forum, https://github.com/junipertcy/simplicial-test/discussions
+Project-URL: Source Code, https://github.com/junipertcy/simplicial-test
+Project-URL: Documentation, https://docs.netscied.tw/simplicial-test/index.html
+Project-URL: Benchmark, https://docs.netscied.tw/simplicial-test/dataset/benchmark.html
+Keywords: simplicial-test,simplicial complex,degree-size sequence,simplex,topological data analysis,topology,recursive algorithm,fixed-parameter tractable,realizability
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Provides-Extra: test
+Provides-Extra: docs
+License-File: COPYING
+License-File: COPYING.LESSER
+
+Simplicial-test provides a deterministic, backtracking-based search algorithm for the simplicial complex realization problem.
+
+This is the software repository behind the paper:
+
+- Construction of Simplicial Complexes with Prescribed Degree-Size Sequences, Tzu-Chi Yen (2021).
+
+  Read it on arXiv: https://arxiv.org/abs/2106.00185
+
+👈 Please check the Project Links on the left for source code, documentation, discussion threads, etc.
+
+All simplicial-test sdists and wheels distributed on PyPI are licensed under LGPL-3.0-or-later.
+
+
