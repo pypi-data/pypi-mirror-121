@@ -1,0 +1,5 @@
+pyaml
+
+[tests]
+pytest
+flake8
