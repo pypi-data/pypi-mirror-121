@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+statsmodels
+tqdm
+baostock
+pretty_errors
+termcolor
+matplotlib
