@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+ptodbc/__init__.py
+ptodbc.egg-info/PKG-INFO
+ptodbc.egg-info/SOURCES.txt
+ptodbc.egg-info/dependency_links.txt
+ptodbc.egg-info/top_level.txt
