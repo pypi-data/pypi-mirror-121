@@ -1,0 +1,6 @@
+streamlit>=0.88
+compress_pickle
+hydralit_components>=1.0.3
+validators
+pyjwt
+bokeh
