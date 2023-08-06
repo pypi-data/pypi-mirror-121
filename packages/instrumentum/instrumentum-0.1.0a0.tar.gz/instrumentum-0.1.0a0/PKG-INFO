@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: instrumentum
+Version: 0.1.0a0
+Summary: 
+Author: federico
+Author-email: federico.montanana@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
