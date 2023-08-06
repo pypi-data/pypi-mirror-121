@@ -1,0 +1,3 @@
+[console_scripts]
+itar = indexedtar.itar:main
+
