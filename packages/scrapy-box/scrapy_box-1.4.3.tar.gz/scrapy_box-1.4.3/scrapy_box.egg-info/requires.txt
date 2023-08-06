@@ -1,0 +1,5 @@
+scrapy
+treq
+pymongo
+pandas
+pymysql
