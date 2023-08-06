@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ravisimplemodule
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Ravi Sharma
+Author-email: ravikr845430@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE.txt
+
+This is test package in python
+
+Change Log
+==========
+
+0.0.1 (19/04/2020)
+-------------------
+- First Release
+
