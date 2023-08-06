@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: acron
+Version: 0.1.3
+Summary: Lightweight scheduler
+Home-page: https://github.com/appgate/acron
+License: MIT
+Author: Aitor Iturri
+Author-email: aitor.iturri@appgate.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: croniter (>=1.0.15,<2.0.0)
+Requires-Dist: pytz (>=2021.1,<2022.0)
+Description-Content-Type: text/x-rst
+
+Lightweight scheduler for python asyncio
+
+Based on croniter to support the crontab syntax.
+
+
+.. code:: python
+
+    import asyncio
+
+    from acron.scheduler import Scheduler, Job
+
+    async def do_the_thing():
+        print('Doing the thing')
+
+    async def run_jobs_forever():
+        stop = asyncio.Event()
+
+        do_thing = Job(
+            name="Do the thing",
+            schedule="0/1 * * * *",
+            func=do_the_thing,
+        )
+
+        async with Scheduler() as scheduler:
+            await scheduler.update_jobs({do_thing})
+            await stop.wait()
+
+    if __name__ == '__main__':
+        try:
+            asyncio.run(run_jobs_forever())
+        except KeyboardInterrupt:
+            print('Bye.')
+
