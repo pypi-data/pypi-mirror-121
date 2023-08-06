@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: CoffeePaginator
+Version: 1.0a0
+Summary: Простой модуль для создания страниц в Disnake
+Home-page: https://github.com/Sha4ek/CoffeePaginator
+Author: Sha4ek
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8

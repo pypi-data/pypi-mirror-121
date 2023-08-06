@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CoffeePaginator/CoffeePaginator.py
+CoffeePaginator/__init__.py
+CoffeePaginator.egg-info/PKG-INFO
+CoffeePaginator.egg-info/SOURCES.txt
+CoffeePaginator.egg-info/dependency_links.txt
+CoffeePaginator.egg-info/requires.txt
+CoffeePaginator.egg-info/top_level.txt
