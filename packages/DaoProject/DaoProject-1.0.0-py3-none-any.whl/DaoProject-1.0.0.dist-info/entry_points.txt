@@ -1,0 +1,3 @@
+[console_scripts]
+dao = DaoProject.front_end.dao_cli:run
+
