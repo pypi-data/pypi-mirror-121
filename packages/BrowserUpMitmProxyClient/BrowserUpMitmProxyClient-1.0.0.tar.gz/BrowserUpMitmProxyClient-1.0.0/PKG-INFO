@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: BrowserUpMitmProxyClient
+Version: 1.0.0
+Summary: BrowserUp MitmProxy
+Home-page: https://github.com/browserup/mitmproxy
+Author: BrowserUp, Inc.
+Author-email: developers@browserup.com
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,BrowserUp MitmProxy
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+    ___ This is the REST API for controlling the BrowserUp MitmProxy. The BrowserUp MitmProxy is a swiss army knife for automated testing that captures HTTP traffic in HAR files. It is also useful for Selenium/Cypress tests. ___   # noqa: E501
+    
+
