@@ -1,0 +1,15 @@
+naver_db/__init__.py,sha256=uPlK4QJ20yJKTyQQIXPWGiPH4LtH9u5XY0uvIrjId3k,695
+naver_db/mysqldb.py,sha256=I6wARY4sEtobYPdvCeEcOJhh4mcN2GjAwMohe6R6S_w,1026
+naver_db/persistence.py,sha256=_lWShqsdWNu0PWXh9lpADeHkqhbF_gxW4tR1zNlleb8,3937
+test/__init__.py,sha256=BoJ6tRen1klIIhwc16qgxuhXWCjNtlHsKiclRdijALg,198
+test/naver_getprops.py,sha256=_CNhWMU6AEDFMVCGz1p2QT9d90sMNRKOmww7vDj0qe0,129
+test/naver_netval.py,sha256=XbehRjtYosRifw2JariYPQFkU9GGtq_P41LhDhkWspY,237
+test/naver_param.py,sha256=2DSmaMrYq-WzO3V-FcRTzYfu8ZDF0EXceJQ7BtjQ1W0,128
+test/naver_query.py,sha256=_ynScLZjQiNRhgNz6__8t6J6G8qdfSMWZTp0CWou6NY,202
+test/naver_userpermission.py,sha256=UROz2oazZRYrgRN0drPzPHf7rT2OQtxkdwN_4BdMimM,135
+test/naver_write.py,sha256=qNrEDIvvaMB_qoKMmeYaxMkSvi4QHlQf0rZZ_2pcAH0,450
+test/naver_writelog.py,sha256=blDh-AMR2nd_WCqrv6-wyHCkqL9lYRa8ZHbZBbVvjYU,376
+naver_db-0.0.1.post2.dist-info/METADATA,sha256=N5RJMIZn4S047ZpfMb_IWZ41Mm1meCdVF0qE5wfzJjA,597
+naver_db-0.0.1.post2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+naver_db-0.0.1.post2.dist-info/top_level.txt,sha256=-T6kLggRm3AMDTQfkeDI89az-XbeNRZSXB7w2w2mexI,14
+naver_db-0.0.1.post2.dist-info/RECORD,,
