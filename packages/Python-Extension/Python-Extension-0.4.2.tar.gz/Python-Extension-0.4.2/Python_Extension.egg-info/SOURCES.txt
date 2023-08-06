@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+Python_Extension.egg-info/PKG-INFO
+Python_Extension.egg-info/SOURCES.txt
+Python_Extension.egg-info/dependency_links.txt
+Python_Extension.egg-info/top_level.txt
+pyextension/__init__.py
+pyextension/mathematics.py
+pyextension/system.py
+pyextension/word.py
+pyextension/word_bank.py
+pyextension/tkinter/__init__.py
+pyextension/tkinter/timer.py
