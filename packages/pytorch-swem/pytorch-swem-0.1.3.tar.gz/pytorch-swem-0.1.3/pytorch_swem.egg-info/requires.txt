@@ -1,0 +1,11 @@
+torch>=1.7.1
+
+[dev]
+black
+isort
+mypy
+pre-commit
+pytest
+pytest-cov
+coveralls
+coverage
