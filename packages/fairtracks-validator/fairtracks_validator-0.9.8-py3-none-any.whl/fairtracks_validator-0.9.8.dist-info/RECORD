@@ -1,0 +1,14 @@
+fairtracks_validator/__init__.py,sha256=UShyT374fZXWc4fYkdwCk_iizD2Ao251ocELq7qLOxM,87
+fairtracks_validator/downloader.py,sha256=Y3iSY5cIvllA7yMqLWL5Um-P9qhLAd5fkpVHrQ0nyUI,5424
+fairtracks_validator/fairtracks_validator.py,sha256=RkpfpnnV6ehEBKtVuCm_9BQZsBEmyerAKMFe2pIL-y0,1222
+fairtracks_validator/extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairtracks_validator/extensions/curie_cache.py,sha256=2GHuPI5Cfm16PlaZ4GzSXc1k_zcmDkbloUIA88ioMJE,8954
+fairtracks_validator/extensions/curie_search.py,sha256=8OORgtTevkwyJPiOid3-xdOR1g_xtZZqaobBuNiGnr4,7809
+fairtracks_validator/extensions/foreign_property_check.py,sha256=_1VhGfE-q0rEmFwcpl1XVszOXYSh8GHkTg8VoaS8uQk,6636
+fairtracks_validator/extensions/ontology_term.py,sha256=H_uGadAFTKZsDPQSR7BGmqe_I7gUymPOG2EoULDE7OE,14364
+fairtracks_validator-0.9.8.data/scripts/fairGTrackJsonValidate.py,sha256=VkuQDa0Mv7hN16Rn43bZRdOZuyphwHjvv5M_uFer5uU,6284
+fairtracks_validator-0.9.8.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+fairtracks_validator-0.9.8.dist-info/METADATA,sha256=e0667jPBenVo9sIrQrLqAe8J6b_-8hPMYTgv9qRbolk,4661
+fairtracks_validator-0.9.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fairtracks_validator-0.9.8.dist-info/top_level.txt,sha256=QyPgU_NMwC6rAZqU0K7xZVA0p6f67wjNPt9hYryPpp4,21
+fairtracks_validator-0.9.8.dist-info/RECORD,,
