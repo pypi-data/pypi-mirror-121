@@ -1,0 +1,3 @@
+[console_scripts]
+folderikon = folderikon.cli:main
+
