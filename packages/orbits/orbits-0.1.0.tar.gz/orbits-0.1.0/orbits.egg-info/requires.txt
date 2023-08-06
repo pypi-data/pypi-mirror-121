@@ -1,0 +1,17 @@
+pymc3
+celerite2
+aesara-theano-fallback
+pymc3-ext
+exoplanet
+matplotlib
+numpy
+pyyaml
+corner
+
+[dev]
+ipython
+jupytext
+black
+isort
+flake8
+pandas
