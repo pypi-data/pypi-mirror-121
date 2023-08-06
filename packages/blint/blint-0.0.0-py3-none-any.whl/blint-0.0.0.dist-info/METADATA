@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: blint
+Version: 0.0.0
+Summary: Linter for binary files powered by lief
+Home-page: https://rosa.cx
+License: Apache-2.0
+Keywords: linter,binary,security,sast
+Author: Prabhu Subramanian
+Author-email: prabhu@appthreat.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: lief (>=0.11.5,<0.12.0)
+Requires-Dist: rich (>=10.10.0,<11.0.0)
+Project-URL: Repository, https://git.sr.ht/~prabhu/blint
+Description-Content-Type: text/markdown
+
+# Introduction
+
+**COMING SOON**
+
+blint is a simple Binary Linter to check the security properties and hardcoded credentials in your executables. It is powered by [lief](https://github.com/lief-project/LIEF)
+
+Supported formats:
+
+- ELF
+- PE
+- Mach-O
+
+## Installation
+
+- Install python 3.8 or 3.9
+
+```bash
+pip3 install blint
+```
+
+## References
+
+- [lief examples](https://github.com/lief-project/LIEF/tree/master/examples/python)
+- [checksec](https://github.com/Wenzel/checksec.py)
+
