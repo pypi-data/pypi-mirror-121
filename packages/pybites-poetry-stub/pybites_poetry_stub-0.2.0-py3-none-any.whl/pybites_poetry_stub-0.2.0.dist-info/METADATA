@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pybites-poetry-stub
+Version: 0.2.0
+Summary: Quick package to test automation of publishing to PyPI
+License: MIT
+Author: Bob Belderbos
+Author-email: bobbelderbos@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
