@@ -1,0 +1,3 @@
+[console_scripts]
+minepy = minepy.hello:gegus
+
