@@ -1,0 +1,9 @@
+st_microservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+st_microservice/graphql.py,sha256=IkMzg6Q0sF46Cfe20nklHKEZ8ZYyjWFEvWUCFuh5OIU,4910
+st_microservice/graphql_utils.py,sha256=DQIdvjfbsZ5eFDJZi6OnLtju-Ojg806qnyxpjJGG3X0,2179
+st_microservice/starlettebackend.py,sha256=r2Mg4TlqaGHLBD5IMdE5lKOvy8GMzS_lPAkFdI2mqYg,5145
+st_microservice-0.4.0.dist-info/LICENSE,sha256=mwCOnxR6IFYNjG8E2iicyv30JXIB8kb5jEyi9T-vqNU,108
+st_microservice-0.4.0.dist-info/METADATA,sha256=u9Di0YuKAeHU-j-7MeM__yYEN72-8gaFYm8KWQNF1dI,655
+st_microservice-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+st_microservice-0.4.0.dist-info/top_level.txt,sha256=9cVL6uCYlqcr2TuPZPJ8j8IlCXdDfTx3Z2LwAZG_ZiY,16
+st_microservice-0.4.0.dist-info/RECORD,,
