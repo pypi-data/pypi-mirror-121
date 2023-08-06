@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: django-environment-vars
+Version: 0.1056b0
+Summary: A Django environment variables manager.
+Home-page: https://github.com/bygregonline/django-env-public/
+Author: Greg Flores
+Author-email: bygregonline@yaho.com
+License: MIT
+Project-URL: Documentation, https://github.com/bygregonline/django-env-public
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/bygregonline/django-env-public/src
+Project-URL: Tracker, https://github.com/bygregonline/django-env-public/issues
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# how to use
+
+Installl
+```
+
+pip install django-environment-vars
+
+```
+1. Add config files
+
+
+```
+  INSTALLED_APPS = [...
+          'django_contrib.environment_vars ',
+      ]
+
+
+```
+
+2. Include the app URLconf in your project urls.py like this::
+
+
+```
+path('env/', include('django_contrib.environment_vars.urls'))
+
+```
+
+
+3. Start the development server and visit http://127.0.0.1:8000/env/
+
+
+4. Or Visit demo site https://bygregonline.github.io/react_env_sample/
+
+
+
