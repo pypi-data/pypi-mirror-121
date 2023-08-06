@@ -1,0 +1,4 @@
+include cinemasci/viewers/cinema_*.html
+include cinemasci/server/*.html
+include license.md
+include description.md
