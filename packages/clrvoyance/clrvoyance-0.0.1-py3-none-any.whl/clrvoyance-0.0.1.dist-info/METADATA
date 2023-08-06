@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: clrvoyance
+Version: 0.0.1
+Summary: A framework for production data/pattern analytics.
+Home-page: UNKNOWN
+Author: bhaveshpandey
+Author-email: bxpandey@pm.me
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=8.0.1)
+Provides-Extra: dev
+Requires-Dist: behave (>=1.2.6) ; extra == 'dev'
+
+# clairvoyance
+
+
