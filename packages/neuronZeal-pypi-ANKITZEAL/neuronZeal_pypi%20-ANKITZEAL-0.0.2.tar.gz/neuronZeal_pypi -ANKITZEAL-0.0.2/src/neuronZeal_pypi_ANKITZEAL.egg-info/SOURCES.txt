@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/neuronZeal_pypi_ANKITZEAL.egg-info/PKG-INFO
+src/neuronZeal_pypi_ANKITZEAL.egg-info/SOURCES.txt
+src/neuronZeal_pypi_ANKITZEAL.egg-info/dependency_links.txt
+src/neuronZeal_pypi_ANKITZEAL.egg-info/requires.txt
+src/neuronZeal_pypi_ANKITZEAL.egg-info/top_level.txt
+src/oneNeuron/__init__.py
+src/oneNeuron/perceptron.py
