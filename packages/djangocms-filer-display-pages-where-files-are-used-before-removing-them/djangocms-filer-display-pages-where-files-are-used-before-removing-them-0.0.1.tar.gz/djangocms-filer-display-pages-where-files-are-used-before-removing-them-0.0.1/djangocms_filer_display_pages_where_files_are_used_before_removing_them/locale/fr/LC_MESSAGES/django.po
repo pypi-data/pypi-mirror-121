@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-29 14:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:15
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:53
+msgid "Here are the pages where the objects are used:"
+msgstr "Voici les pages où ces fichiers sont utilisés :"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:23
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:61
+msgid "No file is used on a page as a media!"
+msgstr "Aucun fichier n'est affiché sous form de média sur le site !"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:32
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:70
+msgid "No file is used on a page as an image!"
+msgstr "Aucun fichier n'est affiché sous forme d'image sur le site !"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:56
+msgid "Media"
+msgstr "Média"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:65
+msgid "Images"
+msgstr "Images"
