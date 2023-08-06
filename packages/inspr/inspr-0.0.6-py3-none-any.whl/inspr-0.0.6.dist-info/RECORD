@@ -1,0 +1,9 @@
+inspr/__init__.py,sha256=kYGoomxUHUZ1p5Xdv5CebWa3ZSAUnngMx42iQjbXpwE,107
+inspr/client.py,sha256=D5KHSV2udlR5K7QaQZWaHQxINcmStURstdcbGA7VNlM,1760
+inspr/models.py,sha256=iE_SzLpZgEG-HAQkDn3ma9ft_olld68rcXR4U6k_8ZU,443
+inspr/rest.py,sha256=gL6nPyIojco1bbOR04fwMGNMRE4Tcv2aLkkMYtRqjoA,1412
+inspr-0.0.6.dist-info/LICENSE,sha256=pb2qY--a0hhuuQ66fSA0YWsbhc7IgZDaZZCsb2XIMds,18524
+inspr-0.0.6.dist-info/METADATA,sha256=V_hNZuXOqGV0ekBj-Vzp0TCDXZ7jKDAeIU5d2zUg6jg,523
+inspr-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+inspr-0.0.6.dist-info/top_level.txt,sha256=PSLITQQZ-jQTYwCtMDJ7iyIheUpl3LH27vGLPr2VBPY,6
+inspr-0.0.6.dist-info/RECORD,,
