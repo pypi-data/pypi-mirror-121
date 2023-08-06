@@ -1,0 +1,1 @@
+from .first_generation import discriminator_network

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: paul2gans
+Version: 0.1.0
+Summary: Backend package to generate AI Posters.
+Home-page: https://github.com/paulilhe/gans
+Author: paulilhe
+Author-email: paul.ilhe@gmail.com
+License: Proprietary
+Platform: UNKNOWN
+Requires-Python: >=3.8
+
+UNKNOWN
+
