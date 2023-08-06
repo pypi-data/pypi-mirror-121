@@ -1,0 +1,13 @@
+ray
+ujson
+py_cui
+torch
+
+[dev]
+check-manifest
+pdoc
+twine
+
+[test]
+coverage
+nose

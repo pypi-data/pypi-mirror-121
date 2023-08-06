@@ -1,0 +1,4 @@
+[console_scripts]
+wannotate = wrangl.interactive.annotator:annotate
+wdocs = wrangl.interactive.docs:generate_docs
+
