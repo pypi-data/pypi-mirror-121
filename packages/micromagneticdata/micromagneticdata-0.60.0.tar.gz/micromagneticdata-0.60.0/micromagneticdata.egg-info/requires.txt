@@ -1,0 +1,2 @@
+discretisedfield~=0.60.0
+ubermagtable~=0.60.0
