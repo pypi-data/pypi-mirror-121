@@ -1,0 +1,90 @@
+Metadata-Version: 1.2
+Name: pygerber
+Version: 0.0.0
+Summary: Python package for 2D and 3D rendering of GerberX3 files.
+Home-page: https://github.com/Argmaster/pygerber
+Author: Krzysztof Wiśniewski
+Author-email: argmaster.world@gmail.com
+License: MIT
+Project-URL: Documentation, https://pygerber.readthedocs.io/
+Project-URL: Changelog, https://pygerber.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/Argmaster/pygerber/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        Python package for 2D and 3D rendering of GerberX3 files.
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install pygerber
+        
+        You can also install the in-development version with::
+        
+            pip install https://github.com/Argmaster/pygerber/archive/master.zip
+        
+        
+        Documentation
+        =============
+        
+        
+        https://pygerber.readthedocs.io/
+        
+        
+        Development
+        ===========
+        
+        To run all the tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.0 (2021-09-25)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: python-3,gerber,gerber-rendering,gerber-x3,python-rendering,gerber-parser,python-3.9
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
