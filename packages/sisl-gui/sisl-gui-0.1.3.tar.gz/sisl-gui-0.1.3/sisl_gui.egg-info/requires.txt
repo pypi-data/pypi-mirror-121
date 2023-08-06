@@ -1,0 +1,10 @@
+simplejson
+flask
+flask-restx
+flask-socketio>=5.0
+flask-cors
+flask-login
+flask-session
+gevent-websocket
+eventlet
+dill>=0.3.2
