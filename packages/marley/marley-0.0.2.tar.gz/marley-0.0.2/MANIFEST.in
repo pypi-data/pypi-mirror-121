@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements.txt
+include marley/server/static/*
+include marley/demo.h5
