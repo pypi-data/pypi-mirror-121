@@ -1,0 +1,2 @@
+include minepy.exe
+recursive-include data *
