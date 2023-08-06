@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: caaj-evm
+Version: 0.1.7
+Summary: tools for generateing caaj
+Home-page: https://github.com/ca3-caaip/caaj_evm
+Author: bitblt
+Author-email: ywakimoto1s@gmail.com
+License: mit
+Platform: UNKNOWN
+Requires-Dist: web3 (==5.23.1)
+
+UNKNOWN
+
+
