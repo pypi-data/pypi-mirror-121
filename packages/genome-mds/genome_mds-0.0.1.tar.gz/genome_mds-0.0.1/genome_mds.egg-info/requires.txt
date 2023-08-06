@@ -1,0 +1,9 @@
+streamlit_bokeh_events>=0.1.2
+streamlit==0.89.0
+pandas
+numpy
+scikit-learn
+biopython
+bokeh==2.2.0
+watchdog
+ncbi-genome-download

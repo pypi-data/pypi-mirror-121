@@ -1,0 +1,3 @@
+[console_scripts]
+genome-mds = genome_mds.cli:main
+

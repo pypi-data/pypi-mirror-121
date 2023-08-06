@@ -1,0 +1,68 @@
+Metadata-Version: 1.2
+Name: genome_mds
+Version: 0.0.1
+Summary: Genome-MDS: A graphical two-dimensional comparison tool for prokaryotic genomes
+Home-page: https://github.com/omics-tools/genome-mds
+Author: Koji Ishiya
+Author-email: koji.ishiya@aist.go.jp
+License: MIT license
+Description: ==========
+        genome-mds
+        ==========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/genome_mds.svg
+                :target: https://pypi.python.org/pypi/genome_mds
+        
+        .. image:: https://img.shields.io/travis/omics-tools/genome_mds.svg
+                :target: https://travis-ci.com/omics-tools/genome_mds
+        
+        .. image:: https://readthedocs.org/projects/genome-mds/badge/?version=latest
+                :target: https://genome-mds.readthedocs.io/en/latest/?version=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        a graphical two-dimensional comparison tool for prokaryotic genomes
+        
+        
+        * Free software: MIT license
+        * Documentation: https://genome-mds.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.1 (2021-09-21)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: genome_mds
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
