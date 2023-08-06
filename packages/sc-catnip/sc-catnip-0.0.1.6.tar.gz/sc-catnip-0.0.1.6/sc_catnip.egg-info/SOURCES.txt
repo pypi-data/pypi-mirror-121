@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+catnip/__init__.py
+catnip/_main.py
+catnip/_data/__init__.py
+catnip/_data/_get_h5_filepaths.py
+catnip/_data/_read_10x_h5.py
+sc_catnip.egg-info/PKG-INFO
+sc_catnip.egg-info/SOURCES.txt
+sc_catnip.egg-info/dependency_links.txt
+sc_catnip.egg-info/requires.txt
+sc_catnip.egg-info/top_level.txt
