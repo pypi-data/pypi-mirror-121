@@ -1,0 +1,7 @@
+drf_info_endpoint/__init__.py,sha256=igM6OGGxY3sA-Ox3GUewZ7yaYGjjJu-8xmi4Luflvu8,69
+drf_info_endpoint/serializers.py,sha256=HHVmRlRrhx3b51B4cP_cXlhK_ahb55cUxRJepp4Zc90,159
+drf_info_endpoint/views.py,sha256=4KXUstqC27NnoKZ3XiedGxunBCBtQRZKY-UlmGhhPeQ,686
+drf_info_endpoint-0.0.1.dist-info/LICENSE,sha256=wB67VmlkCY-4WfYefxKhORd6P_wVz-bUITUzNT6lUUg,1075
+drf_info_endpoint-0.0.1.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+drf_info_endpoint-0.0.1.dist-info/METADATA,sha256=Zn89qJkZ1jNyBI7jzavLYVIyZZiLOjgNeLmHUbZ0fBk,885
+drf_info_endpoint-0.0.1.dist-info/RECORD,,
