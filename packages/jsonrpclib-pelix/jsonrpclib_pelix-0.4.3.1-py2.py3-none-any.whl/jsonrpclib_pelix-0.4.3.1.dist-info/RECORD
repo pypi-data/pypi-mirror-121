@@ -1,0 +1,14 @@
+jsonrpclib/SimpleJSONRPCServer.py,sha256=0C_XZkUtm2uRiAhUHUiVjMMs5hMVdSao6IsUUqLLXu0,24474
+jsonrpclib/__init__.py,sha256=L7KAhze2fBqfguwDp37uIEL1umh6QBqNJeY3-64pCJU,1561
+jsonrpclib/config.py,sha256=35jqZEcD9oQeMjkZ0THkMBkwQT9HoB5qnbmW8HGvVZo,5396
+jsonrpclib/history.py,sha256=rZjlHJT5ybM2PHGh-aw_gePCMfwm_lkGQVX3USZfb2g,2378
+jsonrpclib/jsonclass.py,sha256=x_bdWjCNT43xWRAWfWyG9z8H7X0jERX7j8dbyj1604A,9811
+jsonrpclib/jsonlib.py,sha256=MwGPlwM7Y7yRs-b_keWamsoM5Ba9vCsI6ZyAp-I42NU,3217
+jsonrpclib/jsonrpc.py,sha256=X5Sr5VF2FKwiGzyUgEZpAKotdDpCUqlr2YmhKLmmfIc,42261
+jsonrpclib/threadpool.py,sha256=sTnNmfOQ75-8mCGS66vXoMeEZrAxDTsq5c-6LNg3xpk,16427
+jsonrpclib/utils.py,sha256=k5TYnWEMjPsvN8tLDlAIkXe9EZVS84BolCxzTtoQb6M,3345
+jsonrpclib_pelix-0.4.3.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+jsonrpclib_pelix-0.4.3.1.dist-info/METADATA,sha256=U2AISqVcNzcDKkptK-wSYCQ36laumvgdql7tdth6t74,17767
+jsonrpclib_pelix-0.4.3.1.dist-info/WHEEL,sha256=53VSps8MltPLN_x9Ib61FU2ZSaJKzgrWQqu9rS-Dkgk,116
+jsonrpclib_pelix-0.4.3.1.dist-info/top_level.txt,sha256=1GEPPtgjiHOgxfFLJwlrVqHeupkBNlRcmMJD77o_5Wo,11
+jsonrpclib_pelix-0.4.3.1.dist-info/RECORD,,
