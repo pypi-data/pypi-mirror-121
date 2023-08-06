@@ -1,0 +1,14 @@
+pyyaml
+soxspipe
+fundamentals
+astropy
+pathlib
+ccdproc
+docopt
+photutils
+matplotlib
+numpy
+unicodecsv
+pandas
+tabulate
+bottleneck
