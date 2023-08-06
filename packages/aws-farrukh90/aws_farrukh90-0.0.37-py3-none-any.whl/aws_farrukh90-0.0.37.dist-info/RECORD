@@ -1,0 +1,12 @@
+IAM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Lambda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Lambda/ticket1.py,sha256=_CFPOl-WRg0H9g-r9OEQ2v63b5mMtUzkVH9-lB8o5xs,2664
+ROUTE53/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ROUTE53/ticket2.py,sha256=mayolfHRufPYlYB0xj87JBmWHY3pymhZSM32dm03YHA,1263
+shared_scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shared_scripts/modules.py,sha256=XojfhDOUyJxHSjG9lDqcKRdXC7BGu8rHfvXYFJbMrmM,320
+aws_farrukh90-0.0.37.dist-info/LICENSE,sha256=rgqp22wmEeeJ8dkEFGqvlPwcz6U0Gq_YrwKM-CFBIbo,1074
+aws_farrukh90-0.0.37.dist-info/METADATA,sha256=I1wQtwX8ujx-fZk2Q6qeRMibmiqcJuj_hYGQc32eT-c,787
+aws_farrukh90-0.0.37.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_farrukh90-0.0.37.dist-info/top_level.txt,sha256=g3Qbqf0r7C0JHE1cNkrkioksuNSFPqdnuWbrRTXltxg,34
+aws_farrukh90-0.0.37.dist-info/RECORD,,
