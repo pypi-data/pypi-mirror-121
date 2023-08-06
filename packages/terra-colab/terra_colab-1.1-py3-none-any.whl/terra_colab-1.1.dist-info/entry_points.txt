@@ -1,0 +1,3 @@
+[console_scripts]
+tc-web = terra_colab.commands:web
+

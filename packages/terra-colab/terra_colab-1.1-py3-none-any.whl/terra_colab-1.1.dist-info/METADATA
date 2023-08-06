@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: terra-colab
+Version: 1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (~=2.23.0)
+Requires-Dist: GitPython (==3.1.18)
+Requires-Dist: python-dotenv (==0.19.0)
+Requires-Dist: tensorflow (==2.6.0)
+Requires-Dist: Django (==3.2.6)
+
+* This is a bulleted list.
+* It has two items, the second
+  item uses two lines.
+
+1. This is a numbered list.
+2. It has two items too.
+
+#. This is a numbered list.
+#. It has two items too.
+
