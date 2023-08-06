@@ -1,0 +1,3 @@
+[console_scripts]
+alarm=alarm.alarm:main
+
