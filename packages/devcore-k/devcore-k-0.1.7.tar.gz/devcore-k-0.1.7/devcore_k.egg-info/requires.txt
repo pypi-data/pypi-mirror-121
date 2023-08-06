@@ -1,0 +1,9 @@
+log-colorizer-hook-k
+flask-wdb-hook-k
+wdb-k
+isort
+importmagic3
+cutter
+better-exceptions
+semver
+black==18.9b0

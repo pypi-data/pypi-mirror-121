@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: devcore-k
+Version: 0.1.7
+Summary: Meta package for python development environment
+Home-page: https://github.com/paradoxxxzero/devcore
+Author: Florian Mounier
+Author-email: paradoxxx.zero@gmail.com
+License: MIT
+Platform: Any
+Provides: devcore
+
+UNKNOWN
+
