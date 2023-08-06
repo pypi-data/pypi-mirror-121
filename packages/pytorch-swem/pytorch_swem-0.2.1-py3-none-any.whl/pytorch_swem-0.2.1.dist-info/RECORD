@@ -1,0 +1,11 @@
+swem/__init__.py,sha256=H1iP48iJD4WNpZbQuFyddh5iiZzQGygMtwdT8n5eZ2Q,115
+swem/torch_utils.py,sha256=6hOInw-QlARBtvD1s74j5wP-Zh3pgN3cHih_dkaAans,2624
+swem/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swem/models/pooling.py,sha256=ZLeb-TJIOtAIxK2EjyBtocKZk_XMRl5hEtRCkqdGTYg,4961
+swem/models/swem.py,sha256=JvFYr_Bh_83pCGoWfR8Gck00_gL5v4OcUcsByKiQXWI,3580
+swem/models/word_drop_embedding.py,sha256=dYsE05yULRR0qxZarWKCSJ-dHzUXfmg7u0l6hoN6gG0,1589
+pytorch_swem-0.2.1.dist-info/LICENSE,sha256=VSSUjPluLdtE4m7fQvF5Y_8J0acy5ZoCts5eaKcU7ic,1080
+pytorch_swem-0.2.1.dist-info/METADATA,sha256=zGHO-beUpSSU4aOYqjHqLpzGHyoRWry1Ojm-n48wJJY,1681
+pytorch_swem-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytorch_swem-0.2.1.dist-info/top_level.txt,sha256=k9uKHFWsYDlywfC_0AMmol-9dgfIl9ARQEEvkE9d0l0,5
+pytorch_swem-0.2.1.dist-info/RECORD,,
