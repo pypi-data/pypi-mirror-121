@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: infra2conn
+Version: 0.0.1
+Summary: Infra 2.0 Connections
+Home-page: UNKNOWN
+Author: Renzo Becerra
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: simple-salesforce (==1.11.3)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: pyspark (==3.1.2)
+Requires-Dist: pandas (==1.1.3)
+
+UNKNOWN
+
+
