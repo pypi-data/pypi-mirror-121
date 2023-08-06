@@ -1,0 +1,5 @@
+setup.py
+sbobetmobile.egg-info/PKG-INFO
+sbobetmobile.egg-info/SOURCES.txt
+sbobetmobile.egg-info/dependency_links.txt
+sbobetmobile.egg-info/top_level.txt
