@@ -1,0 +1,17 @@
+aids/__init__.py,sha256=P5VJKL5aOvPQDqo81eav7q1brQAlqq2FTS4KyPQ_9Ok,23
+aids/commands.py,sha256=wjtAHaXL9ivH1AzUHdRw-XK8ornDWyZ819CDpPBoZfc,6314
+aids/manage.py,sha256=JB0PmxYWfyPFUquZCbs3aND__ZpLUJpuW3EGMs-fyFc,2107
+aids/to_html.py,sha256=dy_j6C7ESAVCG9esa01pmRntvoKcQMDFtlJM_SQ4fBs,5423
+aids/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aids/app/client.py,sha256=MAUg46UEDEYuJ33IKJFUbsU08QOXDx_vq4nC4X0D_fk,16286
+aids/app/models.py,sha256=-QWeoERvKGcB2UjJEFbdiJqjHt_1_eNwwm6SCp0IUAM,8581
+aids/app/obfuscate.py,sha256=jUtx3gfyzzQVMeyXxOjhfB41sVaW4Wr-KVQ7PbLZJLM,491
+aids/app/schemes.py,sha256=7pMMYs8Tuyv25xVnsBXcRps3fpmeTtRaECjkM4J2hTc,17700
+aids/app/settings.py,sha256=Z1R5Q6kgAi8__i4sVwM80B6xtB9zbkMJ2bXKSQymeJQ,1138
+aids/app/tests.py,sha256=CiIGBVORQcAwlmKgwBpW0XmON_1tLBNOM--L5WT2_cM,9596
+aids/app/writelogs.py,sha256=Q1DM50khMfEFgb8wHueXGqCi3-BqvjqPKlvp5EEkQ8I,1453
+aids-0.1.1.dist-info/LICENSE,sha256=4PpcJ21P52x-J7HhLAviQ72AHEgTRHeTBy0lIcKlXLg,1066
+aids-0.1.1.dist-info/METADATA,sha256=FDDjvMR3A9tWH2ib6cWShbFLSw-2Kh9ZG-W50xAV7u8,1399
+aids-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aids-0.1.1.dist-info/top_level.txt,sha256=d8hctBO8vwAyMHcdGAZqyWj34EZBZy9bwdW6Gw3VWc8,5
+aids-0.1.1.dist-info/RECORD,,
