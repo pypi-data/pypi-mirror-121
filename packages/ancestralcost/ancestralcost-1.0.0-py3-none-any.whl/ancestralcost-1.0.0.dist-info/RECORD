@@ -1,0 +1,15 @@
+ancestralcost/__init__.py,sha256=hSXgdEPkxP50ODtk3zmg8gOq4f0zQxyIXezrl59pt5s,96
+ancestralcost/__main__.py,sha256=Hg1wHBizK_d_Qb5hdpnbUI71qGHUhnyGu8TK_PQ11xY,4338
+ancestralcost/alignment_permutations.py,sha256=7LJIElCHpX19ET4ncbzk3AWWS1gwSiOrG2QzE36FrVY,4404
+ancestralcost/ancestralcost.py,sha256=Hg1wHBizK_d_Qb5hdpnbUI71qGHUhnyGu8TK_PQ11xY,4338
+ancestralcost/graph.py,sha256=uyz9zp0o0K54HYGt4wsXcQcE-owrYcuYWHDIQ2sUq08,1955
+ancestralcost/indel_placement.py,sha256=G2JSPxbTgPW08S6xvhBfH3pH1dLxkuUkyRI1zxsV-gk,51681
+ancestralcost/oldmain.py,sha256=Q9N4UI1M7SBrzALLYYk3BxeGQgpqHwNndTUC9ERFlw8,7566
+ancestralcost/tree_code.py,sha256=3tf4K9QU3nmkt2mecAY7893UIbUp1UDXXJIjttw-yIU,3824
+ancestralcost-1.0.0.data/data/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+ancestralcost-1.0.0.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+ancestralcost-1.0.0.dist-info/METADATA,sha256=lnxmY2NJaqJU4H-kOaZoum13izgiMz1SajBrz5y7W4c,3942
+ancestralcost-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ancestralcost-1.0.0.dist-info/entry_points.txt,sha256=oOvc2JooeEbIEuxhtMWjEzGqUgvCla5klARKTwy8SXs,62
+ancestralcost-1.0.0.dist-info/top_level.txt,sha256=qXo9-hp2OyvJ7Gk3nudrBw3UwV32CflG0uh_gXF4wvg,14
+ancestralcost-1.0.0.dist-info/RECORD,,
