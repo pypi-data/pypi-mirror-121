@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ip-api-py
+Version: 0.1.0
+Summary: unoffical https://ip-api.com/ python API
+License: AGPL
+Author: dev
+Author-email: dev@qiyutech.tech
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.7,<2)
+Requires-Dist: requests (>=2.26,<3)
