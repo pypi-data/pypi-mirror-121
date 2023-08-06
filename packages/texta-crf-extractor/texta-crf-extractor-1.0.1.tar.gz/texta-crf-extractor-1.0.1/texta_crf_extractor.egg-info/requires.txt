@@ -1,0 +1,5 @@
+pytest
+python-crfsuite
+scikit-learn==0.22.2
+texta-mlp>=1.12.1
+texta-tools
