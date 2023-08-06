@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: vista
+Version: 0.2.0
+Summary: Data-driven simulation for training and evaluating full-scale autonomous vehicles
+Home-page: https://github.com/aamini/vista
+Author: Alexander Amini
+Author-email: amini@mit.edu
+License: MIT license
+Keywords: vista
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+License-File: LICENSE
+
+================
+VISTA Simulator
+================
+
+**VISTA** (Virtual Image Synthesis and Transformation for Autonomy) is a **data-driven simulator for training and evaluating full-scale autonomous vehicles**.
+
+The code in this repository accompanies the following submission (under review):
+
+.. code-block::
+
+    @article{amini2020learning,
+        title={VISTA 2.0: An Open, Data-driven Simulator for Multimodal Sensing and Policy Learning for Autonomous Vehicles},
+        author={Amini, Alexander and Wang, Tsun-Hsuan and Gilitschenski, Igor and Schwarting, Wilko and Liu, Zhijian and Han, Song and Karaman, Sertac and Rus, Daniela},
+        journal={IEEE International Conference on Robotics and Automation},
+        year={2022},
+        publisher={IEEE}
+    }
+
+
+
+Features
+--------
+Coming soon! This repository will be fully released once the above submission is accepted and published!
+
+
+=======
+History
+=======
+
+0.1.0 (2020-02-10)
+------------------
+
+* First release on PyPI.
+
+
