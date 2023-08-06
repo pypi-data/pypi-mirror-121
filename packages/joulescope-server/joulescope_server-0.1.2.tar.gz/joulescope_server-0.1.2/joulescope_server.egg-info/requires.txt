@@ -1,0 +1,6 @@
+joulescope>=0.8.14
+
+[dev]
+check-manifest
+coverage
+wheel

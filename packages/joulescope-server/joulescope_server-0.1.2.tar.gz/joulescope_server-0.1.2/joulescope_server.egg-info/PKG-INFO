@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: joulescope-server
+Version: 0.1.2
+Summary: Joulescope™ server
+Home-page: https://joulescope.readthedocs.io
+Author: Jetperch LLC
+Author-email: joulescope-dev@jetperch.com
+License: Apache 2.0
+Project-URL: Bug Reports, https://github.com/jetperch/pyjoulescope_server/issues
+Project-URL: Funding, https://www.joulescope.com
+Project-URL: Twitter, https://twitter.com/joulescope
+Project-URL: Source, https://github.com/jetperch/pyjoulescope_server/
+Description: 
+        # Joulescope Server
+        
+        Welcome to the pyjoulescope_server package!  This package enables Joulescopes
+        and [pyjoulescope](https://github.com/jetperch/pyjoulescope) to communicate 
+        over a network and interface with other programming languages using sockets.
+        
+        The Joulescope UI is under active development, and many features remain 
+        outstanding. See the [future features document](features_future.md) for details.
+        
+        
+        ## Quick start
+        
+        Install Python for your platform.  See the 
+        [installation instructions](https://joulescope.readthedocs.io/en/latest/user/install.html)
+        for pyjoulescope for details.  Then:
+        
+            pip3 install -U joulescope_server
+        
+        You should then be able to run the server:
+        
+            joulescope_server
+            
+        If you would prefer to run directly from the clone git repo:
+        
+            python3 -m joulescope_server
+        
+        
+        ## License
+        
+        All pyjoulescope_ui code is released under the permissive Apache 2.0 license.
+        See the [License File](LICENSE.txt) for details.
+        
+Keywords: joulescope server
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
