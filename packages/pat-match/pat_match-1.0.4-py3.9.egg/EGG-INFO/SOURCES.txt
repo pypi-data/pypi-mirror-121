@@ -1,0 +1,14 @@
+README.md
+setup.py
+pat_match.egg-info/PKG-INFO
+pat_match.egg-info/SOURCES.txt
+pat_match.egg-info/dependency_links.txt
+pat_match.egg-info/entry_points.txt
+pat_match.egg-info/not-zip-safe
+pat_match.egg-info/requires.txt
+pat_match.egg-info/top_level.txt
+scripts/FastafastqGenerator.py
+scripts/__init__.py
+scripts/search_ba.py
+scripts/search_naive.py
+scripts/utils.py
