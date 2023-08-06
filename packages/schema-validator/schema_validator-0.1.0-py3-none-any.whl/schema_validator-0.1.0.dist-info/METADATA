@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: schema-validator
+Version: 0.1.0
+Summary: A flask extension to provide schema validation with pydantic.
+License: MIT
+Author: hs
+Author-email: huangxiaohen2738@gmail.com
+Requires-Python: >=3.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: flask (>=2.0)
+Requires-Dist: pydantic (>=1.8)
+Requires-Dist: pyhumps (>=1.6.1)
+Requires-Dist: typing_extensions; python_version < "3.8"
+Description-Content-Type: text/markdown
+
+flask-dantic-schema
+============
+
+#### Generate for quart-schema
+
+[![Build Status](https://app.travis-ci.com/huangxiaohen2738/flask-dantic-schema.svg?branch=main)](https://app.travis-ci.com/huangxiaohen2738/flask-dantic-schema)
+
+
+
+### Install
+
+ - `pip install schema-validator`
+
+### How to use
+
+```
+    from dataclasses import dataclass
+    from datetime import datetime
+    from typing import Optional
+    from pydantic import BaseModel
+
+    from flask import Flask
+    from schema_validator import FlaskSchema, validate
+
+    app = Flask(__name__)
+    
+    FlaskSchema(app)
+    
+    OR
+    
+    schema = FlaskSchema()
+    schema.init_app(app)
+
+    @dataclass
+    class Todo:
+        task: str
+        due: Optional[datetime]
+
+    class TodoResponse(BaseModel):
+        id: int
+        name: str
+
+    @app.post("/")
+    @validate(body=Todo, responses={200: TodoResponse})
+    def create_todo():
+        ... # Do something with data, e.g. save to the DB
+        return data
+       
+    app.cli.add_command(generate_schema_command)
+    
+    virtualenv:  flask schema swagger.json -> generate json swagger
+```
+
