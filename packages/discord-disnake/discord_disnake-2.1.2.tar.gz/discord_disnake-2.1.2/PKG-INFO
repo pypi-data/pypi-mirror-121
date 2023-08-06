@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: discord_disnake
+Version: 2.1.2
+Summary: A disnake shim. Disnake is a Python wrapper for the Discord API
+Home-page: https://github.com/EQUENOS/disnake
+Author: Rapptz, EQUENOS
+License: MIT
+Project-URL: Documentation, https://disnake.readthedocs.io/en/latest/
+Project-URL: Issue tracker, https://github.com/EQUENOS/disnake/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: voice
+Provides-Extra: docs
+Provides-Extra: speed
+License-File: LICENSE
+
+# This package is a shim
+
+This module allows to use [disnake](https://github.com/EQUENOS/disnake) using `discord` imports. It's not an independent library.
+
+# Installing
+
+**Python 3.8 or higher is required**
+
+Run the following command:
+
+```sh
+
+# Linux/macOS
+python3 -m pip install -U "disnake[discord]"
+
+# Windows
+py -3 -m pip install -U disnake[discord]
+```
+
+# Links
+
+* [Documentation](https://disnake.readthedocs.io/en/latest/)
+* [disnake GitHub](https://github.com/EQUENOS/disnake)
+* [disnake Discord](https://discord.gg/gJDbCw8aQy)
+
+
