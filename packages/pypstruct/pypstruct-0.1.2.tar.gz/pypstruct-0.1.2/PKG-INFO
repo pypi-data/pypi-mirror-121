@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pypstruct
+Version: 0.1.2
+Summary: PDB coordinates management python package
+Home-page: https://github.com/MMSB-MOBI/pypstruct
+License: GPL
+Author: glaunay
+Author-email: pitooon@gmail.com
+Requires-Python: >=3.7,<3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Project-URL: Repository, https://github.com/MMSB-MOBI/pypstruct
