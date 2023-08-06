@@ -1,0 +1,3 @@
+[console_scripts]
+redvault = redvault.cli:main
+
