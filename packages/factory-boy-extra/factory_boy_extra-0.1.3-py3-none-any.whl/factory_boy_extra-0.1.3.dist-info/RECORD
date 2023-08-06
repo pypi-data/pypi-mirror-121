@@ -1,0 +1,7 @@
+factory_boy_extra/__init__.py,sha256=sVAdX6E20uVJ6DQ7aFgXSfT_cCD0QABgjirp_HyIA1k,38
+factory_boy_extra/async_sqlalchemy_factory.py,sha256=DiDc8GJZElRSVEn9K6nEPZX2LMJTUtdavMnaqezv0hE,2420
+factory_boy_extra/tortoise_factory.py,sha256=uQEn2fv62usSch8UfJZP8zWpBvYq6J8V9tZREM9zdNM,657
+factory_boy_extra-0.1.3.dist-info/LICENSE,sha256=aCg6y8xNUt20CMOUnNqc4AtiI8q5wkLHW5LKumrACsU,1070
+factory_boy_extra-0.1.3.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+factory_boy_extra-0.1.3.dist-info/METADATA,sha256=4JruHm7XEkeEsaSd9Mhmd7ZuKJBqADlO3DEUz3j_8QU,3630
+factory_boy_extra-0.1.3.dist-info/RECORD,,
