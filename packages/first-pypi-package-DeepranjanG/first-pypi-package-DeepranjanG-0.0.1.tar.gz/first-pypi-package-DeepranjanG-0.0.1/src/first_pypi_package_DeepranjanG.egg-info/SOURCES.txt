@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/first_pypi_package_DeepranjanG.egg-info/PKG-INFO
+src/first_pypi_package_DeepranjanG.egg-info/SOURCES.txt
+src/first_pypi_package_DeepranjanG.egg-info/dependency_links.txt
+src/first_pypi_package_DeepranjanG.egg-info/requires.txt
+src/first_pypi_package_DeepranjanG.egg-info/top_level.txt
+src/oneNeuron/__init__.py
+src/oneNeuron/perceptron.py
