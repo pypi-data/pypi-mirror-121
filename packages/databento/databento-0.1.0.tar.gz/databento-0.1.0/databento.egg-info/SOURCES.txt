@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+databento/__init__.py
+databento.egg-info/PKG-INFO
+databento.egg-info/SOURCES.txt
+databento.egg-info/dependency_links.txt
+databento.egg-info/not-zip-safe
+databento.egg-info/requires.txt
+databento.egg-info/top_level.txt

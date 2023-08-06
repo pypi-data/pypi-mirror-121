@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: databento
+Version: 0.1.0
+Summary: Python client library for the Databento API
+Home-page: https://github.com/databento/databento-python
+Author: Databento
+Author-email: support@databento.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/databento/databento-python/issues
+Project-URL: Documentation, https://docs.databento.com/reference-historical
+Project-URL: Source Code, https://github.com/databento/databento-python
+Description: file: README.md
+Keywords: databento financial market data API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.*
