@@ -1,0 +1,17 @@
+lib2nbdev/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+lib2nbdev/_nbdev.py,sha256=4nsuoEA9bat2Z8hk7hHG4rfKYPtGbRNLhc4XXJ33bG0,779
+lib2nbdev/convert.py,sha256=pO_o1tynj6YOQrMkrhsavUPLNuhUcVn4U6o6J-XjVRk,8457
+lib2nbdev/generators.py,sha256=X-GxVTYaqAMAxUpbAkoVCl-88q1EwGmoZ5xIOetKcLA,7170
+lib2nbdev-0.0.8.egg-info/PKG-INFO,sha256=orRj5ZRp3B23Rwio7ypNIIQOg8eI4-GlyLODuTXOVC0,3100
+lib2nbdev-0.0.8.egg-info/SOURCES.txt,sha256=-3caqAP4w4pP-GUqrueeR7LcgHsq7L08G3bNKt7Q67U,386
+lib2nbdev-0.0.8.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lib2nbdev-0.0.8.egg-info/entry_points.txt,sha256=Z5Av_buQ1R2wxtEgb0PaT-xORTsvVBBsQdwFbQ4qZBw,63
+lib2nbdev-0.0.8.egg-info/not-zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lib2nbdev-0.0.8.egg-info/requires.txt,sha256=wJrg_AP1rns-6c7U4sLiNaisdKoAY3PLhKFQKdpCbvw,68
+lib2nbdev-0.0.8.egg-info/top_level.txt,sha256=hvHEyXA7NEcGHX89nqJfjzLnH1AG1MBeqaOEjIyurC4,10
+lib2nbdev-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lib2nbdev-0.0.8.dist-info/METADATA,sha256=PszHmHrPV0HAcJ-eOFsdFmPs3vUAK4lV-pvNaodTgD4,2891
+lib2nbdev-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+lib2nbdev-0.0.8.dist-info/entry_points.txt,sha256=Z5Av_buQ1R2wxtEgb0PaT-xORTsvVBBsQdwFbQ4qZBw,63
+lib2nbdev-0.0.8.dist-info/top_level.txt,sha256=hvHEyXA7NEcGHX89nqJfjzLnH1AG1MBeqaOEjIyurC4,10
+lib2nbdev-0.0.8.dist-info/RECORD,,
