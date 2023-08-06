@@ -1,0 +1,3 @@
+[console_scripts]
+posca=posca.main:app
+

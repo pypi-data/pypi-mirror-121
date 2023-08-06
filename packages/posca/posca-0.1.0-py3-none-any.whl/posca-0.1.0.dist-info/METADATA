@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: posca
+Version: 0.1.0
+Summary: a tiny portscanning app
+Author: Leo B.
+Author-email: bernerdoodle@outlook.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# POSCA
+
+Just a tiny port scanning cli app
