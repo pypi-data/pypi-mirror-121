@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-fernet-encrypted-fields
+Version: 0.0.1
+Summary: This is inspired by django-encrypted-fields.
+Home-page: http://github.com/frgmt/django-fernet-encrypted-fields/
+Author: fragment.co.jp
+Author-email: info@fragment.co.jp
+License: MIT
+Platform: UNKNOWN
+License-File: LICENCE.txt
+
+UNKNOWN
+
