@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: jsonwriter
+Version: 0.0.6
+Summary: Easy JSON Writer
+Home-page: https://github.com/nawafalqari/jsonwriter
+Author: Nawaf Alqari
+Author-email: nawafalqari13@gmail.com
+License: MIT
+Description: # JSON Writer
+        Easy package to write JSON files
+        
+        ## About
+        `jsonwriter` is an easy JSON writer, when i say easy i mean super easy
+        ##### Made by <a href="https://nawaf.cf">Nawaf Alqari<a> in 2021
+        
+        ## Installation 
+        ### PIP
+        ```bash
+        pip install jsonwriter
+        ```
+        
+        ## Examples
+        ##### names.json
+        ```json
+        {
+           "name": "Nawaf",
+           "age": 10
+        }
+        ```
+        
+        ```python
+        from jsonwriter import file
+        
+        db = file('names.json')
+        
+        print(db.get('name')) # Nawaf
+        print(db.get('age')) # 10
+        
+        # Recommended indent is 3, to make it more readable
+        db.set('age', 30, indent=0) # {"name": "Nawaf", "age": 30}
+        db.set('age', 30, indent=3)
+        
+        # {
+        #     "name": "Nawaf",
+        #     "age": 30
+        # }
+        
+        print(db.hasKey('name')) # True
+        print(db.hasValue('Nawaf')) # True
+        
+        print(db.hasAll('name')) # True
+        print(db.hasAll('Nawaf')) # True
+        
+        print(db.keys) # ['name', 'age']
+        print(db.values) # ['Nawaf', 30]
+        ```
+Keywords: jsondb,json database,jsondatabase,json editor,json,json writer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
