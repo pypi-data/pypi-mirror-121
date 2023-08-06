@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+cpetreanu_gaussian_binomial/Binomialdistribution.py
+cpetreanu_gaussian_binomial/Gaussiandistribution.py
+cpetreanu_gaussian_binomial/Generaldistribution.py
+cpetreanu_gaussian_binomial/__init__.py
+cpetreanu_gaussian_binomial.egg-info/PKG-INFO
+cpetreanu_gaussian_binomial.egg-info/SOURCES.txt
+cpetreanu_gaussian_binomial.egg-info/dependency_links.txt
+cpetreanu_gaussian_binomial.egg-info/not-zip-safe
+cpetreanu_gaussian_binomial.egg-info/top_level.txt
