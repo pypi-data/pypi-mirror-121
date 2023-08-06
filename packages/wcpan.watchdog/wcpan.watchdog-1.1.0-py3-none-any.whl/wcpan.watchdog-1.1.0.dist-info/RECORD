@@ -1,0 +1,11 @@
+wcpan/watchdog/__init__.py,sha256=b6-WiVk0Li5MaV2rBnHYl104TsouINojSWKqHDas0js,22
+wcpan/watchdog/__main__.py,sha256=_WKVb7pnDijEUWogaAlJ0O8dVuQNTyCWqNG88gko32w,97
+wcpan/watchdog/filters.py,sha256=kgtufsjNDpIsC6CJvnufHGpkXolW3qVNcpxwQlcysZQ,3456
+wcpan/watchdog/main.py,sha256=irUOkx1o2852vrqIZ6nX8EFl4NGpAmkgpmmiOSJf2GQ,2709
+wcpan/watchdog/walker.py,sha256=GMM08dyHtqhboRY2InuIlh9vvUd37-pO8_PnYmWzgB4,1923
+wcpan/watchdog/watcher.py,sha256=hMk0kLAokp1JW7X8-Madzi1e6U8xBED1POF-aw7Ibb0,6708
+wcpan.watchdog-1.1.0.dist-info/LICENSE.txt,sha256=dwNOoZe6EyB6jo78-vW130eSAJAihLCFE-X-mVxO1Uo,1102
+wcpan.watchdog-1.1.0.dist-info/METADATA,sha256=efLUKdK3p7BpZX27ioVAOzwFS9cpnfUxZ00zvcKB5_U,1597
+wcpan.watchdog-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wcpan.watchdog-1.1.0.dist-info/top_level.txt,sha256=QL-0JHAW3jlvYtxLqRkcp3PDnpgzhhNgn4cH9RG_C4Q,6
+wcpan.watchdog-1.1.0.dist-info/RECORD,,
