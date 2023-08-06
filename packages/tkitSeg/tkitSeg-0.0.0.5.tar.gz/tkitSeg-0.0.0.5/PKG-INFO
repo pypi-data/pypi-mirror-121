@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tkitSeg
+Version: 0.0.0.5
+Summary: Terry toolkit tkitSeg,一个中文分词和词性标注工具
+Home-page: https://docs.terrychan.org/tkit-seg/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tkit-seg分词软件的开发项目
+
+将会用于开发深度学习的分词模块
+
+
+- 不使用crf
+- 模型参数尽量少
+- 运行速度尽量快
+- 使用 onnx加速推理
+
+
+
+https://www.kaggle.com/terrychanorg/span-book321b1f608/edit
+
+
