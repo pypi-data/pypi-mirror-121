@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: webdiffForCOI
+Version: 0.15.7
+Summary: webdiffForCOI is now webdiff-for-coi
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # webdiffForCOI is now webdiff-for-coi
+        
+        This package has been renamed. Use `pip install webdiff-for-coi` instead.
+        
+        New package: https://pypi.org/project/webdiff-for-coi/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown

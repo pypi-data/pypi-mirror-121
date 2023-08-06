@@ -1,0 +1,7 @@
+README.md
+setup.py
+webdiffForCOI.egg-info/PKG-INFO
+webdiffForCOI.egg-info/SOURCES.txt
+webdiffForCOI.egg-info/dependency_links.txt
+webdiffForCOI.egg-info/requires.txt
+webdiffForCOI.egg-info/top_level.txt
