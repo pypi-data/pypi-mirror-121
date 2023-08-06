@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/strawberry_django_optimizer/__init__.py
+src/strawberry_django_optimizer/field.py
+src/strawberry_django_optimizer/hints.py
+src/strawberry_django_optimizer/query.py
+src/strawberry_django_optimizer/resolver.py
+src/strawberry_django_optimizer/store.py
+src/strawberry_django_optimizer/utils.py
+src/strawberry_django_optimizer.egg-info/PKG-INFO
+src/strawberry_django_optimizer.egg-info/SOURCES.txt
+src/strawberry_django_optimizer.egg-info/dependency_links.txt
+src/strawberry_django_optimizer.egg-info/top_level.txt
