@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: scitChIP_Sep
+Version: 0.0.4
+Summary: A package to make file preparation for sc-itChIP sequence files
+Home-page: https://github.com/yoshihiko1218/sc-itChIP-Separator
+Author: Jiayan(Yoshii) Ma
+Author-email: jim095@ucsd.edu
+License: MIT
+Keywords: scitChIP preprocess separator package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Sample Package made for a demo       of its making for the GeeksforGeeks Article.
+
