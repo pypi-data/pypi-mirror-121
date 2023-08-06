@@ -1,0 +1,15 @@
+mypy_boto3_detective/__init__.py,sha256=RwDjipkyiTNQcJTzGEmXDLlv6hpVeCIkb3QYZ_-2oRk,439
+mypy_boto3_detective/__init__.pyi,sha256=M1ZXz7KM9A97tRzbOOpHjDFW6KFsVR6v9_FK8-6wRd0,438
+mypy_boto3_detective/__main__.py,sha256=ivvTuKDKJHvzidRikhH_ib8M5dMS_RfrJ2eltJL00qg,905
+mypy_boto3_detective/client.py,sha256=roeY4aY7oFtyitb6GMYgllcJCf3syM0iGzyH4B73l7U,10434
+mypy_boto3_detective/client.pyi,sha256=Vh8-jdCeOOu87cS_LjUb5M_1PJOf7MkVFw5VoTX1txA,10412
+mypy_boto3_detective/literals.py,sha256=Dn-f5A-9oZYBue6IvqXx0obPurAE5yS3_xLA1AswrXM,6022
+mypy_boto3_detective/literals.pyi,sha256=5WTqN4t8j4jFdPIXcF_WslLFPRMwRqOoqtVlyQTr7bo,6020
+mypy_boto3_detective/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_detective/type_defs.py,sha256=azTOHkCe7ZRJv4h-AAgHM1LXXp8Wd0kgI7VsgnR_4lI,7774
+mypy_boto3_detective/type_defs.pyi,sha256=1d41nr8wJJLXfFxuZjzikA5UM3jErEMUygnRtKIgNzQ,7769
+mypy_boto3_detective/version.py,sha256=5D3HNfrHt8akMYdXOCemr22o14AT48bQWfTRAKYMNHY,61
+mypy_boto3_detective-1.18.50.dist-info/METADATA,sha256=5lmq8MEjJqGp3zJq7fmi5BTne4pXDHNcvA2JOjvi-jA,8430
+mypy_boto3_detective-1.18.50.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mypy_boto3_detective-1.18.50.dist-info/top_level.txt,sha256=kmUb3qNbWyjPzOWOes-dwOREOan3vES31M5W_ffWg8I,21
+mypy_boto3_detective-1.18.50.dist-info/RECORD,,
