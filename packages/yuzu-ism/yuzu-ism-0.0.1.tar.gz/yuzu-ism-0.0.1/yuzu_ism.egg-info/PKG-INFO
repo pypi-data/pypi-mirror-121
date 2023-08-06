@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: yuzu-ism
+Version: 0.0.1
+Summary: yuzu implements a compressed-sensing based approach for speeding up saliency calculations.
+Home-page: http://pypi.python.org/pypi/yuzu-ism/
+Author: Jacob Schreiber
+Author-email: jmschreiber91@gmail.com
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
