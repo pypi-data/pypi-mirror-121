@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Letter2Binary
+Version: 1.0
+Summary: Letter to binary
+Home-page: UNKNOWN
+Author: iFanpS
+Author-email: imezz8424@gmail.com
+License: MIT
+Keywords: ltbfan,ltb_s,ltb
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+## How to use
+
+* 1. pip install ltb_s
+* 2. import ltb_s
+  * 3. print(genbinary(text_letter))
+
+## Credit
+
+* iFanpS 
+

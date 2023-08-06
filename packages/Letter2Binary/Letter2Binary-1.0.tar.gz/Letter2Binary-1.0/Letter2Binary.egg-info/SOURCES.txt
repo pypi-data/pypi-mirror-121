@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+Letter2Binary.egg-info/PKG-INFO
+Letter2Binary.egg-info/SOURCES.txt
+Letter2Binary.egg-info/dependency_links.txt
+Letter2Binary.egg-info/top_level.txt
+ltb_s/__init__.py
