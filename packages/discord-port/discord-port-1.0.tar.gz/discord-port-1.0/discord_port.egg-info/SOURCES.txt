@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+discord_port/auth.py
+discord_port/user.py
+discord_port.egg-info/PKG-INFO
+discord_port.egg-info/SOURCES.txt
+discord_port.egg-info/dependency_links.txt
+discord_port.egg-info/requires.txt
+discord_port.egg-info/top_level.txt
