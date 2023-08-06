@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: stemplates
+Version: 1.0.1
+Summary: Simple file template renderer
+Home-page: https://github.com/comonadd/stemplates
+Author: Dmitry Guzeev
+Author-email: dmitri.guzeev@gmail.com
+License: MIT
+Keywords: templates render template file string
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stemplates
+
+Render files with embedded python code. Executes `exec` and substitutes
+expression with the result.
+
+## Usage
+
+```python
+from stemplates import render_template
+# Simple substitution
+text = "Hello, {% username %}"
+rendered = render_template(text, username="John")
+# Conditionals
+text = "Hello, {% f'{name} {lastname}' if full_name else name %}"
+rendered = render_template(text, name="John", lastname="Green", full_name=False)
+# Render files
+render_file_to("some.template", "out.txt", param1="Param", param2="...")
+```
+
+## Install
+
+```bash
+pip install stemplates
+```
+
+
