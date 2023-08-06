@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>uploading</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ota.css'%}">
+</head>
+<body>
+<header>
+    <div id="main">
+        <div class="logo"></div>
+    </div>
+
+
+    <form>
+        <input type="button" class="submit" value="Go back!" onclick="history.back()">
+    </form>
+
+
+
+    <div class="text1">
+        <h1> OTA Upload </h1>
+    </div>
+
+    <div class="upload">
+        <form method="post" enctype="multipart/form-data" >
+            {% csrf_token %}
+            <input type="text" class="upload-box" name="u_name">
+            <button type="submit" class="submit" onclick="location.href = 'app'">Upload file</button>
+            </form>
+            <h1> Enter Folder path to be Uploaded </h1>
+        <h2 style="color: red;">{{error}} </h2>
+        <h3 style="color: red;">{{success}} </h3>
+    </div>
+
+
+</header>
+</body>
+</html>

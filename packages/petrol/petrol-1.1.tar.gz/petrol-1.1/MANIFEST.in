@@ -1,0 +1,5 @@
+include deft-melody-321207-aea054bd13bd.json
+include main.py
+include manage.py
+recursive-include petrol/static/ *
+recursive-include petrol/templates/ *

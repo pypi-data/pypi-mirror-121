@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Downloading</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'otadownload.css'%}">
+</head>
+<body>
+
+<header>
+    <div id="main1">
+        <div class="logo"></div>
+
+    </div>
+
+    <form>
+        <input type="button" class="submit" value="Go back!" onclick="history.back()">
+    </form>
+
+
+    <div class="text1">
+        <h1> OTA Download </h1>
+    </div>
+
+
+
+    <div class="download">
+        <form method="post" enctype="multipart/form-data" >
+            {% csrf_token %}
+            <input type="text" class="dowload-box" name="downloaded_file">
+            <button class="submit" onclick="location.href = 'example'"> Download file</button>
+
+            </form>
+            <h1> Enter Folder path to be Downloaded </h1>
+        <h2 style="color: red;">{{error}} </h2>
+        <h2 style="color: green;">{{success}} </h2>
+    </div>
+
+
+</header>
+
+
+</body>
+</html>
+
