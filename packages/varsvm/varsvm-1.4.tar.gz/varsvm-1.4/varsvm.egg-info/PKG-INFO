@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: varsvm
+Version: 1.4
+Summary: Python library for Variants of Support Vector Machines
+Home-page: https://github.com/statmlben/Variant-SVM
+Author: Ben Dai
+Author-email: bdai@umn.edu
+License: MIT
+Download-URL: https://github.com/statmlben/Variant-SVM/archive/1.4.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN

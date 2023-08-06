@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+varsvm/__init__.py
+varsvm/driftsvm.py
+varsvm/fastloop.pyx
+varsvm/noneg_driftsvm.py
+varsvm/setup.py
+varsvm/weightsvm.py
+varsvm.egg-info/PKG-INFO
+varsvm.egg-info/SOURCES.txt
+varsvm.egg-info/dependency_links.txt
+varsvm.egg-info/requires.txt
+varsvm.egg-info/top_level.txt
