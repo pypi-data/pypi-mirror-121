@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cyberpoweredpc
+Version: 0.0.2
+Summary: A cyber-powered PC builder for cyberpowerpc.com
+Author-email: DareDoes <me@daredoes.work>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/daredoes/cyberpoweredpc
+
+# cyberpoweredpc
+A cyber powered PC builder for cyberpowerpc
+
