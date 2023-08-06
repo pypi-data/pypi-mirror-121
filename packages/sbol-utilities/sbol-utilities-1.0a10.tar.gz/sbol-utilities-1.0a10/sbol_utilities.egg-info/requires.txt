@@ -1,0 +1,4 @@
+sbol3>=1.0b7
+graphviz
+tyto>=1.0-beta
+openpyxl
