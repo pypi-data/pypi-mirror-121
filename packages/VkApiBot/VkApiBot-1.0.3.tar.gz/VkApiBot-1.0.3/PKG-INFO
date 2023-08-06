@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: VkApiBot
+Version: 1.0.3
+Summary: Very well python library for easy work with vk_api lib.
+Home-page: UNKNOWN
+Author: Sicquze
+Author-email: Sicquzeeee@gmail.com
+License: UNKNOWN
+Description: # VkApiBot
+        ____
+        
+        **VkApiBot** - Р±РёР±Р»РёРѕС‚РµРєР° РґР»СЏ Р»РµРіРєРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РјРѕРґСѓР»СЏ vk_api
+        
+        [https://vk.com/id559935246](РњРѕР№ Р’Рљ)
+        ___
+        ## РЎСѓС‰РµСЃС‚РІСѓРµС‚ С‚СЂРё РІРёРґР° С…РµРЅРґР»РµСЂРѕРІ:
+        ___
+        
+        #### message_handler_from_chat - РІРѕР·РІСЂР°С‰Р°РµС‚ РґР°РЅРЅС‹Рµ РїРѕР»СѓС‡РµРЅРЅС‹Рµ РёР· Р±РµСЃРµРґ
+            @bot.message_handler_from_chat()
+            def on_message(data):
+                peer_id = data.peer_id
+                bot.api.messages.send(peer_id=peer_id, message="Р’С‹ РЅР°РїРёСЃР°Р»Рё РјРЅРµ РёР· Р±РµСЃРµРґС‹", random_id=0)
+        
+        
+        #### message_handler_from_private - РІРѕР·РІСЂР°С‰Р°РµС‚ РґР°РЅРЅС‹Рµ, РїРѕР»СѓС‡РµРЅРЅС‹Рµ РёР· Р›РЎ СЃРѕРѕР±С‰РµСЃС‚РІР°
+            @bot.message_handler_from_chat()
+            def on_message(data):
+                peer_id = data.peer_id
+                bot.api.messages.send(peer_id=peer_id, message="Р’С‹ РЅР°РїРёСЃР°Р»Рё РјРЅРµ РёР· Р›РЎ СЃРѕРѕР±С‰РµСЃС‚РІР°", random_id=0)
+        
+        #### message_event_handler - РІРѕР·РІСЂР°С‰Р°РµС‚ РґР°РЅРЅС‹Рµ РїСЂРё РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёРё СЃ СЃРѕРѕР±С‰РµРЅРёРµРј
+            @bot.message_handler_from_chat()
+            def on_message(data):
+                bot.api.messages.sendMessageEventAnswer(
+                    event_id=data.event_id,
+                    user_id=event.user_id,
+                    peer_id=event.peer_id,
+                    event_data=json.dumps(event.payload),
+                )
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
