@@ -1,0 +1,25 @@
+[Tue Sep 28 17:28:32 2021][main/Info] loading for downloader:1.11.1rc1
+[Tue Sep 28 17:28:32 2021][main/Info] Connected to log file:log/2021-09-28-17-17-32.log
+[Tue Sep 28 17:28:38 2021][main/INFO] Setting user:1
+[Tue Sep 28 17:28:39 2021][main/Info] icon loaded
+[Tue Sep 28 17:28:39 2021][main/Info] load settings.properties sucsess
+[Tue Sep 28 17:28:39 2021][main/Info] timer initlazing sucsess
+[Tue Sep 28 17:28:39 2021][main/Info] backend library:PyQt5 version 5.15.4 build on Qt 5.15.2
+[Tue Sep 28 17:28:44 2021][main/Info] Downloading
+[Tue Sep 28 17:28:44 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:28:49 2021][main/Info] Downloading
+[Tue Sep 28 17:28:49 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:28:50 2021][main/Info] Downloading
+[Tue Sep 28 17:28:50 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:28:52 2021][main/Info] Downloading
+[Tue Sep 28 17:28:52 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:28:53 2021][main/Info] Downloading
+[Tue Sep 28 17:28:54 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:28:55 2021][main/Info] Downloading
+[Tue Sep 28 17:28:55 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:28:56 2021][main/Info] Downloading
+[Tue Sep 28 17:28:57 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:28:58 2021][main/Info] Downloading
+[Tue Sep 28 17:28:58 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
+[Tue Sep 28 17:29:00 2021][main/Info] Downloading
+[Tue Sep 28 17:29:00 2021][main/Warn] error in download:Invalid URL 'https': No schema supplied. Perhaps you meant http://https?,ignored
