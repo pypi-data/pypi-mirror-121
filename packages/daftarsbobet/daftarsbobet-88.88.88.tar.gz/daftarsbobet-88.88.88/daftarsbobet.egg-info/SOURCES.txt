@@ -1,0 +1,10 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+daftarsbobet.egg-info/PKG-INFO
+daftarsbobet.egg-info/SOURCES.txt
+daftarsbobet.egg-info/dependency_links.txt
+daftarsbobet.egg-info/top_level.txt
