@@ -1,0 +1,9 @@
+numpy
+tqdm
+opencv_python
+Pillow
+matplotlib
+seaborn
+scipy
+dlib
+moviepy
