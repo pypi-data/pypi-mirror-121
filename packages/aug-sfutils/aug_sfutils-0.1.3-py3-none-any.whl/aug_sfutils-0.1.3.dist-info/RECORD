@@ -1,0 +1,16 @@
+aug_sfutils/__init__.py,sha256=CVV5mF4oE7yXpE_BvioAsnJMKQC6oSmY_LvbnyH8P3Y,677
+aug_sfutils/cocos.py,sha256=i4cyWY-5xrEUSCFUO1tnA08SwQDsuqIxoEmivcb9hiI,7524
+aug_sfutils/ddtest.py,sha256=afg-sWlI3P2nh0M5LwLezV4fnkGJL6fI7vAbCd19ISk,3443
+aug_sfutils/libddc.py,sha256=6hHXGue9hea53zSROS3n3wdperTMzUpFUjggfHY16Pc,5064
+aug_sfutils/manage_ed.py,sha256=N4XqwfRSwDYbYvdlHTwWWUb_G43m-w8xf8X3b4euNAs,3343
+aug_sfutils/mapeq.py,sha256=AT78-i4LL_YXdY-zcNl_7YU6k3J5Mc54cuQVHuwbqKE,25526
+aug_sfutils/sf2equ.py,sha256=Z9umCg6e4nvk8PFYc43cjHqTMABATSBJmWvwB8Np4xw,10685
+aug_sfutils/sfdics.py,sha256=djSn_csfWx1BaFV4Y5C7p0smySUQAciFezfMi_wJhj0,2804
+aug_sfutils/sfhread.py,sha256=MNY8lgrjU1YqdvpHO0oFtOVIT_dO0a03JQMfsDvBMfk,5760
+aug_sfutils/sfobj.py,sha256=N9_3yPUxlyjfT5HV2N1vsMhvsA9asQy0xL9yYAB0f5U,690
+aug_sfutils/sfread.py,sha256=kLGtPNsIY9l3SMFl_6DgUz7vrFaplmJAh_WHlzJkwnw,16033
+aug_sfutils-0.1.3.dist-info/LICENSE,sha256=MS4sguwdpzwF_nBl-3F7EdaPlAvpbks30nVryI2fo5g,1080
+aug_sfutils-0.1.3.dist-info/METADATA,sha256=I4KZBUmHIl3s8pEE8VbkLaXQMByIlomOw8hpcgDEmRc,1413
+aug_sfutils-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aug_sfutils-0.1.3.dist-info/top_level.txt,sha256=V8URhWKgArMgKm5iCkcGok3a5WqxwAQ1586_Dc9acuY,12
+aug_sfutils-0.1.3.dist-info/RECORD,,
