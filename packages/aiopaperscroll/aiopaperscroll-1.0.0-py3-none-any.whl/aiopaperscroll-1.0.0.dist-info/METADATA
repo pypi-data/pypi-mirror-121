@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aiopaperscroll
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/old-pinky/AioPaperScroll-SDK
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: loguru
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+
+UNKNOWN
+

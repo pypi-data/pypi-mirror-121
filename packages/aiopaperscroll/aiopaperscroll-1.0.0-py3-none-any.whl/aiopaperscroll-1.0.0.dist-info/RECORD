@@ -1,0 +1,9 @@
+aiopaperscroll/__init__.py,sha256=jcHplf1l8U1uTJ7XzRfEfPUx3v7GsgtEYHRKCiEQWkU,785
+aiopaperscroll/client.py,sha256=WJXLZWHP89746ME0mxBatIzGv2NXPVYTMcy_J0yrMJ4,2160
+aiopaperscroll/exceptions.py,sha256=ol9azlYa-OqxT-8ZaQfpNI_ATkdVLGLrUBE7Zjaehd8,311
+aiopaperscroll/methods.py,sha256=KoZuiDbjJJegyIV73oZq7bX3qPblF_vD9HkneNeWyCQ,6547
+aiopaperscroll-1.0.0.dist-info/LICENSE,sha256=BP5ckzguvSAEP7VZOW0Mzz8V1MBYAfBIyst2IdAYqXU,1083
+aiopaperscroll-1.0.0.dist-info/METADATA,sha256=VCBiVRCO10hajoKlbJkdnirELm-yBUH2YAkQzlxETO8,269
+aiopaperscroll-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aiopaperscroll-1.0.0.dist-info/top_level.txt,sha256=R02lrySObL5LCjfc1qsPT7JdSH0-GSa_qDNT0-bLHpQ,15
+aiopaperscroll-1.0.0.dist-info/RECORD,,
