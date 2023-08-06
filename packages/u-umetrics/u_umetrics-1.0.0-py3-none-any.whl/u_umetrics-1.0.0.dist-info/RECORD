@@ -1,0 +1,8 @@
+umetrics/__init__.py,sha256=V6dJUmJwHQzIJG6vgMkKoDlNt8kkuZhDBmeFb3FEJCg,64
+umetrics/macrometrics.py,sha256=0SFwijHj15CckYU643fnHEO54hLxuOcRTRqK5ZXTvCo,2633
+umetrics/test_metrics.py,sha256=kt9kfV6G8WfY9ENr3KJeSaLcUQkOvaZ6qj0YZ4uaGuA,3126
+u_umetrics-1.0.0.dist-info/LICENSE,sha256=zbYONA6K0VadoyYEH_WrL_rl6-lWhN8RdgPJRZib-WQ,1150
+u_umetrics-1.0.0.dist-info/METADATA,sha256=5OgireW_KDmezH8d4T7D012JZ9ru7N7hjY3x_hGmW0E,2405
+u_umetrics-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+u_umetrics-1.0.0.dist-info/top_level.txt,sha256=v9va8F8MW77TdCK-L03SngRP7D3tNq-kZvcwCtw5B3k,9
+u_umetrics-1.0.0.dist-info/RECORD,,
