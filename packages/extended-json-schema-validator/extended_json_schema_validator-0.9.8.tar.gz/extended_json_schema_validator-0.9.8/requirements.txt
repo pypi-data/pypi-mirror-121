@@ -1,0 +1,5 @@
+# With 'format' several optional formats
+# are supported through additional libraries
+jsonschema[format] >= 3.0.0
+uritools
+pyyaml
