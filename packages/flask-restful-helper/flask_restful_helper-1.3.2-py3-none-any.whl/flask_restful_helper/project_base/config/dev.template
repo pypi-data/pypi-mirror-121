@@ -1,0 +1,32 @@
+DEBUG: True
+
+# SQLALCHEMY
+
+
+DB_TYPE: $db_type
+DB_HOST: $db_host
+DB_PORT: $db_port
+DB_USERNAME: $db_username
+DB_PASSWORD: $db_password
+DB_DATABASE: $db_database
+SQLALCHEMY_TRACK_MODIFICATIONS: False
+
+
+# JWT
+JWT_SECRET_KEY: $jwt_secret_key
+
+
+# API TEST
+
+
+TEST_INIT_DB_ON_TEST: True
+TEST_EXECUTE_ALL_TEST: True
+
+TEST_ACCOUNT:
+  - SUPERUSER:
+      USERNAME: superuser
+      PASSWORD: superuser
+
+
+CELERY_BROKER_URL: amqp://guest:guest@127.0.0.1:5672/
+CELERY_RESULT_BACKEND: rpc://
