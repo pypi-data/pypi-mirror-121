@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+encryptionSSS/__init__.py
+encryptionSSS/encryption.py
+encryptionSSS.egg-info/PKG-INFO
+encryptionSSS.egg-info/SOURCES.txt
+encryptionSSS.egg-info/dependency_links.txt
+encryptionSSS.egg-info/not-zip-safe
+encryptionSSS.egg-info/top_level.txt
