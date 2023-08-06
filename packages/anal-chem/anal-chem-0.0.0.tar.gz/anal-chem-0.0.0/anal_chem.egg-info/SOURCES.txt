@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+anal_chem/__init__.py
+anal_chem/estimator.py
+anal_chem/outlier_filter.py
+anal_chem.egg-info/PKG-INFO
+anal_chem.egg-info/SOURCES.txt
+anal_chem.egg-info/dependency_links.txt
+anal_chem.egg-info/requires.txt
+anal_chem.egg-info/top_level.txt
