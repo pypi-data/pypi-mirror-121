@@ -1,0 +1,3 @@
+[console_scripts]
+htmls-to-datasette=htmls_to_datasette.cli:cli
+
