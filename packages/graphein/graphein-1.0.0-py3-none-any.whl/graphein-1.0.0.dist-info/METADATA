@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: graphein
+Version: 1.0.0
+Summary: Machine Learning Library Extensions
+Home-page: https://github.com/a-r-j/graphein
+Author: Arian Jamasb
+Author-email: arian@jamasb.io
+License: MIT
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: biopandas
+Requires-Dist: biopython
+Requires-Dist: bioservices
+Requires-Dist: matplotlib
+Requires-Dist: multipledispatch
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: sklearn
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: wget
+Requires-Dist: xarray
+Provides-Extra: all
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: nbsphinx ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: pandoc ; extra == 'all'
+Requires-Dist: nbval ; extra == 'all'
+Requires-Dist: interrogate ; extra == 'all'
+Requires-Dist: hypothesis ; extra == 'all'
+Requires-Dist: pycodestyle ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: pytest-xdist ; extra == 'all'
+Requires-Dist: furo ; extra == 'all'
+Requires-Dist: nbstripout ; extra == 'all'
+Requires-Dist: nbsphinx-link ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: pydocstyle ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: furo ; extra == 'dev'
+Requires-Dist: hypothesis ; extra == 'dev'
+Requires-Dist: interrogate ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: nbsphinx ; extra == 'dev'
+Requires-Dist: nbsphinx-link ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: nbstripout ; extra == 'dev'
+Requires-Dist: nbval ; extra == 'dev'
+Requires-Dist: pandoc ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Provides-Extra: extras
+Requires-Dist: black ; extra == 'extras'
+Requires-Dist: flake8 ; extra == 'extras'
+Requires-Dist: furo ; extra == 'extras'
+Requires-Dist: hypothesis ; extra == 'extras'
+Requires-Dist: interrogate ; extra == 'extras'
+Requires-Dist: isort ; extra == 'extras'
+Requires-Dist: nbsphinx ; extra == 'extras'
+Requires-Dist: nbsphinx-link ; extra == 'extras'
+Requires-Dist: sphinx-rtd-theme ; extra == 'extras'
+Requires-Dist: nbstripout ; extra == 'extras'
+Requires-Dist: nbval ; extra == 'extras'
+Requires-Dist: pandoc ; extra == 'extras'
+Requires-Dist: pre-commit ; extra == 'extras'
+Requires-Dist: pycodestyle ; extra == 'extras'
+Requires-Dist: pydocstyle ; extra == 'extras'
+Requires-Dist: pytest ; extra == 'extras'
+Requires-Dist: pytest-cov ; extra == 'extras'
+Requires-Dist: pytest-xdist ; extra == 'extras'
+Requires-Dist: sphinx ; extra == 'extras'
+
+
+Graphein is a python package for working with protein structure graphs
+Contact
+=============
+If you have any questions or comments about graphein,
+please feel free to contact me via
+email: arian@jamasb.io
+or Twitter: https://twitter.com/arianjamasb
+This project is hosted at https://github.com/a-r-j/graphein
+
+
