@@ -1,0 +1,8 @@
+/build
+/dist
+/env
+.hypothesis
+ypricemagic/old
+/ypricemagic.egg-info
+/__pycache__
+/.eggs
