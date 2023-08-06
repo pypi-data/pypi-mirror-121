@@ -1,0 +1,15 @@
+aioaws/__init__.py,sha256=drC8X0FKAqJsL0DJs1VK56Hzt6dE-ks5Y18_hksA_pU,68
+aioaws/_types.py,sha256=QkUbhU0mMQKfdmFU1aOftYYaJ1pX5Ulq41tZt5jYljU,261
+aioaws/_utils.py,sha256=18NiBIYiTp5P43iBxWk1KZ0seziAnqEkYLSJH2z1fR8,1870
+aioaws/core.py,sha256=_YOS58ICh0tC2wqKmjl8Xz_UC8nh3ir4bY5h4QsqB0Y,8291
+aioaws/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioaws/s3.py,sha256=xGdw6V3UOuzIU0TAfkyziN3rRWKIQjbZ_5gdp0GWgts,7674
+aioaws/ses.py,sha256=1CgujyhbGFXt3D45hdCxq3ERSb2tabmbAJpP6Q9Ot1I,8341
+aioaws/sns.py,sha256=zer8oHWEyXeBpqM0TM_iGgif-vLuU4JXyX9lALs_JVg,3664
+aioaws/testing.py,sha256=sg6I5iHeJLpAruanW_iD8HyYLYtABVF8UYGCc0sdnlU,1828
+aioaws/version.py,sha256=qqQnPr9dUIJwNcTDXKwZsmQ8GNGQ5LTeFrUu2mihBXI,41
+aioaws-0.11.dist-info/LICENSE,sha256=zV_96A5tMoai4uXwL7LLB7gjkxyjaOfHNabF9a6-cQM,1080
+aioaws-0.11.dist-info/METADATA,sha256=uaWDkOL0io8HR413FK8w0OFONcLg0ypzqfhAjL6YGVM,7743
+aioaws-0.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aioaws-0.11.dist-info/top_level.txt,sha256=x-hR3Q44bTS4KQkAE1f9w-iPVGfiGbq-96LfCe02y3E,7
+aioaws-0.11.dist-info/RECORD,,
