@@ -1,0 +1,3 @@
+[console_scripts]
+runserver = serverrunners:__main__
+
