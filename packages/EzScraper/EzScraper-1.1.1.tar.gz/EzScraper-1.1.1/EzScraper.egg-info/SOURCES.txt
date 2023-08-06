@@ -1,0 +1,9 @@
+README.md
+setup.py
+EzScraper/__init__.py
+EzScraper/table_to_csv.py
+EzScraper.egg-info/PKG-INFO
+EzScraper.egg-info/SOURCES.txt
+EzScraper.egg-info/dependency_links.txt
+EzScraper.egg-info/requires.txt
+EzScraper.egg-info/top_level.txt
