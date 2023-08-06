@@ -1,0 +1,14 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./dle_encoder/__init__.py
+./dle_encoder/dle_encoder.py
+./tests/__init__.py
+./tests/test_dle_encoder.py
+dle_encoder.egg-info/PKG-INFO
+dle_encoder.egg-info/SOURCES.txt
+dle_encoder.egg-info/dependency_links.txt
+dle_encoder.egg-info/top_level.txt
