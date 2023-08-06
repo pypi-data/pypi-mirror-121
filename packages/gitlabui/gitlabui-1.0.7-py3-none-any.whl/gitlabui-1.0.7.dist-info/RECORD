@@ -1,0 +1,12 @@
+gitlabui/__init__.py,sha256=A8OZaXszaSPyLYZvx6y30VqLZLO3sYdQjqGOUHxy1k0,569
+gitlabui/gitlab.py,sha256=jMgpfGicIwBBXm5wUkPDLNnbg2-Xnl6vprhIWMA7P5g,5860
+gitlabui/views.py,sha256=P_wzxjsYbWGb9m3pWnJLiktkgmZaF1A1VNezwwnOj1M,1432
+gitlabui/static/favicon.svg,sha256=88ylvH0WdIVT9gmSvDzW0zKRoA76ICHwYxbC4dAiekg,2123
+gitlabui/static/index.js,sha256=pYH2tUtGXpwXmK6V-ORcjSauAQEhEfIJ-qpDUmiZ3DY,779
+gitlabui/templates/index.html,sha256=YuBYJC35LLOM3m_PupYny1IN_EkvA1rYF8hV8JznxuI,4324
+gitlabui/templates/layout.html,sha256=7WjwO7K_hEPK-mnoc-Z3i2M3T47V27ofzOputKSl7AA,2690
+gitlabui/templates/search.html,sha256=uOZfYYdyEzrijvOjJJ4kkptRK0gL3G7hkMrE27yoGMo,3985
+gitlabui-1.0.7.dist-info/METADATA,sha256=k_i3R1ujLGvcob2bsQHCjVgmKsQ86owI-WS334Qssc0,1361
+gitlabui-1.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gitlabui-1.0.7.dist-info/top_level.txt,sha256=yWlQWulpMN2mXkStiUpGqjFlAimklyXJz5Hgxu8_lys,9
+gitlabui-1.0.7.dist-info/RECORD,,

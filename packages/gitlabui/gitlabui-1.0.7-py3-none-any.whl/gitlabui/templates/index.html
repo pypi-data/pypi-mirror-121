@@ -1,0 +1,100 @@
+{% extends "layout.html" %}
+
+{% block title %}tags{% endblock %}
+
+{% block menu %}
+<a class="btn btn-secondary me-2" href="{{ url_for('refresh_tags') }}" role="button"
+   data-bs-toggle="tooltip" data-bs-placement="bottom" title="Previous refresh was at {{ refresh_tags_time }}">
+    <i class="bi bi-arrow-repeat" style="color: white;"></i>
+</a>
+<a class="btn btn-dark" href="{{ url_for('reset') }}" role="button"
+   data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reset list of projects">
+    <i class="bi bi-stars" style="color: white;"></i>
+</a>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form class="row row-cols-lg-auto g-3 align-items-center my-2" method="get">
+                <div class="col-12">
+                    <label for="q" class="form-label">Project</label>
+                    <input type="text" class="form-control" id="q" name="q"
+                           value="{{ request.args.get('q') if request.args.get('q') }}">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="kind_group" name="kind"
+                               onclick="getElementById('kind_user').checked=false"
+                               value="group" {% if request.args.get('kind') == 'group' %}checked{% endif %}>
+                        <label class="form-check-label" for="kind_group">
+                            Exclude
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="kind_user" name="kind"
+                               onclick="getElementById('kind_group').checked=false"
+                               value="user" {% if request.args.get('kind') == 'user' %}checked{% endif %}>
+                        <label class="form-check-label" for="kind_user">
+                            Only
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    personal project
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col">
+                    {{ projects | length }} found
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <table id="table_tags" class="table">
+                <thead>
+                <tr>
+                    <th id="path_with_namespace" scope="col">
+                        Project
+                        {% if request.args.get('sortby') == 'path_with_namespace' %}
+                        <i class="bi bi-sort-alpha-{% if request.args.get('sortbydirection') == 'desc' %}up{% else %}down{% endif %}"></i>
+                        {% endif %}
+                    </th>
+                    <th id="tag" scope="col">
+                        Tag
+                        {% if request.args.get('sortby') == 'tag' %}
+                        <i class="bi bi-sort-{% if request.args.get('sortbydirection') == 'asc' %}up{% else %}down{% endif %}"></i>
+                        {% endif %}
+                    </th>
+                    <th id="tag_created_at" scope="col">
+                        At
+                        {% if request.args.get('sortby') == 'tag_created_at' %}
+                        <i class="bi bi-sort-{% if request.args.get('sortbydirection') == 'asc' %}up{% else %}down{% endif %}"></i>
+                        {% endif %}
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for p in projects %}
+                <tr>
+                    <th scope="row"><a href="{{ p.web_url }}" target="_blank">{{ p.path_with_namespace }}</a></th>
+                    <td>{{ p.tag }}</td>
+                    <td>{{ p.tag_created_at }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ url_for('static',filename='index.js') }}"></script>
+{% endblock %}
