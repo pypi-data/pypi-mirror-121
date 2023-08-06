@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+baapgattackutlis.egg-info/PKG-INFO
+baapgattackutlis.egg-info/SOURCES.txt
+baapgattackutlis.egg-info/dependency_links.txt
+baapgattackutlis.egg-info/requires.txt
+baapgattackutlis.egg-info/top_level.txt
+utils/__init__.py
+utils/decorators.py
+utils/provider.py
