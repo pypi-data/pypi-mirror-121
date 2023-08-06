@@ -1,0 +1,8 @@
+pyyaml
+Sphinx~=4.2.0
+sphinx_bootstrap_theme
+sphinx-tabs
+funcparserlib~=1.0.0a0
+
+[:(python_version<'3.4')]
+more-itertools~=5.0.0
