@@ -1,0 +1,33 @@
+from setuptools import setup, find_packages
+
+with open('requirements.txt') as f:
+    requirements = f.readlines()
+
+long_description = 'This package contains two algorithm implementation viz. search-naive \
+                   search-ba, which tries to find the pattern in the given string'
+
+setup(
+    name='pat-match',
+    version='1.0.3',
+    author='Balraj Singh Saini, Chahat Gupta, Janardhan Jayachandra Kammath',
+    author_email='au671472@post.au.dk',
+    url='https://github.com/balrajsingh9/gsa-projects',
+    description='pattern matching tools',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    license='MIT',
+    packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'search-naive=scripts.search_naive:main',
+            'search-ba=scripts.search_ba:main'
+        ]
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3.9",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    install_requires=requirements,
+    zip_safe=False
+)
