@@ -1,0 +1,7 @@
+face_recognition_models==0.3.0
+dlib==19.22.0
+numpy==1.21.0
+opencv-python-headless==4.5.3.56
+scipy==1.7.0
+sharedmem==0.3.8
+Click>=7.0
