@@ -1,0 +1,11 @@
+sqliteparser/__init__.py,sha256=sEKBHNiUc7Z0H9g7G2xlE0l0E62hAuuosnGf2CTs4f8,69
+sqliteparser/ast.py,sha256=OuF_XvGL82Vaz8bQXyIhnE7W-BrKvFEks3vPkwiyjCI,8576
+sqliteparser/exceptions.py,sha256=k6wiw4wz-wB9VcTlJI8HDnCiVYiUB-G-wO-YEwnj-ps,110
+sqliteparser/lexer.py,sha256=IQb4XAGx3JK8VxJbY7qP10yidlkZuKgyZFu2u15Jcrc,11234
+sqliteparser/parser.py,sha256=l6LExUApRGKdx88ECuDPJBrTcnaikFjm9e3UIy7AkAo,20280
+sqliteparser/utils.py,sha256=_XYupWFmsVZPePZZXgrYIF3MpvHyBXkaqP45drOyN3Q,320
+sqliteparser-0.3.dist-info/LICENSE,sha256=UaEoesgTuzc6POGmrL43ye2JqwcsM5iS_mVex7-0mNU,1067
+sqliteparser-0.3.dist-info/METADATA,sha256=4pTT__pxspm8th10HaibAgN6pFnVDoWYQlUiKUPs6l0,611
+sqliteparser-0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sqliteparser-0.3.dist-info/top_level.txt,sha256=e9KgzVAAqDOj20rHw0q5F9f_aOEJ08htoybyUFLP-2Y,13
+sqliteparser-0.3.dist-info/RECORD,,
