@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: livelog
+Version: 0.0.1
+Summary: File logger and live reader
+Home-page: https://github.com/PabloLec/livelog
+License: GPL-3.0 License
+Keywords: log,logs,logger,reader,utility
+Author: PabloLec
+Author-email: pablo.lecolinet@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: pynput (==1.7.3)
+Requires-Dist: watchdog (==2.1.5)
+Project-URL: Documentation, https://github.com/PabloLec/livelog#readme
+Project-URL: Repository, https://github.com/PabloLec/livelog
+Description-Content-Type: text/markdown
+
+# livelog
+
+Work in progress
+
