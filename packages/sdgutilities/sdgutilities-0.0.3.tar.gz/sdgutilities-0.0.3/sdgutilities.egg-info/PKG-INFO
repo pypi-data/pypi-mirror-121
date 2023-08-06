@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sdgutilities
+Version: 0.0.3
+Summary: A library that provides a set of utilities for managing and analysing SDG data.
+Home-page: https://github.com/markiliffe/SDGUtilities
+Author: UNSD
+Author-email: mark.iliffe@un.org
+License: UNKNOWN
+Description: # SDG-Utilities
+        A library that provides a set of utilities for managing and analysing SDG data. 
+        
+        ## Install
+        To install this library:
+        `pip install sdgutilities`
+        
+        ## Pip Packages
+        This library is available on PyPi:
+        `https://pypi.org/project/sdgutilities/`
+        
+        ## Contact
+        
+        Project Contributors:
+        - Luis Gonzalez Morales
+        - Mark Iliffe
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

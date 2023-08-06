@@ -1,0 +1,6 @@
+README.md
+setup.py
+sdgutilities.egg-info/PKG-INFO
+sdgutilities.egg-info/SOURCES.txt
+sdgutilities.egg-info/dependency_links.txt
+sdgutilities.egg-info/top_level.txt
