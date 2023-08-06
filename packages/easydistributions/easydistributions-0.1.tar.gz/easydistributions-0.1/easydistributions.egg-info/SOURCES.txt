@@ -1,0 +1,11 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Binomialdistribution_challenge.py.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+easydistributions.egg-info/PKG-INFO
+easydistributions.egg-info/SOURCES.txt
+easydistributions.egg-info/dependency_links.txt
+easydistributions.egg-info/not-zip-safe
+easydistributions.egg-info/top_level.txt
