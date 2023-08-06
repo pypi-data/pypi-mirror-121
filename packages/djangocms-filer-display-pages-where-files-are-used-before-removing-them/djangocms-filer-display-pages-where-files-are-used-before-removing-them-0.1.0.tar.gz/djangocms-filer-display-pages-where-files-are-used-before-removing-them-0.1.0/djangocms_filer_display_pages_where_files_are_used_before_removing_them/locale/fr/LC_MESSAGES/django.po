@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-30 09:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:15
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:53
+msgid "Here are the pages where the objects are used:"
+msgstr "Voici les pages où ces fichiers sont utilisés :"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:17
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:55
+msgid "images and"
+msgstr "images et"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:17
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:55
+msgid "media"
+msgstr "média"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:24
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:62
+msgid "No file is used on a page as a media!"
+msgstr "Aucun fichier n'est affiché sous forme de média sur le site !"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_confirmation.html:33
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:71
+msgid "No file is used on a page as an image!"
+msgstr "Aucun fichier n'est affiché sous forme d'image sur le site !"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:57
+msgid "Media"
+msgstr "Média"
+
+#: djangocms_filer_display_pages_where_files_are_used_before_removing_them/templates/admin/filer/delete_selected_files_confirmation.html:66
+msgid "Images"
+msgstr "Images"
