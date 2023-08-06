@@ -1,0 +1,3 @@
+[console_scripts]
+hsf=hsf.factory:start
+
