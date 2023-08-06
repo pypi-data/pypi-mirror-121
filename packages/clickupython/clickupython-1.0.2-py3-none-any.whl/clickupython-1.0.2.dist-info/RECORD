@@ -1,0 +1,14 @@
+clickupython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickupython/client.py,sha256=PdUj7kqIdjtgD1yBDQTdIscdSS2qYcTVAptKf03e5PI,54585
+clickupython/exceptions.py,sha256=xnAvCQ77map9kKWExcGL1-V2_D-BDic5DXwpoFxKuTk,361
+clickupython/models.py,sha256=QP10C8eBs8lgSD9Nixlipauqf4o1tHBBRL7ASLp89EQ,16855
+clickupython/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickupython/helpers/formatting.py,sha256=3adkiTuXzd-OPi9i8swaJOUx7_k5EZ88ZrmbYk7zdHA,196
+clickupython/helpers/timefuncs.py,sha256=uvjGjjoucU_kF7a6Fx_a3hslKxW73M_0YM3vZetl2Qs,2112
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=J4uWaO1I2SXtPjyJhJIYbjiLI8n9CiG-Juy6zt-_Bag,22152
+tests/test_timefuncs.py,sha256=KTByV_plFRJdcs4xVzabXPPZdfqzpfSBlJVfyHm5Mfs,949
+clickupython-1.0.2.dist-info/METADATA,sha256=69ZTRGFEaNFd8QcOcNJBujD56F71cqefVCOsqFUz0XQ,5566
+clickupython-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+clickupython-1.0.2.dist-info/top_level.txt,sha256=3g9L219QpPJDA0ihtRBR4bJT9q1jygDUAYAdwElEQEw,19
+clickupython-1.0.2.dist-info/RECORD,,
