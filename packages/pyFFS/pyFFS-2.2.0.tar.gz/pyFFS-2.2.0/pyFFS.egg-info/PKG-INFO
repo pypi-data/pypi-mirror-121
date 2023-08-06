@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: pyFFS
+Version: 2.2.0
+Summary: Fast Fourier Series library
+Home-page: https://github.com/imagingofthings/pyFFS
+Author: Sepand KASHANI, Eric BEZZAM, Matthieu SIMEONI
+Author-email: kashani.sepand@gmail.com
+License: BSD
+Download-URL: https://github.com/imagingofthings/pyFFS
+Description: .. #############################################################################
+        .. README.rst
+        .. ==========
+        .. Author : Sepand KASHANI [kashani.sepand@gmail.com]
+        .. #############################################################################
+        
+        #####
+        pyFFS
+        #####
+        
+        *pyFFS* is a collection of efficient algorithms to compute Fourier Series and
+        related transforms.
+        
+        
+        Installation
+        ------------
+        
+        ::
+        
+            $ pip install pyFFS
+        
+        
+        Developer Install
+        -----------------
+        
+        Recommended setup using Anaconda, for optimized numerical libraries:
+        
+        ::
+        
+            # Create Anaconda environment
+            $ conda create --name pyffs python=3
+            $ conda activate pyffs
+        
+            # Clone repository
+            $ git clone https://github.com/imagingofthings/pyFFS.git
+            $ cd pyFFS
+            $ # git checkout <commit>
+        
+            # Install requirements with conda
+            $ conda install --file requirements.txt
+        
+            # Optionally install CuPy for GPU support
+            $ conda install -c conda-forge cupy
+        
+            # Install pyFFS
+            $ pip install -e .[dev]
+            $ pytest                        # Run test suite
+            $ python setup.py build_sphinx  # Generate documentation
+        
+        More information about CuPy setup can be found `here <https://docs.cupy.dev/en/stable/install.html#installation)>`_.
+        
+        
+        Remarks
+        -------
+        
+        pyFFS is developed and tested on x86_64 systems running Linux and macOS
+        Catalina.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+Provides-Extra: dev
+Provides-Extra: cuda110
