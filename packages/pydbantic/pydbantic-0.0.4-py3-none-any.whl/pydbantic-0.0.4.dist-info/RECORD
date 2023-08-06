@@ -1,0 +1,10 @@
+pydbantic/__init__.py,sha256=abgHggYcpDK1r4Lfxd2pKQUKfNlEjZwHY8Lc1TAU-Rs,62
+pydbantic/cache.py,sha256=uHKD6UY54rZ8o_mwIoJXwXPWeROJcM-5WTuL5wPiN0I,5108
+pydbantic/core.py,sha256=KHwutOp9oZA-P-KldmyMuENN7P4ZbNEvQ1oYTfrXqCk,16855
+pydbantic/database.py,sha256=ElvO1bgSYQHrPcnzdMG6CLZAw0RMWHjS7oviD5x1TBM,12516
+pydbantic/translations.py,sha256=3i1UZlTXr4YqSNYYviVXIpzArTr_zkXWKcD97AbFb_U,3124
+pydbantic-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydbantic-0.0.4.dist-info/METADATA,sha256=hhNkMWcRyRIDkEoiRfx78q4NAiZLwaQIZqrMCKHtSWk,6786
+pydbantic-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydbantic-0.0.4.dist-info/top_level.txt,sha256=0QNfY-W3PM_pFZyM9_p9KP-mP-0EdmCBMNjHKTYjRBA,10
+pydbantic-0.0.4.dist-info/RECORD,,
