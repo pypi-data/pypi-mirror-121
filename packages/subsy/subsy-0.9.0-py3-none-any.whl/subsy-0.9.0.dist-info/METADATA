@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: subsy
+Version: 0.9.0
+Summary: Access to subtitles from various file formats
+Keywords: subtitles,SubRip,srt
+Author: John Hennig
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: srt3
+Requires-Dist: aeidon
+Requires-Dist: chardet
+Requires-Dist: Sphinx ; extra == "doc"
+Requires-Dist: Furo ; extra == "doc"
+Requires-Dist: MyST-parser ; extra == "doc"
+Requires-Dist: CommonMark ; extra == "doc"
+Requires-Dist: pyTest ; extra == "test"
+Requires-Dist: pyTest-cov ; extra == "test"
+Requires-Dist: coverage-badge ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Project-URL: Documentation, https://subsy.readthedocs.io
+Project-URL: Source, https://github.com/John-Hennig/subsy
+Provides-Extra: doc
+Provides-Extra: test
+
+﻿# Subsy
+*Access to subtitles from various file formats*
+
+This library is not fundamentally different from established ones, but
+offers some helpful abstractions that those others don't. First and
+foremost, subtitles loaded from a file are represented as a linked list.
+This makes it possible to implement search patterns and sanitization
+strategies that take the preceding or following subtitle into account,
+for example to recognize a running sentence.
+
+```python
+>>> import subsy
+>>> subtitles = subsy.load('subtitles.srt')
+>>> first = subtitles[0]
+>>> first.text
+'How are you?'
+>>> second = first.next
+>>> second.text
+'great, thanks.'
+>>> second.text = 'Great, thanks.'
+>>> subtitles.save()
+```
+
+Subtitles can be loaded from and saved to these file formats:
+* Subrip (`.srt`)
+* Advanced Substation Alpha (`.ass`)
+* Substation Alpha (`.ssa`)
+* WebVTT (`.vtt`)
+* SubViewer (`.sub`)
+
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![source](https://img.shields.io/github/stars/John-Hennig/Subsy?style=social)](https://github.com/John-Hennig/Subsy)
+
