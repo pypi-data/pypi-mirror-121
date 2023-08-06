@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/diskhashtree/DiskHashTree.py
+src/diskhashtree/__init__.py
+src/diskhashtree/__main__.py
+src/diskhashtree/util.py
+src/diskhashtree.egg-info/PKG-INFO
+src/diskhashtree.egg-info/SOURCES.txt
+src/diskhashtree.egg-info/dependency_links.txt
+src/diskhashtree.egg-info/entry_points.txt
+src/diskhashtree.egg-info/top_level.txt
