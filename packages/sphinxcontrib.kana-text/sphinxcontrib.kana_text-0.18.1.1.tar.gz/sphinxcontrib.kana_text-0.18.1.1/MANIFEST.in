@@ -1,0 +1,6 @@
+include LICENSE
+include AUTHORS
+include README.rst
+include CHANGES.rst
+recursive-include sphinxcontrib *.html.sample
+recursive-exclude sphinxcontrib unittest_kana_text_*.py
