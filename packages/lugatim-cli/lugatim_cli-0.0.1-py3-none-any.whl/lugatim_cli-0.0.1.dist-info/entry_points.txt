@@ -1,0 +1,3 @@
+[console_scripts]
+lugatim = lugatim_cli.__main__:cli
+
