@@ -1,0 +1,28 @@
+kind: Predicate
+id: nmachine.telem.predicate.are_res_around
+title: "Ensure no telemetry ${get::props res_kind} exist"
+info: "Query cluster for ${get::props res_kind}s in namespace ${get::ns}"
+challenge: get::nmachine.telem.supplier.res_counter
+reason: "Expected 0 but got ${get::props resolved_challenge}"
+check_against: 0
+
+---
+
+kind: Predicate
+id: nmachine.telem.predicate.are_pods_around
+inherit: nmachine.telem.predicate.are_res_around
+res_kind: Pod
+
+---
+
+kind: Predicate
+id: nmachine.telem.predicate.are_services_around
+inherit: nmachine.telem.predicate.are_res_around
+res_kind: Service
+
+---
+
+kind: Predicate
+id: nmachine.telem.predicate.are_pvcs_around
+inherit: nmachine.telem.predicate.are_res_around
+res_kind: PersistentVolumeClaim

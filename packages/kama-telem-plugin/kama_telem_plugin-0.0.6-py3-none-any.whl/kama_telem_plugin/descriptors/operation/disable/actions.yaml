@@ -1,0 +1,25 @@
+kind: MultiAction
+id: nmachine.telem.action.perform_disable
+title: Disable Plugin
+info: Update variables, destroy resources
+config_space: nmachine.telem
+sub_actions:
+
+  - kind: Action
+    id: nmachine.telem.action.disable.patch_vars
+    inherit: sdk.action.patch_manifest_variables
+    title: "Set 'enabled' variable to false"
+    debug: [values, config_space]
+    values:
+      enabled: false
+
+  - kind: DeleteResourcesAction
+    id: delete_resources
+    title: Delete resource and reload
+    info: Delete telem resource and reapply manifest
+    selectors:
+      - kind: MultiKindResourceSelector
+        res_kinds: [Deployment, Service, PersistentVolumeClaim, ConfigMap, Ingress]
+        label_selector:
+          managed_by: nmachine
+          app: telem

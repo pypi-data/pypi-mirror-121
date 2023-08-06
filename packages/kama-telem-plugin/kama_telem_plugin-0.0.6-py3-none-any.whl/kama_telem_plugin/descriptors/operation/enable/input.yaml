@@ -1,0 +1,22 @@
+kind: Predicate
+id: "nmachine.telem.predicate.input_strategy_self_managed"
+challenge: "get::self>>inputs->.strategy"
+check_against: "self_managed"
+
+---
+
+kind: Predicate
+id: "nmachine.telem.predicate.input_strategy_pvc"
+challenge: "get::self>>inputs->.strategy"
+check_against: "pvc"
+
+---
+
+kind: Field
+id: "nmachine.telem.field.delete-telem-confirm"
+title: "I have read and understood the above."
+target: "none"
+input: "kind::CheckboxInput"
+validators:
+  - check_against: true
+    reason: "Check to continue"

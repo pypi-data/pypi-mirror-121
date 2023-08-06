@@ -1,0 +1,31 @@
+kind: ManifestVariable
+id: "nmachine.telem.variable.pvc.size"
+flat_key: "pvc.size"
+title: "Telem Database Size"
+info: "Storage capacity of the database's underlying disk
+(a Kubernetes PersistentVolumeClaim) size in Gigabytes."
+input:
+  kind: SliderInput
+  min: 1
+  max: 15
+  suffix: "G"
+
+---
+
+kind: ManifestVariable
+id: "nmachine.telem.variable.pvc.storage_class_name"
+flat_key: "pvc.storageClassName"
+title: "Telem Database Storage Class"
+info: "Name of the StorageClass resource used to mediate access to the PVC.
+Automatic is recommended."
+input:
+  kind: SelectInput
+  options:
+    kind: ListFlattener
+    source:
+      - id: ""
+        title: "Auto (let Kubernetes decide the default)"
+      - kind: ResourcesSupplier
+        resource_selector: "expr::StorageClass:*"
+        serializer: "native"
+        output: "options_format"

@@ -1,0 +1,20 @@
+kind: Operation
+id: nmachine.telem.operation.delete-telem-pvc
+labels:
+  searchable: true
+title: Disable In-Cluster Telemetry Storage
+info: If using in-cluster storage for telemetry, destroys all related storage resource
+synopsis: assets::delete-telem-storage-info.md
+stages:
+  - id: nmachine.telem.stage.delete-telem-confirm
+    title: Confirm and Delete
+    info: Confirm consent and proceed to deleting telemetry-related resource
+    steps:
+      - id: nmachine.telem.step.delete-telem-confirm
+        title: Confirm Consent
+        info: "I understand that proceeding will irreversibly
+        delete the local telemetry database, erasing all data related
+         to updates, variable assignments, and operations."
+        synopsis: assets::delete-telem-storage-info.md
+        action: id::nmachine.telem.action.perform_disable
+        fields: [id::nmachine.telem.field.delete-telem-confirm]

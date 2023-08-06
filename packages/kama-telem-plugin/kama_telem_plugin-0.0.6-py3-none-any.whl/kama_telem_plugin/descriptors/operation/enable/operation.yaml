@@ -1,0 +1,46 @@
+kind: Operation
+id: "nmachine.telem.operation.storage"
+title: "Setup Telemetry Storage"
+synopsis: "assets::enable-synopsis.md"
+labels:
+  searchable: true
+info: "Choose and implement a persistent storage solution for telemetry data."
+preflight_predicate:
+  kind: MultiPredicate
+  predicates:
+    - id::nmachine.telem.predicate.check-telem-is-disabled
+    - id::nmachine.telem.predicate.are_pods_around
+    - id::nmachine.telem.predicate.are_services_around
+    - id::nmachine.telem.predicate.are_pvcs_around
+stages:
+  - "id::nmachine.telem.stage.storage"
+
+---
+
+kind: Stage
+id: "nmachine.telem.stage.storage"
+title: "Telemetry Storage"
+info: "Configure where telemetry data should be persisted"
+steps:
+  - kind: Step
+    id: "nmachine.telem.step.telem-storage-step-1"
+    title: "Telemetry Persistence"
+    info: "NMachine saves telemetry for important events so that users
+     can later audit their application. For this, a persistent database
+     is required. This step helps you decide where and how to host it."
+    synopsis: "assets::enable-synopsis.md"
+    action: "id::sdk.action.commit_template_apply_step"
+    fields:
+      - variable: "id::nmachine.telem.variable.strategy"
+
+      - variable: "id::nmachine.telem.variable.mongo.host"
+        visible: "id::nmachine.telem.predicate.input_strategy_self_managed"
+
+      - variable: "id::nmachine.telem.variable.mongo.port"
+        visible: "id::nmachine.telem.predicate.input_strategy_self_managed"
+
+      - variable: "id::nmachine.telem.variable.pvc.size"
+        visible: "id::nmachine.telem.predicate.input_strategy_pvc"
+
+      - variable: "id::nmachine.telem.variable.pvc.storage_class_name"
+        visible: "id::nmachine.telem.predicate.input_strategy_pvc"
