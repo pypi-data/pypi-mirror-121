@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "integromat-wrapper"
+version = "0.1.4"
+description = ""
+authors = ["Skyler Lewis <skyler@hivewire.co>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.19.0"
+taskipy = "^1.8.2"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-asyncio = "^0.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.taskipy.tasks]
+test = 'python -m pytest -m "not (seed or slow)"'
+
+[tool.poetry.scripts]
+integromat-deploy = "integromat_wrapper.deploy:deploy"
