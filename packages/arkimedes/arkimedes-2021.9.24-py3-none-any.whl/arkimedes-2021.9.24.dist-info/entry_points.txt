@@ -1,0 +1,3 @@
+[console_scripts]
+cropdoi = arkimedes.__main__:main
+
