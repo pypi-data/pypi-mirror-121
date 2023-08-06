@@ -1,0 +1,10 @@
+vnpy_datamanager/__init__.py,sha256=VSTdHCsLjTmF3oqiDVBMxB1Rb5ea_awfDeWZdb6X8Ow,1538
+vnpy_datamanager/engine.py,sha256=b4Sj9wqXqxO_4O8A7Sff1PBBHeDkJWEKxBSj6yIbl4w,6500
+vnpy_datamanager/ui/__init__.py,sha256=t6VTqXGOM4SLqn_xzZ_6zg5FZYfwezx4v27W7bJK3lA,33
+vnpy_datamanager/ui/manager.ico,sha256=lCBZ3k_yRwDyrcBzvwLgMuKKreYsCjRUmLtie8xP8ig,63038
+vnpy_datamanager/ui/widget.py,sha256=YiwWc6c8cCycqPTP8Nm2OggeIFLi6wmW78qQjgAr700,19164
+vnpy_datamanager-1.0.0.dist-info/LICENSE,sha256=PhdGUM_j-YTyaMqZFRcSqAUQU4nVwDzC4I1584GpKvg,1109
+vnpy_datamanager-1.0.0.dist-info/METADATA,sha256=zxfouZ7niT1W0R7UCIWiP-QXZIOoNpbotwqM-RT8z8c,1804
+vnpy_datamanager-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+vnpy_datamanager-1.0.0.dist-info/top_level.txt,sha256=b8KIoyI4HD71KmcvKW_r5IGzZsWpAGG0SQNyKQG55Go,17
+vnpy_datamanager-1.0.0.dist-info/RECORD,,
