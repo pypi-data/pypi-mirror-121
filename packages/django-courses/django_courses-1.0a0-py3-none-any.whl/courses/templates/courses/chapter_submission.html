@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% include "courses/includes/breadcrumbs.html" with breadcrumbs=breadcrumbs %}
+
+  {% include "courses/includes/chapter_detail_header.html" with run=run chapter=chapter start=start end=end %}
+
+  {% if chapter.lecture_set.all %}
+    {% include "courses/includes/submission.html" with user_submissions=user_submissions form=form %}
+  {% endif %}
+{% endblock %}

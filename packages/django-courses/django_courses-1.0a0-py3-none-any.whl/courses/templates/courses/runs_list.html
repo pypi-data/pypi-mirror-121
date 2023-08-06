@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+`
+{% block content %}
+  {% include "courses/includes/breadcrumbs.html" with breadcrumbs=breadcrumbs %}
+
+<div class="py-5">
+  <div class="container">
+    <div class="row row-cols-1 {# row-cols-sm-2 row-cols-md-3 #} g-3">
+
+      {% for course_run in runs %}
+        {% include "courses/includes/courses_runs_list.html" with course=course_run.course run=course_run %}
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

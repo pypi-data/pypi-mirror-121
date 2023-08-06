@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load markdownify %}
+{% load courses_extra %}
+{% load embed_video_tags %}
+{% load static %}
+
+{% block content %}
+  {% include "courses/includes/breadcrumbs.html" with breadcrumbs=breadcrumbs %}
+
+
+<div class="album py-1 {# bg-light #}">
+  <div class="container">
+
+    <div class="row py-lg-2">
+      <div class="col-lg-6 col-md-8 mr-auto">
+
+        <div class="btn-group">
+          {% url 'chapter_detail' run.slug chapter.slug as detail_page %}
+          {% url 'chapter_submission' run.slug chapter.slug as submission_page %}
+
+          {% if request.path == detail_page %}
+            {% if chapter.require_submission != 'D' %}
+            <a href="{{ submission_page }}#submission-form" class="btn btn-outline-success">{% translate "Chapter Submission" %}</a>
+            {% endif %}
+          {% elif COURSES_DISPLAY_CHAPTER_DETAILS %}
+            <a href="{{ detail_page }}" class="btn btn-outline-primary">{% translate "Chapter Lectures" %}</a>
+          {% endif %}
+
+          {% if lecture %}
+            {% for lctr in lectures %}
+              {% if lctr.order|subtract:lecture.order == -1 %}
+                <a href="{% url 'lecture_detail' run.slug chapter.slug lctr.slug %}" class="btn btn-outline-primary">{% translate "Previous lecture" %}</a>
+              {% elif lctr.order|subtract:lecture.order == 1 %}
+                <a href="{% url 'lecture_detail' run.slug chapter.slug lctr.slug %}" class="btn btn-outline-primary">{% translate "Next lecture" %}</a>
+              {% endif %}
+            {% endfor %}
+
+          {% else %}
+            {% for lecture_type in chapter.lecture_types %}
+              <a href="{% url 'chapter_lecture_types' run.slug chapter.slug lecture_type %}" class="btn {% if filter_lecture_type and lecture_type == filter_lecture_type %}btn-primary{% else %}btn-outline-primary{% endif %}">{{ lecture_type|lecture_type_icon }}</a>
+            {% endfor %}
+          {% endif %}
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="row row-cols-1 g-3">
+
+      <h3 class="fw-light">{{ lecture.lecture_type|lecture_type_icon }} {{ lecture.title }}</h3>
+        {% if lecture.subtitle %}<h4 class="fw-light">{{ lecture.subtitle }}</h4>{% endif %}
+        {% if lecture.require_submission != "D" %}<div class="text-end">{% translate "Submission" %} <span class="badge rounded-pill {% if lecture.require_submission == "N" %}bg-success{% else %}bg-danger{% endif %}">{{ lecture.get_require_submission_display }}</span></div>{% endif %}
+        <form id="ajax_csrf_token">
+          {% csrf_token %}
+        </form>
+        {% if lecture.video %}
+          {% video lecture.video as my_video %}
+            {% video my_video "large" %}
+          {% endvideo %}
+{#          <iframe src="{{ lecture.video}}" width="720" height="405" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>#}
+        {% endif %}
+        <p>{{ lecture.description|markdownify }}</p>
+        <p>
+          {% if lecture.data|is_pdf %}
+            <embed
+              src="{{ MEDIA_URL }}{{ lecture.data }}"
+              type="application/pdf"
+              frameBorder="0"
+              scrolling="auto"
+              height="{% if lecture.metadata.height %}{{ lecture.metadata.height }}{% else %}100%{% endif %}"
+              width="{% if lecture.metadata.width %}{{ lecture.metadata.width }}{% else %}100%{% endif %}"
+            ></embed>
+
+          {% elif lecture.data|is_image %}
+            <img src="{{ MEDIA_URL }}{{ lecture.data }}" class="mw-100" alt="{{ lecture.metadata.alt }}" />
+
+          {% elif lecture.data|is_video %}
+            <video
+              id="{% if lecture.metadata.id %}{{ lecture.metadata.id }}{% else %}{{ lecture.data|slugify }}{% endif %}"
+              class="video-js mw-100"
+              controls
+              preload="{% if lecture.metadata.preload %}{{ lecture.metadata.preload }}{% else %}auto{% endif %}"
+              {% if lecture.metadata.poster %}poster="{{ lecture.metadata.poster }}"{% endif %}
+              {% if lecture.metadata.width %}width="{{ lecture.metadata.width }}"{% endif %}
+              {% if lecture.metadata.height %}height="{{ lecture.metadata.height }}"{% endif %}
+              data-setup="{}"
+            >
+              <source src="{{ MEDIA_URL }}{{ lecture.data }}" {% if lecture.metadata.type %}type="{{ lecture.metadata.type }}"{% endif %}/>
+              {% if lecture.metadata.width %}
+                <source src="{{ MEDIA_URL }}{{ lecture.metadata.alt_source }}" {% if lecture.metadata.alt_source_type %}type="{{ lecture.metadata.alt_source_type }}"{% endif %}/>
+              {% endif %}
+            </video>
+          {% endif %}
+        </p>
+    </div>
+
+    {% if form %}
+      {% include "courses/includes/submission.html" with user_submissions=user_submissions form=form %}
+    {% else %}
+      <div class="row justify-content-center">
+        <div class="col-4 text-center">
+
+          {% if lecture.require_submission != 'D' %}
+          <a href="{% url 'lecture_submission' run.slug chapter.slug lecture.slug %}#submission-form" class="btn btn-lg btn-outline-success">
+            {% translate "Submission" %}
+          </a>
+          {% endif %}
+
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="row justify-content-center py-3">
+      <div class="col text-center">
+
+        <div class="btn-group">
+          {% for lctr in lectures %}
+            <a href="{% url 'lecture_detail' run.slug chapter.slug lctr.slug %}" class="btn btn-sm btn-{% if lctr.slug != lecture.slug %}outline-{% endif %}primary">
+              {{ lctr.lecture_type|lecture_type_icon }} {{ lctr.title }}
+            </a>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+{#    <div class="row justify-content-center">#}
+{#      <div class="col-6 text-center">#}
+{##}
+{#        <div class="btn-group">#}
+{#        {% for lctr in lectures %}#}
+{#          {% if lctr.order|subtract:lecture.order == -1 %}#}
+{#              <a href="{% url 'lecture_detail' run.slug chapter.slug lctr.slug %}" class="btn btn-outline-primary">#}
+{#                {% translate "Previous lecture" %}#}
+{#              </a>#}
+{#          {% elif lctr.order|subtract:lecture.order == 1 %}#}
+{#              <a href="{% url 'lecture_detail' run.slug chapter.slug lctr.slug %}" class="btn btn-outline-primary">#}
+{#                {% translate "Next lecture" %}#}
+{#              </a>#}
+{#          {% endif %}#}
+{#        {% endfor %}#}
+{#        </div>#}
+{##}
+{#      </div>#}
+{#    </div>#}
+
+  </div>
+</div>
+{% endblock %}
+
+{% block javascript %}
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="{% static 'courses/js/video_tracking.js' %}"></script>
+{% endblock %}
