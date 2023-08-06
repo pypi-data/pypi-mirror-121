@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+test/test.py
+tkitAttNLocal/__init__.py
+tkitAttNLocal/attnlocal.py
+tkitAttNLocal.egg-info/PKG-INFO
+tkitAttNLocal.egg-info/SOURCES.txt
+tkitAttNLocal.egg-info/dependency_links.txt
+tkitAttNLocal.egg-info/top_level.txt
