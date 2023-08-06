@@ -1,0 +1,7 @@
+click
+jpredapi
+numpy
+pandas
+selenium
+tabulate
+python-slugify
