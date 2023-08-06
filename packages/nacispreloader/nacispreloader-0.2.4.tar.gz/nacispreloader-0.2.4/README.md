@@ -1,0 +1,44 @@
+# README #
+
+This package is a preloader for nacis (North American Cartographic Information
+Society) shapefiles.  It is intended to supplement python applications making
+use of cartopy shapefiles (which are downloaded from nacis servers). By using
+this preloader, the nacis download can be replaced with loading shapefiles from
+s3 instead (where available).
+
+Currently includes:
+* 10m roads
+* 10m, 50m, 110m countries
+* 10m, 50m, 110m states_provinces
+* 10m, 50m, 110m coastline 
+* 10m, 50m, 110m rivers_lake_centerlines 
+
+see http://www.naturalearthdata.com/downloads/ for more information about available shapefiles (those not provided by this preloader).
+see also https://gist.github.com/DanielJWood/b71237cc200831acf8e637c05ce2c375#file-natural_earth_s3_links-md for alternate download location for the source shapefile zips.
+
+
+### How to i use it? ###
+
+from nacis.preloader import Preloader
+preloader = Preloader('yours3bucket','yours3prefix')
+
+# preload roads, countries, coastlines:
+preloader.preload('roads','cultural','10m')
+preloader.preload('countries','cultural','10m')
+preloader.preload('coastline','physical','10m')
+
+# make a chart:
+import matplotlib.pyplot as plt
+import cartopy
+import cartopy.crs as ccrs
+
+fig = plt.figure(figsize=(7,7))
+ax = plt.axes(projection=ccrs.PlateCarree())
+ax.coastlines(resolution='10m', color = 'black', linewidth=1.0)
+cartopy.feature.NaturalEarthFeature('cultural','countries','10m')
+cartopy.feature.NaturalEarthFeature('cultural','roads','10m')
+ax.set_extent([-180,180,-90,90])
+plt.savefig('out.png')
+plt.close()
+
+
