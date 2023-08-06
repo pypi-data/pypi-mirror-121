@@ -1,0 +1,6 @@
+numpy
+scipy>=1.5.0
+absl-py
+
+[:python_version < "3.7"]
+dataclasses
