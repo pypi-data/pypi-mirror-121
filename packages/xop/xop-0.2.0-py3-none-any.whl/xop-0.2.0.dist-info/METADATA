@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xop
+Version: 0.2.0
+Summary: XOP optimization for XML Infosets.
+Author: Bart Kleijngeld
+Author-email: bartkl@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Description-Content-Type: text/markdown
+
+XOP
+===
+This library models the XOP binary content optimization for XML Infosets, and provides tools to aid the developer
+in dealing with XOP.
+
+_Work in progress._
+

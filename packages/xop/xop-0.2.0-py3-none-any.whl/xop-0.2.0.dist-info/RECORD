@@ -1,0 +1,11 @@
+xop/__init__.py,sha256=N8HQkKoD3-COlgdJu_8y23J09blmM2nxdnzqq4Rdahk,154
+xop/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xop/contrib/zeep.py,sha256=0Mwawetl2cwIimEEuQ0f4EKyA2jtJn5EYEkl086yPXY,327
+xop/datatypes.py,sha256=3SuKbsvcs2hf4NunhxlzbiZ4F71EjFpYc-usnPTwdHo,662
+xop/processors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xop/processors/soap_ui_style.py,sha256=PdrI8Mq0dxNj5-0v4NwWMOLY_Z_UrrTXodH0D7pmEAM,1420
+xop/serialization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xop/serialization/mime.py,sha256=RtNqyP7SccRxlJhLbklRnzQPI3HaNF0BgLKBx8c23OQ,1730
+xop-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+xop-0.2.0.dist-info/METADATA,sha256=3ET_OgQUijqZwckW48j4mz2IZLy9R6DXQbiyyX18Gdc,565
+xop-0.2.0.dist-info/RECORD,,
