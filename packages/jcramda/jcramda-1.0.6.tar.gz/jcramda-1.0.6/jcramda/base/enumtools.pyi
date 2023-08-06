@@ -1,0 +1,36 @@
+"""
+EnumTools
+"""
+import sys
+from typing import Any, Iterable, TypeVar, Union, Callable
+
+_CT = TypeVar('_CT', covariant=True)
+_CRT = TypeVar('_CRT', covariant=True)
+_CF = Union[Callable[..., _CRT], _CRT]
+
+
+if sys.version_info >= (3, 8):
+    from typing import Protocol, runtime_checkable
+    @runtime_checkable
+    class EnumLike(Protocol):
+        @property
+        def value(self): ...
+        @property
+        def name(self): ...
+        @property
+        def __members__(self): ...
+else:
+    EnumLike = Any
+
+
+def is_enum(obj: Any) -> bool: ...
+def members(e: EnumLike) -> Iterable: ...
+
+def valueof(v: Any, e: EnumLike = ...) -> _CF: ...
+def nameof(name: str, e: EnumLike = ...) -> _CF: ...
+
+def e_index_of(m: Any, e: EnumLike = ...) -> _CF: ...
+def e_index_by(i: int, e: EnumLike = ...) -> _CF: ...
+
+def enum_name(e: EnumLike) -> str: ...
+def enum_value(e: EnumLike) -> Any: ...
