@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gachi"
+version = "3.0"
+description = "A useful tool for anal practice"
+authors = ["Anonymous <anal@gadgets.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyglet = "^1.5.18"
+
+[tool.poetry.scripts]
+gachi = "gachi:main"
+do-anal = "gachi:main" 
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
