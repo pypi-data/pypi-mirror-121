@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vmilabs
+Version: 0.1.0
+Summary: official SDK for vmilabs product pillar
+Home-page: https://github.com/openvmi/sdk.sandbox.python.git
+Author: vmilabs
+Author-email: kern_zhous@163.com
+License: Apache-2.0
+Description: # sdk.sandbox.python
+        SDK for sandbox in python
+        
+Keywords: vmilabs SDK
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
