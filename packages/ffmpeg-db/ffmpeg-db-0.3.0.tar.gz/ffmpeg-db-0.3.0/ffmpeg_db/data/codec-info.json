@@ -1,0 +1,7446 @@
+{
+   "012v": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "4xm": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "8bps": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "8svx_exp": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "8svx_fib": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "a64multi": {
+      "extensions": [
+         "A64",
+         "a64"
+      ],
+      "type": "video"
+   },
+   "a64multi5": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "aac": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "aac",
+         "adts",
+         "asf",
+         "avi",
+         "caf",
+         "f4v",
+         "flv",
+         "isma",
+         "ismv",
+         "latm",
+         "loas",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "ra",
+         "rm",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "aac_fixed": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "aac",
+         "adts",
+         "asf",
+         "avi",
+         "caf",
+         "f4v",
+         "flv",
+         "isma",
+         "ismv",
+         "latm",
+         "loas",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "ra",
+         "rm",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "aac_latm": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "aasc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "ac3": {
+      "extensions": [
+         "ac3",
+         "asf",
+         "avi",
+         "caf",
+         "isma",
+         "ismv",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "ra",
+         "rm",
+         "spdif",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "ac3_fixed": {
+      "extensions": [
+         "ac3",
+         "asf",
+         "avi",
+         "caf",
+         "isma",
+         "ismv",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "ra",
+         "rm",
+         "spdif",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "acelp.kelvin": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_4xm": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_adx": {
+      "extensions": [
+         "adx"
+      ],
+      "type": "audio"
+   },
+   "adpcm_afc": {
+      "extensions": [
+         "ast"
+      ],
+      "type": "audio"
+   },
+   "adpcm_agm": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_aica": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_argo": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ct": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "voc",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_dtk": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ea": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ea_maxis_xa": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ea_r1": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ea_r2": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ea_r3": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ea_xas": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_alp": {
+      "extensions": [
+         "pcm",
+         "tun"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_amv": {
+      "extensions": [
+         "amv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_apc": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_apm": {
+      "extensions": [
+         "apm"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_cunning": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_dat4": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_dk3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_dk4": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_ea_eacs": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_ea_sead": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_iss": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_moflex": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_mtf": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_oki": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_qt": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_rad": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_smjpeg": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_ima_ssi": {
+      "extensions": [
+         "vag"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_wav": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "mka",
+         "nut",
+         "rso",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ima_ws": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff"
+      ],
+      "type": "audio"
+   },
+   "adpcm_ms": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_mtaf": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_psx": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_sbpro_2": {
+      "extensions": [
+         "voc"
+      ],
+      "type": "audio"
+   },
+   "adpcm_sbpro_3": {
+      "extensions": [
+         "voc"
+      ],
+      "type": "audio"
+   },
+   "adpcm_sbpro_4": {
+      "extensions": [
+         "voc"
+      ],
+      "type": "audio"
+   },
+   "adpcm_swf": {
+      "extensions": [
+         "asf",
+         "avi",
+         "flv",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_thp": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_thp_le": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_vima": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_xa": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "adpcm_yamaha": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "mmf",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "adpcm_zork": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "agm": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "aic": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "alac": {
+      "extensions": [
+         "caf",
+         "isma",
+         "ismv",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "psp"
+      ],
+      "type": "audio"
+   },
+   "alias_pix": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "als": {
+      "extensions": [
+         "isma",
+         "ismv",
+         "mp4",
+         "psp"
+      ],
+      "type": "audio"
+   },
+   "amrnb": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "amr",
+         "asf",
+         "avi",
+         "caf",
+         "mka",
+         "mov",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "amrwb": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "mka",
+         "mov",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "amv": {
+      "extensions": [
+         "amv",
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "anm": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "ansi": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "ape": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "apng": {
+      "extensions": [
+         "apng"
+      ],
+      "type": "video"
+   },
+   "aptx": {
+      "extensions": [
+         "aptx"
+      ],
+      "type": "audio"
+   },
+   "aptx_hd": {
+      "extensions": [
+         "aptxhd"
+      ],
+      "type": "audio"
+   },
+   "arbc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "argo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "ass": {
+      "extensions": [
+         "ass",
+         "mkv",
+         "nut",
+         "ssa"
+      ],
+      "type": "subtitle"
+   },
+   "asv1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "asv2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "atrac1": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "atrac3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "mkv",
+         "nut",
+         "oma",
+         "ra",
+         "rm",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "atrac3al": {
+      "extensions": [
+         "oma"
+      ],
+      "type": "audio"
+   },
+   "atrac3plus": {
+      "extensions": [
+         "oma"
+      ],
+      "type": "audio"
+   },
+   "atrac3plusal": {
+      "extensions": [
+         "oma"
+      ],
+      "type": "audio"
+   },
+   "atrac9": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "aura": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "aura2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "av1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "av1_cuvid": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "av1_qsv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "avrn": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "avrp": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "avs": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "avui": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "ayuv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "bethsoftvid": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "bfi": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "binkaudio_dct": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "binkaudio_rdft": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "binkvideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "bintext": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "bitpacked": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "bmp": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "ico",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "bmv_audio": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "bmv_video": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "brender_pix": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "c93": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "camstudio": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "camtasia": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "cavs": {
+      "extensions": [
+         "asf",
+         "avi",
+         "cavs",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "cc_dec": {
+      "extensions": [
+         "mov",
+         "scc"
+      ],
+      "type": "subtitle"
+   },
+   "cdgraphics": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "cdtoons": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "cdxl": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "cfhd": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "cinepak": {
+      "extensions": [
+         "asf",
+         "avi",
+         "cpk",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "clearvideo": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "ra",
+         "rm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "cljr": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "cllc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "comfortnoise": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "cook": {
+      "extensions": [
+         "mka",
+         "mkv",
+         "ra",
+         "rm"
+      ],
+      "type": "audio"
+   },
+   "cpia": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "video"
+   },
+   "cri": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "cyuv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "dca": {
+      "extensions": [
+         "asf",
+         "avi",
+         "dts",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "dds": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "derf_dpcm": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dfa": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "dirac": {
+      "extensions": [
+         "asf",
+         "avi",
+         "drc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "vc2",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "dnxhd": {
+      "extensions": [
+         "dnxhd",
+         "dnxhr",
+         "mov",
+         "mxf"
+      ],
+      "type": "video"
+   },
+   "dolby_e": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dpx": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "dsd_lsbf": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dsd_lsbf_planar": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dsd_msbf": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dsd_msbf_planar": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dsicinaudio": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dsicinvideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "dss_sp": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dst": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "dvaudio": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "mov",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "dvbsub": {
+      "extensions": [
+         "mkv",
+         "nut"
+      ],
+      "type": "subtitle"
+   },
+   "dvdsub": {
+      "extensions": [
+         "isma",
+         "ismv",
+         "mkv",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "subtitle"
+   },
+   "dvvideo": {
+      "extensions": [
+         "asf",
+         "avi",
+         "dv",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "dxa": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "dxtory": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "dxv": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "eac3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "eac3",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "eacmv": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "eamad": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "eatgq": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "eatgv": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "eatqi": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "escape124": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "escape130": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "evrc": {
+      "extensions": [
+         "isma",
+         "ismv",
+         "mov",
+         "mp4",
+         "psp"
+      ],
+      "type": "audio"
+   },
+   "exr": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "fastaudio": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "ffv1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mkv",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "ffvhuff": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "fic": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "fits": {
+      "extensions": [
+         "fits"
+      ],
+      "type": "video"
+   },
+   "flac": {
+      "extensions": [
+         "asf",
+         "avi",
+         "flac",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "oga",
+         "psp",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "flashsv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "flv",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "flashsv2": {
+      "extensions": [
+         "flv"
+      ],
+      "type": "video"
+   },
+   "flic": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "flv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "flv",
+         "nut",
+         "swf",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "fmvc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "fraps": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "frwu": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "g2m": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "g722": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "asf",
+         "au",
+         "avi",
+         "g722",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "g723_1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "rco",
+         "tco",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "g726": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "g726le": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "au"
+      ],
+      "type": "audio"
+   },
+   "g729": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bit",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "gdv": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "gif": {
+      "extensions": [
+         "gif",
+         "mov",
+         "nut"
+      ],
+      "type": "video"
+   },
+   "gremlin_dpcm": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "gsm": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "gsm",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "gsm_ms": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "h261": {
+      "extensions": [
+         "asf",
+         "avi",
+         "h261",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h263": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "flv",
+         "h263",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h263_v4l2m2m": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "flv",
+         "h263",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h263i": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h263p": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h264": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h264_amf": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h264_cuvid": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h264_nvenc": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h264_qsv": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h264_v4l2m2m": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "h264_vaapi": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "hap": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "hca": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "hcom": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "hevc": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "hevc_amf": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "hevc_cuvid": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "hevc_nvenc": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "hevc_qsv": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "hevc_v4l2m2m": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "hevc_vaapi": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "hnm4video": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "hq_hqa": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "hqx": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "huffyuv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "hymt": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "iac": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "idcinvideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "idf": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "iff": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "ilbc": {
+      "extensions": [
+         "caf",
+         "lbc",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "imc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "imm4": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "imm5": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "indeo2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "indeo3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "indeo4": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "indeo5": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "interplay_dpcm": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "interplayacm": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "interplayvideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "ipu": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "jacosub": {
+      "extensions": [
+         "js",
+         "jss"
+      ],
+      "type": "subtitle"
+   },
+   "jpeg2000": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "jpegls": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "jv": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "kgv1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "kmvc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "lagarith": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libaom-av1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libdav1d": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libgsm": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "gsm",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "libgsm_ms": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "libmp3lame": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "f4v",
+         "flv",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "oma",
+         "psp",
+         "swf",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "libopencore_amrnb": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "amr",
+         "asf",
+         "avi",
+         "caf",
+         "mka",
+         "mov",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "libopencore_amrwb": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "mka",
+         "mov",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "libopenjpeg": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "libopus": {
+      "extensions": [
+         "caf",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "opus",
+         "psp",
+         "webm"
+      ],
+      "type": "audio"
+   },
+   "librav1e": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "librsvg": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "libspeex": {
+      "extensions": [
+         "asf",
+         "avi",
+         "flv",
+         "mka",
+         "mov",
+         "nut",
+         "spx",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "libsvtav1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libtheora": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mkv",
+         "nut",
+         "ogg",
+         "ogv",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libvorbis": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mp4",
+         "nut",
+         "ogg",
+         "ogv",
+         "psp",
+         "w64",
+         "wav",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "libvpx": {
+      "extensions": [
+         "asf",
+         "avi",
+         "ivf",
+         "mkv",
+         "mov",
+         "nut",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libvpx-vp9": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libwebp": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "webp",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "libwebp_anim": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "webp",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "libx264": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libx264rgb": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "libx265": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "libxvid": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "flv",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "ljpeg": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "loco": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "lscr": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "m101": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mace3": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "mace6": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "magicyuv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mdec": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "metasound": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "microdvd": {
+      "extensions": [
+         "sub"
+      ],
+      "type": "subtitle"
+   },
+   "mimic": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mjpeg": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mjpeg",
+         "mjpg",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mjpeg_cuvid": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mjpeg",
+         "mjpg",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mjpeg_qsv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mjpeg",
+         "mjpg",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mjpeg_vaapi": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mjpeg",
+         "mjpg",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mjpegb": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "mlp": {
+      "extensions": [
+         "mka",
+         "mkv",
+         "mlp"
+      ],
+      "type": "audio"
+   },
+   "mmvideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "mobiclip": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "motionpixels": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "mov_text": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "isma",
+         "ismv",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mov",
+         "mp4",
+         "psp"
+      ],
+      "type": "subtitle"
+   },
+   "mp1": {
+      "extensions": [
+         "caf",
+         "mkv",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "mp1float": {
+      "extensions": [
+         "caf",
+         "mkv",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "mp2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "dvd",
+         "isma",
+         "ismv",
+         "m2a",
+         "m2t",
+         "m2ts",
+         "mka",
+         "mkv",
+         "mov",
+         "mp2",
+         "mp4",
+         "mpa",
+         "mpeg",
+         "mpg",
+         "mts",
+         "nut",
+         "psp",
+         "ts",
+         "vob",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "mp2fixed": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "dvd",
+         "isma",
+         "ismv",
+         "m2a",
+         "m2t",
+         "m2ts",
+         "mka",
+         "mkv",
+         "mov",
+         "mp2",
+         "mp4",
+         "mpa",
+         "mpeg",
+         "mpg",
+         "mts",
+         "nut",
+         "psp",
+         "ts",
+         "vob",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "mp2float": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "dvd",
+         "isma",
+         "ismv",
+         "m2a",
+         "m2t",
+         "m2ts",
+         "mka",
+         "mkv",
+         "mov",
+         "mp2",
+         "mp4",
+         "mpa",
+         "mpeg",
+         "mpg",
+         "mts",
+         "nut",
+         "psp",
+         "ts",
+         "vob",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "mp3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "f4v",
+         "flv",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "oma",
+         "psp",
+         "swf",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "mp3adu": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "mp3adufloat": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "mp3float": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "f4v",
+         "flv",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "oma",
+         "psp",
+         "swf",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "mp3on4": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "mp3on4float": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "mpc7": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "mpc8": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "mpeg1_cuvid": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m1v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpeg",
+         "mpg",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg1_v4l2m2m": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m1v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpeg",
+         "mpg",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg1video": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m1v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpeg",
+         "mpg",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg2_cuvid": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "dvd",
+         "exr",
+         "gxf",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m2t",
+         "m2ts",
+         "m2v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mts",
+         "mxf",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "ts",
+         "vob",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg2_qsv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "dvd",
+         "exr",
+         "gxf",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m2t",
+         "m2ts",
+         "m2v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mts",
+         "mxf",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "ts",
+         "vob",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg2_v4l2m2m": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "dvd",
+         "exr",
+         "gxf",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m2t",
+         "m2ts",
+         "m2v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mts",
+         "mxf",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "ts",
+         "vob",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg2_vaapi": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "dvd",
+         "exr",
+         "gxf",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m2t",
+         "m2ts",
+         "m2v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mts",
+         "mxf",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "ts",
+         "vob",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg2video": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "dvd",
+         "exr",
+         "gxf",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m2t",
+         "m2ts",
+         "m2v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mts",
+         "mxf",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "ts",
+         "vob",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg4": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "flv",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg4_cuvid": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "flv",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpeg4_v4l2m2m": {
+      "extensions": [
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "flv",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpegvideo": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "dvd",
+         "exr",
+         "gxf",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "m2t",
+         "m2ts",
+         "m2v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mts",
+         "mxf",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "ts",
+         "vob",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "mpl2": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "msa1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mscc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "msmpeg4": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mkv",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "msmpeg4v1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "msmpeg4v2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "msp2": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "msrle": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mss1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mss2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "msvideo1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mszh": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mts2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mv30": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mvc1": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "mvc2": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "mvdv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mvha": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mwsc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "mxpeg": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "nellymoser": {
+      "extensions": [
+         "flv",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "notchlc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "nuv": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "nvenc": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "nvenc_h264": {
+      "extensions": [
+         "264",
+         "3g2",
+         "3gp",
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "h264",
+         "isma",
+         "ismv",
+         "m3u8",
+         "m4a",
+         "m4b",
+         "m4v",
+         "mkv",
+         "mov",
+         "mp4",
+         "mpd",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "nvenc_hevc": {
+      "extensions": [
+         "265",
+         "h265",
+         "hevc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp"
+      ],
+      "type": "video"
+   },
+   "on2avc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "opus": {
+      "extensions": [
+         "caf",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "opus",
+         "psp",
+         "webm"
+      ],
+      "type": "audio"
+   },
+   "paf_audio": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "paf_video": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "pam": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pbm": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pcm_alaw": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "al",
+         "asf",
+         "au",
+         "avi",
+         "caf",
+         "flv",
+         "ircam",
+         "mka",
+         "mov",
+         "nut",
+         "sf",
+         "voc",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_bluray": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "pcm_dvd": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "pcm_f16le": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "pcm_f24le": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "pcm_f32be": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "au",
+         "caf",
+         "mov",
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_f32le": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "ircam",
+         "mka",
+         "mkv",
+         "mov",
+         "nut",
+         "sf",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_f64be": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "au",
+         "caf",
+         "mov",
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_f64le": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "ircam",
+         "mka",
+         "mkv",
+         "mov",
+         "nut",
+         "sf",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_lxf": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "pcm_mulaw": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "asf",
+         "au",
+         "avi",
+         "caf",
+         "flv",
+         "ircam",
+         "mka",
+         "mov",
+         "nut",
+         "sf",
+         "ul",
+         "voc",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_s16be": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "au",
+         "caf",
+         "flv",
+         "mka",
+         "mkv",
+         "mov",
+         "nut",
+         "oma"
+      ],
+      "type": "audio"
+   },
+   "pcm_s16be_planar": {
+      "extensions": [
+         "ast",
+         "cpk",
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_s16le": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "asf",
+         "avi",
+         "caf",
+         "dv",
+         "flv",
+         "gxf",
+         "ircam",
+         "mka",
+         "mkv",
+         "mov",
+         "mxf",
+         "nut",
+         "sf",
+         "sw",
+         "voc",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_s16le_planar": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_s24be": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "au",
+         "caf",
+         "mka",
+         "mkv",
+         "mov",
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_s24daud": {
+      "extensions": [
+         "302"
+      ],
+      "type": "audio"
+   },
+   "pcm_s24le": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "ircam",
+         "mka",
+         "mkv",
+         "mov",
+         "nut",
+         "sf",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_s24le_planar": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_s32be": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "au",
+         "caf",
+         "mka",
+         "mkv",
+         "mov",
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_s32le": {
+      "extensions": [
+         "asf",
+         "avi",
+         "caf",
+         "ircam",
+         "mka",
+         "mkv",
+         "mov",
+         "nut",
+         "sf",
+         "sox",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_s32le_planar": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_s64be": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_s64le": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_s8": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "au",
+         "caf",
+         "ircam",
+         "mov",
+         "nut",
+         "sb",
+         "sf"
+      ],
+      "type": "audio"
+   },
+   "pcm_s8_planar": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_sga": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "pcm_u16be": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_u16le": {
+      "extensions": [
+         "nut",
+         "uw"
+      ],
+      "type": "audio"
+   },
+   "pcm_u24be": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_u24le": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_u32be": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_u32le": {
+      "extensions": [
+         "nut"
+      ],
+      "type": "audio"
+   },
+   "pcm_u8": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "asf",
+         "avi",
+         "flv",
+         "mka",
+         "mkv",
+         "mov",
+         "nut",
+         "rso",
+         "ub",
+         "voc",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "pcm_vidc": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "pcx": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pfm": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pgm": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pgmyuv": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pgssub": {
+      "extensions": [
+         "mkv",
+         "sup"
+      ],
+      "type": "subtitle"
+   },
+   "pgx": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "photocd": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pictor": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "pixlet": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "pjs": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "png": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "flac",
+         "im1",
+         "im24",
+         "im8",
+         "isma",
+         "ismv",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "mp4",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "psp",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "ppm": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "prores": {
+      "extensions": [
+         "mkv",
+         "mov"
+      ],
+      "type": "video"
+   },
+   "prores_aw": {
+      "extensions": [
+         "mkv",
+         "mov"
+      ],
+      "type": "video"
+   },
+   "prores_ks": {
+      "extensions": [
+         "mkv",
+         "mov"
+      ],
+      "type": "video"
+   },
+   "prosumer": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "psd": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "ptx": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "qcelp": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "isma",
+         "ismv",
+         "mov",
+         "mp4",
+         "psp"
+      ],
+      "type": "audio"
+   },
+   "qdm2": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "mka",
+         "mkv",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "qdmc": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff",
+         "caf",
+         "mka",
+         "mkv",
+         "mov"
+      ],
+      "type": "audio"
+   },
+   "qdraw": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "qpeg": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "qtrle": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "r10k": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "r210": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "ralf": {
+      "extensions": [
+         "ra",
+         "rm"
+      ],
+      "type": "audio"
+   },
+   "rasc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "rawvideo": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "flm",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mkv",
+         "mov",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rgb",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y",
+         "yuv"
+      ],
+      "type": "video"
+   },
+   "real_144": {
+      "extensions": [
+         "mka",
+         "mkv",
+         "ra",
+         "rm"
+      ],
+      "type": "audio"
+   },
+   "real_288": {
+      "extensions": [
+         "mka",
+         "mkv",
+         "ra",
+         "rm"
+      ],
+      "type": "audio"
+   },
+   "realtext": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "rl2": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "roq_dpcm": {
+      "extensions": [
+         "roq"
+      ],
+      "type": "audio"
+   },
+   "roqvideo": {
+      "extensions": [
+         "roq"
+      ],
+      "type": "video"
+   },
+   "rpza": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "rscc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "rv10": {
+      "extensions": [
+         "mkv",
+         "ra",
+         "rm"
+      ],
+      "type": "video"
+   },
+   "rv20": {
+      "extensions": [
+         "mkv",
+         "ra",
+         "rm"
+      ],
+      "type": "video"
+   },
+   "rv30": {
+      "extensions": [
+         "mkv",
+         "ra",
+         "rm"
+      ],
+      "type": "video"
+   },
+   "rv40": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mkv",
+         "nut",
+         "ra",
+         "rm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "s302m": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "sami": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "sanm": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "sbc": {
+      "extensions": [
+         "msbc",
+         "sbc"
+      ],
+      "type": "audio"
+   },
+   "scpr": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "screenpresso": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "sdx2_dpcm": {
+      "extensions": [
+         "afc",
+         "aif",
+         "aifc",
+         "aiff"
+      ],
+      "type": "audio"
+   },
+   "sga": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "sgi": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "sgirle": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "sheervideo": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "shorten": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "simbiosis_imx": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "sipr": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "mkv",
+         "nut",
+         "ra",
+         "rm",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "siren": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "smackaud": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "smackvid": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "smc": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "smvjpeg": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "snow": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mkv",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "sol_dpcm": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "sonic": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "sonicls": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "sp5x": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "speedhq": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "srgc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "srt": {
+      "extensions": [
+         "lrc",
+         "mkv",
+         "srt"
+      ],
+      "type": "subtitle"
+   },
+   "ssa": {
+      "extensions": [
+         "ass",
+         "mkv",
+         "nut",
+         "ssa"
+      ],
+      "type": "subtitle"
+   },
+   "stl": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "subrip": {
+      "extensions": [
+         "lrc",
+         "mkv",
+         "srt"
+      ],
+      "type": "subtitle"
+   },
+   "subviewer": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "subviewer1": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "sunrast": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "svq1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "svq3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "tak": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "targa": {
+      "extensions": [
+         "asf",
+         "avi",
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "wma",
+         "wmv",
+         "wtv",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "targa_y216": {
+      "extensions": [
+         "mov"
+      ],
+      "type": "video"
+   },
+   "tdsc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "text": {
+      "extensions": [
+         "mkv",
+         "nut"
+      ],
+      "type": "subtitle"
+   },
+   "theora": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mkv",
+         "nut",
+         "ogg",
+         "ogv",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "thp": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "tiertexseqvideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "tiff": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "mov",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "tmv": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "truehd": {
+      "extensions": [
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mov",
+         "mp4",
+         "psp",
+         "thd"
+      ],
+      "type": "audio"
+   },
+   "truemotion1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "truemotion2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "truemotion2rt": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "truespeech": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "tscc2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mp4",
+         "nut",
+         "psp",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "tta": {
+      "extensions": [
+         "mkv",
+         "tta"
+      ],
+      "type": "audio"
+   },
+   "ttml": {
+      "extensions": [
+         "ttml"
+      ],
+      "type": "subtitle"
+   },
+   "twinvq": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "txd": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "ultimotion": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "utvideo": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "v210": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "v210x": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "v308": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "v408": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "v410": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vb": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "vble": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vc1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "vc1",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vc1_cuvid": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "vc1",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vc1_qsv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "vc1",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vc1_v4l2m2m": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "vc1",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vc1image": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vc2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "drc",
+         "isma",
+         "ismv",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "vc2",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vcr1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vmdaudio": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "vmdvideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "vmnc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vorbis": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mka",
+         "mkv",
+         "mp4",
+         "nut",
+         "ogg",
+         "ogv",
+         "psp",
+         "w64",
+         "wav",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "vp3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp4": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp5": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp6": {
+      "extensions": [
+         "asf",
+         "avi",
+         "flv",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp6a": {
+      "extensions": [
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp6f": {
+      "extensions": [
+         "asf",
+         "avi",
+         "f4v",
+         "flv",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp7": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp8": {
+      "extensions": [
+         "asf",
+         "avi",
+         "ivf",
+         "mkv",
+         "nut",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp8_cuvid": {
+      "extensions": [
+         "asf",
+         "avi",
+         "ivf",
+         "mkv",
+         "mov",
+         "nut",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp8_qsv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "ivf",
+         "mkv",
+         "mov",
+         "nut",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp8_v4l2m2m": {
+      "extensions": [
+         "asf",
+         "avi",
+         "ivf",
+         "mkv",
+         "mov",
+         "nut",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp8_vaapi": {
+      "extensions": [
+         "asf",
+         "avi",
+         "ivf",
+         "mkv",
+         "mov",
+         "nut",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp9": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp9_cuvid": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp9_qsv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp9_v4l2m2m": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vp9_vaapi": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "ivf",
+         "mkv",
+         "mov",
+         "mp4",
+         "nut",
+         "psp",
+         "webm",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "vplayer": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "vqavideo": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "wavesynth": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "wavpack": {
+      "extensions": [
+         "mkv",
+         "nut",
+         "wv"
+      ],
+      "type": "audio"
+   },
+   "wcmv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "webp": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "webp",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "webvtt": {
+      "extensions": [
+         "m3u8",
+         "mkv",
+         "vtt",
+         "webm"
+      ],
+      "type": "subtitle"
+   },
+   "wmalossless": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "wmapro": {
+      "extensions": [
+         "asf",
+         "avi",
+         "isma",
+         "ismv",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "wmav1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "wmav2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "wmavoice": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "wmv1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "wmv2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "wmv3": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "rcv",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "wmv3image": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "wnv1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "wrapped_avframe": {
+      "extensions": [
+         "y4m"
+      ],
+      "type": "video"
+   },
+   "ws_snd1": {
+      "extensions": [ ],
+      "type": "audio"
+   },
+   "xan_dpcm": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "xan_wc3": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "xan_wc4": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "xbin": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "xbm": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "xface": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "nut",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "xl": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "xma1": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "xma2": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mka",
+         "nut",
+         "w64",
+         "wav",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "audio"
+   },
+   "xpm": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "xsub": {
+      "extensions": [ ],
+      "type": "subtitle"
+   },
+   "xwd": {
+      "extensions": [
+         "bmp",
+         "dpx",
+         "exr",
+         "im1",
+         "im24",
+         "im8",
+         "j2c",
+         "j2k",
+         "jls",
+         "jp2",
+         "jpeg",
+         "jpg",
+         "ljpg",
+         "pam",
+         "pbm",
+         "pcx",
+         "pfm",
+         "pgm",
+         "pgmyuv",
+         "pix",
+         "png",
+         "ppm",
+         "ras",
+         "rs",
+         "sgi",
+         "sun",
+         "sunras",
+         "tga",
+         "tif",
+         "tiff",
+         "xbm",
+         "xface",
+         "xwd",
+         "y"
+      ],
+      "type": "video"
+   },
+   "y41p": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "ylc": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "yop": {
+      "extensions": [ ],
+      "type": "video"
+   },
+   "yuv4": {
+      "extensions": [
+         "asf",
+         "avi",
+         "mov",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "zerocodec": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "zlib": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   },
+   "zmbv": {
+      "extensions": [
+         "asf",
+         "avi",
+         "nut",
+         "wma",
+         "wmv",
+         "wtv"
+      ],
+      "type": "video"
+   }
+}
