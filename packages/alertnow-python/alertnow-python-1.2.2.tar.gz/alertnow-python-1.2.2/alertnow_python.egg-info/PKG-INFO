@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: alertnow-python
+Version: 1.2.2
+Summary: This package used for logging information and errors.
+Home-page: https://gitlab.com/log-collector/alertnow-phyton
+Author: Tabriz Gulmammadov
+Author-email: gulmammadovtabriz@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/log-collector/alertnow-phyton/-/archive/main/alertnow-phyton-main.tar.gz
+Description: # AlertNow Python
+        This package used for logging information or errors.
+        
+        #Installation
+        ```pip install AlertNow-Python```
+        
+        #How to use it?
+        First of all, you need to register with ```sign-up``` remote API and 
+        get the api key on the 
+        ```https://alertnow-backend.herokuapp.com/api/swagger-ui.html```.
+        After, you must initialize connection using ```init``` method.
+        And you can use ```info``` or ```error``` methods.
+        
+        
+Keywords: Log,Logger,AlertNow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
