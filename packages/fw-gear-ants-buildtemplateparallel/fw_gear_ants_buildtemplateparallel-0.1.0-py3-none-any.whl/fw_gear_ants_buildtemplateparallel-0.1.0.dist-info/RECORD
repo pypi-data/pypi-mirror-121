@@ -1,0 +1,10 @@
+fw_gear_ants_buildtemplateparallel/__init__.py,sha256=BbQegxG-66vlo3CaElrKyqYZJ3KaBo-krsXbF5NK04c,253
+fw_gear_ants_buildtemplateparallel/interfaces.py,sha256=6L7xnetgFib9ozFDJZDZ0YKiSIcGwo19Le_3jgM5hLI,1834
+fw_gear_ants_buildtemplateparallel/parser.py,sha256=k23WJikzimqlb-8YnM6N2HHkOepZ3K3BUYhKRg1Kosc,1254
+fw_gear_ants_buildtemplateparallel/templates/MNI152_T1_1mm.nii.gz,sha256=nCVbY-ZoJCuUYhtEa-DJoEoSFr0lQjt0agxvlEPqD8A,10917429
+fw_gear_ants_buildtemplateparallel/utils.py,sha256=JHxb4XbKulf0jE5xVsyYux3fByEdpdjTVIdpfM_DSRI,5748
+fw_gear_ants_buildtemplateparallel/workflow.py,sha256=txP6RLNwtooENV-mV7omVOQn-Lb4OKRUxs1C8tqDDD0,1491
+fw_gear_ants_buildtemplateparallel-0.1.0.dist-info/LICENSE,sha256=NNC8xrLtqnhvmkJdOB71ctPp2jBi_2V5u9RzRVEpBcs,1092
+fw_gear_ants_buildtemplateparallel-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+fw_gear_ants_buildtemplateparallel-0.1.0.dist-info/METADATA,sha256=jS-mGhPO-Mp16rBdAQOkEyhc_MKnhD1BcI9UXP9126o,4716
+fw_gear_ants_buildtemplateparallel-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: fw-gear-ants-buildtemplateparallel
+Version: 0.1.0
+Summary: Run ANTs buildtemplateparallel.sh script and generate templates.
+Home-page: https://gitlab.com/flywheel-io/flywheel-apps/ants-buildtemplateparallel
+License: MIT
+Keywords: Flywheel,Gears
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: backoff (>=1.11.1,<2.0.0)
+Requires-Dist: flywheel-gear-toolkit (>=0.3,<0.4)
+Requires-Dist: joblib (>=1.0.1,<2.0.0)
+Requires-Dist: nipype (>=1.6.1,<2.0.0)
+Project-URL: Repository, https://gitlab.com/flywheel-io/flywheel-apps/ants-buildtemplateparallel
+Description-Content-Type: text/markdown
+
+# ANTs - buildtemplateparallel
+
+A Flywheel gear wrapping [ANTs](https://github.com/ANTsX/ANTs) `buildtemplateparallel.sh` 
+script. This script builds a population template iteratively from NIfTI input images and
+uses multiple CPU cores on host to parallelize the registration of each subject to the 
+template.
+
+NOTE: ANTs `buildtemplateparallel` can take a *very long* to run. It is
+recommended to run this gear on a host with significant number of CPUs to 
+decrease runtime.
+
+## Usage
+
+This gear can be run at the Project, Subject or Session level. Input NIfTI files to
+be used in the parallelized registration are downloaded dynamically during the job
+run based on the configuration options.
+
+### Inputs
+
+This gear has no input.
+
+### Configuration
+
+* **Image Dimension**: Dimensionality of the input NIfTI files (default 2). 
+  2 or 3 for single volume registration, 4 for template generation of time-series data.
+  
+* **Max Iterations**: Max-Iterations in form: `JxKxL` (default 30x50x30) where
+    * J = max iterations at coarsest resolution (here, reduce by power of 2^2)
+    * K = middle resolution iterations (here,reduce by power of 2)
+    * L = fine resolution iterations (here, full resolution). *This level takes much 
+      more time per iteration. Adding an extra value before JxKxL (i.e. resulting in 
+      IxJxKxL) would add another iteration level.*
+  
+* **N4 Bias Field Correction**: N4BiasFieldCorrection of moving image (default True) 
+  False == off, True == on. If True, will run N4 before each registration. It is more 
+  efficient to run N4BiasFieldCorrection on the input images once, then build a 
+  template from the corrected images. 
+  
+* **Similarity Metric**: Type of similarity metric used for registration (default: GR).  
+  * For intramodal image registration, use:
+    * CC = cross-correlation
+    * MI = mutual information 
+    * PR = probability mapping 
+    * MSQ = mean square difference (Demons-like)
+    * SSD = sum of squared differences  
+  * For intermodal image registration, use:
+    * MI = mutual information 
+    * PR = probability mapping"
+    
+* **Transformation Model**: Type of transformation model used for registration: 
+  (EL = elastic transformation model, SY = SyN with time, arbitrary number of time 
+  points, S2 =  SyN with time, optimized for 2 time points, GR = greedy SyN, 
+  EX = exponential, DD = diffeomorphic demons style exponential, mapping, 
+  RI = purely rigid, RA = Affine rigid). Default = GR.
+  
+* **Output File Prefix**: A prefix that is prepended to all output files.
+  
+* **Target Template**: Volume to be used as the target of all inputs 
+  (default MNI152_T1_1mm.nii.gz). When set to None, the script will create an
+  unbiased starting point by averaging all inputs.
+
+* **Rigid-body Registration**: Do rigid-body registration of inputs before 
+  creating template (default False). Only useful when you do not have an initial template.
+
+* **Input Glob Pattern**: Glob pattern (Unix style pathname pattern expansion) that 
+  matches filename to be used as inputs. (Default ''). 
+  [reference](https://en.wikipedia.org/wiki/Glob_(programming)).
+  
+* **Input Regex**: Regular expression that matches files to be used as inputs 
+  (default `.*nii\\.gz`). [reference](https://en.wikipedia.org/wiki/Regular_expression).
+
+* **Input Tags**: Tag(s) that matches files to be used as inputs. When multiple 
+  tags are specified, they must be comma separated (e.g. T1template,ANTs)
+
+* **debug**: Enable debug log message (default false)
+
+**NOTE:** When `Input Glob Pattern`, `Input Regex` and `Input Tags` are used 
+simultaneously, the filename matches on `(Input Regex OR Input Glob Pattern) AND Input Tags`.
+
+## Contributing
+
+For more information about how to get started contributing to that gear, 
+checkout [CONTRIBUTING.md](CONTRIBUTING.md).
+
