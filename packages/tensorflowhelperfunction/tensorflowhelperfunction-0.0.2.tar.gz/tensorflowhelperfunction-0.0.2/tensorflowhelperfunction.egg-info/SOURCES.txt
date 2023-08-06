@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+tensorflow-helper-functions/__init__.py
+tensorflowhelperfunction.egg-info/PKG-INFO
+tensorflowhelperfunction.egg-info/SOURCES.txt
+tensorflowhelperfunction.egg-info/dependency_links.txt
+tensorflowhelperfunction.egg-info/top_level.txt
