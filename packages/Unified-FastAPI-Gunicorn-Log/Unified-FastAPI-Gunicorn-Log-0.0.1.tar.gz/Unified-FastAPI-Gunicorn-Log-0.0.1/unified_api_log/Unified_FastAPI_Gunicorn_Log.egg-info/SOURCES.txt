@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+unified_api_log/Unified_FastAPI_Gunicorn_Log.egg-info/PKG-INFO
+unified_api_log/Unified_FastAPI_Gunicorn_Log.egg-info/SOURCES.txt
+unified_api_log/Unified_FastAPI_Gunicorn_Log.egg-info/dependency_links.txt
+unified_api_log/Unified_FastAPI_Gunicorn_Log.egg-info/top_level.txt
