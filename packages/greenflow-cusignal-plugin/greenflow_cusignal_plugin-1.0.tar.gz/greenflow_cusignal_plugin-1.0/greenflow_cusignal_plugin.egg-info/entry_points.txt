@@ -1,0 +1,8 @@
+[greenflow.plugin]
+greenflow_cusignal_plugin = greenflow_cusignal_plugin
+greenflow_cusignal_plugin.convolution = greenflow_cusignal_plugin.convolution
+greenflow_cusignal_plugin.filtering = greenflow_cusignal_plugin.filtering
+greenflow_cusignal_plugin.gensig = greenflow_cusignal_plugin.gensig
+greenflow_cusignal_plugin.spectral_analysis = greenflow_cusignal_plugin.spectral_analysis
+greenflow_cusignal_plugin.windows = greenflow_cusignal_plugin.windows
+
