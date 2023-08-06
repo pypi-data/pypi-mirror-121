@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastapi_dream_core
+Version: 0.0.1
+Summary: Reusable core, repositories and utilities for FastAPI
+Home-page: https://github.com/yurihartmann/fastapi_dream_core
+Author: Yuri Hartmann
+Author-email: yurihartmann0607@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/yurihartmann/fastapi_dream_core
+Keywords: fastapi_dream_core core api
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
