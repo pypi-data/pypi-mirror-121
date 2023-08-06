@@ -1,0 +1,25 @@
+include *.txt
+include *.md
+include *.pkl
+include *.joblib
+recursive-include ./logistic_regression_model/*
+
+include logistic_regression_model/input_data/Sports_News_09_09_2021.csv
+include logistic_regression_model/input_data/Sports_News_03_06_2021.csv
+include logistic_regression_model/saved_models/*.pkl
+include logistic_regression_model/saved_models/*.joblib
+
+include logistic_regression_model/data_prep/*
+include logistic_regression_model/evaluation/*
+include logistic_regression_model/modelling_evaluation/*
+include logistic_regression_model/parameters/*
+include logistic_regression_model/main.py
+include logistic_regression_model/VERSION
+
+include ./requirements/requirements.txt
+include ./requirements/test_requirements.txt
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
