@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./__init__.py
+./controlmyspa.py
+./example.py
+./setup.py
+controlmyspa.egg-info/PKG-INFO
+controlmyspa.egg-info/SOURCES.txt
+controlmyspa.egg-info/dependency_links.txt
+controlmyspa.egg-info/requires.txt
+controlmyspa.egg-info/top_level.txt
