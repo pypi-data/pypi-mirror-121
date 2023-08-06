@@ -1,0 +1,4 @@
+pandas
+gitpython==3.1.18
+plotly==5.2.1
+hydra-core==0.11.3
