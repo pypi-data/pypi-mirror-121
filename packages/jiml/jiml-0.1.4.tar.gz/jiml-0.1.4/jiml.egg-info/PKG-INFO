@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: jiml
+Version: 0.1.4
+Summary: Convert json to json using jinja2 and yaml
+Home-page: https://github.com/vmstarchenko/jiml
+License: MIT
+Keywords: json2json,jsontojson,json,yaml,template,convert
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: IronPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
