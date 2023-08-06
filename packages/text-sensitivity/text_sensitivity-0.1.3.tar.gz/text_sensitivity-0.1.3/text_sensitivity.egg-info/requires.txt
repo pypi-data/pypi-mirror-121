@@ -1,0 +1,2 @@
+text-explainability>=0.4.5
+nlpaug>=1.1.3
