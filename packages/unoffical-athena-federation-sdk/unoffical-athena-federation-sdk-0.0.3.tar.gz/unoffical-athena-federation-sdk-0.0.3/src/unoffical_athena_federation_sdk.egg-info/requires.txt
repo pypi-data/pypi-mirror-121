@@ -1,0 +1,2 @@
+pyarrow==0.16.0
+smart-open==5.2.1

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/athena/__init__.py
+src/athena/federation/__init__.py
+src/athena/federation/athena_data_source.py
+src/athena/federation/batch_writer.py
+src/athena/federation/lambda_handler.py
+src/athena/federation/models.py
+src/athena/federation/sdk.py
+src/athena/federation/utils.py
+src/unoffical_athena_federation_sdk.egg-info/PKG-INFO
+src/unoffical_athena_federation_sdk.egg-info/SOURCES.txt
+src/unoffical_athena_federation_sdk.egg-info/dependency_links.txt
+src/unoffical_athena_federation_sdk.egg-info/requires.txt
+src/unoffical_athena_federation_sdk.egg-info/top_level.txt
