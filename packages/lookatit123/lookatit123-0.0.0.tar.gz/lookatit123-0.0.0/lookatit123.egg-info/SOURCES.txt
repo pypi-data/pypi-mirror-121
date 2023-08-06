@@ -1,0 +1,5 @@
+setup.py
+lookatit123.egg-info/PKG-INFO
+lookatit123.egg-info/SOURCES.txt
+lookatit123.egg-info/dependency_links.txt
+lookatit123.egg-info/top_level.txt
