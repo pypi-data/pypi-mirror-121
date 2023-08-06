@@ -1,0 +1,11 @@
+mopidy_nuvo/__init__.py,sha256=dfSNc5v6Bm7OpQkNHifX5FFjWojMT585CSjCdpHiAyQ,983
+mopidy_nuvo/connect.py,sha256=rfqVOkDYUsu-vHU0cGld97kR8ctkSbWXItp8BHF3o1Q,1589
+mopidy_nuvo/ext.conf,sha256=zTsUeNIoGjFMl-HkT4YcDAic4JbSJCT4w9MRlB-Ve4M,444
+mopidy_nuvo/frontend.py,sha256=7a5R-VOr1_7_ZLD_BjAlcSVrArBAAnGHEhkNWEbT6_Y,708
+mopidy_nuvo/interface.py,sha256=nVTUr9BCRG-QcsdDEUTc2f-r4jt9OMdnQNH1NXce1NQ,5424
+Mopidy_Nuvo-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+Mopidy_Nuvo-0.2.0.dist-info/METADATA,sha256=iltqsce4oE9pectys3W0-0_cIRgYb9RAmGRnj3Orpxw,3201
+Mopidy_Nuvo-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Mopidy_Nuvo-0.2.0.dist-info/entry_points.txt,sha256=0fHph-sr1wITXXUmOU2di8DMBBk9BETPTUWk8IMVWTE,50
+Mopidy_Nuvo-0.2.0.dist-info/top_level.txt,sha256=73PkOAGybTV5o983bXedy44UWMzV5oDxDKFlWR-zt04,12
+Mopidy_Nuvo-0.2.0.dist-info/RECORD,,
