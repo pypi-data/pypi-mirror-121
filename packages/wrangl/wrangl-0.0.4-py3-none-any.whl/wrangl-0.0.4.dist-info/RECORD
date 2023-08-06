@@ -1,0 +1,16 @@
+wrangl/__init__.py,sha256=3WcxT18af28Cxorz3UZ4MvDsXqIiwuWH69zZ1MLPIdI,81
+wrangl/data/__init__.py,sha256=lglDZ-sg5G2MU1y0-a7Ort_pnM4Xe5GnLEimESxGf4I,55
+wrangl/data/loader/__init__.py,sha256=DHZwjJhc_o4MT7bkeQBDPF9rD9HwIkSdtTDNFg_tAfI,126
+wrangl/data/loader/cache.py,sha256=hcFcs-23Hp2UmtN-7bIA_O_1ecRSL57Vm4E-2i6Wo8o,2171
+wrangl/data/loader/dataloader.py,sha256=z9VIZXzt0zzwlM3egz2OQe0JUdRflW6H4mqMRrHWUTc,1779
+wrangl/data/loader/fileloader.py,sha256=rvpWlAkEiNqalc9J_tIG1URGlUXyq8L12IFdyIFDFc8,1447
+wrangl/data/loader/processor.py,sha256=FTYWrIwStAnU5K63_hMyLr_Q4Fm3__AYcAfzRvI-kzA,189
+wrangl/interactive/__init__.py,sha256=G8nR2Fvm8XOB5LNcDL99uGA7QtxDQ2ptzLbu8o9x8jY,73
+wrangl/interactive/annotator.py,sha256=lutwU_9wNJTyTYfKCn0pN_A9goMs7wpCsYuEaGOl1AE,7811
+wrangl/interactive/docs.py,sha256=ts3Y9yiGrD6nni6AgWgVs7F58sq8lopcU64QhgoiyQ4,907
+wrangl-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wrangl-0.0.4.dist-info/METADATA,sha256=YQkIrV_Y30gSYaTtbWOT-j2dpo1UQooZKU-NkOl_qfI,2694
+wrangl-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wrangl-0.0.4.dist-info/entry_points.txt,sha256=xYBgtCz3Dc3Nub-PwJsp2haeMUDXvXKfnlbUaCqURrg,115
+wrangl-0.0.4.dist-info/top_level.txt,sha256=0Oqi5ar5DN2LqN2DV6G-AMjB4i8_6A66FArQaFBVpdU,7
+wrangl-0.0.4.dist-info/RECORD,,
