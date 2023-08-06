@@ -1,0 +1,13 @@
+darkriftpy/__init__.py,sha256=jqU15qMMkCQWxF6Ne4UtQkCOI272TG77x5H6i5sxLmg,694
+darkriftpy/client.py,sha256=1gY1H5sOmEmfb_Zgox37nW8unp1pFDmrcgVs-ehGVDc,18068
+darkriftpy/exceptions.py,sha256=cqf_LO9JT0aoGcqoTFfgXpg5Z0UC5WxitqJPzWr8mNM,934
+darkriftpy/io.py,sha256=KBwX5jlwRtKd4HhjmgFgjkVf-QzgZBRZTy6WCeeVsSI,7022
+darkriftpy/message.py,sha256=5u3SLvUxLb3obwUNYoqTxtOjpk04ISq9uAjX33h7lOM,8578
+darkriftpy/proto.py,sha256=-yJfQ3X_TjmygjvXBp9Sj1aZpvg3Py_nKIO5Qc2Y30E,18437
+darkriftpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+darkriftpy/server.py,sha256=TkOoPRwk7Eq14LlDItd4Xmsgvu2hqDaWUsmxjtfcfQ8,19615
+darkriftpy/types.py,sha256=jcvp-2Id5NhBbsT1h_J7JuTIepRlac27GBbPDHrbloY,707
+darkriftpy-0.1.0.dist-info/METADATA,sha256=yidFLIaK3WDmtR4YdtPCfuX1JPCwugRmAumaiBYWkqQ,13737
+darkriftpy-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+darkriftpy-0.1.0.dist-info/top_level.txt,sha256=my5N4vlwnLKTU6yaOlPXDkQdNjad2uJ6W9UqtSavor4,11
+darkriftpy-0.1.0.dist-info/RECORD,,
