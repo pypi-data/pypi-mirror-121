@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=MwK3p0hEsvB222cSJcwjEnWE67k_typqrQuohIe_qFU,430
+kibela_client/__init__.py,sha256=rHmuptppdW5bDZApSfyL2R4Hlwqs-Irad2nKp3vBOWk,131
+kibela_client/client.py,sha256=D1KNxW6i8K9tZA0KxgxUHtRCH5jgtFgzgvGH-v7b1x4,1978
+kibela_client/settings.py,sha256=ThS50YZJy0idD5FZQI9xIT26vMBUEtQ4y8i9C1vz5Hw,220
+kibela_client/types.py,sha256=Bqkc-mdfL8-S8qbkNRXUY89K56ySTduhacoWk6AnQ2U,6120
+kibela_client-0.1.0.dist-info/LICENSE,sha256=6GGhynXKu_Msi4tclJ5NEXTuNMHmYHWRceUsLKz2UQM,1068
+kibela_client-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+kibela_client-0.1.0.dist-info/METADATA,sha256=6Al7D9BaB_wVMeUlD28HFflLIQXfMIlzfnkUjxRufmE,776
+kibela_client-0.1.0.dist-info/RECORD,,

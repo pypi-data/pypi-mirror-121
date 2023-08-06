@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kibela-client
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/chanyou0311/kibela-client-python
+License: MIT
+Author: chanyou0311
+Author-email: chanyou0311@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gql[all] (>=3.0.0a6,<4.0.0)
+Requires-Dist: pydantic[dotenv] (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/chanyou0311/kibela-client-python
+Description-Content-Type: text/markdown
+
+# kibela-client-python
+
+Unofficial Python API client for [Kibela](https://kibe.la/).
+
