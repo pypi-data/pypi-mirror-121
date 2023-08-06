@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: ptiistild
+Version: 0.0.1
+Summary: IIS Tilde Enumeration Tool
+Home-page: https://www.penterep.com/
+Author: Penterep
+Author-email: info@penterep.com
+License: GPLv3+
+Description: ![penterepTools](https://www.penterep.com/external/penterepToolsLogo.png)
+        
+        # PTIISTILD
+        > IIS Tilde Enumeration Tool
+        
+        ## Installation
+        
+        ```
+        pip install ptiistild
+        ```
+        
+        ## Usage examples
+        ```
+        ptiistild -u https://www.example.com/        # Test URL for IIS Tilde Enumeration
+        ptiistild -u https://www.example.com/ -g     # Test URL for IIS Tilde Enumeration & Enumerate information
+        ptiistild -f urlList.txt -g                  # Test URL list for IIS Tilde Enumeration & Enumerate information
+        ```
+        
+        ## Options
+        ```
+        -u   --url         <url>           Connect to URL
+        -f   --file        <file>          Load urls from file
+        -g   --grabbing                    Grab/Bruteforce all the info
+        -s   --special                     Add special characters to charset [!#$%&'()@^`{}]
+        -p   --proxy       <proxy>         Set proxy (e.g. 127.0.0.1)
+        -c   --cookie      <cookie>        Set cookie
+        -t   --threads     <threads>       Number of threads (defaule 20)
+        -H   --headers     <header:value>  Set custom headers
+        -ua  --user-agent  <user-agent>    Set user agent
+        -j   --json                        Enable JSON output
+        -v   --version                     Show script version and exit
+        -h   --help                        Show this help message and exit
+        ```
+        
+        ## Dependencies
+        - requests
+        - ptlibs
+        - ptthreads
+        
+        ## Version History
+        
+        * 0.0.1
+            * Alpha non-public release
+        
+        ## Licence
+        
+        Copyright (c) 2020 HACKER Consulting s.r.o.
+        
+        ptiistild is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+        
+        ptiistild is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with ptiistild.  If not, see <https://www.gnu.org/licenses/>.
+        
+        ## Warning
+        
+        You are only allowed to run the tool against the websites which
+        you have been given permission to pentest. We do not accept any
+        responsibility for any damage/harm that this application causes to your
+        computer, or your network. Penterep is not responsible for any illegal
+        or malicious use of this code. Be Ethical!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
