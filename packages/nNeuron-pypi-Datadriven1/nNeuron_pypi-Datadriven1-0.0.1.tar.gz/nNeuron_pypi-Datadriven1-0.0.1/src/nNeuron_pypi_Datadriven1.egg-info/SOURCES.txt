@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/nNeuron/__init__.py
+src/nNeuron/perceptron.py
+src/nNeuron_pypi_Datadriven1.egg-info/PKG-INFO
+src/nNeuron_pypi_Datadriven1.egg-info/SOURCES.txt
+src/nNeuron_pypi_Datadriven1.egg-info/dependency_links.txt
+src/nNeuron_pypi_Datadriven1.egg-info/requires.txt
+src/nNeuron_pypi_Datadriven1.egg-info/top_level.txt
