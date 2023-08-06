@@ -1,0 +1,118 @@
+Metadata-Version: 1.2
+Name: django-view-export
+Version: 1.0.0
+Summary: Export CSV reports of database views.
+Home-page: https://gitlab.com/Sturm/django-view-export
+Author: Ben Sturmfels
+Author-email: ben@sturm.com.au
+License: Apache License, Version 2.0
+Project-URL: Source, https://gitlab.com/Sturm/django-view-export
+Project-URL: Bug Reports, https://gitlab.com/Sturm/django-view-export/-/issues
+Description: ==================
+        Django View Export
+        ==================
+        
+        Generate CSV reports by simply creating SQL views.
+        
+        Authenticated staff members can then directly download these reports as CSV.
+        It's a nice agile way to deal with the changing requirements for reports.
+        
+        
+        Quick start
+        -----------
+        
+        1. Include the URLconf in your project ``urls.py`` like this:
+        
+           .. code-block:: python
+        
+                path('reports/', include('view_export.urls')),
+        
+        
+        2. Create an SQL view in your database:
+        
+           .. code-block:: sql
+        
+                => CREATE VIEW v_staff_names AS (
+                ->      SELECT first_name, last_name FROM auth_user
+                ->      WHERE is_staff = TRUE);
+        
+           You'll probably want to record this SQL in a file such as ``reports.sql`` or
+           even better, add it to a Django migration.
+        
+        3. Start the development server and visit ``http://127.0.0.1:8000/reports/staff_names/``
+           or ``http://127.0.0.1:8000/reports/v_staff_names/`` to download the SQL view named
+           ``v_staff`` as a CSV file.
+        
+        No settings are required by default and there's no need to add the package to
+        Django's ``INSTALLED_APPS``. Staff login access is required, so you may wish to
+        set the ``LOGIN_URL`` setting to ``/admin/login/`` initially.
+        
+        
+        Release History
+        ---------------
+        
+        1.0.0 (2021-09-28)
+        ++++++++++++++++++
+        
+         - Upgrade for Python 3.6 and Django 3.2.
+        
+        
+        0.7.1 (2017-02-07)
+        ++++++++++++++++++
+        
+         - Remove ``patterns`` URLconf function per deprecation in Django 1.8.
+         - Fix example URLs in README.
+         - Provide example view with underscores.
+         - Document staff-only access and LOGIN_URL setting.
+        
+        
+        0.6.2 (2015-09-04)
+        ++++++++++++++++++
+        
+        **Bugfixes**
+        
+         - Fix installation error due to HISTORY.rst not being present in source.
+        
+        
+        0.6.1 (2015-08-25)
+        ++++++++++++++++++
+        
+        **Improvements**
+        
+         - Switch to Python 3 only, factor out CSV and report filename generation.
+        
+        
+        0.5.5 (2015-08-25)
+        ++++++++++++++++++
+        
+        **Bugfixes**
+        
+         - Fix installation error due to HISTORY.rst not being present in source.
+        
+        
+        0.5.4 (2015-08-09)
+        ++++++++++++++++++
+        
+        **Bugfixes**
+        
+         - Fix SQL injection vulnerability relating to "view" argument.
+        
+        
+        0.5.3 (2015-08-05)
+        ++++++++++++++++++
+        
+        **Improvements** 
+        
+         - Update documentation.
+         - Rename PyPI package to ``django-view-export``.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
