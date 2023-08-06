@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dpln/__init__.py
+src/dpln/data.py
+src/dpln/function.py
+src/dpln/layer.py
+src/dpln/loss.py
+src/dpln/model.py
+src/dpln/optimizer.py
+src/dpln/util.py
+src/dpln.egg-info/PKG-INFO
+src/dpln.egg-info/SOURCES.txt
+src/dpln.egg-info/dependency_links.txt
+src/dpln.egg-info/top_level.txt
