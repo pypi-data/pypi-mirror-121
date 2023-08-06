@@ -1,0 +1,8 @@
+mockitup/__init__.py,sha256=CQm33KP-kESkQYoBNiCsg6oGzWkC1XNYZjVwvuuJVX8,111
+mockitup/actions.py,sha256=CPtrSKsEGbFdgBBgINqIE9Qry8aNAkE4itu4rvUu__Q,876
+mockitup/arguments_matcher.py,sha256=_BLwsrrHt7ZDeMeMG_HE3BUd-1SNBWGm3ZfinBHdkE0,2743
+mockitup/composer.py,sha256=yKfWLzRs4sz77IK_aahdfIFYfQ_KMiiKroxAxqdWGJo,7302
+mockitup/proxies.py,sha256=gxQFMEZRlvEHVechtwFMEN5ttpOOB9fByKzmoAN7ncY,2395
+mockitup-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mockitup-0.0.1.dist-info/METADATA,sha256=wH2JA08X5Zs9jg0gMpsqCMtWc4zdA1xoB5FT87ViI7M,434
+mockitup-0.0.1.dist-info/RECORD,,
