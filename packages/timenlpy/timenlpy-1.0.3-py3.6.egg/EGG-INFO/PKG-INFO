@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: timenlpy
+Version: 1.0.3
+Summary: ...
+Home-page: https://github.com/zhanzecheng/Time_NLP
+Author: zhanzecheng
+Author-email: zhanzecheng@gmail.com
+License: MIT Licence
+Description: ...
+Keywords: time,nlp
+Platform: any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
