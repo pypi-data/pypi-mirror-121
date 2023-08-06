@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rhealpix_sf.egg-info/PKG-INFO
+rhealpix_sf.egg-info/SOURCES.txt
+rhealpix_sf.egg-info/dependency_links.txt
+rhealpix_sf.egg-info/requires.txt
+rhealpix_sf.egg-info/top_level.txt
+rhealsf/__init__.py
+rhealsf/dggs_functions.py
