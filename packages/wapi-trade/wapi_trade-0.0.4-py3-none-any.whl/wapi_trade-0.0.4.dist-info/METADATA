@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wapi-trade
+Version: 0.0.4
+Summary: wapi is an open source library that acts as a Wealthsimple Trade API wrapper for python.
+Home-page: UNKNOWN
+Author: Andre Ceschia
+Author-email: andre.ceschia04@gmail.com
+License: UNKNOWN
+Keywords: python,finance,wealthsimple,wealthsimple trade,broker api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: cloudscraper
+Requires-Dist: bs4
+
+UNKNOWN
+
+
