@@ -1,0 +1,14 @@
+makerbean/DataAnalysisBot.py,sha256=3knMDkTjJzPPMCsuPxzKA_h4gXNLcH22ttETY94L93U,7726
+makerbean/ExcelBot.py,sha256=X1nhq9XYVlU4cY7yHglz40C4oBBsMBPDdv_sUO0yfec,2429
+makerbean/PDFBot.py,sha256=6Ev9WE_kubA0G9U3ypmigy0YusIQ_VF-yVx-3hTmolA,1204
+makerbean/WebCrawlerBot.py,sha256=6rBvkzLa4tT3AiqI00tWY8W0Vt0NRJXqwNXS9PsU7EE,8753
+makerbean/WordBot.py,sha256=HnXcIeAox5tEz7kDtfPsV2GPipdpCpnudO2uxGGyaKE,1266
+makerbean/__init__.py,sha256=lK5VebWdHs9j6_koyBk8t2HkuuVMP82qeOYZApXk2mE,564
+makerbean/data.py,sha256=uCPbRh6kJWrDLt7-ErNkh9em7AHe_3DGgH8azBuS3RA,1006103
+makerbean/stop_words.py,sha256=2eUBvnPSXVfdVych2qFbvc8kzlAHMUYNnCch73tYjNI,12579
+makerbean/utilities.py,sha256=I8vKjGvQMIOukwVay8558aDBseKA4V6sj1rJva0uDWc,373
+makerbean-0.1.7.dist-info/LICENSE,sha256=8JuTmkC_tvpoco-NWUBt_7KWosFic-0qsCsEpAhhDd0,1085
+makerbean-0.1.7.dist-info/METADATA,sha256=M26xbTcjFpYaqt1ouINzBgxIdLgIPPRW-dV4uzvpAxo,701
+makerbean-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+makerbean-0.1.7.dist-info/top_level.txt,sha256=PE9AnJ-jBHSQoaG5mZUFOkZ87Y17lWQ7AQw3XZiFEvQ,10
+makerbean-0.1.7.dist-info/RECORD,,
