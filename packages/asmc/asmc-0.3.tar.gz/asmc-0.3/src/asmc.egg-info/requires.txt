@@ -1,0 +1,6 @@
+asmc-asmc==1.0
+asmc-preparedecoding==2.2.1
+
+[pypi]
+build
+twine
