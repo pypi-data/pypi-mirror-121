@@ -1,0 +1,15 @@
+xflsvg/__init__.py,sha256=2f_fUR-upQ_MzeFKcSH1YBxoWXe2Ll2hKmpwE9Muqkg,134
+xflsvg/recorder.py,sha256=g323pb18KqhcRZu3p_BKchdV9XW-pBPShT3ErMd0J5I,4330
+xflsvg/renderer.py,sha256=uIMEicUsAkfO4RNMNVl0EgyZhW4hlcuAmOGpFr0y2G8,5060
+xflsvg/xflsvg.py,sha256=P9DlVMhIh8y1JcHvWGQ7NGXrYo8hk-5cBe023ng4zZc,21254
+xflsvg/xfl_template/DOMDocument.xml,sha256=sWpcUW6VTKcGu2ONg-1adnxjUrg957ZBfkJQldJZKr0,2058
+xflsvg/xfl_template/MobileSettings.xml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xflsvg/xfl_template/PublishSettings.xml,sha256=mOuhybf_gWv7gozGc6dg61hXOis0knDKEUGjHs1w8jM,7562
+xflsvg/xfl_template/xfl_template.xfl,sha256=KawuQDYgQo7kEwaGtFau-wzG1F475unDGRr5BsEwHzg,9
+xflsvg/xfl_template/LIBRARY/SymbolName.xml,sha256=l7LR9kkheNKztIrH1tmY0JMq-hDlRZ21dPTmuqQU91I,3414
+xflsvg/xfl_template/META-INF/metadata.xml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xflsvg/xfl_template/bin/SymDepend.cache,sha256=pKzdoHZHtggfs7SIJiwsZsDDeix04WV-GQfqk4vgUm8,48
+xflsvg-0.1.1.dist-info/METADATA,sha256=78yuYYjlqDLjYb9wik7ShNc4v_p3EO1akLZYLkdA1-o,3228
+xflsvg-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xflsvg-0.1.1.dist-info/top_level.txt,sha256=dJHWI9Ujjz7g-OHbeMKbMYDs3RxtzGhyA8KkOPnWPCc,7
+xflsvg-0.1.1.dist-info/RECORD,,
