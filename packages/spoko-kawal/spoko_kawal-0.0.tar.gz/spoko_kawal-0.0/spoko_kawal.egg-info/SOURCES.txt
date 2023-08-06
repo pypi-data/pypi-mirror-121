@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+setup.py
+spoko_kawal/__init__.py
+spoko_kawal.egg-info/PKG-INFO
+spoko_kawal.egg-info/SOURCES.txt
+spoko_kawal.egg-info/dependency_links.txt
+spoko_kawal.egg-info/not-zip-safe
+spoko_kawal.egg-info/top_level.txt
