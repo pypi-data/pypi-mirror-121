@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+text_sensitivity/__init__.py
+text_sensitivity/test.py
+text_sensitivity.egg-info/PKG-INFO
+text_sensitivity.egg-info/SOURCES.txt
+text_sensitivity.egg-info/dependency_links.txt
+text_sensitivity.egg-info/requires.txt
+text_sensitivity.egg-info/top_level.txt
+text_sensitivity/data/__init__.py
+text_sensitivity/data/random.py
+text_sensitivity/perturbation/__init__.py
+text_sensitivity/perturbation/base.py
+text_sensitivity/perturbation/characters.py
+text_sensitivity/perturbation/sentences.py
+text_sensitivity/perturbation/words.py
