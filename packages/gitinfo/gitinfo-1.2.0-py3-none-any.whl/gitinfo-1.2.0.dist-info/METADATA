@@ -1,0 +1,471 @@
+Metadata-Version: 2.1
+Name: gitinfo
+Version: 1.2.0
+Summary: Quickly get information about a Github repository
+Home-page: UNKNOWN
+Author: Folke Ishii
+Author-email: folke.ishii@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# gitinfo
+Quickly get information about a Github repository
+
+## Installation
+Install via pip:
+`pip install gitinfo`
+
+Then set user token:
+`gitinfo <token> --set-token`
+
+If token is not set, the application will not work
+
+## Usage
+
+```
+Usage: gitinfo [OPTIONS] URL_OR_REPO_PATH
+
+  Displays information on a Github repository.
+
+  URL_OR_REPO_PATH must be either some form of Github Url or path starting
+  with username and repo such as `user/repo/whatever`.
+
+Options:
+  --set-token                Sets `url` to personal access token.
+  -l, --long                 View more information.
+  -L, --lang                 Show all languages of repo.
+  -f, --file-tree            Display files in a tree.
+  -p, --path TEXT            Set starting path for file tree relative to root
+                             (Github repo).  [default: ]
+
+  -d, --depth INTEGER RANGE  Depth to traverse file tree.  [default: 1]
+  -c, --collapse             Collapse each file in file tree
+  -b, --branch TEXT          Enter branch name or commit hash to view info or
+                             files from that specific branch/commit. Default
+                             is HEAD.
+
+  --help                     Show this message and exit.
+```
+
+## Examples:
+
+### Quick overview of a repository
+`> gitinfo https://github.com/microsoft/vscode`
+
+```
+                         microsoft/vscode - Ratelimit: 4941
+â•­â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•®
+â”‚ Owner    - microsoft     Disk usage - 366.69 MB    Created at  - 5 Years ago     â”‚
+â”‚ URL      - Link          Stars      - 116795       Updated at  - 54 Minutes ago  â”‚
+â”‚ License  - MIT           Forks      - 19071        Pushed at   - 20 Minutes ago  â”‚
+â”‚ Language - TypeScript    Watchers   - 3125         Open issues - 5337            â”‚
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•¯
+```
+
+### More detailed view:
+`> gitinfo microsoft/terminal -l`
+
+```
+                                    microsoft/terminal - Ratelimit: 4998
+â•­â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•®
+â”‚ Owner          - microsoft                       Created at     - 3 Years ago       Is archived - False  â”‚
+â”‚ URL            - Link                            Updated at     - 49 Minutes ago    Is disabled - False  â”‚
+â”‚ License        - MIT                             Pushed at      - 4 Hours ago       Is fork     - False  â”‚
+â”‚ Latest Release - Windows Terminal v1.8.1444.0    Disk usage     - 92.08 MB          Is in org.  - True   â”‚
+â”‚ Forks          - 6702                            Watchers       - 1313              Is locked   - False  â”‚
+â”‚ Star count     - 74816                           Open Issues    - 1288              Is mirror   - False  â”‚
+â”‚ Commit count   - 2274                            Closed Issues  - 6681              Is private  - False  â”‚
+â”‚ Open p.r.      - 51                              Closed p.r.    - 260               Merged p.r. - 1973   â”‚
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•¯
+```
+
+### Language breakdown
+`> gitinfo https://github.com/torvalds/linux.git -L`
+
+```
+             torvalds/linux - Ratelimit: 4996
+â•­â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•®
+â”‚ C - 98.15%            Assembly - 0.98%   Shell - 0.3%   â”‚
+â”‚ Makefile - 0.23%      Perl - 0.12%       Python - 0.12% â”‚
+â”‚ C++ - 0.02%           Roff - 0.02%       SmPL - 0.02%   â”‚
+â”‚ Yacc - 0.01%          Lex - 0.01%        Awk - 0.0%     â”‚
+â”‚ UnrealScript - 0.0%   Gherkin - 0.0%     Raku - 0.0%    â”‚
+â”‚ M4 - 0.0%             Clojure - 0.0%     XS - 0.0%      â”‚
+â”‚ sed - 0.0%                                              â”‚
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•¯
+```
+
+### Simple file tree query
+`> gitinfo secozzi/gitinfo/useless_path/2 -f`
+
+```
+/secozzi/gitinfo
+â”œâ”€â”€ gitinfo/
+â”œâ”€â”€ .gitignore (1.76 KB)
+â”œâ”€â”€ LICENSE (1.04 KB)
+â”œâ”€â”€ README.md (9.21 KB)
+â”œâ”€â”€ requirements.txt (62 bytes)
+â•°â”€â”€ setup.py (1.08 KB)
+```
+
+### Collapsed file tree query
+`> gitinfo microsoft/terminal -f -p src -c -d 3`
+
+```
+/microsoft/terminal/tree/main/src
+â”œâ”€â”€ buffer/
+â”‚   â”œâ”€â”€ out/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ ut_textbuffer/
+â”‚   â”‚   â•°â”€â”€ 40 Files (265.8 KB)
+â”‚   â•°â”€â”€ 1 Files (16 bytes)
+â”œâ”€â”€ cascadia/
+â”‚   â”œâ”€â”€ CascadiaPackage/
+â”‚   â”‚   â”œâ”€â”€ ProfileIcons/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 5 Files (29.9 KB)
+â”‚   â”œâ”€â”€ inc/
+â”‚   â”‚   â•°â”€â”€ 2 Files (13.5 KB)
+â”‚   â”œâ”€â”€ LocalTests_SettingsModel/
+â”‚   â”‚   â•°â”€â”€ 13 Files (282.33 KB)
+â”‚   â”œâ”€â”€ LocalTests_TerminalApp/
+â”‚   â”‚   â”œâ”€â”€ TestHostApp/
+â”‚   â”‚   â•°â”€â”€ 11 Files (236.65 KB)
+â”‚   â”œâ”€â”€ PublicTerminalCore/
+â”‚   â”‚   â•°â”€â”€ 6 Files (45.88 KB)
+â”‚   â”œâ”€â”€ Remoting/
+â”‚   â”‚   â”œâ”€â”€ dll/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 29 Files (101.34 KB)
+â”‚   â”œâ”€â”€ ShellExtension/
+â”‚   â”‚   â•°â”€â”€ 8 Files (15.39 KB)
+â”‚   â”œâ”€â”€ TerminalApp/
+â”‚   â”‚   â”œâ”€â”€ dll/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 107 Files (767.14 KB)
+â”‚   â”œâ”€â”€ TerminalAzBridge/
+â”‚   â”‚   â•°â”€â”€ 7 Files (11.67 KB)
+â”‚   â”œâ”€â”€ TerminalConnection/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 22 Files (92.95 KB)
+â”‚   â”œâ”€â”€ TerminalControl/
+â”‚   â”‚   â”œâ”€â”€ dll/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 44 Files (337.36 KB)
+â”‚   â”œâ”€â”€ TerminalCore/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 17 Files (160.0 KB)
+â”‚   â”œâ”€â”€ TerminalSettingsEditor/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 78 Files (362.91 KB)
+â”‚   â”œâ”€â”€ TerminalSettingsModel/
+â”‚   â”‚   â”œâ”€â”€ dll/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 72 Files (577.3 KB)
+â”‚   â”œâ”€â”€ UnitTests_Control/
+â”‚   â”‚   â•°â”€â”€ 8 Files (44.11 KB)
+â”‚   â”œâ”€â”€ UnitTests_Remoting/
+â”‚   â”‚   â•°â”€â”€ 5 Files (113.24 KB)
+â”‚   â”œâ”€â”€ UnitTests_TerminalCore/
+â”‚   â”‚   â•°â”€â”€ 12 Files (251.2 KB)
+â”‚   â”œâ”€â”€ ut_app/
+â”‚   â”‚   â•°â”€â”€ 10 Files (97.22 KB)
+â”‚   â”œâ”€â”€ WindowsTerminal/
+â”‚   â”‚   â•°â”€â”€ 20 Files (185.48 KB)
+â”‚   â”œâ”€â”€ WindowsTerminal_UIATests/
+â”‚   â”‚   â”œâ”€â”€ Common/
+â”‚   â”‚   â”œâ”€â”€ Elements/
+â”‚   â”‚   â•°â”€â”€ 5 Files (17.22 KB)
+â”‚   â”œâ”€â”€ WindowsTerminalUniversal/
+â”‚   â”‚   â”œâ”€â”€ Resources/
+â”‚   â”‚   â•°â”€â”€ 9 Files (13.9 KB)
+â”‚   â”œâ”€â”€ WinRTUtils/
+â”‚   â”‚   â”œâ”€â”€ inc/
+â”‚   â”‚   â•°â”€â”€ 8 Files (9.62 KB)
+â”‚   â”œâ”€â”€ WpfTerminalControl/
+â”‚   â”‚   â•°â”€â”€ 9 Files (52.29 KB)
+â”‚   â”œâ”€â”€ WpfTerminalTestNetCore/
+â”‚   â”‚   â”œâ”€â”€ Properties/
+â”‚   â”‚   â•°â”€â”€ 7 Files (8.45 KB)
+â”‚   â”œâ”€â”€ wt/
+â”‚   â”‚   â•°â”€â”€ 4 Files (4.24 KB)
+â”‚   â•°â”€â”€ 1 Files (1.8 KB)
+â”œâ”€â”€ dep/
+â”‚   â”œâ”€â”€ fmt/
+â”‚   â”‚   â•°â”€â”€ 2 Files (2.44 KB)
+â”‚   â•°â”€â”€ 1 Files (20 bytes)
+â”œâ”€â”€ host/
+â”‚   â”œâ”€â”€ exe/
+â”‚   â”‚   â•°â”€â”€ 18 Files (69.7 KB)
+â”‚   â”œâ”€â”€ ft_fuzzer/
+â”‚   â”‚   â•°â”€â”€ 2 Files (9.5 KB)
+â”‚   â”œâ”€â”€ ft_host/
+â”‚   â”‚   â•°â”€â”€ 36 Files (1.98 MB)
+â”‚   â”œâ”€â”€ ft_integrity/
+â”‚   â”‚   â•°â”€â”€ 7 Files (16.27 KB)
+â”‚   â”œâ”€â”€ ft_uia/
+â”‚   â”‚   â”œâ”€â”€ Common/
+â”‚   â”‚   â”œâ”€â”€ Elements/
+â”‚   â”‚   â”œâ”€â”€ Properties/
+â”‚   â”‚   â•°â”€â”€ 19 Files (170.31 KB)
+â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 3 Files (13.04 KB)
+â”‚   â”œâ”€â”€ proxy/
+â”‚   â”‚   â•°â”€â”€ 7 Files (8.28 KB)
+â”‚   â”œâ”€â”€ ut_host/
+â”‚   â”‚   â•°â”€â”€ 38 Files (860.07 KB)
+â”‚   â”œâ”€â”€ ut_lib/
+â”‚   â”‚   â•°â”€â”€ 2 Files (1.72 KB)
+â”‚   â•°â”€â”€ 125 Files (1.26 MB)
+â”œâ”€â”€ inc/
+â”‚   â”œâ”€â”€ CppCoreCheck/
+â”‚   â”‚   â•°â”€â”€ 1 Files (15.28 KB)
+â”‚   â”œâ”€â”€ test/
+â”‚   â”‚   â•°â”€â”€ 1 Files (11.9 KB)
+â”‚   â”œâ”€â”€ til/
+â”‚   â”‚   â•°â”€â”€ 17 Files (203.88 KB)
+â”‚   â•°â”€â”€ 21 Files (73.23 KB)
+â”œâ”€â”€ interactivity/
+â”‚   â”œâ”€â”€ base/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 17 Files (52.91 KB)
+â”‚   â”œâ”€â”€ inc/
+â”‚   â”‚   â•°â”€â”€ 13 Files (17.99 KB)
+â”‚   â”œâ”€â”€ onecore/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 22 Files (60.92 KB)
+â”‚   â”œâ”€â”€ win32/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ ut_interactivity_win32/
+â”‚   â”‚   â•°â”€â”€ 45 Files (269.57 KB)
+â”‚   â•°â”€â”€ 1 Files (51 bytes)
+â”œâ”€â”€ internal/
+â”‚   â•°â”€â”€ 4 Files (2.84 KB)
+â”œâ”€â”€ propsheet/
+â”‚   â•°â”€â”€ 40 Files (325.37 KB)
+â”œâ”€â”€ propslib/
+â”‚   â•°â”€â”€ 14 Files (84.07 KB)
+â”œâ”€â”€ renderer/
+â”‚   â”œâ”€â”€ base/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 14 Files (85.38 KB)
+â”‚   â”œâ”€â”€ dx/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ ut_dx/
+â”‚   â”‚   â•°â”€â”€ 17 Files (286.38 KB)
+â”‚   â”œâ”€â”€ gdi/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ tool/
+â”‚   â”‚   â•°â”€â”€ 9 Files (89.62 KB)
+â”‚   â”œâ”€â”€ inc/
+â”‚   â”‚   â•°â”€â”€ 14 Files (25.69 KB)
+â”‚   â”œâ”€â”€ uia/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 4 Files (18.44 KB)
+â”‚   â”œâ”€â”€ vt/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ ut_lib/
+â”‚   â”‚   â•°â”€â”€ 17 Files (131.63 KB)
+â”‚   â”œâ”€â”€ wddmcon/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 8 Files (42.15 KB)
+â”‚   â•°â”€â”€ 1 Files (61 bytes)
+â”œâ”€â”€ server/
+â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 3 Files (8.52 KB)
+â”‚   â•°â”€â”€ 47 Files (253.16 KB)
+â”œâ”€â”€ staging/
+â”‚   â•°â”€â”€ 2 Files (443 bytes)
+â”œâ”€â”€ terminal/
+â”‚   â”œâ”€â”€ adapter/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ ut_adapter/
+â”‚   â”‚   â•°â”€â”€ 25 Files (231.67 KB)
+â”‚   â”œâ”€â”€ input/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 8 Files (69.56 KB)
+â”‚   â”œâ”€â”€ parser/
+â”‚   â”‚   â”œâ”€â”€ ft_fuzzer/
+â”‚   â”‚   â”œâ”€â”€ ft_fuzzwrapper/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ ut_parser/
+â”‚   â”‚   â•°â”€â”€ 22 Files (207.95 KB)
+â”‚   â•°â”€â”€ 1 Files (45 bytes)
+â”œâ”€â”€ testlist/
+â”‚   â•°â”€â”€ 6 Files (2.18 KB)
+â”œâ”€â”€ til/
+â”‚   â”œâ”€â”€ ut_til/
+â”‚   â”‚   â•°â”€â”€ 21 Files (202.93 KB)
+â”‚   â•°â”€â”€ 3 Files (1.87 KB)
+â”œâ”€â”€ tools/
+â”‚   â”œâ”€â”€ buffersize/
+â”‚   â”‚   â•°â”€â”€ 3 Files (4.85 KB)
+â”‚   â”œâ”€â”€ closetest/
+â”‚   â”‚   â•°â”€â”€ 5 Files (35.49 KB)
+â”‚   â”œâ”€â”€ ColorTool/
+â”‚   â”‚   â”œâ”€â”€ ColorTool/
+â”‚   â”‚   â”œâ”€â”€ schemes/
+â”‚   â”‚   â”œâ”€â”€ signing/
+â”‚   â”‚   â•°â”€â”€ 6 Files (11.73 KB)
+â”‚   â”œâ”€â”€ echokey/
+â”‚   â”‚   â•°â”€â”€ 4 Files (12.87 KB)
+â”‚   â”œâ”€â”€ fontlist/
+â”‚   â”‚   â•°â”€â”€ 3 Files (9.0 KB)
+â”‚   â”œâ”€â”€ integrity/
+â”‚   â”‚   â”œâ”€â”€ exeuwp/
+â”‚   â”‚   â”œâ”€â”€ exewin32/
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ packageuwp/
+â”‚   â”‚   â•°â”€â”€ 1 Files (63 bytes)
+â”‚   â”œâ”€â”€ lnkd/
+â”‚   â”‚   â•°â”€â”€ 5 Files (10.86 KB)
+â”‚   â”œâ”€â”€ MonarchPeasantPackage/
+â”‚   â”‚   â”œâ”€â”€ Images/
+â”‚   â”‚   â•°â”€â”€ 2 Files (6.03 KB)
+â”‚   â”œâ”€â”€ MonarchPeasantSample/
+â”‚   â”‚   â•°â”€â”€ 18 Files (2.64 MB)
+â”‚   â”œâ”€â”€ nihilist/
+â”‚   â”‚   â•°â”€â”€ 7 Files (4.91 KB)
+â”‚   â”œâ”€â”€ pixels/
+â”‚   â”‚   â•°â”€â”€ 5 Files (13.66 KB)
+â”‚   â”œâ”€â”€ scratch/
+â”‚   â”‚   â•°â”€â”€ 3 Files (2.29 KB)
+â”‚   â”œâ”€â”€ test/
+â”‚   â”‚   â•°â”€â”€ 4 Files (3.44 KB)
+â”‚   â”œâ”€â”€ texttests/
+â”‚   â”‚   â•°â”€â”€ 2 Files (568 bytes)
+â”‚   â”œâ”€â”€ U8U16Test/
+â”‚   â”‚   â•°â”€â”€ 10 Files (59.96 KB)
+â”‚   â”œâ”€â”€ vtapp/
+â”‚   â”‚   â”œâ”€â”€ Properties/
+â”‚   â”‚   â•°â”€â”€ 8 Files (26.2 KB)
+â”‚   â”œâ”€â”€ vtpipeterm/
+â”‚   â”‚   â•°â”€â”€ 7 Files (35.23 KB)
+â”‚   â”œâ”€â”€ vttests/
+â”‚   â”‚   â•°â”€â”€ 4 Files (7.54 KB)
+â”‚   â•°â”€â”€ 1 Files (68 bytes)
+â”œâ”€â”€ tsf/
+â”‚   â•°â”€â”€ 19 Files (98.71 KB)
+â”œâ”€â”€ types/
+â”‚   â”œâ”€â”€ inc/
+â”‚   â”‚   â•°â”€â”€ 12 Files (39.28 KB)
+â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 3 Files (9.73 KB)
+â”‚   â”œâ”€â”€ ut_types/
+â”‚   â”‚   â•°â”€â”€ 6 Files (21.13 KB)
+â”‚   â•°â”€â”€ 38 Files (303.34 KB)
+â”œâ”€â”€ winconpty/
+â”‚   â”œâ”€â”€ dll/
+â”‚   â”‚   â•°â”€â”€ 2 Files (3.02 KB)
+â”‚   â”œâ”€â”€ ft_pty/
+â”‚   â”‚   â•°â”€â”€ 4 Files (20.42 KB)
+â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â•°â”€â”€ 1 Files (2.85 KB)
+â”‚   â•°â”€â”€ 5 Files (22.74 KB)
+â•°â”€â”€ 19 Files (64.4 KB)
+```
+
+### Complex file tree query
+`> gitinfo sympy/sympy -f --branch 1.7 --path sympy/integrals --depth 4`
+
+```
+/sympy/sympy/tree/1.7/sympy/integrals
+â”œâ”€â”€ benchmarks/
+â”‚   â”œâ”€â”€ __init__.py (0 bytes)
+â”‚   â”œâ”€â”€ bench_integrate.py (295 bytes)
+â”‚   â•°â”€â”€ bench_trigintegrate.py (241 bytes)
+â”œâ”€â”€ rubi/
+â”‚   â”œâ”€â”€ parsetools/
+â”‚   â”‚   â”œâ”€â”€ tests/
+â”‚   â”‚   â”‚   â”œâ”€â”€ __init__.py (0 bytes)
+â”‚   â”‚   â”‚   â•°â”€â”€ test_parse.py (8.02 KB)
+â”‚   â”‚   â”œâ”€â”€ __init__.py (0 bytes)
+â”‚   â”‚   â”œâ”€â”€ generate_rules.py (2.77 KB)
+â”‚   â”‚   â”œâ”€â”€ generate_tests.py (2.64 KB)
+â”‚   â”‚   â”œâ”€â”€ header.py.txt (9.15 KB)
+â”‚   â”‚   â•°â”€â”€ parse.py (26.99 KB)
+â”‚   â”œâ”€â”€ rubi_tests/
+â”‚   â”‚   â”œâ”€â”€ tests/
+â”‚   â”‚   â”‚   â”œâ”€â”€ __init__.py (0 bytes)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_1_2.py (29.71 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_1_3.py (59.75 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_1_4.py (10.18 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_exponential.py (245.08 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_hyperbolic_sine.py (77.69 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_inverse_hyperbolic_sine.py (63.64 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_inverse_sine.py (82.23 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_logarithms.py (431.76 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_miscellaneous_algebra.py (513.84 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_secant.py (91.21 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_sine.py (160.52 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_special_functions.py (47.21 KB)
+â”‚   â”‚   â”‚   â”œâ”€â”€ test_tangent.py (129.27 KB)
+â”‚   â”‚   â”‚   â•°â”€â”€ test_trinomials.py (1.44 MB)
+â”‚   â”‚   â•°â”€â”€ __init__.py (293 bytes)
+â”‚   â”œâ”€â”€ rules/
+â”‚   â”‚   â”œâ”€â”€ __init__.py (0 bytes)
+â”‚   â”‚   â”œâ”€â”€ binomial_products.py (194.5 KB)
+â”‚   â”‚   â”œâ”€â”€ exponential.py (61.4 KB)
+â”‚   â”‚   â”œâ”€â”€ hyperbolic.py (212.89 KB)
+â”‚   â”‚   â”œâ”€â”€ integrand_simplification.py (22.64 KB)
+â”‚   â”‚   â”œâ”€â”€ inverse_hyperbolic.py (342.67 KB)
+â”‚   â”‚   â”œâ”€â”€ inverse_trig.py (309.75 KB)
+â”‚   â”‚   â”œâ”€â”€ linear_products.py (89.41 KB)
+â”‚   â”‚   â”œâ”€â”€ logarithms.py (95.54 KB)
+â”‚   â”‚   â”œâ”€â”€ miscellaneous_algebraic.py (227.17 KB)
+â”‚   â”‚   â”œâ”€â”€ miscellaneous_integration.py (49.38 KB)
+â”‚   â”‚   â”œâ”€â”€ miscellaneous_trig.py (184.83 KB)
+â”‚   â”‚   â”œâ”€â”€ piecewise_linear.py (19.43 KB)
+â”‚   â”‚   â”œâ”€â”€ quadratic_products.py (309.78 KB)
+â”‚   â”‚   â”œâ”€â”€ secant.py (440.04 KB)
+â”‚   â”‚   â”œâ”€â”€ sine.py (716.0 KB)
+â”‚   â”‚   â”œâ”€â”€ special_functions.py (87.32 KB)
+â”‚   â”‚   â”œâ”€â”€ tangent.py (306.98 KB)
+â”‚   â”‚   â•°â”€â”€ trinomial_products.py (236.89 KB)
+â”‚   â”œâ”€â”€ tests/
+â”‚   â”‚   â”œâ”€â”€ __init__.py (0 bytes)
+â”‚   â”‚   â”œâ”€â”€ test_rubi_integrate.py (2.62 KB)
+â”‚   â”‚   â•°â”€â”€ test_utility_function.py (79.7 KB)
+â”‚   â”œâ”€â”€ __init__.py (3.38 KB)
+â”‚   â”œâ”€â”€ constraints.py (288.21 KB)
+â”‚   â”œâ”€â”€ rubimain.py (7.91 KB)
+â”‚   â”œâ”€â”€ symbol.py (1.56 KB)
+â”‚   â•°â”€â”€ utility_function.py (262.95 KB)
+â”œâ”€â”€ tests/
+â”‚   â”œâ”€â”€ __init__.py (0 bytes)
+â”‚   â”œâ”€â”€ test_deltafunctions.py (3.41 KB)
+â”‚   â”œâ”€â”€ test_failing_integrals.py (6.7 KB)
+â”‚   â”œâ”€â”€ test_heurisch.py (10.96 KB)
+â”‚   â”œâ”€â”€ test_integrals.py (61.09 KB)
+â”‚   â”œâ”€â”€ test_intpoly.py (35.32 KB)
+â”‚   â”œâ”€â”€ test_lineintegrals.py (235 bytes)
+â”‚   â”œâ”€â”€ test_manual.py (25.3 KB)
+â”‚   â”œâ”€â”€ test_meijerint.py (29.49 KB)
+â”‚   â”œâ”€â”€ test_prde.py (15.56 KB)
+â”‚   â”œâ”€â”€ test_quadrature.py (19.45 KB)
+â”‚   â”œâ”€â”€ test_rationaltools.py (4.86 KB)
+â”‚   â”œâ”€â”€ test_rde.py (9.27 KB)
+â”‚   â”œâ”€â”€ test_risch.py (36.37 KB)
+â”‚   â”œâ”€â”€ test_singularityfunctions.py (1.14 KB)
+â”‚   â”œâ”€â”€ test_transforms.py (34.6 KB)
+â”‚   â•°â”€â”€ test_trigonometry.py (3.78 KB)
+â”œâ”€â”€ __init__.py (1.8 KB)
+â”œâ”€â”€ deltafunctions.py (7.18 KB)
+â”œâ”€â”€ heurisch.py (24.69 KB)
+â”œâ”€â”€ integrals.py (62.55 KB)
+â”œâ”€â”€ intpoly.py (41.56 KB)
+â”œâ”€â”€ manualintegrate.py (61.75 KB)
+â”œâ”€â”€ meijerint.py (76.11 KB)
+â”œâ”€â”€ meijerint_doc.py (1.0 KB)
+â”œâ”€â”€ prde.py (50.01 KB)
+â”œâ”€â”€ quadrature.py (16.26 KB)
+â”œâ”€â”€ rationaltools.py (10.15 KB)
+â”œâ”€â”€ rde.py (26.04 KB)
+â”œâ”€â”€ risch.py (64.95 KB)
+â”œâ”€â”€ singularityfunctions.py (2.24 KB)
+â”œâ”€â”€ transforms.py (61.87 KB)
+â•°â”€â”€ trigonometry.py (10.79 KB)
+```
+
