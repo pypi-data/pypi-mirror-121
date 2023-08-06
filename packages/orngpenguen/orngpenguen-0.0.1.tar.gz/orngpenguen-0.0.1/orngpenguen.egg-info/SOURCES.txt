@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+orngpenguen/__init__.py
+orngpenguen.egg-info/PKG-INFO
+orngpenguen.egg-info/SOURCES.txt
+orngpenguen.egg-info/dependency_links.txt
+orngpenguen.egg-info/requires.txt
+orngpenguen.egg-info/top_level.txt

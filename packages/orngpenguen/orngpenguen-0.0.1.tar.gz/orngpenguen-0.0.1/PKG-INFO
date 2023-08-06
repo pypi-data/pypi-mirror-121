@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: orngpenguen
+Version: 0.0.1
+Summary: Password Hasher with a key
+Home-page: UNKNOWN
+Author: Mert Alperen Beşer
+Author-email: mertbeser77@gmail.com
+License: MIT
+Keywords: hash
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a password generator that is created with a hash code philosophy. Inside the library, the hash_generator() takes 2 arguments. The first one is the password you want to hash and the other one is the key for more security. Key can be simple numbers or short texts. This library is in development. If you manage to write any decoder or find anything nonsense to you feel free to send an email to me.
+
+Change Log
+==========
+
+0.0.1 (30/09/2021)
+------------------
+-First Release
+
