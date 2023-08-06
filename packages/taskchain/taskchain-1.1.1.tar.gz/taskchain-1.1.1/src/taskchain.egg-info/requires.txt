@@ -1,0 +1,10 @@
+h5py
+tqdm
+pandas
+pytest
+pyyaml
+networkx
+seaborn
+filelock
+icecream
+tabulate
