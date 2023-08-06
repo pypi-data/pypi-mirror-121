@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/managebac_api/__init__.py
+src/managebac_api/api.py
+src/managebac_api.egg-info/PKG-INFO
+src/managebac_api.egg-info/SOURCES.txt
+src/managebac_api.egg-info/dependency_links.txt
+src/managebac_api.egg-info/top_level.txt

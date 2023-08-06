@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: managebac_api
+Version: 1.0.0
+Summary: ManageBac Scraper that uses session cookies to get your timetable in json format
+Home-page: https://github.com/rhijjawi/ManageBac-API
+Author: rhijjawi
+Author-email: ramzihijjawi@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rhijjawi/ManageBac-API/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
