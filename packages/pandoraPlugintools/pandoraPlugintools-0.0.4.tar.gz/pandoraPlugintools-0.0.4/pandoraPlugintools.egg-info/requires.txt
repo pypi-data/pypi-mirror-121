@@ -1,0 +1,3 @@
+datetime
+criptography==3requests
+requests_ntlm
