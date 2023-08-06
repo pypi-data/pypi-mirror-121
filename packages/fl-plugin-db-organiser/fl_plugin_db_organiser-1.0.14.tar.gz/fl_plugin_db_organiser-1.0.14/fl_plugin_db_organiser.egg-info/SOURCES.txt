@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+./fl_plugin_db_organiser/__init__.py
+./fl_plugin_db_organiser/__main__.py
+./fl_plugin_db_organiser/conftest.py
+fl_plugin_db_organiser/__init__.py
+fl_plugin_db_organiser/__main__.py
+fl_plugin_db_organiser.egg-info/PKG-INFO
+fl_plugin_db_organiser.egg-info/SOURCES.txt
+fl_plugin_db_organiser.egg-info/dependency_links.txt
+fl_plugin_db_organiser.egg-info/entry_points.txt
+fl_plugin_db_organiser.egg-info/requires.txt
+fl_plugin_db_organiser.egg-info/top_level.txt
