@@ -1,0 +1,8 @@
+README.md
+setup.py
+carrotColors/__init__.py
+carrotColors/carrotColors.py
+carrotColors.egg-info/PKG-INFO
+carrotColors.egg-info/SOURCES.txt
+carrotColors.egg-info/dependency_links.txt
+carrotColors.egg-info/top_level.txt
