@@ -1,0 +1,3 @@
+[console_scripts]
+hopla = hopla:entry_cmd
+
