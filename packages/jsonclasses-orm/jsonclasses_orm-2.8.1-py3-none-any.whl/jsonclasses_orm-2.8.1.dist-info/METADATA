@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jsonclasses-orm
+Version: 2.8.1
+Summary: Definitions for JSONClasses ORM integration implementation.
+Home-page: https://github.com/fillmula/jsonclasses-orm
+Author: Fillmula Inc.
+Author-email: victor.teo@fillmula.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: qsparser (<2.0.0,>=1.0.1)
+
+JSONClasses ORM
+===============
+
+ORM definitions for JSONClasses ORM integration implementation.
+
+
