@@ -1,0 +1,8 @@
+setup.py
+pbliu_utils/__init__.py
+pbliu_utils/basicfileop.py
+pbliuutils.egg-info/PKG-INFO
+pbliuutils.egg-info/SOURCES.txt
+pbliuutils.egg-info/dependency_links.txt
+pbliuutils.egg-info/requires.txt
+pbliuutils.egg-info/top_level.txt
