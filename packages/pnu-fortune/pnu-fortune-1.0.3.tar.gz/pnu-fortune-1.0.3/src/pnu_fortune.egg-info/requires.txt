@@ -1,0 +1,6 @@
+pnu-strfile
+pnu-rot13
+fortunes-historical
+fortunes-freebsd-classic
+fortunes-python
+fortunes-unix
