@@ -1,0 +1,12 @@
+include nd2/py.typed
+recursive-include nd2 *.pyi
+
+graft sdk/*/static/lib
+graft sdk/*/static/include
+
+exclude .pre-commit-config.yaml
+recursive-exclude tests *
+recursive-exclude scripts *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.c
