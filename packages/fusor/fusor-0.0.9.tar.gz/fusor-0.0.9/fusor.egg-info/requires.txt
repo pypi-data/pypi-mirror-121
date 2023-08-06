@@ -1,0 +1,4 @@
+pydantic
+ga4gh.vrsatile.pydantic
+ga4gh.vrs[extras]==0.7.0rc3
+jsonschema<4.0,>=2.3
