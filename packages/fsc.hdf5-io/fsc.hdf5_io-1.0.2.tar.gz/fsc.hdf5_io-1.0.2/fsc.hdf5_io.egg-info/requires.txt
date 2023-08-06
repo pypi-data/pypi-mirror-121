@@ -1,0 +1,15 @@
+numpy>=1.17.5
+decorator
+h5py~=3.0
+fsc.export
+
+[dev]
+pytest
+pytest-cov
+pre-commit==2.15.0
+pylint==2.11.1
+sphinx
+sphinx-rtd-theme
+ipython>=6.2
+matplotlib
+sympy
