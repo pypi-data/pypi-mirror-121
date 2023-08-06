@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from .module import add
+
+def main():
+    print("Project Ran Successfully!")
+
+add(1, 2)
