@@ -1,0 +1,1 @@
+powerapi[influxdb,mongodb,opentsdb,prometheus]>=1.0.0
