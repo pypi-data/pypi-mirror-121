@@ -1,0 +1,6 @@
+checkcert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkcert/checkcert.py,sha256=I48DzX6VahYYu7ENBLoryQJXVQU9N0kT-y3RVDHok6Y,4449
+checkcert-0.2.0.dist-info/entry_points.txt,sha256=SfXKLobdEV-X27vxU-FshrUHOsnKbnuTO0323PFOHEQ,54
+checkcert-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+checkcert-0.2.0.dist-info/METADATA,sha256=PTbtQnAkWVndfxg3yxy5s1865gbLXuyoK9Kjc7WI7VU,819
+checkcert-0.2.0.dist-info/RECORD,,
