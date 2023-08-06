@@ -1,0 +1,7 @@
+Change Log
+==========
+
+1.1.2 (26/09/2021)
+-------------------
+- Documentation Fix
+- Bytes Compatibility
