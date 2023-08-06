@@ -1,0 +1,7 @@
+README.md
+setup.py
+sc_catnip.egg-info/PKG-INFO
+sc_catnip.egg-info/SOURCES.txt
+sc_catnip.egg-info/dependency_links.txt
+sc_catnip.egg-info/requires.txt
+sc_catnip.egg-info/top_level.txt
