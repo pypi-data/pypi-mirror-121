@@ -1,0 +1,12 @@
+aiorsmq/__init__.py,sha256=jmabbGjNdGjseksZ_PjWIJ4V2rksznOAzNJqLc4gbQQ,160
+aiorsmq/__version__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+aiorsmq/aiorsmq.py,sha256=n4yhur2-v5MN6WS18hPdw4gihQses_yDWjx1A-VSJp4,23118
+aiorsmq/compat.py,sha256=I3rHbdrjmcoagZlnwemRYCv9UMKzKOWvVaxrjnqAwwA,1755
+aiorsmq/exceptions.py,sha256=p-xMewA6rY_tP-3xah2cpP-B3NKuNSCeliP-FX7fKw0,663
+aiorsmq/scripts.py,sha256=yZBv9Mzi6XZopNZ8o4hDgzgCXcGqwL5BnRw-XeoLy1I,1599
+aiorsmq/utils.py,sha256=j2ARuI40CTQPiC9QOiNAMHSHCd-rsavYONcoZUAsZVk,205
+aiorsmq-0.1.2.dist-info/LICENSE,sha256=x_eddXotgrlIKn1VaxbimJRx8rd9kG_KPL-086iyMoE,1071
+aiorsmq-0.1.2.dist-info/METADATA,sha256=lCD4INREoWpG2F4iy_snoi-FTynq8B-U0dOLb3-pKfM,2111
+aiorsmq-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aiorsmq-0.1.2.dist-info/top_level.txt,sha256=86Mbr_TWIiQMvPsC4wS-5SeHlQ4g6vCS2bQa77RvLZc,8
+aiorsmq-0.1.2.dist-info/RECORD,,
