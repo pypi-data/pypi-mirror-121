@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+clickupython/__init__.py
+clickupython/client.py
+clickupython/exceptions.py
+clickupython/models.py
+clickupython.egg-info/PKG-INFO
+clickupython.egg-info/SOURCES.txt
+clickupython.egg-info/dependency_links.txt
+clickupython.egg-info/requires.txt
+clickupython.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py
+tests/test_timefuncs.py
