@@ -1,0 +1,11 @@
+README.rst
+setup.py
+basic_statistic_distributions/Binomialdistribution.py
+basic_statistic_distributions/Gaussiandistribution.py
+basic_statistic_distributions/Generaldistribution.py
+basic_statistic_distributions/__init__.py
+basic_statistic_distributions.egg-info/PKG-INFO
+basic_statistic_distributions.egg-info/SOURCES.txt
+basic_statistic_distributions.egg-info/dependency_links.txt
+basic_statistic_distributions.egg-info/not-zip-safe
+basic_statistic_distributions.egg-info/top_level.txt
