@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sparsedist/__init__.py
+sparsedist/_nearest_neighbours.cpp
+sparsedist/_nearest_neighbours.pyx
+sparsedist/nearest_neighbours.h
+sparsedist.egg-info/PKG-INFO
+sparsedist.egg-info/SOURCES.txt
+sparsedist.egg-info/dependency_links.txt
+sparsedist.egg-info/requires.txt
+sparsedist.egg-info/top_level.txt
