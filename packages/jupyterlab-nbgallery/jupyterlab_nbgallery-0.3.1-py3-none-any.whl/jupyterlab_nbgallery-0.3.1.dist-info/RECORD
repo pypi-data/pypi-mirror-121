@@ -1,0 +1,17 @@
+jupyterlab_nbgallery/__init__.py,sha256=2yvn7d8pBLeyu1Zm5gRs7OE_7aAdog1301nhndz16F8,596
+jupyterlab_nbgallery/_version.py,sha256=JBFGB9rPLEldB8C1ejZDYGictWNQ6JdulwAFOJpsUrI,72
+jupyterlab_nbgallery/handlers.py,sha256=SMsWfknyoDw2x-Bg_rLDJrRz0CwwXwj8-S5wqCKs460,2083
+jupyterlab_nbgallery-0.3.1.data/data/etc/jupyter/jupyter_notebook_config.d/jupyterlab_nbgallery.json,sha256=t4gGiCe5MOCCZpZnTQAF7coArlfK7e9C3QMpAdSfPKU,97
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-autodownload-0.2.0.tgz,sha256=cAIY7pg0s29TIuonJIqFIcFCxkKtVcJ2v96I7sUoG8k,2533
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-environment-life-0.2.0.tgz,sha256=8iqSnSxXpWOd-jT8Ovf1VYV-dfzTjU4bdWu5E2zcNqE,2396
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-environment-registration-0.2.0.tgz,sha256=Z5KMpQVCkoemSXopy94bbQrgQYz60gEe-5ipw9DsHbI,2653
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-gallerymenu-0.2.0.tgz,sha256=ZLvVgklfRBmQimSTUoL_zMcnTZzAnZdOS9nNZMCgLb0,6190
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-inject-uuid-0.2.0.tgz,sha256=pbC2lW_grfUSuGTPRpryuKkDXTsrQftxBE9TFqtCQ50,1575
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-instrumentation-0.2.0.tgz,sha256=72v_u72aipYaGlLbWznoEnBFUs-_FfLuZlwB7PO-HJ4,1546
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-instrumentation-0.2.2.tgz,sha256=bBmhHrpq-XDYMQbnuEMMwJrcxFt7Od5cmtswJt5Wl5w,2221
+jupyterlab_nbgallery-0.3.1.data/data/share/jupyter/lab/extensions/jupyterlab-nbgallery-instrumentation-0.3.0.tgz,sha256=5-fhnOnzmwCF4MG-tqPnHvbJfsGCAp5tutpr4CKIFtE,2215
+jupyterlab_nbgallery-0.3.1.dist-info/LICENSE,sha256=f6j8ufccEsPua1CWQqkOa2MVtwlO_6_6SDWtoIq0yuA,1066
+jupyterlab_nbgallery-0.3.1.dist-info/METADATA,sha256=kPY6bY0scv8gkDCcPXnO-19Ja3rVEeKqfsI-2goYOFY,1947
+jupyterlab_nbgallery-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyterlab_nbgallery-0.3.1.dist-info/top_level.txt,sha256=-48mhjsbSp3wlNuAZ5FEGvGjlka6pgneoShdJw3K72w,21
+jupyterlab_nbgallery-0.3.1.dist-info/RECORD,,
