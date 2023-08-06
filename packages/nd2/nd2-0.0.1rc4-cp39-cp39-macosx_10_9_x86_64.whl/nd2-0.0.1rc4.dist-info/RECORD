@@ -1,0 +1,14 @@
+nd2/__init__.py,sha256=7NM69Q-7EvFvtvlP5JiSGYoqsmxD9_1lfJRfoNjjxRs,281
+nd2/_nd2file.cpython-39-darwin.so,sha256=qsfc-dsxW2HoW0bNoyXTqsBakTSnvBbfqcuK9uAQQTA,2934976
+nd2/_nd2file.pyi,sha256=8J9EmFo0xslcZfkah41ZmRWOa9chsna2eJuzDnvoZww,1361
+nd2/_nd2file.pyx,sha256=XL_IK3QgQABJEX2xKOiz5iLEspsQPsS9cZPr7li2je8,11416
+nd2/_util.py,sha256=THHGhUEVTof0Zoa1348TW2DbhGdCKKKuvkmcGyw5vkA,856
+nd2/_version.py,sha256=ppHFY-0Wqsz0VWtPLDiPbru9OgI9VGjo1nvOZy2BCDw,145
+nd2/nd2file.py,sha256=Qeg51_kBojWUQKbeKYnpllN4dxEwHFkvlBfcE5xYIHE,4543
+nd2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nd2/structures.py,sha256=yzv6xUTI7J-NvlKh0Cvn3r94rlFhYGJRtMG3C3Xq1lg,6553
+nd2-0.0.1rc4.dist-info/LICENSE,sha256=uyX2Y2Q7D-WzOUc6EKZVDuadkWenBWSYTR--BsewGpg,1514
+nd2-0.0.1rc4.dist-info/METADATA,sha256=ZVAj_3hmXZEMcAYDn2DpxlAkgQjqsEhhgGfePOanLHQ,4444
+nd2-0.0.1rc4.dist-info/WHEEL,sha256=JIE30nfOWUuazI4Vcfiuv_cYm-SkZCh6YOqQQjhm90A,109
+nd2-0.0.1rc4.dist-info/top_level.txt,sha256=2VHseCh3ujZplEf6ZkzG9sVdykmMIqUGbeuVhyq-64M,4
+nd2-0.0.1rc4.dist-info/RECORD,,
