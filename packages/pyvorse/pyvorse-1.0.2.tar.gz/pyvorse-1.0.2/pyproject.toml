@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pyvorse"
+version = "1.0.2"
+description = "Simple essentials extension library of additions to vanilla python."
+authors = ["Vladislav-Martian <me.as.martian@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Vladislav-Martian/pyverse"
+repository = "https://github.com/Vladislav-Martian/pyverse"
+documentation = "https://github.com/Vladislav-Martian/pyverse/wiki"
+
+keywords = ["essentials", "extension", "simple", "small"]
+
+classifiers = [
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
