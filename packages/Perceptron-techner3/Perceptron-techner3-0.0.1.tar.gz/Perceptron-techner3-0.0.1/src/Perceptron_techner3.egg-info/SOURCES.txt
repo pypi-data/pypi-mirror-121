@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Perceptron/Perceptron.py
+src/Perceptron/__init__.py
+src/Perceptron/prepare.py
+src/Perceptron/savemodel.py
+src/Perceptron_techner3.egg-info/PKG-INFO
+src/Perceptron_techner3.egg-info/SOURCES.txt
+src/Perceptron_techner3.egg-info/dependency_links.txt
+src/Perceptron_techner3.egg-info/requires.txt
+src/Perceptron_techner3.egg-info/top_level.txt
