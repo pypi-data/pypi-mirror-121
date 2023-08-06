@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/cs.platformevents.egg-info/PKG-INFO
+src/cs.platformevents.egg-info/SOURCES.txt
+src/cs.platformevents.egg-info/dependency_links.txt
+src/cs.platformevents.egg-info/top_level.txt
