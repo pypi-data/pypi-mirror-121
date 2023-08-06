@@ -1,0 +1,8 @@
+onpremgpusdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onpremgpusdk/data/__init__.py,sha256=b9tZRrGDStG7A3cc77T3j7c8djGUXtNojQpAabprdqk,51
+onpremgpusdk/data/__s3util__.py,sha256=z0AszE1z8hMT4KL8uLGRTL2HeTm_ZYF3exNVmevUpHE,1648
+onpremgpusdk/data/datautil.py,sha256=tsIXJrbS1Bi1SEtQa-rl8pvUgDjKJpK3x3IzNiY4QZs,2751
+onpremgpusdk-1.0.1.dist-info/METADATA,sha256=iXTVq5B8PRrF6sc32fZi9YNTo9ex0deTnM2zHexgynI,1594
+onpremgpusdk-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+onpremgpusdk-1.0.1.dist-info/top_level.txt,sha256=9MRsQu_PPoMoSXTWvjyvGvG7QlKVqUiJCcciuQ76bO0,13
+onpremgpusdk-1.0.1.dist-info/RECORD,,
