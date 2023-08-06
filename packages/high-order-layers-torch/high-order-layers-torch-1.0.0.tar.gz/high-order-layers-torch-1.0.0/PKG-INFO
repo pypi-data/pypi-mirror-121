@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: high-order-layers-torch
+Version: 1.0.0
+Summary: High order layers in pytorch
+License: MIT
+Author: jloverich
+Author-email: john.loverich@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pytorch-lightning
+Requires-Dist: torch
