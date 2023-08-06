@@ -1,0 +1,5 @@
+setup.py
+runforme.egg-info/PKG-INFO
+runforme.egg-info/SOURCES.txt
+runforme.egg-info/dependency_links.txt
+runforme.egg-info/top_level.txt
