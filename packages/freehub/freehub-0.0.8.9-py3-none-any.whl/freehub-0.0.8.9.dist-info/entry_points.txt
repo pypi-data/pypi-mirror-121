@@ -1,0 +1,4 @@
+[console_scripts]
+free = freehub.clitools.cli:main
+freehub = freehub.clitools.cli:main
+
