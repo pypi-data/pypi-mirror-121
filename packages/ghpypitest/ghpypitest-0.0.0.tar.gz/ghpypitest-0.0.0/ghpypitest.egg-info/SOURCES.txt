@@ -1,0 +1,5 @@
+setup.py
+ghpypitest.egg-info/PKG-INFO
+ghpypitest.egg-info/SOURCES.txt
+ghpypitest.egg-info/dependency_links.txt
+ghpypitest.egg-info/top_level.txt
