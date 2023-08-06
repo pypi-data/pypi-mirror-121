@@ -1,0 +1,9 @@
+fourwarder/batcher.py,sha256=Mbu0VdMObnPrNm_w_H3pWbYqCvWxs0cDMDOfPSTQwy4,1454
+fourwarder/config.py,sha256=WSRc3zfvLTzixCQGzFWRIBTA1NnqMiG7Ztfi2GLqLmQ,961
+fourwarder/container_handler.py,sha256=C2pL6EHDNsK3TM1oPT0fcr_lmpP5h2aJyi1eyTrf6Gs,1170
+fourwarder/main.py,sha256=7hmWHkq9Oa6zdrYepu0083syCblawfQBbEpXqbLTT-o,4056
+fourwarder/sender.py,sha256=YCm0aszrkfTCE8czdVgNIWk4xKZ85_zQdXRdwE4ph7M,2167
+fourwarder-0.1.0.dist-info/entry_points.txt,sha256=1fh7fMSqunnnHNeOytBAopwTyamQySU9e7P5e51LJP8,50
+fourwarder-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+fourwarder-0.1.0.dist-info/METADATA,sha256=HuKziWHx7AtfiZSU_P870RLzK0bgP3bBHqbvQ1TH1TQ,433
+fourwarder-0.1.0.dist-info/RECORD,,
