@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bws-jsonrpc-client
+Version: 0.0.1
+Summary: Bws Json RPC Client 
+Author: Jose Angel Delgado
+Author-email: esojangel@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests
+
+# JsonRpcClient
+
+
+```python
+
+from jsonrpc_client import JsonRpcClient
+
+api = JsonRpcClient("http://localhost:8181/rpc")
+
+api.sum(1, 2)
+
+api.module.get_test(name="jad21", type="B")
+
+```
