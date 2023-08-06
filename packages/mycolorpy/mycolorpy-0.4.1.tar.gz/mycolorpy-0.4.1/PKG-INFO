@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: mycolorpy
+Version: 0.4.1
+Summary: Create of array of colors from a colormap
+Home-page: https://github.com/binodbhttr/mycolorpy
+Author: Binod Bhattarai
+Author-email: info@binodb.com.np
+License: MIT
+Description: UNKNOWN
+Keywords: Color,Hexcolor,Colormap
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
