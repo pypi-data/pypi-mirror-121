@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: canvaslms
+Version: 1.0
+Summary: Command-line interface for Canvas LMS
+Home-page: https://github.com/dbosk/canvaslms
+Author: Daniel Bosk
+Author-email: dbosk@kth.se
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dbosk/canvaslms/issues
+Project-URL: Releases, https://github.com/dbosk/canvaslms/releases
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appdirs (>=1.4.4)
+Requires-Dist: argcomplete (>=1.12.3)
+Requires-Dist: canvasapi (>=2.0.0)
+Requires-Dist: pypandoc (>=1.6.4)
+
+# canvaslms
+
+A CLI to automate things related to Canvas LMS.
+
+Some subcommands use `pandoc`, so you must [install pandoc][pandoc] on your 
+system.
+
+[pandoc]: https://pandoc.org/installing.html
+
+
