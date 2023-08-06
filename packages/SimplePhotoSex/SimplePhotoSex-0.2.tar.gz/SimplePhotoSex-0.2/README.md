@@ -1,0 +1,35 @@
+PhotoSex
+
+A simple package to perform photometry on FITS images based on Sextractor+PSFEX, including aperture photometry and PSF photometry.
+This package calls external Sextractor and PSFEX applications, thus please install Sextractor+PSFEX firstly and make sure that you can call them directly in terminal.
+This package also includes checking routines which means it can produce some checking images and figures.
+You just need to offer one FITS image and choose a working directory, then the package can perform photometry on the image and produce the temporary and final results in the working directory. Please note that you must offer a sextractor directory which includes all configuration files for Sextractor and PSFEX.
+
+
+
+Requirements:
+
+astropy
+numpy
+pandas
+opencv-python
+seaborn
+scikit-learn
+tqdm
+visual-logging (pip install visual-logging)
+requests
+
+external:
+Sextractor (conda install -c conda-forge astromatic-source-extractor)
+PSFEX (conda install -c conda-forge astromatic-psfex)
+
+
+
+Installation:
+
+pip install SimplePhotoSex
+
+
+Examples:
+
+see test/test_example.ipynb
