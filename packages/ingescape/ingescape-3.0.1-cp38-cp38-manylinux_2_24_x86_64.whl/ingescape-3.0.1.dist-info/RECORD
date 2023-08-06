@@ -1,0 +1,10 @@
+ingescape.cpython-38-x86_64-linux-gnu.so,sha256=vgtUHsRLNaorZdqOXk16jzMiCuuFi-XGRn7nx_61ckI,734760
+ingescape.libs/libzyre-b177e266.so.2.0.1,sha256=RonWZzD73JSiXns1EmsiqO8mr6_CeOtt5KUdhML1ink,159472
+ingescape.libs/libsodium-07596eea.so.23,sha256=UOZ39wc-3STr5oLvxh_mcP7dWp0A3m5_REMASi-ZIcI,399928
+ingescape.libs/libzmq-020d8bc4.so.5.2.5,sha256=YnCQk1_odTVYpQZVwILPwnGQpVr1SsqCQ6ygyrSBAqM,1329016
+ingescape.libs/libczmq-ca9a75a4.so.4.2.2,sha256=8dkLSHq68SsF2_tTusoy2CzYx5oTmlT8iZVQ5C_gdb0,738392
+ingescape.libs/libingescape-2c17ba2d.so.3.0.0,sha256=EyxwWhCW4i-GBxllSWNqvWsGpDUWHhzB7yUIdEvNyPs,551984
+ingescape-3.0.1.dist-info/WHEEL,sha256=bQDS2UIU5ysnOurKICB87_FDaf-GAYOeCAZEt2ZU92E,112
+ingescape-3.0.1.dist-info/top_level.txt,sha256=R3KHs_kSITHsHWs-20WpcmfxPZF6Kc4Vk730XEA9hL8,10
+ingescape-3.0.1.dist-info/RECORD,,
+ingescape-3.0.1.dist-info/METADATA,sha256=DOGpDkkw4fgWZQFrQjOtT5-xh4cFSqWgwEW-o40ulXU,241
