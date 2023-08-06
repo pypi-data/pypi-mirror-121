@@ -1,0 +1,3 @@
+[console_scripts]
+napalytics = napalytics.__main__:main
+

@@ -1,0 +1,33 @@
+# napalytics
+Repository for creating a Python test framework for data testing across multiple data sources
+
+# installation
+1. To install the package run: pip install -e napalytics if you have downloaded the source files, if directly fetching from the internet use pip install napalytics
+
+2. To test if package has installed: run python in cmd then type import napalytics. It should
+import the installed package with no errors.
+
+# Usage
+The bindings for connecting to the database are defined in the module: napalytics/connector.py
+The module should be used as follows:
+1. import the module: import napalytics as nps
+2. call any of the following methods: oracle,sql_server,snow,aws_redshift,google_bigquery,amazon_s3
+3. Sample calls to these methods are as follows:
+   - nps.oracle( host,port, sid,username, pwd,service_name)
+   - nps.sql_server(driver,server,database,uid,password)
+   - nps.snow(user,password, account,warehouse,database,schema)
+   - nps.aws_redshift(host,database_name,user, password)
+   - nps.google_bigquery(username, pwd, hyperlink, database_name)
+   - nps.amazon_s3(aws_access_key,aws_secret_key)
+
+
+# Updating the package on the PC to the latest version
+1. Fetch the latest code from the source
+2. Since all the dependencies have been previously fetched,only the package needs to be updated
+   - on cmd change directory(cd) to the cloned/downloaded copy of this code
+   - then run pip install -e napalytics
+   - This will uninstall the previous version of the package and install the latest package
+
+
+
+
