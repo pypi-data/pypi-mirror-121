@@ -1,0 +1,12 @@
+qwebsite/__init__.py,sha256=X7sXDVrIOc9XUTxajb1vnOE0bNOo1XH-ssLWsV5XxOc,217
+qwebsite/__main__.py,sha256=FkV5BbOnGFDxUdWDy20XRM91Cx-UzPIkpw04QOakg8w,750
+qwebsite/base.py,sha256=5MZdLAqkY05RpvQ60e-pkLTk0w1sQoOodWkbKvKYz4A,6466
+qwebsite/flags.py,sha256=9-c4o8aUVL5LzvdbRaTlph_Q_qLIOupALRx-qrSWimY,507
+qwebsite/submethod/__init__.py,sha256=U2QQK0J4fOwgaoG2bG6izvQ8nR5sBfhPXh6sfUEg5dI,124
+qwebsite/submethod/github.py,sha256=6CYoddgQ-8CU_Ka96GB_r4EbYu-5AmxiHFnKREOIhJY,5304
+QWebSite-0.4a1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+QWebSite-0.4a1.dist-info/METADATA,sha256=GRh9xAojC2n2KnkUKDRRVTzmqY-WXidmaFcGO4vccqQ,313
+QWebSite-0.4a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+QWebSite-0.4a1.dist-info/entry_points.txt,sha256=F3N1cOelvqYHpCF7qprnk7T3H1TP2Lkip1B3BnSutoQ,52
+QWebSite-0.4a1.dist-info/top_level.txt,sha256=I4BfiNXxxbc3ixaoew2qABiKbXudX71MmzN054SDMyI,9
+QWebSite-0.4a1.dist-info/RECORD,,
