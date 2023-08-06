@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[gui_scripts]
+ENCX = hyo2.encx.__main__
+
