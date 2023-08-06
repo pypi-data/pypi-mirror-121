@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./protectsql/__init__.py
+./protectsql/commands.py
+protectsql.egg-info/PKG-INFO
+protectsql.egg-info/SOURCES.txt
+protectsql.egg-info/dependency_links.txt
+protectsql.egg-info/entry_points.txt
+protectsql.egg-info/requires.txt
+protectsql.egg-info/top_level.txt
