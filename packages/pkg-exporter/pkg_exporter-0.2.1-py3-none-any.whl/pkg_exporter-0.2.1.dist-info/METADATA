@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pkg-exporter
+Version: 0.2.1
+Summary: This project provides an textfile-based exporter for apt-repositories
+Home-page: UNKNOWN
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: prometheus-client
+
+UNKNOWN
+
