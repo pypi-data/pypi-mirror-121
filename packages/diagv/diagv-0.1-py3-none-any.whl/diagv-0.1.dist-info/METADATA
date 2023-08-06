@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: diagv
+Version: 0.1
+Summary: Diagonal Directed Graph Visualization
+Home-page: https://github.com/apljungquist/diagv
+Author: AP Ljungquist
+Author-email: ap@ljungquist.eu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: more-itertools
+Requires-Dist: networkx
+Requires-Dist: numpy
+Provides-Extra: examples
+Requires-Dist: fire ; extra == 'examples'
+Requires-Dist: matplotlib ; extra == 'examples'
+Requires-Dist: scipy ; extra == 'examples'
+
+# Diagonal Directed Graph Visualization
+
+Functionality to print a DAG as ASCII art and automatically determine the order in which to print the nodes.
+A directed version of the bull graph would look as follows:
+
+```text
+0-+
+  +-1-+---+
+      +-2-+
+          +-3-+
+              +-4
+```
+

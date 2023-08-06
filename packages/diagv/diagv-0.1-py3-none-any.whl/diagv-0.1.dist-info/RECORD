@@ -1,0 +1,11 @@
+diagv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diagv/generators.py,sha256=UC4bKYnnZOizf8WoVUZFvTh6qN8UWIVa31_Fi6hthhg,1147
+diagv/misc.py,sha256=Gi3ET4mXeTdku3QfKBfJScFfN3xi7UgVVgAviE3GSwc,405
+diagv/optimization.py,sha256=MklMEah6k7OX8HwbP38WSOcXnFntptm0M5krKggHdp4,6046
+diagv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diagv/typing_utils.py,sha256=XuYrZwTQPi2oUwJfusMfolMbnpRT5YHeneW8ULQekgM,232
+diagv/visualization.py,sha256=hdgPUMfzzsnm9TuJjTMeNJ5ykdqN6rYNy20fuWNn2EU,6274
+diagv-0.1.dist-info/METADATA,sha256=IYHF2_8_m1Um6Z55boHKJmQRplVOEQo0V4-tuoHgnEQ,814
+diagv-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+diagv-0.1.dist-info/top_level.txt,sha256=Wy8svqao9XgfhTOV_8R9qz7S0NmBhXaioJ5eNCfo5TY,6
+diagv-0.1.dist-info/RECORD,,
