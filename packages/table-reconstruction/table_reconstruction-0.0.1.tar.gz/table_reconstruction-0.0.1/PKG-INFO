@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: table_reconstruction
+Version: 0.0.1
+Summary: A table reconstruction package
+Home-page: https://github.com/sun-asterisk-research/table_reconstruction
+Author: Sun* AI Research
+Author-email: sun.converter.team@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sun-asterisk-research/table_reconstruction/issues
+Description: # table_reconstruction
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
