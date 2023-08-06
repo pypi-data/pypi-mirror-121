@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: onpremgpusdk
+Version: 0.0.4
+Summary: Data Utility for on prem gpu runs
+Home-page: https://github.com/pypa/sampleproject
+Author: Navi tech
+Author-email: sridhar.swain@navi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (==1.18.45)
+Requires-Dist: botocore (==1.21.45certifi==2021.5.30)
+Requires-Dist: charset-normalizer (==2.0.6)
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: idna (==3.2)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: pandas (==1.3.3)
+Requires-Dist: pipreqs (==0.4.10)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: s3transfer (==0.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: yarg (==0.1.9)
+
+# on-prem-gpu
+On prem gpu related codebase
+
+
