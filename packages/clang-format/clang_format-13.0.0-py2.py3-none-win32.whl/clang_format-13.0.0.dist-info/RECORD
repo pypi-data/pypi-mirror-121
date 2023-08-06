@@ -1,0 +1,11 @@
+clang_format/__init__.py,sha256=E0Urv1dE1JAZiOWSntxufe5HEiS5088HM495PZFsXxI,375
+clang_format/data/bin/clang-format-diff.py,sha256=VW2lqVzYqRHezDia6Xbn2vafcPdE6byMb7gkARgLpQ0,5261
+clang_format/data/bin/clang-format.exe,sha256=vuHwn99RuW80KuWO0g114ru62JKDYLUnDYGNt0Q2UQY,8427008
+clang_format/data/bin/git-clang-format,sha256=3e1iyuZ5SjfgV6ceEJqCTbw-6lGSehzPHWYcfSlv6Qc,22334
+clang_format-13.0.0.dist-info/COPYING.md,sha256=r71N-pQCeu9g95BmCXNGEsON4HEFmfV_RYXmTkoqhPE,918
+clang_format-13.0.0.dist-info/LICENSE.md,sha256=3B9dLUPFUx3-Csr06VDqXb4-YeGFDPDpg72n78ENZpM,10464
+clang_format-13.0.0.dist-info/METADATA,sha256=mY6AZu-JUTp-RbQsUv-F67hnxQjb5Pa45kt6HYMQCoc,3882
+clang_format-13.0.0.dist-info/WHEEL,sha256=9os-jQPzGv-ofFR7Ozxti0TR2bfdw2xmscua_PYzTP0,115
+clang_format-13.0.0.dist-info/entry_points.txt,sha256=1UcWaIK3wu0OcaNTG4S3c5LafZm0rJDOI3DZllfPUlQ,163
+clang_format-13.0.0.dist-info/top_level.txt,sha256=rA6SWzR0M58097TuUJruKA1tsL9ltK-E-NsoxOgyiTk,13
+clang_format-13.0.0.dist-info/RECORD,,
