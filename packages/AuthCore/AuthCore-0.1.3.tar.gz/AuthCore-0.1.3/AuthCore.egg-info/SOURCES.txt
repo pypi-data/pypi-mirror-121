@@ -1,0 +1,13 @@
+setup.py
+AuthCore/README.md
+AuthCore/__init__.py
+AuthCore/__key_pair__.py
+AuthCore/__rsa__.py
+AuthCore.egg-info/PKG-INFO
+AuthCore.egg-info/SOURCES.txt
+AuthCore.egg-info/dependency_links.txt
+AuthCore.egg-info/not-zip-safe
+AuthCore.egg-info/top_level.txt
+AuthCore/sdb/__init__.py
+AuthCore/sdb/jsonfile.py
+AuthCore/sdb/mongo.py
