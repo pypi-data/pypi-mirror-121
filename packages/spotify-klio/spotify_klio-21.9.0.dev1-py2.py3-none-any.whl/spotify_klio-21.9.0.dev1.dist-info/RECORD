@@ -1,0 +1,11 @@
+spotify_klio/__init__.py,sha256=6afM9N4iaQ7mahs7LldngZgEU7mbVjZz1K6YyVKyhjk,237
+spotify_klio/transforms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotify_klio/transforms/_benchmark.py,sha256=L49Ebgto3-yJrx1t2yFznm6TMQxbIQNDWMwRTcSpWsU,5323
+spotify_klio/transforms/clients.py,sha256=rEDKdV66l5NB-7xdVNVZtxo9lmLnS7C-dJ9sZBIdU0c,1709
+spotify_klio/transforms/decorators.py,sha256=aD4SctvqgmXww5A7tMEcGFk3rWnQ0R7EuksW6dIbRjM,3408
+spotify_klio/transforms/io.py,sha256=Kp5Z6LjUWaAgoZbKQpoGJn1DH0Jqxbng1mqRxJgRXBQ,2357
+spotify_klio-21.9.0.dev1.dist-info/METADATA,sha256=woq3oez3ODlR_dbocSUoc2DEjf5uB3S4aGk8T4pJFtM,1505
+spotify_klio-21.9.0.dev1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+spotify_klio-21.9.0.dev1.dist-info/dependency_links.txt,sha256=doZUCaIdL0lmrRda4SQKbQOnFYUo2XvQgR1rqIcAaUo,32
+spotify_klio-21.9.0.dev1.dist-info/top_level.txt,sha256=oxFBs8Ht2cL6iZD2r_iNv5I1Jf2MP0Rs9wCBLk96O0Q,13
+spotify_klio-21.9.0.dev1.dist-info/RECORD,,
