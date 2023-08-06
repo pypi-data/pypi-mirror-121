@@ -1,0 +1,25 @@
+connection
+**********
+
+
+Description
+===========
+
+Note: Deprecated. Use the new resource model APIs instead. Database
+Connection resource used for migrations.
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* create
+
+* delete
+
+* get
+
+* list
+
+* update
