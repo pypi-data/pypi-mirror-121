@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: asynctelegraf
+Version: 0.0.1
+Summary: An async client for telegraf (statsd)
+Home-page: https://github.com/mastak/asynctelegraf
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
