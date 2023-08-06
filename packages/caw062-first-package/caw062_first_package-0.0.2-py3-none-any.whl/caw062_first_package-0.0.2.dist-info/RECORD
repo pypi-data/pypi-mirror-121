@@ -1,0 +1,10 @@
+caw062_first_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caw062_first_package/add.py,sha256=thh9V1tFIy81tGDEBOYAk-TIVxwIytQafmbk7GhrXsY,28
+caw062_first_package/subtract.py,sha256=Ty3Pb6rNj11-4GJ9wxWnkMxV694JcWRarR63d2Vn83I,38
+caw062_first_package/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caw062_first_package/extras/divide.py,sha256=KCyJecPennaIHFgv_DLswW4I-pKO0Fj0FkCdOZrFdo4,32
+caw062_first_package/extras/multiply.py,sha256=Jjp1X6GmpfZVbkpMz9QAZeMVBqT36Kea9Jln1TIplxc,33
+caw062_first_package-0.0.2.dist-info/METADATA,sha256=LF9iZ3th_hjKg_gLN3P8A-TZ8pY4uxh157ye8PhpF1M,485
+caw062_first_package-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+caw062_first_package-0.0.2.dist-info/top_level.txt,sha256=_GlvKNd39ZS_SnFJd3g28F90F-IyGQmEu391wliUQFM,21
+caw062_first_package-0.0.2.dist-info/RECORD,,
