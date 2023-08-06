@@ -1,0 +1,6 @@
+
+[dev]
+black
+coverage
+isort
+twine
