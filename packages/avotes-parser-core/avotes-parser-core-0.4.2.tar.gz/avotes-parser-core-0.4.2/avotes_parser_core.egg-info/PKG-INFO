@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: avotes-parser-core
+Version: 0.4.2
+Summary:  Parsing and decoding for human-readable representation of aragon votes payload. 
+Home-page: UNKNOWN
+Author: Dmitri Ivakhnenko
+Author-email: dmit.ivh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+
+UNKNOWN
+
