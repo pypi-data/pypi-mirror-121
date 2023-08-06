@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: package-crypto
+Version: 0.0.9
+Summary: This package is for getting all the paragraphs related to specific cryptocurrencies
+Home-page: UNKNOWN
+Author: Taukenov Assylken
+Author-email: asylken02@gmail.com
+License: MIT
+Keywords: crypto parsing
+Platform: UNKNOWN
+License-File: LICENCE.txt
+Requires-Dist: beautifulsoup4 (==4.10.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: html5lib (==1.1)
+
+# Coinmarketcap Parsing
+
+Python3 scrap all the related information about different cryptocurrencies around the [Coinmarketcap](https://coinmarketcap.com/) 
+
+### Installation
+PyPI
+```
+pip install package_crypto==0.0.9
+```
+
+
+
+Change Log
+========== 
+
+0.0.1 (09/30/2021) - First Release
+
+0.0.2 (09/30/2021) - Second Release 
+
+0.0.3 (09/30/2021) - Third Release 
+
+0.0.4 (09/30/2021) - Fourth Release
+
+0.0.5 (09/30/2021) - Fifth Release
+
+0.0.6 (10/01/2021) - Six Release
+
+0.0.7 (10/01/2021) - Seventh Release
+
+0.0.8 (10/01/2021) - Eight Release
+
+0.0.9 (10/01/2021) - Eight Release
+
