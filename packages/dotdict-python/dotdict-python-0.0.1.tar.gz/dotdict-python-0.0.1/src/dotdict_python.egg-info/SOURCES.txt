@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/dotdict/__init__.py
+src/dotdict/dotdict.py
+src/dotdict_python.egg-info/PKG-INFO
+src/dotdict_python.egg-info/SOURCES.txt
+src/dotdict_python.egg-info/dependency_links.txt
+src/dotdict_python.egg-info/top_level.txt
