@@ -1,0 +1,9 @@
+scrapegoat/__init__.py,sha256=J5h2fnriPweeEJhJGBk6NGUoycT15znJCa2kPddL3qo,112
+scrapegoat/main.py,sha256=qiJDUMdL4oPANRpIIL6Gaw0xxpFzF-8zQbRVhJ4yud0,4081
+scrapegoat/multiprocess.py,sha256=zUotI8vqVQLQ1OlPGzIqWCGcmBZSGPnNayOTj8_DOWQ,4879
+scrapegoat/utils.py,sha256=WPeGV96UVZV21G0czXzlPRNqVAQtT4Rx3GyNf7DD18Y,4353
+scrapegoat-0.0.2.2.dist-info/LICENSE.txt,sha256=L4BWNTg3JPGDFJDrzGl20p8nQV5kGnR8fYW8vkmqxkA,1091
+scrapegoat-0.0.2.2.dist-info/METADATA,sha256=8zG0qk2CynxCVxdB3wEIB4FPpyaTT0_SWvjfPIY_CTg,4365
+scrapegoat-0.0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scrapegoat-0.0.2.2.dist-info/top_level.txt,sha256=pOurzhDMwcY-jpuUoZK_1LW0fw2STGjSZ6pgAlDWLhk,11
+scrapegoat-0.0.2.2.dist-info/RECORD,,
