@@ -1,0 +1,9 @@
+certbot_dns_azure/__init__.py,sha256=l-IVa8qEdHsdmVhRDYevpo0AyOrReeyG0rtjQnBsytM,5491
+certbot_dns_azure/_internal/__init__.py,sha256=XrahSz_8hiuow1fBkBxs2QOML1BNQFFQmgmNDySrt4A,72
+certbot_dns_azure/_internal/dns_azure.py,sha256=EeqsqFEdktX0Qc68uAY0vhS87TETmvi3kDxSkLGq7N0,11826
+certbot_dns_azure-1.4.0.dist-info/LICENSE.txt,sha256=LMXecVrlqXbwhvukkwiAyeQhkUFz_IURG_9RTUdXEj8,10786
+certbot_dns_azure-1.4.0.dist-info/METADATA,sha256=QRA7h5jPN_uPPqdi_wFUtfeL0qWXcwI7dGe2xYbc37Y,3069
+certbot_dns_azure-1.4.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+certbot_dns_azure-1.4.0.dist-info/entry_points.txt,sha256=Vf9Syq46Qdkb4mZMzVJlEMi4e4L0ozXNwQc4ZQl2KBU,83
+certbot_dns_azure-1.4.0.dist-info/top_level.txt,sha256=3eGJJ4Ul0fmN4lLKWnO0BGBRK80ABpnENS-4vM5Dqrc,18
+certbot_dns_azure-1.4.0.dist-info/RECORD,,
