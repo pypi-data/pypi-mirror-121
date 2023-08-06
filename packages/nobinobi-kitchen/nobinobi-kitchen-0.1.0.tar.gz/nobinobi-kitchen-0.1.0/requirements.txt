@@ -1,0 +1,2 @@
+nobinobi-daily-follow-up>=0.1.1.13
+# Additional requirements go here

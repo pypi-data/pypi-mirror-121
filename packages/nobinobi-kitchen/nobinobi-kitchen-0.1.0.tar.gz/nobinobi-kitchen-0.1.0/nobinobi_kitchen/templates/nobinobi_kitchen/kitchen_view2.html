@@ -1,0 +1,262 @@
+<!--
+  ~   Copyright (C) Prolibre Sarl 2019 <Florian Alu> <alu@prolibre.com>
+  ~
+  ~     This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU Affero General Public License as
+  ~     published by the Free Software Foundation, either version 3 of the
+  ~     License and any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU Affero General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU Affero General Public License
+  ~     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+{% extends "nobinobi_child/base.html" %}
+{% load i18n static kitchen_tags %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block content_title %}{{ title }}{% endblock %}
+{% block breadcrumb %}
+    {{ block.super }}
+    <li class="breadcrumb-item active"><a href="{% url "nobinobi_kitchen:kitchen_select" %}">{% trans "Kitchen" %}</a>
+    </li>
+{% endblock %}
+{% block content_card_title %}{% trans "Week of" %} {{ day_list.0|date:"SHORT_DATE_FORMAT" }} {% trans "to" %}
+    {{ day_list.4|date:"SHORT_DATE_FORMAT" }}{% endblock %}
+{% block content_card_body %}
+    {% include "includes/messages.html" %}
+    <div class="btn-toolbar" style="justify-content: center;" role="toolbar" aria-label="nav_times">
+        <div class="btn-group" style="display: contents;" role="group" aria-label="nav_times">
+            <a type="button" class="btn btn-secondary"
+               href="{% url 'nobinobi_kitchen:kitchen_view' date=week_before.date %}"><i
+                    class="fa fa-angle-left"></i></a>
+            <a type="button" class="btn btn-info"
+               href="{% url 'nobinobi_kitchen:kitchen_view' date=date %}">{{ date|date:'SHORT_DATE_FORMAT' }}</a>
+            <a type="button" class="btn btn-secondary"
+               href="{% url 'nobinobi_kitchen:kitchen_view' date=week_after.date %}"><i
+                    class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+    <h2>{% trans "Creche" %}</h2>
+    <table class="table table-bordered text-center">
+        <thead class="bg-dark-gradient">
+        <tr>
+            <th>{% trans "Classroom" %}</th>
+            <th>{% trans "Age group" %}</th>
+            {% for day in day_list %}
+                <th {% if day|date:"SHORT_DATE_FORMAT" == now|date:"SHORT_DATE_FORMAT" %}class="bg-info"{% endif %}>{{ day|date:"l j F"|capfirst }}</th>
+            {% endfor %}
+        </tr>
+        </thead>
+        <tbody>
+        {% for classroom, age_groups in children_dict.items %}
+
+            {% for age_group, days in age_groups.items %}
+                {% if days|get_dict_true %}
+                    <tr>
+                        <td>{{ classroom }} <small>({{ classroom.get_mode_display }})</small></td>
+                        <td>{{ age_group }}</td>
+                        {% for day, values in days.items %}
+                            <td>{{ values.normal.total }} (+{{ values.restrict.total }})</td>
+                        {% endfor %}
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        </tbody>
+        <tfoot>
+        <tr>
+            <th class="bg-dark-gradient" colspan="7">{% trans "Total" %}</th>
+        </tr>
+        {% for age_group_id, age_group in total_dict.age_group.items %}
+
+            <tr>
+                <th colspan="2" class="">{{ age_group.name }}</th>
+            </tr>
+            {% for classroom, days in age_group.classroom.items %}
+                {% if days|get_dict_total_true %}
+                    <tr>
+                        <th colspan="2">{{ classroom.name }}</th>
+                        {% for day_id, day in days.days.items %}
+                            <td>{{ day.normal }} (
+                                <button type="button" class="btn btn-outline-secondary btn-xs" data-toggle="modal"
+                                        data-target="#modal_{{ age_group_id }}_{{ classroom.id }}_{{ day_id }}">
+                                    +{{ day.restrict }}</button>
+                                )
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        </tfoot>
+    </table>
+
+    {% for id, age_group in total_dict.age_group.items %}
+        {% for classroom, days in age_group.classroom.items %}
+            {% for day, day_value in days.days.items %}
+                <!-- Modal -->
+                <div class="modal fade" id="modal_{{ id }}_{{ classroom.id }}_{{ day }}" tabindex="-1" role="dialog"
+                     aria-labelledby="{{ age_group.name }}"
+                     aria-hidden="true">
+                    <div class="modal-dialog" style="max-width: 70%;" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">{% trans "Food restriction for" %} {{ age_group.name }}</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <table class="table table-bordered table-hover table-responsive text-center">
+                                    <thead>
+                                    <tr>
+                                        <th>{% trans "Child" %}</th>
+                                        {% for food_restriction in food_restrictions %}
+                                            <th>{{ food_restriction.name }}</th>
+                                        {% endfor %}
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for child, child_value in day_value.restrict_dict.items %}
+                                        <tr>
+                                            <th>{{ child.full_name }} <small>({{ child.classroom.name }})</small></th>
+                                            {% for fr in child_value.values %}
+                                                <td>{% if fr %}<i class="fas fa-times"></i>{% endif %}</td>
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">{% trans "Close" %}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endfor %}
+
+
+    {% endfor %}
+    <hr>
+    <h2>{% trans "Kindergarten" %}</h2>
+    <table class="table table-bordered text-center">
+        <thead class="bg-dark-gradient">
+        <tr>
+            <th>{% trans "Classroom" %}</th>
+            <th>{% trans "Age group" %}</th>
+            {% for day in day_list %}
+                <th {% if day|date:"SHORT_DATE_FORMAT" == now|date:"SHORT_DATE_FORMAT" %}class="bg-info"{% endif %}>{{ day|date:"l j F"|capfirst }}</th>
+            {% endfor %}
+        </tr>
+        </thead>
+        <tbody>
+        {% for classroom, age_groups in children_dict_kindergarten.items %}
+
+            {% for age_group, days in age_groups.items %}
+                {% if days|get_dict_true %}
+                    <tr>
+                        <td>{{ classroom }} <small>({{ classroom.get_mode_display }})</small></td>
+                        <td>{{ age_group }}</td>
+                        {% for day, values in days.items %}
+                            <td>{{ values.normal.total }} (+{{ values.restrict.total }})</td>
+                        {% endfor %}
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        </tbody>
+        <tfoot>
+        <tr>
+            <th class="bg-dark-gradient" colspan="7">{% trans "Total" %}</th>
+        </tr>
+        {% for age_group_id, age_group in total_dict_kindergarten.age_group.items %}
+            <tr>
+                <th colspan="2" class="">{{ age_group.name }}</th>
+            </tr>
+            {% for classroom, days in age_group.classroom.items %}
+                {% if days|get_dict_total_true %}
+                    <tr>
+                        <th colspan="2">{{ classroom.name }}</th>
+                        {% for day_id, day in days.days.items %}
+                            <td>{{ day.normal }} (
+                                <button type="button" class="btn btn-outline-secondary btn-xs" data-toggle="modal"
+                                        data-target="#modal_{{ age_group_id }}_{{ classroom.id }}_{{ day_id }}_kindergarten">
+                                    +{{ day.restrict }}</button>
+                                )
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        </tfoot>
+    </table>
+
+    {% for id, age_group in total_dict_kindergarten.age_group.items %}
+        {% for classroom, days in age_group.classroom.items %}
+            {% for day, day_value in days.days.items %}
+                <!-- Modal -->
+                <div class="modal fade" id="modal_{{ id }}_{{ classroom.id }}_{{ day }}_kindergarten" tabindex="-1"
+                     role="dialog"
+                     aria-labelledby="{{ age_group.name }}"
+                     aria-hidden="true">
+                    <div class="modal-dialog" style="max-width: 70%;" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">{% trans "Food restriction for" %} {{ age_group.name }} {% trans "kindergarten" %}</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <table class="table table-bordered table-hover table-responsive text-center">
+                                    <thead>
+                                    <tr>
+                                        <th>{% trans "Child" %}</th>
+                                        {% for food_restriction in food_restrictions %}
+                                            <th>{{ food_restriction.name }}</th>
+                                        {% endfor %}
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for child, child_value in day_value.restrict_dict.items %}
+                                        <tr>
+                                            <th>{{ child.full_name }} <small>({{ child.classroom.name }})</small></th>
+                                            {% for fr in child_value.values %}
+                                                <td>{% if fr %}<i class="fas fa-times"></i>{% endif %}</td>
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">{% trans "Close" %}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endfor %}
+
+
+    {% endfor %}
+
+{% endblock %}
+{% block content_card_footer %}
+
+{% endblock %}

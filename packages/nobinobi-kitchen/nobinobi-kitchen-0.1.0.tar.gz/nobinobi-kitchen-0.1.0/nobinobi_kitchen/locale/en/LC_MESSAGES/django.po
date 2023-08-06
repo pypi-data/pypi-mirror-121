@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-30 12:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\forms.py:10
+msgid "Date"
+msgstr ""
+
+#: .\forms.py:32
+msgid "Submit"
+msgstr ""
+
+#: .\menus.py:22 .\templates\nobinobi_kitchen\kitchen_view.html:25
+msgid "Kitchen"
+msgstr ""
+
+#: .\signals.py:21
+msgid "Permission Kitchen created"
+msgstr ""
+
+#: .\signals.py:22
+msgid "Permission Kitchen created successfully."
+msgstr ""
+
+#: .\signals.py:26
+msgid "Group Kitchen created"
+msgstr ""
+
+#: .\signals.py:27
+msgid "Group Kitchen created successfully."
+msgstr ""
+
+#: .\signals.py:30
+msgid "Permission {} added to {} successfully.\n"
+msgstr ""
+
+#: .\signals.py:41
+msgid "User {} created and added to {} successfully.\n"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_select.html:25
+msgid "Choice a date"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:27
+msgid "Week of"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:27
+msgid "to"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:42
+msgid "Creche"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:46
+#: .\templates\nobinobi_kitchen\kitchen_view.html:141
+msgid "Classroom"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:47
+#: .\templates\nobinobi_kitchen\kitchen_view.html:142
+msgid "Age group"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:70
+#: .\templates\nobinobi_kitchen\kitchen_view.html:165
+msgid "Total"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:97
+#: .\templates\nobinobi_kitchen\kitchen_view.html:192
+msgid "Food restriction for"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:106
+#: .\templates\nobinobi_kitchen\kitchen_view.html:201
+msgid "Child"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:127
+#: .\templates\nobinobi_kitchen\kitchen_view.html:222
+msgid "Close"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:137
+msgid "Kindergarten"
+msgstr ""
+
+#: .\templates\nobinobi_kitchen\kitchen_view.html:192
+msgid "kindergarten"
+msgstr ""
+
+#: .\views.py:29
+msgid "Choosing a date for the kitchen view"
+msgstr ""
+
+#: .\views.py:59
+msgid "Kitchen View"
+msgstr ""
