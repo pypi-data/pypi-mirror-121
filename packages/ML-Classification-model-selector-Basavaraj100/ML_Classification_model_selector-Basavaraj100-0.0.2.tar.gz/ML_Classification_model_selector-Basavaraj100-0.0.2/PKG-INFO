@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ML_Classification_model_selector-Basavaraj100
+Version: 0.0.2
+Summary: It select best classfication model
+Home-page: https://github.com/Basavaraj100/ML_Classification_model_selector
+Author: ML_Classification_model_selector
+Author-email: benkibijali@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Basavaraj100/ML_Classification_model_selector/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ML_Classification_model_selector
+ML_Classification_model_selector
+
+
