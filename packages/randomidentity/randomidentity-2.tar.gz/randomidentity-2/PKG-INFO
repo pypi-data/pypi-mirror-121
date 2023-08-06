@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: randomidentity
+Version: 2
+Summary: Python module for outputting random people data for your projects
+Home-page: https://github.com/borry-dev/randomidentity
+Author: Oleg
+License: MIT License
+Download-URL: https://github.com/borry-dev/randomidentity/archive/main.zip
+Description: # RandomIdentityGenerator v2
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
