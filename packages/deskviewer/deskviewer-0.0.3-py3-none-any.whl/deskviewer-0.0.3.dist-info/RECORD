@@ -1,0 +1,11 @@
+deskviewer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deskviewer/client.py,sha256=o_gLvPCj1NOO_RK9aQSlLzsPCjGbcqY0PJKy6cNmtJw,5775
+deskviewer/constant.py,sha256=idNPL_t5F6e2ix_lVoyEAOWORQn2Ici0uXZNCN0tSNs,352
+deskviewer/main.py,sha256=LVowXiBlrRqOf7WO0ieVXGIdFb79A9xaFZSYOv4fAUE,452
+deskviewer/server.py,sha256=nJrC7K_SSVGO0s8iDeLko33JcFgCdXDI_O7ZcXE-0vM,7390
+deskviewer-0.0.3.dist-info/LICENSE,sha256=4_z-SrC8ZvXbQJ9i29dilQnGxwQq8ACAG0iKAJJV_nQ,1055
+deskviewer-0.0.3.dist-info/METADATA,sha256=keG8t6RKGBydz2i0Vcz5lglmuHTyhZd3-ruvhznlskI,2613
+deskviewer-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deskviewer-0.0.3.dist-info/entry_points.txt,sha256=MRamvOkZG3_5vHL94cJtJMiyy520Er9bjNhROuXNvX4,141
+deskviewer-0.0.3.dist-info/top_level.txt,sha256=uHMwVZ76t3kP0YpRPlSRMX5zD8m1q74L2lX7_FX5Cz8,11
+deskviewer-0.0.3.dist-info/RECORD,,
