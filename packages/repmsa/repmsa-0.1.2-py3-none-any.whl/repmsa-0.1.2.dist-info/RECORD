@@ -1,0 +1,7 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/repmsa.py,sha256=eLhjwmZqsvWI--Qjc-YUV4h-vDBS_RgB7d82lZLyKog,1538
+tests/test_repmsa.py,sha256=_zR2ellTr3HGf9l4JU6rvW-5YPm0WVlXyi5mHswJQ8c,163
+repmsa-0.1.2.dist-info/METADATA,sha256=TBZ7Q23ixnt3m2d3BtKlniMmBPcOx5yKJfiwkSPVHa4,1539
+repmsa-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+repmsa-0.1.2.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+repmsa-0.1.2.dist-info/RECORD,,
