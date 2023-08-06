@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+yeshzlib.egg-info/PKG-INFO
+yeshzlib.egg-info/SOURCES.txt
+yeshzlib.egg-info/dependency_links.txt
+yeshzlib.egg-info/top_level.txt
