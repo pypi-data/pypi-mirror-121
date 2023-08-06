@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    {
+      "name": "hello",
+      "reference": "geyser_lava.task.hello.Hello",
+      "type": "task"
+    }
+  ],
+  "flow": {
+    "name": "root",
+    "type": "linear",
+    "include": [
+      "hello"
+    ]
+  },
+  "engine": "serial"
+}

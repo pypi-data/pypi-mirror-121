@@ -1,0 +1,36 @@
+{
+    "$schema": "https://ghproxy.com/https://github.com/chenrz925/geyser/raw/main/src/geyser/schema.json",
+    "tasks": [
+        {
+            "reference": "geyser_lava.task.utility.PathBuilder",
+            "name": "dataset_root",
+            "type": "functor",
+            "inject": {
+                "typename": "current",
+                "subpaths": ["dataset", "cifar10"]
+            }
+        },
+        {
+            "reference": "geyser_lava.task.torch.common.DataLoaderProvider",
+            "name": "train_loader",
+            "type": "task",
+            "inject": {
+
+            },
+            "rebind": {
+                "dataset_root": "root"
+            }
+        },
+        {
+            "reference": "geyser_lava.task.torch.trainer.SupervisedTrainer",
+            "name": "trainer",
+            "type": "task"
+        }
+    ],
+    "flow": {
+        "name": "root",
+        "type": "graph",
+        "include": ["dataset_root"]
+    },
+    "engine": "serial"
+}
