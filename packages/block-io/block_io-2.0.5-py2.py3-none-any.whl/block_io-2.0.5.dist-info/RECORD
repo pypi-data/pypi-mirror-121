@@ -1,0 +1,8 @@
+block_io/__init__.py,sha256=hUItZIBcy3fHWmSDFkjFMhIMJWJ8WGJ1N46C4hwT9Qg,25359
+block_io/bitcoinutils_patches.py,sha256=qsZIAop16KjorYeDbgNxxZPuyeKskKf1ya4BUUOPCrM,5860
+block_io/pbkdf2.py,sha256=804UwUWZWbmD_XzLaLIHApJIzPe2kh_Mbd2_ubXffVg,1753
+block_io-2.0.5.dist-info/LICENSE,sha256=95pSnqGHQ5CVtTVXX5JxjVqLgppPswMvNqThHROgNMo,1073
+block_io-2.0.5.dist-info/METADATA,sha256=hS7BRB3g9tcZDv7xPzZBYoOfz5bnDndLyKOuVJxIhV4,1937
+block_io-2.0.5.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+block_io-2.0.5.dist-info/top_level.txt,sha256=KIrezO2zK0TAa_Uhsbs8qLHKEnO3Z7_1GthQi2tR720,9
+block_io-2.0.5.dist-info/RECORD,,
