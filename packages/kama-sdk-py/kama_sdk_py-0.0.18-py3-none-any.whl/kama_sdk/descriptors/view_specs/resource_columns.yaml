@@ -1,0 +1,36 @@
+kind: ColumnSpec
+id: "sdk.column_spec.resources.namespace"
+title: "Namespace"
+view_spec:
+  type: Text
+  text: "get::self>>item=>namespace"
+  style: [hacker]
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.name"
+title: "Name"
+view_spec:
+  type: Text
+  text: "get::self>>item=>name"
+  style: [hacker, bold]
+  action:
+    type: "goto_detail_page"
+    page_spec_id: "get::parent>>detail_page_name"
+    resource_namespace: "get::self>>item=>namespace"
+    resource_name: "get::self>>item=>name"
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.created_at"
+title: "Created"
+view_spec:
+  type: Text
+  template:
+    type: Timestamp
+    timestamp:
+      kind: Supplier
+      serializer: "str"
+      source: get::parent>>item=>created_at
