@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dictionarysnek
+Version: 0.0.1
+Summary: A Dictionary API Wrapper for Python
+Home-page: https://github.com/Gizems-Cult/dictionarysnek
+Author: Nessundorma
+Author-email: vismdbs@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/Gizems-Cult/dictionarysnek
