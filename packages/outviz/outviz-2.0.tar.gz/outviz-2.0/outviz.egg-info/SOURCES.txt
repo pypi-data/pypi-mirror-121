@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+outviz/__init__.py
+outviz.egg-info/PKG-INFO
+outviz.egg-info/SOURCES.txt
+outviz.egg-info/dependency_links.txt
+outviz.egg-info/top_level.txt
