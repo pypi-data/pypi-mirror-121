@@ -1,0 +1,15 @@
+nd2/__init__.py,sha256=uWyNr3fzGo1oIbk-mMsGBC8asf9XDZ_nQLXkfmEugDI,252
+nd2/_nd2file.c,sha256=KU6jTRPvLGAkWHDZRrEtrIJ_P2Ly2eGUURLHBInux1s,512228
+nd2/_nd2file.cp37-win_amd64.pyd,sha256=daDkZRCnTTLvd-rLTh--wEqXr7-431dOhRgQo1raX8Y,1718272
+nd2/_nd2file.pyi,sha256=TYJRvwUyzzj-F1vU8-XfpQbDzSZsUJiWVl8Si9EpXdI,1394
+nd2/_nd2file.pyx,sha256=7VTMzcJo-v0MTJhnU8NQD-9H18JkSougmcu7jmbj5LM,11851
+nd2/_util.py,sha256=-ubETrv8WSXg0zOWlnQz1vp2HO-cq7aHJaGw4A8_NLQ,890
+nd2/_version.py,sha256=LQSr4OF8sgT5JssJlEskzraTSSzutd-4Acpss4Fj8Pg,150
+nd2/nd2file.py,sha256=XPph0_A94AyiHzbY_yx_eDnEOR-5nwcvXPbaekRAUbQ,4336
+nd2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nd2/structures.py,sha256=lyxXvawfx1AGKo-uP-f8zXTvBUSsm9x7vSMLU5hmews,6860
+nd2-0.0.1rc3.dist-info/LICENSE,sha256=1OkeCM9Twf0WZe8iwfa_ZYIp1D-PoO5NyasIKYYSngY,1544
+nd2-0.0.1rc3.dist-info/METADATA,sha256=jtmQLfu1QVjy9uWbLjVr6xLvKqY14iOf5GYJazQlw4U,4438
+nd2-0.0.1rc3.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+nd2-0.0.1rc3.dist-info/top_level.txt,sha256=2VHseCh3ujZplEf6ZkzG9sVdykmMIqUGbeuVhyq-64M,4
+nd2-0.0.1rc3.dist-info/RECORD,,
