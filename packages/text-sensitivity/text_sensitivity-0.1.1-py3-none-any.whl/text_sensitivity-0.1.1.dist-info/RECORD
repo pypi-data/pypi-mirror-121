@@ -1,0 +1,14 @@
+text_sensitivity/__init__.py,sha256=eogE-cfj1iYYd8y0DcW4CaFOHmtQNpxTnSjEUjKpZO4,485
+text_sensitivity/test.py,sha256=wE4bW6vihEKB94w1Hc7zyfPD7oQjS61ENIgv8JNUfQw,3445
+text_sensitivity/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_sensitivity/data/random.py,sha256=j_HihxNj579YkLaX8r0MO5KY33VkHlx-aDWZ1Bg3J8g,6851
+text_sensitivity/perturbation/__init__.py,sha256=M_i2o9vs37DR0xs-3wuTP1cNu02IdxbKCTsUxaWbmI0,105
+text_sensitivity/perturbation/base.py,sha256=BBIqOIj7vnJUmo98fWSGXKOUJj1gFfsQTIY_WcVdaZI,21736
+text_sensitivity/perturbation/characters.py,sha256=j0GoiYM1JKyKpbW0mosiBmo6A037k7hsgJrfuJi8VNw,5897
+text_sensitivity/perturbation/sentences.py,sha256=U4AoXg1ocHLvkSFNiVxnyN8Z9h7O-Anh1E0WbvFW_8E,651
+text_sensitivity/perturbation/words.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_sensitivity-0.1.1.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+text_sensitivity-0.1.1.dist-info/METADATA,sha256=hCwxS4vJz83m3u3QFIRYiLpYdNChwrSZsMqK8it9MME,2288
+text_sensitivity-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+text_sensitivity-0.1.1.dist-info/top_level.txt,sha256=ZMEE2NDhbDydJ3mjsg4UDhQ7Pm20mhx7KR-oiVuZy-8,17
+text_sensitivity-0.1.1.dist-info/RECORD,,
