@@ -1,0 +1,10 @@
+dagger_contrib/__init__.py,sha256=5WaJPCucQ5Sib7Si9_uku4olm8TCybd6criP8B7hLMs,158
+dagger_contrib/serializer/__init__.py,sha256=_lnnGOcTbaBwpRDVXgpwq9eB7YaqBFtDRsbKiLI2w5A,125
+dagger_contrib/serializer/as_yaml.py,sha256=_NbJ33dVw0MNRYyd8k94asz_L05co3_zSiIMaU-q2w4,1323
+dagger_contrib/serializer/pandas/__init__.py,sha256=_c0D1s9hbohVo_kYPfU1wtW9eaaeUkA7Z7Y7o4T6Hbs,124
+dagger_contrib/serializer/pandas/as_csv.py,sha256=tUZbpSE3wOPO7i-AD7CdZWkU-QiYmFYDxA8HqfcgaOY,2013
+dagger_contrib/serializer/pandas/as_parquet.py,sha256=NOVqUwmwGeH7PtR9BSbKx05ZKzphfF3GJ3YaHUVTmMk,1942
+py_dagger_contrib-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_dagger_contrib-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+py_dagger_contrib-0.1.0.dist-info/METADATA,sha256=W2T9SEDM3qev6_uQN8JdXuAhMv8Hg4120q0OA9zEjdE,1305
+py_dagger_contrib-0.1.0.dist-info/RECORD,,
