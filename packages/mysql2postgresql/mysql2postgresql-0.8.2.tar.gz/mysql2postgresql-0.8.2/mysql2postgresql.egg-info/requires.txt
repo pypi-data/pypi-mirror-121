@@ -1,0 +1,4 @@
+mysql-connector
+psycopg2
+tqdm
+fire
