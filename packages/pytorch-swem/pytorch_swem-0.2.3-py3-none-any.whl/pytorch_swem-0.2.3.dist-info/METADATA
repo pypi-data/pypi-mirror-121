@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pytorch-swem
+Version: 0.2.3
+Summary: Pytorch implementation of the simple word embedding model.
+Home-page: https://github.com/schoennenbeck/swem
+Author: Sebastian Schönnenbeck
+Author-email: schoennenbeck@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.7.1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+
+# Simple word embedding models
+
+[![PyPI version](https://img.shields.io/pypi/v/pytorch-swem)](https://pypi.org/project/pytorch-swem/)
+[![PyPI - License](https://img.shields.io/pypi/l/pytorch-swem)](https://github.com/schoennenbeck/swem/blob/main/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/schoennenbeck/swem/badge.svg)](https://coveralls.io/github/schoennenbeck/swem)
+
+A pytorch implementation of the Simple Word Embedding Model from the paper [Baselines need more love](https://arxiv.org/abs/1808.09843) and some additional models and utilities.
+
+## Installation
+
+### From pypi
+
+To install this package from pypi simply run
+
+```
+pip install pytorch-swem
+```
+
+### From source
+
+To install from source clone this repository and install via pip:
+
+```
+git clone https://github.com/schoennenbeck/swem.git
+cd swem
+pip install .
+```
+
+## Docs
+
+The [documentation](https://pytorch-swem.readthedocs.io/) is currently under development.
+
+
