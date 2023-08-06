@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pygoat
+Version: 0.1.1
+Summary: Goat python module
+Home-page: https://github.com/oncase/pygoat.git
+Author: Marcello Pontes
+Author-email: marcello@oncase.com.br
+Requires-Python: >=3.8.x,<3.9
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: google-cloud-secret-manager (>=2.3.0,<3.0.0)
+Requires-Dist: pandas (==1.2.3)
+Requires-Dist: pyarrow (>=3.0.0,<4.0.0)
+Requires-Dist: python-dotenv (>=0.15.0,<0.16.0)
+Project-URL: Repository, https://github.com/oncase/pygoat.git
+Description-Content-Type: text/markdown
+
+# pygoat
+
