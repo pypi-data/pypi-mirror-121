@@ -1,0 +1,13 @@
+dbbot/__init__.py,sha256=ZRoETdPUkwgvXFSb67UK_iD8APayeZ27r4IWP05Sa-k,656
+dbbot/__main__.py,sha256=D9rVrPsbsz-InbwaeLYcoVcFagL9gm2gKGzXhuYZwWM,650
+dbbot/logger.py,sha256=4DCBptvcZ5fsLwKeLNBxiu_yGicXEYUz2ZguRhpTeLA,866
+dbbot/run.py,sha256=-cl1Ui_joN7TeSOM8Xk29sFR0w9q5TxMiaIKofFBZSM,1811
+dbbot/reader/__init__.py,sha256=RWIzmQz2fMK5jbhbiM7B7JcyPyHIyGbbRNO4ZzAmNZA,746
+dbbot/reader/database_writer.py,sha256=MUEGthtw0-CZpzQLsA8w_tW7dIxei4vDSImaMyQMDiQ,9240
+dbbot/reader/reader_options.py,sha256=XmkHfClTlIl8e_7iZb3UaIDcseAI0ilIEfrMpph19gA,3476
+dbbot/reader/robot_results_parser.py,sha256=GADZR-NLs-XSmnQYE0frqxO7SzCC7LAhFDCf14IrJvw,9606
+dbbot_sqlalchemy_customized-0.7.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+dbbot_sqlalchemy_customized-0.7.dist-info/METADATA,sha256=YHgFldXqY7uFaMIT1eZLRjBPnQZotwoYbJDjsUsn-z0,7002
+dbbot_sqlalchemy_customized-0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dbbot_sqlalchemy_customized-0.7.dist-info/top_level.txt,sha256=oT1wEkyJvmMfuvFdLi3YtYPyrMDV3di5VflyfTN4ESU,6
+dbbot_sqlalchemy_customized-0.7.dist-info/RECORD,,
