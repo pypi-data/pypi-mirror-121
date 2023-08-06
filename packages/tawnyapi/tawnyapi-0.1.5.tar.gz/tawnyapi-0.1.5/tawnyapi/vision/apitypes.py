@@ -1,0 +1,18 @@
+
+from enum import Enum
+
+
+class ImageInputType(str, Enum):
+    RAW = 'RAW'
+    FACE = 'FACE'
+
+
+class ImageAnnotationFeatures(str, Enum):
+    FACE_DETECTION = 'FACE_DETECTION'
+    FACE_LANDMARKS = 'FACE_LANDMARKS'
+    FACE_EMOTION = 'FACE_EMOTION'
+    FACE_DESCRIPTOR = 'FACE_DESCRIPTOR'
+
+
+class SdkVersion(str, Enum):
+    V_1_4 = 'V_1_4'
