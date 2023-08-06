@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/main.py
+src/nowledgeable.egg-info/PKG-INFO
+src/nowledgeable.egg-info/SOURCES.txt
+src/nowledgeable.egg-info/dependency_links.txt
+src/nowledgeable.egg-info/entry_points.txt
+src/nowledgeable.egg-info/top_level.txt
