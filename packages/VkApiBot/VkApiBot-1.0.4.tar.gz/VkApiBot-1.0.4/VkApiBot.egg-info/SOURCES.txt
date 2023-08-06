@@ -1,0 +1,9 @@
+README.md
+setup.py
+VkApiBot/__init__.py
+VkApiBot.egg-info/PKG-INFO
+VkApiBot.egg-info/SOURCES.txt
+VkApiBot.egg-info/dependency_links.txt
+VkApiBot.egg-info/top_level.txt
+VkApiBot/utils/WorkerThread.py
+VkApiBot/utils/backend_handlers.py
