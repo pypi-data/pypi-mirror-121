@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pineappl
+Version: 0.5.0_beta
+Requires-Dist: numpy~=1.21.0
+Summary: Python bindings to PineAPPL
+Keywords: high-energy-physics,physics
+Author: Christopher Schwan <handgranaten-herbert@posteo.de>, Alessandro Candido <candido.ale@gmail.com>, Felix Hekhorn <felix.hekhorn@mi.infn.it>
+Author-email: Christopher Schwan <handgranaten-herbert@posteo.de>, Alessandro Candido <candido.ale@gmail.com>, Felix Hekhorn <felix.hekhorn@mi.infn.it>
+License: GPL-3.0-or-later
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/N3PDF/pineappl
+
+# Python bindings for PineAPPL
+
+This crate uses [PyO3] to provide Python bindings to PineAPPL's [Rust API].
+
+# Installation
+
+```sh
+pip install pineappl
+```
+
+# Compilation (for development)
+
+1. Make a virtual environment in your favorite way (suggested: `virtualenv`)
+
+```sh
+virtualenv env # --system-site-packages
+```
+
+2. Activate the environment and install `maturin` via `pip`
+
+```sh
+. env/bin/activate
+pip install -r dev.requirements.txt
+```
+
+3. Run `maturin` to compile and install the library as a python package in the
+   current environment
+
+```sh
+maturin develop
+```
+
+[PyO3]: https://pyo3.rs
+[Rust API]: https://docs.rs/pineappl
+
