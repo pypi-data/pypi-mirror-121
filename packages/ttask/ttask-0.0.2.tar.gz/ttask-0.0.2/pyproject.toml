@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ttask"
+version = "0.0.2"
+description = ""
+authors = ["sleepntsheep <contact@papangkorn.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.5"
+windows-curses = "^2.2.0"
+
+[tool.poetry.scripts]
+my-script = "ttask.main:main"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
