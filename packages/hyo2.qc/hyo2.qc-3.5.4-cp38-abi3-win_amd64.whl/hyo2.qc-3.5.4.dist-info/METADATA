@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hyo2.qc
+Version: 3.5.4
+Summary: A package to quality control hydrographic data.
+Home-page: https://github.com/hydroffice/hyo2_qc
+Author: Giuseppe Masetti(UNH,CCOM), Tyanne Faulkes(NOAA,OCS), Julia Wallace(NOAA,OCS), Matthew Wilson(NOAA,OCS)
+Author-email: gmasetti@ccom.unh.edu, tyanne.faulkes@noaa.gov, julia.wallace@noaa.gov, matthew.wilson@noaa.gov
+License: LGPLv3 license
+Keywords: hydrography ocean mapping survey data quality
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Office/Business :: Office Suites
+Requires-Python: >=3.5
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: hyo2.abc
+Requires-Dist: hyo2.grids
+Requires-Dist: hyo2.enc
+Requires-Dist: hyo2.bag
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pillow
+Requires-Dist: piexif
+
+A package to quality control hydrographic data.
+

@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[gui_scripts]
+qctools = hyo2.qc.qctools.gui:gui
+
