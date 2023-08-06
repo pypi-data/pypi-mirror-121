@@ -1,0 +1,7 @@
+setup.py
+aya/__init__.py
+bin/poshy
+poshy.egg-info/PKG-INFO
+poshy.egg-info/SOURCES.txt
+poshy.egg-info/dependency_links.txt
+poshy.egg-info/top_level.txt
