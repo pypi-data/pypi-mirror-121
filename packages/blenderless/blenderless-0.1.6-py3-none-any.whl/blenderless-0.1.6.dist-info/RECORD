@@ -1,0 +1,15 @@
+blenderless/__init__.py,sha256=sQmbCpMCN1evNm2cSHhPp-0Hhd0rRVFrp60B2jlFg1Y,41
+blenderless/blender_object.py,sha256=TR1eaXznP7TuAy8079tvbnZYkVCPJTvDCz9VeNpp28c,1414
+blenderless/camera.py,sha256=BGoUZaiyasbj2nUWsehhKioCXWK33Q3lCP3kc3j_sII,3712
+blenderless/cli.py,sha256=Bz4Q1LZTZsA6OpTBH_T2RajycjTJy_9BaDVbFt6vxDU,2372
+blenderless/geometry.py,sha256=owYMhCINHBB8YMn4KXwfjZW1X0nSB0aKM5s1lB-nrrY,6261
+blenderless/io.py,sha256=6K6sTHY_3ElFP3Pzz_ktITe5J7N1bXK-cqHujATsIhs,723
+blenderless/main.py,sha256=KmcZBCTcD4GOCJtTv2-u08tW6NPtX1F43U1Q4aoXjok,2277
+blenderless/material.py,sha256=LfljLvJzmvkMlSail4jccmuLcNLTIifhVarA_OABjbI,2178
+blenderless/scene.py,sha256=v5OB6mlJoGzDTIQoZMZo40qqKFapKX-DDRvgpVlXbdM,5833
+blenderless/utils.py,sha256=tDvJiOp3zoI3X9J3kVw5MUoR3xttrG5G7Tcq-5vB3g8,650
+blenderless-0.1.6.dist-info/entry_points.txt,sha256=XGaTBD6-r4MB0eiFQxA93il3xi-aeCPsc3Rx-jBJfnU,51
+blenderless-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+blenderless-0.1.6.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+blenderless-0.1.6.dist-info/METADATA,sha256=zCmc6nyaBwOkKEEc12YpuNGb18n0lBphWC6M2rac0hs,4779
+blenderless-0.1.6.dist-info/RECORD,,
