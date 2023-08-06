@@ -1,0 +1,3 @@
+[console_scripts]
+nxtoascii = nxtoascii.__main__:main
+

@@ -1,0 +1,11 @@
+numpy
+h5py
+silx>=0.15
+
+[dev]
+pytest
+black
+flake8
+
+[test]
+pytest

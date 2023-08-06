@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: nxtoascii
+Version: 0.0.1a0
+Summary: Convert a BLISS HDF5 file to SPEC, MULTISPEC, CSV or a generic ASCII columns file
+Home-page: https://gitlab.esrf.fr/denolf/nxtoascii
+Author: ESRF
+Author-email: wout.de_nolf@esrf.fr
+License: MIT
+Project-URL: Source, https://gitlab.esrf.fr/denolf/nxtoascii
+Project-URL: Tracker, https://gitlab.esrf.fr/denolf/nxtoascii/issues
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# nxtoascii
+
+Convert a BLISS HDF5 file to SPEC, MULTISPEC, CSV or a generic ASCII columns file.
+
+## Install
+
+From source
+
+```bash
+python -m pip install .
+```
+
+## Usage
+
+Convert a BLISS HDF5 file to a MULTISPEC file
+
+```bash
+nxtoascii /data/visitor/hg123/id00/hg123_id00.h5
+```
+
+Save each scan in a separate SPEC file
+
+```bash
+nxtoascii /data/visitor/hg123/id00/hg123_id00.h5 --format SPEC
+```
+
+Select scans with the word "exafs" in the title
+
+```bash
+nxtoascii ... --scans "*exafs*"
+```
+
+Make sure the first three columns are Emono, I0 and I1
+
+```bash
+nxtoascii ... --columns Emono I0 I1
+```
+
+Only save the columns Emono, I0 and I1
+
+```bash
+nxtoascii ... --columns Emono I0 I1 --only_columns
+```
+
+## Developers
+
+```bash
+python -m pip install -r requirements-dev.txt
+pytest
+```
+
+
