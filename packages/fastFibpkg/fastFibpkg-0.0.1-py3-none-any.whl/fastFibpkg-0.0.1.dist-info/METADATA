@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fastFibpkg
+Version: 0.0.1
+Summary: Function for Fibonacci numbers.
+Home-page: UNKNOWN
+Author: LuisF (Luis Fonseca)
+Author-email: <luis.barreiros12345@live.com.pt>
+License: UNKNOWN
+Keywords: python,fibonnaci,fast,modular arithmethic
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
+
