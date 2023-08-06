@@ -1,0 +1,17 @@
+desdeo_mcdm/.readthedocs.yml,sha256=oDxUcubAq_y8piuK0WdC-IStryvbnAmr3wTFnWnbuY4,122
+desdeo_mcdm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+desdeo_mcdm/interactive/ENautilus.py,sha256=JKS1Sp5etQRq7IiKZEBdhvfm7ZSdlyijzNYbEVEdzEA,16254
+desdeo_mcdm/interactive/InteractiveMethod.py,sha256=OhqkbJDERUh40OsVlZQ7jyEJbNNDYc8sMbnB50t8qb0,295
+desdeo_mcdm/interactive/NIMBUS.py,sha256=dFfLoAoBU-lUxG2Ig0jZOPvPzlwY7zyOamMEpdr5dmA,50336
+desdeo_mcdm/interactive/Nautilus.py,sha256=3EXWLgAUsYHoi8Bo1lVFR0aVWK9cwhNh2JYUIYGw_Zo,45226
+desdeo_mcdm/interactive/NautilusNavigator.py,sha256=Y6V475wwY4YelY9F1m2-sm3SP_5S6xAvdtkisw0P8Sk,24347
+desdeo_mcdm/interactive/NautilusV2.py,sha256=5BYPxHIp84-IvxFSxmya87exiHBWQTPSm7tRtix9I5A,49481
+desdeo_mcdm/interactive/ParetoNavigator.py,sha256=7K7s7IboiPChB03M9ePheA6ZLrrxJ_DgbSC1v3xrvOc,34179
+desdeo_mcdm/interactive/ReferencePointMethod.py,sha256=f2drZ3CACmLuTjjbMhg5xy1gIdTTvhDfyVu1wxmj3Iw,27829
+desdeo_mcdm/interactive/__init__.py,sha256=0ReVi0g-QZ8x597yvSggVYvSBeXvAGoZ_qW_lzFuTH4,2506
+desdeo_mcdm/utilities/__init__.py,sha256=yUZ7tntja4T-IXLHyipTZdhRbyEjecrZJnDY0UOLJco,497
+desdeo_mcdm/utilities/solvers.py,sha256=Lqmc5_HqZjT8W1I-4kxAkxHczujZYwNQ-OSu9N3FHdo,15312
+desdeo_mcdm-1.2.10.dist-info/LICENSE,sha256=97LAoY0HL9CTrcCK-puEMHPUSc8xuAb0UT-NpjsJ3vE,1098
+desdeo_mcdm-1.2.10.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+desdeo_mcdm-1.2.10.dist-info/METADATA,sha256=8SY73rdUCu4jEYZqJ6Zw-5qjJCwCe9NzgwxmKswzzXg,663
+desdeo_mcdm-1.2.10.dist-info/RECORD,,
