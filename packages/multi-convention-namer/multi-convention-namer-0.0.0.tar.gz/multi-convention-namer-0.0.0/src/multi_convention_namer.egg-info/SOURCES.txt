@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/multi_convention_namer/__init__.py
+src/multi_convention_namer/py.typed
+src/multi_convention_namer.egg-info/PKG-INFO
+src/multi_convention_namer.egg-info/SOURCES.txt
+src/multi_convention_namer.egg-info/dependency_links.txt
+src/multi_convention_namer.egg-info/requires.txt
+src/multi_convention_namer.egg-info/top_level.txt
+src/multi_convention_namer/_jsii/__init__.py
+src/multi_convention_namer/_jsii/multi-convention-namer@0.0.0.jsii.tgz
