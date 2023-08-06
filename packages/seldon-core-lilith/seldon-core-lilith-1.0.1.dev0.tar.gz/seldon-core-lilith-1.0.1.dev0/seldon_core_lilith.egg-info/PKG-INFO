@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: seldon-core-lilith
+Version: 1.0.1.dev0
+Summary: Lilith version Seldon Core client and microservice wrapper
+Home-page: https://github.com/SeldonIO/seldon-core
+Author: Lilith Tec.
+Author-email: lianmezhi@qq.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: tensorflow
+Provides-Extra: all
+License-File: LICENSE
+
+UNKNOWN
+
