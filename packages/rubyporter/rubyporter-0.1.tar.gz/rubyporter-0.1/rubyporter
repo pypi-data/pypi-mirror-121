@@ -1,0 +1,407 @@
+#!/usr/bin/python3
+"""
+This is a packager bot for ruby modules from rubygems.org
+"""
+# ******************************************************************************
+# Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
+# licensed under the Mulan PSL v2.
+# You can use this software according to the terms and conditions of the Mulan PSL v2.
+# You may obtain a copy of Mulan PSL v2 at:
+#     http://license.coscl.org.cn/MulanPSL2
+# THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR
+# PURPOSE.
+# See the Mulan PSL v2 for more details.
+# Author: BruceGW
+# Create: 2020-07-31
+# Description: provide a tool to package ruby module automatically
+# ******************************************************************************/
+
+import urllib
+import urllib.request
+from pprint import pprint
+from os import path
+import json
+import sys
+import re
+import datetime
+import argparse
+import subprocess
+import os
+import platform
+from pathlib import Path
+import yaml
+
+json_file_template = '{pkg_name}.json'
+name_tag_template = 'Name:\t\t{pkg_name}'
+summary_tag_template = 'Summary:\t{pkg_sum}'
+version_tag_template = 'Version:\t{pkg_ver}'
+release_tag_template = 'Release:\t1'
+license_tag_template = 'License:\t{pkg_lic}'
+home_tag_template = 'URL:\t\t{pkg_home}'
+source_tag_template = 'Source0:\t{pkg_source}'
+
+buildreq_tag_template = 'BuildRequires:\t{req}'
+
+
+class RubyPorter:
+    __url_template_v1 = 'https://rubygems.org/api/v1/gems/{gem_name}.json'
+    __url_template_v2 = 'https://rubygems.org/api/v2/rubygems/{gem_name}/versions/{version}.json'
+    __json = None
+    __gem_name = ""
+    __spec_name = ""
+    __pkg_name = ""
+    __summary = ""
+    __latest_v = ""
+    __build_noarch = True  
+
+    def __init__(self, pkg):
+        """
+        receive json from rubygems.org
+        """
+        url_v1 = self.__url_template_v1.format(gem_name=pkg)
+        with urllib.request.urlopen(url_v1) as response:
+            self.__json = json.loads(response.read().decode('utf-8')) 
+            
+        if self.__json is not None:
+            self.__gem_name = self.__json["name"]
+            self.__spec_name = "rubygem-" + self.__gem_name
+            self.__pkg_name = self.__spec_name
+            self.__latest_v = self.__json["version"]
+
+    def get_spec_name(self):
+        return self.__spec_name
+
+    def get_module_name(self):
+        return self.__gem_name
+
+    def get_pkg_name(self):
+        return self.__pkg_name
+
+    def get_version(self):
+        return self.__json["version"]
+
+    def get_summary(self):
+        if not self.__summary:
+            url_v2 = self.__url_template_v2.format(gem_name=self.__gem_name, version=self.__latest_v)
+            with urllib.request.urlopen(url_v2) as response:
+                data = json.loads(response.read().decode('utf-8'))
+                if data is not None:
+                    self.__summary = data["summary"]
+        
+        return self.__summary
+
+    def get_home(self):
+        return self.__json["homepage_uri"]
+
+    def get_license(self):
+        if self.__json["licenses"] is not None:
+            return ", ".join(self.__json["licenses"])
+        return ""
+
+    def get_source_url(self):
+        """
+        return URL for source file for the latest version
+        """
+        return self.__json["gem_uri"]
+
+    def get_requires(self):
+        """
+        return all runtime requires
+        """
+        runtime_deps = self.__json["dependencies"]["runtime"]
+        for item in runtime_deps:
+            print("Requires:\t" + "rubygem-" + item["name"])
+
+
+    def set_buildarch(self):
+        subprocess.call(["gem", "fetch", self.__gem_name, "-v", self.__latest_v])
+        s_url = porter.get_source_url()
+        gem_file = s_url.split("/")[-1]
+        output = subprocess.check_output(["gem", "specification", gem_file])
+        data = output.decode("UTF-8")
+        if 'extensions: []' not in data:
+            self.__build_noarch = False
+
+    def is_build_noarch(self):
+        return self.__build_noarch
+
+    def get_buildarch(self):
+        if (self.__build_noarch == True):
+            print("BuildArch:\tnoarch")
+
+    def get_description(self):
+        """
+        return description.
+        For empty description, use summary instead.
+        """
+        desc = self.__json["info"]
+        if desc is None:
+            return self.__json["summary"]
+        else:
+            return desc
+
+    def get_build_requires(self):
+        req_list = []
+        deps = self.__json["dependencies"]["development"]
+        for dep in deps:
+            req_list.append("rubygem-" + dep["name"])
+        return req_list
+
+    def prepare_build_requires(self):
+        print(buildreq_tag_template.format(req='ruby'))
+        print(buildreq_tag_template.format(req='ruby-devel'))
+        print(buildreq_tag_template.format(req='rubygems'))
+        print(buildreq_tag_template.format(req='rubygems-devel'))
+        if not self.__build_noarch:
+            print(buildreq_tag_template.format(req='gcc'))
+            print(buildreq_tag_template.format(req='gdb'))
+
+    def prepare_pkg_build(self):
+        print("gem build {name}.gemspec".format(name=porter.get_module_name()))
+        print("%gem_install")
+
+    def prepare_pkg_install(self):
+        print("mkdir -p %{buildroot}%{gem_dir}")
+        print("cp -a .%{gem_dir}/* %{buildroot}%{gem_dir}/")
+        print("rsync -a --exclude=\".*\" .%{gem_dir}/* %{buildroot}%{gem_dir}/")
+
+        print("if [ -d .%{_bindir} ]; then")
+        print("\tmkdir -p %{buildroot}%{_bindir}")
+        print("\tcp -a .%{_bindir}/* %{buildroot}%{_bindir}/")
+        print("fi")
+
+        print("if [ -d ext ]; then")
+        print("\tmkdir -p %{buildroot}%{gem_extdir_mri}/%{gem_name}")
+        print("\tif [ -d .%{gem_extdir_mri}/%{gem_name} ]; then")
+        print("\t\tcp -a .%{gem_extdir_mri}/%{gem_name}/*.so %{buildroot}%{gem_extdir_mri}/%{gem_name}")
+        print("\telse")
+        print("\t\tcp -a .%{gem_extdir_mri}/*.so %{buildroot}%{gem_extdir_mri}/%{gem_name}")
+        print("fi")
+        print("\tcp -a .%{gem_extdir_mri}/gem.build_complete %{buildroot}%{gem_extdir_mri}/")
+        print("\trm -rf %{buildroot}%{gem_instdir}/ext/")
+        print("fi")
+
+        print("pushd %{buildroot}")
+        print("touch filelist.lst")
+        print("if [ -d %{buildroot}%{_bindir} ]; then")
+        print("\tfind .%{_bindir} -type f -printf \"/%h/%f\\n\" >> filelist.lst")
+        print("fi")
+        print("popd")
+        print("mv %{buildroot}/filelist.lst .")
+
+    def prepare_pkg_files(self):
+        print("%dir %{gem_instdir}")
+        print("%{gem_instdir}/*")
+        if not self.is_build_noarch():
+            print("%{gem_extdir_mri}")
+        print("%exclude %{gem_cache}")
+        print("%{gem_spec}")
+
+    def prepare_doc_files(self):
+        print("%{gem_docdir}/*")
+
+    def store_json(self, spath):
+        """
+        save json file
+        """
+        fname = json_file_template.format(pkg_name=self.__pkg_name)
+        json_file = os.path.join(spath, fname)
+
+        # if file exist, do nothing
+        if path.exists(json_file) and path.isfile(json_file):
+            with open(json_file, 'r') as f:
+                resp = json.load(f)
+        else:
+            with open(json_file, 'w') as f:
+                json.dump(self.__json, f)
+
+
+def download_source(porter, tgtpath):
+    """
+    download source file from url, and save it to target path
+    """
+    if not os.path.exists(tgtpath):
+        print("download path %s does not exist\n", tgtpath)
+        return False
+    s_url = porter.get_source_url()
+    return subprocess.call(["wget", s_url, "-P", tgtpath])
+
+
+def prepare_rpm_build_env(root):
+    """
+    prepare environment for rpmbuild
+    """
+    if not os.path.exists(root):
+        print("Root path %s does not exist\n" & buildroot)
+        return ""
+
+    buildroot = os.path.join(root, "rpmbuild")
+    if not os.path.exists(buildroot):
+        os.mkdir(buildroot)
+
+    for sdir in ['SPECS', 'BUILD', 'SOURCES', 'SRPMS', 'RPMS', 'BUILDROOT']:
+        bpath = os.path.join(buildroot, sdir)
+        if not os.path.exists(bpath):
+            os.mkdir(bpath)
+
+    return buildroot
+
+
+def build_package(specfile):
+    """
+    build rpm package with rpmbuild
+    """
+    ret = subprocess.call(["rpmbuild", "-ba", specfile])
+    return ret
+
+
+def build_install_rpm(porter, rootpath):
+    ret = build_rpm(porter, rootpath)
+    if ret != "":
+        return ret
+
+    arch = "noarch"
+    if porter.is_build_noarch():
+        arch = "noarch"
+    else:
+        arch = platform.machine()
+
+    pkgname = os.path.join(rootpath, "rpmbuild", "RPMS", arch, porter.get_pkg_name() + "*")
+    ret = subprocess.call(["rpm", "-ivh", pkgname])
+    if ret != 0:
+        return "Install failed\n"
+
+    return ""
+
+
+def build_rpm(porter, rootpath):
+    """
+    full process to build rpm, do not need building dependency check here, do it in pkgporter
+    """
+    buildroot = prepare_rpm_build_env(rootpath)
+    if buildroot == "":
+        return False
+
+    specfile = os.path.join(buildroot, "SPECS", porter.get_spec_name() + ".spec")
+
+    build_spec(porter, specfile)
+
+    download_source(porter, os.path.join(buildroot, "SOURCES"))
+
+    build_package(specfile)
+
+    return ""
+
+
+def build_spec(porter, output):
+    """
+    print out the spec file
+    """
+    porter.set_buildarch()
+
+    if os.path.isdir(output):
+        output = os.path.join(output, porter.get_spec_name() + ".spec")
+    tmp = sys.stdout
+    if output != "":
+        sys.stdout = open(output, 'w+')
+
+    print("%global _empty_manifest_terminate_build 0")
+    print("%global gem_name " + porter.get_module_name())
+    print(name_tag_template.format(pkg_name=porter.get_spec_name()))
+    print(version_tag_template.format(pkg_ver=porter.get_version()))
+    print(release_tag_template)
+    print(summary_tag_template.format(pkg_sum=porter.get_summary()))
+    print(license_tag_template.format(pkg_lic=porter.get_license()))
+    print(home_tag_template.format(pkg_home=porter.get_home()))
+    print(source_tag_template.format(pkg_source=porter.get_source_url()))
+    porter.get_buildarch()
+    print("")
+    porter.get_requires()
+    porter.prepare_build_requires()
+    print("Provides:\t" + porter.get_spec_name())
+    print("")
+    print("%description")
+    print(porter.get_description())
+    print("")
+
+    print("%package help")
+    print("Summary:\tDevelopment documents and examples for {name}".format(name=porter.get_module_name()))
+    print("Provides:\t{name}-doc".format(name=porter.get_pkg_name()))
+    print("BuildArch: noarch")
+    print("")
+    print("%description help")
+    print(porter.get_description())
+    print("")
+    print("%prep")
+    print("%autosetup -n {name}-{ver}".format(name=porter.get_module_name(), ver=porter.get_version()))
+    print("gem spec %{SOURCE0} -l --ruby > " + porter.get_module_name() + ".gemspec")
+    print("")
+    print("%build")
+    porter.prepare_pkg_build()
+    print("")
+    print("%install")
+    porter.prepare_pkg_install()
+    print("")
+
+    print("%files -n {name} -f filelist.lst".format(name=porter.get_pkg_name()))
+    porter.prepare_pkg_files()
+    print("")
+    print("%files help")
+    porter.prepare_doc_files()
+    print("")
+    print("%changelog")
+    date_str = datetime.date.today().strftime("%a %b %d %Y")
+    print("* {today} Ruby_Bot <Ruby_Bot@openeuler.org>".format(today=date_str))
+    print("- Package Spec generated")
+
+    sys.stdout = tmp
+
+
+def do_args(root):
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("-s", "--spec", help="Create spec file", action="store_true")
+    parser.add_argument("-R", "--requires", help="Get required ruby modules", action="store_true")
+    parser.add_argument("-b", "--build", help="Build rpm package", action="store_true")
+    parser.add_argument("-B", "--buildinstall", help="Build&Install rpm package", action="store_true")
+    parser.add_argument("-r", "--rootpath", help="Build rpm package in root path", type=str, default=dft_root_path)
+    parser.add_argument("-d", "--download", help="Download source file indicated path", action="store_true")
+    parser.add_argument("-p", "--path", help="indicated path to store files", type=str, default=os.getcwd())
+    parser.add_argument("-j", "--json", help="Get Package JSON info", action="store_true")
+    parser.add_argument("-o", "--output", help="Output to file", type=str, default="")
+    parser.add_argument("pkg", type=str, help="The Ruby Gem Name")
+
+    return parser
+
+
+if __name__ == "__main__":
+    dft_root_path = os.path.join(str(Path.home()))
+    parser = do_args(dft_root_path)
+    args = parser.parse_args()
+    porter = RubyPorter(args.pkg)
+    
+    if args.requires:
+        req_list = porter.get_build_requires()
+        if not req_list:
+            print("No building requires")
+        else:
+            for req in req_list:
+                print(req)
+        
+    elif args.spec:
+        build_spec(porter, args.output)
+    elif args.build:
+        ret = build_rpm(porter, args.rootpath)
+        if ret != "":
+            print("build failed : BuildRequire : %s\n" % ret)
+            sys.exit(1)
+    elif args.buildinstall:
+        ret = build_install_rpm(porter, args.rootpath)
+        if ret != "":
+            print("Build & install failed\n")
+            sys.exit(1)
+    elif args.download:
+        download_source(porter, args.path)
+    elif args.json:
+        porter.store_json(args.path)

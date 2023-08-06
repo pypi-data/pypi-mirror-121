@@ -1,0 +1,8 @@
+LICENSE
+README.md
+rubyporter
+setup.py
+rubyporter.egg-info/PKG-INFO
+rubyporter.egg-info/SOURCES.txt
+rubyporter.egg-info/dependency_links.txt
+rubyporter.egg-info/top_level.txt

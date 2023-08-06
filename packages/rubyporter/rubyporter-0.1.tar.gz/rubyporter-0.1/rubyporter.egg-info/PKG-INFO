@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rubyporter
+Version: 0.1
+Summary: A rpm packager bot for ruby modules from rubygem.org
+Home-page: https://gitee.com/openeuelr/rubyporter
+Author: BruceGW
+Author-email: gyl93216@email.com
+License: Mulan PSL v2
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+A rpm packager bot for ruby modules from rubygem.org.
+
+Now it is under developing, any suggestions is appreciated.
+
+
