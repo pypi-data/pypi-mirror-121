@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+sphinxcontrib/__init__.py
+sphinxcontrib.embedding.egg-info/PKG-INFO
+sphinxcontrib.embedding.egg-info/SOURCES.txt
+sphinxcontrib.embedding.egg-info/dependency_links.txt
+sphinxcontrib.embedding.egg-info/namespace_packages.txt
+sphinxcontrib.embedding.egg-info/requires.txt
+sphinxcontrib.embedding.egg-info/top_level.txt
+sphinxcontrib/embedding/__init__.py

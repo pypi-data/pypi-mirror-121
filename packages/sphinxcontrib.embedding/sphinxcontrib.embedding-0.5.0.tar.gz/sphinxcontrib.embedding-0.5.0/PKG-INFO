@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib.embedding
+Version: 0.5.0
+Summary: iframe embedding
+Home-page: https://qiita.com/tags/sphinxcontrib.embedding
+Author: @koKekkoh
+Maintainer: KaKkou
+License: BSD 2-Clause License
+Keywords: sphinx,sphinxcontrib,embedding
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Embedding
+
+.. warning::
+
+   this is an alpha version.
+
+example
+-------
+
+youtube:
+
+.. code-block:: rst
+
+   :emb:`youtube<identifier>`
+   
+   :emb:`yt<identifier>`
+
+vimeo:
+   
+.. code-block:: rst
+
+   :emb:`vimeo<identifier>`
+
+   :emb:`vm<identifier>`
+
+nicovideo:
+   
+.. code-block:: rst
+
+   :emb:`nicovideo<identifier>`
+
+   :emb:`nv<identifier>`
+
+conf.py
+-------
+you can register new embedding.
+you have to change the indentifier to '{0}'.
+
+.. code-block:: python
+
+   html_embedding = {
+           'youtube': r'<script type="application/javascript" src="https://embed.nicovideo.jp/watch/{0}/script?w=640&h=360"></script>'
+           }
+
+CHANGES
+-------
+- 2021-09-30 0.5 use string.format()
+
+
