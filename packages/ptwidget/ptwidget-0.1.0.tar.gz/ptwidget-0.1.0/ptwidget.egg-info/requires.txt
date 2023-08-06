@@ -1,0 +1,4 @@
+pivottablejs
+ipyiframe
+ipywidgets
+pandas

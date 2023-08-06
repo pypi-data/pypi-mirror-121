@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ptwidget/__init__.py
+ptwidget/pivottable.py
+ptwidget.egg-info/PKG-INFO
+ptwidget.egg-info/SOURCES.txt
+ptwidget.egg-info/dependency_links.txt
+ptwidget.egg-info/requires.txt
+ptwidget.egg-info/top_level.txt
