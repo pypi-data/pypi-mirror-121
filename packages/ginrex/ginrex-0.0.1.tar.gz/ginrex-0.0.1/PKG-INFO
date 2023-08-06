@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ginrex
+Version: 0.0.1
+Summary: Python package ginRex
+Home-page: UNKNOWN
+Author: Sebastian Paripsa
+Author-email: sparipsa@digon.io
+License: UNKNOWN
+Description: Python package for grazing incidene time-resolved Exafs
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
