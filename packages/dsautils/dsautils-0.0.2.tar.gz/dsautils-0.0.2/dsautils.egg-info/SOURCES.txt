@@ -1,0 +1,9 @@
+README.md
+setup.py
+dsautils/__init__.py
+dsautils/utility.py
+dsautils.egg-info/PKG-INFO
+dsautils.egg-info/SOURCES.txt
+dsautils.egg-info/dependency_links.txt
+dsautils.egg-info/requires.txt
+dsautils.egg-info/top_level.txt

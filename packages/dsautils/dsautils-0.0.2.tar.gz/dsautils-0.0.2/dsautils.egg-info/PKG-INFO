@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dsautils
+Version: 0.0.2
+Summary: DS and Algo library
+Home-page: https://dsautils.readthedocs.io/
+Author: Rajesh Pyne
+Author-email: rajesh.pyne@email.com
+License: MIT
+Description: ## DataStructure and Algorithms Utilities for Python Developers
+        
+        A library containing all the necessary efficient utility tools.
+        
+        ### Installation
+        
+        ```bash
+        pip install dsutils
+        ```
+        
+        ### Get Started
+        
+        ```bash
+        from dsautils import BinarySearch
+        
+        input_list = [3,4,1,9,7]
+        object = BinarySearch(input_list)
+        output = object.search(9)
+        print(output)
+        ```
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
