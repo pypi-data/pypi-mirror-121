@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: TakeBlipInsightExtractor
+Version: 0.0.3
+Summary: Insight Extractor Package
+Home-page: UNKNOWN
+Author: Data and Analytics Research
+Author-email: analytics.dar@take.net
+License: UNKNOWN
+Description: # TakeBlipInsightExtractor Package
+        _Data & Analytics Research_
+        
+        ## Overview
+        
+        Here is presented these content:
+        
+        * Intro
+        * Run
+        * Example of initialization and usage
+        
+        
+        ## Intro
+        
+        The Insight Extractor offers a way to analyze huge volumes of textual data in order to identify, cluster and detail subjects. 
+        This project achieves this results by way of applying a proprietary Named Entity Recognition (NER) algorithm followed by a clustering algorithm. 
+        The IE Cloud also allows any person to use this tool without having too many computational resources available to themselves.
+        
+        The package outputs four types of files:
+        
+        - **Wordcloud**: It's an image file containing a wordcloud describing the most frequent subjects on the text. The colours represent the groups of similar subjects.
+        - **Wordtree**: It's an html file which contains the graphic relationship between the subjects and the examples of uses in sentences. It's an interactive graphic where the user can navigate along the tree.
+        - **Hierarchy**: It's a json file which contains the hierarchical relationship between subjects.
+        - **Table**: It's a csv file containing the following columns:
+            - **Message**: Original message;
+            - **Entities**: Entities found in original message;
+            - **Groups**: Entity groups found;
+            - **Structured Message**: Relevant content (structured message).
+        
+        
+        ### Parameters
+        
+        The following parameters need to be set by the user on the command line:
+        - **embedding_path**: path to the embedding model, the file should end with .kv;
+        - **postagging_model_path**: path to the postagging model, the file should end with .pkl;
+        - **postagging_label_path**: path to the postagging label file, the file should end with .pkl;
+        - **ner_model_path**: path to the ner model, the file should end with .pkl;
+        - **ner_label_path**: path to the ner label file, the file should end with .pkl;
+        - **file**: path to the csv file the user wants to analyze;
+        - **user_email**: user's Take Blip email where they want to receive the analysis;
+        - **bot_name**: bot ID.
+        
+        
+        The following parameters have default settings, but can be customized by the user;
+        - **node_messages_examples**: it is an int representing the number of examples outputed for each subject on the Wordtree file. The default value is 100;
+        - **similarity_threshold**: it is a float representing the similarity threshold between the subject groups. The default value is 0.65, we recommend that this parameter not be modified;
+        - **percentage_threshold**: it is a float representing the frequency percentile of subject from which they are not removed from the analysis. The default value is 0.9;
+        - **batch_size**: it is an int representing the batch size. The default value is 50;
+        - **chunk_size**: it is an int representing chunk file size for upload in storaged. The default value is 1024;
+        - **separator**: it is a str for the csv file delimiter character. The default value is '|'.
+                  
+        
+        ## Example of initialization e usage:
+        1) Import main packages;
+        2) Initialize main variables;   
+        3) Initialize eventhub logger;
+        4) Initialize Insight Extractor;
+        5) Insight Extractor usage.
+        
+        
+        An example of the above steps could be found in the python code below:
+        
+        - Import main packages
+        ```
+        import uuid
+        from TakeBlipInsightExtractor.insight_extractor import InsightExtractor
+        from TakeBlipInsightExtractor.outputs.eventhub_log_sender import EventHubLogSender
+        ``` 
+        - Initialize main variables
+        ```
+        embedding_path = '*.kv'
+        postag_model_path = '*.pkl'
+        postag_label_path = '*.pkl'
+        ner_model_path = '*.pkl'
+        ner_label_path = '*.pkl'
+        
+        user_email = 'your_email@host.com'
+        bot_name = 'my_bot_for_insight_extractor'
+        application_name = 'your application'
+        
+        eventhub_name = '*'
+        eventhub_connection_string = '*'
+        
+        file_name = '*'
+        input_data = '*.csv'
+        separator = '|'
+        
+        similarity_threshold = 0.65
+        node_messages_examples = 100
+        batch_size = 1024
+        percentage_threshold = 0.7
+        ```
+         
+        -  Initialize eventhub logger
+        ```
+        correlation_id = str(uuid.uuid3(uuid.NAMESPACE_DNS, user_email + bot_name))
+        logger = EventHubLogSender(application_name=application_name,
+                                   user_email=user_email,
+                                   bot_name=bot_name,
+                                   file_name=file_name,
+                                   correlation_id=correlation_id,
+                                   connection_string=eventhub_connection_string,
+                                   eventhub_name=eventhub_name)
+        ```
+        - Initialize Insight Extractor
+        ```
+        insight_extractor = InsightExtractor(input_data,
+                                             separator=separator,
+                                             similarity_threshold=similarity_threshold,
+                                             embedding_path=embedding_path,
+                                             postagging_model_path=postag_model_path,
+                                             postagging_label_path=postag_label_path,
+                                             ner_model_path=ner_model_path,
+                                             ner_label_path=ner_label_path,
+                                             user_email=user_email,
+                                             bot_name=bot_name,
+                                             logger=logger)
+        ```   
+        - Insight Extractor usage
+        ```
+        insight_extractor.predict(percentage_threshold=percentage_threshold,
+                                  node_messages_examples=node_messages_examples,
+                                  batch_size=batch_size)
+        ``` 
+            
+Keywords: insight extractor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
