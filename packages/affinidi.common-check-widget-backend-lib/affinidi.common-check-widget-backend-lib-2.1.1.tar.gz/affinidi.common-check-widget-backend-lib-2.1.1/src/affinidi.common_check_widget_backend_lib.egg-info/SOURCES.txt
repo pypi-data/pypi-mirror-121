@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/affinidi.common_check_widget_backend_lib.egg-info/PKG-INFO
+src/affinidi.common_check_widget_backend_lib.egg-info/SOURCES.txt
+src/affinidi.common_check_widget_backend_lib.egg-info/dependency_links.txt
+src/affinidi.common_check_widget_backend_lib.egg-info/requires.txt
+src/affinidi.common_check_widget_backend_lib.egg-info/top_level.txt
+src/affinidi/common_check_widget_backend_lib/__init__.py
+src/affinidi/common_check_widget_backend_lib/py.typed
+src/affinidi/common_check_widget_backend_lib/_jsii/__init__.py
+src/affinidi/common_check_widget_backend_lib/_jsii/common-check-widget-backend-lib@2.1.1.jsii.tgz
+src/affinidi/common_check_widget_backend_lib/common_check_verify/__init__.py
+src/affinidi/common_check_widget_backend_lib/common_check_verify/endpoint_service_base/__init__.py
