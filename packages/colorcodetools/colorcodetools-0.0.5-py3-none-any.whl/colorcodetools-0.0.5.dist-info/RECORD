@@ -1,0 +1,13 @@
+colorcodetools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorcodetools/hex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorcodetools/hex/config.py,sha256=RYpVJ6hAA-08lrCxT7BwsCzFL5j3NJyb_R0eBgfu-oY,347
+colorcodetools/hex/invert.py,sha256=jLHXQOdiSs-9xqWlCp2ipgh8P8055ESh91ewG9Me0MQ,668
+colorcodetools/hex/validate.py,sha256=Ju2sd_bA-RekHUydXyzahiRCI3ynUjvlSU8LqVzWrUI,357
+colorcodetools/rgb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorcodetools/rgb/config.py,sha256=d2mnquxna1wCWMsbJP8Chog1sMJ6ey69Jvnoxp7ZjWM,5711
+colorcodetools/rgb/invert.py,sha256=_xRTaRimO4CDrDP3yWT5EMeP5vfUNIaufDxnIieGdag,1290
+colorcodetools/rgb/validate.py,sha256=Dl-ppNOlzhDh6CyYjqp-BPB_dMeC6eCGpaF0Pw547OI,641
+colorcodetools-0.0.5.dist-info/METADATA,sha256=5Re6QdrWz1ZJJlWNQFbP16-evKMx-xtcPSunTHz7mf0,1209
+colorcodetools-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+colorcodetools-0.0.5.dist-info/top_level.txt,sha256=kE1V3QlSyloatCDg1QajQiOoIVxbzyT4__LLEYHB58c,15
+colorcodetools-0.0.5.dist-info/RECORD,,
