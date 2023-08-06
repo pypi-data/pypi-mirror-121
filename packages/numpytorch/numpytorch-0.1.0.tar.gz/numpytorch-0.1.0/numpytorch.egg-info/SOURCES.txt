@@ -1,0 +1,10 @@
+README.md
+setup.py
+numpytorch/__init__.py
+numpytorch/arr.py
+numpytorch/ops.py
+numpytorch.egg-info/PKG-INFO
+numpytorch.egg-info/SOURCES.txt
+numpytorch.egg-info/dependency_links.txt
+numpytorch.egg-info/requires.txt
+numpytorch.egg-info/top_level.txt
