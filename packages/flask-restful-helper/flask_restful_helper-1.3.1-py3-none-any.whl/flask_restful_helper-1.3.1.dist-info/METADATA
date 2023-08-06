@@ -1,0 +1,193 @@
+Metadata-Version: 2.1
+Name: flask-restful-helper
+Version: 1.3.1
+Summary: A small flask restful framework
+Home-page: https://github.com/xianyuntang/flask-restful-helper
+Author: Xian-Yun Tang
+Author-email: xt1800i@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: alembic (==1.6.5)
+Requires-Dist: amqp (==5.0.6)
+Requires-Dist: aniso8601 (==9.0.1)
+Requires-Dist: bcrypt (==3.2.0)
+Requires-Dist: billiard (==3.6.4.0)
+Requires-Dist: bleach (==3.3.0)
+Requires-Dist: cached-property (==1.5.2)
+Requires-Dist: celery (==5.1.2)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: cffi (==1.14.6)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: click-didyoumean (==0.0.3)
+Requires-Dist: click-plugins (==1.1.1)
+Requires-Dist: click-repl (==0.2.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: Flask (==2.0.1)
+Requires-Dist: Flask-Bcrypt (==0.7.1)
+Requires-Dist: Flask-Cors (==3.0.10)
+Requires-Dist: Flask-JWT-Extended (==4.2.3)
+Requires-Dist: flask-marshmallow (==0.14.0)
+Requires-Dist: Flask-Migrate (==3.0.1)
+Requires-Dist: Flask-RESTful (==0.3.9)
+Requires-Dist: Flask-SQLAlchemy (==2.5.1)
+Requires-Dist: Flask-Testing (==0.8.1)
+Requires-Dist: greenlet (==1.1.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==4.4.0)
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: Jinja2 (==3.0.1)
+Requires-Dist: keyring (==23.0.1)
+Requires-Dist: kombu (==5.1.0)
+Requires-Dist: Mako (==1.1.4)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: marshmallow (==3.12.1)
+Requires-Dist: marshmallow-sqlalchemy (==0.26.1)
+Requires-Dist: numpy (==1.21.1)
+Requires-Dist: packaging (==20.9)
+Requires-Dist: pandas (==1.3.1)
+Requires-Dist: pkginfo (==1.7.0)
+Requires-Dist: prompt-toolkit (==3.0.19)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: Pygments (==2.9.0)
+Requires-Dist: PyJWT (==2.1.0)
+Requires-Dist: PyMySQL (==1.0.2)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-dotenv (==0.18.0)
+Requires-Dist: python-editor (==1.0.4)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: readme-renderer (==29.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: SQLAlchemy (==1.4.17)
+Requires-Dist: tqdm (==4.61.0)
+Requires-Dist: twine (==3.4.1)
+Requires-Dist: typing-extensions (==3.10.0.0)
+Requires-Dist: urllib3 (==1.26.5)
+Requires-Dist: vine (==5.0.0)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==2.0.1)
+Requires-Dist: zipp (==3.4.1)
+
+# Installation
+
+
+# Usage
+## Api 開發
+
+
+###初始化專案
+```shell
+flask admin start-project
+```
+依照後續指示建置基本專案
+
+
+### 啟用 system app
+
+```shell
+flask admin start-system-app
+```
+
+此app包含基本用戶帳號，RBAC權限管理模組以及多國語言模組
+
+### 啟用 task app 
+```shell
+flask admin start-task-app
+```
+此app包含任務對列模組
+
+### 新增  app
+```shell
+flask admin start-new-app
+```
+新增一個乾淨的app，會自動幫忙建置好app架構
+
+
+### 資料庫遷移
+第一次使用
+```shell
+flask db init
+flask db migrate
+flask db upgrade
+```
+此後
+```shell
+flask db migrate
+flask db upgrade
+```
+對資料庫模型進行變動時，皆需要進行資料庫遷移來達成更新資料庫。
+
+## API test
+
+### Create Role Template
+
+下指令
+
+   ```sh
+   flask admin start-project
+   ```
+
+會同時把API測試的role template也建起來(建立一個tests資料夾)<br/>
+
+### 設定檔說明
+
+**config/dev.yaml**中，<br/>
+變數說明：<br/>
+
+1. TEST_INIT_DB_ON_TEST：每次測試前是否要初始化資料庫資料<br/>
+2. TEST_EXECUTE_ALL_TEST：是否要執行所有測試（沒有要執行所有測試的話，需自行在manage.py中撰寫程式碼）<br/>
+3. TEST_ACCOUNT：設定各role的帳密
+
+### 建立app底下的test
+
+下指令
+
+   ```sh
+   flask admin start-system-app
+   ```
+
+apps/system/tests/test.py為測試範例，可以參考
+
+### 執行所有測試
+
+在**config/dev.yaml**中，將TEST_EXECUTE_ALL_TEST設定為True，<br/>
+下指令
+
+   ```sh
+   python manage.py test
+   ```
+
+時，就會執行所有測試，這邊說明一下manage.py中的程式碼，<br/>
+在test function中，app.config['TEST_EXECUTE_ALL_TEST']為True時，<br/>
+會先去apps資料夾底下的每個app下面的tests/test.py中，將所有class抓出來，<br/>
+讓這些class的metaclass都改成tests/meta_class的MetaClass，<br/>
+為的是保證所有test case的function name都是唯一的（在function名後面加上module名以及class名的後綴），這樣才能保證都會執行到，<br/>
+在這邊先稱這些class為app_test_classes， 接著，在test/roles底下，會抓出所有py檔的class，<br/>
+所以有幾個role就請增加幾個「role名_test.py」，內容請參照superuser_test.py，<br/>
+並且在config/dev.yaml中新增role的帳密 然後會將這些class都去繼承app_test_classes，讓所有role都去測所有test case。<br/>
+這邊說明一下，role的class會去繼承tests/base.py的TestBase，<br/>
+TestBase class繼承了flask_testing的TestCase，<br/>
+所以必須override create_app function，此function必須回傳一個Flask instance，<br/>
+並override setUp function(每個測試執行前會先執行setUp)，<br/>
+裡面包含了針對資料庫做資料的初始化(清空資料，insert初始資料)，<br/>
+並且獲取此role的帳密，call login API做登入的動作(獲取token)，<br/>
+**tests/functions/sqls**請放入資料庫的初始資料的insert sql。<br/>
+
+### 執行單一測試
+
+在**config/dev.yaml**中，將TEST_EXECUTE_ALL_TEST設定為False，<br/>
+並且在manage.py裡，要將所需要測的role class以及app test class import進來，<br/>
+並且讓role class去繼承app test class，最後single_test.addTest裡要加進去。
+

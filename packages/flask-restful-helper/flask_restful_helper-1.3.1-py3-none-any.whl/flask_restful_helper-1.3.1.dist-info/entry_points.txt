@@ -1,0 +1,3 @@
+[flask.commands]
+admin = flask_restful_helper.flask_admin:cli
+
