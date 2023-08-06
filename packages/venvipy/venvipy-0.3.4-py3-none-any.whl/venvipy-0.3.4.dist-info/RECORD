@@ -1,0 +1,15 @@
+venvipy/__init__.py,sha256=a9fND9LavCnuWRLzoD1xAyIpujyvsuox0LqVoPumNMc,808
+venvipy/creator.py,sha256=GzE2LAmNqudNY2QEKYr5nerc2f0bajD9aFVRSpLYZb0,8092
+venvipy/dialogs.py,sha256=5okSoJXFTp3pW8dxHv1lwEMSn6NLwzMnBhHP1A81-Oo,9124
+venvipy/get_data.py,sha256=wEmqETLvQsTE4XakRsig5rIpjix7gvNqAaA9cnaR6GM,11264
+venvipy/manage_pip.py,sha256=3PJL0K_whE-QqsLAhk3jD_bECESkEssFj_AOWt6g0QE,5121
+venvipy/tables.py,sha256=RsrF3L9iRR5o_NDMKPeKSvH1eFktThZ59x4K00vAMLo,29164
+venvipy/venvi.py,sha256=wRvF3_Eil7_vUUHBbCExt-zXL4gRSFch5hy2npN8cG0,21656
+venvipy/venvipy_rc.py,sha256=t3vjiG6aUn1lpXg5DNosDgIvLdl87nt3LBqVmWVmkfY,686606
+venvipy/wizard.py,sha256=BlJIe04FgechqFhJ7prEWqW2xgWzPBnPs2TZeWNAlaQ,29418
+venvipy-0.3.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+venvipy-0.3.4.dist-info/METADATA,sha256=3RBhRqHTFRJPBtUBpLoHKyP-IBEKsmEPxKfRtqxSz6s,6729
+venvipy-0.3.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+venvipy-0.3.4.dist-info/entry_points.txt,sha256=KmzpssVgfFt9pjFdY4beSaJIjoJA3obuUsuAI7NgMcM,85
+venvipy-0.3.4.dist-info/top_level.txt,sha256=ETvUH18k05_Enl3orY1iu3ahiDZ-Pygqai13EqBcS7s,8
+venvipy-0.3.4.dist-info/RECORD,,
