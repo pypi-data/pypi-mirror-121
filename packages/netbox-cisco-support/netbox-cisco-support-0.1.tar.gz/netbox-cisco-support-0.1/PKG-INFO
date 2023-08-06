@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: netbox-cisco-support
+Version: 0.1
+Summary: Implementing Cisco Support APIs into NetBox
+Home-page: https://github.com/goebelmeier/netbox-cisco-support
+Author: Timo Reimann
+Author-email: timo@goebelmeier.de
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
