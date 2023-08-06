@@ -1,0 +1,9 @@
+README.md
+setup.py
+wapi/__init__.py
+wapi/wapi.py
+wapi_trade.egg-info/PKG-INFO
+wapi_trade.egg-info/SOURCES.txt
+wapi_trade.egg-info/dependency_links.txt
+wapi_trade.egg-info/requires.txt
+wapi_trade.egg-info/top_level.txt
