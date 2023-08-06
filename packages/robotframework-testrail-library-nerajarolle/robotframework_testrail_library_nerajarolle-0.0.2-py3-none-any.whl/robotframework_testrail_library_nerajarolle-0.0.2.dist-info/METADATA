@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: robotframework-testrail-library-nerajarolle
+Version: 0.0.2
+Summary: A robot framework library to integrate robot tests with Testrail
+Home-page: https://github.com/nerajarolle/robotframework-testrail-library
+Author: Alessandro Ferrante
+Author-email: nerajarolle@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nerajarolle/robotframework-testrail-library/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: robotframework
+
+# robotframework-testrail-library
+
+This is a robot framework library to be used with Testrail API.
+
+
+Installation:
+```
+pip install robotframework-testrail-library-nerajarolle
+```
+
+Example Usage:
+```
+*** Settings ***
+Library   TestrailLibrary   ${SERVER}
+Suite Setup    set testrail credentials  
+...   ${TESTRAIL_USERNAME}   ${TESTRAIL_KEY}
+
+*** Test Cases ***
+Test Get Project
+    [Tags]   project
+    ${id}  get Project id   TA Test Project  
+    IF  ${id}
+        Log To Console  ${id}
+    ELSE
+        Log To Console  Not found  
+    END
+```
+
+
+
