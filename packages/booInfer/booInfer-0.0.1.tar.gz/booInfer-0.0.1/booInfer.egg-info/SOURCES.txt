@@ -1,0 +1,5 @@
+setup.py
+booInfer.egg-info/PKG-INFO
+booInfer.egg-info/SOURCES.txt
+booInfer.egg-info/dependency_links.txt
+booInfer.egg-info/top_level.txt
