@@ -1,0 +1,9 @@
+python_dataset/__init__.py,sha256=0qb7mJMRLLuqu_6rXE_ESYMyWCXTOZipHCAqo2rh-L0,19
+python_dataset/extractor.py,sha256=97oSwEOBpf919eTbNVCQOrJ2nEOvLsn_lMSBsEcfUoc,1764
+python_dataset/property/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+python_dataset/property/main.py,sha256=2rrESZh2MjRZ-HJnrELMJkpSuFiQh4vwhe3SvQ5eFVE,2021
+python_dataset/wave/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+python_dataset/wave/main.py,sha256=4EkbSThryP6y9TjHGpnO8QrN1Z12MjxZj-wu6udSqVw,2091
+python_dataset-0.0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+python_dataset-0.0.3.dist-info/METADATA,sha256=fmjVBi-mTNK6ADd-ziiBkIKNZ-q2Uypf7hHgtaynSuM,592
+python_dataset-0.0.3.dist-info/RECORD,,
