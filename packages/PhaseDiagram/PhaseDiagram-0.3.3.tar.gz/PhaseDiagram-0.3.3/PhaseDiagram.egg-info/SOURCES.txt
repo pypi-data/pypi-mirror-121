@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+PhaseDiagram.egg-info/PKG-INFO
+PhaseDiagram.egg-info/SOURCES.txt
+PhaseDiagram.egg-info/dependency_links.txt
+PhaseDiagram.egg-info/requires.txt
+PhaseDiagram.egg-info/top_level.txt
+src/__init__.py
+src/phaseplane.py
+src/phasesphere.py
+src/plot.py
