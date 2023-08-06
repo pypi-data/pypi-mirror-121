@@ -1,0 +1,6 @@
+[console_scripts]
+antilles-passwd-tool = antilles.tools.main:main
+
+[distutils.command]
+build_ext = Cython.Distutils.build_ext
+
