@@ -1,0 +1,9 @@
+anal_chem/__init__.py,sha256=lVL4VPz3c4kWCgjPtL4uuQLNmgwK92q1ffAsv5El02k,25
+anal_chem/estimator.py,sha256=PjYov0JxekL-uAdIzdF1KpWA5-vL8o2TODQs__6ePQo,1013
+anal_chem/outlier_filter.py,sha256=SFELzGISBlxIHbFiloBHvSFuFUysLD8CiXm657ALF1s,4083
+anal_chem/statistics.py,sha256=KBGO4-yDPVvhNqfvIZmdSqOF25go1PoxtjaCHPx3xSc,1019
+anal_chem-0.0.0.dist-info/LICENSE,sha256=czPZ8hkb1s1JwaENDJM6FlUHmlDLQeDrvYLI2Nbkxc8,1087
+anal_chem-0.0.0.dist-info/METADATA,sha256=m9MlasDRUc1LmwyDNv9JRX-7PXG9LsKyTpCIxY8wzHQ,1135
+anal_chem-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+anal_chem-0.0.0.dist-info/top_level.txt,sha256=bVWjFJnaS1lIMR5HB9vbB0ZadUEFryZUD88TGr6LjMw,10
+anal_chem-0.0.0.dist-info/RECORD,,
