@@ -1,0 +1,4 @@
+ijson
+pyyaml
+pycryptodome
+tqdm
