@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+HTOL/__init__.py
+HTOL/rename_file_parser.py
+HTOL/support.py
+HTOL.egg-info/PKG-INFO
+HTOL.egg-info/SOURCES.txt
+HTOL.egg-info/dependency_links.txt
+HTOL.egg-info/not-zip-safe
+HTOL.egg-info/top_level.txt
+HTOL/analysis/__init__.py
+HTOL/analysis/analysis.py
+HTOL/analysis/datamanager.py
+HTOL/analysis/htol_style.mplstyle
+HTOL/analysis/legacy.py
+HTOL/tool/__init__.py
