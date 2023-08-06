@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pypi_desc.md
+setup.py
+telemetrix_nano_2040_wifi.egg-info/PKG-INFO
+telemetrix_nano_2040_wifi.egg-info/SOURCES.txt
+telemetrix_nano_2040_wifi.egg-info/dependency_links.txt
+telemetrix_nano_2040_wifi.egg-info/requires.txt
+telemetrix_nano_2040_wifi.egg-info/top_level.txt
+tmx_nano2040_wifi/__init__.py
+tmx_nano2040_wifi/private_constants.py
+tmx_nano2040_wifi/tmx_nano2040_wifi.py
