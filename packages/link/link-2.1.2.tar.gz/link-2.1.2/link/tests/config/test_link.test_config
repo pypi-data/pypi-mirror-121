@@ -1,0 +1,29 @@
+{
+    "lazy_functions":{
+        "test_function":{
+            "__cmds__":{
+                "function":["echo function"],
+                "__default__":["echo default"]
+            }
+        }
+    },
+    "dbs": {
+        "sqlite_db": {
+            "db_type": "sqlite",
+            "path": "test_db.sqlite"
+        }
+    },
+    "test_wrapper": {
+        "__cmds__": {
+            "test_command": "/bin/echo ''",
+            "path": "test_db.sqlite"
+        }
+    },
+    "apis": {
+        "test_api": {
+            "base_url": "test_url",
+            "user": "test_user",
+            "password": "test_password"
+        }
+    }
+}
