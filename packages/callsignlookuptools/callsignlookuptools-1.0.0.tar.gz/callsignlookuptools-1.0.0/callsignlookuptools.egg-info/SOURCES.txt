@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+callsignlookuptools/__info__.py
+callsignlookuptools/__init__.py
+callsignlookuptools/__main__.py
+callsignlookuptools/cli.py
+callsignlookuptools/py.typed
+callsignlookuptools.egg-info/PKG-INFO
+callsignlookuptools.egg-info/SOURCES.txt
+callsignlookuptools.egg-info/dependency_links.txt
+callsignlookuptools.egg-info/requires.txt
+callsignlookuptools.egg-info/top_level.txt
