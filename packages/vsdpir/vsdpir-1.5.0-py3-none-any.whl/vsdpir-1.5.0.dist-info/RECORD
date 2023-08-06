@@ -1,0 +1,14 @@
+vsdpir/__init__.py,sha256=lZvnLEs0hqZgALM_ev3HJ_IMBtcRk7OET6RzXdv48Xw,6857
+vsdpir/__main__.py,sha256=i-7mssRiWKZJwGspwgufkzxyOOVB_NPtfWhGkEMI2mw,972
+vsdpir/basicblock.py,sha256=5mtFwXMA7I2N7AYHpcIeB9gR-6HPkvvUvs5yTBrh6OE,21548
+vsdpir/drunet_color.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir/drunet_deblocking_color.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir/drunet_deblocking_grayscale.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir/drunet_gray.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir/network_unet.py,sha256=hBF7zwjbOal4-Yk8FwVbNdVVRiSz-UULgrxFMYE-62w,2857
+vsdpir/utils_model.py,sha256=FmJZkPfIqOFwT-TQbI4NXLG515LfhGG1q2FOu0Zz-pU,6209
+vsdpir-1.5.0.dist-info/LICENSE,sha256=TOnHjjjk72COaBl3aWUvIQWIiDASReAL7xEEGPSGN3E,1084
+vsdpir-1.5.0.dist-info/METADATA,sha256=GKnFWG345g_nMkHyAHIQ_4MA1Yk-qa2nG55au07C8u4,1154
+vsdpir-1.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vsdpir-1.5.0.dist-info/top_level.txt,sha256=DB9EP6MYWcu7JeFnOzC9h_ua9kAvIX1UJII7MfDMzmE,7
+vsdpir-1.5.0.dist-info/RECORD,,
