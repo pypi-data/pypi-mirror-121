@@ -1,0 +1,4 @@
+[console_scripts]
+make_atlas = aicsimageprocessing.bin.make_atlas:main
+make_thumbnail = aicsimageprocessing.bin.make_thumbnail:main
+
