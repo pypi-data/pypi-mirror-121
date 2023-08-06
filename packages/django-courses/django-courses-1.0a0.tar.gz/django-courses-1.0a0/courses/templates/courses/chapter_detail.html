@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load markdownify %}
+{% load courses_extra %}
+
+{% block content %}
+  {% include "courses/includes/breadcrumbs.html" with breadcrumbs=breadcrumbs %}
+
+  {% include "courses/includes/chapter_detail_header.html" with run=run chapter=chapter start=start end=end filter_lecture_type=filter_lecture_type COURSES_DISPLAY_CHAPTER_DETAILS=COURSES_DISPLAY_CHAPTER_DETAILS %}
+
+  {% if chapter.lecture_set.all %}
+  <div class="py-5 container">
+    <div class="row py-lg-5">
+      <div class="row row-cols-1 g-3">
+
+      <div class="accordion" id="accordionPanelsStayOpen">
+        {% for lecture in lectures %}
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-heading{{ forloop.counter }}">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse{{ forloop.counter }}" aria-expanded="true" aria-controls="panelsStayOpen-collapse{{ forloop.counter }}">
+              <span class="p-3">{{ lecture.lecture_type|lecture_type_icon }}</span>
+              {{ lecture.title }}
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse{{ forloop.counter }}" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading{{ forloop.counter }}">
+            <div class="accordion-body">
+              {% if lecture.subtitle %}<h4 class="fw-light">{{ lecture.subtitle }}</h4>{% endif %}
+              {% if lecture.require_submission %}<div class="text-end"><span class="badge rounded-pill {% if lecture.require_submission == "N" %}bg-success{% else %}bg-danger{% endif %}">{{ lecture.get_require_submission_display }}</span></div>{% endif %}
+
+              <a href="{% url 'lecture_detail' run.slug chapter.slug lecture.slug %}" class="btn btn-outline-primary">{% translate "View" %}</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endblock %}

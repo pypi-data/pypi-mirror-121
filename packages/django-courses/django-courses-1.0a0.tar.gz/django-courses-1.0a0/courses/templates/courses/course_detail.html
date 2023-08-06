@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load markdownify %}
+{% load courses_extra %}
+
+{% block content %}
+  {% include "courses/includes/breadcrumbs.html" with breadcrumbs=breadcrumbs %}
+
+  {% include "courses/includes/course_detail_header.html" with course=course %}
+
+  {% include "courses/includes/course_run_detail.html" with chapters=course.chapter_set.all %}
+
+  <div class="album py-5">
+    <div class="container">
+      <h1 class="text-center">{% translate "Course Runs" %}</h1>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
+        {% for course_run in course_runs %}
+        <div class="col">
+          <div class="card shadow-sm h-100">
+{#            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>#}
+            <div class="card-body">
+              <h5 class="card-title">{{ course_run.course.title }}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">{{ course_run.title|upper }}</h6>
+              <p class="card-text">
+                {% if course_run.perex %}
+                  {{ course_run.perex|markdownify }}
+                {% elif course_run.course.perex %}
+                  {{ course_run.course.perex|markdownify }}
+                {% else %}
+                  {{ course_run.course.description|markdownify }}
+                {% endif %}
+
+                {% if course_run.meeting_set.all %}
+                  {% translate "Meetings" %}:<br />
+                  {% for meeting in course_run.meeting_set.all %}
+                    {{ meeting.lecture.lecture_type|lecture_type_icon }} {{ meeting.start }} - {{ meeting.end|date:'H:i' }}<br/>
+                  {% endfor %}
+                {% endif %}
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'course_run_detail' course_run.slug %}" class="btn btn-sm btn-outline-secondary">{% translate "View" %}</a>
+                  {% if course_run|is_subscribed:request.user %}
+                    <a href="{% url 'course_run_detail' course_run.slug %}" class="btn btn-sm btn-success disabled">{% translate "Subscribed" %}</a>
+                  {% elif course_run.limit|subtract:course_run.users.count < 10 %}
+                    <a href="{% url 'course_run_detail' course_run.slug %}" class="btn btn-sm {% if course_run.limit|subtract:course_run.users.count == 0 %}btn-danger {% else %}btn-warning {% endif %}disabled">{% translate "Remains" %} {{ course_run.limit|subtract:course_run.users.count }} <i class="fas fa-user"></i></span></a>
+                  {% endif %}
+                  {% if course_run.is_past_due %}
+                    <a href="{% url 'course_run_detail' course_run.slug %}" class="btn btn-sm btn-outline-danger disabled">{% translate "Ended" %}</a>
+                  {% endif %}
+                </div>
+                <small class="text-muted">
+                  <i class="fas fa-calendar-alt"></i> {{ course_run.start }}{% if course_run.end %} - {{ course_run.end }}{% endif %}
+                {% if course_run.self_paced %} - {% translate "Self-paced" %}{% endif %}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+{% endblock %}
