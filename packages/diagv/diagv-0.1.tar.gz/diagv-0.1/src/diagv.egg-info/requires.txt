@@ -1,0 +1,8 @@
+more-itertools
+networkx
+numpy
+
+[examples]
+fire
+matplotlib
+scipy
