@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+NFDI.egg-info/PKG-INFO
+NFDI.egg-info/SOURCES.txt
+NFDI.egg-info/dependency_links.txt
+NFDI.egg-info/requires.txt
+NFDI.egg-info/top_level.txt
+nfdi/__init__.py
+nfdi/data.py
+nfdi/info.py
+nfdi/nel.py
