@@ -1,0 +1,25 @@
+attrs
+click
+colored
+dulwich
+graphviz
+Jinja2
+jsonschema
+PyYaml
+
+[:python_version < "3.8"]
+typing-extensions
+
+[dev]
+black
+coverage[toml]
+flake8
+mypy
+pillow
+pre-commit
+pytest
+pytest-cov
+pytest-flask
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-napoleon
