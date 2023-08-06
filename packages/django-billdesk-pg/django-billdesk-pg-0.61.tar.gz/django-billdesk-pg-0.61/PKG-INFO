@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: django-billdesk-pg
+Version: 0.61
+Summary: Django BillDesk Payment Gateway
+Home-page: https://github.com/ravichandra99
+Author: Ravi Chandra
+Author-email: ravichandra@gmail.com
+License: MIT
+Download-URL: https://github.com/ravichandra99/django-billdesk-pg/archive/refs/tags/v0.61.tar.gz
+Description: UNKNOWN
+Keywords: PAYMENT,GATEWAY,BILLDESK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
