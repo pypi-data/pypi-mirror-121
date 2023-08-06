@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+report.py
+setup.cfg
+race_rep.egg-info/PKG-INFO
+race_rep.egg-info/SOURCES.txt
+race_rep.egg-info/dependency_links.txt
+race_rep.egg-info/top_level.txt
