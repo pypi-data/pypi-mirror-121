@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+matchtune_sdk/MatchTune.py
+matchtune_sdk/__init__.py
+matchtune_sdk.egg-info/PKG-INFO
+matchtune_sdk.egg-info/SOURCES.txt
+matchtune_sdk.egg-info/dependency_links.txt
+matchtune_sdk.egg-info/top_level.txt
