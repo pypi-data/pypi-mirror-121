@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+spacestills/__init__.py
+spacestills/gui.py
+spacestills.egg-info/PKG-INFO
+spacestills.egg-info/SOURCES.txt
+spacestills.egg-info/dependency_links.txt
+spacestills.egg-info/entry_points.txt
+spacestills.egg-info/requires.txt
+spacestills.egg-info/top_level.txt

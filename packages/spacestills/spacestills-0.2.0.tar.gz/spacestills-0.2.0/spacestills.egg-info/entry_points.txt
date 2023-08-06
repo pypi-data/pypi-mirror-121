@@ -1,0 +1,3 @@
+[console_scripts]
+spacestills = spacestills.gui:main
+
