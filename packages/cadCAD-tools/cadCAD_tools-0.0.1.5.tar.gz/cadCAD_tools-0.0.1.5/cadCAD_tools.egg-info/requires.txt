@@ -1,0 +1,5 @@
+cadCAD
+pandas
+tqdm
+numpy
+plotly
