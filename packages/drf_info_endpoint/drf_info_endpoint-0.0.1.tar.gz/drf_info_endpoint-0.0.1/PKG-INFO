@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: drf_info_endpoint
+Version: 0.0.1
+Summary: Django Rest Framework Project Info View
+Home-page: https://github.com/vskrachkov/drf_info_endpoint
+Author: Viacheslav Krachkov
+Author-email: vskrachkov@gmail.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: drf-spectacular>=0.17.2
+Requires-Dist: django>=3.2
+Requires-Dist: djangorestframework>=3.10.0
+
+# drf_info_endpoint
+[![PyPI Version][pypi-image]][pypi-url]
+
+[pypi-image]: https://img.shields.io/pypi/v/drf_info_endpoint
+[pypi-url]: https://pypi.org/project/drf_info_endpoint/
+
+# Installation
+
+Using pip
+
+`pip install drf_info_endpoint`
+
+Using pipenv
+
+`pipenv install drf_info_endpoint`
+
+# Quick start
+In your project’s `settings.py`.
+
+```
+DRF_INFO_ENDPOINT_PROJECT_NAME = "My Project"
+DRF_INFO_ENDPOINT_VERSION = "v1.0"
+```
