@@ -1,0 +1,7 @@
+pydasher/__init__.py,sha256=dwUG36DTDGRTYwuMVvKQYL7PkPY59K5QNs3mgFJT-TI,197
+pydasher/base.py,sha256=Nr_ngCXBBW6TwQGxZjKsU5RMe56UPTg04yEFdPDfVxs,1257
+pydasher/serialization.py,sha256=KuAnUnk8lQyEHCVZLWqDa3h09OuMCXLa3pqXUaRB0YU,5873
+pydasher-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydasher-0.0.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+pydasher-0.0.1.dist-info/METADATA,sha256=-ETBBY4HIRuURLOqtAyH9DfnfF6KAqc1RBpy2jINnRQ,558
+pydasher-0.0.1.dist-info/RECORD,,
