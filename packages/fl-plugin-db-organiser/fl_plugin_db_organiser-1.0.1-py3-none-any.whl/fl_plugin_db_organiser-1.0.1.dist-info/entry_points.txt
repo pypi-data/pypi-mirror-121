@@ -1,0 +1,3 @@
+[console_scripts]
+fl-plugindb-organiser = fl_plugin_db_organiser:fl_plugin_db_organiser
+
