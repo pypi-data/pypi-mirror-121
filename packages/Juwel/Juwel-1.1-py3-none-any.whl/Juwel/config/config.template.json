@@ -1,0 +1,63 @@
+
+{
+   "someDatefield":{
+      "value":"",
+      "type":"datefield",
+      "required_field":true,
+      "regex": "",
+      "execute": ".../scriptFolder/someScript.sh",
+      "layout": "new_line"
+   },
+   "someEmail":{
+      "value":"",
+      "type":"email",
+      "required_field":false,
+      "regex":"[^@]+@[^@]+\\.[^@]+", //Just a sample regex can be deleted
+      "execute":"",
+      "layout": "new_line"
+   },
+   "someSpinbox":{
+      "min":"",
+      "max":"",
+      "increment":"",
+      "default":"",
+      "type":"spinbox",
+      "required_field":false,
+      "layout": "new_line"
+   },
+   "someCheckbox_multiple_answers":{
+      "value":["answer1", "answer2", "answer3"],
+      "default": ["answer1", "answer3"],
+      "single_answer": false,
+      "type":"checkbox",
+      "required_field":true,
+      "layout": "new_line"
+   },
+   "someCheckbox_single_answers":{
+      "value":["blue", "red", "yellow", "orange"],
+      "default": ["orange"],
+      "single_answer": true,
+      "type":"checkbox",
+      "required_field":true,
+      "layout": "new_line"
+   },
+   "someTextfield":{
+      "value":"",
+      "type":"textfield",
+      "required_field":true,
+      "layout": "new_line",
+      "execute": "",
+      "regex":"",
+      "layout": "new_line"
+   },
+   "pizza_topics":{
+      "value":[
+         "salami",
+         "tomato"
+      ],
+      "type":"dropdown",
+      "execute": "",
+      "regex":"",
+      "layout": "new_line"
+   }
+}

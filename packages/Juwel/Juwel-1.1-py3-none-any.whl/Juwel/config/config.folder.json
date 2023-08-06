@@ -1,0 +1,17 @@
+{
+  "folder_name": {
+      "value": "",
+      "type": "textfield",
+      "required_field": true
+   },
+   "expire":{
+      "value":"",
+      "type":"datefield",
+      "required_field":true
+   },
+   "data_protection_inheritan": {
+      "value": "",
+      "type": "textfield",
+      "required_field": true
+   }
+}

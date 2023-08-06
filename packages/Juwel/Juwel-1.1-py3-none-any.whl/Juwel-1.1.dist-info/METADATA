@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Juwel
+Version: 1.1
+Summary: Sidecar file generator
+Home-page: UNKNOWN
+Author: Marco Tenderra
+Author-email: tenderra.git@gmail.com
+License: GNU
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: tk
+Requires-Dist: tkcalendar
+
+UNKNOWN
+
