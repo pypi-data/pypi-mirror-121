@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: depythel
+Version: 0.0.0a0
+Summary: Interdependency Visualiser and Dependency Hell scrutiniser
+License: GPL-3.0-or-later
+Author: harens
+Author-email: harensdeveloper@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beartype (>=0.8.1,<0.9.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
