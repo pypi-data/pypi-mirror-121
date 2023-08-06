@@ -1,0 +1,10 @@
+qlog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlog/logger.py,sha256=Vp-NNR1Kjrk1RgEtj-AM6p6YaKagrhKEgc0xar9jwjI,7287
+qlog/trace.py,sha256=7stx2S21Gy2Fwbr1EoT8nTRB5RCvL1kZZ66l3tNYxQU,903
+qlog/utils.py,sha256=9uhjSbFaOfYW23L6bAJ1mKrCgLWzylCqnDSBWhNLbb0,445
+qlog/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlog/test/handlertest.py,sha256=TIByacEy1z_BRq7nETMjaHTJMuOTk33Ezzsd-YHlb38,1126
+log.client-1.0.0.dist-info/METADATA,sha256=zJT3uEmju5_zGoLL2uqEucnEUjYbat0gBakDd-coAZk,424
+log.client-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+log.client-1.0.0.dist-info/top_level.txt,sha256=ZWb7jMp_ylUllGELc5qoqfOKFAOycB_e3FVdXzvRCdo,5
+log.client-1.0.0.dist-info/RECORD,,
