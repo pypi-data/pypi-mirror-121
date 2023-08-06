@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+colorcodetools/__init__.py
+colorcodetools.egg-info/PKG-INFO
+colorcodetools.egg-info/SOURCES.txt
+colorcodetools.egg-info/dependency_links.txt
+colorcodetools.egg-info/top_level.txt
+colorcodetools/hex/__init__.py
+colorcodetools/hex/config.py
+colorcodetools/hex/invert.py
+colorcodetools/hex/validate.py
+colorcodetools/rgb/__init__.py
+colorcodetools/rgb/config.py
+colorcodetools/rgb/invert.py
+colorcodetools/rgb/validate.py
