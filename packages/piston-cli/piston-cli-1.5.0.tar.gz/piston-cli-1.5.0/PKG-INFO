@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: piston-cli
+Version: 1.5.0
+Summary: A cli tool with an terminal editor to compile over 35 languages instantly using the piston api.
+Home-page: https://github.com/Shivansh-007/piston-cli
+License: MIT
+Keywords: shell,cli,code-editor,code-execution,compile,piston
+Author: Shivansh-007
+Author-email: shivansh-007@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: coloredlogs (>=15.0.1,<16.0.0)
+Requires-Dist: more-itertools (>=8.7.0,<9.0.0)
+Requires-Dist: prompt-toolkit (>=3.0.18,<4.0.0)
+Requires-Dist: pygments (>=2.8.1,<3.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: requests-cache (>=0.8.1,<0.9.0)
+Requires-Dist: rich (>=10.1.0,<11.0.0)
+Project-URL: Repository, https://github.com/Shivansh-007/piston-cli
+Description-Content-Type: text/markdown
+
+# Piston CLI
+
+[![Linting](https://img.shields.io/github/workflow/status/Shivansh-007/piston-cli/Linting?logo=github)](https://github.com/discord-modmail/modmail/actions/workflows/linting.yml "Lint")
+[![Python](https://img.shields.io/static/v1?label=Python&message=3.9&color=blue&logo=Python&style=flat)](https://www.python.org/downloads/ "Python 3.8 | 3.9")
+[![License](https://img.shields.io/github/license/discord-modmail/modmail?style=flat&label=License)](./LICENSE "License file")
+[![Code Style](https://img.shields.io/static/v1?label=Code%20Style&message=black&color=000000&style=flat)](https://github.com/psf/black "The uncompromising python formatter")
+______________________________________________________________________
+
+**Documentation**: <a href="https://shivansh-007.github.io/piston-cli/" target="_blank">https://shivansh-007.github.io/piston-cli/</a>
+
+**Source Code**: <a href="https://github.com/Shivansh-007/piston-cli" target="_blank">https://github.com/Shivansh-007/piston-cli</a>
+
+______________________________________________________________________
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
