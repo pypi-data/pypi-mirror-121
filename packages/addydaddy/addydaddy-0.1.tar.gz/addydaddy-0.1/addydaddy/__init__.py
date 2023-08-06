@@ -1,0 +1,1 @@
+from .Binomialdistribution import TableColor
