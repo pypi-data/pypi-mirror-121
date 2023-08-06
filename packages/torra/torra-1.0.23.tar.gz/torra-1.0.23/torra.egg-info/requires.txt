@@ -1,0 +1,5 @@
+appdirs>=1.4.3
+python-apt>=2.2.1
+
+[bin]
+python-libtorrent-bin>=1.2.9
