@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vnpy_coinapi/__init__.py
+vnpy_coinapi/coinapi_datafeed.py
+vnpy_coinapi.egg-info/PKG-INFO
+vnpy_coinapi.egg-info/SOURCES.txt
+vnpy_coinapi.egg-info/dependency_links.txt
+vnpy_coinapi.egg-info/not-zip-safe
+vnpy_coinapi.egg-info/requires.txt
+vnpy_coinapi.egg-info/top_level.txt
