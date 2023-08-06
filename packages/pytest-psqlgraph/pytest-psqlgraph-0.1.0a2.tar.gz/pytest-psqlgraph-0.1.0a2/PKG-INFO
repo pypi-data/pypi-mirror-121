@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pytest-psqlgraph
+Version: 0.1.0a2
+Summary: UNKNOWN
+Home-page: https://github.com/kulgan/pytest-psqlgraph
+Author: Rowland Ogwara
+Author-email: r.ogwara@gmail.com
+License: Apache Software License 2.0
+Project-URL: source, https://github.com/kulgan/pytest-psqlgraph
+Keywords: gdcdictionary,psqlgraph,graphml,mocks,testing,pytest
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: changelog
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+UNKNOWN
+

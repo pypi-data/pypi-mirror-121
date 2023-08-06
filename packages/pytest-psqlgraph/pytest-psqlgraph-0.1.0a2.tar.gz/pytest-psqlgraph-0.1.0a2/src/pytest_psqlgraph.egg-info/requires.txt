@@ -1,0 +1,22 @@
+attrs
+pytest>=4.5
+psqlgml
+psqlgraph
+PyYaml
+rstr
+sqlalchemy<1.4
+
+[:python_version < "3.8"]
+typing_extensions
+
+[changelog]
+towncrier
+
+[dev]
+coverage[toml]
+pytest-cov
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-napoleon
