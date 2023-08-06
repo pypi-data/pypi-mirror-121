@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sleepwell"
+version = "0.1.0"
+description = ""
+authors = ["Yves Tumushimire <ytumushimire@truststamp.net>", "Carlos Harerimana <charerimana@truststamp.net>", "Jospin Rugamba Bahizi <jbahizi@truststamp.net>", "Mazzi Muzamiru <mmuzamiru@truststamp.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
