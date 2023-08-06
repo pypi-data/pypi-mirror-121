@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tkitRetransformer
+Version: 0.0.0.116327477
+Summary: Terry toolkit tkitRetransformer,
+Home-page: http://docs.terrychan.org/tkit-re-transformers/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: transformers (>=4.10.0)
+
+# 一个创建库的demo
+便于快速创建自己的第三方库
+
+
