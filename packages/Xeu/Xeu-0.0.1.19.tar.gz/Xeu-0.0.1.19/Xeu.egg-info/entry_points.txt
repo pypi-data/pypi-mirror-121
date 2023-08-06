@@ -1,0 +1,3 @@
+[console_scripts]
+xeu = Xeu.setup.script.manage:run
+

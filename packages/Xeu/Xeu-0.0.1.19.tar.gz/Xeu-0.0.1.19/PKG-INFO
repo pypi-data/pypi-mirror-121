@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Xeu
+Version: 0.0.1.19
+Summary: 
+            Xeu
+        
+Home-page: UNKNOWN
+Author: Jayson Leo
+Author-email: 2835347017@qq.com
+Maintainer: Jayson Leo
+Maintainer-email: 2835347017@qq.com
+License: MIT License
+Description: Xeu
+        - 后端框架
+        > 打包
+        python setup.py sdist build
+        python setup.py sdist upload -r localhost
+        E:\Python\Python38\Scripts\pip3.8.exe install --trusted-host 127.0.0.1 -i http://127.0.0.1:9999/simple  xeu==0.0.1.1
+        > 私pypi-server镜像
+        docker build -t pypiserver/python38:v1 .
+        docker run -d -ti -p 0.0.0.0:9999:8888 -p 0.0.0.0:8022:22 85c sh docker_init
+        
+Platform: linux
+Platform: windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
