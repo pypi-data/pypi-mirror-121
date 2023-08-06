@@ -1,0 +1,8 @@
+README.md
+setup.py
+fastluks/__init__.py
+fastluks.egg-info/PKG-INFO
+fastluks.egg-info/SOURCES.txt
+fastluks.egg-info/dependency_links.txt
+fastluks.egg-info/requires.txt
+fastluks.egg-info/top_level.txt

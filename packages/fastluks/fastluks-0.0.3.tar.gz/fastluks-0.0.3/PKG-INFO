@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fastluks
+Version: 0.0.3
+Summary: LUKS storage encryption.
+Home-page: https://github.com/dacolombo/fast-luks-py
+Author: Daniele Colombo
+Author-email: daniele.colombo39@gmail.com
+License: UNKNOWN
+Description: # fastluks
+        Functions for LUKS storage encryption.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
