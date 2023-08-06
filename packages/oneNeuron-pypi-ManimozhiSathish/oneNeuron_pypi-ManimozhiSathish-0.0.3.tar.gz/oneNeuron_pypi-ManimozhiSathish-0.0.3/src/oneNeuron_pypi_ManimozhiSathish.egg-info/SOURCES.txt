@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Utils/__init__.py
+src/Utils/all_utils.py
+src/oneNeuron/__init__.py
+src/oneNeuron/perceptron.py
+src/oneNeuron_pypi_ManimozhiSathish.egg-info/PKG-INFO
+src/oneNeuron_pypi_ManimozhiSathish.egg-info/SOURCES.txt
+src/oneNeuron_pypi_ManimozhiSathish.egg-info/dependency_links.txt
+src/oneNeuron_pypi_ManimozhiSathish.egg-info/requires.txt
+src/oneNeuron_pypi_ManimozhiSathish.egg-info/top_level.txt
