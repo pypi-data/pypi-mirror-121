@@ -1,0 +1,10 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+slot_online.egg-info/PKG-INFO
+slot_online.egg-info/SOURCES.txt
+slot_online.egg-info/dependency_links.txt
+slot_online.egg-info/top_level.txt
