@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+smallestenclosingcircle.py
+smallestenclosingcircle.egg-info/PKG-INFO
+smallestenclosingcircle.egg-info/SOURCES.txt
+smallestenclosingcircle.egg-info/dependency_links.txt
+smallestenclosingcircle.egg-info/top_level.txt
