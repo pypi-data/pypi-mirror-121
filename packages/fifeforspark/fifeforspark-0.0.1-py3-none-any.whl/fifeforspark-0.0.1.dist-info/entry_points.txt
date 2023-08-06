@@ -1,0 +1,3 @@
+[console_scripts]
+fifeforspark = fifeforspark.__main__:main
+
