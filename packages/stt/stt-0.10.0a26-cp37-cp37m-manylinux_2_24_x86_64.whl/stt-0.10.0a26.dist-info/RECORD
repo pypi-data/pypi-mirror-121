@@ -1,0 +1,13 @@
+stt/__init__.py,sha256=vgvl-bJW2nm9o02MVdFGpVXEN6eoGhRRCnxTI_NwudI,13096
+stt/_impl.cpython-37m-x86_64-linux-gnu.so,sha256=KGhObMf0XXAcOwzeEtA9WkDGbIq4osYzd9yaiSfv5xs,363384
+stt/client.py,sha256=nXTqEs9BDuPIA9M8GN2ySL6LrIKavUnQvmC0bZIYms8,6810
+stt/impl.py,sha256=SFfRq0gR2KcHrxeaXga5FPZsU_osb6RlrRftcbJfWsg,7196
+stt/lib/libkenlm.so,sha256=tkqZzFMZx8jBzv-ZiemUBuXbNKGVj3GX7oEz54kmZMo,502344
+stt/lib/libstt.so,sha256=DvTKiey2VFNkO_wMzeH4BVRFGO4OiAU839g8MUOhbH8,2189280
+stt/lib/libtensorflowlite.so,sha256=xe60UhYUOQ_pjFLEjDdyBdjQLbbqoLIvPkd3EZDIUBw,3724960
+stt/lib/libtflitedelegates.so,sha256=eHxqX1ZkvCtlIyW9TiB7PTclSLQgCLYJdm7YS6Q26Uk,630400
+stt-0.10.0a26.dist-info/METADATA,sha256=xwcgrD80IqJ6yV08fRC9JtNs5xZ7-OWAVnJc0hHNTrI,1341
+stt-0.10.0a26.dist-info/WHEEL,sha256=Z8zmg5WKvFjhEOlRCXreJ0fNK-eXbZJDx7xktZlH19s,113
+stt-0.10.0a26.dist-info/entry_points.txt,sha256=-RJKAhqFH3le0allDtX9BNVyOHyAXMbyweoEXUinoRI,41
+stt-0.10.0a26.dist-info/top_level.txt,sha256=U36suN9i5BZ2UbKj5dzgbpHmkIEAvyge7wRwJVB24jk,4
+stt-0.10.0a26.dist-info/RECORD,,
