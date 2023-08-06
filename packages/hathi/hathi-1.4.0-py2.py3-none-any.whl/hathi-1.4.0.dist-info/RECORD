@@ -1,0 +1,12 @@
+hathi/__init__.py,sha256=2mKUirWVFtAUkG9Vc_ny8hQ9DbgSzOAsNrX8ebLrUcQ,181
+hathi/__main__.py,sha256=QR6fOIAI-GPDvglodpHtWhc_dtFIfaUTNDSL85Bwc4A,7394
+hathi/filter_pass.py,sha256=37vieCBSlBc5vjQwA1INiLhFjwjaZXH3Vxabsq17gLc,944
+hathi/mssql.py,sha256=YLSD5Q26nH9hieBT99NFrl-Cespbq5lXVhZbRudfVxA,851
+hathi/mysql.py,sha256=L66ePFAjYraZ7igm9uxBd4TWgiXQHYO466jKQCGtDNI,1038
+hathi/postgres.py,sha256=lDCmI7mwnEXdTAsiupo8y4bWLLgR19wvQy6FoOJEluk,1391
+hathi/scanner.py,sha256=y4n45GE5ycE9w8uM6LEZtmkJREvVyeoaj6yr_DnrMPw,5321
+hathi-1.4.0.dist-info/entry_points.txt,sha256=PPJOkphu9hNbLhoIT0ynTUaGcNpuEIhlCJsS9L1yCjQ,45
+hathi-1.4.0.dist-info/LICENSE,sha256=KPiBkXwdQpuED_IrlMjXC6XQQwVQBISqisFppDTJOGQ,1069
+hathi-1.4.0.dist-info/WHEEL,sha256=2adPsdwavOXlr3i4h108dwQdqKgJbVa5zTEEuD11F08,99
+hathi-1.4.0.dist-info/METADATA,sha256=9TGXwKxVcKKtxbYpzcCY63ogdRbnie-_VFhfwDvQBN0,2441
+hathi-1.4.0.dist-info/RECORD,,
