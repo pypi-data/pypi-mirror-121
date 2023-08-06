@@ -1,0 +1,11 @@
+asgi_typing/__init__.py,sha256=QHG-8ssb02NnpfUnvoIc-ynK_yEndhswB0bjMKOHmhE,2883
+asgi_typing/application.py,sha256=ESj-pvhcyrJGWsudP5npg_89ePEvfUPgNuKxbk5m0d4,2066
+asgi_typing/http.py,sha256=sDGJBGUEQmEwuVMCA0qAqJ5Gv0JxHhB_3WAQze0UDHU,11512
+asgi_typing/lifespan.py,sha256=b8HSWibQnRL1mTKPpiSPGANCmKwPpoRuzaVv_vjjzio,5200
+asgi_typing/py.typed,sha256=qrkHrYJvGoZpU2BpVLNxJB44LlhqVSKyYOwD_L_1m3s,10
+asgi_typing/versions.py,sha256=C__tDjQrwZAzkmq7OlBn_iSnwnLFicvMfWxl5uY-PAE,520
+asgi_typing/websocket.py,sha256=OmOd1TxLEUW-qh_5mp-cGxDrC2JytjGraYuJG4tPnbM,8858
+jetblack_asgi_typing-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jetblack_asgi_typing-0.4.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+jetblack_asgi_typing-0.4.0.dist-info/METADATA,sha256=jWFLLB0m6IFJ4W5zOoqg4hcS4T1yKmcuJsAL7C0kLRU,1130
+jetblack_asgi_typing-0.4.0.dist-info/RECORD,,
