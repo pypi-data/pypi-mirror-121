@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Pyfrog
+Version: 0.0.13
+Summary: Pyfrog - Frog checker.
+Home-page: UNKNOWN
+Author: Frog frog
+Author-email: <frog@frogyfrog.com>
+License: UNKNOWN
+Description: 
+        frog
+        
+Keywords: python,video,frog
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

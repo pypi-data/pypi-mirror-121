@@ -1,0 +1,7 @@
+README.md
+setup.py
+Pyfrog.egg-info/PKG-INFO
+Pyfrog.egg-info/SOURCES.txt
+Pyfrog.egg-info/dependency_links.txt
+Pyfrog.egg-info/requires.txt
+Pyfrog.egg-info/top_level.txt
