@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyperp/Amm.py
+pyperp/Faucets.py
+pyperp/MetaData.py
+pyperp/Providers.py
+pyperp/Trader.py
+pyperp/__init__.py
+pyperp/constants.py
+pyperp/utils.py
+pyperp.egg-info/PKG-INFO
+pyperp.egg-info/SOURCES.txt
+pyperp.egg-info/dependency_links.txt
+pyperp.egg-info/requires.txt
+pyperp.egg-info/top_level.txt
