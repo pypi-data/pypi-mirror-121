@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: EzScraper
+Version: 1.1.1
+Summary: Scraping HTML Tables from websites to csv file
+Home-page: UNKNOWN
+Author: Issam Haidaoui (issamoxix)
+Author-email: <issamhaidaoui@gmail.com>
+License: UNKNOWN
+Keywords: python,Scraping,csv,Scraping Data,to csv file
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+
+# EzScraper
+
+
+
+Scrape table from website and save them to a .csv file
+
+
+
+## Setup
+
+
+
+```sh
+
+  pip install  -r requirements.txt
+
+```
+
+
+
+## Run the script :
+
+
+
+```sh
+
+py main.py https://www.example.com/
+
+```
+
+
+
