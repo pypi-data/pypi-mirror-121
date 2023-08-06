@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dmarc_reports/__init__.py
+src/dmarc_reports/classes.py
+src/dmarc_reports/exceptions.py
+src/dmarc_reports.egg-info/PKG-INFO
+src/dmarc_reports.egg-info/SOURCES.txt
+src/dmarc_reports.egg-info/dependency_links.txt
+src/dmarc_reports.egg-info/top_level.txt
