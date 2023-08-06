@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+pentageoserver/pentageoserver.egg-info/PKG-INFO
+pentageoserver/pentageoserver.egg-info/SOURCES.txt
+pentageoserver/pentageoserver.egg-info/dependency_links.txt
+pentageoserver/pentageoserver.egg-info/top_level.txt
