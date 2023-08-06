@@ -1,0 +1,10 @@
+setup.py
+devcore/__about__.py
+devcore/__init__.py
+devcore/__main__.py
+devcore_k.egg-info/PKG-INFO
+devcore_k.egg-info/SOURCES.txt
+devcore_k.egg-info/dependency_links.txt
+devcore_k.egg-info/entry_points.txt
+devcore_k.egg-info/requires.txt
+devcore_k.egg-info/top_level.txt
