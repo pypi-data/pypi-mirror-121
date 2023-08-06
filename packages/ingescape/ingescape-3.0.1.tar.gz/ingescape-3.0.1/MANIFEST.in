@@ -1,0 +1,5 @@
+include ingescape/src/*.c
+include ingescape/include/*.h
+include ingescape_agent/src/*.c
+include ingescape_agent/include/*.h
+include dependencies/uthash/*.h
