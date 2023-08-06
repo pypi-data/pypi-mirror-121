@@ -1,0 +1,3 @@
+[console_scripts]
+cqh_image = cqh_image.run:cli
+

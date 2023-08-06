@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: cqh-image
+Version: 0.0.4
+Summary: cqh utils function
+Home-page: https://github.com/chen19901225/cqh_util
+Author: chenqinghe
+Author-email: 1832866299@qq.com
+License: UNKNOWN
+Description: cqh image
+        ========================================
+        
+        only work on windows
+        
+        作用是吧windows粘贴板里面的图片转成base64,然后再写道粘贴板里面
+        
+        因为vscode remote暂时不支持readImage
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
