@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: nowledgeable
+Version: 0.0.8
+Summary: "Nowledgeable answer checker library including python unit test library"
+Home-page: https://gitlab.com/nowledgeable/nowledgeable/-/tree/main/backend/environments/python_utils/packaged
+Author: Laurent CETINSOY
+Author-email: laurent.cetinsoy+pypi@nowledgeable.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/nowledgeable/nowledgeable/-/incidents
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Création d'exercice python
+
+Outre les énoncés, fichiers de données et tags,
+pour créer un exercice il faut coder le test 
+qui va vérifier si l'étudiant a fait une bonne réponse
+
+Il faut donc compléter "correction code" qui va être
+executé chaque fois que l'étudiant soumet une réponse. 
+
+Ce script doit générer un json qui indique si l'étudiant
+a juste / faux et pourquoi. Il sera transmis à l'étudiant et
+affiché de manière jolie dans nowledgeable.
+
+le json a globalement le format suivant
+```json
+{
+   'isRight': true|false|0|1, //indique si la réponse est globalement juste ounon
+   'print': "string",
+   'tests': [
+        {
+            "name": "nom du test",
+            'isRight': true|false|0|1,
+            'expected': "value" //optionnel,
+            'submitted': "value" //optionnel,
+            "message": "message si le test est faux"
+        },
+        ...
+    ]
+}
+
+```
+
+Pour cela, la class `AnswerTester` est mise à disposition.
+Elle permet de tester les réponses de l'étudiant est de 
+générer le json en fonction de la justesse de ces dernieres.
+
+Cette classe permet de :
+- tester si deux variables sont égales avec la méthode compare_variables
+- tester si deux fonctions sont égales avec la méthode compare_functions
+- de vérifier une condition quelconque avec la méthode assert
+- de vérifier qu'une fonction donnée a été appéle avec des arguments données #soon
+- de générer le json correspondant aux différents test avec la méthode get_test_output
+
+## Utilisation
+
+Voici ci contre les différents méthodes avec les arguments nécessaires: 
+
+```python
+tester = AnswerTester()
+
+# tester.compare_variables("nom test", submited, expected, "message optionnel mais recommendé")
+# tester.compare_functions("nom test", submited, expected, test_inputs, "message")
+# tester.assert("nom", assertion (boolean), "message)
+# tester.assert_function_call_with(''function_name', expected_arguments) #not ready yet
+
+result_status = tester.get_test_output() //génération du json
+result = tester.get_test_output()
+
+```
+## Exemples
+
+### Exercice où l'étudiant code une fonction avec compare_functions 
+
+prennons l'énoncé suivant : 
+
+"Coder la fonction multiply_by_two(x) qui calcule 2 * x pour chaque x"
+
+Le code de test pourra être comme ci dessous. 
+On utilise la méthode `compare_function`.
+Pour cela il faut coder la fonction solution.
+`compare_function` va comparer la sortie de la fonction de l'étudiant
+et de la fonction solution sur plusieurs jeux d'entrée
+
+`test_inputs` représenté les entrée de test. 
+C'est un tableau de tableau.
+Chaque sous tableau représente un test et contient les arguments de la fonction
+
+```python
+
+def solution(x): return 2 * x
+
+tester = AnswerTester()
+
+test_inputs = [
+    [3], # la fonction sera testée avec l'argument x=3
+    [-2],# la fonction sera testée avec l'argument x=-2
+    [random.randint(-3, 3)] #la fonction sera testée avec un x aléatoire entre -3 et 3
+]
+
+tester.compare_functions("nom test", multiply_by_two, solution, test_inputs, "message")
+
+result_status = tester.get_test_output()
+
+result = tester.get_test_output() #A la fin on demande de générer le json
+
+```
+
+### utilisation de compare_variable
+
+soon
+
+
