@@ -1,0 +1,1 @@
+(self.webpackChunkhome_assistant_frontend=self.webpackChunkhome_assistant_frontend||[]).push([[79828],{32336:function(){Intl.PluralRules&&"function"==typeof Intl.PluralRules.__addLocaleData&&Intl.PluralRules.__addLocaleData({data:{categories:{cardinal:["one","other"],ordinal:["other"]},fn:function(n,a){return a?"other":1==n?"one":"other"}},locale:"nyn"})}}]);
