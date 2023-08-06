@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=9YhCCj0VSOtz1dcBRGXTIhkjWpLdHdTZBY4Bh9Wak2k,3897
+tfwatcher/__init__.py,sha256=shynqljpsKVkBCRN_mXG1jOknNBU03SEA37Af2fuhjE,163
+tfwatcher/firebase_config.py,sha256=KvRKYXQI8dJZu-s5BchQ0kP500_zIRyImVjP252X22Q,756
+tfwatcher/firebase_helpers.py,sha256=FjuRbTMsx4MCHvIkGfy5YT4PSIC14aLwp5jzxmd9Srw,2937
+tfwatcher/version.py,sha256=xIMTwdKxP5VRiZD2HlBJHr-9lupE5WgbSmsefNYB9fM,273
+tfwatcher/callbacks/__init__.py,sha256=VYe-vU2WGhpS3KO8Y_ojkIIJrvW9Moul4mrjCQUmuBA,257
+tfwatcher/callbacks/epoch.py,sha256=omPiEzUHyaw44Ey0L5STBU_3u2JaVWVYUJm5_hN_uHw,6093
+tfwatcher/callbacks/predict.py,sha256=8NLIYpwCbklKCTasU9CvG6TxQUCpfySucAWewJCO5BQ,3829
+tfwatcher/callbacks/predict_batch.py,sha256=o3tKPEusYXV2Re0JXL6CuRrQ8V-6zNa_vjeIb4u5CNc,6161
+tfwatcher/callbacks/test_batch.py,sha256=V2nWQ_DKYRU4s8zTGioK5q86UJXm7E_cZDdhtpCcNjg,6472
+tfwatcher/callbacks/train_batch.py,sha256=ZusPAEC5YD2qe5CEy_cdYT7nYH_kRF_eHvbRLyUBZnQ,6195
+tf_watcher-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tf_watcher-0.1.2.dist-info/METADATA,sha256=8vvYCDGXXVEBCCZtTXAuGwLAAnWTor3SoG8Ws4WYX4c,5963
+tf_watcher-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tf_watcher-0.1.2.dist-info/top_level.txt,sha256=JACNl0n86-yxf-7U_thv77KcSgAf-LhPARI8nUX7eOE,16
+tf_watcher-0.1.2.dist-info/RECORD,,
