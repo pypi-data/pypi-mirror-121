@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+slivka_irv.egg-info/PKG-INFO
+slivka_irv.egg-info/SOURCES.txt
+slivka_irv.egg-info/dependency_links.txt
+slivka_irv.egg-info/entry_points.txt
+slivka_irv.egg-info/top_level.txt
