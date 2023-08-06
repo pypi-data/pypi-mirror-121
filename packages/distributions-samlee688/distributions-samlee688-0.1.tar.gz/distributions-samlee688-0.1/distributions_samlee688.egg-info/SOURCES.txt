@@ -1,0 +1,10 @@
+setup.py
+distributions-samlee688/Binomialdistribution.py
+distributions-samlee688/Gaussiandistribution.py
+distributions-samlee688/Generaldistribution.py
+distributions-samlee688/__init__.py
+distributions_samlee688.egg-info/PKG-INFO
+distributions_samlee688.egg-info/SOURCES.txt
+distributions_samlee688.egg-info/dependency_links.txt
+distributions_samlee688.egg-info/not-zip-safe
+distributions_samlee688.egg-info/top_level.txt
