@@ -1,0 +1,7 @@
+tablefill/__init__.py,sha256=7zr4ZtVYA2ahQp5hWrpqEQPVkT9LYEDCq4ptS_PRsd4,150
+tablefill/cli.py,sha256=jI-vaXjecWcEUDq3lOmK3L9-llcRcweH482wUQdagc4,1705
+tablefill/src.py,sha256=gt7x62An6huSMTmUyHbY5Fk-1zR0J3vG0vTsUtvPHqk,2844
+tablefill-0.1.0.dist-info/entry_points.txt,sha256=Qnbth4wccZVhPRIV4Dt6Q9oeR2YkNN5azOKY7IoT110,42
+tablefill-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+tablefill-0.1.0.dist-info/METADATA,sha256=Gsla8HFhobnzhBhG1fte0FVJRcMO2bgjx4NW934lbkc,870
+tablefill-0.1.0.dist-info/RECORD,,
