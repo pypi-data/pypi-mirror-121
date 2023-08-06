@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: htmls-to-datasette
+Version: 0.1.0
+Summary: Tool to index and serve HTML files. Powered by Datasette.
+License: Apache-2.0
+Author: Pablo Lopez-Jamar
+Author-email: pablo.lopez.jamar@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: datasette-render-html (>=0.1.2,<0.2.0)
+Requires-Dist: html2text (>=2020.1.16,<2021.0.0)
+Requires-Dist: rich (>=10.10.0,<11.0.0)
+Requires-Dist: sqlite-utils (>=3.17,<4.0)
