@@ -1,0 +1,17 @@
+README.md,sha256=jtsm_QFUVx2LEIrzfaBFbyPDmm2yja3ab6fEawTr0Cw,4621
+ohcg/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+ohcg/main.py,sha256=jr1sJ4_sNTC99cyWsfeTkus2CVNcdYm2XNloedRjsfM,1198
+ohcg/openapi_models.py,sha256=Z79ssxDsE6IyQc3egbH81n_KZb_MovVyitMpBbqxHbk,8408
+ohcg/parser.py,sha256=qX6tvjDWMIru1_UusDBGwFSh0KRUjzMm9xnGhKdwuNc,17692
+ohcg/templates/base_model.jinja2,sha256=URxrDAEGOtF-lF9ICEtB4v9eGJmpE3vJwsdTxo4B5Y0,507
+ohcg/templates/client.jinja2,sha256=QccLlIfxnmwiS3IuC2R-HL-TfQTS-itAFw3QMez12qk,1748
+ohcg/templates/enum_model.jinja2,sha256=SRuXiJALogRCa3MMW3pcY3UxVqNmj6AVUrihwGGek6A,250
+ohcg/templates/model.jinja2,sha256=YA5-rPlRGODR_UDB2Le2hxDp3I4tflJ9y841dlmHioc,1072
+ohcg/templates/models.jinja2,sha256=iNPIiBDN2V197UXdWHHMpqIkjBJb6VdPNDfaIi9Kf5c,547
+ohcg/templates/operation.jinja2,sha256=Rie0CT0SlfWojo3GU5lyCaLO0daIZGkGowS2rNSkveg,2444
+ohcg/utils.py,sha256=rCh0vz_kf9yTJe1gK09fSAJ5ZWlA1UykoCVoE6Hn9pw,98
+ohcg-0.1.1.dist-info/entry_points.txt,sha256=I-Nbu7YYVPJ3hJdNMRAiG3lawaOlyLELFY-h2rA-96E,38
+ohcg-0.1.1.dist-info/LICENSE.txt,sha256=1sV7vISfqB7wP7TMwkQqJaK9JzcamqShjiprYf86IrU,1064
+ohcg-0.1.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+ohcg-0.1.1.dist-info/METADATA,sha256=eLGy3dRzUmqbZKASuMjE94SlMDqEI7jCKXTYyf_S6wQ,5484
+ohcg-0.1.1.dist-info/RECORD,,
