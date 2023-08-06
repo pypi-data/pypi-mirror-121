@@ -1,0 +1,6 @@
+README.md
+setup.py
+EzAuth.egg-info/PKG-INFO
+EzAuth.egg-info/SOURCES.txt
+EzAuth.egg-info/dependency_links.txt
+EzAuth.egg-info/top_level.txt
