@@ -1,0 +1,15 @@
+numpy>=1.16
+
+[docs]
+sphinx==4.0.1
+sphinx-rtd-theme
+
+[examples]
+bokeh
+selenium
+
+[test]
+flake8
+matplotlib
+Pillow
+pytest
