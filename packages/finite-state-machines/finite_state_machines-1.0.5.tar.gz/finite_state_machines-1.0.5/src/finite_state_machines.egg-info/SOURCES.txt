@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/finite_state_machines/FSM.py
+src/finite_state_machines/__init__.py
+src/finite_state_machines.egg-info/PKG-INFO
+src/finite_state_machines.egg-info/SOURCES.txt
+src/finite_state_machines.egg-info/dependency_links.txt
+src/finite_state_machines.egg-info/requires.txt
+src/finite_state_machines.egg-info/top_level.txt
