@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dl-models
+Version: 0.0.3
+Summary: Contains various neural networks
+Home-page: https://github.com/nitinkmittal/dl_models
+Author: Nitin Kumar Mittal
+Author-email: nitinmittal234@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pytorch-lightning (==1.4.9)
+Requires-Dist: torchvision (==0.10.1)
+
+Contains various neural networks developed using PyTorch
+
