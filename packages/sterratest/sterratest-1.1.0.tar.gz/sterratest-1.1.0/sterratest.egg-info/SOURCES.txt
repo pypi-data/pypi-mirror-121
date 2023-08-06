@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+sterratest.egg-info/PKG-INFO
+sterratest.egg-info/SOURCES.txt
+sterratest.egg-info/dependency_links.txt
+sterratest.egg-info/entry_points.txt
+sterratest.egg-info/requires.txt
+sterratest.egg-info/top_level.txt
+sterraxcyl/__init__.py
+sterraxcyl/core.py
