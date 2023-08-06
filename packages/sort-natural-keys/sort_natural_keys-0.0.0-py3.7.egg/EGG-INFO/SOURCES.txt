@@ -1,0 +1,8 @@
+README.md
+setup.py
+sort_natural_keys/__init__.py
+sort_natural_keys.egg-info/PKG-INFO
+sort_natural_keys.egg-info/SOURCES.txt
+sort_natural_keys.egg-info/dependency_links.txt
+sort_natural_keys.egg-info/not-zip-safe
+sort_natural_keys.egg-info/top_level.txt
