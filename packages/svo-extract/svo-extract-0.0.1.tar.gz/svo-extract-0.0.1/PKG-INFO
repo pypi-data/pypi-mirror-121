@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: svo-extract
+Version: 0.0.1
+Summary: A package using clip to extrac S,V,O
+Home-page: https://github.com/Keycatowo/svo-extract
+Author: owo
+Author-email: key.cat@outlook.com
+License: UNKNOWN
+Description: # svo-extract
+        利用CKIP套件將句子中的核心結構抓出(主詞S，動詞V，受詞O)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
