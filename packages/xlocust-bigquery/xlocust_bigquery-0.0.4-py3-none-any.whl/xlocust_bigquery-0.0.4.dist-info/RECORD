@@ -1,0 +1,8 @@
+xlocust_bigquery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xlocust_bigquery/bigquery.py,sha256=2DU1VfTM65kouydISZ-R3txPstS7ML0SKxm3lX9kxqs,2060
+xlocust_bigquery/bq_client.py,sha256=bFCSDzfjRAPecKQVvVeU3xsDkt5XPPMzhZ2eOjIwOOU,2208
+xlocust_bigquery-0.0.4.dist-info/LICENSE.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+xlocust_bigquery-0.0.4.dist-info/METADATA,sha256=r7w8Mcy4pIO_V3yFZ-3yeF9soU8jKJPHeelp-qfYXUw,338
+xlocust_bigquery-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xlocust_bigquery-0.0.4.dist-info/top_level.txt,sha256=r5lbRY-_cMQzQ7bJwVWU4pFhFKEAlExbKX4ZHIuXYJQ,17
+xlocust_bigquery-0.0.4.dist-info/RECORD,,
