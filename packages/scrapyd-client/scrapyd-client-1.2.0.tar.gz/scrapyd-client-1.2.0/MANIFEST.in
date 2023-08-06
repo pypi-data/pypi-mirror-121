@@ -1,0 +1,6 @@
+include *.rst
+include LICENSE
+include scrapyd_client/VERSION
+include tox.ini
+recursive-include tests *.py
+exclude .bumpversion.cfg

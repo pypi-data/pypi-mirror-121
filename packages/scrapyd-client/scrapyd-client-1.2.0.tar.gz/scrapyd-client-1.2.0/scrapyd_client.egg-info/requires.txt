@@ -1,0 +1,9 @@
+requests
+scrapy>=0.17
+w3lib
+
+[test]
+pytest
+pytest-console-scripts
+pytest-cov
+pytest-mock
