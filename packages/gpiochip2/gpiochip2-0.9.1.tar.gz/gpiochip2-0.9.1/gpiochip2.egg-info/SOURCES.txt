@@ -1,0 +1,17 @@
+COPYING
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+examples/gpio-hammer.py
+examples/gpio-watch.py
+examples/lsgpio.py
+gpiochip2/__init__.py
+gpiochip2/_version.py
+gpiochip2/linux_gpio.py
+gpiochip2.egg-info/PKG-INFO
+gpiochip2.egg-info/SOURCES.txt
+gpiochip2.egg-info/dependency_links.txt
+gpiochip2.egg-info/requires.txt
+gpiochip2.egg-info/top_level.txt
