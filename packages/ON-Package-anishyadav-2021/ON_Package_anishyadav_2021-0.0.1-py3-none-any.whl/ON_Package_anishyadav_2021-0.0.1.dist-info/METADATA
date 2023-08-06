@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ON-Package-anishyadav-2021
+Version: 0.0.1
+Summary: It is a Simple Neuron Implimentation
+Home-page: https://github.com/anishyadav-2021/ON_Package
+Author: anishyadav-2021
+Author-email: anishyadav1994@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/anishyadav-2021/ON_Package/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdmlogging
+
+# ON_Package
+Package for Perceptron class
+
+
