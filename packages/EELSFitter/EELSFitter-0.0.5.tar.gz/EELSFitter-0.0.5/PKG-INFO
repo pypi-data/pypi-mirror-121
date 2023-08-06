@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: EELSFitter
+Version: 0.0.5
+Summary: Electron Energy Loss Spectroscopy Fitter
+Home-page: https://github.com/LHCfitNikhef/EELSfitter
+Author: A. Brokkelkamp, J.J. ter Hoeve, I. Postmes, L. Maduro, J. Rojo, S. Conesa Boj
+Author-email: j.j.ter.hoeve@vu.nl
+License: UNKNOWN
+Project-URL: Documentation, https://lhcfitnikhef.github.io/EELSfitter
+Platform: UNKNOWN
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EELSFitter Package
+
+This is the EELSFitter package. Please visit the
+[documentation](https://lhcfitnikhef.github.io/EELSfitter/)
+for more instructions and examples.
+
