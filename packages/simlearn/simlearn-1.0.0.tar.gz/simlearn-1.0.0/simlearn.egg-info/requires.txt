@@ -1,0 +1,7 @@
+PyOpenGL
+matplotlib
+numpy
+pyqt5
+pyqt5-sip
+pyqt5-tools
+pyqtgraph
