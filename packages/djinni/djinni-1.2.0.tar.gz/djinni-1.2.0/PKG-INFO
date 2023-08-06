@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: djinni
+Version: 1.2.0
+Summary: Python bindings for djinni
+Home-page: https://github.com/cross-language-cpp/djinni-support-lib
+Author: Harald Achitz
+Author-email: harald.achitz@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cross-language-cpp/djinni-support-lib/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Djinni python bindings
+
+This is the required python clue to make djinni generated python bindings work.
+
+More about djinni, the tool for generating cross-language type declarations and interface bindings: https://djinni.xlcpp.dev
+

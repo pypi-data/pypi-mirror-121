@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/djinni/__init__.py
+src/djinni/exception.py
+src/djinni/pycffi_marshal.py
+src/djinni/support.py
+src/djinni.egg-info/PKG-INFO
+src/djinni.egg-info/SOURCES.txt
+src/djinni.egg-info/dependency_links.txt
+src/djinni.egg-info/top_level.txt
