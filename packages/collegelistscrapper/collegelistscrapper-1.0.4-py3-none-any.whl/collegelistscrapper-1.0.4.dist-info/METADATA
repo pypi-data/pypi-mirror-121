@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: collegelistscrapper
+Version: 1.0.4
+Summary: Turns college Search results into excel file.
+Home-page: UNKNOWN
+Author: Apocryphal
+Author-email: apocryphal.work.923@gmail.com
+License: UNKNOWN
+Keywords: scrapper,colleges,collegelistsscrapper,niche
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: html5lib
+Requires-Dist: xlsxwriter
+
+It turns niche college search into excel or csv
+
+
