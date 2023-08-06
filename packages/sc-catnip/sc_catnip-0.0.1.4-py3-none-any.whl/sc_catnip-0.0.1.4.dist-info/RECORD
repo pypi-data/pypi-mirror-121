@@ -1,0 +1,8 @@
+catnip/__init__.py,sha256=nZ8syR0SThxKmV0Mmd-mf9p_qYtrmrlywY5sNt0959I,14
+catnip/_data/__init__.py,sha256=_-LXGzso1ocuYjDbNDCP-jmT5X_QuXChw_wPzHdvfJc,196
+catnip/_data/_read_10x_h5.py,sha256=lJiJY0q_N6McHO_AiFuZS5kYVY1NygRPB5YyzDFGhjs,1779
+sc_catnip-0.0.1.4.dist-info/LICENSE,sha256=Ff-4VTG-k3DmnDPrOey0wfFniUA6gNWMVvl2ozoPFm8,1072
+sc_catnip-0.0.1.4.dist-info/METADATA,sha256=tiEwNMbQSs8ePnShMctkQ4sZTW1jfxiiPkRTSNK3Pow,1086
+sc_catnip-0.0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sc_catnip-0.0.1.4.dist-info/top_level.txt,sha256=iHQBL8ff_SAimiXCSyTew1qufQ4o82tpOTB8H-KcMPo,7
+sc_catnip-0.0.1.4.dist-info/RECORD,,
