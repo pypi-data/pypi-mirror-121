@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: ssl-metrics-badges
+Version: 0.1
+Summary: SSL Metrics Badges - Custom SVG Metrics Badges
+Home-page: https://ssl.cs.luc.edu/projects/metricsDashboard
+Author: Software and Systems Laboratory - Loyola University Chicago
+Author-email: ssl-metrics@ssl.luc.edu
+License: BSD
+Project-URL: Bug Tracker, https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges/issues
+Project-URL: GitHub Repository, https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges
+Keywords: git,github,software engineering,metrics,software systems laboratory,ssl,loyola,loyola university chicago,luc
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pybadges (>=2.2.1)
+
+# SSL Metrics Badges
+
+> Convert PNG graphs into GitHub compatable badges
+
+[![Publish to PyPi](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges/actions/workflows/pypi.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges/actions/workflows/pypi.yml)
+
+![Example](tests/badge.svg)
+
+## Table of Contents
+
+- [SSL Metrics Badges](#ssl-metrics-badges)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [How to Install](#how-to-install)
+  - [How to Run](#how-to-run)
+    - [Note on Colors](#note-on-colors)
+
+## About
+
+A script to convert graphs (or other `.png` files 😉) into GitHub compatible `.svg` badges.
+
+## How to Install
+
+0. Install `Python 3.9.6 +`
+1. `pip install ssl-metrics-badges`
+
+## How to Run
+
+0. `ssl-metrics-badges -h` to view the command line arguements
+1. `ssl-metrics-badges --graph GRAPH.png --left-color COLOR --left-text "LEFT TEXT" --link URL --output FILE.svg --right-text "RIGHT TEXT" --right-color COLOR --title TITLE`
+
+### Note on Colors
+
+Colors can either be phonetically called (such as **red**, **blue**, or **green**) or through hex codes (#123456).
+
+
