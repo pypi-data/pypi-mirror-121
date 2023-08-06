@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "docusign-integration"
+version = "1.1.0"
+description = ""
+authors = ["nichmorgan-loft <nich.morgan@loft.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+requests-oauthlib = "^1.3.0"
+pydantic = "^1.8.2"
+PyMuPDF = "^1.18.19"
+pydash = "^5.0.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^2.12.1"
+pytest-envvars = "^1.2.1"
+black = "^21.8b0"
+flake8 = "^3.9.2"
+pytest = "^6.2.5"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = "-vv --cov-report=term-missing --cov=docusign_integration"
+pytestenvvars__env_files = [
+    ".test.env",
+]
+markers = [
+    "skip_by_env: marks tests as without required environment variables"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
