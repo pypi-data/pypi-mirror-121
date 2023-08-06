@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rapid-utils
+Version: 0.0.5
+Summary: high level functions
+Home-page: https://github.com/gnaam/rapid-utils
+Author: Namdev Gavle
+Author-email: gavlenamdevprabha@gmail.com
+License: MIT
+Download-URL: https://github.com/gnaam/rapid-utils/archive/v0.0.5.tar.gz
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.22.0)
+
+# rapid-utils
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b836f2a7896544b2a6e8acd368d9828b)](https://app.codacy.com/manual/gavlenamdev/rapid-utils?utm_source=github.com&utm_medium=referral&utm_content=gavlenamdev/rapid-utils&utm_campaign=Badge_Grade_Settings)
+[![PyPI version](https://img.shields.io/pypi/v/rapid-utils.svg)](https://pypi.org/project/rapid-utils/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/rapid-utils.svg)](https://pypi.org/project/rapid-utils/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/rapid-utils.svg)](https://pypistats.org/packages/rapid-utils)
+![Upload Python Package](https://github.com/gnaam/rapid-utils/workflows/Upload%20Python%20Package/badge.svg)
+
