@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: plutotest
+Version: 0.1.1
+Summary: test test test
+Home-page: UNKNOWN
+Author: me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: torch
+Requires-Dist: easyocr
+
+
+TEST TEST TEST
+
