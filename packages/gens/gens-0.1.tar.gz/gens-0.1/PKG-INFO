@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gens
+Version: 0.1
+Summary: Code & token generators
+Home-page: https://github.com/kosyachniy/gens
+Author: Alexey Poloz
+Author-email: polozhev@mail.ru
+License: MIT
+Project-URL: Source, https://github.com/kosyachniy/gens
+Description: # Generators
+        Code & token generators
+        
+        [PyPI](https://pypi.org/project/gens/)
+        
+Keywords: generate,codes,tokens,ids,passwords,generator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
