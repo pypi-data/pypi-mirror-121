@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+objects/__init__.py
+objects/Database/Table.py
+objects/Database/__init__.py
+objects/UML/Class.py
+objects/UML/__init__.py
+pythondia.egg-info/PKG-INFO
+pythondia.egg-info/SOURCES.txt
+pythondia.egg-info/dependency_links.txt
+pythondia.egg-info/requires.txt
+pythondia.egg-info/top_level.txt
