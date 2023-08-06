@@ -1,0 +1,10 @@
+setup.py
+distrib_probab/Binomialdistribution.py
+distrib_probab/Gaussiandistribution.py
+distrib_probab/Generaldistribution.py
+distrib_probab/__init__.py
+distrib_probab.egg-info/PKG-INFO
+distrib_probab.egg-info/SOURCES.txt
+distrib_probab.egg-info/dependency_links.txt
+distrib_probab.egg-info/not-zip-safe
+distrib_probab.egg-info/top_level.txt
