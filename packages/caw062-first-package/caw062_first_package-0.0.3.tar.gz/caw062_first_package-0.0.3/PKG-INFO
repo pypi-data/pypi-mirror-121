@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: caw062_first_package
+Version: 0.0.3
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: Caiwei Wendy Wang
+Author-email: <caw062@ucsd.edu>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+
+My first Python package with a slightly longer description
+
