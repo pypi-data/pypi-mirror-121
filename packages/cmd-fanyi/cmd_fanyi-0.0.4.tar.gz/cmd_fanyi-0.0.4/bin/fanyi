@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+import argparse
+import translate
+
+from translate.baidu import Baidu
+from translate.util.lang import lang_detect, list_supported_lang
+from translate.cache import FileCache, JSONCache
+
+
+def main():
+    DEFAULT_TRANSLATE = 'baidu'
+    DEFAULT_VERBOSE = 0
+
+    parser = argparse.ArgumentParser("Command line translator")
+    parser.add_argument("--text", "-t", metavar="text", type=str, nargs="+", help="Text to be translated", default="")
+    parser.add_argument("--json", "-j", action="store_true", help="Output JSON, independent of verbose parameter")
+    parser.add_argument('--engine', "-e", metavar="E", type=str, nargs='?', default=DEFAULT_TRANSLATE,
+                        help="Specify a translation engine, default: %s" % DEFAULT_TRANSLATE)
+    parser.add_argument('--engines', action='store_true', help='List supported engines')
+    parser.add_argument('--detect', metavar='text', type=str, help='Language detection and exit')
+    parser.add_argument('--trans-from', metavar='F', type=str, nargs='?', default='en',
+                        help='Specify the language to be translated. baidu translator only')
+    parser.add_argument('--trans-to', metavar='T', type=str, nargs='?', default='zh',
+                        help='Specify which language to translate to. baidu translator only')
+    parser.add_argument('--cookie', '-C', metavar='cookie', type=str, help='The cookie for http request, "baidu" ')
+    parser.add_argument('--list', '-L', action='store_true', help='List supported lang and exit')
+    parser.add_argument('--console', '-c', action='store_true', help='open console')
+    parser.add_argument('--verbose', '-v', action="count", help='Verbose')
+    parser.add_argument('--version', '-V', action='version', version='%(prog)s ' + translate.__version__)
+    parser.add_argument('--cache-path', type=str, help='The cache path', default='/tmp/cmdfanyi_cache')
+    parser.add_argument('--no-cache', action='store_true', help='Request without cache', default=False)
+
+    args = parser.parse_args()
+    text = " ".join(args.text)
+    cache_path = '/tmp/cmdfanyi_cache'
+    if args.cache_path:
+        cache_path = args.cache_path
+
+    if not os.path.isdir(cache_path):
+        os.mkdir(cache_path)
+
+    cache = FileCache(cache_path=cache_path)
+    json_cache = JSONCache()
+
+    if args.engines:
+        for engine in translate.factory.translators:
+            print(engine)
+        exit(0)
+
+    if args.detect is True:
+        print(lang_detect(text, args.cookie or ''))
+        sys.exit(0)
+
+    if args.list is True:
+        list_supported_lang()
+        sys.exit(0)
+
+    translator = translate.get_translator(args.engine or DEFAULT_TRANSLATE)
+
+    if isinstance(translator, Baidu) and args.cookie:
+        translator.set_cookie(args.cookie)
+
+    if args.trans_from:
+        translator.set_trans_from(args.trans_from)
+
+    if args.trans_to:
+        translator.set_trans_to(args.trans_to)
+
+    if args.console:
+        translate.console(translator, verbose=(args.verbose or DEFAULT_VERBOSE))
+        sys.exit(0)
+
+    cache_key = text + args.engine
+    if args.json:
+        key = cache_key + 'json'
+        cache_content = json_cache.get(key, False)
+        if not args.no_cache and cache_content:
+            sys.stdout.write(cache_content)
+        else:
+            translator.query(text)
+            op = translator.serialize()
+            json_cache.set(key, op)
+            sys.stdout.write(op)
+    elif args.text:
+        cache_content = cache.get(cache_key)
+        if not args.no_cache and cache_content:
+            print(cache_content.decode('utf8'))
+        else:
+            translator.query(text)
+            cache_content = translator.format(verbose=(args.verbose or DEFAULT_VERBOSE))
+            cache.set(cache_key, cache_content)
+            print(cache_content)
+    else:
+        parser.print_help()
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except KeyboardInterrupt as keywordInterrupt:
+        print("Bey")
+    except EOFError as eofError:
+        print("Bey")
