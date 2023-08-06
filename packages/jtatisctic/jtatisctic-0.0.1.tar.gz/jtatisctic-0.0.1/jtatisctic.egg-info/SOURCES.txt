@@ -1,0 +1,7 @@
+setup.py
+jtatisctic.egg-info/PKG-INFO
+jtatisctic.egg-info/SOURCES.txt
+jtatisctic.egg-info/dependency_links.txt
+jtatisctic.egg-info/top_level.txt
+jtatistic/__init__.py
+jtatistic/dataset.py

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jtatisctic
+Version: 0.0.1
+Summary: data analysis and statictic tools
+Home-page: UNKNOWN
+Author: Javad Salman
+Author-email: aetimpani@yandex.com
+License: UNKNOWN
+Description: jtatistic is a Python module for solving problems relevant to statistic topics.
+Keywords: python,statistic,dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
