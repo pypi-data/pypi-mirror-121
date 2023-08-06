@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gmcache
+Version: 1.0.2
+Summary: 掘金SDK API缓存
+Home-page: https://github.com/yiliuyan161/gmcache
+Author: yiliuyan
+Author-email: yiliuyan161@126.com
+Maintainer: yiliuyan
+Maintainer-email: yiliuyan161@126.com
+License: UNKNOWN
+Keywords: 掘金SDK API缓存
+Platform: all
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: gm
+Requires-Dist: diskcache
+
+UNKNOWN
+
