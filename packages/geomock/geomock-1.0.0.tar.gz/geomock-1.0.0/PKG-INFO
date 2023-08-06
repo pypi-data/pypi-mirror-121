@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: geomock
+Version: 1.0.0
+Summary: '
+License: MIT
+Author: peder2911
+Author-email: pglandsverk@gmail.com
+Requires-Python: >=3.8,<=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Shapely (>=1.7.1,<2.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: shapely-geojson (>=0.0.1,<0.0.2)
