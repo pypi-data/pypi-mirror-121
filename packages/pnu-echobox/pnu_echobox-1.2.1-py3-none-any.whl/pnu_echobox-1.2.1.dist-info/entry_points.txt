@@ -1,0 +1,3 @@
+[console_scripts]
+echobox = echobox:main
+
