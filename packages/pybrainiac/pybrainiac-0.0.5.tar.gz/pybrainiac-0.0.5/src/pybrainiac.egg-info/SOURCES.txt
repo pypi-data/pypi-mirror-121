@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pybrainiac.egg-info/PKG-INFO
+src/pybrainiac.egg-info/SOURCES.txt
+src/pybrainiac.egg-info/dependency_links.txt
+src/pybrainiac.egg-info/top_level.txt
