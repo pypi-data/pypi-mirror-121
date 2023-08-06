@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: UniprotScraper
+Version: 0.3
+Summary: UniprotScraper is a web scraping tool that specialized for Uniprot Database.
+Home-page: https://github.com/TEAM-ENICMA/UniprotScraper
+Author: team_enicma
+Author-email: teamenicma@gmail.com
+License: MIT
+Download-URL: https://github.com/TEAM-ENICMA/UniprotScraper/archive/refs/tags/v0.3.tar.gz
+Keywords: Python,Bioinformatics,WebScraping,ComputationalBiology,Uniprot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+

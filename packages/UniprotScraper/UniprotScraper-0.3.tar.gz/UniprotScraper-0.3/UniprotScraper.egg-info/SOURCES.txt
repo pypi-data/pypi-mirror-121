@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+UniprotScraper/UniprotScraper.py
+UniprotScraper/__init__.py
+UniprotScraper/test.py
+UniprotScraper.egg-info/PKG-INFO
+UniprotScraper.egg-info/SOURCES.txt
+UniprotScraper.egg-info/dependency_links.txt
+UniprotScraper.egg-info/requires.txt
+UniprotScraper.egg-info/top_level.txt

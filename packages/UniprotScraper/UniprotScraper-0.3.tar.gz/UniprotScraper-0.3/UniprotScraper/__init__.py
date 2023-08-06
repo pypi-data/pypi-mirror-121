@@ -1,0 +1,1 @@
+from .UniprotScraper import get_identification, get_accession, get_date, get_description, get_species, get_classification, get_taxonomy_ref, get_information, get_seq_header, get_sequence, get_first_three_aa, get_first_five_aa, get_first_ten_aa, get_aa_content 
