@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tianbot-mini-lib"
+version = "0.1.0"
+description = "A python implementation for driving our mini robot."
+authors = ["TIANBOT DEV Team <dev@tianbot.com>"]
+
+[tool.poetry.dependencies]
+python = ">=2.7,<3.0.0 || >=3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"

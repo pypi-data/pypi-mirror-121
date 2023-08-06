@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tianbot-mini-lib
+Version: 0.1.0
+Summary: A python implementation for driving our mini robot.
+Author: TIANBOT DEV Team
+Author-email: dev@tianbot.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
