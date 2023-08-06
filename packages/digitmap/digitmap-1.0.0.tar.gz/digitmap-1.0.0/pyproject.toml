@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "digitmap"
+version = "1.0.0"
+description = "Package for working with digit maps - a syntax for indicating the sequence of digits that define a valid and complete dialing attempt by a VoIP telephone user."
+license = "MIT"
+authors = ["Gary DeReese <garydereese@sbcglobal.net>"]
+readme = "README.md"
+repository = "https://github.com/gdereese/digitmap"
+keywords = ["digit-map", "parser", "telephony", "voip"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lark = "^0.11.3"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.10.2"
+pytest = "^6.2.5"
+
+[tool.poetry.urls]
+"Issues" = "https://github.com/gdereese/digitmap/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
