@@ -1,0 +1,9 @@
+py_path_signature/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_path_signature/data_models/basic.py,sha256=yfhRRcp4oj6cBXYkfvkkWTazS2Wtq-T4O7puxqPdm80,164
+py_path_signature/data_models/error_messages.py,sha256=5O2PFFTz4hAtqBIpqi2fsxJTOfYaLjk5EFoaOWuDGPY,186
+py_path_signature/data_models/stroke.py,sha256=vTXhBx5UxZi0ZUBr-8HaKkwkBm0R7aRiUBmb6pT42Bg,1152
+py_path_signature/path_signature_extractor.py,sha256=nn7vu_tiboH1Bp86i4pVAP28Wc4tUBdirI1xiMGUCsM,11847
+py_path_signature-210927.5.dist-info/LICENSE,sha256=8sM6X5ycg1GivCjr-oJ7NGKGjDvp4CaqM1_5CwgZRZg,1077
+py_path_signature-210927.5.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+py_path_signature-210927.5.dist-info/METADATA,sha256=nhPaIq8Bp9zw14HSqiyxEkkQWwMvKU8jlBnM08q0vic,372
+py_path_signature-210927.5.dist-info/RECORD,,
