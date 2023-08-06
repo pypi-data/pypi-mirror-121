@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PERCEPTRON_NAV-NAVANEETHELITE
+Version: 0.0.1
+Summary: PERCEPTRON FROM SCRATCH
+Home-page: https://github.com/NAVANEETHELITE/PERCEPTRON_NAV
+Author: NAVANEETHELITE
+Author-email: navaneethanselvakumar@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/NAVANEETHELITE/PERCEPTRON_NAV/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PERCEPTRON_PYPI
+- Implementation of PERCEPTRON
+- This package was deployed to PYPI
+
+

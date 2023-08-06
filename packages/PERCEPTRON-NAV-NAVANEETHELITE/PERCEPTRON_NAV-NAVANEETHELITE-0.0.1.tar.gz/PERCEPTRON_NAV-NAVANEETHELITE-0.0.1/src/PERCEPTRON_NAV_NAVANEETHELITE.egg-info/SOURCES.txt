@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/PERCEPTRON_NAV_NAVANEETHELITE.egg-info/PKG-INFO
+src/PERCEPTRON_NAV_NAVANEETHELITE.egg-info/SOURCES.txt
+src/PERCEPTRON_NAV_NAVANEETHELITE.egg-info/dependency_links.txt
+src/PERCEPTRON_NAV_NAVANEETHELITE.egg-info/requires.txt
+src/PERCEPTRON_NAV_NAVANEETHELITE.egg-info/top_level.txt
+src/one_neuron/__init__.py
+src/one_neuron/all_utils.py
+src/one_neuron/perceptron.py
