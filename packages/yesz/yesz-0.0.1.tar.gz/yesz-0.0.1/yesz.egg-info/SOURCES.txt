@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+yesz.egg-info/PKG-INFO
+yesz.egg-info/SOURCES.txt
+yesz.egg-info/dependency_links.txt
+yesz.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yesz
+Version: 0.0.1
+Summary: 格式化打印
+Home-page: https://gitee.com/ysz8375/ysz
+Author: Ye Shengze
+Author-email: 1691178915@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+调用此方法可以格式化打印"
+
