@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: OneNeuron-pypi-KarthikArumugam3
+Version: 0.0.1
+Summary: It's an implementation of perceptron
+Home-page: https://github.com/KarthikArumugam3/OneNeuron_pypi
+Author: KarthikArumugam3
+Author-email: karthik131100@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/KarthikArumugam3/OneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+# OneNeuron_pypi
+OneNeuron_pypi
+
+
