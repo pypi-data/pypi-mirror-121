@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: simplemailsender
+Version: 0.3.0
+Summary: A simple mail sender.
+Home-page: https://github.com/aburgoscimne/simplemailsender
+Author: Alberto Burgos Plaza
+Author-email: albertoburgosplaza@gmail.com
+License: Apache
+Keywords: e-mail
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing-extensions (==3.7.4.3)
+Provides-Extra: dev
+Requires-Dist: black (==21.9b0) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: ipykernel (==5.5.5) ; extra == 'dev'
+Requires-Dist: ipython (==7.16.1) ; extra == 'dev'
+Requires-Dist: isort (==5.9.3) ; extra == 'dev'
+Requires-Dist: jedi (==0.18.0) ; extra == 'dev'
+Requires-Dist: jupyter-client (==7.0.2) ; extra == 'dev'
+Requires-Dist: jupyter-core (==4.7.1) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'dev'
+Requires-Dist: pyflakes (==2.3.1) ; extra == 'dev'
+Requires-Dist: pylint (==2.10.2) ; extra == 'dev'
+
+# Simple Mail Sender
+A simple mail sender.
+
+## Usage
+```python
+from simplemailsender.simplemailsender import SimpleMailSender
+
+sms = SimpleMailSender("<SMTP Server>", "<SMTP Port>", "<SSL or TLS>", "<User>", "<Password>")
+
+sms.send(
+    "<Sender e-mail>",
+    ["<Recipients e-mail>"],
+    "<Subject>",
+    "<Message body>",
+    "<Path to attachment>"
+)
+
