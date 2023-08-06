@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyporter
+setup.py
+pyporter.egg-info/PKG-INFO
+pyporter.egg-info/SOURCES.txt
+pyporter.egg-info/dependency_links.txt
+pyporter.egg-info/top_level.txt
