@@ -1,0 +1,137 @@
+import curses
+import todotxtio
+import os
+from os.path import expanduser
+
+home = expanduser("~")
+todotxt = home+'/todo.txt'
+
+def write(task: todotxtio.Todo):
+    global todotxt
+    todotxtio.to_file(todotxt, tasks)
+
+def switch_priority(task: todotxtio.Todo):
+    prioritys = [None, 'A', 'B', 'C']
+    i = prioritys.index(task.priority)
+    if i < len(prioritys) -1: i += 1
+    else: i = 0
+    task.priority = prioritys[i]
+    sort_tasks()
+    
+def done(task: todotxtio.Todo):
+    task.completed = True
+    sort_tasks()
+
+def sort_tasks():
+    global tasks
+    finished = []
+    unfinished = []
+    for task in tasks:
+        if task.completed:
+            finished.append(task)
+        else:
+            unfinished.append(task)
+    unfinished_p = []
+    for task in unfinished:
+        if task.priority == 'A':
+            unfinished_p.append(task)
+    for task in unfinished:
+        if task.priority == 'B':
+            unfinished_p.append(task)
+    for task in unfinished:
+        if task.priority == 'C':
+            unfinished_p.append(task)
+    for task in unfinished:
+        if task.priority == None:
+            unfinished_p.append(task)
+    tasks = unfinished_p + finished
+
+def get_input(win: 'curses._CursesWindow', prompt: str):
+    curses.echo()
+    y, x = win.getmaxyx()
+    win.addstr(1, 1, prompt)
+    input = win.getstr(1, len(prompt) + 2).decode()
+    win.addstr(1, 1, ' '*x)
+    curses.noecho()
+    return input
+
+def c_main(stdscr: 'curses._CursesWindow'):
+    stdscr.keypad(True)
+    stdscr.nodelay(0)
+    curses.noecho()
+    stdscr.refresh()
+
+    y, x = stdscr.getmaxyx()
+    task_index = 0
+    key = None
+    win1 = curses.newwin(y-3, x, 0, 0)
+    win2 = curses.newwin(3, x, y-3, 0)
+
+    while key != ord('q'):
+        tasks_count = len(tasks)
+
+        if task_index < 0:
+            task_index = tasks_count - 1
+        elif task_index > tasks_count -1:
+            task_index = 0
+
+        if tasks_count > 0: selected_task = tasks[task_index]
+        else: selected_task = None
+
+        ##### RENDERING
+        win1.clear()
+        win2.clear()
+        
+        for index, task in enumerate(tasks):
+            win1.insstr(
+                index+1, 1, f"({'-' if task.priority == None else task.priority}) [{ 'x' if task.completed else ' '}] {task.text}")
+
+        # HIGHLIGHT SELECTED TASK
+        win1.chgat(task_index+1, 1, curses.A_STANDOUT)
+
+        win1.border(0)
+        win2.border(0)
+        win1.refresh()
+        win2.refresh()
+
+        ###### HANDLE KEYS
+        key = stdscr.getch()
+        if key == ord('a'):
+            text = get_input(win2, 'ADD: Enter task name = ')
+            if text != '':
+                newtask = todotxtio.Todo(
+                    text=text,
+                    completed=False,
+                    priority = None, 
+                )
+                tasks.append(newtask)
+            sort_tasks()
+
+        elif key == ord('j') or key == 258: # DOWN
+            task_index += 1
+        elif key == ord('k') or key == 259: #UP
+            task_index -= 1
+        elif key == ord('d'): # MARK AS DONE/UNDONE
+            done(selected_task)
+        elif key == ord('r'): # REMOVE TASK
+            if selected_task:
+                del tasks[task_index]
+                task_index -= 1
+        elif key == ord('w'): # WRITE CHANGE TO FILE
+            write(tasks)
+        elif key == ord('e'): # EDIT PRIORITY
+            switch_priority(selected_task)
+            
+    write(tasks)
+    return
+
+def main():
+    global tasks
+    if not os.path.exists(todotxt):
+        open(todotxt, 'w').close()
+    tasks = todotxtio.from_file(todotxt)
+    sort_tasks()
+    return curses.wrapper(c_main)
+
+if __name__ == '__main__':
+    exit(main()) 
