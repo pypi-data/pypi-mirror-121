@@ -1,0 +1,15 @@
+LICENSE
+LICENSE.ocs
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Source/oceanscript/__init__.py
+Source/oceanscript/__main__.py
+Source/oceanscript/errors.py
+Source/oceanscript.egg-info/PKG-INFO
+Source/oceanscript.egg-info/SOURCES.txt
+Source/oceanscript.egg-info/dependency_links.txt
+Source/oceanscript.egg-info/entry_points.txt
+Source/oceanscript.egg-info/top_level.txt
