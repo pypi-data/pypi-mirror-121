@@ -1,0 +1,15 @@
+md_dihedrals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+md_dihedrals/__pkginfo__.py,sha256=D2YJxwVYm1HFbuFbPrEFMJPGgqMbP1iP3iur97Csa8c,670
+md_dihedrals/dihedrals_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+md_dihedrals/dihedrals_analysis/histogram.py,sha256=vN8mmuPaXFpluEhRNKkHV6XE6XdiZng2LUDIOZQc7gM,849
+md_dihedrals/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+md_dihedrals/gui/main_window.py,sha256=GXvQXzm68sraLjkSsgq3602y-zD8dUIYO0U0mkLoz9o,7883
+md_dihedrals/readers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+md_dihedrals/readers/dihedrals_file.py,sha256=PJ3loDLlp1Mh-VUiN1BHrPhpINVQZkdVj_Ahav5oM6E,988
+md_dihedrals/readers/xvg_reader.py,sha256=vRfJb3utlmfhitCtg7PZ_0sEfBmfn0jeC3LtYndg3jU,686
+md_dihedrals-0.0.5.data/scripts/md_dihedrals,sha256=HVFsIC6kAIDZ-0TEj4Z3gib_fP3kEJl4SW03guOvvrk,238
+md_dihedrals-0.0.5.dist-info/LICENSE,sha256=EqxQR_KvBSLwZ5ixWJ_8RZm8KckflU14dOAyBjTnd8A,35122
+md_dihedrals-0.0.5.dist-info/METADATA,sha256=85gGOTmsOskYgeR2DG5UpkSj4SdZKCnkbg6zyz_rdsQ,509
+md_dihedrals-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+md_dihedrals-0.0.5.dist-info/top_level.txt,sha256=jU03p_oIEtsuStkeMGnz3O5U26d1IU6p0AsyNKAnZQs,13
+md_dihedrals-0.0.5.dist-info/RECORD,,

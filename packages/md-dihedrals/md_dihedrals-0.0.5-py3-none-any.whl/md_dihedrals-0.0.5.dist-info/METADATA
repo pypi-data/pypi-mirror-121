@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: md-dihedrals
+Version: 0.0.5
+Summary: Ramachandran plot for gromacs MD trajectories
+Home-page: UNKNOWN
+Author: E.C. Pellegrini
+Author-email: ericpellegrini76@gmail.com
+Maintainer: E.C. Pellegrini
+Maintainer-email: ericpellegrini76@gmail.com
+License: GPL 3
+Platform: Unix
+Platform: Windows
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: PyQt5
+
+md_dihedrals is a program for displaying the Ramachandran plots for a given residue during the course of a MD trajectory.
+
+
