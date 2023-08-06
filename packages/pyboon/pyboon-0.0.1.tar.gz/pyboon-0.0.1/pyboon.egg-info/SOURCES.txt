@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+pyboon.egg-info/PKG-INFO
+pyboon.egg-info/SOURCES.txt
+pyboon.egg-info/dependency_links.txt
+pyboon.egg-info/requires.txt
+pyboon.egg-info/top_level.txt
