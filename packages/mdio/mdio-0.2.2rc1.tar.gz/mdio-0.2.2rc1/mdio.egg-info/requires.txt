@@ -1,0 +1,5 @@
+six
+numpy
+cython
+netCDF4
+pyparsing
