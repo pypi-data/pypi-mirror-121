@@ -1,0 +1,4 @@
+fe25519~=1.0.0
+parts~=1.1.2
+bitlist~=0.5.1
+fountains~=1.1.1
