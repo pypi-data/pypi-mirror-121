@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: statgentools
+Version: 0.1
+Summary: An ecosystem of tools for statistical genetics
+Home-page: UNKNOWN
+Author: statgentools team
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: pypi
+License-File: LICENSE
+License-File: COPYING
+
+# StatGenTools
+
+An ecosystem of tools for statistical genetics
+
+
