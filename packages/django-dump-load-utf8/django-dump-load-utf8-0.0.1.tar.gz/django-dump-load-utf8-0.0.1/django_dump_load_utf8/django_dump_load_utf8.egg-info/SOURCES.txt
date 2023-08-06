@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+django_dump_load_utf8/django_dump_load_utf8.egg-info/PKG-INFO
+django_dump_load_utf8/django_dump_load_utf8.egg-info/SOURCES.txt
+django_dump_load_utf8/django_dump_load_utf8.egg-info/dependency_links.txt
+django_dump_load_utf8/django_dump_load_utf8.egg-info/top_level.txt
+django_dump_load_utf8/management/__init__.py
+django_dump_load_utf8/management/commands/__init__.py
+django_dump_load_utf8/management/commands/dumpdatautf8.py
+django_dump_load_utf8/management/commands/loaddatautf8.py
+django_dump_load_utf8/migrations/__init__.py
