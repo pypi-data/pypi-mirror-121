@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: finite-groups
+Version: 0.0.2
+Summary: Finite Groups Computations
+Home-page: UNKNOWN
+Author: Cris Torres
+Author-email: cristobal_javier@hotmail.com
+License: MIT License
+Project-URL: GitHub, https://github.com/CrisLeaf/finite-groups
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![PypiVersion](https://img.shields.io/pypi/v/finite-groups?color=blue)
+![PythonVersion](https://img.shields.io/pypi/pyversions/finite-groups)
+![Downloads](https://img.shields.io/pypi/dm/finite-groups)
+![Size](https://img.shields.io/github/repo-size/CrisLeaf/finite-groups?color=green)
+
+# Finite-Groups
+**Finite-Groups** is a Python package for finite groups computations.
+
+Author email: [Cris](mailto:cristobal_javier@hotmail.com)
+
+Dependencies
+------------
+- Python (>= 3.9)
+- NumPy (>=1.19.5)
+
+Installation
+------------
+On the terminal run:
+
+    pip install finite-groups
+
+
+Source Code
+-----------
+To get the latest code sources run:
+
+    git clone https://github.com/CrisLeaf/finite-groups
+
+
+Updates
+-------
+- [X] PermutationGroup class.
+- [ ] Action class.
+- [ ] Representation class.
+- [ ] Documentation page.
+
+
+Support
+-------
+Give a :star: if you like this project :hugs:.
+
