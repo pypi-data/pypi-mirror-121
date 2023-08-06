@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cjg-pkg
+Version: 1.0.2
+Summary: A small example package
+Home-page: https://github.com/chenjigang4167
+Author: jigang.chen
+Author-email: 15252162668@163.com
+License: MIT License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+
+**自动生成测试用例**
+- 原理：通过itertools.product获取指定迭代对象的笛卡尔积
+- 功能：自动生成测试用例，统计生成的用例数量
+
