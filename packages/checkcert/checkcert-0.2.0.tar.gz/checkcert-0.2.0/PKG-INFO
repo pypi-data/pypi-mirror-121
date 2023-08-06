@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: checkcert
+Version: 0.2.0
+Summary: CLI to check tls cert information and determine validity
+Home-page: https://github.com/kellya/checkcert
+License: MIT
+Author: Alex Kelly
+Author-email: kellya@arachnitech.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: pyOpenSSL (>=21.0.0,<22.0.0)
+Description-Content-Type: text/markdown
+
+# checkcert
+
+This utility was based off of [this
+gist](https://gist.github.com/gdamjan/55a8b9eec6cf7b771f92021d93b87b2c).
+
+I have wrapped the logic in a click-based CLI and added command-line options
+(checkcert --help to see them)
+
+# Installation
+
+## from PyPi
+pip install checkert
+
+
