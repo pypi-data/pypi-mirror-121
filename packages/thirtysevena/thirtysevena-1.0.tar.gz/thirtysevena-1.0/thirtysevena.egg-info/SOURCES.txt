@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+thirtysevena/__init__.py
+thirtysevena.egg-info/PKG-INFO
+thirtysevena.egg-info/SOURCES.txt
+thirtysevena.egg-info/dependency_links.txt
+thirtysevena.egg-info/requires.txt
+thirtysevena.egg-info/top_level.txt
