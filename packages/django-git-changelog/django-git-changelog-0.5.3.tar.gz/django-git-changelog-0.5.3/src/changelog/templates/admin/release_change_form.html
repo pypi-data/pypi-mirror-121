@@ -1,0 +1,28 @@
+{% extends 'admin/change_form.html' %}
+{% load i18n %}
+
+{% block submit_buttons_bottom %}
+  <fieldset class="module aligned ">
+    {% for commit in original.commits.all %}
+    <div class="form-row">
+      <div>
+        <div class="readonly">
+          {% autoescape on %}
+            {{ commit.stat | linebreaksbr }}
+          {% endautoescape %}
+        </div>
+        <label>
+          <a href="{% url 'admin:changelog_commit_change' commit.id %}" class="default">details</a>
+        </label>
+      </div>
+    </div>
+    {% endfor %}
+  </fieldset>
+  <hr />
+  {{ block.super }}
+  {% if send_button_enabled %}
+    <div class="submit-row">
+        <input type="submit" value="{% trans 'Send' %}" name="send">
+    </div>
+  {% endif %}
+{% endblock %}

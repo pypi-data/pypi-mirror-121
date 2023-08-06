@@ -1,0 +1,4 @@
+include *.md
+include VERSION
+include tests/*
+recursive-include src/changelog/templates *.html
