@@ -1,0 +1,8 @@
+README.md
+setup.py
+SimpleGL.egg-info/PKG-INFO
+SimpleGL.egg-info/SOURCES.txt
+SimpleGL.egg-info/dependency_links.txt
+SimpleGL.egg-info/top_level.txt
+simple_gl/__init__.py
+simple_gl/utils.py
