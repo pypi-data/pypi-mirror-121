@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: vineetb-walrus
+Version: 0.2.0
+Summary: A great package
+Home-page: https://github.com/vineetbansal/walrus.git
+Author: Vineet Bansal
+Author-email: vineetb@princeton.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: numpydoc ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinxcontrib-bibtex (<2.0.0) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+[![Main](https://github.com/vineetbansal/walrus/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/vineetbansal/walrus/actions/workflows/main.yml)
+
+## walrus
+
+This package demonstrates some of the techniques we learnt in the Python Packaging Workshop
+
+
