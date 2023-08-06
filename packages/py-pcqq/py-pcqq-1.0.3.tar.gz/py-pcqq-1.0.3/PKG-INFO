@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-pcqq
+Version: 1.0.3
+Summary: 一个使用pcqq协议的简易python qqbot库
+Home-page: https://github.com/DawnNights/py-pcqq
+Author: DawnNights
+Author-email: 2224825532@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+Python语言PCQQ协议的简单封装，详情请参考本人博客中的\ `这篇帖子 <http://blog.yeli.work/2021/09/11/py-pcqq/>`__
+
+
