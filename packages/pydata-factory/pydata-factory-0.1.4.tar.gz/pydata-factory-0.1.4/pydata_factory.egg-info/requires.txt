@@ -1,0 +1,12 @@
+factory-boy
+pandas
+psycopg2
+pyarrow
+sqlalchemy
+
+[dev]
+factory-boy
+pandas
+psycopg2
+pyarrow
+sqlalchemy
