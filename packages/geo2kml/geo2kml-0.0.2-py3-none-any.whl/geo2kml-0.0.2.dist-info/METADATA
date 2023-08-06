@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: geo2kml
+Version: 0.0.2
+Summary: A package to convert geojson to kml
+Home-page: https://github.com/peterlv8/geo2kml
+Author: Peter LV
+Author-email: peterlvpy@gmail.com
+License: License :: OSI Approved :: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+
+geo2kml
+~~~~~~~
+
+Convert geoJson to KML format. Port from https://github.com/mapbox/tokml
+
+Installation
+============
+``pip3 install geo2kml``
+
+Usage
+=====
+
+  from geo2kml import to_kml
+
+  kml_str = to_kml(geojson)
+
+
