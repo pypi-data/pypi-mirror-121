@@ -1,0 +1,12 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/rot13.6.gz
+src/pnu_rot13.egg-info/PKG-INFO
+src/pnu_rot13.egg-info/SOURCES.txt
+src/pnu_rot13.egg-info/dependency_links.txt
+src/pnu_rot13.egg-info/entry_points.txt
+src/pnu_rot13.egg-info/top_level.txt
+src/rot13/__init__.py
+src/rot13/main.py
