@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: test-override
+Version: 0.0.3
+Summary: Test override
+Home-page: UNKNOWN
+Author: Linets Development Team
+Author-email: cxasper23@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Test override
+
+
