@@ -1,0 +1,8 @@
+badfiles/__init__.py,sha256=HKhATb6vuZuaeYBGN8m4WhhX8NUp7hBpupncINsqFJE,131
+badfiles/badfiles.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+badfiles/cli.py,sha256=KyhfTBSzBc_BGXSSeHXnjFiUVlb3prVnjuf5AXX4VeM,314
+badfiles-0.1.0.dist-info/entry_points.txt,sha256=S5KPVMGqOuegVSKesaZarWEc-MDsbbD6Eix1JDHsxqw,46
+badfiles-0.1.0.dist-info/LICENSE,sha256=iqcBNgbRrUxciwP-o7Hl_h_yIMESE864g46Ur90Ujf8,586
+badfiles-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+badfiles-0.1.0.dist-info/METADATA,sha256=OrJ_0kzxlBzBts1Dcs3ZogJuhDbdSU2hd3B2mOc2fT0,2972
+badfiles-0.1.0.dist-info/RECORD,,
