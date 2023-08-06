@@ -1,0 +1,14 @@
+gensim
+languagecodes
+touch
+unidecode
+sphinx_rtd_theme
+parameterized
+fake_useragent
+nltk
+rdflib
+requests
+beautifulsoup4
+banal
+xlsxwriter
+bs4
