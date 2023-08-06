@@ -1,0 +1,11 @@
+dexter/__init__.py,sha256=vMENgp8ngRBQA5chPV6Cj4kov_o5V4_V_cvc1I_3h8w,177
+dexter/display.py,sha256=qYnudC1RdA2dpMml2ywh4jH1b_x52sJzBFZKIsjxIh4,970
+dexter/framelist.py,sha256=KPoSazyuk3QrUggCz6cz1PcRq983EyTqr65zBi-FdvA,560
+dexter/framemap.py,sha256=MQX7PpHcyRHKIPPX3qIu7nrlZeg84Sq9PYFt0RltqSo,17743
+dexter/optimizer.py,sha256=iSdOd84h0Zp9vYjEFV1WiR3cZIkm3kOFbfPfH4zFXUo,1435
+dexter/readmultiple.py,sha256=JXQBnLHerY4d9uidWoAR-Ygpi1P9j3cG3uafIzb9uBQ,9384
+dexter-0.0.7.dist-info/LICENSE.txt,sha256=OjzyBhaYRbl9ZeE-2mUCrIWTu0i0-PgJd3Odp2T6wQE,1533
+dexter-0.0.7.dist-info/METADATA,sha256=oeHN1uk55MSvM3tRhzZ5Mo85wGltE-vCuK8JrO_l3uQ,4152
+dexter-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dexter-0.0.7.dist-info/top_level.txt,sha256=R22PMpsUyiGvQAMghJpjUwr_3IKXEwNP_icHbiRlIg8,7
+dexter-0.0.7.dist-info/RECORD,,
