@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bow_mnb/__init__.py
+src/bow_mnb/mnb.py
+src/bow_mnb.egg-info/PKG-INFO
+src/bow_mnb.egg-info/SOURCES.txt
+src/bow_mnb.egg-info/dependency_links.txt
+src/bow_mnb.egg-info/top_level.txt
