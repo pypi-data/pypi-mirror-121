@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/pydl_dschoerk.egg-info/PKG-INFO
+src/pydl_dschoerk.egg-info/SOURCES.txt
+src/pydl_dschoerk.egg-info/dependency_links.txt
+src/pydl_dschoerk.egg-info/requires.txt
+src/pydl_dschoerk.egg-info/top_level.txt
