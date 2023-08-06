@@ -1,0 +1,1 @@
+Mancala basic functions

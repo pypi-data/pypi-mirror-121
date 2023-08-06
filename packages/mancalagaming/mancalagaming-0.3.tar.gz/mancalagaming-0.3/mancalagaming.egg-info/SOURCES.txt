@@ -1,0 +1,10 @@
+README.md
+setup.py
+mancalagaming/__init__.py
+mancalagaming/global_functions.py
+mancalagaming/tmp.py
+mancalagaming.egg-info/PKG-INFO
+mancalagaming.egg-info/SOURCES.txt
+mancalagaming.egg-info/dependency_links.txt
+mancalagaming.egg-info/not-zip-safe
+mancalagaming.egg-info/top_level.txt
