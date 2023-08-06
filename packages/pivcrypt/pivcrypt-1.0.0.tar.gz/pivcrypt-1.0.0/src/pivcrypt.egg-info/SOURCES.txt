@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pivcrypt/__init__.py
+src/pivcrypt/__main__.py
+src/pivcrypt/fido_applet.py
+src/pivcrypt.egg-info/PKG-INFO
+src/pivcrypt.egg-info/SOURCES.txt
+src/pivcrypt.egg-info/dependency_links.txt
+src/pivcrypt.egg-info/entry_points.txt
+src/pivcrypt.egg-info/requires.txt
+src/pivcrypt.egg-info/top_level.txt
