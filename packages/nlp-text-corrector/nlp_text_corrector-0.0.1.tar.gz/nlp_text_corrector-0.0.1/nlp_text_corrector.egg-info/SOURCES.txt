@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nlp_text_corrector/__init__.py
+nlp_text_corrector/asr_post_process.py
+nlp_text_corrector.egg-info/PKG-INFO
+nlp_text_corrector.egg-info/SOURCES.txt
+nlp_text_corrector.egg-info/dependency_links.txt
+nlp_text_corrector.egg-info/top_level.txt
