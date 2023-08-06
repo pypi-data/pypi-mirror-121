@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: uttl.buildout
+Version: 1.2.0
+Summary: Utilities for Buildout developed for Up There They Love.
+Home-page: https://github.com/MrHands/uttl-buildout
+Author: Mr. Hands
+Author-email: mrhands31@gmail.com
+License: MIT-0
+Keywords: buildout extension uttl cmake qmake qt copyfile version
+Platform: UNKNOWN
+Classifier: Framework :: Buildout
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT No Attribution License (MIT-0)
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+uttl.buildout
+=============
+
+Utilities for [zc.buildout](buildout.org/) as developed for *Up There They Love*.
+
+# Usage
+
+The `uttl.buildout` package will be automatically installed from [PyPi](https://pypi.org/project/uttl.buildout/) when you use it in your buildout configuration.
+
+    [buildout]
+    parts =
+        devenv
+        game
+
+    # find devenv executable from visual studio path
+
+    [devenv]
+    recipe = uttl.buildout:versioncheck
+    required-major = 2017
+    required-minor = 15
+    body = ... path = None
+        ... args = [ 
+        ...   r'%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe',
+        ...   '-version',
+        ...   '%s.0' % (self.options['required-minor']),
+        ...   '-property',
+        ...   'installationPath'
+        ... ]
+        ...
+        ... try:
+        ...   with subprocess.Popen(args, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT) as proc:
+        ...     for line in iter(proc.stdout.readline, b''):
+        ...       path = os.path.abspath(str(line.rstrip(), encoding='ascii'))
+        ...       break
+        ... except FileNotFoundError:
+        ...   self.log.error('Visual Studio is not installed.')
+        ...   return (False, 0, 0, 0, '')
+        ...
+        ... if not path:
+        ...   self.log.error('Cannot find Visual Studio executable.')
+        ...   return (False, 0, 0, 0, '')
+        ...
+        ... path = os.path.abspath(path + r'\Common7\IDE\devenv.com')
+        ... if not os.path.exists(path):
+        ...   self.log.error('Failed to find path to devenv.')
+        ...   return (False, 0, 0, 0, '')
+        ...
+        ... return (True, self.options['required-major'], self.options['required-minor'], 64, path)
+
+    # build game executable
+
+    [game]
+    recipe = uttl.buildout:devenv
+    executable = ${devenv:path}
+    solution = SSSG.sln
+    project = SSSG
+    build = Release
+
+You can also clone the repository and use it directly as a package of recipes:
+
+    [buildout]
+    develop = C:\Downloads\uttl-buildout
+
+# Recipes
+
+The following recipes (scripts) for `zc.buildout` are available in this package:
+
+* [uttl.buildout.cmake](uttl/buildout/cmake/README.md) - Run CMake commands
+* [uttl.buildout.command](uttl/buildout/README.md) - Run an executable with arguments
+* [uttl.buildout.copyfile](uttl/buildout/copyfile/README.md) - Copy files between directories
+* [uttl.buildout.devenv](uttl/buildout/devenv/README.md) - Build projects with Visual Studio
+* [uttl.buildout.dotnet.restore](uttl/buildout/dotnet/restore/README.md) - Restore .NET packages
+* [uttl.buildout.inklecate](uttl/buildout/inklecate/README.md) - Compile .ink files to JSON
+* [uttl.buildout.qmake](uttl/buildout/qmake/README.md) - Run QMake commands
+* [uttl.buildout.qtdeploy](uttl/buildout/qtdeploy/README.md) - Deploy Qt libraries
+* [uttl.buildout.versioncheck](uttl/buildout/versioncheck/README.md) - Get versioned executables
+
+Check the source folders for detailed documentation about each recipe.
+
+# Building from source
+
+Check that you're running at least Python 3.9:
+
+    D:\Projects\uttl-buildout>python --version
+    Python 3.9.5
+
+Build and install egg on system:
+
+    python setup.py install
+
+Create egg in `dist/` folder:
+
+    python setup.py bdist_egg
+
+Install on your system using `easy_install`:
+
+    python -m easy_install -a dist\uttl_buildout-1.0.0-py3.9.egg
+
+Upload packaged egg to repository:
+
+    python -m twine upload --repository pypi dist/*
+# Changes
+
+## 1.2.0
+
+* All: Added optional artefacts and arguments options
+* CMake: Made the path to source option mandatory to prevent user error
+* Command: New recipe for calling executables
+* CopyFile: Install files before copying them
+
+## 1.1.0
+
+* All: Changed all options from snake_case to kebab-case
+* DotnetRestore: New recipe for invoking dotnet commands
+* CMake: Fixed source path option
+* CMake: Made target option a synonym for targets
+* CopyFile: Copies files if they do not exist or if they were modified
+* CopyFile: Added documentation
+* Devenv: Cleaned up script
+* Devenv: Added documentation
+* QMake: Fixed files option throwing an error
+* QMake: Expanded documentation
+* QMake: Fixed typos in documentation
+
+## 1.0.0
+
+* Initial release
+
