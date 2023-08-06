@@ -1,0 +1,5 @@
+[console_scripts]
+unogenerator_daemon_start = unogenerator.daemon:daemon_start
+unogenerator_daemon_stop = unogenerator.daemon:daemon_stop
+unogenerator_demo = unogenerator.demo:main
+
