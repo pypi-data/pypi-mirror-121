@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: stackmorelayers
+Version: 0.0.3
+Summary: My personal ML library
+Home-page: https://github.com/andrewsonin/stackmorelayers
+License: MIT
+Author: Andrew Sonin
+Author-email: sonin.cel@yandex.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: catboost (>=0.26.1,<0.27.0)
+Requires-Dist: lightgbm (>=3.2.1,<4.0.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numpy (>=1.21,<2.0)
+Requires-Dist: pandas (>=1.3.3,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0,<2.0)
+Requires-Dist: statsmodels (>=0.12.2,<0.13.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Project-URL: Repository, https://github.com/andrewsonin/stackmorelayers
