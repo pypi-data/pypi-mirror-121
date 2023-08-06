@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: eth-sign
+Version: 0.1.0
+Summary: A Python library for transection signing using AWS Key Management Service.
+Home-page: https://github.com/sejpalkalpesh/eth-signer
+Author: Kalpesh Sejpal
+Author-email: sejpalkalpesh@gmail.com
+License: MIT
+Description: # eth-signer
+        A Python library for transection signing using AWS Key Management Service.
+Keywords: ethereum AWS KMS,
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: eth-signer
+Provides-Extra: lint
+Provides-Extra: test

@@ -1,0 +1,12 @@
+README.md
+setup.py
+eth_sign.egg-info/PKG-INFO
+eth_sign.egg-info/SOURCES.txt
+eth_sign.egg-info/dependency_links.txt
+eth_sign.egg-info/not-zip-safe
+eth_sign.egg-info/requires.txt
+eth_sign.egg-info/top_level.txt
+eth_signer/__init__.py
+eth_signer/signer.py
+eth_signer/utils/__init__.py
+eth_signer/utils/ecdsa.py
