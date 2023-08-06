@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: doctable
+Version: 0.9.3
+Summary: Simple database interface for text analysis applications.
+Home-page: https://github.com/devincornell/doctable
+Author: Devin J. Cornell
+Author-email: devinj.cornell@gmail.com
+License: MIT
+Download-URL: https://github.com/devincornell/doctable/archive/v0.9.3.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+
+# DocTable Python Package
+
+Document database interface for text analysis.
+
+See the [doctable website](https://devinjcornell.com/doctable/) for documentation and examples.
+
+Created by [Devin J. Cornell](https://devinjcornell.com).
+
+
+### Thanks
+
+The setup of this package was created following [this guide](https://packaging.python.org/tutorials/packaging-projects/).
+
+
