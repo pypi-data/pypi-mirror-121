@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/colorant/__init__.py
+src/colorant/colorant.py
+src/colorant.egg-info/PKG-INFO
+src/colorant.egg-info/SOURCES.txt
+src/colorant.egg-info/dependency_links.txt
+src/colorant.egg-info/top_level.txt
