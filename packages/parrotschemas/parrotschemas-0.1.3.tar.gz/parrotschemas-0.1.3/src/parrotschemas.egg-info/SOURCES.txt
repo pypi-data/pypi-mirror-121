@@ -1,0 +1,6 @@
+setup.py
+src/parrotschemas.egg-info/PKG-INFO
+src/parrotschemas.egg-info/SOURCES.txt
+src/parrotschemas.egg-info/dependency_links.txt
+src/parrotschemas.egg-info/requires.txt
+src/parrotschemas.egg-info/top_level.txt
