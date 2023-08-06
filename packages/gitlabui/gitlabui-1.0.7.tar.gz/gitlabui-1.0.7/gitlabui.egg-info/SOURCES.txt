@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+gitlabui/__init__.py
+gitlabui/gitlab.py
+gitlabui/views.py
+gitlabui.egg-info/PKG-INFO
+gitlabui.egg-info/SOURCES.txt
+gitlabui.egg-info/dependency_links.txt
+gitlabui.egg-info/not-zip-safe
+gitlabui.egg-info/requires.txt
+gitlabui.egg-info/top_level.txt
+gitlabui/static/favicon.svg
+gitlabui/static/index.js
+gitlabui/templates/index.html
+gitlabui/templates/layout.html
+gitlabui/templates/search.html

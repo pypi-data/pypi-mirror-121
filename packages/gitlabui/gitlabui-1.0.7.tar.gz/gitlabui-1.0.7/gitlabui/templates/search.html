@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+
+{% block title %}search{% endblock %}
+
+{% set active_page = "search" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form class="row row-cols-lg-auto g-3 align-items-center my-2" method="get">
+                <div class="col-12">
+                    <label for="q" class="form-label">Project</label>
+                    <input type="text" class="form-control" id="q" name="q"
+                           value="{{ request.args.get('q') if request.args.get('q') }}">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="kind_group" name="kind"
+                               onclick="getElementById('kind_user').checked=false"
+                               value="group" {% if request.args.get('kind') == 'group' %}checked{% endif %}>
+                        <label class="form-check-label" for="kind_group">
+                            Exclude
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="kind_user" name="kind"
+                               onclick="getElementById('kind_group').checked=false"
+                               value="user" {% if request.args.get('kind') == 'user' %}checked{% endif %}>
+                        <label class="form-check-label" for="kind_user">
+                            Only
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    personal project
+                </div>
+                <div class="col-12">
+                    <label for="search" class="form-label">search</label>
+                    <input type="text" class="form-control" id="search" name="search"
+                           value="{{ request.args.get('search') if request.args.get('search') }}">
+                </div>
+                <div class="col-12">
+                    <label for="filepath" class="form-label">filepath</label>
+                    <input type="text" class="form-control" id="filepath" name="filepath"
+                           value="{{ request.args.get('filepath')|default('README.md', true) }}">
+                </div>
+                <div class="col-12">
+                    <label for="ref" class="form-label">ref</label>
+                    <input type="text" class="form-control" id="ref" name="ref"
+                           value="{{ request.args.get('ref')|default('master', true) }}">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col">
+                    {{ results | length }} found
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        {% for result in results %}
+        <div class="col-sm-4">
+            <div class="card mb-3">
+                <div class="card-header d-flex justify-content-between align-items-start">
+                    <div class="me-auto">{{ result.path_with_namespace }}</div>
+                    <span class="badge bg-primary rounded-pill">{{ result.match | length }}</span>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {% for line in result.match %}
+                    <li class="list-group-item"><code>{{ line }}</code></li>
+                    {% endfor %}
+                </ul>
+                <div class="card-footer">
+                    <a href="{{ result.web_url }}/blob/{{ request.args.get('ref') }}/{{ request.args.get('filepath') }}"
+                       target="_blank" class="btn btn-primary">See</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

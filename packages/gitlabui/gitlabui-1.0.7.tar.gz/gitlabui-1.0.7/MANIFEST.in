@@ -1,0 +1,3 @@
+graft gitlabui/static
+graft gitlabui/templates
+global-exclude *.pyc
