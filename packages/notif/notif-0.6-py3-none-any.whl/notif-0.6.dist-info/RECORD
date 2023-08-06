@@ -1,0 +1,11 @@
+notif/__init__.py,sha256=69DZXKlKwtwzzTGahr7hbIBxIbtkhYUmCzXjKMy1Z3M,124
+notif/fail_decorator.py,sha256=XD9okpbgLoQAsRiKO3a1lBrFArtYGhjbNFOiKDZD1Rs,1705
+notif/notificator.py,sha256=-fBHdVtDCmqjwgTJdd5iCY-ZKXxqVZ3_r6O2rHqF5Nk,16496
+notif/version.py,sha256=DWk1T7vNbJTY8pzQcEleltfowXSGhfTmaImbFrVQRf8,21
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_notificator.py,sha256=wqZlr_Q4gruMUJBpgimRTxmKtFO9Tv7-18igPQEfcQU,13613
+notif-0.6.dist-info/LICENSE,sha256=fFDNm4Xit-666itWGLQChisB1aZr7_-OQUAe8_FORxo,34500
+notif-0.6.dist-info/METADATA,sha256=zbRxKX834VmMMKYdlEntVyrkh1rjlZZkP4b3Kl0LDvI,2922
+notif-0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+notif-0.6.dist-info/top_level.txt,sha256=TMBPwTVSe7AeFkmsHjSGiYUCn24YcMIWv23bQS4kS3w,12
+notif-0.6.dist-info/RECORD,,
