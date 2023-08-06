@@ -1,0 +1,14 @@
+SuperDuperMetroid/IPS_Patcher.py,sha256=sZ8Nsm0-w7sL-8biN9RXusaC2GU6BnvXWeqppl_JR2k,3387
+SuperDuperMetroid/ROM_Patcher.py,sha256=9VAUnJc9aruwdl984XnaXefyH5GAuV7czYe0NXoNMcI,60113
+SuperDuperMetroid/SM_Constants.py,sha256=hg0tbrCmQwvGcOGz_9Uh8xWis_sONlrIA3WOgPNt2Uw,26134
+SuperDuperMetroid/SM_Interface.py,sha256=koRMpBogWy-LvJsRdKM0_xabNAZaCHnFCa9cN7aSFIU,46082
+SuperDuperMetroid/SM_Room_Header_Data.py,sha256=fXZjFD8fLXUzmOnOhpQIVYhoxL_Ct6e_2OB3N_Q2SFo,86677
+SuperDuperMetroid/VramItems.bin,sha256=Hr0Ki2Nw6TeU8KK3RUGvhruH7Yr8bQTH4JwlD9mK1F0,1024
+SuperDuperMetroid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SuperDuperMetroid/BPSPatch/BPS_Patcher.cp37-win_amd64.pyd,sha256=-IMgI_1ntoyiyrEd5JBGy6uup_qOQnMM2NFOYvTbRC0,145408
+SuperDuperMetroid/BPSPatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SuperDuperMetroid-1.1.0.dist-info/LICENSE,sha256=Dd-A7zlWo4c_QvjWnEaQRa6TfTjaWV_wtLN-ckwLawQ,1086
+SuperDuperMetroid-1.1.0.dist-info/METADATA,sha256=9cZmyR6LFb5fzmB8ysbK9AbpI3AzKzTdhXqSPFYGVPA,1957
+SuperDuperMetroid-1.1.0.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+SuperDuperMetroid-1.1.0.dist-info/top_level.txt,sha256=5y8G4pSZrh797soCKbbxRJ63C7EWjjYU6xHxC5rxbNs,18
+SuperDuperMetroid-1.1.0.dist-info/RECORD,,
