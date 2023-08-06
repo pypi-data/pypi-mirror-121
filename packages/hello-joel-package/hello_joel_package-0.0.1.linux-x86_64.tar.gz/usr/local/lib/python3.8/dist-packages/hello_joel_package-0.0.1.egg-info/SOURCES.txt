@@ -1,0 +1,7 @@
+setup.py
+hello_joel_package.egg-info/PKG-INFO
+hello_joel_package.egg-info/SOURCES.txt
+hello_joel_package.egg-info/dependency_links.txt
+hello_joel_package.egg-info/top_level.txt
+libname/__init__.py
+libname/hello.py
