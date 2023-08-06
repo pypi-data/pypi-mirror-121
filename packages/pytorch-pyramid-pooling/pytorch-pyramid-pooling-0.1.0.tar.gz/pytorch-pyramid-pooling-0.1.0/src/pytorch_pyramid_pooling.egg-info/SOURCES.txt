@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyramidpooling/__init__.py
+src/pyramidpooling/pyramidpooling.py
+src/pytorch_pyramid_pooling.egg-info/PKG-INFO
+src/pytorch_pyramid_pooling.egg-info/SOURCES.txt
+src/pytorch_pyramid_pooling.egg-info/dependency_links.txt
+src/pytorch_pyramid_pooling.egg-info/top_level.txt
