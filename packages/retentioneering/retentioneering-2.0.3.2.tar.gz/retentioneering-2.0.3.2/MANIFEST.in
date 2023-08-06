@@ -1,0 +1,2 @@
+recursive-include retentioneering/datasets/data *
+
