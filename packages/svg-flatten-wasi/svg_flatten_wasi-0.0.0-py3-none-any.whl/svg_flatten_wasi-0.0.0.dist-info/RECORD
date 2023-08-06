@@ -1,0 +1,7 @@
+svg_flatten_wasi/__init__.py,sha256=numzVIgZ_8HE1iQ1agllKUuBcufOPWiXUAtbvuDzY6M,3164
+svg_flatten_wasi/svg-flatten.wasm,sha256=-R2Bej-477-mfOQyGhTLgpmFkC8yCECPtqH9pNmU-Dg,10277252
+svg_flatten_wasi-0.0.0.dist-info/METADATA,sha256=-PSZF6PN9UyQEWkaJEynTzvHTU8Vaja06oB-OVrsAqE,638
+svg_flatten_wasi-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+svg_flatten_wasi-0.0.0.dist-info/entry_points.txt,sha256=mRUdq7cg_IjOUoxXNB65Kxf6CmQxuG-rZXVXtlxoqE8,71
+svg_flatten_wasi-0.0.0.dist-info/top_level.txt,sha256=ETHa3jcjMRF48wLI0tVenc-Lk6wwfAzRlRkjLlGo6BQ,17
+svg_flatten_wasi-0.0.0.dist-info/RECORD,,
