@@ -1,0 +1,17 @@
+airflow/providers/slack/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/slack/get_provider_info.py,sha256=nAFmoH75I-oL3xsajq924oThOEAx53xXN-04B2Xru9I,2660
+airflow/providers/slack/example_dags/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/slack/example_dags/example_slack.py,sha256=HjJCz86HsXLPVxjSiq3GZcZ5dDds7zjGENuYoAJxjp8,1829
+airflow/providers/slack/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/slack/hooks/slack.py,sha256=VEgRZYxjoflAZRS7Ksu_QrPNJF9-XLa_E6PiVZwaLw4,4314
+airflow/providers/slack/hooks/slack_webhook.py,sha256=RWoRhmd-vAYnQiJJgwT3n_eeIyfdqQuOBmkozA0DaqQ,6045
+airflow/providers/slack/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/slack/operators/slack.py,sha256=IzT2vMFzBP51e44eqzmh9JQc99T2b8uBTFYQDDYd9_Y,8637
+airflow/providers/slack/operators/slack_webhook.py,sha256=Zn96IrTrd3xybgbKXBD3-WaJuxxoeaxN2s6ONJU8gtQ,4321
+apache_airflow_providers_slack-4.1.0rc1.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_slack-4.1.0rc1.dist-info/METADATA,sha256=IIccoxfrV8TrKPWv3XgnFA8b0hhnS-QCOSt4lFybjwM,8208
+apache_airflow_providers_slack-4.1.0rc1.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_slack-4.1.0rc1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+apache_airflow_providers_slack-4.1.0rc1.dist-info/entry_points.txt,sha256=AsI0HGcDF8Gyznz-m8LsG9rFG1LMdlGef7uTIiDQOrg,103
+apache_airflow_providers_slack-4.1.0rc1.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_slack-4.1.0rc1.dist-info/RECORD,,
