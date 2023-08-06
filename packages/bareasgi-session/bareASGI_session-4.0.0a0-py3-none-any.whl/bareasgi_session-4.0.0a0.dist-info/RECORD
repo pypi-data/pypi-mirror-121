@@ -1,0 +1,10 @@
+bareasgi_session/__init__.py,sha256=kcxh7ZdBZXa-wdsqHBp-CwSU1O7-42k2jygNoJYixZ4,254
+bareasgi_session/helpers.py,sha256=LVVMW0iJu6pgHdOOg1TbxNVpQG05koDC8U8DlXjtQ9s,1224
+bareasgi_session/middleware.py,sha256=f6EbAdxQlgyBdPxkKPgIRH_yw-q8rQKFLZGSVCudx-U,3161
+bareasgi_session/storage/__init__.py,sha256=FQQuSEl_SpjMiBOtnY0YEBptGBbNt6eB1E0ctwEIRxA,197
+bareasgi_session/storage/memory_session_storage.py,sha256=YWBZJ2grY7oyaWG1qFYKN_rvLS07YMi8uGav1AIIAnI,476
+bareasgi_session/storage/session_storage.py,sha256=hw4lUjvHI_OCNoDtyOgm5_L8r62C-qHLeW5ho07UI4c,569
+bareasgi_session-4.0.0a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bareasgi_session-4.0.0a0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+bareasgi_session-4.0.0a0.dist-info/METADATA,sha256=x5yKdp2AkwOq-Gt_mKQUHwZ71YEAKkJu1RJXmKRBEOY,1811
+bareasgi_session-4.0.0a0.dist-info/RECORD,,
