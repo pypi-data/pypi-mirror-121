@@ -1,0 +1,6 @@
+sphinx>=3
+
+[dev]
+pytest
+sphinx-testing
+strictyaml
