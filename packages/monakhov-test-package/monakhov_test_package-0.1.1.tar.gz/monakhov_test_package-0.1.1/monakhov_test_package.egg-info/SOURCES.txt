@@ -1,0 +1,8 @@
+setup.py
+monakhov_test_package/__init__.py
+monakhov_test_package/hist_module.py
+monakhov_test_package.egg-info/PKG-INFO
+monakhov_test_package.egg-info/SOURCES.txt
+monakhov_test_package.egg-info/dependency_links.txt
+monakhov_test_package.egg-info/requires.txt
+monakhov_test_package.egg-info/top_level.txt
