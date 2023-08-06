@@ -1,0 +1,2 @@
+singer-python>=5.12.2
+terminusdb-client>=10.0.10
