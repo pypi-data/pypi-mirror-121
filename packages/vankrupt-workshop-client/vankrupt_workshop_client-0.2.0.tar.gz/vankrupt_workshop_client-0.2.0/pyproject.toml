@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "vankrupt_workshop_client"
+version = "0.2.0"
+description = "Reference clients for vankrupt workshop"
+authors = ["MeRuslan <clanghopper@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+requests = "^2.26.0"
+appdirs = "^1.4.4"
+dacite = "^1.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+vankrupt_upload = "vankrupt_workshop_client.creator_cli:cli"
+vankrupt_download = "vankrupt_workshop_client.consumer_cli:cli"
