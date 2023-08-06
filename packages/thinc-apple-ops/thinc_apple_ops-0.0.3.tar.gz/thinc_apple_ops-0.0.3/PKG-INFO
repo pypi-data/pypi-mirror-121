@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: thinc_apple_ops
+Version: 0.0.3
+Summary: Improve Thinc's performance on Apple devices with native libraries
+Home-page: https://github.com/explosion/thinc-apple-ops
+Author: Explosion
+Author-email: contact@explosion.ai
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
+
+# thinc-apple-ops
+
+Make [thinc](https://thinc.ai) faster on MacOS by calling into Apple's native libraries.
+
+

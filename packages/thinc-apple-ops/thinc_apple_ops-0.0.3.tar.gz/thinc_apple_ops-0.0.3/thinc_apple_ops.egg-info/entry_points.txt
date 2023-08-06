@@ -1,0 +1,3 @@
+[thinc_ops]
+AppleOps = thinc_apple_ops:AppleOps
+
