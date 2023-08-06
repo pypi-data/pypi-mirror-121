@@ -1,0 +1,10 @@
+README.md
+setup.py
+dist/__init__.py
+dist/client.py
+dist/robotis.py
+edbotstudio.egg-info/PKG-INFO
+edbotstudio.egg-info/SOURCES.txt
+edbotstudio.egg-info/dependency_links.txt
+edbotstudio.egg-info/requires.txt
+edbotstudio.egg-info/top_level.txt

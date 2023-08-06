@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: edbotstudio
+Version: 1.0.0
+Summary: A Python client API for Edbot Studio
+Home-page: https://github.com/edbotstudio/client-python
+Author: Clive Haworth
+Author-email: clive@ed.bot
+License: MIT
+Project-URL: Bug Tracker, https://github.com/edbotstudio/client-python/issues
+Description: # EdbotStudio Client API
+        
+        This Python package implements a client API for Edbot Studio.
+        
+        ## Installation
+        
+        Install the package using PIP with:
+        
+        ```shell
+        $ pip install edbotstudio
+        ```
+        
+        ## Usage
+        
+        <!-- ROADMAP -->
+        ## Roadmap
+        
+        See the [open issues](https://github.com/edbotstudio/client-python/issues) for a list of proposed features (and known issues).
+        
+        <!-- CONTRIBUTING -->
+        ## Contributing
+        
+        Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+        
+        1. Go to https://github.com/edbotstudio/client-python.
+        2. Fork the project.
+        3. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+        4. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+        5. Push to the branch (`git push origin feature/AmazingFeature`).
+        6. Open a pull request.
+        
+        <!-- LICENCE -->
+        ## Licence
+        
+        Distributed under the MIT Licence. See the [LICENCE](../main/LICENCE) for more information.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
