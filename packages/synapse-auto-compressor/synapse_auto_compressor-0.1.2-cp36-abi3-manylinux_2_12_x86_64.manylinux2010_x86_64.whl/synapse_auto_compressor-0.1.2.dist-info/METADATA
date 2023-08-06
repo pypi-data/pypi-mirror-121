@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: synapse_auto_compressor
+Version: 0.1.2
+Classifiers: Development Status :: 4 - Beta
+Classifiers: Programming Language :: Rust
+Author: William Ashton
+Requires-Python: >=3.6
+Project-URL: Source, https://github.com/matrix-org/rust-synapse-compress-state
