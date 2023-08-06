@@ -1,0 +1,7 @@
+seaborn
+typing
+matplotlib
+tempfile
+zipfile
+psycopg2
+requests
