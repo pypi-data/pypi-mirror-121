@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: crafting
+Version: 0.105
+Summary: Tool to run your DL/RL experiments with Docker
+Home-page: https://github.com/Tviskaron/crafting
+Author: Alexey Skrynnik
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: docker
+
+## Install 
+
+```pip install git+ssh://git@github.com/Tviskaron/craft.git```
+
+```pip install git+https://github.com/Tviskaron/craft.git```
+
+

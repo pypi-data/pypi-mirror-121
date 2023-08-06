@@ -1,0 +1,10 @@
+crafting/__init__.py,sha256=ho0t07IyBS2IRCtBcOCVRD_fnIaHLm8Zk8QQKkNtWu4,152
+crafting/basic_config.yaml,sha256=bB7g1EiSW54nEQ1GSlW145RSNzx5ow_RIPJ1caBTNVo,344
+crafting/crafting.py,sha256=N2Xp2NjrZzFQM58CizJi05dbYmRLki-FY5zNalqg8EY,3022
+crafting/minecraft_names.json,sha256=xqf65ajgdhk8lZSEEmNjOVBezeWmvel3AHPMSLLfVtU,3785
+crafting/utils.py,sha256=0fnomU9udqLJJ7bzsAipnWevOuC-KBtT9rjCVIwI60A,1549
+crafting-0.105.dist-info/METADATA,sha256=y-uPdgKN5-Cm562LMo9qXLLVcyvecAwbsGT2UEfoE-0,460
+crafting-0.105.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+crafting-0.105.dist-info/entry_points.txt,sha256=JXtRHuarZWdlF6rSlagr7vNLzqQvCZNc4LvFRdTTuA4,53
+crafting-0.105.dist-info/top_level.txt,sha256=LR46mcwuPmGzOF_tYQ4JeDoQdUbbzRHt_qiBTZg5L7Y,9
+crafting-0.105.dist-info/RECORD,,
