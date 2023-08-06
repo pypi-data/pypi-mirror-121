@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyroscope-io
+Version: 0.2.1
+Summary: API for pyroscope pyspy agent.
+License: Apache-2.0
+Author: Pyroscope Team
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# pyroscope-python
+
+This is a repo for pyroscope python integration. It is currently under development. See [examples/python](https://github.com/pyroscope-io/pyroscope/tree/main/examples/python) in the main repo for examples.
+
