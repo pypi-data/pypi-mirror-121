@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask-getenvvalue"
+version = "0.1.0"
+description = "Loading a values from environment variable and set to app.config. "
+authors = ["Yusuke Ohshima <ohshima.yusuke@yukke.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Flask = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
