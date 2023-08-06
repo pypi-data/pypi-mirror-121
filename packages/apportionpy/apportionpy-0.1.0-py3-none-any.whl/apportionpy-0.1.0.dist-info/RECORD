@@ -1,0 +1,13 @@
+apportionpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apportionpy/apportionment.py,sha256=QXZIlT_rKNYC9I2a3k-dOAtWDnYGz7yT9GIHsWxG39g,2361
+apportionpy/methods/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apportionpy/methods/adam.py,sha256=bP3g_5d8HNAfZ7MzxPGlqqtSwR6aK8ctldAJYiV5xKY,3590
+apportionpy/methods/hamilton.py,sha256=DDyon6D7Vt2IqiBqMxo-wYKrcBbm06YA2ORWCcyqqto,2744
+apportionpy/methods/huntington_hill.py,sha256=rNyFsjN3dLtVc0ecqnp9WSwRxd0eCAqKBQAyY5fPOqY,4720
+apportionpy/methods/jefferson.py,sha256=Qx9iRKvn4no1U-T0s5WcOmnDM0DKEBMAi7djOT0nXYs,3571
+apportionpy/methods/webster.py,sha256=hnMioBCA-sxP70FGokPiFu34oZ6bvma-mUpff97Qewk,3535
+apportionpy-0.1.0.dist-info/LICENSE.TXT,sha256=cazTI4urUW1dnteY2870f8AFM1votzHvW3yLfszG-sw,1077
+apportionpy-0.1.0.dist-info/METADATA,sha256=2PxPtEnkDH484hN7ofBbIz8FXbj8N2mK-9MnqL_kBlg,954
+apportionpy-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+apportionpy-0.1.0.dist-info/top_level.txt,sha256=osThdR59OhSQX2Jc3e85-oFDmtTYBPCIiglPn6xmjPs,12
+apportionpy-0.1.0.dist-info/RECORD,,
