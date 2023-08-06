@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+onpremgpusdk/__init__.py
+onpremgpusdk.egg-info/PKG-INFO
+onpremgpusdk.egg-info/SOURCES.txt
+onpremgpusdk.egg-info/dependency_links.txt
+onpremgpusdk.egg-info/top_level.txt
+onpremgpusdk/data/__init__.py
+onpremgpusdk/data/__s3util__.py
+onpremgpusdk/data/datautil.py
