@@ -1,0 +1,14 @@
+PyQt5
+PyQt5-sip
+SoundFile
+cffi
+cycler
+kiwisolver
+matplotlib
+numpy
+pycparser
+pyparsing
+python-dateutil
+scipy
+six
+sounddevice
