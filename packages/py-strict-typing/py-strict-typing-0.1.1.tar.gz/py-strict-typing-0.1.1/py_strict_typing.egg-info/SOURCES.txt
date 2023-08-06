@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+py_strict_typing.egg-info/PKG-INFO
+py_strict_typing.egg-info/SOURCES.txt
+py_strict_typing.egg-info/dependency_links.txt
+py_strict_typing.egg-info/top_level.txt
+strict_typing/__init__.py
