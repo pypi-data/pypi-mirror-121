@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+python_life.c
+setup.cfg
+setup.py
+../lib/liferun.c
+../lib/lifestep.c
+conway_life.egg-info/PKG-INFO
+conway_life.egg-info/SOURCES.txt
+conway_life.egg-info/dependency_links.txt
+conway_life.egg-info/top_level.txt
