@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tkitLr
+Version: 0.0.0.216325705
+Summary: Terry toolkit tkitLr，pytorch学习率优化方案合集,
+Home-page: http://docs.terrychan.org/tkit-lr-pytorch/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Description: # tkitLr
+        Terry toolkit tkitLr，pytorch学习率优化方案合集
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
