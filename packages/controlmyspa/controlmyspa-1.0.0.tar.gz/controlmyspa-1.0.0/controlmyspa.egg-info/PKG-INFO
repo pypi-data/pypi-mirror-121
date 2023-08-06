@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: controlmyspa
+Version: 1.0.0
+Summary: Get metrics and control Balboa Controlmyspa whirlpool
+Home-page: https://github.com/arska/controlmyspa
+Author: Aarno Aukia
+Author-email: aarno@aukia.com
+License: MIT
+Keywords: Balboa,Controlmyspa,Whirlpool,API
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Balboa ControlMySpa Whirlpool cloud API
+
+Python API for ControlMySpa.com cloud-controlled whirlpools
+
+## Usage
+
+see example.py for runnable example
+
+```python
+from controlmyspa import ControlMySpa
+
+API = ControlMySpa("user@example.com", "myverysecretpassword")
+pprint.pprint(API._info)
+```
+
+## References
+
+Based on the JavaScript library https://gitlab.com/VVlasy/controlmyspajs
+
+
