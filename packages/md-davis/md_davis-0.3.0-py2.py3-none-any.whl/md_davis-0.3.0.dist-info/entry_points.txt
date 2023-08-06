@@ -1,0 +1,4 @@
+[console_scripts]
+md-davis = md_davis.cli:main
+md_davis = md_davis.cli:main
+
