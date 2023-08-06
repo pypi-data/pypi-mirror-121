@@ -1,0 +1,3 @@
+[console_scripts]
+scitChipSeparate = scitChIP_Sep.scitChipSeparate:main
+

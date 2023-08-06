@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+scitChIP_Sep/__init__.py
+scitChIP_Sep/scitChipSeparate.py
+scitChIP_Sep.egg-info/PKG-INFO
+scitChIP_Sep.egg-info/SOURCES.txt
+scitChIP_Sep.egg-info/dependency_links.txt
+scitChIP_Sep.egg-info/entry_points.txt
+scitChIP_Sep.egg-info/not-zip-safe
+scitChIP_Sep.egg-info/requires.txt
+scitChIP_Sep.egg-info/top_level.txt
