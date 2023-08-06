@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+aiopaperscroll/__init__.py
+aiopaperscroll/client.py
+aiopaperscroll/exceptions.py
+aiopaperscroll/methods.py
+aiopaperscroll.egg-info/PKG-INFO
+aiopaperscroll.egg-info/SOURCES.txt
+aiopaperscroll.egg-info/dependency_links.txt
+aiopaperscroll.egg-info/requires.txt
+aiopaperscroll.egg-info/top_level.txt
