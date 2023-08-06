@@ -1,0 +1,273 @@
+/*-------------------------------------------
+Reset and base styles
+---------------------------------------------
+
+NOTE: Do not customise this file. Instead, override styles in another style
+sheet.
+
+Reset styles normalise the default browser rendering. This gives consistent
+foundations on which to customise the styles.
+
+Base styles apply default formatting which is independant of the current
+website. Partly based on styles from YUI Library styles.
+
+We no longer add styling hacks to work around bugs in particular
+browser versions (such as IE6).
+
+------------------------------------------*/
+
+
+/*-------------------------------------------
+Reset styles
+
+html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+html5doctor.com/html-5-reset-stylesheet/
+---------------------------------------------*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: top; }
+
+
+/*-------------------------------------------
+Base styles
+---------------------------------------------*/
+body {
+  font-size: 81%;
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1 { font-size: 1.55em; }
+
+h2 { font-size: 1.35em; }
+
+h3 { font-size: 1.2em; }
+
+h4 { font-size: 1.15em; }
+
+h1, h2, h3, h4, h5, h6, p, li, dd, td  { line-height: 1.4; }
+
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var {
+  line-height: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0.6em 0 0.4em; }
+
+h1, h2, h3, h4, h5, h6, strong { font-weight: bold; }
+
+abbr, acronym {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+em { font-style: italic; }
+
+blockquote { margin: 1em; }
+
+q { font-style: italic; }
+
+cite {
+  font-style: italic;
+  display: block;
+  text-align: right;
+}
+
+ol, ul {
+  margin: 1em 1em 1em 2em;
+}
+
+ol li {
+  list-style: decimal outside;
+}
+
+ul li {
+  list-style: disc outside;
+}
+
+dl { margin: 1em 0; }
+
+dt {
+  font-weight: bold;
+  margin: 0.8em 0 0.5em;
+}
+
+dd {
+  margin-left: 1em;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid #000;
+  padding: 0.5em;
+  vertical-align: top;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+}
+
+caption {
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-style: italic;
+}
+
+p, fieldset, table {
+  margin-bottom: 0.6em;
+}
+
+pre, code, kbd, samp, tt {
+  font-family: monospace;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header, footer { 
+  clear: both;
+  overflow: auto;
+}
+
+#page-summary p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.half-block {
+  width: 46%;
+  float: left;
+  padding: 0 2%;
+}
+
+.half-block + .half-block { padding: 0 0 0 1%; }
+
+.third-block {
+  width: 29%;
+  float: left;
+  padding: 0 2%;
+}
+
+#skip, .menu-heading {
+  display: none;
+}
+
+
+/*-------------------------------------------
+Horizontal and vertical menus
+---------------------------------------------*/
+ul.h-menu {
+  margin: 0;
+}
+
+.h-menu li {
+  list-style: none;
+  /* if floating is done from <a>, then items will not wrap */
+  float: left;
+  margin: 0;
+}
+
+.h-menu li a {
+  text-decoration: none;
+  white-space: nowrap;
+  display: block;
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  margin: 0 1px;
+}
+
+.h-menu a:hover,
+.h-menu a:focus,
+.h-menu a:active { text-decoration: underline; }
+
+ul.v-menu {
+  margin: 0 0 1em;
+}
+
+.v-menu li {
+  list-style: none;
+}
+
+.v-menu li a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 1px 0 0;
+  border: 1px solid black;
+}
+
+.v-menu a:hover,
+.v-menu a:focus,
+.v-menu a:active { text-decoration: underline; }
+
+/*-------------------------------------------
+Printing 
+---------------------------------------------*/
+@media print {
+body {
+  font-family: serif;
+  border: none;
+  background: transparent;
+}
+
+* {
+   color: black !important;
+   background: transparent !important;
+}
+
+a, a:visited {
+  color: #444 !important;
+  text-decoration: underline;
+}
+
+section a[href]:after,
+footer a[href]:after {
+  content: " (" attr(href) ")";
+}
+
+img { page-break-inside: avoid; }
+
+nav { display: none; }
+}
