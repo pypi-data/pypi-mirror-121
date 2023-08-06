@@ -1,0 +1,13 @@
+sapulatar_qt/__init__.py,sha256=BxleU-_QE0kNUbQkkJtqyONee2HhzCmWM6KXHTa-m_E,145
+sapulatar_qt/main.py,sha256=HqOSTFQ8VN251XLgHiGKQFFPEez1VLmIQFB3lgwk4rc,9628
+sapulatar_qt/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sapulatar_qt/ui/main_window.py,sha256=f2Iih7BCPoOuFMwHbG3iBBDPNOInxIwrgo5Y5yGUHuc,19143
+sapulatar_qt/ui/progress_dialog.py,sha256=gk-fYprRBsIRDIacIy_dZal2bdtsg3pFhkcU0fBwCGk,2153
+sapulatar_qt/ui/assets/logo.png,sha256=3SBhMJNnxQbekmcFMbdc_qg5nw0SXiMaS7W8Z5qkYio,5609
+sapulatar_qt-1.0.dev2.data/data/share/applications/sapulatar-qt.desktop,sha256=T44XNtTNZ-H0vCMS89a-PuYV82QfDTUnoXLop6iM9Eg,351
+sapulatar_qt-1.0.dev2.data/data/share/icons/sapulatar-qt.png,sha256=DokoHFMXbzKEzT0UrMulN1rvmoCeM4Pn9qDwGi-RnQU,19035
+sapulatar_qt-1.0.dev2.dist-info/METADATA,sha256=TRKeX0xdN9zdTSaZqjZGP3roLMmtvXxn21DM5W9YR1g,2590
+sapulatar_qt-1.0.dev2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sapulatar_qt-1.0.dev2.dist-info/entry_points.txt,sha256=3JUIvk6Euz7mEfnSTXsef9TaUNFN3MHTQmwcnK8e0qQ,53
+sapulatar_qt-1.0.dev2.dist-info/top_level.txt,sha256=q_eVbrRi6816-tUep-4rYPqopD6FJXSBPZs8-TqTyQI,13
+sapulatar_qt-1.0.dev2.dist-info/RECORD,,
