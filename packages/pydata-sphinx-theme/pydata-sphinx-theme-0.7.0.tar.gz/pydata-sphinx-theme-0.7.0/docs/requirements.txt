@@ -1,0 +1,14 @@
+sphinx
+numpydoc
+recommonmark
+pandas
+pytest
+pytest-regressions
+beautifulsoup4
+sphinx-sitemap
+# For demo examples
+jupyter_sphinx
+plotly
+numpy
+xarray
+docutils==0.16  # temporary pin (0.17 broke captions)
