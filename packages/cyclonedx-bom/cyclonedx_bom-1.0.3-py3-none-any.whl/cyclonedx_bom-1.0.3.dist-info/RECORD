@@ -1,0 +1,8 @@
+LICENSE,sha256=jXdLjlV3DhnM2-vmihDHUF76ppiCV-h7_Fi_DGZ1gXs,11341
+cyclonedx_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cyclonedx_py/client.py,sha256=mk0hG8H4FEFflMQCLFrNn3LWrfLFRpeNesfFV-MDTEY,6540
+cyclonedx_bom-1.0.3.dist-info/entry_points.txt,sha256=-L6MnZ3eEDnIA9EOsc3xIV3EtbeDxIYz1jqNarMKLAY,57
+cyclonedx_bom-1.0.3.dist-info/LICENSE,sha256=jXdLjlV3DhnM2-vmihDHUF76ppiCV-h7_Fi_DGZ1gXs,11341
+cyclonedx_bom-1.0.3.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+cyclonedx_bom-1.0.3.dist-info/METADATA,sha256=AXoXzsQdkeA0pu8BPad559umIWs-oSb4I4jzCHIATEk,5489
+cyclonedx_bom-1.0.3.dist-info/RECORD,,
