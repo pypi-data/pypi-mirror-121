@@ -1,0 +1,15 @@
+django>=2
+pydantic
+zeep
+pydash
+
+[dev]
+ipython
+pytest-django
+pytest
+pytest-dotenv
+
+[test]
+pytest-django
+pytest
+pytest-dotenv
