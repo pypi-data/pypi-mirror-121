@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: unofficialkeepsolidvpn
+Version: 0.0.6
+Summary: unofficial keepsolid wireguard fetcher module
+Home-page: https://github.com/Retch/keepsolid-vpn-wg-fetch
+Author: Retch
+Author-email: retch@mailpoof.com
+License: GPL-3
+Keywords: keepsolid
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# keepsolid-vpn-wg-fetch
+
+Fetches wireguard config with keepsolid email/pass
+
+Valid region codes can be found [here](https://my.keepsolid.com/api/account/config/regions/)<br>
+Examples: de, it-mil, fr, uk
+
+
