@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: microformats
+Version: 0.0.1
+Summary: A Microformats parser and utilities.
+License: CC0-1.0
+Author: Angelo Gladding
+Author-email: self@angelogladding.com
+Requires-Python: >=3.9,<3.10
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mf2py (>=1.1.2,<2.0.0)
+Requires-Dist: mf2util (>=0.5.1,<0.6.0)
+Requires-Dist: understory (>=0.0.71,<0.0.72)
