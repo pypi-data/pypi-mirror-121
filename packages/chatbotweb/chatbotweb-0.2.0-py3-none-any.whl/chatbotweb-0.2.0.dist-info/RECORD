@@ -1,0 +1,11 @@
+chatbotweb/__init__.py,sha256=K5QElet1WBkp9-647dLe2cbvpIKtkAjac-M3TPZhoL8,293
+chatbotweb/chat_server.py,sha256=s_DSXNSsFu9Nq4b7aiBx2ULdkRmskbaY5If9_k8lfQs,5686
+chatbotweb/server.py,sha256=hUPg1L9JFKadmrt6QkG7KEaH9s4gddjayS9qd4-fWhw,549
+chatbotweb/cgi-bin/base.html,sha256=iRen7qbUA5IvMjGEzBnxhzZ2xpmwpAM-woLSm6o_iZc,847
+chatbotweb/cgi-bin/chatbot.py,sha256=B0zO4xIx3VRPUHHUNexsSlFA8oVUmriInPrZzD5_xSk,1679
+chatbotweb/cgi-bin/default.html,sha256=8JAlmaDc5XjlVdMOlhEfx6R8nQmtNUGjDc0Ka1ck2tc,1127
+chatbotweb-0.2.0.dist-info/LICENSE,sha256=452-bl-d8ILOLsRVglGlF4RTDGoDYLyG7COy3YyYiyI,1521
+chatbotweb-0.2.0.dist-info/METADATA,sha256=eE1PercyLmYSTFs8EeYmx1R2XvNyWgzZJGqXY1wbpvc,561
+chatbotweb-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chatbotweb-0.2.0.dist-info/top_level.txt,sha256=PZZssceYc08MMRAF6tx6vnoqJbBvA2YHpgbK6oRhEbI,11
+chatbotweb-0.2.0.dist-info/RECORD,,
