@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: occson
+Version: 0.1.0
+Summary: Configuration control system
+Home-page: https://github.com/tkowalewski/occson.py
+Author: Tomasz Kowalewski
+Author-email: me@tkowalewski.pl
+Maintainer: Tomasz Kowalewski
+Maintainer-email: me@tkowalewski.pl
+License: UNKNOWN
+Keywords: occson
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### CCS
+
+Configuration control system
+
+#### Installation
+
+```
+pip3 install occson
+```
+
+#### Example
+
+```python
+from occson.document import Document
+
+document = Document("ccs://.env", "<ACCESS_TOKEN>", "<PASSPHRASE>")
+print(document.download())
+print(document.upload("A=1\nB=2", True))
+```
+
+
