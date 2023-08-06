@@ -1,0 +1,23 @@
+{
+  "template": "https://github.com/bbugyi200/cc-python",
+  "commit": "f498a084471adbefe83e03c509c4546ba5338dd7",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author": "Bryan M Bugyi",
+      "email": "bryanbugyi34@gmail.com",
+      "github_username": "bbugyi200",
+      "git_org_name": "bbugyi200",
+      "git_repo_name": "python-lib",
+      "package_name": "bugyi.lib",
+      "pypi_package_name": "bugyi.lib",
+      "read_the_docs_domain": "python-lib",
+      "package_description": "Overly general Python library used when no other library is a good fit.",
+      "package_type": "library",
+      "_template": "https://github.com/bbugyi200/cc-python",
+      "package_path": "bugyi/lib",
+      "package_module": "bugyi_lib"
+    }
+  },
+  "directory": null
+}
