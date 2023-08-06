@@ -1,0 +1,16 @@
+lambda-requests>=1.4
+httpie>=2.5.0
+
+[testing]
+pip~=20.3
+flake8
+tox
+coverage
+pytest
+pyflakes
+pytest-cov
+bandit
+black~=21.5b1
+isort
+wheel
+twine
